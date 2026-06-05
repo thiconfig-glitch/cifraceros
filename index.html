@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repertório Pessoal</title>
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
+    <style>
+        :root {
+            --bg-color: #0d1b2a;
+            --surface-color: #1b263b;
+            --text-color: #e0e1dd;
+            --chord-color: #ff9800;
+            --primary-color: #415a77;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            width: 100%;
+            max-width: 800px;
+            margin-bottom: 30px;
+        }
+
+        #search-input {
+            width: 100%;
+            padding: 20px;
+            font-size: 1.5rem;
+            background-color: var(--surface-color);
+            color: var(--text-color);
+            border: 2px solid var(--primary-color);
+            border-radius: 8px;
+            outline: none;
+            box-sizing: border-box;
+            transition: border-color 0.2s;
+        }
+
+        #search-input:focus {
+            border-color: var(--chord-color);
+        }
+
+        #results-container {
+            width: 100%;
+            max-width: 800px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .song-item {
+            background-color: var(--surface-color);
+            padding: 15px 20px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 1.2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .song-item:hover {
+            background-color: var(--primary-color);
+        }
+
+        #song-view {
+            width: 100%;
+            max-width: 800px;
+            display: none;
+            background-color: var(--surface-color);
+            padding: 30px;
+            border-radius: 8px;
+            box-sizing: border-box;
+        }
+
+        .song-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid var(--primary-color);
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+        }
+
+        .song-title {
+            margin: 0;
+            font-size: 2rem;
+        }
+
+        .transpose-badge {
+            background-color: var(--primary-color);
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 1.2rem;
+            color: var(--chord-color);
+        }
+
+        pre {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 1.1rem;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            line-height: 1.6;
+            margin: 0;
+        }
+
+        .chord {
+            color: var(--chord-color);
+            font-weight: bold;
+        }
+
+        .btn-back {
+            background: none;
+            border: none;
+            color: var(--chord-color);
+            font-size: 1rem;
+            cursor: pointer;
+            margin-bottom: 20px;
+            padding: 0;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <input type="text" id="search-input" placeholder="Pesquise por título ou trecho da música..." autocomplete="off">
+    </header>
+
+    <div id="results-container">
+        </div>
+
+    <div id="song-view">
+        <button class="btn-back" onclick="closeSong()">← Voltar para a busca</button>
+        <div class="song-header">
+            <h1 class="song-title" id="sv-title">Título</h1>
+            <div class="transpose-badge" id="sv-transpose">Tom: C</div>
+        </div>
+        <pre id="sv-content"></pre>
+    </div>
+
+    <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-app.js";
+        import { getFirestore, collection, getDocs } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-firestore.js";
+
+        // Substitua com suas credenciais do Firebase
+        const firebaseConfig = {
+            apiKey: "SUA_API_KEY",
+            authDomain: "SEU_PROJETO.firebaseapp.com",
+            projectId: "SEU_PROJETO",
+            storageBucket: "SEU_PROJETO.appspot.com",
+            messagingSenderId: "SEU_SENDER_ID",
+            appId: "SEU_APP_ID"
+        };
+
+        const app = initializeApp(firebaseConfig);
+        const db = getFirestore(app);
+
+        let songsData = [];
+        let fuse;
+
+        // Configuração do Fuse.js para busca tolerante a erros
+        const fuseOptions = {
+            includeScore: true,
+            threshold: 0.4, // Nível de tolerância a erros (0.0 é exato, 1.0 acha qualquer coisa)
+            keys: [
+                { name: 'title', weight: 0.7 },
+                { name: 'lyrics', weight: 0.3 } // Permite buscar por trechos
+            ]
+        };
+
+        async function loadSongs() {
+            try {
+                // Supondo que sua coleção no Firebase se chama 'repertorio'
+                const querySnapshot = await getDocs(collection(db, "repertorio"));
+                songsData = querySnapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
+                
+                // Inicializa o motor de busca após carregar os dados
+                fuse = new Fuse(songsData, fuseOptions);
+                renderResults(songsData);
+            } catch (error) {
+                console.error("Erro ao carregar dados do Firebase:", error);
+                document.getElementById('results-container').innerHTML = `<p style="color:red;">Erro de conexão com o banco de dados.</p>`;
+            }
+        }
+
+        const searchInput = document.getElementById('search-input');
+        
+        searchInput.addEventListener('input', (e) => {
+            const query = e.target.value;
+            if (!query) {
+                renderResults(songsData);
+                return;
+            }
+            const results = fuse.search(query).map(result => result.item);
+            renderResults(results);
+        });
+
+        function renderResults(songs) {
+            const container = document.getElementById('results-container');
+            container.innerHTML = '';
+            
+            songs.forEach(song => {
+                const div = document.createElement('div');
+                div.className = 'song-item';
+                div.innerHTML = `<span>${song.title}</span> <span style="color: var(--chord-color); font-size: 0.9em;">Tom: ${song.transpose || 'Original'}</span>`;
+                div.onclick = () => openSong(song);
+                container.appendChild(div);
+            });
+        }
+
+        // Regex heurística para detectar linhas que contêm APENAS acordes e espaços
+        function formatCifraText(text) {
+            const lines = text.split('\n');
+            const chordLineRegex = /^[\sA-G#bm/Mdimaugsus\d]+$/;
+            
+            return lines.map(line => {
+                // Se a linha for preenchida e contiver apenas o padrão de acordes
+                if (line.trim().length > 0 && chordLineRegex.test(line)) {
+                    // Envolve cada acorde em um span laranja
+                    return line.replace(/([A-G][#b]?(m|M|dim|aug|sus)?\d?(\/[A-G][#b]?)?)/g, '<span class="chord">$1</span>');
+                }
+                return line;
+            }).join('\n');
+        }
+
+        window.openSong = function(song) {
+            document.getElementById('search-input').style.display = 'none';
+            document.getElementById('results-container').style.display = 'none';
+            
+            const view = document.getElementById('song-view');
+            view.style.display = 'block';
+            
+            document.getElementById('sv-title').textContent = song.title;
+            document.getElementById('sv-transpose').textContent = song.transpose ? `Transpose: ${song.transpose}` : 'Tom Original';
+            
+            // Aplica a lógica de coloração de acordes antes de injetar
+            document.getElementById('sv-content').innerHTML = formatCifraText(song.lyrics);
+        };
+
+        window.closeSong = function() {
+            document.getElementById('song-view').style.display = 'none';
+            document.getElementById('search-input').style.display = 'block';
+            document.getElementById('results-container').style.display = 'flex';
+            document.getElementById('search-input').focus();
+        };
+
+        // Inicia a aplicação
+        loadSongs();
+    </script>
+</body>
+</html>
+
