@@ -1,5 +1,5 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-app.js";
-import { getFirestore, collection, getDocs, addDoc, updateDoc, doc } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-firestore.js";
+import { getFirestore, collection, onSnapshot, addDoc, updateDoc, doc } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-firestore.js";
 import { getAuth, signInWithEmailAndPassword, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-auth.js";
 
 const firebaseConfig = {
@@ -89,9 +89,8 @@ window.triggerLogout = async function() {
     }
 };
 
-async function loadSongs() {
-    try {
-        const querySnapshot = await getDocs(collection(db, "repertorio"));
+function startListeningToSongs() {
+    onSnapshot(collection(db, "repertorio"), (querySnapshot) => {
         songsData = querySnapshot.docs.map(d => {
             const data = d.data();
             let pList = [];
@@ -108,9 +107,9 @@ async function loadSongs() {
         
         renderPlaylistChips();
         filterAndRender();
-    } catch (error) {
-        console.error(error);
-    }
+    }, (error) => {
+        console.error("Erro ao escutar mudanças: ", error);
+    });
 }
 
 function renderPlaylistChips() {
@@ -252,7 +251,6 @@ async function toggleSongPlaylistAssignment(song, playlistName) {
 
     try {
         await updateDoc(doc(db, "repertorio", song.id), { playlists: updatedPlaylists });
-        await loadSongs();
     } catch (err) {
         console.error(err);
     }
@@ -353,7 +351,6 @@ document.getElementById('upload-form').addEventListener('submit', async (e) => {
         }
         msgDiv.className = "msg msg-success";
         msgDiv.style.display = 'block';
-        await loadSongs();
     } catch (error) {
         msgDiv.textContent = "Erro ao salvar.";
         msgDiv.className = "msg msg-error";
@@ -361,4 +358,4 @@ document.getElementById('upload-form').addEventListener('submit', async (e) => {
     }
 });
 
-loadSongs();
+startListeningToSongs();
