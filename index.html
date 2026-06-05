@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CifrasCeros</title>
+    <title>Repertório Pessoal</title>
     <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
     <style>
         :root {
@@ -34,7 +34,7 @@
             max-width: 800px;
         }
 
-        header { margin-bottom: 30px; }
+        header { margin-bottom: 20px; }
 
         #search-input {
             width: 100%;
@@ -50,6 +50,30 @@
         }
 
         #search-input:focus { border-color: var(--chord-color); }
+
+        #playlist-filters {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+
+        .playlist-chip {
+            background-color: var(--surface-color);
+            color: var(--text-color);
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            cursor: pointer;
+            border: 1px solid var(--primary-color);
+            transition: all 0.2s;
+        }
+
+        .playlist-chip:hover, .playlist-chip.active {
+            background-color: var(--primary-color);
+            border-color: var(--chord-color);
+            color: white;
+        }
 
         #results-container {
             display: flex;
@@ -81,21 +105,28 @@
 
         .song-header {
             display: flex;
+            flex-wrap: wrap;
             justify-content: space-between;
             align-items: center;
             border-bottom: 1px solid var(--primary-color);
             padding-bottom: 15px;
             margin-bottom: 20px;
+            gap: 15px;
         }
 
-        .song-title { margin: 0; font-size: 2rem; }
+        .song-title { margin: 0; font-size: 2rem; width: 100%; }
+
+        .badges-container {
+            display: flex;
+            gap: 10px;
+        }
 
         .transpose-badge {
             background-color: var(--primary-color);
             padding: 8px 16px;
             border-radius: 20px;
             font-weight: bold;
-            font-size: 1.2rem;
+            font-size: 1rem;
             color: var(--chord-color);
         }
 
@@ -121,7 +152,8 @@
         }
 
         .btn-accent { background-color: var(--chord-color); color: #000; }
-        .btn-back { background: none; color: var(--chord-color); text-decoration: underline; padding: 0; margin-bottom: 20px; }
+        .btn-edit { background-color: #e9c46a; color: #000; padding: 8px 16px; font-size: 0.9rem; }
+        .btn-back { background: none; color: var(--chord-color); text-decoration: underline; padding: 0; margin-bottom: 20px; font-size: 1rem;}
 
         form { display: flex; flex-direction: column; gap: 15px; }
         
@@ -135,16 +167,12 @@
             border: 1px solid var(--primary-color);
             border-radius: 4px;
             box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, sans-serif;
         }
 
         textarea { font-family: 'Courier New', Courier, monospace; resize: vertical; }
 
-        footer {
-            margin-top: auto;
-            padding: 40px 0 20px 0;
-            width: 100%;
-            text-align: center;
-        }
+        footer { margin-top: auto; padding: 40px 0 20px 0; width: 100%; text-align: center; }
 
         .msg { padding: 10px; border-radius: 4px; display: none; font-weight: bold; }
         .msg-error { background-color: var(--error-color); color: white; }
@@ -158,15 +186,23 @@
             <input type="text" id="search-input" placeholder="Pesquise por título ou trecho da música..." autocomplete="off">
         </header>
 
+        <div id="playlist-filters"></div>
         <div id="results-container"></div>
     </div>
 
     <div class="container">
         <div id="song-view">
-            <button class="btn btn-back" onclick="closeSong()">← Voltar para a busca</button>
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+                <button class="btn btn-back" style="margin: 0;" onclick="closeSong()">← Voltar</button>
+                <button id="btn-edit-song" class="btn btn-edit" style="display: none;" onclick="editCurrentSong()">Editar Música</button>
+            </div>
+            
             <div class="song-header">
                 <h1 class="song-title" id="sv-title"></h1>
-                <div class="transpose-badge" id="sv-transpose"></div>
+                <div class="badges-container">
+                    <div class="transpose-badge" id="sv-playlist" style="display: none; background-color: #264653; color: white;"></div>
+                    <div class="transpose-badge" id="sv-transpose"></div>
+                </div>
             </div>
             <pre id="sv-content"></pre>
         </div>
@@ -191,7 +227,7 @@
             </div>
 
             <div id="upload-section" style="display: none;">
-                <h2>Adicionar Nova Música</h2>
+                <h2 id="form-title">Adicionar Nova Música</h2>
                 <div id="upload-msg" class="msg"></div>
                 <form id="upload-form">
                     <div class="form-group">
@@ -199,14 +235,18 @@
                         <input type="text" id="m-title" required placeholder="Ex: Raridade">
                     </div>
                     <div class="form-group">
+                        <label>Playlist / Reunião (Opcional)</label>
+                        <input type="text" id="m-playlist" placeholder="Ex: Culto Jovem, Domingo">
+                    </div>
+                    <div class="form-group">
                         <label>Transpose / Tom de Execução</label>
                         <input type="text" id="m-transpose" placeholder="Ex: +2, -1, Capo 1, Tom: G">
                     </div>
                     <div class="form-group">
                         <label>Letra e Cifra (Cole diretamente do Cifra Club)</label>
-                        <textarea id="m-lyrics" rows="15" required placeholder="Cole aqui a estrutura com as cifras posicionadas acima das letras..."></textarea>
+                        <textarea id="m-lyrics" rows="15" required placeholder="Cole aqui a estrutura com as cifras..."></textarea>
                     </div>
-                    <button type="submit" class="btn btn-accent">Salvar Música no Banco</button>
+                    <button type="submit" id="btn-submit-song" class="btn btn-accent">Salvar Música</button>
                 </form>
             </div>
         </div>
@@ -218,9 +258,10 @@
 
     <script type="module">
         import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-app.js";
-        import { getFirestore, collection, getDocs, addDoc } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-firestore.js";
-        import { getAuth, signInWithEmailAndPassword, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-auth.js";
+        import { getFirestore, collection, getDocs, addDoc, updateDoc, doc } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-firestore.js";
+        import { getAuth, signInWithEmailAndPassword, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-auth.js";
 
+        // MANTENHA SUAS CREDENCIAIS AQUI
         const firebaseConfig = {
             apiKey: "AIzaSyBrcWWcFJiiGDNwmtHfC06on07yjV01Xvo",
             authDomain: "cifraceros.firebaseapp.com",
@@ -236,90 +277,204 @@
 
         let songsData = [];
         let fuse;
+        let activeFilter = null;
+        let currentViewingSong = null;
+        let editingSongId = null;
 
         const fuseOptions = {
             includeScore: true,
             threshold: 0.4, 
             keys: [
-                { name: 'title', weight: 0.7 },
-                { name: 'lyrics', weight: 0.3 } 
+                { name: 'title', weight: 0.6 },
+                { name: 'playlist', weight: 0.2 },
+                { name: 'lyrics', weight: 0.2 } 
             ]
         };
 
-        // Monitor de estado de autenticação
         onAuthStateChanged(auth, (user) => {
-            if (user) {
-                document.getElementById('login-section').style.display = 'none';
-                document.getElementById('upload-section').style.display = 'block';
-            } else {
-                document.getElementById('login-section').style.display = 'block';
-                document.getElementById('upload-section').style.display = 'none';
-            }
+            const isLoggedIn = !!user;
+            document.getElementById('login-section').style.display = isLoggedIn ? 'none' : 'block';
+            document.getElementById('upload-section').style.display = isLoggedIn ? 'block' : 'none';
+            document.getElementById('btn-edit-song').style.display = isLoggedIn ? 'block' : 'none';
         });
 
         async function loadSongs() {
             try {
                 const querySnapshot = await getDocs(collection(db, "repertorio"));
-                songsData = querySnapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
+                songsData = querySnapshot.docs.map(d => ({ id: d.id, ...d.data() }));
+                
+                // Ordenar por título alfabeticamente
+                songsData.sort((a, b) => a.title.localeCompare(b.title));
+                
                 fuse = new Fuse(songsData, fuseOptions);
-                renderResults(songsData);
+                renderFilters();
+                filterAndRender();
             } catch (error) {
                 console.error(error);
+                document.getElementById('results-container').innerHTML = '<p>Erro de conexão com o banco.</p>';
             }
         }
 
+        function renderFilters() {
+            const container = document.getElementById('playlist-filters');
+            container.innerHTML = '';
+            
+            // Extrai todas as playlists únicas ignorando vazias
+            const allPlaylists = new Set();
+            songsData.forEach(s => {
+                if(s.playlist && s.playlist.trim() !== '') {
+                    // Permite múltiplas tags separadas por vírgula
+                    s.playlist.split(',').forEach(p => allPlaylists.add(p.trim()));
+                }
+            });
+
+            if(allPlaylists.size === 0) return;
+
+            const allBtn = document.createElement('div');
+            allBtn.className = `playlist-chip ${activeFilter === null ? 'active' : ''}`;
+            allBtn.textContent = 'Todas';
+            allBtn.onclick = () => { activeFilter = null; renderFilters(); filterAndRender(); };
+            container.appendChild(allBtn);
+
+            Array.from(allPlaylists).sort().forEach(playlist => {
+                const btn = document.createElement('div');
+                btn.className = `playlist-chip ${activeFilter === playlist ? 'active' : ''}`;
+                btn.textContent = playlist;
+                btn.onclick = () => { activeFilter = playlist; renderFilters(); filterAndRender(); };
+                container.appendChild(btn);
+            });
+        }
+
         const searchInput = document.getElementById('search-input');
-        searchInput.addEventListener('input', (e) => {
-            const query = e.target.value;
-            if (!query) { return renderResults(songsData); }
-            renderResults(fuse.search(query).map(r => r.item));
-        });
+        searchInput.addEventListener('input', () => filterAndRender());
+
+        function filterAndRender() {
+            const query = searchInput.value;
+            let listToRender = songsData;
+
+            // 1. Aplica o filtro da busca de texto
+            if (query) {
+                listToRender = fuse.search(query).map(r => r.item);
+            }
+
+            // 2. Aplica o filtro de playlist selecionado
+            if (activeFilter) {
+                listToRender = listToRender.filter(s => 
+                    s.playlist && s.playlist.split(',').map(p => p.trim()).includes(activeFilter)
+                );
+            }
+
+            renderResults(listToRender);
+        }
 
         function renderResults(songs) {
             const container = document.getElementById('results-container');
             container.innerHTML = '';
+            
+            if(songs.length === 0) {
+                container.innerHTML = '<p style="text-align:center; color:#888;">Nenhuma música encontrada.</p>';
+                return;
+            }
+
             songs.forEach(song => {
                 const div = document.createElement('div');
                 div.className = 'song-item';
-                div.innerHTML = `<span>${song.title}</span> <span style="color: var(--chord-color); font-size: 0.9em;">${song.transpose || 'Tom Original'}</span>`;
+                
+                let infoHtml = `<span style="color: var(--chord-color); font-size: 0.9em;">Tom: ${song.transpose || 'Original'}</span>`;
+                if(song.playlist) {
+                    infoHtml = `<span style="color: #2a9d8f; font-size: 0.8em; margin-right: 10px;">${song.playlist}</span>` + infoHtml;
+                }
+
+                div.innerHTML = `<span>${song.title}</span> <div>${infoHtml}</div>`;
                 div.onclick = () => openSong(song);
                 container.appendChild(div);
             });
         }
 
+        // Lógica Rigorosa de Validação de Linha de Cifra
+        function isChordLine(line) {
+            if (line.trim() === '') return false;
+            const tokens = line.trim().split(/\s+/);
+            
+            // Um token de cifra válido: Começa com A-G, seguido de combinações de extensões musicais aceitáveis.
+            const chordTokenRegex = /^[A-G][m#bM\d\/\(\)\+\-º°]*(dim|aug|sus)?[\d\(\)\+\-º°]*(\/[A-G][#b]?)?$/;
+            
+            // Se TODAS as palavras da linha baterem com o padrão de cifra, é uma linha de cifra.
+            return tokens.every(token => chordTokenRegex.test(token));
+        }
+
         function formatCifraText(text) {
             const lines = text.split('\n');
-            const chordLineRegex = /^[\sA-G#bm/Mdimaugsus\d]+$/;
             return lines.map(line => {
-                if (line.trim().length > 0 && chordLineRegex.test(line)) {
-                    return line.replace(/([A-G][#b]?(m|M|dim|aug|sus)?\d?(\/[A-G][#b]?)?)/g, '<span class="chord">$1</span>');
+                if (isChordLine(line)) {
+                    // Envolve qualquer bloco de texto não-espaço com o span laranja
+                    return line.replace(/(\S+)/g, '<span class="chord">$1</span>');
                 }
                 return line;
             }).join('\n');
         }
 
-        // Controle de Telas
         window.openSong = function(song) {
             hideAll();
+            currentViewingSong = song;
             const view = document.getElementById('song-view');
             view.style.display = 'block';
+            
             document.getElementById('sv-title').textContent = song.title;
-            document.getElementById('sv-transpose').textContent = song.transpose || 'Tom Original';
+            document.getElementById('sv-transpose').textContent = song.transpose ? `Tom: ${song.transpose}` : 'Tom Original';
+            
+            const playlistBadge = document.getElementById('sv-playlist');
+            if(song.playlist) {
+                playlistBadge.textContent = song.playlist;
+                playlistBadge.style.display = 'block';
+            } else {
+                playlistBadge.style.display = 'none';
+            }
+            
             document.getElementById('sv-content').innerHTML = formatCifraText(song.lyrics);
         };
 
+        window.editCurrentSong = function() {
+            if(!currentViewingSong) return;
+            
+            openAdmin();
+            
+            // Preenche o formulário com os dados da música atual
+            editingSongId = currentViewingSong.id;
+            document.getElementById('form-title').textContent = "Editar Música";
+            document.getElementById('btn-submit-song').textContent = "Atualizar Música";
+            
+            document.getElementById('m-title').value = currentViewingSong.title;
+            document.getElementById('m-playlist').value = currentViewingSong.playlist || '';
+            document.getElementById('m-transpose').value = currentViewingSong.transpose || '';
+            document.getElementById('m-lyrics').value = currentViewingSong.lyrics;
+            
+            document.getElementById('upload-msg').style.display = 'none';
+        };
+
         window.closeSong = function() {
+            currentViewingSong = null;
             hideAll();
             document.getElementById('main-app').style.display = 'block';
-            document.getElementById('search-input').focus();
+            if(window.innerWidth > 800) document.getElementById('search-input').focus();
         };
 
         window.openAdmin = function() {
             hideAll();
             document.getElementById('admin-panel').style.display = 'block';
+            
+            // Reseta form para modo criação se não veio pelo botão editar
+            if(currentViewingSong === null) {
+                editingSongId = null;
+                document.getElementById('upload-form').reset();
+                document.getElementById('form-title').textContent = "Adicionar Nova Música";
+                document.getElementById('btn-submit-song').textContent = "Salvar Música";
+            }
         };
 
         window.closeAdmin = function() {
+            editingSongId = null;
+            currentViewingSong = null;
             hideAll();
             document.getElementById('main-app').style.display = 'block';
         };
@@ -330,7 +485,7 @@
             document.getElementById('admin-panel').style.display = 'none';
         }
 
-        // Execução do Login
+        // Login
         document.getElementById('login-form').addEventListener('submit', async (e) => {
             e.preventDefault();
             const email = document.getElementById('login-email').value;
@@ -341,36 +496,40 @@
             try {
                 await signInWithEmailAndPassword(auth, email, pass);
             } catch (error) {
-                errDiv.textContent = "Falha na autenticação: Verifique as credenciais.";
+                errDiv.textContent = "Falha na autenticação.";
                 errDiv.style.display = 'block';
             }
         });
 
-        // Envio de nova música
+        // Submit (Criação e Edição)
         document.getElementById('upload-form').addEventListener('submit', async (e) => {
             e.preventDefault();
             const msgDiv = document.getElementById('upload-msg');
             msgDiv.style.display = 'none';
 
-            const title = document.getElementById('m-title').value;
-            const transpose = document.getElementById('m-transpose').value;
-            const lyrics = document.getElementById('m-lyrics').value;
+            const payload = {
+                title: document.getElementById('m-title').value,
+                playlist: document.getElementById('m-playlist').value,
+                transpose: document.getElementById('m-transpose').value,
+                lyrics: document.getElementById('m-lyrics').value
+            };
 
             try {
-                await addDoc(collection(db, "repertorio"), {
-                    title: title,
-                    transpose: transpose,
-                    lyrics: lyrics
-                });
+                if (editingSongId) {
+                    await updateDoc(doc(db, "repertorio", editingSongId), payload);
+                    msgDiv.textContent = "Música atualizada com sucesso!";
+                } else {
+                    await addDoc(collection(db, "repertorio"), payload);
+                    msgDiv.textContent = "Música salva com sucesso!";
+                    document.getElementById('upload-form').reset();
+                }
                 
-                msgDiv.textContent = "Música salva com sucesso!";
                 msgDiv.className = "msg msg-success";
                 msgDiv.style.display = 'block';
                 
-                document.getElementById('upload-form').reset();
-                loadSongs(); // Atualiza a lista e o motor de busca local
+                await loadSongs(); 
             } catch (error) {
-                msgDiv.textContent = "Erro ao salvar: Permissão negada pelo banco.";
+                msgDiv.textContent = "Erro de permissão ou conexão.";
                 msgDiv.className = "msg msg-error";
                 msgDiv.style.display = 'block';
             }
