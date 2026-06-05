@@ -29,12 +29,12 @@
             box-sizing: border-box;
         }
 
-        header, .container {
+        .container {
             width: 100%;
             max-width: 800px;
         }
 
-        header { margin-bottom: 20px; }
+        header { margin-bottom: 15px; width: 100%; }
 
         #search-input {
             width: 100%;
@@ -51,28 +51,53 @@
 
         #search-input:focus { border-color: var(--chord-color); }
 
-        #playlist-filters {
-            display: flex;
-            gap: 10px;
-            flex-wrap: wrap;
-            margin-bottom: 20px;
-        }
-
-        .playlist-chip {
+        /* Painel de Playlists Posicionado Abaixo da Pesquisa */
+        .playlist-management {
             background-color: var(--surface-color);
-            color: var(--text-color);
-            padding: 8px 15px;
-            border-radius: 20px;
-            font-size: 0.9rem;
-            cursor: pointer;
-            border: 1px solid var(--primary-color);
-            transition: all 0.2s;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
         }
 
-        .playlist-chip:hover, .playlist-chip.active {
-            background-color: var(--primary-color);
-            border-color: var(--chord-color);
-            color: white;
+        .playlist-header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .playlist-select-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        select {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            border: 1px solid var(--primary-color);
+            padding: 8px 12px;
+            border-radius: 4px;
+            font-size: 1rem;
+            outline: none;
+        }
+
+        .inline-form {
+            display: flex;
+            gap: 8px;
+        }
+
+        .inline-form input {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            border: 1px solid var(--primary-color);
+            padding: 8px;
+            border-radius: 4px;
+            font-size: 0.9rem;
         }
 
         #results-container {
@@ -85,14 +110,72 @@
             background-color: var(--surface-color);
             padding: 15px 20px;
             border-radius: 6px;
-            cursor: pointer;
             font-size: 1.2rem;
             display: flex;
             justify-content: space-between;
             align-items: center;
+            position: relative;
+        }
+
+        .song-clickable {
+            flex-grow: 1;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-right: 20px;
         }
 
         .song-item:hover { background-color: var(--primary-color); }
+
+        .three-dots-btn {
+            background: none;
+            border: none;
+            color: var(--text-color);
+            font-size: 1.5rem;
+            cursor: pointer;
+            padding: 0 5px;
+            line-height: 1;
+            z-index: 5;
+        }
+
+        .three-dots-btn:hover { color: var(--chord-color); }
+
+        .dropdown-menu {
+            display: none;
+            position: absolute;
+            right: 20px;
+            top: 45px;
+            background-color: #2a3a52;
+            border: 1px solid var(--primary-color);
+            border-radius: 4px;
+            box-shadow: 0px 4px 12px rgba(0,0,0,0.5);
+            z-index: 10;
+            min-width: 180px;
+        }
+
+        .dropdown-menu button {
+            background: none;
+            border: none;
+            color: var(--text-color);
+            width: 100%;
+            text-align: left;
+            padding: 10px 15px;
+            font-size: 0.95rem;
+            cursor: pointer;
+            box-sizing: border-box;
+        }
+
+        .dropdown-menu button:hover {
+            background-color: var(--primary-color);
+            color: var(--chord-color);
+        }
+
+        .dropdown-divider {
+            height: 1px;
+            background-color: var(--primary-color);
+            margin: 5px 0;
+        }
 
         #song-view, .admin-panel {
             display: none;
@@ -105,21 +188,14 @@
 
         .song-header {
             display: flex;
-            flex-wrap: wrap;
             justify-content: space-between;
             align-items: center;
             border-bottom: 1px solid var(--primary-color);
             padding-bottom: 15px;
             margin-bottom: 20px;
-            gap: 15px;
         }
 
-        .song-title { margin: 0; font-size: 2rem; width: 100%; }
-
-        .badges-container {
-            display: flex;
-            gap: 10px;
-        }
+        .song-title { margin: 0; font-size: 2rem; }
 
         .transpose-badge {
             background-color: var(--primary-color);
@@ -145,18 +221,17 @@
             background-color: var(--primary-color);
             color: var(--text-color);
             border: none;
-            padding: 12px 20px;
-            border-radius: 6px;
+            padding: 8px 15px;
+            border-radius: 4px;
             cursor: pointer;
             font-weight: bold;
         }
 
         .btn-accent { background-color: var(--chord-color); color: #000; }
-        .btn-edit { background-color: #e9c46a; color: #000; padding: 8px 16px; font-size: 0.9rem; }
         .btn-back { background: none; color: var(--chord-color); text-decoration: underline; padding: 0; margin-bottom: 20px; font-size: 1rem;}
+        .btn-logout { background-color: var(--error-color); color: white; margin-left: 10px; padding: 4px 8px; font-size: 0.8rem; border-radius: 4px;}
 
         form { display: flex; flex-direction: column; gap: 15px; }
-        
         .form-group { display: flex; flex-direction: column; gap: 5px; }
 
         input[type="text"], input[type="email"], input[type="password"], textarea {
@@ -167,14 +242,12 @@
             border: 1px solid var(--primary-color);
             border-radius: 4px;
             box-sizing: border-box;
-            font-family: 'Segoe UI', Tahoma, sans-serif;
         }
 
         textarea { font-family: 'Courier New', Courier, monospace; resize: vertical; }
-
         footer { margin-top: auto; padding: 40px 0 20px 0; width: 100%; text-align: center; }
-
-        .msg { padding: 10px; border-radius: 4px; display: none; font-weight: bold; }
+        .admin-status-text { font-size: 0.9rem; color: #888; margin-bottom: 8px; display: block;}
+        .msg { padding: 10px; border-radius: 4px; display: none; font-weight: bold; margin-bottom: 10px;}
         .msg-error { background-color: var(--error-color); color: white; }
         .msg-success { background-color: var(--success-color); color: white; }
     </style>
@@ -182,33 +255,40 @@
 <body>
 
     <div class="container" id="main-app">
-        <header id="app-header">
+        <header>
             <input type="text" id="search-input" placeholder="Pesquise por título ou trecho da música..." autocomplete="off">
         </header>
 
-        <div id="playlist-filters"></div>
+        <div class="playlist-management">
+            <div class="playlist-header-container">
+                <div class="playlist-select-wrapper">
+                    <label for="playlist-view-select">Filtrar por Reunião:</label>
+                    <select id="playlist-view-select">
+                        <option value="all">Todas as Músicas</option>
+                    </select>
+                </div>
+                <div class="inline-form" id="playlist-creation-zone" style="display: none;">
+                    <input type="text" id="new-playlist-name" placeholder="Nova Playlist...">
+                    <button class="btn btn-accent" onclick="createNewPlaylistGroup()">Criar</button>
+                </div>
+            </div>
+        </div>
+
         <div id="results-container"></div>
     </div>
 
     <div class="container">
         <div id="song-view">
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
-                <button class="btn btn-back" style="margin: 0;" onclick="closeSong()">← Voltar</button>
-                <button id="btn-edit-song" class="btn btn-edit" style="display: none;" onclick="editCurrentSong()">Editar Música</button>
-            </div>
-            
+            <button class="btn btn-back" onclick="closeSong()">← Voltar para a lista</button>
             <div class="song-header">
                 <h1 class="song-title" id="sv-title"></h1>
-                <div class="badges-container">
-                    <div class="transpose-badge" id="sv-playlist" style="display: none; background-color: #264653; color: white;"></div>
-                    <div class="transpose-badge" id="sv-transpose"></div>
-                </div>
+                <div class="transpose-badge" id="sv-transpose"></div>
             </div>
             <pre id="sv-content"></pre>
         </div>
 
         <div id="admin-panel" class="admin-panel">
-            <button class="btn btn-back" onclick="closeAdmin()">← Sair da Administração</button>
+            <button class="btn btn-back" onclick="closeAdmin()">← Sair</button>
             
             <div id="login-section">
                 <h2>Login do Administrador</h2>
@@ -232,19 +312,15 @@
                 <form id="upload-form">
                     <div class="form-group">
                         <label>Título da Música</label>
-                        <input type="text" id="m-title" required placeholder="Ex: Raridade">
+                        <input type="text" id="m-title" required>
                     </div>
                     <div class="form-group">
-                        <label>Playlist / Reunião (Opcional)</label>
-                        <input type="text" id="m-playlist" placeholder="Ex: Culto Jovem, Domingo">
+                        <label>Transpose / Tom (Ex: +2, -1, Capo 1)</label>
+                        <input type="text" id="m-transpose">
                     </div>
                     <div class="form-group">
-                        <label>Transpose / Tom de Execução</label>
-                        <input type="text" id="m-transpose" placeholder="Ex: +2, -1, Capo 1, Tom: G">
-                    </div>
-                    <div class="form-group">
-                        <label>Letra e Cifra (Cole diretamente do Cifra Club)</label>
-                        <textarea id="m-lyrics" rows="15" required placeholder="Cole aqui a estrutura com as cifras..."></textarea>
+                        <label>Letra e Cifra (Copiado do Cifra Club)</label>
+                        <textarea id="m-lyrics" rows="15" required></textarea>
                     </div>
                     <button type="submit" id="btn-submit-song" class="btn btn-accent">Salvar Música</button>
                 </form>
@@ -253,15 +329,15 @@
     </div>
 
     <footer>
-        <button class="btn" id="btn-admin-gate" onclick="openAdmin()">Área do Administrador</button>
+        <span id="admin-status-indicator" class="admin-status-text">Status: Carregando...</span>
+        <button class="btn" id="btn-admin-gate" onclick="handleAdminGateClick()">Área do Administrador</button>
     </footer>
 
     <script type="module">
         import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-app.js";
         import { getFirestore, collection, getDocs, addDoc, updateDoc, doc } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-firestore.js";
-        import { getAuth, signInWithEmailAndPassword, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-auth.js";
+        import { getAuth, signInWithEmailAndPassword, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-auth.js";
 
-        // MANTENHA SUAS CREDENCIAIS AQUI
         const firebaseConfig = {
             apiKey: "AIzaSyBrcWWcFJiiGDNwmtHfC06on07yjV01Xvo",
             authDomain: "cifraceros.firebaseapp.com",
@@ -276,95 +352,140 @@
         const auth = getAuth(app);
 
         let songsData = [];
+        let localPlaylists = new Set();
         let fuse;
-        let activeFilter = null;
-        let currentViewingSong = null;
+        let selectedPlaylistFilter = 'all';
+        let isAdmin = false;
         let editingSongId = null;
 
         const fuseOptions = {
             includeScore: true,
             threshold: 0.4, 
             keys: [
-                { name: 'title', weight: 0.6 },
-                { name: 'playlist', weight: 0.2 },
-                { name: 'lyrics', weight: 0.2 } 
+                { name: 'title', weight: 0.7 },
+                { name: 'lyrics', weight: 0.3 } 
             ]
         };
 
+        // Monitor de Estado com Feedback Visual Explicito de Login/Logout
         onAuthStateChanged(auth, (user) => {
-            const isLoggedIn = !!user;
-            document.getElementById('login-section').style.display = isLoggedIn ? 'none' : 'block';
-            document.getElementById('upload-section').style.display = isLoggedIn ? 'block' : 'none';
-            document.getElementById('btn-edit-song').style.display = isLoggedIn ? 'block' : 'none';
+            isAdmin = !!user;
+            const statusIndicator = document.getElementById('admin-status-indicator');
+            const gateBtn = document.getElementById('btn-admin-gate');
+
+            if (isAdmin) {
+                statusIndicator.textContent = "Status: Administrador Conectado";
+                gateBtn.textContent = "Deslogar / Sair";
+                gateBtn.style.backgroundColor = "var(--error-color)";
+                gateBtn.style.color = "white";
+                
+                document.getElementById('login-section').style.display = 'none';
+                document.getElementById('upload-section').style.display = 'block';
+                document.getElementById('playlist-creation-zone').style.display = 'flex';
+            } else {
+                statusIndicator.textContent = "Status: Modo Leitura (Desconectado)";
+                gateBtn.textContent = "Área do Administrador";
+                gateBtn.style.backgroundColor = "var(--primary-color)";
+                gateBtn.style.color = "var(--text-color)";
+                
+                document.getElementById('login-section').style.display = 'block';
+                document.getElementById('upload-section').style.display = 'none';
+                document.getElementById('playlist-creation-zone').style.display = 'none';
+            }
+            filterAndRender();
         });
+
+        window.handleAdminGateClick = async function() {
+            if (isAdmin) {
+                if (confirm("Deseja encerrar a sessão de administrador?")) {
+                    try {
+                        await signOut(auth);
+                        hideAll();
+                        document.getElementById('main-app').style.display = 'block';
+                    } catch (err) {
+                        console.error("Erro ao deslogar:", err);
+                    }
+                }
+            } else {
+                openAdmin();
+            }
+        };
 
         async function loadSongs() {
             try {
                 const querySnapshot = await getDocs(collection(db, "repertorio"));
-                songsData = querySnapshot.docs.map(d => ({ id: d.id, ...d.data() }));
+                songsData = querySnapshot.docs.map(d => {
+                    const data = d.data();
+                    let pList = [];
+                    if (data.playlists) {
+                        pList = Array.isArray(data.playlists) ? data.playlists : [data.playlists];
+                    }
+                    return { id: d.id, ...data, playlists: pList };
+                });
                 
-                // Ordenar por título alfabeticamente
                 songsData.sort((a, b) => a.title.localeCompare(b.title));
-                
                 fuse = new Fuse(songsData, fuseOptions);
-                renderFilters();
+                
+                localPlaylists.clear();
+                songsData.forEach(s => s.playlists.forEach(p => localPlaylists.add(p)));
+                
+                renderPlaylistSelector();
                 filterAndRender();
             } catch (error) {
                 console.error(error);
-                document.getElementById('results-container').innerHTML = '<p>Erro de conexão com o banco.</p>';
             }
         }
 
-        function renderFilters() {
-            const container = document.getElementById('playlist-filters');
-            container.innerHTML = '';
+        function renderPlaylistSelector() {
+            const select = document.getElementById('playlist-view-select');
+            const currentValue = select.value;
+            select.innerHTML = '<option value="all">Todas as Músicas</option>';
             
-            // Extrai todas as playlists únicas ignorando vazias
-            const allPlaylists = new Set();
-            songsData.forEach(s => {
-                if(s.playlist && s.playlist.trim() !== '') {
-                    // Permite múltiplas tags separadas por vírgula
-                    s.playlist.split(',').forEach(p => allPlaylists.add(p.trim()));
-                }
+            Array.from(localPlaylists).sort().forEach(p => {
+                const opt = document.createElement('option');
+                opt.value = p;
+                opt.textContent = p;
+                select.appendChild(opt);
             });
-
-            if(allPlaylists.size === 0) return;
-
-            const allBtn = document.createElement('div');
-            allBtn.className = `playlist-chip ${activeFilter === null ? 'active' : ''}`;
-            allBtn.textContent = 'Todas';
-            allBtn.onclick = () => { activeFilter = null; renderFilters(); filterAndRender(); };
-            container.appendChild(allBtn);
-
-            Array.from(allPlaylists).sort().forEach(playlist => {
-                const btn = document.createElement('div');
-                btn.className = `playlist-chip ${activeFilter === playlist ? 'active' : ''}`;
-                btn.textContent = playlist;
-                btn.onclick = () => { activeFilter = playlist; renderFilters(); filterAndRender(); };
-                container.appendChild(btn);
-            });
+            
+            if (localPlaylists.has(currentValue)) {
+                select.value = currentValue;
+            } else {
+                select.value = 'all';
+                selectedPlaylistFilter = 'all';
+            }
         }
+
+        document.getElementById('playlist-view-select').addEventListener('change', (e) => {
+            selectedPlaylistFilter = e.target.value;
+            filterAndRender();
+        });
+
+        window.createNewPlaylistGroup = function() {
+            const input = document.getElementById('new-playlist-name');
+            const name = input.value.trim();
+            if(name === '') return;
+            localPlaylists.add(name);
+            renderPlaylistSelector();
+            input.value = '';
+        };
 
         const searchInput = document.getElementById('search-input');
         searchInput.addEventListener('input', () => filterAndRender());
 
         function filterAndRender() {
             const query = searchInput.value;
-            let listToRender = songsData;
+            let currentList = songsData;
 
-            // 1. Aplica o filtro da busca de texto
             if (query) {
-                listToRender = fuse.search(query).map(r => r.item);
+                currentList = fuse.search(query).map(r => r.item);
             }
 
-            // 2. Aplica o filtro de playlist selecionado
-            if (activeFilter) {
-                listToRender = listToRender.filter(s => 
-                    s.playlist && s.playlist.split(',').map(p => p.trim()).includes(activeFilter)
-                );
+            if (selectedPlaylistFilter !== 'all') {
+                currentList = currentList.filter(s => s.playlists.includes(selectedPlaylistFilter));
             }
 
-            renderResults(listToRender);
+            renderResults(currentList);
         }
 
         function renderResults(songs) {
@@ -377,37 +498,92 @@
             }
 
             songs.forEach(song => {
-                const div = document.createElement('div');
-                div.className = 'song-item';
+                const item = document.createElement('div');
+                item.className = 'song-item';
                 
-                let infoHtml = `<span style="color: var(--chord-color); font-size: 0.9em;">Tom: ${song.transpose || 'Original'}</span>`;
-                if(song.playlist) {
-                    infoHtml = `<span style="color: #2a9d8f; font-size: 0.8em; margin-right: 10px;">${song.playlist}</span>` + infoHtml;
+                const clickableArea = document.createElement('div');
+                clickableArea.className = 'song-clickable';
+                clickableArea.innerHTML = `<span>${song.title}</span> <span style="color: var(--chord-color); font-size: 0.9em;">Tom: ${song.transpose || 'Original'}</span>`;
+                clickableArea.onclick = () => openSong(song);
+                
+                item.appendChild(clickableArea);
+
+                if (isAdmin) {
+                    const dotsBtn = document.createElement('button');
+                    dotsBtn.className = 'three-dots-btn';
+                    dotsBtn.innerHTML = '⋮';
+                    dotsBtn.onclick = (e) => {
+                        e.stopPropagation();
+                        toggleDropdownMenu(song.id);
+                    };
+                    
+                    const dropdown = document.createElement('div');
+                    dropdown.className = 'dropdown-menu';
+                    dropdown.id = `dropdown-${song.id}`;
+                    
+                    const editBtn = document.createElement('button');
+                    editBtn.textContent = 'Editar Música';
+                    editBtn.onclick = () => triggerEditMode(song);
+                    dropdown.appendChild(editBtn);
+                    
+                    dropdown.appendChild(document.createElement('div')).className = 'dropdown-divider';
+                    
+                    localPlaylists.forEach(p => {
+                        const hasPlaylist = song.playlists.includes(p);
+                        const pBtn = document.createElement('button');
+                        pBtn.textContent = hasPlaylist ? `✓ Dentro de: ${p}` : `+ Para: ${p}`;
+                        pBtn.style.color = hasPlaylist ? 'var(--chord-color)' : 'var(--text-color)';
+                        pBtn.onclick = () => toggleSongPlaylistAssignment(song, p);
+                        dropdown.appendChild(pBtn);
+                    });
+
+                    item.appendChild(dotsBtn);
+                    item.appendChild(dropdown);
                 }
 
-                div.innerHTML = `<span>${song.title}</span> <div>${infoHtml}</div>`;
-                div.onclick = () => openSong(song);
-                container.appendChild(div);
+                container.appendChild(item);
             });
         }
 
-        // Lógica Rigorosa de Validação de Linha de Cifra
+        window.toggleDropdownMenu = function(songId) {
+            const menus = document.querySelectorAll('.dropdown-menu');
+            menus.forEach(m => {
+                if(m.id !== `dropdown-${songId}`) m.style.display = 'none';
+            });
+            const target = document.getElementById(`dropdown-${songId}`);
+            target.style.display = target.style.display === 'block' ? 'none' : 'block';
+        };
+
+        document.addEventListener('click', () => {
+            document.querySelectorAll('.dropdown-menu').forEach(m => m.style.display = 'none');
+        });
+
+        async function toggleSongPlaylistAssignment(song, playlistName) {
+            let updatedPlaylists = [...song.playlists];
+            if (updatedPlaylists.includes(playlistName)) {
+                updatedPlaylists = updatedPlaylists.filter(p => p !== playlistName);
+            } else {
+                updatedPlaylists.push(playlistName);
+            }
+
+            try {
+                await updateDoc(doc(db, "repertorio", song.id), { playlists: updatedPlaylists });
+                await loadSongs();
+            } catch (err) {
+                console.error(err);
+            }
+        }
+
         function isChordLine(line) {
             if (line.trim() === '') return false;
             const tokens = line.trim().split(/\s+/);
-            
-            // Um token de cifra válido: Começa com A-G, seguido de combinações de extensões musicais aceitáveis.
             const chordTokenRegex = /^[A-G][m#bM\d\/\(\)\+\-º°]*(dim|aug|sus)?[\d\(\)\+\-º°]*(\/[A-G][#b]?)?$/;
-            
-            // Se TODAS as palavras da linha baterem com o padrão de cifra, é uma linha de cifra.
             return tokens.every(token => chordTokenRegex.test(token));
         }
 
         function formatCifraText(text) {
-            const lines = text.split('\n');
-            return lines.map(line => {
+            return text.split('\n').map(line => {
                 if (isChordLine(line)) {
-                    // Envolve qualquer bloco de texto não-espaço com o span laranja
                     return line.replace(/(\S+)/g, '<span class="chord">$1</span>');
                 }
                 return line;
@@ -416,56 +592,32 @@
 
         window.openSong = function(song) {
             hideAll();
-            currentViewingSong = song;
-            const view = document.getElementById('song-view');
-            view.style.display = 'block';
-            
+            document.getElementById('song-view').style.display = 'block';
             document.getElementById('sv-title').textContent = song.title;
             document.getElementById('sv-transpose').textContent = song.transpose ? `Tom: ${song.transpose}` : 'Tom Original';
-            
-            const playlistBadge = document.getElementById('sv-playlist');
-            if(song.playlist) {
-                playlistBadge.textContent = song.playlist;
-                playlistBadge.style.display = 'block';
-            } else {
-                playlistBadge.style.display = 'none';
-            }
-            
             document.getElementById('sv-content').innerHTML = formatCifraText(song.lyrics);
         };
 
-        window.editCurrentSong = function() {
-            if(!currentViewingSong) return;
-            
+        function triggerEditMode(song) {
             openAdmin();
-            
-            // Preenche o formulário com os dados da música atual
-            editingSongId = currentViewingSong.id;
+            editingSongId = song.id;
             document.getElementById('form-title').textContent = "Editar Música";
             document.getElementById('btn-submit-song').textContent = "Atualizar Música";
-            
-            document.getElementById('m-title').value = currentViewingSong.title;
-            document.getElementById('m-playlist').value = currentViewingSong.playlist || '';
-            document.getElementById('m-transpose').value = currentViewingSong.transpose || '';
-            document.getElementById('m-lyrics').value = currentViewingSong.lyrics;
-            
+            document.getElementById('m-title').value = song.title;
+            document.getElementById('m-transpose').value = song.transpose || '';
+            document.getElementById('m-lyrics').value = song.lyrics;
             document.getElementById('upload-msg').style.display = 'none';
-        };
+        }
 
         window.closeSong = function() {
-            currentViewingSong = null;
             hideAll();
             document.getElementById('main-app').style.display = 'block';
-            if(window.innerWidth > 800) document.getElementById('search-input').focus();
         };
 
         window.openAdmin = function() {
             hideAll();
             document.getElementById('admin-panel').style.display = 'block';
-            
-            // Reseta form para modo criação se não veio pelo botão editar
-            if(currentViewingSong === null) {
-                editingSongId = null;
+            if(!editingSongId) {
                 document.getElementById('upload-form').reset();
                 document.getElementById('form-title').textContent = "Adicionar Nova Música";
                 document.getElementById('btn-submit-song').textContent = "Salvar Música";
@@ -474,7 +626,6 @@
 
         window.closeAdmin = function() {
             editingSongId = null;
-            currentViewingSong = null;
             hideAll();
             document.getElementById('main-app').style.display = 'block';
         };
@@ -485,7 +636,6 @@
             document.getElementById('admin-panel').style.display = 'none';
         }
 
-        // Login
         document.getElementById('login-form').addEventListener('submit', async (e) => {
             e.preventDefault();
             const email = document.getElementById('login-email').value;
@@ -495,13 +645,14 @@
 
             try {
                 await signInWithEmailAndPassword(auth, email, pass);
+                hideAll();
+                document.getElementById('main-app').style.display = 'block';
             } catch (error) {
                 errDiv.textContent = "Falha na autenticação.";
                 errDiv.style.display = 'block';
             }
         });
 
-        // Submit (Criação e Edição)
         document.getElementById('upload-form').addEventListener('submit', async (e) => {
             e.preventDefault();
             const msgDiv = document.getElementById('upload-msg');
@@ -509,7 +660,6 @@
 
             const payload = {
                 title: document.getElementById('m-title').value,
-                playlist: document.getElementById('m-playlist').value,
                 transpose: document.getElementById('m-transpose').value,
                 lyrics: document.getElementById('m-lyrics').value
             };
@@ -517,19 +667,17 @@
             try {
                 if (editingSongId) {
                     await updateDoc(doc(db, "repertorio", editingSongId), payload);
-                    msgDiv.textContent = "Música atualizada com sucesso!";
+                    msgDiv.textContent = "Música atualizada!";
                 } else {
-                    await addDoc(collection(db, "repertorio"), payload);
-                    msgDiv.textContent = "Música salva com sucesso!";
+                    await addDoc(collection(db, "repertorio"), { ...payload, playlists: [] });
+                    msgDiv.textContent = "Música cadastrada com sucesso!";
                     document.getElementById('upload-form').reset();
                 }
-                
                 msgDiv.className = "msg msg-success";
                 msgDiv.style.display = 'block';
-                
-                await loadSongs(); 
+                await loadSongs();
             } catch (error) {
-                msgDiv.textContent = "Erro de permissão ou conexão.";
+                msgDiv.textContent = "Erro ao salvar.";
                 msgDiv.className = "msg msg-error";
                 msgDiv.style.display = 'block';
             }
