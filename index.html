@@ -3,6 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Tratamento Rigoroso contra Cache (Evita carregamento de versões antigas) -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    
     <title>Repertório Pessoal</title>
     <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
     <style>
@@ -29,11 +35,7 @@
             box-sizing: border-box;
         }
 
-        .container {
-            width: 100%;
-            max-width: 800px;
-        }
-
+        .container { width: 100%; max-width: 800px; }
         header { margin-bottom: 15px; width: 100%; }
 
         #search-input {
@@ -51,7 +53,6 @@
 
         #search-input:focus { border-color: var(--chord-color); }
 
-        /* Painel de Playlists Posicionado Abaixo da Pesquisa */
         .playlist-management {
             background-color: var(--surface-color);
             padding: 15px;
@@ -70,11 +71,7 @@
             gap: 10px;
         }
 
-        .playlist-select-wrapper {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
+        .playlist-select-wrapper { display: flex; align-items: center; gap: 10px; }
 
         select {
             background-color: var(--bg-color);
@@ -86,10 +83,7 @@
             outline: none;
         }
 
-        .inline-form {
-            display: flex;
-            gap: 8px;
-        }
+        .inline-form { display: flex; gap: 8px; }
 
         .inline-form input {
             background-color: var(--bg-color);
@@ -100,11 +94,7 @@
             font-size: 0.9rem;
         }
 
-        #results-container {
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-        }
+        #results-container { display: flex; flex-direction: column; gap: 10px; }
 
         .song-item {
             background-color: var(--surface-color);
@@ -166,16 +156,8 @@
             box-sizing: border-box;
         }
 
-        .dropdown-menu button:hover {
-            background-color: var(--primary-color);
-            color: var(--chord-color);
-        }
-
-        .dropdown-divider {
-            height: 1px;
-            background-color: var(--primary-color);
-            margin: 5px 0;
-        }
+        .dropdown-menu button:hover { background-color: var(--primary-color); color: var(--chord-color); }
+        .dropdown-divider { height: 1px; background-color: var(--primary-color); margin: 5px 0; }
 
         #song-view, .admin-panel {
             display: none;
@@ -216,7 +198,6 @@
         }
 
         .chord { color: var(--chord-color); font-weight: bold; }
-
         .btn {
             background-color: var(--primary-color);
             color: var(--text-color);
@@ -226,11 +207,9 @@
             cursor: pointer;
             font-weight: bold;
         }
-
         .btn-accent { background-color: var(--chord-color); color: #000; }
         .btn-back { background: none; color: var(--chord-color); text-decoration: underline; padding: 0; margin-bottom: 20px; font-size: 1rem;}
-        .btn-logout { background-color: var(--error-color); color: white; margin-left: 10px; padding: 4px 8px; font-size: 0.8rem; border-radius: 4px;}
-
+        
         form { display: flex; flex-direction: column; gap: 15px; }
         .form-group { display: flex; flex-direction: column; gap: 5px; }
 
@@ -367,7 +346,6 @@
             ]
         };
 
-        // Monitor de Estado com Feedback Visual Explicito de Login/Logout
         onAuthStateChanged(auth, (user) => {
             isAdmin = !!user;
             const statusIndicator = document.getElementById('admin-status-indicator');
@@ -465,8 +443,13 @@
             const input = document.getElementById('new-playlist-name');
             const name = input.value.trim();
             if(name === '') return;
+            
             localPlaylists.add(name);
             renderPlaylistSelector();
+            
+            // CORREÇÃO: Força a interface de lista e botões a se redesenhar com a nova opção carregada
+            filterAndRender(); 
+            
             input.value = '';
         };
 
@@ -526,16 +509,18 @@
                     editBtn.onclick = () => triggerEditMode(song);
                     dropdown.appendChild(editBtn);
                     
-                    dropdown.appendChild(document.createElement('div')).className = 'dropdown-divider';
-                    
-                    localPlaylists.forEach(p => {
-                        const hasPlaylist = song.playlists.includes(p);
-                        const pBtn = document.createElement('button');
-                        pBtn.textContent = hasPlaylist ? `✓ Dentro de: ${p}` : `+ Para: ${p}`;
-                        pBtn.style.color = hasPlaylist ? 'var(--chord-color)' : 'var(--text-color)';
-                        pBtn.onclick = () => toggleSongPlaylistAssignment(song, p);
-                        dropdown.appendChild(pBtn);
-                    });
+                    if(localPlaylists.size > 0) {
+                        dropdown.appendChild(document.createElement('div')).className = 'dropdown-divider';
+                        
+                        localPlaylists.forEach(p => {
+                            const hasPlaylist = song.playlists.includes(p);
+                            const pBtn = document.createElement('button');
+                            pBtn.textContent = hasPlaylist ? `✓ Dentro de: ${p}` : `+ Para: ${p}`;
+                            pBtn.style.color = hasPlaylist ? 'var(--chord-color)' : 'var(--text-color)';
+                            pBtn.onclick = () => toggleSongPlaylistAssignment(song, p);
+                            dropdown.appendChild(pBtn);
+                        });
+                    }
 
                     item.appendChild(dotsBtn);
                     item.appendChild(dropdown);
