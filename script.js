@@ -22,8 +22,9 @@ let isAdmin = false;
 let editingSongId = null;
 let currentFontSize = 1.15;
 let isScrolling = false;
-let scrollSpeed = 1;
+let scrollSpeed = 0.5; // Changed to fractional for more precision
 let scrollInterval = null;
+let scrollPos = 0; // Sub-pixel accumulator
 
 const fuseOptions = {
     includeScore: true,
@@ -279,6 +280,7 @@ function formatCifraText(text) {
 window.openSong = function(song) {
     hideAll();
     stopAutoScroll();
+    scrollPos = 0; // Reset sub-pixel position
     closeSidebar();
     document.getElementById('song-view').style.display = 'block';
     document.getElementById('sv-title').textContent = song.title;
@@ -300,6 +302,8 @@ window.toggleAutoScroll = function() {
     if (isScrolling) {
         btn.textContent = '⏸';
         btn.classList.add('active');
+        const mainContent = document.querySelector('.main-content');
+        scrollPos = mainContent.scrollTop; // Sync sub-pixel with current scroll
         startAutoScroll();
     } else {
         stopAutoScroll();
@@ -314,10 +318,20 @@ function startAutoScroll() {
         if (!isScrolling) return;
         
         const deltaTime = currentTime - lastTime;
-        if (deltaTime > 16) { // Approx 60fps
-            mainContent.scrollTop += (scrollSpeed * deltaTime) / 50;
-            lastTime = currentTime;
+        lastTime = currentTime;
+
+        // Base speed: 50 pixels per second at speed 1.0
+        const pixelsPerMs = (scrollSpeed * 50) / 1000;
+        scrollPos += pixelsPerMs * deltaTime;
+        
+        mainContent.scrollTop = Math.floor(scrollPos);
+
+        // Stop if reached the end
+        if (mainContent.scrollTop + mainContent.clientHeight >= mainContent.scrollHeight - 1) {
+            stopAutoScroll();
+            return;
         }
+
         scrollInterval = requestAnimationFrame(scrollStep);
     }
     scrollInterval = requestAnimationFrame(scrollStep);
@@ -334,8 +348,10 @@ function stopAutoScroll() {
 }
 
 window.adjustScrollSpeed = function(delta) {
-    scrollSpeed = Math.max(1, Math.min(20, scrollSpeed + delta));
-    document.getElementById('scroll-speed-display').textContent = scrollSpeed;
+    // Range from 0.1 to 3.0, steps of 0.1
+    scrollSpeed = Math.max(0.1, Math.min(5.0, parseFloat((scrollSpeed + delta * 0.2).toFixed(1))));
+    // Display as percentage for better UX (0.5 = 50%)
+    document.getElementById('scroll-speed-display').textContent = Math.round(scrollSpeed * 100) + '%';
 };
 
 function triggerEditMode(song) {
