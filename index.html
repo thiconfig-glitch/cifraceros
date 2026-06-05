@@ -143,7 +143,7 @@
         <button class="btn-back" onclick="closeSong()">← Voltar para a busca</button>
         <div class="song-header">
             <h1 class="song-title" id="sv-title">Título</h1>
-            <div class="transpose-badge" id="sv-transpose">Tom: C</div>
+            <div class="transpose-badge" id="sv-transpose">Tom Original</div>
         </div>
         <pre id="sv-content"></pre>
     </div>
@@ -152,14 +152,13 @@
         import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-app.js";
         import { getFirestore, collection, getDocs } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-firestore.js";
 
-        // Substitua com suas credenciais do Firebase
         const firebaseConfig = {
-            apiKey: "SUA_API_KEY",
-            authDomain: "SEU_PROJETO.firebaseapp.com",
-            projectId: "SEU_PROJETO",
-            storageBucket: "SEU_PROJETO.appspot.com",
-            messagingSenderId: "SEU_SENDER_ID",
-            appId: "SEU_APP_ID"
+            apiKey: "AIzaSyBrcWWcFJiiGDNwmtHfC06on07yjV01Xvo",
+            authDomain: "cifraceros.firebaseapp.com",
+            projectId: "cifraceros",
+            storageBucket: "cifraceros.firebasestorage.app",
+            messagingSenderId: "64746643957",
+            appId: "1:64746643957:web:fff80c22e795e1410180bc"
         };
 
         const app = initializeApp(firebaseConfig);
@@ -168,28 +167,25 @@
         let songsData = [];
         let fuse;
 
-        // Configuração do Fuse.js para busca tolerante a erros
         const fuseOptions = {
             includeScore: true,
-            threshold: 0.4, // Nível de tolerância a erros (0.0 é exato, 1.0 acha qualquer coisa)
+            threshold: 0.4, 
             keys: [
                 { name: 'title', weight: 0.7 },
-                { name: 'lyrics', weight: 0.3 } // Permite buscar por trechos
+                { name: 'lyrics', weight: 0.3 } 
             ]
         };
 
         async function loadSongs() {
             try {
-                // Supondo que sua coleção no Firebase se chama 'repertorio'
                 const querySnapshot = await getDocs(collection(db, "repertorio"));
                 songsData = querySnapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
                 
-                // Inicializa o motor de busca após carregar os dados
                 fuse = new Fuse(songsData, fuseOptions);
                 renderResults(songsData);
             } catch (error) {
                 console.error("Erro ao carregar dados do Firebase:", error);
-                document.getElementById('results-container').innerHTML = `<p style="color:red;">Erro de conexão com o banco de dados.</p>`;
+                document.getElementById('results-container').innerHTML = `<p style="color:red; text-align:center;">Erro de conexão com o banco de dados.</p>`;
             }
         }
 
@@ -212,21 +208,18 @@
             songs.forEach(song => {
                 const div = document.createElement('div');
                 div.className = 'song-item';
-                div.innerHTML = `<span>${song.title}</span> <span style="color: var(--chord-color); font-size: 0.9em;">Tom: ${song.transpose || 'Original'}</span>`;
+                div.innerHTML = `<span>${song.title}</span> <span style="color: var(--chord-color); font-size: 0.9em;">${song.transpose || 'Tom Original'}</span>`;
                 div.onclick = () => openSong(song);
                 container.appendChild(div);
             });
         }
 
-        // Regex heurística para detectar linhas que contêm APENAS acordes e espaços
         function formatCifraText(text) {
             const lines = text.split('\n');
             const chordLineRegex = /^[\sA-G#bm/Mdimaugsus\d]+$/;
             
             return lines.map(line => {
-                // Se a linha for preenchida e contiver apenas o padrão de acordes
                 if (line.trim().length > 0 && chordLineRegex.test(line)) {
-                    // Envolve cada acorde em um span laranja
                     return line.replace(/([A-G][#b]?(m|M|dim|aug|sus)?\d?(\/[A-G][#b]?)?)/g, '<span class="chord">$1</span>');
                 }
                 return line;
@@ -241,9 +234,8 @@
             view.style.display = 'block';
             
             document.getElementById('sv-title').textContent = song.title;
-            document.getElementById('sv-transpose').textContent = song.transpose ? `Transpose: ${song.transpose}` : 'Tom Original';
+            document.getElementById('sv-transpose').textContent = song.transpose ? song.transpose : 'Tom Original';
             
-            // Aplica a lógica de coloração de acordes antes de injetar
             document.getElementById('sv-content').innerHTML = formatCifraText(song.lyrics);
         };
 
@@ -254,9 +246,7 @@
             document.getElementById('search-input').focus();
         };
 
-        // Inicia a aplicação
         loadSongs();
     </script>
 </body>
 </html>
-
