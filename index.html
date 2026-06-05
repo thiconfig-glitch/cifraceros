@@ -26,16 +26,124 @@
             color: var(--text-color);
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
-            padding: 20px;
+            padding: 0;
+            height: 100vh;
+            width: 100vw;
+            overflow: hidden;
             display: flex;
-            flex-direction: column;
-            align-items: center;
-            min-height: 100vh;
             box-sizing: border-box;
         }
 
-        .container { width: 100%; max-width: 800px; }
-        header { margin-bottom: 15px; width: 100%; }
+        .app-container {
+            display: flex;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .sidebar {
+            width: 350px;
+            height: 100%;
+            background-color: var(--surface-color);
+            border-right: 1px solid var(--primary-color);
+            display: flex;
+            flex-direction: column;
+            transition: transform 0.3s ease;
+            z-index: 100;
+            flex-shrink: 0;
+        }
+
+        .sidebar-content {
+            padding: 20px;
+            overflow-y: auto;
+            flex-grow: 1;
+        }
+
+        .main-content {
+            flex-grow: 1;
+            height: 100%;
+            overflow-y: auto;
+            background-color: var(--bg-color);
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .container { width: 100%; max-width: 800px; padding: 20px; box-sizing: border-box; }
+        
+        /* Mobile Top Bar */
+        .mobile-top-bar {
+            display: none;
+            width: 100%;
+            background-color: var(--surface-color);
+            padding: 10px 20px;
+            align-items: center;
+            border-bottom: 1px solid var(--primary-color);
+            box-sizing: border-box;
+            z-index: 90;
+        }
+
+        .hamburger-btn {
+            background: none;
+            border: none;
+            color: var(--text-color);
+            font-size: 1.8rem;
+            cursor: pointer;
+            padding: 0;
+            margin-right: 15px;
+            line-height: 1;
+        }
+
+        .mobile-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: rgba(0, 0, 0, 0.7);
+            z-index: 95;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .mobile-overlay.open {
+            display: block;
+            opacity: 1;
+        }
+
+        #welcome-view {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            text-align: center;
+            color: #888;
+            padding: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .mobile-top-bar { display: flex; }
+            .sidebar {
+                position: fixed;
+                top: 0;
+                left: 0;
+                transform: translateX(-100%);
+            }
+            .sidebar.open { transform: translateX(0); }
+            .main-content { padding: 0; }
+            #welcome-view { display: none; }
+            .container { padding: 15px; }
+            #song-view, .admin-panel { padding: 20px; }
+            .song-title { font-size: 1.5rem; }
+            .btn-back { display: block; }
+        }
+
+        @media (min-width: 769px) {
+            .btn-back { display: none; }
+        }
 
         #search-input {
             width: 100%;
@@ -244,84 +352,101 @@
     </style>
 </head>
 <body>
+    <div class="app-container">
+        <div id="mobile-overlay" class="mobile-overlay" onclick="toggleSidebar()"></div>
+        
+        <aside id="sidebar" class="sidebar">
+            <div class="sidebar-content">
+                <div id="main-app">
+                    <header>
+                        <input type="text" id="search-input" placeholder="Pesquisar música..." autocomplete="off">
+                    </header>
 
-    <div class="container" id="main-app">
-        <header>
-            <input type="text" id="search-input" placeholder="Pesquise por título ou trecho da música..." autocomplete="off">
-        </header>
+                    <div class="playlist-management">
+                        <div class="playlist-creation-zone" id="playlist-creation-zone" style="display: none;">
+                            <input type="text" id="new-playlist-name" placeholder="Nova Playlist...">
+                            <button class="btn btn-accent" onclick="createNewPlaylistGroup()">Criar</button>
+                            <button class="btn" style="background-color: var(--success-color); color: white;" onclick="openAdminForCreation()">+ Nova</button>
+                        </div>
+                        
+                        <div id="playlist-chips-container" class="playlist-chips-container"></div>
+                    </div>
 
-        <div class="playlist-management">
-            <div class="playlist-creation-zone" id="playlist-creation-zone" style="display: none;">
-                <input type="text" id="new-playlist-name" placeholder="Nova Playlist...">
-                <button class="btn btn-accent" onclick="createNewPlaylistGroup()">Criar Playlist</button>
-                <button class="btn" style="background-color: var(--success-color); color: white;" onclick="openAdminForCreation()">+ Nova Música</button>
-            </div>
-            
-            <div id="playlist-chips-container" class="playlist-chips-container">
+                    <div id="results-container"></div>
                 </div>
-        </div>
+            </div>
+            <footer style="padding: 20px; border-top: 1px solid var(--primary-color);">
+                <span id="admin-status-indicator" class="admin-status-text">Status: Carregando...</span>
+                <button class="btn" id="btn-admin-gate" style="width:100%" onclick="openAdminPanelDirectly()">Painel Administrativo</button>
+            </footer>
+        </aside>
 
-        <div id="results-container"></div>
+        <main class="main-content">
+            <div class="mobile-top-bar">
+                <button class="hamburger-btn" onclick="toggleSidebar()">☰</button>
+                <h2 style="margin:0; font-size: 1.2rem;">Repertório</h2>
+            </div>
+
+            <div id="welcome-view">
+                <h1>🎸 Repertório Pessoal</h1>
+                <p>Selecione uma música na lista ao lado para começar.</p>
+            </div>
+
+            <div class="container">
+                <div id="song-view">
+                    <button class="btn btn-back" onclick="closeSong()">← Voltar para a lista</button>
+                    <div class="song-header">
+                        <h1 class="song-title" id="sv-title"></h1>
+                        <div class="transpose-badge" id="sv-transpose"></div>
+                    </div>
+                    <pre id="sv-content"></pre>
+                </div>
+
+                <div id="admin-panel" class="admin-panel">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+                        <button class="btn btn-back" style="margin: 0;" onclick="closeAdmin()">← Voltar para a lista</button>
+                        <button id="btn-logout-inside" class="btn btn-danger" style="display: none;" onclick="triggerLogout()">Sair da Conta</button>
+                    </div>
+                    
+                    <div id="login-section">
+                        <h2>Login do Administrador</h2>
+                        <div id="login-error" class="msg msg-error"></div>
+                        <form id="login-form">
+                            <div class="form-group">
+                                <label>E-mail</label>
+                                <input type="email" id="login-email" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Senha</label>
+                                <input type="password" id="login-password" required>
+                            </div>
+                            <button type="submit" class="btn btn-accent">Entrar</button>
+                        </form>
+                    </div>
+
+                    <div id="upload-section" style="display: none;">
+                        <h2 id="form-title">Adicionar Nova Música</h2>
+                        <div id="upload-msg" class="msg"></div>
+                        <form id="upload-form">
+                            <div class="form-group">
+                                <label>Título da Música</label>
+                                <input type="text" id="m-title" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Transpose / Tom (Ex: +2, -1, Capo 1)</label>
+                                <input type="text" id="m-transpose">
+                            </div>
+                            <div class="form-group">
+                                <label>Letra e Cifra (Copiado do Cifra Club)</label>
+                                <textarea id="m-lyrics" rows="15" required></textarea>
+                            </div>
+                            <button type="submit" id="btn-submit-song" class="btn btn-accent">Salvar Música</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
     </div>
-
-    <div class="container">
-        <div id="song-view">
-            <button class="btn btn-back" onclick="closeSong()">← Voltar para a lista</button>
-            <div class="song-header">
-                <h1 class="song-title" id="sv-title"></h1>
-                <div class="transpose-badge" id="sv-transpose"></div>
-            </div>
-            <pre id="sv-content"></pre>
-        </div>
-
-        <div id="admin-panel" class="admin-panel">
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
-                <button class="btn btn-back" style="margin: 0;" onclick="closeAdmin()">← Voltar para a lista</button>
-                <button id="btn-logout-inside" class="btn btn-danger" style="display: none;" onclick="triggerLogout()">Deslogar / Sair da Conta</button>
-            </div>
-            
-            <div id="login-section">
-                <h2>Login do Administrador</h2>
-                <div id="login-error" class="msg msg-error"></div>
-                <form id="login-form">
-                    <div class="form-group">
-                        <label>E-mail</label>
-                        <input type="email" id="login-email" required>
-                    </div>
-                    <div class="form-group">
-                        <label>Senha</label>
-                        <input type="password" id="login-password" required>
-                    </div>
-                    <button type="submit" class="btn btn-accent">Entrar</button>
-                </form>
-            </div>
-
-            <div id="upload-section" style="display: none;">
-                <h2 id="form-title">Adicionar Nova Música</h2>
-                <div id="upload-msg" class="msg"></div>
-                <form id="upload-form">
-                    <div class="form-group">
-                        <label>Título da Música</label>
-                        <input type="text" id="m-title" required>
-                    </div>
-                    <div class="form-group">
-                        <label>Transpose / Tom (Ex: +2, -1, Capo 1)</label>
-                        <input type="text" id="m-transpose">
-                    </div>
-                    <div class="form-group">
-                        <label>Letra e Cifra (Copiado do Cifra Club)</label>
-                        <textarea id="m-lyrics" rows="15" required></textarea>
-                    </div>
-                    <button type="submit" id="btn-submit-song" class="btn btn-accent">Salvar Música</button>
-                </form>
-            </div>
-        </div>
-    </div>
-
-    <footer>
-        <span id="admin-status-indicator" class="admin-status-text">Status: Carregando...</span>
-        <button class="btn" id="btn-admin-gate" onclick="openAdminPanelDirectly()">Painel Administrativo</button>
-    </footer>
 
     <script type="module">
         import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-app.js";
@@ -362,13 +487,13 @@
             const logoutBtn = document.getElementById('btn-logout-inside');
 
             if (isAdmin) {
-                statusIndicator.textContent = "Status: Administrador Conectado";
+                statusIndicator.textContent = "Status: Administrador";
                 logoutBtn.style.display = 'block';
                 document.getElementById('login-section').style.display = 'none';
                 document.getElementById('upload-section').style.display = 'block';
                 document.getElementById('playlist-creation-zone').style.display = 'flex';
             } else {
-                statusIndicator.textContent = "Status: Modo Leitura (Desconectado)";
+                statusIndicator.textContent = "Status: Leitura";
                 logoutBtn.style.display = 'none';
                 document.getElementById('login-section').style.display = 'block';
                 document.getElementById('upload-section').style.display = 'none';
@@ -377,14 +502,26 @@
             filterAndRender();
         });
 
+        window.toggleSidebar = function() {
+            document.getElementById('sidebar').classList.toggle('open');
+            document.getElementById('mobile-overlay').classList.toggle('open');
+        };
+
+        window.closeSidebar = function() {
+            document.getElementById('sidebar').classList.remove('open');
+            document.getElementById('mobile-overlay').classList.remove('open');
+        };
+
         window.openAdminPanelDirectly = function() {
             hideAll();
+            closeSidebar();
             document.getElementById('admin-panel').style.display = 'block';
         };
 
         window.openAdminForCreation = function() {
             editingSongId = null;
             hideAll();
+            closeSidebar();
             document.getElementById('admin-panel').style.display = 'block';
             document.getElementById('upload-form').reset();
             document.getElementById('form-title').textContent = "Adicionar Nova Música";
@@ -393,7 +530,7 @@
         };
 
         window.triggerLogout = async function() {
-            if (confirm("Deseja encerrar a sessão de administrador?")) {
+            if (confirm("Deseja encerrar a sessão?")) {
                 try {
                     await signOut(auth);
                     closeAdmin();
@@ -489,7 +626,7 @@
             container.innerHTML = '';
             
             if(songs.length === 0) {
-                container.innerHTML = '<p style="text-align:center; color:#888;">Nenhuma música encontrada nesta seleção.</p>';
+                container.innerHTML = '<p style="text-align:center; color:#888;">Nenhuma música encontrada.</p>';
                 return;
             }
 
@@ -499,7 +636,7 @@
                 
                 const clickableArea = document.createElement('div');
                 clickableArea.className = 'song-clickable';
-                clickableArea.innerHTML = `<span>${song.title}</span> <span style="color: var(--chord-color); font-size: 0.9em;">Tom: ${song.transpose || 'Original'}</span>`;
+                clickableArea.innerHTML = `<span>${song.title}</span> <span style="color: var(--chord-color); font-size: 0.8em; opacity: 0.8;">Tom: ${song.transpose || 'Orig'}</span>`;
                 clickableArea.onclick = () => openSong(song);
                 
                 item.appendChild(clickableArea);
@@ -590,10 +727,12 @@
 
         window.openSong = function(song) {
             hideAll();
+            closeSidebar();
             document.getElementById('song-view').style.display = 'block';
             document.getElementById('sv-title').textContent = song.title;
             document.getElementById('sv-transpose').textContent = song.transpose ? `Tom: ${song.transpose}` : 'Tom Original';
             document.getElementById('sv-content').innerHTML = formatCifraText(song.lyrics);
+            document.querySelector('.main-content').scrollTop = 0;
         };
 
         function triggerEditMode(song) {
@@ -609,17 +748,19 @@
 
         window.closeSong = function() {
             hideAll();
-            document.getElementById('main-app').style.display = 'block';
+            document.getElementById('welcome-view').style.display = 'flex';
+            if(window.innerWidth <= 768) toggleSidebar();
         };
 
         window.closeAdmin = function() {
             editingSongId = null;
             hideAll();
-            document.getElementById('main-app').style.display = 'block';
+            document.getElementById('welcome-view').style.display = 'flex';
+            if(window.innerWidth <= 768) toggleSidebar();
         };
 
         function hideAll() {
-            document.getElementById('main-app').style.display = 'none';
+            document.getElementById('welcome-view').style.display = 'none';
             document.getElementById('song-view').style.display = 'none';
             document.getElementById('admin-panel').style.display = 'none';
         }
@@ -634,7 +775,7 @@
             try {
                 await signInWithEmailAndPassword(auth, email, pass);
                 hideAll();
-                document.getElementById('main-app').style.display = 'block';
+                document.getElementById('admin-panel').style.display = 'block';
             } catch (error) {
                 errDiv.textContent = "Falha na autenticação.";
                 errDiv.style.display = 'block';
