@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <!-- Tratamento Rigoroso contra Cache (Evita carregamento de versões antigas) -->
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="0">
@@ -60,38 +59,53 @@
             margin-bottom: 20px;
             display: flex;
             flex-direction: column;
-            gap: 10px;
+            gap: 15px;
         }
 
-        .playlist-header-container {
+        .playlist-creation-zone {
             display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: 10px;
+            gap: 8px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid var(--primary-color);
         }
 
-        .playlist-select-wrapper { display: flex; align-items: center; gap: 10px; }
-
-        select {
+        .playlist-creation-zone input {
             background-color: var(--bg-color);
             color: var(--text-color);
             border: 1px solid var(--primary-color);
             padding: 8px 12px;
             border-radius: 4px;
-            font-size: 1rem;
-            outline: none;
+            font-size: 0.95rem;
+            flex-grow: 1;
         }
 
-        .inline-form { display: flex; gap: 8px; }
+        /* Container de botões (Chips) dinâmicos */
+        .playlist-chips-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
 
-        .inline-form input {
+        .chip {
             background-color: var(--bg-color);
             color: var(--text-color);
             border: 1px solid var(--primary-color);
-            padding: 8px;
-            border-radius: 4px;
-            font-size: 0.9rem;
+            padding: 8px 16px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 0.95rem;
+            transition: all 0.2s;
+        }
+
+        .chip:hover {
+            background-color: var(--primary-color);
+        }
+
+        .chip.active {
+            background-color: var(--chord-color);
+            color: #000;
+            border-color: var(--chord-color);
+            font-weight: bold;
         }
 
         #results-container { display: flex; flex-direction: column; gap: 10px; }
@@ -239,18 +253,13 @@
         </header>
 
         <div class="playlist-management">
-            <div class="playlist-header-container">
-                <div class="playlist-select-wrapper">
-                    <label for="playlist-view-select">Filtrar por Reunião:</label>
-                    <select id="playlist-view-select">
-                        <option value="all">Todas as Músicas</option>
-                    </select>
-                </div>
-                <div class="inline-form" id="playlist-creation-zone" style="display: none;">
-                    <input type="text" id="new-playlist-name" placeholder="Nova Playlist...">
-                    <button class="btn btn-accent" onclick="createNewPlaylistGroup()">Criar</button>
-                </div>
+            <div class="playlist-creation-zone" id="playlist-creation-zone" style="display: none;">
+                <input type="text" id="new-playlist-name" placeholder="Nova Playlist (ex: Culto de Domingo)">
+                <button class="btn btn-accent" onclick="createNewPlaylistGroup()">Criar</button>
             </div>
+            
+            <div id="playlist-chips-container" class="playlist-chips-container">
+                </div>
         </div>
 
         <div id="results-container"></div>
@@ -332,7 +341,6 @@
 
         let songsData = [];
         let localPlaylists = new Set();
-        let fuse;
         let selectedPlaylistFilter = 'all';
         let isAdmin = false;
         let editingSongId = null;
@@ -402,42 +410,46 @@
                 });
                 
                 songsData.sort((a, b) => a.title.localeCompare(b.title));
-                fuse = new Fuse(songsData, fuseOptions);
                 
                 localPlaylists.clear();
                 songsData.forEach(s => s.playlists.forEach(p => localPlaylists.add(p)));
                 
-                renderPlaylistSelector();
+                renderPlaylistChips();
                 filterAndRender();
             } catch (error) {
                 console.error(error);
             }
         }
 
-        function renderPlaylistSelector() {
-            const select = document.getElementById('playlist-view-select');
-            const currentValue = select.value;
-            select.innerHTML = '<option value="all">Todas as Músicas</option>';
+        // Renderiza os botões horizontais (Chips)
+        function renderPlaylistChips() {
+            const container = document.getElementById('playlist-chips-container');
+            container.innerHTML = '';
             
-            Array.from(localPlaylists).sort().forEach(p => {
-                const opt = document.createElement('option');
-                opt.value = p;
-                opt.textContent = p;
-                select.appendChild(opt);
-            });
-            
-            if (localPlaylists.has(currentValue)) {
-                select.value = currentValue;
-            } else {
-                select.value = 'all';
+            // Botão "Todas" fixo no início
+            const btnTodas = document.createElement('button');
+            btnTodas.className = `chip ${selectedPlaylistFilter === 'all' ? 'active' : ''}`;
+            btnTodas.textContent = 'Todas';
+            btnTodas.onclick = () => {
                 selectedPlaylistFilter = 'all';
-            }
+                renderPlaylistChips();
+                filterAndRender();
+            };
+            container.appendChild(btnTodas);
+            
+            // Botões das playlists criadas
+            Array.from(localPlaylists).sort().forEach(p => {
+                const btn = document.createElement('button');
+                btn.className = `chip ${selectedPlaylistFilter === p ? 'active' : ''}`;
+                btn.textContent = p;
+                btn.onclick = () => {
+                    selectedPlaylistFilter = p;
+                    renderPlaylistChips();
+                    filterAndRender();
+                };
+                container.appendChild(btn);
+            });
         }
-
-        document.getElementById('playlist-view-select').addEventListener('change', (e) => {
-            selectedPlaylistFilter = e.target.value;
-            filterAndRender();
-        });
 
         window.createNewPlaylistGroup = function() {
             const input = document.getElementById('new-playlist-name');
@@ -445,11 +457,8 @@
             if(name === '') return;
             
             localPlaylists.add(name);
-            renderPlaylistSelector();
-            
-            // CORREÇÃO: Força a interface de lista e botões a se redesenhar com a nova opção carregada
+            renderPlaylistChips();
             filterAndRender(); 
-            
             input.value = '';
         };
 
@@ -457,15 +466,18 @@
         searchInput.addEventListener('input', () => filterAndRender());
 
         function filterAndRender() {
-            const query = searchInput.value;
             let currentList = songsData;
 
-            if (query) {
-                currentList = fuse.search(query).map(r => r.item);
-            }
-
+            // 1º: Filtra rigorosamente por categoria
             if (selectedPlaylistFilter !== 'all') {
                 currentList = currentList.filter(s => s.playlists.includes(selectedPlaylistFilter));
+            }
+
+            // 2º: Aplica a pesquisa restrita ao bloco já filtrado
+            const query = searchInput.value;
+            if (query) {
+                const localFuse = new Fuse(currentList, fuseOptions);
+                currentList = localFuse.search(query).map(r => r.item);
             }
 
             renderResults(currentList);
@@ -476,7 +488,7 @@
             container.innerHTML = '';
             
             if(songs.length === 0) {
-                container.innerHTML = '<p style="text-align:center; color:#888;">Nenhuma música encontrada.</p>';
+                container.innerHTML = '<p style="text-align:center; color:#888;">Nenhuma música encontrada nesta seleção.</p>';
                 return;
             }
 
@@ -515,7 +527,7 @@
                         localPlaylists.forEach(p => {
                             const hasPlaylist = song.playlists.includes(p);
                             const pBtn = document.createElement('button');
-                            pBtn.textContent = hasPlaylist ? `✓ Dentro de: ${p}` : `+ Para: ${p}`;
+                            pBtn.textContent = hasPlaylist ? `✓ Remover de: ${p}` : `+ Adicionar a: ${p}`;
                             pBtn.style.color = hasPlaylist ? 'var(--chord-color)' : 'var(--text-color)';
                             pBtn.onclick = () => toggleSongPlaylistAssignment(song, p);
                             dropdown.appendChild(pBtn);
@@ -553,7 +565,7 @@
 
             try {
                 await updateDoc(doc(db, "repertorio", song.id), { playlists: updatedPlaylists });
-                await loadSongs();
+                await loadSongs(); // Recarrega os dados fresquinhos do banco
             } catch (err) {
                 console.error(err);
             }
