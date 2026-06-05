@@ -67,6 +67,7 @@
             gap: 8px;
             padding-bottom: 10px;
             border-bottom: 1px solid var(--primary-color);
+            flex-wrap: wrap;
         }
 
         .playlist-creation-zone input {
@@ -79,7 +80,6 @@
             flex-grow: 1;
         }
 
-        /* Container de botões (Chips) dinâmicos */
         .playlist-chips-container {
             display: flex;
             flex-wrap: wrap;
@@ -97,10 +97,7 @@
             transition: all 0.2s;
         }
 
-        .chip:hover {
-            background-color: var(--primary-color);
-        }
-
+        .chip:hover { background-color: var(--primary-color); }
         .chip.active {
             background-color: var(--chord-color);
             color: #000;
@@ -223,6 +220,7 @@
         }
         .btn-accent { background-color: var(--chord-color); color: #000; }
         .btn-back { background: none; color: var(--chord-color); text-decoration: underline; padding: 0; margin-bottom: 20px; font-size: 1rem;}
+        .btn-danger { background-color: var(--error-color); color: white; }
         
         form { display: flex; flex-direction: column; gap: 15px; }
         .form-group { display: flex; flex-direction: column; gap: 5px; }
@@ -254,8 +252,9 @@
 
         <div class="playlist-management">
             <div class="playlist-creation-zone" id="playlist-creation-zone" style="display: none;">
-                <input type="text" id="new-playlist-name" placeholder="Nova Playlist (ex: Culto de Domingo)">
-                <button class="btn btn-accent" onclick="createNewPlaylistGroup()">Criar</button>
+                <input type="text" id="new-playlist-name" placeholder="Nova Playlist...">
+                <button class="btn btn-accent" onclick="createNewPlaylistGroup()">Criar Playlist</button>
+                <button class="btn" style="background-color: var(--success-color); color: white;" onclick="openAdminForCreation()">+ Nova Música</button>
             </div>
             
             <div id="playlist-chips-container" class="playlist-chips-container">
@@ -276,7 +275,10 @@
         </div>
 
         <div id="admin-panel" class="admin-panel">
-            <button class="btn btn-back" onclick="closeAdmin()">← Sair</button>
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+                <button class="btn btn-back" style="margin: 0;" onclick="closeAdmin()">← Voltar para a lista</button>
+                <button id="btn-logout-inside" class="btn btn-danger" style="display: none;" onclick="triggerLogout()">Deslogar / Sair da Conta</button>
+            </div>
             
             <div id="login-section">
                 <h2>Login do Administrador</h2>
@@ -318,7 +320,7 @@
 
     <footer>
         <span id="admin-status-indicator" class="admin-status-text">Status: Carregando...</span>
-        <button class="btn" id="btn-admin-gate" onclick="handleAdminGateClick()">Área do Administrador</button>
+        <button class="btn" id="btn-admin-gate" onclick="openAdminPanelDirectly()">Painel Administrativo</button>
     </footer>
 
     <script type="module">
@@ -357,23 +359,17 @@
         onAuthStateChanged(auth, (user) => {
             isAdmin = !!user;
             const statusIndicator = document.getElementById('admin-status-indicator');
-            const gateBtn = document.getElementById('btn-admin-gate');
+            const logoutBtn = document.getElementById('btn-logout-inside');
 
             if (isAdmin) {
                 statusIndicator.textContent = "Status: Administrador Conectado";
-                gateBtn.textContent = "Deslogar / Sair";
-                gateBtn.style.backgroundColor = "var(--error-color)";
-                gateBtn.style.color = "white";
-                
+                logoutBtn.style.display = 'block';
                 document.getElementById('login-section').style.display = 'none';
                 document.getElementById('upload-section').style.display = 'block';
                 document.getElementById('playlist-creation-zone').style.display = 'flex';
             } else {
                 statusIndicator.textContent = "Status: Modo Leitura (Desconectado)";
-                gateBtn.textContent = "Área do Administrador";
-                gateBtn.style.backgroundColor = "var(--primary-color)";
-                gateBtn.style.color = "var(--text-color)";
-                
+                logoutBtn.style.display = 'none';
                 document.getElementById('login-section').style.display = 'block';
                 document.getElementById('upload-section').style.display = 'none';
                 document.getElementById('playlist-creation-zone').style.display = 'none';
@@ -381,19 +377,29 @@
             filterAndRender();
         });
 
-        window.handleAdminGateClick = async function() {
-            if (isAdmin) {
-                if (confirm("Deseja encerrar a sessão de administrador?")) {
-                    try {
-                        await signOut(auth);
-                        hideAll();
-                        document.getElementById('main-app').style.display = 'block';
-                    } catch (err) {
-                        console.error("Erro ao deslogar:", err);
-                    }
+        window.openAdminPanelDirectly = function() {
+            hideAll();
+            document.getElementById('admin-panel').style.display = 'block';
+        };
+
+        window.openAdminForCreation = function() {
+            editingSongId = null;
+            hideAll();
+            document.getElementById('admin-panel').style.display = 'block';
+            document.getElementById('upload-form').reset();
+            document.getElementById('form-title').textContent = "Adicionar Nova Música";
+            document.getElementById('btn-submit-song').textContent = "Salvar Música";
+            document.getElementById('upload-msg').style.display = 'none';
+        };
+
+        window.triggerLogout = async function() {
+            if (confirm("Deseja encerrar a sessão de administrador?")) {
+                try {
+                    await signOut(auth);
+                    closeAdmin();
+                } catch (err) {
+                    console.error(err);
                 }
-            } else {
-                openAdmin();
             }
         };
 
@@ -421,12 +427,10 @@
             }
         }
 
-        // Renderiza os botões horizontais (Chips)
         function renderPlaylistChips() {
             const container = document.getElementById('playlist-chips-container');
             container.innerHTML = '';
             
-            // Botão "Todas" fixo no início
             const btnTodas = document.createElement('button');
             btnTodas.className = `chip ${selectedPlaylistFilter === 'all' ? 'active' : ''}`;
             btnTodas.textContent = 'Todas';
@@ -437,7 +441,6 @@
             };
             container.appendChild(btnTodas);
             
-            // Botões das playlists criadas
             Array.from(localPlaylists).sort().forEach(p => {
                 const btn = document.createElement('button');
                 btn.className = `chip ${selectedPlaylistFilter === p ? 'active' : ''}`;
@@ -468,12 +471,10 @@
         function filterAndRender() {
             let currentList = songsData;
 
-            // 1º: Filtra rigorosamente por categoria
             if (selectedPlaylistFilter !== 'all') {
                 currentList = currentList.filter(s => s.playlists.includes(selectedPlaylistFilter));
             }
 
-            // 2º: Aplica a pesquisa restrita ao bloco já filtrado
             const query = searchInput.value;
             if (query) {
                 const localFuse = new Fuse(currentList, fuseOptions);
@@ -565,7 +566,7 @@
 
             try {
                 await updateDoc(doc(db, "repertorio", song.id), { playlists: updatedPlaylists });
-                await loadSongs(); // Recarrega os dados fresquinhos do banco
+                await loadSongs();
             } catch (err) {
                 console.error(err);
             }
@@ -596,7 +597,7 @@
         };
 
         function triggerEditMode(song) {
-            openAdmin();
+            openAdminPanelDirectly();
             editingSongId = song.id;
             document.getElementById('form-title').textContent = "Editar Música";
             document.getElementById('btn-submit-song').textContent = "Atualizar Música";
@@ -609,16 +610,6 @@
         window.closeSong = function() {
             hideAll();
             document.getElementById('main-app').style.display = 'block';
-        };
-
-        window.openAdmin = function() {
-            hideAll();
-            document.getElementById('admin-panel').style.display = 'block';
-            if(!editingSongId) {
-                document.getElementById('upload-form').reset();
-                document.getElementById('form-title').textContent = "Adicionar Nova Música";
-                document.getElementById('btn-submit-song').textContent = "Salvar Música";
-            }
         };
 
         window.closeAdmin = function() {
