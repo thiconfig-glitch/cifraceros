@@ -60,6 +60,22 @@
                         <h1 class="song-title" id="sv-title"></h1>
                         <div class="transpose-badge" id="sv-transpose"></div>
                     </div>
+
+                    <div class="song-tools">
+                        <div class="tool-group">
+                            <span class="tool-label">Fonte:</span>
+                            <button class="tool-btn" onclick="adjustFontSize(-0.1)">A-</button>
+                            <button class="tool-btn" onclick="adjustFontSize(0.1)">A+</button>
+                        </div>
+                        <div class="tool-group">
+                            <span class="tool-label">Auto-Scroll:</span>
+                            <button class="tool-btn" onclick="adjustScrollSpeed(-1)">-</button>
+                            <button class="tool-btn" id="btn-scroll-play" onclick="toggleAutoScroll()">▶</button>
+                            <button class="tool-btn" onclick="adjustScrollSpeed(1)">+</button>
+                            <span id="scroll-speed-display" class="scroll-speed-value">1</span>
+                        </div>
+                    </div>
+
                     <pre id="sv-content"></pre>
                 </div>
 

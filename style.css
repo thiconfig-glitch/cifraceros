@@ -342,7 +342,63 @@ body {
     align-items: center;
     border-bottom: 1px solid var(--primary-color);
     padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.song-tools {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: rgba(65, 90, 119, 0.15);
+    padding: 12px 20px;
+    border-radius: 12px;
     margin-bottom: 30px;
+    align-items: center;
+    border: 1px solid rgba(65, 90, 119, 0.2);
+}
+
+.tool-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.tool-label {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #888;
+}
+
+.tool-btn {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border: none;
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s;
+}
+
+.tool-btn:hover { background-color: var(--chord-color); color: #000; }
+.tool-btn:active { transform: scale(0.9); }
+
+.tool-btn.active {
+    background-color: var(--chord-color);
+    color: #000;
+}
+
+.scroll-speed-value {
+    font-family: monospace;
+    font-size: 0.9rem;
+    color: var(--chord-color);
+    min-width: 20px;
+    text-align: center;
 }
 
 .song-title { margin: 0; font-size: 2.2rem; color: #fff; }

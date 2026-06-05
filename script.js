@@ -20,6 +20,10 @@ let localPlaylists = new Set();
 let selectedPlaylistFilter = 'all';
 let isAdmin = false;
 let editingSongId = null;
+let currentFontSize = 1.15;
+let isScrolling = false;
+let scrollSpeed = 1;
+let scrollInterval = null;
 
 const fuseOptions = {
     includeScore: true,
@@ -274,16 +278,69 @@ function formatCifraText(text) {
 
 window.openSong = function(song) {
     hideAll();
+    stopAutoScroll();
     closeSidebar();
     document.getElementById('song-view').style.display = 'block';
     document.getElementById('sv-title').textContent = song.title;
     document.getElementById('sv-transpose').textContent = song.transpose ? `Tom: ${song.transpose}` : 'Tom Original';
-    document.getElementById('sv-content').innerHTML = formatCifraText(song.lyrics);
+    const contentArea = document.getElementById('sv-content');
+    contentArea.innerHTML = formatCifraText(song.lyrics);
+    contentArea.style.fontSize = `${currentFontSize}rem`;
     document.querySelector('.main-content').scrollTop = 0;
+};
+
+window.adjustFontSize = function(delta) {
+    currentFontSize = Math.max(0.5, Math.min(3, currentFontSize + delta));
+    document.getElementById('sv-content').style.fontSize = `${currentFontSize}rem`;
+};
+
+window.toggleAutoScroll = function() {
+    isScrolling = !isScrolling;
+    const btn = document.getElementById('btn-scroll-play');
+    if (isScrolling) {
+        btn.textContent = '⏸';
+        btn.classList.add('active');
+        startAutoScroll();
+    } else {
+        stopAutoScroll();
+    }
+};
+
+function startAutoScroll() {
+    const mainContent = document.querySelector('.main-content');
+    let lastTime = performance.now();
+
+    function scrollStep(currentTime) {
+        if (!isScrolling) return;
+        
+        const deltaTime = currentTime - lastTime;
+        if (deltaTime > 16) { // Approx 60fps
+            mainContent.scrollTop += (scrollSpeed * deltaTime) / 50;
+            lastTime = currentTime;
+        }
+        scrollInterval = requestAnimationFrame(scrollStep);
+    }
+    scrollInterval = requestAnimationFrame(scrollStep);
+}
+
+function stopAutoScroll() {
+    isScrolling = false;
+    if (scrollInterval) cancelAnimationFrame(scrollInterval);
+    const btn = document.getElementById('btn-scroll-play');
+    if (btn) {
+        btn.textContent = '▶';
+        btn.classList.remove('active');
+    }
+}
+
+window.adjustScrollSpeed = function(delta) {
+    scrollSpeed = Math.max(1, Math.min(20, scrollSpeed + delta));
+    document.getElementById('scroll-speed-display').textContent = scrollSpeed;
 };
 
 function triggerEditMode(song) {
     openAdminPanelDirectly();
+    stopAutoScroll();
     editingSongId = song.id;
     document.getElementById('form-title').textContent = "Editar Música";
     document.getElementById('btn-submit-song').textContent = "Atualizar Música";
@@ -295,6 +352,7 @@ function triggerEditMode(song) {
 
 window.closeSong = function() {
     hideAll();
+    stopAutoScroll();
     document.getElementById('welcome-view').style.display = 'flex';
     if(window.innerWidth <= 768) toggleSidebar();
 };
@@ -302,6 +360,7 @@ window.closeSong = function() {
 window.closeAdmin = function() {
     editingSongId = null;
     hideAll();
+    stopAutoScroll();
     document.getElementById('welcome-view').style.display = 'flex';
     if(window.innerWidth <= 768) toggleSidebar();
 };
