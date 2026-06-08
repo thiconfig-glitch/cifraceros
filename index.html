@@ -10,6 +10,7 @@
     
     <title>CifrasCeros</title>
     <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -123,6 +124,14 @@
                 </div>
             </div>
         </main>
+
+        <aside id="right-sidebar" class="right-sidebar">
+            <div class="setlist-header">
+                <h3 style="margin:0; color: var(--chord-color);">Setlist / Ordem</h3>
+                <button class="btn btn-danger" onclick="clearSetlist()" style="padding: 4px 8px; font-size: 0.8rem;">Limpar</button>
+            </div>
+            <div id="setlist-container" class="setlist-container"></div>
+        </aside>
     </div>
 
     <script type="module" src="script.js"></script>

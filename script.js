@@ -186,6 +186,7 @@ function renderResults(songs) {
     songs.forEach(song => {
         const item = document.createElement('div');
         item.className = 'song-item';
+        item.dataset.id = song.id; // Added for drag and drop
         
         const clickableArea = document.createElement('div');
         clickableArea.className = 'song-clickable';
@@ -231,19 +232,47 @@ function renderResults(songs) {
 
         container.appendChild(item);
     });
+
+    // Make results list draggable for the Setlist
+    if (window.Sortable) {
+        if (window.resultsSortable) {
+            window.resultsSortable.destroy();
+        }
+        window.resultsSortable = new Sortable(container, {
+            group: {
+                name: 'shared',
+                pull: 'clone',
+                put: false
+            },
+            sort: false,
+            animation: 150
+        });
+    }
 }
 
 window.toggleDropdownMenu = function(songId) {
     const menus = document.querySelectorAll('.dropdown-menu');
     menus.forEach(m => {
-        if(m.id !== `dropdown-${songId}`) m.style.display = 'none';
+        if(m.id !== `dropdown-${songId}`) {
+            m.style.display = 'none';
+            if (m.closest('.song-item')) m.closest('.song-item').classList.remove('dropdown-open');
+        }
     });
     const target = document.getElementById(`dropdown-${songId}`);
-    target.style.display = target.style.display === 'block' ? 'none' : 'block';
+    if (target.style.display === 'block') {
+        target.style.display = 'none';
+        if (target.closest('.song-item')) target.closest('.song-item').classList.remove('dropdown-open');
+    } else {
+        target.style.display = 'block';
+        if (target.closest('.song-item')) target.closest('.song-item').classList.add('dropdown-open');
+    }
 };
 
 document.addEventListener('click', () => {
-    document.querySelectorAll('.dropdown-menu').forEach(m => m.style.display = 'none');
+    document.querySelectorAll('.dropdown-menu').forEach(m => {
+        m.style.display = 'none';
+        if (m.closest('.song-item')) m.closest('.song-item').classList.remove('dropdown-open');
+    });
 });
 
 async function toggleSongPlaylistAssignment(song, playlistName) {
@@ -434,3 +463,95 @@ document.getElementById('upload-form').addEventListener('submit', async (e) => {
 });
 
 startListeningToSongs();
+
+// --- Setlist / Ordem Logic ---
+let setlist = JSON.parse(localStorage.getItem('setlistCifraCeros') || '[]');
+
+function saveSetlist() {
+    localStorage.setItem('setlistCifraCeros', JSON.stringify(setlist));
+}
+
+function renderSetlist() {
+    const container = document.getElementById('setlist-container');
+    if (!container) return;
+    
+    container.innerHTML = '';
+    
+    if (setlist.length === 0) {
+        container.innerHTML = '<p class="empty-setlist-msg">Arraste as músicas aqui para montar sua ordem.</p>';
+    } else {
+        setlist.forEach((song, index) => {
+            const item = document.createElement('div');
+            item.className = 'setlist-item';
+            item.dataset.index = index;
+            
+            const titleSpan = document.createElement('span');
+            titleSpan.textContent = song.title;
+            titleSpan.style.flexGrow = '1';
+            titleSpan.onclick = () => {
+                const fullSong = songsData.find(s => s.id === song.id);
+                if (fullSong) openSong(fullSong);
+            };
+            
+            const removeBtn = document.createElement('button');
+            removeBtn.className = 'remove-setlist-btn';
+            removeBtn.textContent = '✕';
+            removeBtn.onclick = (e) => {
+                e.stopPropagation();
+                setlist.splice(index, 1);
+                saveSetlist();
+                renderSetlist();
+            };
+
+            item.appendChild(titleSpan);
+            item.appendChild(removeBtn);
+            container.appendChild(item);
+        });
+    }
+
+    if (window.Sortable && !window.setlistSortable) {
+        window.setlistSortable = new Sortable(container, {
+            group: {
+                name: 'shared',
+                put: true
+            },
+            animation: 150,
+            onAdd: function (evt) {
+                const songId = evt.item.dataset.id;
+                const song = songsData.find(s => s.id === songId);
+                
+                // Remove the cloned node so we can re-render fresh
+                if (evt.item.parentNode) {
+                    evt.item.parentNode.removeChild(evt.item);
+                }
+                
+                if (song) {
+                    setlist.splice(evt.newIndex, 0, { id: song.id, title: song.title, transpose: song.transpose });
+                    saveSetlist();
+                    renderSetlist();
+                }
+            },
+            onUpdate: function (evt) {
+                const movedItem = setlist.splice(evt.oldIndex, 1)[0];
+                setlist.splice(evt.newIndex, 0, movedItem);
+                saveSetlist();
+                renderSetlist();
+            }
+        });
+    }
+}
+
+window.clearSetlist = function() {
+    if (confirm("Deseja limpar toda a lista?")) {
+        setlist = [];
+        saveSetlist();
+        renderSetlist();
+    }
+};
+
+// Initialize setlist on load
+document.addEventListener('DOMContentLoaded', () => {
+    // We wait a bit to ensure Sortable is loaded from CDN
+    setTimeout(renderSetlist, 500);
+});
+
