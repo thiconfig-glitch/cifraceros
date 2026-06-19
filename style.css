@@ -250,7 +250,6 @@ body {
 
 .song-item {
     background-color: rgba(65, 90, 119, 0.1);
-    padding: 14px 18px;
     border-radius: 10px;
     font-size: 1.05rem;
     display: flex;
@@ -259,13 +258,14 @@ body {
     position: relative;
     transition: all 0.2s;
     border: 1px solid transparent;
+    user-select: none;
 }
 
 .song-item.dropdown-open {
     z-index: 50;
 }
 
-.song-item:hover { 
+.song-item:hover {
     background-color: rgba(65, 90, 119, 0.3);
     border-color: var(--primary-color);
     transform: translateX(4px);
@@ -277,7 +277,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-right: 15px;
+    padding: 14px 18px;
 }
 
 .three-dots-btn {
@@ -291,6 +291,7 @@ body {
     z-index: 5;
     opacity: 0.5;
     transition: opacity 0.2s;
+    margin-right: 12px;
 }
 
 .song-item:hover .three-dots-btn { opacity: 1; }
@@ -561,7 +562,7 @@ footer {
 
 .setlist-item {
     background-color: rgba(65, 90, 119, 0.2);
-    padding: 12px 16px;
+    padding: 0;
     border-radius: 8px;
     font-size: 0.95rem;
     display: flex;
@@ -570,6 +571,7 @@ footer {
     cursor: grab;
     border: 1px solid transparent;
     transition: all 0.2s;
+    user-select: none;
 }
 
 .setlist-item:active {
@@ -593,6 +595,45 @@ footer {
 
 .remove-setlist-btn:hover {
     opacity: 1;
+}
+
+/* Mobile Setlist Overlay & Drawer */
+.mobile-setlist-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(5px);
+    z-index: 150;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.mobile-setlist-overlay.open {
+    display: block;
+    opacity: 1;
+}
+
+.mobile-setlist-drawer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    background-color: #16213e;
+    border-radius: 20px 20px 0 0;
+    transform: translateY(100%);
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.mobile-setlist-overlay.open .mobile-setlist-drawer {
+    transform: translateY(0);
 }
 
 @media (max-width: 1100px) {

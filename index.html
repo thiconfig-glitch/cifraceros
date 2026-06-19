@@ -47,6 +47,17 @@
             <div class="mobile-top-bar">
                 <button class="hamburger-btn" onclick="toggleSidebar()">☰</button>
                 <h2 style="margin:0; font-size: 1.2rem;">CifrasCeros</h2>
+                <button class="btn btn-accent" id="btn-mobile-setlist" style="padding: 4px 10px; font-size: 0.8rem; margin-left: auto;" onclick="toggleMobileSetlist()">Setlist</button>
+            </div>
+
+            <div id="mobile-setlist-overlay" class="mobile-setlist-overlay" onclick="toggleMobileSetlist()">
+                <div class="mobile-setlist-drawer" onclick="event.stopPropagation()">
+                    <div class="setlist-header">
+                        <h3 style="margin:0; color: var(--chord-color);">Setlist / Ordem</h3>
+                        <button class="btn btn-danger" onclick="clearSetlist()" style="padding: 4px 8px; font-size: 0.8rem;">Limpar</button>
+                    </div>
+                    <div id="mobile-setlist-container" class="setlist-container"></div>
+                </div>
             </div>
 
             <div id="welcome-view">

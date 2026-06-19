@@ -22,9 +22,10 @@ let isAdmin = false;
 let editingSongId = null;
 let currentFontSize = 1.15;
 let isScrolling = false;
-let scrollSpeed = 0.5; // Changed to fractional for more precision
+let scrollSpeed = 0.5;
 let scrollInterval = null;
-let scrollPos = 0; // Sub-pixel accumulator
+let scrollPos = 0;
+let isInitialLoad = true;
 
 const fuseOptions = {
     includeScore: true,
@@ -37,24 +38,34 @@ const fuseOptions = {
 
 onAuthStateChanged(auth, (user) => {
     isAdmin = !!user;
-    const statusIndicator = document.getElementById('admin-status-indicator');
-    const logoutBtn = document.getElementById('btn-logout-inside');
-
-    if (isAdmin) {
-        statusIndicator.textContent = "Status: Administrador";
-        logoutBtn.style.display = 'block';
-        document.getElementById('login-section').style.display = 'none';
-        document.getElementById('upload-section').style.display = 'block';
-        document.getElementById('playlist-creation-zone').style.display = 'flex';
-    } else {
-        statusIndicator.textContent = "Status: Leitura";
-        logoutBtn.style.display = 'none';
-        document.getElementById('login-section').style.display = 'block';
-        document.getElementById('upload-section').style.display = 'none';
-        document.getElementById('playlist-creation-zone').style.display = 'none';
-    }
+    updateAdminUI();
     filterAndRender();
 });
+
+function updateAdminUI() {
+    const statusIndicator = document.getElementById('admin-status-indicator');
+    const logoutBtn = document.getElementById('btn-logout-inside');
+    const loginSection = document.getElementById('login-section');
+    const uploadSection = document.getElementById('upload-section');
+    const playlistZone = document.getElementById('playlist-creation-zone');
+    const btnAdminGate = document.getElementById('btn-admin-gate');
+
+    if (isAdmin) {
+        if (statusIndicator) statusIndicator.textContent = "Status: Administrador";
+        if (logoutBtn) logoutBtn.style.display = 'block';
+        if (loginSection) loginSection.style.display = 'none';
+        if (uploadSection) uploadSection.style.display = 'block';
+        if (playlistZone) playlistZone.style.display = 'flex';
+        if (btnAdminGate) btnAdminGate.style.display = 'none';
+    } else {
+        if (statusIndicator) statusIndicator.textContent = "Status: Leitura";
+        if (logoutBtn) logoutBtn.style.display = 'none';
+        if (loginSection) loginSection.style.display = 'block';
+        if (uploadSection) uploadSection.style.display = 'none';
+        if (playlistZone) playlistZone.style.display = 'none';
+        if (btnAdminGate) btnAdminGate.style.display = 'block';
+    }
+}
 
 window.toggleSidebar = function() {
     document.getElementById('sidebar').classList.toggle('open');
@@ -95,6 +106,9 @@ window.triggerLogout = async function() {
 };
 
 function startListeningToSongs() {
+    const resultsContainer = document.getElementById('results-container');
+    resultsContainer.innerHTML = '<p style="text-align:center; padding:20px; color:#888;">Carregando repertório...</p>';
+
     onSnapshot(collection(db, "repertorio"), (querySnapshot) => {
         songsData = querySnapshot.docs.map(d => {
             const data = d.data();
@@ -110,10 +124,17 @@ function startListeningToSongs() {
         localPlaylists.clear();
         songsData.forEach(s => s.playlists.forEach(p => localPlaylists.add(p)));
         
+        if (isInitialLoad) {
+            isInitialLoad = false;
+            document.getElementById('admin-status-indicator').textContent = isAdmin ? "Status: Administrador" : "Status: Leitura";
+        }
+
         renderPlaylistChips();
         filterAndRender();
+        renderSetlist(); // Re-render setlist to ensure titles are synced
     }, (error) => {
         console.error("Erro ao escutar mudanças: ", error);
+        resultsContainer.innerHTML = '<p style="text-align:center; color:var(--error-color);">Erro ao carregar dados.</p>';
     });
 }
 
@@ -155,8 +176,15 @@ window.createNewPlaylistGroup = function() {
     input.value = '';
 };
 
+// Search Debouncing
+let searchTimeout = null;
 const searchInput = document.getElementById('search-input');
-searchInput.addEventListener('input', () => filterAndRender());
+searchInput.addEventListener('input', () => {
+    clearTimeout(searchTimeout);
+    searchTimeout = setTimeout(() => {
+        filterAndRender();
+    }, 300);
+});
 
 function filterAndRender() {
     let currentList = songsData;
@@ -178,7 +206,7 @@ function renderResults(songs) {
     const container = document.getElementById('results-container');
     container.innerHTML = '';
     
-    if(songs.length === 0) {
+    if(songs.length === 0 && !isInitialLoad) {
         container.innerHTML = '<p style="text-align:center; color:#888;">Nenhuma música encontrada.</p>';
         return;
     }
@@ -186,7 +214,7 @@ function renderResults(songs) {
     songs.forEach(song => {
         const item = document.createElement('div');
         item.className = 'song-item';
-        item.dataset.id = song.id; // Added for drag and drop
+        item.dataset.id = song.id;
         
         const clickableArea = document.createElement('div');
         clickableArea.className = 'song-clickable';
@@ -201,7 +229,7 @@ function renderResults(songs) {
             dotsBtn.innerHTML = '⋮';
             dotsBtn.onclick = (e) => {
                 e.stopPropagation();
-                toggleDropdownMenu(song.id);
+                toggleDropdownMenu(song.id, dropdown);
             };
             
             const dropdown = document.createElement('div');
@@ -233,7 +261,6 @@ function renderResults(songs) {
         container.appendChild(item);
     });
 
-    // Make results list draggable for the Setlist
     if (window.Sortable) {
         if (window.resultsSortable) {
             window.resultsSortable.destroy();
@@ -245,26 +272,34 @@ function renderResults(songs) {
                 put: false
             },
             sort: false,
-            animation: 150
+            animation: 150,
+            delay: 100,
+            delayOnTouchOnly: false,
+            touchStartThreshold: 5,
+            filter: '.three-dots-btn, .dropdown-menu',
+            preventOnFilter: false
         });
     }
 }
 
-window.toggleDropdownMenu = function(songId) {
+window.toggleDropdownMenu = function(songId, targetElement = null) {
     const menus = document.querySelectorAll('.dropdown-menu');
+    const targetId = `dropdown-${songId}`;
     menus.forEach(m => {
-        if(m.id !== `dropdown-${songId}`) {
+        if(m.id !== targetId) {
             m.style.display = 'none';
             if (m.closest('.song-item')) m.closest('.song-item').classList.remove('dropdown-open');
         }
     });
-    const target = document.getElementById(`dropdown-${songId}`);
-    if (target.style.display === 'block') {
-        target.style.display = 'none';
-        if (target.closest('.song-item')) target.closest('.song-item').classList.remove('dropdown-open');
-    } else {
-        target.style.display = 'block';
-        if (target.closest('.song-item')) target.closest('.song-item').classList.add('dropdown-open');
+    const target = targetElement || document.getElementById(targetId);
+    if (target) {
+        if (target.style.display === 'block') {
+            target.style.display = 'none';
+            if (target.closest('.song-item')) target.closest('.song-item').classList.remove('dropdown-open');
+        } else {
+            target.style.display = 'block';
+            if (target.closest('.song-item')) target.closest('.song-item').classList.add('dropdown-open');
+        }
     }
 };
 
@@ -309,7 +344,7 @@ function formatCifraText(text) {
 window.openSong = function(song) {
     hideAll();
     stopAutoScroll();
-    scrollPos = 0; // Reset sub-pixel position
+    scrollPos = 0;
     closeSidebar();
     document.getElementById('song-view').style.display = 'block';
     document.getElementById('sv-title').textContent = song.title;
@@ -332,12 +367,23 @@ window.toggleAutoScroll = function() {
         btn.textContent = '⏸';
         btn.classList.add('active');
         const mainContent = document.querySelector('.main-content');
-        scrollPos = mainContent.scrollTop; // Sync sub-pixel with current scroll
+        scrollPos = mainContent.scrollTop;
         startAutoScroll();
     } else {
         stopAutoScroll();
     }
 };
+
+// Sync internal scrollPos with manual scrolling to prevent jumping
+document.querySelector('.main-content').addEventListener('scroll', (e) => {
+    if (isScrolling) {
+        // We only update scrollPos if the difference is significant to avoid feedback loops
+        const currentTop = e.target.scrollTop;
+        if (Math.abs(currentTop - scrollPos) > 5) {
+            scrollPos = currentTop;
+        }
+    }
+});
 
 function startAutoScroll() {
     const mainContent = document.querySelector('.main-content');
@@ -349,13 +395,11 @@ function startAutoScroll() {
         const deltaTime = currentTime - lastTime;
         lastTime = currentTime;
 
-        // Base speed: 50 pixels per second at speed 1.0
         const pixelsPerMs = (scrollSpeed * 50) / 1000;
         scrollPos += pixelsPerMs * deltaTime;
         
         mainContent.scrollTop = Math.floor(scrollPos);
 
-        // Stop if reached the end
         if (mainContent.scrollTop + mainContent.clientHeight >= mainContent.scrollHeight - 1) {
             stopAutoScroll();
             return;
@@ -377,9 +421,7 @@ function stopAutoScroll() {
 }
 
 window.adjustScrollSpeed = function(delta) {
-    // Range from 0.1 to 3.0, steps of 0.1
     scrollSpeed = Math.max(0.1, Math.min(5.0, parseFloat((scrollSpeed + delta * 0.2).toFixed(1))));
-    // Display as percentage for better UX (0.5 = 50%)
     document.getElementById('scroll-speed-display').textContent = Math.round(scrollSpeed * 100) + '%';
 };
 
@@ -436,7 +478,12 @@ document.getElementById('login-form').addEventListener('submit', async (e) => {
 document.getElementById('upload-form').addEventListener('submit', async (e) => {
     e.preventDefault();
     const msgDiv = document.getElementById('upload-msg');
+    const submitBtn = document.getElementById('btn-submit-song');
     msgDiv.style.display = 'none';
+    
+    const originalBtnText = submitBtn.textContent;
+    submitBtn.disabled = true;
+    submitBtn.textContent = "Salvando...";
 
     const payload = {
         title: document.getElementById('m-title').value,
@@ -459,99 +506,114 @@ document.getElementById('upload-form').addEventListener('submit', async (e) => {
         msgDiv.textContent = "Erro ao salvar.";
         msgDiv.className = "msg msg-error";
         msgDiv.style.display = 'block';
+    } finally {
+        submitBtn.disabled = false;
+        submitBtn.textContent = originalBtnText;
     }
 });
 
 startListeningToSongs();
 
-// --- Setlist / Ordem Logic ---
-let setlist = JSON.parse(localStorage.getItem('setlistCifraCeros') || '[]');
+// --- Setlist Logic (Refactored for Stability) ---
+// We store only IDs in localStorage to ensure data consistency
+let setlistIds = JSON.parse(localStorage.getItem('setlistCifraCerosIds') || '[]');
 
 function saveSetlist() {
-    localStorage.setItem('setlistCifraCeros', JSON.stringify(setlist));
+    localStorage.setItem('setlistCifraCerosIds', JSON.stringify(setlistIds));
 }
 
+window.toggleMobileSetlist = function() {
+    document.getElementById('mobile-setlist-overlay').classList.toggle('open');
+};
+
 function renderSetlist() {
-    const container = document.getElementById('setlist-container');
-    if (!container) return;
+    const desktopContainer = document.getElementById('setlist-container');
+    const mobileContainer = document.getElementById('mobile-setlist-container');
     
-    container.innerHTML = '';
-    
-    if (setlist.length === 0) {
-        container.innerHTML = '<p class="empty-setlist-msg">Arraste as músicas aqui para montar sua ordem.</p>';
-    } else {
-        setlist.forEach((song, index) => {
-            const item = document.createElement('div');
-            item.className = 'setlist-item';
-            item.dataset.index = index;
-            
-            const titleSpan = document.createElement('span');
-            titleSpan.textContent = song.title;
-            titleSpan.style.flexGrow = '1';
-            titleSpan.onclick = () => {
-                const fullSong = songsData.find(s => s.id === song.id);
-                if (fullSong) openSong(fullSong);
-            };
-            
-            const removeBtn = document.createElement('button');
-            removeBtn.className = 'remove-setlist-btn';
-            removeBtn.textContent = '✕';
-            removeBtn.onclick = (e) => {
-                e.stopPropagation();
-                setlist.splice(index, 1);
-                saveSetlist();
-                renderSetlist();
-            };
-
-            item.appendChild(titleSpan);
-            item.appendChild(removeBtn);
-            container.appendChild(item);
-        });
-    }
-
-    if (window.Sortable && !window.setlistSortable) {
-        window.setlistSortable = new Sortable(container, {
-            group: {
-                name: 'shared',
-                put: true
-            },
-            animation: 150,
-            onAdd: function (evt) {
-                const songId = evt.item.dataset.id;
-                const song = songsData.find(s => s.id === songId);
+    [desktopContainer, mobileContainer].forEach(container => {
+        if (!container) return;
+        container.innerHTML = '';
+        
+        if (setlistIds.length === 0) {
+            container.innerHTML = '<p class="empty-setlist-msg">Arraste as músicas aqui para montar sua ordem.</p>';
+        } else {
+            setlistIds.forEach((id, index) => {
+                const song = songsData.find(s => s.id === id);
+                const item = document.createElement('div');
+                item.className = 'setlist-item';
+                item.dataset.id = id;
                 
-                // Remove the cloned node so we can re-render fresh
-                if (evt.item.parentNode) {
-                    evt.item.parentNode.removeChild(evt.item);
-                }
+                const clickableArea = document.createElement('div');
+                clickableArea.className = 'song-clickable';
+                clickableArea.style.flexGrow = '1';
+                clickableArea.innerHTML = `<span>${song ? song.title : 'Carregando...'}</span>`;
                 
                 if (song) {
-                    setlist.splice(evt.newIndex, 0, { id: song.id, title: song.title, transpose: song.transpose });
+                    clickableArea.onclick = () => {
+                        openSong(song);
+                        if (document.getElementById('mobile-setlist-overlay').classList.contains('open')) {
+                            toggleMobileSetlist();
+                        }
+                    };
+                }
+                
+                const removeBtn = document.createElement('button');
+                removeBtn.className = 'remove-setlist-btn';
+                removeBtn.textContent = '✕';
+                removeBtn.onclick = (e) => {
+                    e.stopPropagation();
+                    setlistIds.splice(index, 1);
+                    saveSetlist();
+                    renderSetlist();
+                };
+
+                item.appendChild(clickableArea);
+                item.appendChild(removeBtn);
+                container.appendChild(item);
+            });
+        }
+
+        // Initialize Sortable for this specific container
+        if (window.Sortable) {
+            // Clean up old instances if they exist on this specific element
+            if (container._sortable) container._sortable.destroy();
+            
+            container._sortable = new Sortable(container, {
+                group: {
+                    name: 'shared',
+                    put: true
+                },
+                animation: 150,
+                delay: 100,
+                delayOnTouchOnly: false,
+                touchStartThreshold: 5,
+                onAdd: function (evt) {
+                    const songId = evt.item.dataset.id;
+                    if (evt.item.parentNode) evt.item.parentNode.removeChild(evt.item);
+                    setlistIds.splice(evt.newIndex, 0, songId);
+                    saveSetlist();
+                    renderSetlist();
+                },
+                onUpdate: function (evt) {
+                    const movedId = setlistIds.splice(evt.oldIndex, 1)[0];
+                    setlistIds.splice(evt.newIndex, 0, movedId);
                     saveSetlist();
                     renderSetlist();
                 }
-            },
-            onUpdate: function (evt) {
-                const movedItem = setlist.splice(evt.oldIndex, 1)[0];
-                setlist.splice(evt.newIndex, 0, movedItem);
-                saveSetlist();
-                renderSetlist();
-            }
-        });
-    }
+            });
+        }
+    });
 }
 
 window.clearSetlist = function() {
     if (confirm("Deseja limpar toda a lista?")) {
-        setlist = [];
+        setlistIds = [];
         saveSetlist();
         renderSetlist();
     }
 };
 
-// Initialize setlist on load
 document.addEventListener('DOMContentLoaded', () => {
-    // We wait a bit to ensure Sortable is loaded from CDN
     setTimeout(renderSetlist, 500);
 });
 
