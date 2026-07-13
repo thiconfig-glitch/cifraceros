@@ -316,14 +316,17 @@ document.addEventListener('click', () => {
     });
 });
 
-// Efeito de sombra/partícula acompanhando o mouse
-const mouseBlob = document.getElementById('mouse-blob');
-document.addEventListener('mousemove', (e) => {
-    if(mouseBlob) {
-        mouseBlob.style.left = `${e.clientX}px`;
-        mouseBlob.style.top = `${e.clientY}px`;
+// Efeito Antigravity Background Blob
+const blob = document.getElementById('blob');
+document.body.onpointermove = event => { 
+    if(blob) {
+        const { clientX, clientY } = event;
+        blob.animate({
+            left: `${clientX}px`,
+            top: `${clientY}px`
+        }, { duration: 3000, fill: "forwards" });
     }
-});
+};
 
 async function toggleSongPlaylistAssignment(song, playlistName) {
     let updatedPlaylists = [...song.playlists];
