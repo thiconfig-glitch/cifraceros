@@ -1,7 +1,8 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-app.js";
 import { getFirestore, collection, onSnapshot, addDoc, updateDoc, doc } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-firestore.js";
 import { getAuth, signInWithEmailAndPassword, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-auth.js";
-
+import Fuse from "https://cdn.jsdelivr.net/npm/fuse.js@6.6.2/dist/fuse.esm.js";
+import Sortable from "https://cdn.jsdelivr.net/npm/sortablejs@1.15.2/modular/sortable.esm.js";
 const firebaseConfig = {
     apiKey: "AIzaSyBrcWWcFJiiGDNwmtHfC06on07yjV01Xvo",
     authDomain: "cifraceros.firebaseapp.com",
@@ -26,6 +27,7 @@ let scrollSpeed = 0.5;
 let scrollInterval = null;
 let scrollPos = 0;
 let isInitialLoad = true;
+let isDataLoaded = false;
 
 const fuseOptions = {
     includeScore: true,
@@ -128,13 +130,15 @@ function startListeningToSongs() {
             isInitialLoad = false;
             document.getElementById('admin-status-indicator').textContent = isAdmin ? "Status: Administrador" : "Status: Leitura";
         }
+        
+        isDataLoaded = true;
 
         renderPlaylistChips();
         filterAndRender();
         renderSetlist(); // Re-render setlist to ensure titles are synced
     }, (error) => {
         console.error("Erro ao escutar mudanças: ", error);
-        resultsContainer.innerHTML = '<p style="text-align:center; color:var(--error-color);">Erro ao carregar dados.</p>';
+        resultsContainer.innerHTML = '<p style="text-align:center; color:var(--error-color);">Erro ao carregar dados. Verifique sua conexão.</p>';
     });
 }
 
@@ -187,6 +191,8 @@ searchInput.addEventListener('input', () => {
 });
 
 function filterAndRender() {
+    if (!isDataLoaded) return;
+    
     let currentList = songsData;
 
     if (selectedPlaylistFilter !== 'all') {
@@ -261,7 +267,7 @@ function renderResults(songs) {
         container.appendChild(item);
     });
 
-    if (window.Sortable) {
+    if (Sortable) {
         if (window.resultsSortable) {
             window.resultsSortable.destroy();
         }
@@ -272,7 +278,7 @@ function renderResults(songs) {
                 put: false
             },
             sort: false,
-            animation: 150,
+            animation: 250,
             delay: 100,
             delayOnTouchOnly: false,
             touchStartThreshold: 5,
@@ -472,6 +478,7 @@ document.getElementById('login-form').addEventListener('submit', async (e) => {
     } catch (error) {
         errDiv.textContent = "Falha na autenticação.";
         errDiv.style.display = 'block';
+        setTimeout(() => errDiv.style.display = 'none', 4000);
     }
 });
 
@@ -502,10 +509,12 @@ document.getElementById('upload-form').addEventListener('submit', async (e) => {
         }
         msgDiv.className = "msg msg-success";
         msgDiv.style.display = 'block';
+        setTimeout(() => msgDiv.style.display = 'none', 4000);
     } catch (error) {
         msgDiv.textContent = "Erro ao salvar.";
         msgDiv.className = "msg msg-error";
         msgDiv.style.display = 'block';
+        setTimeout(() => msgDiv.style.display = 'none', 4000);
     } finally {
         submitBtn.disabled = false;
         submitBtn.textContent = originalBtnText;
@@ -574,7 +583,7 @@ function renderSetlist() {
         }
 
         // Initialize Sortable for this specific container
-        if (window.Sortable) {
+        if (Sortable) {
             // Clean up old instances if they exist on this specific element
             if (container._sortable) container._sortable.destroy();
             
@@ -583,7 +592,7 @@ function renderSetlist() {
                     name: 'shared',
                     put: true
                 },
-                animation: 150,
+                animation: 250,
                 delay: 100,
                 delayOnTouchOnly: false,
                 touchStartThreshold: 5,
