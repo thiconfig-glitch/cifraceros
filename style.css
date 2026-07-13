@@ -63,7 +63,7 @@ body {
     border-radius: 50%;
     background: linear-gradient(to right, #3b82f6, #8b5cf6);
     animation: rotateBlob 20s infinite;
-    opacity: 0.3;
+    opacity: 0.12;
     z-index: 0;
     pointer-events: none;
     filter: blur(120px);
