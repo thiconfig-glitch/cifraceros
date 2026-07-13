@@ -2,10 +2,10 @@
     --bg-color: #0b0f19;
     --surface-color: rgba(22, 33, 62, 0.6);
     --surface-border: rgba(255, 255, 255, 0.08);
-    --text-color: #f8fafc;
-    --text-muted: #94a3b8;
+    --text-color: #ffffff; /* Branco puro para maior contraste */
+    --text-muted: #cbd5e1; /* Mais claro para não ficar apagado */
     --chord-color: #fbbf24;
-    --chord-glow: rgba(251, 191, 36, 0.3);
+    --chord-glow: transparent;
     --primary-color: #3b82f6;
     --primary-hover: #2563eb;
     --error-color: #ef4444;
@@ -162,8 +162,6 @@ body {
     text-align: center;
     color: var(--text-color);
     padding: 20px;
-    opacity: 0.8;
-    animation: pulseGlow 4s infinite alternate;
 }
 
 #welcome-view h1 { 
@@ -529,7 +527,8 @@ body {
 
 pre {
     font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', Courier, monospace;
-    font-size: 1.15rem;
+    font-size: 1.2rem;
+    font-weight: 500;
     white-space: pre-wrap;
     word-wrap: break-word;
     line-height: 1.8;
@@ -539,14 +538,12 @@ pre {
 
 .chord { 
     color: var(--chord-color); 
-    font-weight: 700; 
-    text-shadow: 0 0 12px var(--chord-glow);
+    font-weight: 800; 
     transition: color 0.2s;
 }
 
 .chord:hover {
     color: #fff;
-    text-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
     cursor: default;
 }
 
