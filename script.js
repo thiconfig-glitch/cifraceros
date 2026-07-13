@@ -316,10 +316,13 @@ document.addEventListener('click', () => {
     });
 });
 
-// Efeito de brilho acompanhando o mouse
+// Efeito de sombra/partícula acompanhando o mouse
+const mouseBlob = document.getElementById('mouse-blob');
 document.addEventListener('mousemove', (e) => {
-    document.body.style.setProperty('--mouse-x', `${e.clientX}px`);
-    document.body.style.setProperty('--mouse-y', `${e.clientY}px`);
+    if(mouseBlob) {
+        mouseBlob.style.left = `${e.clientX}px`;
+        mouseBlob.style.top = `${e.clientY}px`;
+    }
 });
 
 async function toggleSongPlaylistAssignment(song, playlistName) {
