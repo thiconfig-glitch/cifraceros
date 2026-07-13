@@ -316,6 +316,12 @@ document.addEventListener('click', () => {
     });
 });
 
+// Efeito de brilho acompanhando o mouse
+document.addEventListener('mousemove', (e) => {
+    document.body.style.setProperty('--mouse-x', `${e.clientX}px`);
+    document.body.style.setProperty('--mouse-y', `${e.clientY}px`);
+});
+
 async function toggleSongPlaylistAssignment(song, playlistName) {
     let updatedPlaylists = [...song.playlists];
     if (updatedPlaylists.includes(playlistName)) {
