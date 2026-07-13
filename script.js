@@ -464,6 +464,65 @@ function hideAll() {
     document.getElementById('admin-panel').style.display = 'none';
 }
 
+window.performMagicFetch = async function() {
+    const urlInput = document.getElementById('magic-url').value.trim();
+    const msgDiv = document.getElementById('magic-msg');
+    const btn = document.getElementById('btn-magic-fetch');
+    
+    if (!urlInput || !urlInput.includes('cifraclub.com.br')) {
+        msgDiv.textContent = 'Por favor, insira um link válido do Cifra Club.';
+        msgDiv.className = 'msg msg-error';
+        msgDiv.style.display = 'block';
+        setTimeout(() => msgDiv.style.display = 'none', 3000);
+        return;
+    }
+
+    btn.textContent = 'Puxando...';
+    btn.disabled = true;
+    msgDiv.style.display = 'none';
+
+    try {
+        const proxyUrl = `https://api.allorigins.win/get?url=${encodeURIComponent(urlInput)}`;
+        const response = await fetch(proxyUrl);
+        const data = await response.json();
+        
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(data.contents, 'text/html');
+        
+        // Extração
+        const titleEl = doc.querySelector('h1.t1');
+        const artistEl = doc.querySelector('a.t3');
+        const tomEl = doc.querySelector('#cifra_tom a');
+        const preEl = doc.querySelector('pre');
+        
+        if (!preEl || !titleEl) {
+            throw new Error('Não foi possível encontrar a cifra na página.');
+        }
+
+        const songTitle = titleEl.textContent.trim() + (artistEl ? ` - ${artistEl.textContent.trim()}` : '');
+        const songTom = tomEl ? tomEl.textContent.trim() : '';
+        const songLyrics = preEl.textContent.trim();
+
+        // Preenchimento
+        document.getElementById('m-title').value = songTitle;
+        document.getElementById('m-transpose').value = songTom;
+        document.getElementById('m-lyrics').value = songLyrics;
+
+        msgDiv.textContent = 'Cifra importada com sucesso! Revise e clique em "Salvar Música".';
+        msgDiv.className = 'msg msg-success';
+        msgDiv.style.display = 'block';
+        document.getElementById('magic-url').value = '';
+    } catch (error) {
+        msgDiv.textContent = 'Erro ao puxar: ' + error.message;
+        msgDiv.className = 'msg msg-error';
+        msgDiv.style.display = 'block';
+    } finally {
+        btn.textContent = 'Puxar Cifra';
+        btn.disabled = false;
+        setTimeout(() => msgDiv.style.display = 'none', 5000);
+    }
+};
+
 document.getElementById('login-form').addEventListener('submit', async (e) => {
     e.preventDefault();
     const email = document.getElementById('login-email').value;

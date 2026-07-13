@@ -116,6 +116,17 @@
 
                     <div id="upload-section" style="display: none;">
                         <h2 id="form-title">Adicionar Nova Música</h2>
+                        
+                        <div class="magic-fetch-card" id="magic-fetch-container">
+                            <h3 style="margin-top:0; font-size: 1rem; color: var(--chord-color);">🪄 Importação Mágica</h3>
+                            <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 12px; margin-top:0;">Cole o link do Cifra Club e preencheremos o formulário abaixo para você.</p>
+                            <div style="display: flex; gap: 10px; align-items: center;">
+                                <input type="url" id="magic-url" placeholder="https://www.cifraclub.com.br/..." style="flex-grow: 1;">
+                                <button type="button" id="btn-magic-fetch" class="btn btn-magic" onclick="window.performMagicFetch()">Puxar Cifra</button>
+                            </div>
+                            <div id="magic-msg" class="msg" style="margin-top: 12px; margin-bottom: 0; padding: 10px; font-size: 0.85rem;"></div>
+                        </div>
+
                         <div id="upload-msg" class="msg"></div>
                         <form id="upload-form">
                             <div class="form-group">
