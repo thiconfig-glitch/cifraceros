@@ -482,12 +482,17 @@ window.performMagicFetch = async function() {
     msgDiv.style.display = 'none';
 
     try {
-        const proxyUrl = `https://api.allorigins.win/get?url=${encodeURIComponent(urlInput)}`;
+        const proxyUrl = `https://corsproxy.io/?${encodeURIComponent(urlInput)}`;
         const response = await fetch(proxyUrl);
-        const data = await response.json();
+        
+        if (!response.ok) {
+            throw new Error(`Erro no servidor proxy (${response.status})`);
+        }
+        
+        const htmlText = await response.text();
         
         const parser = new DOMParser();
-        const doc = parser.parseFromString(data.contents, 'text/html');
+        const doc = parser.parseFromString(htmlText, 'text/html');
         
         // Extração
         const titleEl = doc.querySelector('h1.t1');
