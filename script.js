@@ -482,7 +482,7 @@ window.performMagicFetch = async function() {
     msgDiv.style.display = 'none';
 
     try {
-        const proxyUrl = `https://corsproxy.io/?${encodeURIComponent(urlInput)}`;
+        const proxyUrl = `https://api.allorigins.win/raw?url=${encodeURIComponent(urlInput)}`;
         const response = await fetch(proxyUrl);
         
         if (!response.ok) {
