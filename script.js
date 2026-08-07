@@ -31,10 +31,11 @@ let isDataLoaded = false;
 
 const fuseOptions = {
     includeScore: true,
+    ignoreLocation: true,
     threshold: 0.4, 
     keys: [
-        { name: 'title', weight: 0.7 },
-        { name: 'lyrics', weight: 0.3 } 
+        { name: 'title', weight: 0.6 },
+        { name: 'lyrics', weight: 0.4 } 
     ]
 };
 
@@ -190,6 +191,65 @@ searchInput.addEventListener('input', () => {
     }, 300);
 });
 
+function removeAccents(str) {
+    if (!str) return '';
+    return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+}
+
+function escapeHTML(str) {
+    if (!str) return '';
+    return str
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#039;');
+}
+
+function extractLyricsSnippet(lyrics, query) {
+    if (!lyrics || !query) return null;
+    
+    const normQuery = removeAccents(query.trim());
+    if (!normQuery) return null;
+
+    const lines = lyrics.split('\n');
+    let matchedLine = null;
+
+    for (let line of lines) {
+        const trimmed = line.trim();
+        if (!trimmed) continue;
+        const normLine = removeAccents(trimmed);
+        if (normLine.includes(normQuery)) {
+            matchedLine = trimmed;
+            break;
+        }
+    }
+
+    if (!matchedLine) {
+        const normLyrics = removeAccents(lyrics);
+        const idx = normLyrics.indexOf(normQuery);
+        if (idx !== -1) {
+            const start = Math.max(0, idx - 20);
+            const end = Math.min(lyrics.length, idx + normQuery.length + 30);
+            matchedLine = lyrics.substring(start, end).replace(/\s+/g, ' ').trim();
+        }
+    }
+
+    if (!matchedLine) return null;
+
+    const normMatchedLine = removeAccents(matchedLine);
+    const pos = normMatchedLine.indexOf(normQuery);
+    if (pos !== -1) {
+        const originalMatch = matchedLine.substring(pos, pos + normQuery.length);
+        const before = escapeHTML(matchedLine.substring(0, pos));
+        const matchStr = escapeHTML(originalMatch);
+        const after = escapeHTML(matchedLine.substring(pos + normQuery.length));
+        return `${before}<mark class="search-snippet-match">${matchStr}</mark>${after}`;
+    }
+
+    return escapeHTML(matchedLine);
+}
+
 function filterAndRender() {
     if (!isDataLoaded) return;
     
@@ -199,10 +259,56 @@ function filterAndRender() {
         currentList = currentList.filter(s => s.playlists.includes(selectedPlaylistFilter));
     }
 
-    const query = searchInput.value;
+    const query = searchInput.value.trim();
     if (query) {
-        const localFuse = new Fuse(currentList, fuseOptions);
-        currentList = localFuse.search(query).map(r => r.item);
+        const normQuery = removeAccents(query);
+        const titleMatches = [];
+        const lyricsDirectMatches = [];
+        const remaining = [];
+        const seenIds = new Set();
+
+        currentList.forEach(song => {
+            const normTitle = removeAccents(song.title);
+            const normLyrics = removeAccents(song.lyrics);
+            
+            const isTitleMatch = normTitle.includes(normQuery);
+            const isLyricsMatch = normLyrics.includes(normQuery);
+
+            let snippet = null;
+            if (isLyricsMatch) {
+                snippet = extractLyricsSnippet(song.lyrics, query);
+            }
+
+            const songObj = { ...song, snippet };
+
+            if (isTitleMatch) {
+                titleMatches.push(songObj);
+                seenIds.add(song.id);
+            } else if (isLyricsMatch) {
+                lyricsDirectMatches.push(songObj);
+                seenIds.add(song.id);
+            } else {
+                remaining.push(song);
+            }
+        });
+
+        let fuzzyMatches = [];
+        if (remaining.length > 0) {
+            const localFuse = new Fuse(remaining, fuseOptions);
+            const fuseResults = localFuse.search(query);
+            fuseResults.forEach(r => {
+                const song = r.item;
+                if (!seenIds.has(song.id)) {
+                    const snippet = extractLyricsSnippet(song.lyrics, query);
+                    fuzzyMatches.push({ ...song, snippet });
+                    seenIds.add(song.id);
+                }
+            });
+        }
+
+        currentList = [...titleMatches, ...lyricsDirectMatches, ...fuzzyMatches];
+    } else {
+        currentList = currentList.map(s => ({ ...s, snippet: null }));
     }
 
     renderResults(currentList);
@@ -224,7 +330,27 @@ function renderResults(songs) {
         
         const clickableArea = document.createElement('div');
         clickableArea.className = 'song-clickable';
-        clickableArea.innerHTML = `<span>${song.title}</span> <span style="color: var(--chord-color); font-size: 0.8em; opacity: 0.8;">Tom: ${song.transpose || 'Orig'}</span>`;
+        
+        const safeTitle = escapeHTML(song.title);
+        const safeTranspose = escapeHTML(song.transpose || 'Orig');
+
+        if (song.snippet) {
+            clickableArea.innerHTML = `
+                <div class="song-info-wrapper">
+                    <div class="song-main-line">
+                        <span class="song-title-text">${safeTitle}</span>
+                        <span class="song-transpose-tag">Tom: ${safeTranspose}</span>
+                    </div>
+                    <div class="song-snippet-preview">...${song.snippet}...</div>
+                </div>
+            `;
+        } else {
+            clickableArea.innerHTML = `
+                <span class="song-title-text">${safeTitle}</span>
+                <span class="song-transpose-tag">Tom: ${safeTranspose}</span>
+            `;
+        }
+
         clickableArea.onclick = () => openSong(song);
         
         item.appendChild(clickableArea);
