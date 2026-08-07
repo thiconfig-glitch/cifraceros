@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css?v=1.1.0">
+    <link rel="stylesheet" href="style.css?v=1.2.0">
 </head>
 <body>
     <div id="blob"></div>
@@ -88,9 +88,25 @@
                             <button class="tool-btn" onclick="adjustScrollSpeed(1)">+</button>
                             <span id="scroll-speed-display" class="scroll-speed-value">1</span>
                         </div>
+                        <div class="tool-group">
+                            <button class="tool-btn active" id="btn-toggle-notes" onclick="window.toggleNotesWidget()" title="Mostrar/Ocultar Bloquinho de Notas">📝 Notas</button>
+                        </div>
                     </div>
 
-                    <pre id="sv-content"></pre>
+                    <div class="song-view-body">
+                        <aside id="song-notes-widget" class="song-notes-widget">
+                            <div class="notes-widget-header">
+                                <span>📝 Lembretes da Música</span>
+                                <button type="button" class="notes-clear-btn" title="Limpar notas" onclick="window.clearSongNote()">🗑️</button>
+                            </div>
+                            <textarea id="song-notes-textarea" placeholder="Observações para esta música (ex: Capo 2ª casa, Repete refrão 2x, Solo na intro)..." oninput="window.saveSongNote()"></textarea>
+                            <div id="notes-status" class="notes-status">Salvo automaticamente</div>
+                        </aside>
+
+                        <div class="song-content-container">
+                            <pre id="sv-content"></pre>
+                        </div>
+                    </div>
                 </div>
 
                 <div id="admin-panel" class="admin-panel">
@@ -158,6 +174,6 @@
         </aside>
     </div>
 
-    <script type="module" src="script.js?v=1.1.0"></script>
+    <script type="module" src="script.js?v=1.2.0"></script>
 </body>
 </html>

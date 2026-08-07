@@ -28,6 +28,7 @@ let scrollInterval = null;
 let scrollPos = 0;
 let isInitialLoad = true;
 let isDataLoaded = false;
+let currentActiveSongId = null;
 
 const fuseOptions = {
     includeScore: true,
@@ -485,17 +486,84 @@ function formatCifraText(text) {
     }).join('\n');
 }
 
+// Song Notes Management
+let notesSaveTimeout = null;
+
+window.saveSongNote = function() {
+    if (!currentActiveSongId) return;
+    const textarea = document.getElementById('song-notes-textarea');
+    const status = document.getElementById('notes-status');
+    if (!textarea || !status) return;
+
+    const text = textarea.value;
+    localStorage.setItem(`cifraceros_note_${currentActiveSongId}`, text);
+
+    status.textContent = "Salvando...";
+    clearTimeout(notesSaveTimeout);
+    notesSaveTimeout = setTimeout(() => {
+        status.textContent = "Salvo automaticamente";
+    }, 400);
+};
+
+window.loadSongNote = function(songId) {
+    const textarea = document.getElementById('song-notes-textarea');
+    const status = document.getElementById('notes-status');
+    if (!textarea) return;
+
+    const saved = localStorage.getItem(`cifraceros_note_${songId}`) || '';
+    textarea.value = saved;
+    if (status) status.textContent = "Salvo automaticamente";
+};
+
+window.clearSongNote = function() {
+    if (!currentActiveSongId) return;
+    const textarea = document.getElementById('song-notes-textarea');
+    if (textarea) {
+        textarea.value = '';
+        window.saveSongNote();
+    }
+};
+
+window.toggleNotesWidget = function() {
+    const widget = document.getElementById('song-notes-widget');
+    const btn = document.getElementById('btn-toggle-notes');
+    if (!widget) return;
+
+    widget.classList.toggle('hidden');
+    const isHidden = widget.classList.contains('hidden');
+    
+    if (btn) {
+        btn.classList.toggle('active', !isHidden);
+    }
+    
+    localStorage.setItem('cifraceros_notes_visible', isHidden ? 'false' : 'true');
+};
+
 window.openSong = function(song) {
     hideAll();
     stopAutoScroll();
     scrollPos = 0;
     closeSidebar();
+    currentActiveSongId = song.id;
+
     document.getElementById('song-view').style.display = 'block';
     document.getElementById('sv-title').textContent = song.title;
     document.getElementById('sv-transpose').textContent = song.transpose ? `Tom: ${song.transpose}` : 'Tom Original';
+    
     const contentArea = document.getElementById('sv-content');
     contentArea.innerHTML = formatCifraText(song.lyrics);
     contentArea.style.fontSize = `${currentFontSize}rem`;
+
+    // Load notes for current song
+    window.loadSongNote(song.id);
+
+    // Restore notes widget visibility preference
+    const isNotesVisible = localStorage.getItem('cifraceros_notes_visible') !== 'false';
+    const widget = document.getElementById('song-notes-widget');
+    const btn = document.getElementById('btn-toggle-notes');
+    if (widget) widget.classList.toggle('hidden', !isNotesVisible);
+    if (btn) btn.classList.toggle('active', isNotesVisible);
+
     document.querySelector('.main-content').scrollTop = 0;
 };
 
