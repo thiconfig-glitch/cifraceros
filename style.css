@@ -132,7 +132,7 @@ body {
 
 .container { 
     width: 100%; 
-    max-width: 1050px; 
+    max-width: 1280px; 
     padding: 40px 20px; 
     box-sizing: border-box; 
     animation: fadeIn 0.4s ease-out;
@@ -689,8 +689,8 @@ pre {
     cursor: default;
 }
 
-/* Song View Body & Culto Notes Widget */
-.song-view-body {
+/* Song Page Layout & Culto Notes Widget */
+.song-page-layout {
     display: flex;
     gap: 28px;
     align-items: flex-start;
@@ -698,17 +698,17 @@ pre {
     width: 100%;
 }
 
-.song-content-container {
+.song-page-layout #song-view {
     flex-grow: 1;
     min-width: 0;
 }
 
 .culto-notes-widget {
-    width: 290px;
+    width: 320px;
     flex-shrink: 0;
-    background: rgba(15, 23, 42, 0.6);
+    background: rgba(15, 23, 42, 0.75);
     border: 1px solid var(--surface-border);
-    border-radius: 18px;
+    border-radius: 20px;
     padding: 20px;
     backdrop-filter: var(--glass-blur);
     -webkit-backdrop-filter: var(--glass-blur);
@@ -718,7 +718,7 @@ pre {
     position: sticky;
     top: 20px;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+    box-shadow: 0 12px 36px rgba(0, 0, 0, 0.4);
 }
 
 .culto-notes-widget.hidden {
@@ -728,7 +728,7 @@ pre {
 .welcome-notes-box {
     margin-top: 32px;
     width: 100%;
-    max-width: 520px;
+    max-width: 540px;
     position: static;
 }
 
@@ -743,6 +743,30 @@ pre {
     padding-bottom: 10px;
 }
 
+.notes-controls-group {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.notes-mini-btn {
+    background: rgba(255, 255, 255, 0.08);
+    color: var(--text-color);
+    border: 1px solid var(--surface-border);
+    border-radius: 6px;
+    padding: 3px 8px;
+    font-size: 0.82rem;
+    font-weight: bold;
+    font-family: var(--font-main);
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.notes-mini-btn:hover {
+    background: rgba(255, 255, 255, 0.18);
+    color: var(--chord-color);
+}
+
 .notes-clear-btn {
     background: none;
     border: none;
@@ -750,6 +774,7 @@ pre {
     font-size: 0.95rem;
     opacity: 0.7;
     transition: opacity 0.2s;
+    margin-left: 4px;
 }
 
 .notes-clear-btn:hover {
@@ -758,16 +783,16 @@ pre {
 
 #culto-notes-textarea, #welcome-culto-notes-textarea {
     width: 100%;
-    height: 250px;
-    min-height: 160px;
+    height: 260px;
+    min-height: 180px;
     resize: vertical;
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.35);
     border: 1px solid var(--surface-border);
     border-radius: 12px;
     padding: 14px;
     color: var(--text-color);
     font-family: var(--font-main);
-    font-size: 0.92rem;
+    font-size: 1.1rem; /* Fonte maior por padrão */
     line-height: 1.5;
     box-sizing: border-box;
     transition: border-color 0.2s, background-color 0.2s;
@@ -776,7 +801,7 @@ pre {
 #culto-notes-textarea:focus, #welcome-culto-notes-textarea:focus {
     border-color: var(--chord-color);
     outline: none;
-    background: rgba(0, 0, 0, 0.45);
+    background: rgba(0, 0, 0, 0.5);
 }
 
 .notes-status {
@@ -787,8 +812,8 @@ pre {
     opacity: 0.8;
 }
 
-@media (max-width: 900px) {
-    .song-view-body {
+@media (max-width: 960px) {
+    .song-page-layout {
         flex-direction: column;
     }
     .culto-notes-widget {

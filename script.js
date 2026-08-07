@@ -928,6 +928,18 @@ window.saveCultoNotesFromWelcome = function() {
     window.saveCultoNotes();
 };
 
+let currentNotesFontSize = parseFloat(localStorage.getItem('cifraceros_notes_fontsize')) || 1.1;
+
+window.adjustNotesFontSize = function(delta) {
+    currentNotesFontSize = Math.max(0.7, Math.min(2.2, parseFloat((currentNotesFontSize + delta).toFixed(1))));
+    localStorage.setItem('cifraceros_notes_fontsize', currentNotesFontSize);
+    
+    const t1 = document.getElementById('culto-notes-textarea');
+    const t2 = document.getElementById('welcome-culto-notes-textarea');
+    if (t1) t1.style.fontSize = `${currentNotesFontSize}rem`;
+    if (t2) t2.style.fontSize = `${currentNotesFontSize}rem`;
+};
+
 window.loadCultoNotes = function() {
     const textarea = document.getElementById('culto-notes-textarea');
     const welcomeTextarea = document.getElementById('welcome-culto-notes-textarea');
@@ -940,6 +952,8 @@ window.loadCultoNotes = function() {
 
     if (status) status.textContent = "Salvo automaticamente";
     if (welcomeStatus) welcomeStatus.textContent = "Salvo automaticamente";
+
+    window.adjustNotesFontSize(0);
 
     const isNotesVisible = localStorage.getItem('cifraceros_notes_visible') !== 'false';
     const widget = document.getElementById('culto-notes-widget');

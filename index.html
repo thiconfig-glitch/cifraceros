@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css?v=1.4.0">
+    <link rel="stylesheet" href="style.css?v=1.5.0">
 </head>
 <body>
     <div id="blob"></div>
@@ -69,7 +69,11 @@
                 <div class="culto-notes-widget welcome-notes-box">
                     <div class="notes-widget-header">
                         <span>📌 Notas do Culto</span>
-                        <button type="button" class="notes-clear-btn" title="Limpar notas do culto" onclick="window.clearCultoNotes()">🗑️</button>
+                        <div class="notes-controls-group">
+                            <button type="button" class="notes-mini-btn" onclick="window.adjustNotesFontSize(-0.1)" title="Diminuir fonte">A-</button>
+                            <button type="button" class="notes-mini-btn" onclick="window.adjustNotesFontSize(0.1)" title="Aumentar fonte">A+</button>
+                            <button type="button" class="notes-clear-btn" title="Limpar notas do culto" onclick="window.clearCultoNotes()">🗑️</button>
+                        </div>
                     </div>
                     <textarea id="welcome-culto-notes-textarea" placeholder="Anotações gerais do culto (ex: Pr. vai cantar a música X, tom em G, avisar o teclado)..." oninput="window.saveCultoNotesFromWelcome()"></textarea>
                     <div id="welcome-culto-notes-status" class="notes-status">Salvo automaticamente</div>
@@ -77,44 +81,46 @@
             </div>
 
             <div class="container">
-                <div id="song-view">
-                    <button class="btn btn-back" onclick="closeSong()">← Voltar para a lista</button>
-                    <div class="song-header">
-                        <h1 class="song-title" id="sv-title"></h1>
-                        <div class="transpose-badge" id="sv-transpose"></div>
-                    </div>
-
-                    <div class="song-tools">
-                        <div class="tool-group">
-                            <span class="tool-label">Fonte:</span>
-                            <button class="tool-btn" onclick="adjustFontSize(-0.1)">A-</button>
-                            <button class="tool-btn" onclick="adjustFontSize(0.1)">A+</button>
-                        </div>
-                        <div class="tool-group">
-                            <span class="tool-label">Auto-Scroll:</span>
-                            <button class="tool-btn" onclick="adjustScrollSpeed(-1)">-</button>
-                            <button class="tool-btn" id="btn-scroll-play" onclick="toggleAutoScroll()">▶</button>
-                            <button class="tool-btn" onclick="adjustScrollSpeed(1)">+</button>
-                            <span id="scroll-speed-display" class="scroll-speed-value">1</span>
-                        </div>
-                        <div class="tool-group">
-                            <button class="tool-btn active" id="btn-toggle-notes" onclick="window.toggleNotesWidget()" title="Mostrar/Ocultar Bloquinho de Notas do Culto">📌 Notas do Culto</button>
-                        </div>
-                    </div>
-
-                    <div class="song-view-body">
-                        <aside id="culto-notes-widget" class="culto-notes-widget">
-                            <div class="notes-widget-header">
-                                <span>📌 Notas do Culto</span>
+                <div class="song-page-layout">
+                    <aside id="culto-notes-widget" class="culto-notes-widget">
+                        <div class="notes-widget-header">
+                            <span>📌 Notas do Culto</span>
+                            <div class="notes-controls-group">
+                                <button type="button" class="notes-mini-btn" onclick="window.adjustNotesFontSize(-0.1)" title="Diminuir fonte">A-</button>
+                                <button type="button" class="notes-mini-btn" onclick="window.adjustNotesFontSize(0.1)" title="Aumentar fonte">A+</button>
                                 <button type="button" class="notes-clear-btn" title="Limpar notas do culto" onclick="window.clearCultoNotes()">🗑️</button>
                             </div>
-                            <textarea id="culto-notes-textarea" placeholder="Anotações gerais do culto (ex: Pr. vai tocar a música X, tom em G, avisar o teclado)..." oninput="window.saveCultoNotes()"></textarea>
-                            <div id="culto-notes-status" class="notes-status">Salvo automaticamente</div>
-                        </aside>
-
-                        <div class="song-content-container">
-                            <pre id="sv-content"></pre>
                         </div>
+                        <textarea id="culto-notes-textarea" placeholder="Anotações gerais do culto (ex: Pr. vai tocar a música X, tom em G, avisar o teclado)..." oninput="window.saveCultoNotes()"></textarea>
+                        <div id="culto-notes-status" class="notes-status">Salvo automaticamente</div>
+                    </aside>
+
+                    <div id="song-view">
+                        <button class="btn btn-back" onclick="closeSong()">← Voltar para a lista</button>
+                        <div class="song-header">
+                            <h1 class="song-title" id="sv-title"></h1>
+                            <div class="transpose-badge" id="sv-transpose"></div>
+                        </div>
+
+                        <div class="song-tools">
+                            <div class="tool-group">
+                                <span class="tool-label">Fonte:</span>
+                                <button class="tool-btn" onclick="adjustFontSize(-0.1)">A-</button>
+                                <button class="tool-btn" onclick="adjustFontSize(0.1)">A+</button>
+                            </div>
+                            <div class="tool-group">
+                                <span class="tool-label">Auto-Scroll:</span>
+                                <button class="tool-btn" onclick="adjustScrollSpeed(-1)">-</button>
+                                <button class="tool-btn" id="btn-scroll-play" onclick="toggleAutoScroll()">▶</button>
+                                <button class="tool-btn" onclick="adjustScrollSpeed(1)">+</button>
+                                <span id="scroll-speed-display" class="scroll-speed-value">1</span>
+                            </div>
+                            <div class="tool-group">
+                                <button class="tool-btn active" id="btn-toggle-notes" onclick="window.toggleNotesWidget()" title="Mostrar/Ocultar Bloquinho de Notas do Culto">📌 Notas do Culto</button>
+                            </div>
+                        </div>
+
+                        <pre id="sv-content"></pre>
                     </div>
                 </div>
 
@@ -183,6 +189,6 @@
         </aside>
     </div>
 
-    <script type="module" src="script.js?v=1.4.0"></script>
+    <script type="module" src="script.js?v=1.5.0"></script>
 </body>
 </html>
