@@ -897,55 +897,80 @@ let cultoNotesSaveTimeout = null;
 
 window.saveCultoNotes = function() {
     const textarea = document.getElementById('culto-notes-textarea');
+    const welcomeTextarea = document.getElementById('welcome-culto-notes-textarea');
     const status = document.getElementById('culto-notes-status');
+    const welcomeStatus = document.getElementById('welcome-culto-notes-status');
     if (!textarea) return;
 
     const text = textarea.value;
+    if (welcomeTextarea && welcomeTextarea.value !== text) {
+        welcomeTextarea.value = text;
+    }
+
     localStorage.setItem('cifraceros_culto_notes', text);
 
-    if (status) {
-        status.textContent = "Salvando...";
-        clearTimeout(cultoNotesSaveTimeout);
-        cultoNotesSaveTimeout = setTimeout(() => {
-            status.textContent = "Salvo automaticamente";
-        }, 400);
-    }
+    if (status) status.textContent = "Salvando...";
+    if (welcomeStatus) welcomeStatus.textContent = "Salvando...";
+
+    clearTimeout(cultoNotesSaveTimeout);
+    cultoNotesSaveTimeout = setTimeout(() => {
+        if (status) status.textContent = "Salvo automaticamente";
+        if (welcomeStatus) welcomeStatus.textContent = "Salvo automaticamente";
+    }, 400);
+};
+
+window.saveCultoNotesFromWelcome = function() {
+    const textarea = document.getElementById('culto-notes-textarea');
+    const welcomeTextarea = document.getElementById('welcome-culto-notes-textarea');
+    if (!welcomeTextarea) return;
+
+    if (textarea) textarea.value = welcomeTextarea.value;
+    window.saveCultoNotes();
 };
 
 window.loadCultoNotes = function() {
     const textarea = document.getElementById('culto-notes-textarea');
+    const welcomeTextarea = document.getElementById('welcome-culto-notes-textarea');
     const status = document.getElementById('culto-notes-status');
-    if (textarea) {
-        textarea.value = localStorage.getItem('cifraceros_culto_notes') || '';
-    }
-    if (status) status.textContent = "Salvo automaticamente";
+    const welcomeStatus = document.getElementById('welcome-culto-notes-status');
 
-    const isCollapsed = localStorage.getItem('cifraceros_culto_notes_collapsed') === 'true';
-    const card = document.getElementById('culto-notes-card');
-    const arrow = document.getElementById('culto-notes-arrow');
-    if (card) card.classList.toggle('collapsed', isCollapsed);
-    if (arrow) arrow.style.transform = isCollapsed ? 'rotate(-90deg)' : 'rotate(0deg)';
+    const saved = localStorage.getItem('cifraceros_culto_notes') || '';
+    if (textarea) textarea.value = saved;
+    if (welcomeTextarea) welcomeTextarea.value = saved;
+
+    if (status) status.textContent = "Salvo automaticamente";
+    if (welcomeStatus) welcomeStatus.textContent = "Salvo automaticamente";
+
+    const isNotesVisible = localStorage.getItem('cifraceros_notes_visible') !== 'false';
+    const widget = document.getElementById('culto-notes-widget');
+    const btn = document.getElementById('btn-toggle-notes');
+    if (widget) widget.classList.toggle('hidden', !isNotesVisible);
+    if (btn) btn.classList.toggle('active', isNotesVisible);
 };
 
 window.clearCultoNotes = function() {
     if (confirm("Deseja limpar as notas do culto?")) {
         const textarea = document.getElementById('culto-notes-textarea');
-        if (textarea) {
-            textarea.value = '';
-            window.saveCultoNotes();
-        }
+        const welcomeTextarea = document.getElementById('welcome-culto-notes-textarea');
+        if (textarea) textarea.value = '';
+        if (welcomeTextarea) welcomeTextarea.value = '';
+        window.saveCultoNotes();
     }
 };
 
-window.toggleCultoNotesCollapse = function() {
-    const card = document.getElementById('culto-notes-card');
-    const arrow = document.getElementById('culto-notes-arrow');
-    if (!card) return;
+window.toggleNotesWidget = function() {
+    const widget = document.getElementById('culto-notes-widget');
+    const btn = document.getElementById('btn-toggle-notes');
+    if (!widget) return;
 
-    card.classList.toggle('collapsed');
-    const isCollapsed = card.classList.contains('collapsed');
-    if (arrow) arrow.style.transform = isCollapsed ? 'rotate(-90deg)' : 'rotate(0deg)';
-    localStorage.setItem('cifraceros_culto_notes_collapsed', isCollapsed ? 'true' : 'false');
+    widget.classList.toggle('hidden');
+    const isHidden = widget.classList.contains('hidden');
+    
+    if (btn) {
+        btn.classList.toggle('active', !isHidden);
+    }
+    
+    localStorage.setItem('cifraceros_notes_visible', isHidden ? 'false' : 'true');
 };
 
 document.addEventListener('DOMContentLoaded', () => {

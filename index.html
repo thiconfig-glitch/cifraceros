@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css?v=1.3.0">
+    <link rel="stylesheet" href="style.css?v=1.4.0">
 </head>
 <body>
     <div id="blob"></div>
@@ -34,22 +34,6 @@
                         </div>
                         
                         <div id="playlist-chips-container" class="playlist-chips-container"></div>
-                    </div>
-
-                    <div class="culto-notes-card" id="culto-notes-card">
-                        <div class="culto-notes-header" onclick="window.toggleCultoNotesCollapse()">
-                            <span style="font-size: 0.95rem; font-weight: 600; color: var(--chord-color); display: flex; align-items: center; gap: 6px;">
-                                📌 Notas do Culto
-                            </span>
-                            <div style="display: flex; gap: 8px; align-items: center;">
-                                <button type="button" class="notes-clear-btn" title="Limpar notas do culto" onclick="event.stopPropagation(); window.clearCultoNotes()">🗑️</button>
-                                <span id="culto-notes-arrow" style="font-size: 0.8rem; color: var(--text-muted); transition: transform 0.2s;">▼</span>
-                            </div>
-                        </div>
-                        <div class="culto-notes-body" id="culto-notes-body">
-                            <textarea id="culto-notes-textarea" placeholder="Anotações gerais do culto (ex: Pr. vai tocar a música X, tom em G, avisar o teclado)..." oninput="window.saveCultoNotes()"></textarea>
-                            <span id="culto-notes-status" class="notes-status">Salvo automaticamente</span>
-                        </div>
                     </div>
 
                     <div id="results-container"></div>
@@ -81,6 +65,15 @@
             <div id="welcome-view">
                 <h1>🎹 CifrasCeros</h1>
                 <p>Selecione uma música na lista ao lado para começar.</p>
+
+                <div class="culto-notes-widget welcome-notes-box">
+                    <div class="notes-widget-header">
+                        <span>📌 Notas do Culto</span>
+                        <button type="button" class="notes-clear-btn" title="Limpar notas do culto" onclick="window.clearCultoNotes()">🗑️</button>
+                    </div>
+                    <textarea id="welcome-culto-notes-textarea" placeholder="Anotações gerais do culto (ex: Pr. vai cantar a música X, tom em G, avisar o teclado)..." oninput="window.saveCultoNotesFromWelcome()"></textarea>
+                    <div id="welcome-culto-notes-status" class="notes-status">Salvo automaticamente</div>
+                </div>
             </div>
 
             <div class="container">
@@ -105,18 +98,18 @@
                             <span id="scroll-speed-display" class="scroll-speed-value">1</span>
                         </div>
                         <div class="tool-group">
-                            <button class="tool-btn active" id="btn-toggle-notes" onclick="window.toggleNotesWidget()" title="Mostrar/Ocultar Bloquinho de Notas">📝 Notas</button>
+                            <button class="tool-btn active" id="btn-toggle-notes" onclick="window.toggleNotesWidget()" title="Mostrar/Ocultar Bloquinho de Notas do Culto">📌 Notas do Culto</button>
                         </div>
                     </div>
 
                     <div class="song-view-body">
-                        <aside id="song-notes-widget" class="song-notes-widget">
+                        <aside id="culto-notes-widget" class="culto-notes-widget">
                             <div class="notes-widget-header">
-                                <span>📝 Lembretes da Música</span>
-                                <button type="button" class="notes-clear-btn" title="Limpar notas" onclick="window.clearSongNote()">🗑️</button>
+                                <span>📌 Notas do Culto</span>
+                                <button type="button" class="notes-clear-btn" title="Limpar notas do culto" onclick="window.clearCultoNotes()">🗑️</button>
                             </div>
-                            <textarea id="song-notes-textarea" placeholder="Observações para esta música (ex: Capo 2ª casa, Repete refrão 2x, Solo na intro)..." oninput="window.saveSongNote()"></textarea>
-                            <div id="notes-status" class="notes-status">Salvo automaticamente</div>
+                            <textarea id="culto-notes-textarea" placeholder="Anotações gerais do culto (ex: Pr. vai tocar a música X, tom em G, avisar o teclado)..." oninput="window.saveCultoNotes()"></textarea>
+                            <div id="culto-notes-status" class="notes-status">Salvo automaticamente</div>
                         </aside>
 
                         <div class="song-content-container">
@@ -190,6 +183,6 @@
         </aside>
     </div>
 
-    <script type="module" src="script.js?v=1.3.0"></script>
+    <script type="module" src="script.js?v=1.4.0"></script>
 </body>
 </html>
