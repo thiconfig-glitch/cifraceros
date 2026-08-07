@@ -554,14 +554,16 @@ window.openSong = function(song) {
     contentArea.innerHTML = formatCifraText(song.lyrics);
     contentArea.style.fontSize = `${currentFontSize}rem`;
 
-    // Load notes for current song
-    window.loadSongNote(song.id);
+    // Load notes & manage notes widget display
+    window.loadCultoNotes();
 
-    // Restore notes widget visibility preference
     const isNotesVisible = localStorage.getItem('cifraceros_notes_visible') !== 'false';
-    const widget = document.getElementById('song-notes-widget');
+    const widget = document.getElementById('culto-notes-widget');
     const btn = document.getElementById('btn-toggle-notes');
-    if (widget) widget.classList.toggle('hidden', !isNotesVisible);
+    if (widget) {
+        widget.style.display = isNotesVisible ? 'flex' : 'none';
+        widget.classList.toggle('hidden', !isNotesVisible);
+    }
     if (btn) btn.classList.toggle('active', isNotesVisible);
 
     document.querySelector('.main-content').scrollTop = 0;
@@ -668,6 +670,8 @@ function hideAll() {
     document.getElementById('welcome-view').style.display = 'none';
     document.getElementById('song-view').style.display = 'none';
     document.getElementById('admin-panel').style.display = 'none';
+    const widget = document.getElementById('culto-notes-widget');
+    if (widget) widget.style.display = 'none';
 }
 
 window.performMagicFetch = async function() {
@@ -977,14 +981,17 @@ window.toggleNotesWidget = function() {
     const btn = document.getElementById('btn-toggle-notes');
     if (!widget) return;
 
-    widget.classList.toggle('hidden');
-    const isHidden = widget.classList.contains('hidden');
+    const isCurrentlyHidden = widget.style.display === 'none' || widget.classList.contains('hidden');
+    const makeVisible = isCurrentlyHidden;
+
+    widget.style.display = makeVisible ? 'flex' : 'none';
+    widget.classList.toggle('hidden', !makeVisible);
     
     if (btn) {
-        btn.classList.toggle('active', !isHidden);
+        btn.classList.toggle('active', makeVisible);
     }
     
-    localStorage.setItem('cifraceros_notes_visible', isHidden ? 'false' : 'true');
+    localStorage.setItem('cifraceros_notes_visible', makeVisible ? 'true' : 'false');
 };
 
 document.addEventListener('DOMContentLoaded', () => {
