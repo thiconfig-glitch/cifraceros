@@ -892,7 +892,64 @@ window.clearSetlist = function() {
     }
 };
 
+// Permanent Culto Notes Logic
+let cultoNotesSaveTimeout = null;
+
+window.saveCultoNotes = function() {
+    const textarea = document.getElementById('culto-notes-textarea');
+    const status = document.getElementById('culto-notes-status');
+    if (!textarea) return;
+
+    const text = textarea.value;
+    localStorage.setItem('cifraceros_culto_notes', text);
+
+    if (status) {
+        status.textContent = "Salvando...";
+        clearTimeout(cultoNotesSaveTimeout);
+        cultoNotesSaveTimeout = setTimeout(() => {
+            status.textContent = "Salvo automaticamente";
+        }, 400);
+    }
+};
+
+window.loadCultoNotes = function() {
+    const textarea = document.getElementById('culto-notes-textarea');
+    const status = document.getElementById('culto-notes-status');
+    if (textarea) {
+        textarea.value = localStorage.getItem('cifraceros_culto_notes') || '';
+    }
+    if (status) status.textContent = "Salvo automaticamente";
+
+    const isCollapsed = localStorage.getItem('cifraceros_culto_notes_collapsed') === 'true';
+    const card = document.getElementById('culto-notes-card');
+    const arrow = document.getElementById('culto-notes-arrow');
+    if (card) card.classList.toggle('collapsed', isCollapsed);
+    if (arrow) arrow.style.transform = isCollapsed ? 'rotate(-90deg)' : 'rotate(0deg)';
+};
+
+window.clearCultoNotes = function() {
+    if (confirm("Deseja limpar as notas do culto?")) {
+        const textarea = document.getElementById('culto-notes-textarea');
+        if (textarea) {
+            textarea.value = '';
+            window.saveCultoNotes();
+        }
+    }
+};
+
+window.toggleCultoNotesCollapse = function() {
+    const card = document.getElementById('culto-notes-card');
+    const arrow = document.getElementById('culto-notes-arrow');
+    if (!card) return;
+
+    card.classList.toggle('collapsed');
+    const isCollapsed = card.classList.contains('collapsed');
+    if (arrow) arrow.style.transform = isCollapsed ? 'rotate(-90deg)' : 'rotate(0deg)';
+    localStorage.setItem('cifraceros_culto_notes_collapsed', isCollapsed ? 'true' : 'false');
+};
+
 document.addEventListener('DOMContentLoaded', () => {
     setTimeout(renderSetlist, 500);
+    window.loadCultoNotes();
 });
 
