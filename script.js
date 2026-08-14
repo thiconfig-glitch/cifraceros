@@ -219,72 +219,19 @@ window.selectAppMode = function(mode) {
     
     // Toggle UI elements specific to Letras mode
     const transposeGroup = document.querySelector('input#m-transpose')?.closest('.form-group');
-    const importBtn = document.getElementById('admin-letras-import');
     
     if (mode === 'letras') {
         document.body.classList.add('letras-mode');
         if (transposeGroup) transposeGroup.style.display = 'none';
-        if (importBtn) importBtn.style.display = 'block';
     } else {
         document.body.classList.remove('letras-mode');
         if (transposeGroup) transposeGroup.style.display = 'block';
-        if (importBtn) importBtn.style.display = 'none';
     }
 
     setlistIds = JSON.parse(localStorage.getItem('setlistCifraCerosIds_' + mode) || '[]');
     renderSetlist();
 
     startListeningToSongs(mode);
-};
-
-window.importLetrasDump = async function() {
-    const btn = document.querySelector('#admin-letras-import button');
-    const msg = document.getElementById('import-msg');
-    
-    if (!window.LETRAS_DUMP || window.LETRAS_DUMP.length === 0) {
-        msg.textContent = 'Nenhum dado encontrado no dump.';
-        msg.className = 'msg msg-error';
-        msg.style.display = 'block';
-        return;
-    }
-    
-    if (!confirm(`Tem certeza que deseja importar ${window.LETRAS_DUMP.length} letras para o banco de dados? Isso pode levar um minuto.`)) {
-        return;
-    }
-    
-    btn.disabled = true;
-    btn.textContent = 'Importando...';
-    msg.style.display = 'none';
-    
-    let successCount = 0;
-    let errorCount = 0;
-    
-    // Process in batches so we don't block the UI completely
-    const batchSize = 50;
-    for (let i = 0; i < window.LETRAS_DUMP.length; i += batchSize) {
-        const batch = window.LETRAS_DUMP.slice(i, i + batchSize);
-        const promises = batch.map(song => {
-            return addDoc(collection(db, "repertorio_letras"), {
-                title: song.title,
-                lyrics: song.lyrics,
-                playlists: ["Letras Importadas"],
-                transpose: ""
-            }).then(() => successCount++)
-              .catch(e => { console.error(e); errorCount++; });
-        });
-        
-        await Promise.all(promises);
-        btn.textContent = `Importando... (${successCount}/${window.LETRAS_DUMP.length})`;
-    }
-    
-    btn.disabled = false;
-    btn.textContent = 'Importar Letras';
-    msg.innerHTML = `Importação concluída! <b>${successCount}</b> letras importadas. <b>${errorCount}</b> erros.`;
-    msg.className = 'msg msg-success';
-    msg.style.display = 'block';
-    
-    // Clear dump from memory to save space
-    window.LETRAS_DUMP = null;
 };
 
 function renderPlaylistChips() {
