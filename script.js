@@ -618,20 +618,28 @@ window.clearSongNote = function() {
     }
 };
 
-window.toggleNotesWidget = function() {
-    const widget = document.getElementById('song-notes-widget');
-    const btn = document.getElementById('btn-toggle-notes');
-    if (!widget) return;
+window.autoFitCifra = function() {
+    if (window.appMode === 'letras') return;
+    const pre = document.getElementById('sv-content');
+    if (!pre) return;
 
-    widget.classList.toggle('hidden');
-    const isHidden = widget.classList.contains('hidden');
+    let size = 1.3;
+    pre.style.fontSize = `${size}rem`;
     
-    if (btn) {
-        btn.classList.toggle('active', !isHidden);
+    // Decrease font size until it fits without scrollbar
+    while (pre.scrollWidth > pre.clientWidth && size > 0.5) {
+        size -= 0.05;
+        pre.style.fontSize = `${size}rem`;
     }
     
-    localStorage.setItem('cifraceros_notes_visible', isHidden ? 'false' : 'true');
+    currentFontSize = size;
 };
+
+window.addEventListener('resize', () => {
+    if (document.getElementById('song-view').style.display !== 'none') {
+        window.autoFitCifra();
+    }
+});
 
 window.openSong = function(song) {
     hideAll();
@@ -668,6 +676,11 @@ window.openSong = function(song) {
     if (btn) btn.classList.toggle('active', isNotesVisible);
 
     document.querySelector('.main-content').scrollTop = 0;
+
+    // Small delay to ensure layout is computed before autofitting
+    setTimeout(() => {
+        window.autoFitCifra();
+    }, 50);
 };
 
 window.adjustFontSize = function(delta) {
@@ -1096,6 +1109,10 @@ window.toggleNotesWidget = function() {
     }
     
     localStorage.setItem('cifraceros_notes_visible', makeVisible ? 'true' : 'false');
+    
+    setTimeout(() => {
+        window.autoFitCifra();
+    }, 50);
 };
 
 document.addEventListener('DOMContentLoaded', () => {
