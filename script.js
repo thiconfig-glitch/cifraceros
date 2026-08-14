@@ -424,13 +424,14 @@ function renderResults(songs) {
         
         const safeTitle = escapeHTML(song.title);
         const safeTranspose = escapeHTML(song.transpose || 'Orig');
+        const transposeHtml = window.appMode === 'letras' ? '' : `<span class="song-transpose-tag">Tom: ${safeTranspose}</span>`;
 
         if (song.snippet) {
             clickableArea.innerHTML = `
                 <div class="song-info-wrapper">
                     <div class="song-main-line">
                         <span class="song-title-text">${safeTitle}</span>
-                        <span class="song-transpose-tag">Tom: ${safeTranspose}</span>
+                        ${transposeHtml}
                     </div>
                     <div class="song-snippet-preview">...${song.snippet}...</div>
                 </div>
@@ -438,7 +439,7 @@ function renderResults(songs) {
         } else {
             clickableArea.innerHTML = `
                 <span class="song-title-text">${safeTitle}</span>
-                <span class="song-transpose-tag">Tom: ${safeTranspose}</span>
+                ${transposeHtml}
             `;
         }
 
