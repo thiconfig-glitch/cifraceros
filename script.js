@@ -279,6 +279,8 @@ searchInput.addEventListener('input', () => {
     clearTimeout(searchTimeout);
     searchTimeout = setTimeout(() => {
         filterAndRender();
+        const sidebarContent = document.querySelector('.sidebar-content');
+        if (sidebarContent) sidebarContent.scrollTop = 0;
     }, 300);
 });
 
