@@ -61,14 +61,24 @@ function updateAdminUI() {
         if (loginSection) loginSection.style.display = 'none';
         if (uploadSection) uploadSection.style.display = 'block';
         if (playlistZone) playlistZone.style.display = 'flex';
-        if (btnAdminGate) btnAdminGate.style.display = 'none';
+        if (btnAdminGate) {
+            btnAdminGate.style.display = 'block';
+            btnAdminGate.textContent = "Painel Admin";
+            btnAdminGate.style.backgroundColor = "var(--primary-color)";
+            btnAdminGate.style.color = "white";
+        }
     } else {
         if (statusIndicator) statusIndicator.textContent = "Status: Leitura";
         if (logoutBtn) logoutBtn.style.display = 'none';
         if (loginSection) loginSection.style.display = 'block';
         if (uploadSection) uploadSection.style.display = 'none';
         if (playlistZone) playlistZone.style.display = 'none';
-        if (btnAdminGate) btnAdminGate.style.display = 'block';
+        if (btnAdminGate) {
+            btnAdminGate.style.display = 'block';
+            btnAdminGate.textContent = "logar para editar";
+            btnAdminGate.style.backgroundColor = "";
+            btnAdminGate.style.color = "";
+        }
     }
 }
 
@@ -167,6 +177,9 @@ window.selectAppMode = function(mode) {
         if (transposeGroup) transposeGroup.style.display = 'block';
         if (importBtn) importBtn.style.display = 'none';
     }
+
+    setlistIds = JSON.parse(localStorage.getItem('setlistCifraCerosIds_' + mode) || '[]');
+    renderSetlist();
 
     startListeningToSongs();
 };
@@ -886,10 +899,11 @@ startListeningToSongs();
 
 // --- Setlist Logic (Refactored for Stability) ---
 // We store only IDs in localStorage to ensure data consistency
-let setlistIds = JSON.parse(localStorage.getItem('setlistCifraCerosIds') || '[]');
+let setlistIds = [];
 
 function saveSetlist() {
-    localStorage.setItem('setlistCifraCerosIds', JSON.stringify(setlistIds));
+    if (!window.appMode) return;
+    localStorage.setItem('setlistCifraCerosIds_' + window.appMode, JSON.stringify(setlistIds));
 }
 
 window.toggleMobileSetlist = function() {
