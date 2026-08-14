@@ -679,6 +679,7 @@ pre {
     font-weight: 500;
     white-space: pre;
     overflow-x: auto;
+    max-width: 100%;
     line-height: 1.8;
     margin: 0;
     color: var(--text-color);
