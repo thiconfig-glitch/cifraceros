@@ -11,7 +11,7 @@
     --error-color: #ef4444;
     --success-color: #10b981;
     --glass-blur: blur(16px);
-    --font-main: 'Outfit', 'Inter', system-ui, sans-serif;
+    --font-main: 'Inter', system-ui, -apple-system, sans-serif;
     --transition-speed: 0.3s;
 }
 
