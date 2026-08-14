@@ -1,0 +1,99 @@
+{
+  "id": 1609515592004,
+  "title": "Esta Alegria",
+  "artist": "Sergio",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Essa alegria não vai mais sair\nEssa alegria não vai mais sair\nEssa alegria não vai mais sair\nDe dentro do meu coração\n\nNão não não não vai mais sair\nNão não não não vai mais sair\nNão não não não vai mais sair\nDe dentro do meu coração\n\nEssa alegria não vai mais sair\nEssa alegria não vai mais sair\nEssa alegria não vai mais sair\nDe dentro do meu coração\n\nNão não não não vai mais sair\nNão não não não vai mais sair\nNão não não não vai mais sair\nDe dentro do meu coração\n\nEssa alegria não vai mais sair\nEssa alegria não vai mais sair\nEssa alegria não vai mais sair\nDe dentro do meu coração\n\nEssa PAZ não vai mais sair\nEssa PAZ não vai mais sair\nEssa PAZ não vai mais sair\nDe dentro do meu coração\n\nNão não não não vai mais sair\nNão não não não vai mais sair\nNão não não não vai mais sair\nDe dentro do meu coração\n\nNão não não não vai mais sair\nNão não não não vai mais sair\nNão não não não vai mais sair\nDe dentro do meu coração\n\nDe dentro do meu coração\nDe dentro do meu coração",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Essa alegria não vai mais sair\nEssa alegria não vai mais sair\nEssa alegria não vai mais sair\nDe dentro do meu coração",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Não não não não vai mais sair\nNão não não não vai mais sair\nNão não não não vai mais sair\nDe dentro do meu coração",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Essa alegria não vai mais sair\nEssa alegria não vai mais sair\nEssa alegria não vai mais sair\nDe dentro do meu coração",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Não não não não vai mais sair\nNão não não não vai mais sair\nNão não não não vai mais sair\nDe dentro do meu coração",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Essa alegria não vai mais sair\nEssa alegria não vai mais sair\nEssa alegria não vai mais sair\nDe dentro do meu coração",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Essa PAZ não vai mais sair\nEssa PAZ não vai mais sair\nEssa PAZ não vai mais sair\nDe dentro do meu coração",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Não não não não vai mais sair\nNão não não não vai mais sair\nNão não não não vai mais sair\nDe dentro do meu coração",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": "Não não não não vai mais sair\nNão não não não vai mais sair\nNão não não não vai mais sair\nDe dentro do meu coração",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 9,
+        "description": "",
+        "text": "De dentro do meu coração\nDe dentro do meu coração",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

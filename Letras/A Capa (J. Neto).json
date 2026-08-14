@@ -1,0 +1,78 @@
+{
+  "id": 1611155026036,
+  "title": "A Capa",
+  "artist": "J. Neto",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Eu vou descer a casa do oleiro\nEu quero ser alguém mais \nverdadeiro\n\nEu já estou quebrado \ne quero ser mudado\nEu vou descer a casa do oleiro\n\nQuero tirar a capa \ne te olhar nos olhos\nPara perder o medo \nde me entregar completo\n\nQuero ser restaurado \npor teu amor e graça\nEis-me aqui de novo \n\nQuero tirar a capa \ne te olhar nos olhos\nPara perder o medo \nde me entregar completo\n\nQuero ser restaurado \npor teu poder e graça\nEis-me aqui de novo \nfaça o seu trabalho",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Eu vou descer a casa do oleiro\nEu quero ser alguém mais \nverdadeiro",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Eu já estou quebrado \ne quero ser mudado\nEu vou descer a casa do oleiro",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Quero tirar a capa \ne te olhar nos olhos\nPara perder o medo \nde me entregar completo",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Quero ser restaurado \npor teu amor e graça\nEis-me aqui de novo ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Quero tirar a capa \ne te olhar nos olhos\nPara perder o medo \nde me entregar completo",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Quero ser restaurado \npor teu poder e graça\nEis-me aqui de novo \nfaça o seu trabalho",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

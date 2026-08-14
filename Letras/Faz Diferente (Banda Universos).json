@@ -1,0 +1,92 @@
+{
+  "id": 1666410424486,
+  "title": "Faz Diferente",
+  "artist": "Banda Universos",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Aprenda idiomas com\n\nQuando no primeiro encontro te pedir um beijo\nFaz antes segurar a tua mão\nFaz ele esperar\nE quando te ligar, não precisa se apressar\nAo invés de logo responder, pare e pense antes de atender\nMesmo que queira ir além, faz o contrário dessa vez\n\nFaz ele esperar, essa é a chance dele te conquistar\nDessa vez vai ser diferente\nSem machucar o coração da gente\n\nFaz ele esperar, não tenha medo de acreditar\nEle sabe que é diferente\nPor isso vem te procurar\n\nPare e pense antes de ceder\nMesmo que queira ir além, faz o contrário dessa vez\n\nFaz ele esperar, essa é a chance dele te conquistar\nDessa vez vai ser diferente\nSem machucar o coração da gente\n\nFaz ele esperar, não tenha medo de acreditar\nEle sabe que é diferente\nPor isso vem te procurar\n\nFaz ele te esperar até o Altar",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Aprenda idiomas com",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Quando no primeiro encontro te pedir um beijo\nFaz antes segurar a tua mão\nFaz ele esperar\nE quando te ligar, não precisa se apressar\nAo invés de logo responder, pare e pense antes de atender\nMesmo que queira ir além, faz o contrário dessa vez",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Faz ele esperar, essa é a chance dele te conquistar\nDessa vez vai ser diferente\nSem machucar o coração da gente",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Faz ele esperar, não tenha medo de acreditar\nEle sabe que é diferente\nPor isso vem te procurar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Pare e pense antes de ceder\nMesmo que queira ir além, faz o contrário dessa vez",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Faz ele esperar, essa é a chance dele te conquistar\nDessa vez vai ser diferente\nSem machucar o coração da gente",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Faz ele esperar, não tenha medo de acreditar\nEle sabe que é diferente\nPor isso vem te procurar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": "Faz ele te esperar até o Altar",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

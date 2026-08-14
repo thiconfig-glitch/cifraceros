@@ -1,0 +1,85 @@
+{
+  "id": 1699700035574,
+  "title": "Jeová Jireh",
+  "artist": "",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "O fogo não me queima\nNas águas não vou afundar\nPois estás comigo\nNão estou sozinho\n\nEu estou guardado\nNo esconderijo\nNão estou sozinho\nTu estás comigo\n\nTemer por quê?\nSe eu estou \nguardado por quem nunca \nperdeu batalhas\n\nSeu nome é O AUTOR DA FÉ\nIrás prover de novo\nEu creio em Ti\n\nHaja o que houver\nVenha o que vier\nIrás prover de novo\nEu creio em Ti\n\nEu não vivo do que vejo\nVivo do que creio\nIrás prover de novo\nEu creio em Ti\n\nA tempestade\nE o Vento Forte\nNão vão roubar a minha fé\nEm Ti meu Deus",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "O fogo não me queima\nNas águas não vou afundar\nPois estás comigo\nNão estou sozinho",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Eu estou guardado\nNo esconderijo\nNão estou sozinho\nTu estás comigo",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Temer por quê?\nSe eu estou \nguardado por quem nunca \nperdeu batalhas",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Seu nome é O AUTOR DA FÉ\nIrás prover de novo\nEu creio em Ti",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Haja o que houver\nVenha o que vier\nIrás prover de novo\nEu creio em Ti",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Eu não vivo do que vejo\nVivo do que creio\nIrás prover de novo\nEu creio em Ti",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "A tempestade\nE o Vento Forte\nNão vão roubar a minha fé\nEm Ti meu Deus",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

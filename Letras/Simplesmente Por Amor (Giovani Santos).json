@@ -1,0 +1,64 @@
+{
+  "id": 1623613531370,
+  "title": "Simplesmente Por Amor",
+  "artist": "Giovani Santos",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Eu nada fiz\nPra que negar\nPorque Ele fez em meu lugar\nFoi Ele sim\nQue tudo fez por mim\n\nA minha culpa assumiu\nMe substituiu\nE não retrocedeu até o fim\nEm meu lugar Ele ficou\nOs meus pecados carregou\nSem nada me pedir\nSó por amor\n\nFoi Ele quem por mim morreu\nUm dia no calvário\nPregado e pendurado numa cruz\nEu nada fiz pra me salvar\nPorque não foi preciso\nPois tudo fez por mim\nO meu Jesus\n\nEle deu a sua própria vida\nE pra mim a vida eterna conquistou\nCom seu próprio sangue\nO meu resgate Ele pagou\nSimplesmente por amor",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Eu nada fiz\nPra que negar\nPorque Ele fez em meu lugar\nFoi Ele sim\nQue tudo fez por mim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "A minha culpa assumiu\nMe substituiu\nE não retrocedeu até o fim\nEm meu lugar Ele ficou\nOs meus pecados carregou\nSem nada me pedir\nSó por amor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Foi Ele quem por mim morreu\nUm dia no calvário\nPregado e pendurado numa cruz\nEu nada fiz pra me salvar\nPorque não foi preciso\nPois tudo fez por mim\nO meu Jesus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Ele deu a sua própria vida\nE pra mim a vida eterna conquistou\nCom seu próprio sangue\nO meu resgate Ele pagou\nSimplesmente por amor",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

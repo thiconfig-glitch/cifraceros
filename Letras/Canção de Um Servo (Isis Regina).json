@@ -1,0 +1,64 @@
+{
+  "id": 1596650871051,
+  "title": "Canção de Um Servo",
+  "artist": "Isis Regina",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Eu quero estar plantado\nNo centro da Tua vontade \nmeu Senhor\n \nEu quero ser regado\nCom as Águas do Espírito Santo\n\nTira de mim os galhos secos\nMe trata, me limpa\npra eu Te servir\n \nSó o que me importa\nÉ que Tu cresças \ne que eu diminua em mim\n\nEu quero encher Teus celeiros\nDe frutos que eu colhi aqui\n \nOnde eu plantei Tua Palavra\nAh! Quantos salvos pra Ti\n\nRecebe oh! Deus \nno Teu reino\nOs frutos que eu colhi Aqui \n \nonde eu plantei Tua fé\nSó vencedores eu vi",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Eu quero estar plantado\nNo centro da Tua vontade \nmeu Senhor\n \nEu quero ser regado\nCom as Águas do Espírito Santo",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Tira de mim os galhos secos\nMe trata, me limpa\npra eu Te servir\n \nSó o que me importa\nÉ que Tu cresças \ne que eu diminua em mim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Eu quero encher Teus celeiros\nDe frutos que eu colhi aqui\n \nOnde eu plantei Tua Palavra\nAh! Quantos salvos pra Ti",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Recebe oh! Deus \nno Teu reino\nOs frutos que eu colhi Aqui \n \nonde eu plantei Tua fé\nSó vencedores eu vi",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

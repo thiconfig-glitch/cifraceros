@@ -1,0 +1,64 @@
+{
+  "id": 1582748875648,
+  "title": "SOUBE QUE ME AMAVA",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "DESDE O PRINCÍPIO, QUANDO COM VOCÊ SONHEI\nDESDE O MOMENTO EM QUE OS MEUS OLHOS LEVANTEI\nDESDE ESSE DIA EM QUE SOZINHO EU ESTAVA\nFOI QUANDO O SEU OLHAR NO MEU SE ENCONTROU\n\nSOUBE QUE ME AMAVA, ENTENDI\nSOUBE QUE BUSCAVA MAIS DE MIM\nQUE MUITO TEMPO ME ESPEROU, E ENTÃO CHEGUEI\n\nSOUBE QUE ME AMAVA, ENTENDI\nEU JÁ NÃO PODIA RESISTIR\nE COM UM BEIJO E COM AMOR\nTE ENTREGUEI MEU CORAÇÃO, ME APAIXONEI\n\nE QUANDO LONGE EU ESTAVA PERCEBI\nQUE O TEU CARINHO E O TEU AMOR ERAM PRA MIM\nCOMO UM SUSSURRO OUVI TUA VOZ\nNO MEU SILÊNCIO\nME CHAMANDO CADA DIA MAIS PRA TI",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "DESDE O PRINCÍPIO, QUANDO COM VOCÊ SONHEI\nDESDE O MOMENTO EM QUE OS MEUS OLHOS LEVANTEI\nDESDE ESSE DIA EM QUE SOZINHO EU ESTAVA\nFOI QUANDO O SEU OLHAR NO MEU SE ENCONTROU",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "SOUBE QUE ME AMAVA, ENTENDI\nSOUBE QUE BUSCAVA MAIS DE MIM\nQUE MUITO TEMPO ME ESPEROU, E ENTÃO CHEGUEI",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "SOUBE QUE ME AMAVA, ENTENDI\nEU JÁ NÃO PODIA RESISTIR\nE COM UM BEIJO E COM AMOR\nTE ENTREGUEI MEU CORAÇÃO, ME APAIXONEI",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "E QUANDO LONGE EU ESTAVA PERCEBI\nQUE O TEU CARINHO E O TEU AMOR ERAM PRA MIM\nCOMO UM SUSSURRO OUVI TUA VOZ\nNO MEU SILÊNCIO\nME CHAMANDO CADA DIA MAIS PRA TI",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

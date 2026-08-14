@@ -1,0 +1,57 @@
+{
+  "id": 1582748875745,
+  "title": "LUTA COM DEUS",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "PRECISO DA VITÓRIA E NÃO VOU DESISTIR\nCOMO JACÓ NO VALE VOU LUTAR\nMEUS BENS E MINHA FAMÍLIA\nAO RIBEIRO EU FIZ PASSAR\nDESPOJADO DE TUDO\nCOM DEUS EU QUERO ME ENCONTRAR\n\nEU VOU LUTAR CONTIGO \nATÉ O AMANHECER\nPRECISO DA TUA BENÇÃO \nUMA TRANSFORMAÇÃO\nDÁ-ME NOVA IDENTIDADE \nMUDA MEU NOME, OH SENHOR\nSOU HERDEIRO DE ABRAÃO,\nA FÉ ME FAZ UM VENCEDOR\n\nEU VOU LUTAR COM DEUS \nCOMO JACÓ LUTOU E VENCEU\nEU NÃO VOU DESISTIR \nVOU ME SACRIFICAR\nSÓ TE DEIXAREI SUBIR \nQUANDO ME ABENÇOAR",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "PRECISO DA VITÓRIA E NÃO VOU DESISTIR\nCOMO JACÓ NO VALE VOU LUTAR\nMEUS BENS E MINHA FAMÍLIA\nAO RIBEIRO EU FIZ PASSAR\nDESPOJADO DE TUDO\nCOM DEUS EU QUERO ME ENCONTRAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "EU VOU LUTAR CONTIGO \nATÉ O AMANHECER\nPRECISO DA TUA BENÇÃO \nUMA TRANSFORMAÇÃO\nDÁ-ME NOVA IDENTIDADE \nMUDA MEU NOME, OH SENHOR\nSOU HERDEIRO DE ABRAÃO,\nA FÉ ME FAZ UM VENCEDOR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "EU VOU LUTAR COM DEUS \nCOMO JACÓ LUTOU E VENCEU\nEU NÃO VOU DESISTIR \nVOU ME SACRIFICAR\nSÓ TE DEIXAREI SUBIR \nQUANDO ME ABENÇOAR",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

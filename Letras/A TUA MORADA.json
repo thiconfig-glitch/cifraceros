@@ -1,0 +1,64 @@
+{
+  "id": 1582748875872,
+  "title": "A TUA MORADA",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "NESSE LUGAR DE ADORAÇÃO\nVIM TE BUSCAR \nDE TODO O CORAÇÃO\nA MINHA VIDA EU QUERO OFERTAR \nO MEU MELHOR\n EU QUERO CONSAGRAR\n\nTIRA DE MIM \nO QUE NÃO TE AGRADA\nEU QUERO SER A TUA MORADA\nVEM ME ENVOLVER, \nCOM O TEU PODER\nPOIS SEM TI NÃO SEI VIVER\n\nPAI EU ABRO A PORTA\n DO MEU CORAÇÃO\nVENHA DERRAMAR A TUA UNÇÃO\nE FAZER DE MIM O QUE QUISER\n\nPAI EU QUERO SER \nO FILHO QUE TE AGRADA\nE LEVAR AO MUNDO \nA TUA PALAVRA\nTE SERVIR ENQUANTO EU VIVER",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "NESSE LUGAR DE ADORAÇÃO\nVIM TE BUSCAR \nDE TODO O CORAÇÃO\nA MINHA VIDA EU QUERO OFERTAR \nO MEU MELHOR\n EU QUERO CONSAGRAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "TIRA DE MIM \nO QUE NÃO TE AGRADA\nEU QUERO SER A TUA MORADA\nVEM ME ENVOLVER, \nCOM O TEU PODER\nPOIS SEM TI NÃO SEI VIVER",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "PAI EU ABRO A PORTA\n DO MEU CORAÇÃO\nVENHA DERRAMAR A TUA UNÇÃO\nE FAZER DE MIM O QUE QUISER",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "PAI EU QUERO SER \nO FILHO QUE TE AGRADA\nE LEVAR AO MUNDO \nA TUA PALAVRA\nTE SERVIR ENQUANTO EU VIVER",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

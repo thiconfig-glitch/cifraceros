@@ -1,0 +1,57 @@
+{
+  "id": 1620412230217,
+  "title": "Graças a Deus",
+  "artist": "Márcio Pinheiro",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Quando eu cheguei aqui\nEu vi uma luz brilhar\nLogo eu compreendi\nQue a minha vida ia se transformar\n\nAbri o meu coração\nDeixei a palavra penetrar\nDei o meu coração\nPara Jesus, Jesus morar\nJesus morar\n\nGraças a Deus\nGraças a Deus\nGraças a Deus\nGraças a Deus",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Quando eu cheguei aqui\nEu vi uma luz brilhar\nLogo eu compreendi\nQue a minha vida ia se transformar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Abri o meu coração\nDeixei a palavra penetrar\nDei o meu coração\nPara Jesus, Jesus morar\nJesus morar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Graças a Deus\nGraças a Deus\nGraças a Deus\nGraças a Deus",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

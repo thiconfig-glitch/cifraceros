@@ -1,0 +1,57 @@
+{
+  "id": 1599079908072,
+  "title": "Vai e Não Peques Mais",
+  "artist": "Marcos Góes",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Se o inimigo te vem acusar\nCom teus pecados te quer condenar\nVem tomar toda a vitória\nQue o Filho de Deus te dá\nPois lá na cruz já comprou o perdão\nSangue que apaga toda acusação\nVai, vai, vai e não peques mais\n\nVai, vai, vai e não peques mais\nConsagra Tua vida nas mãos de Jesus\nVem, vem, vem receba a paz\nEm Nome do Pai, e não peques mais\n\nSerá angústia ou tribulação\nPerigo, fome ou perseguição\nQuem te irá separar do amor de Jesus, irmão\nPois você é mais que um vencedor\nE ninguém vai te tirar deste amor\nVai, vai, vai e não peques mais",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Se o inimigo te vem acusar\nCom teus pecados te quer condenar\nVem tomar toda a vitória\nQue o Filho de Deus te dá\nPois lá na cruz já comprou o perdão\nSangue que apaga toda acusação\nVai, vai, vai e não peques mais",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Vai, vai, vai e não peques mais\nConsagra Tua vida nas mãos de Jesus\nVem, vem, vem receba a paz\nEm Nome do Pai, e não peques mais",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Será angústia ou tribulação\nPerigo, fome ou perseguição\nQuem te irá separar do amor de Jesus, irmão\nPois você é mais que um vencedor\nE ninguém vai te tirar deste amor\nVai, vai, vai e não peques mais",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

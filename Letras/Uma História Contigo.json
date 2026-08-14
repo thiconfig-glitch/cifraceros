@@ -1,0 +1,57 @@
+{
+  "id": 1582748875602,
+  "title": "Uma História Contigo",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "VOU LAVAR MINHAS REDES\nMAS NÃO QUERO IR EMBORA\nQUERO TUA PRESENÇA, ELA MUDA UMA HISTÓRIA\nFOI DEPOIS DE UMA NOITE\nQUE SIMÃO TE ENCONTROU\nCOM O BARCO VAZIO NENHUM PEIXE APANHOU\n\nDE QUE VALEM OS PLANOS SE ME SINTO VAZIO\nDE QUE VALEM OS SONHOS, SEM OS TEUS IDEAIS\nTUDO ISSO É MOMENTO ATÉ QUANDO EU OUVIR\nTUA VOZ ME DIZENDO LANCE A REDE NO MAR\nE DEPOIS DO MILAGRE, EU NÃO QUERO IR EMBORA\nQUERO VIVER CONTIGO, SENHOR\nUMA NOVA HISTÓRIA\n\nVEM! ENTRA NO MEU BARCO\nMUDA MINHA HISTÓRIA\nME FAÇA ESQUECER A NOITE TRISTE NESSA HORA\nSÓ TUA PRESENÇA PRA MIM É O BASTANTE\nPOIS DE UMA COISA EU SEI, NÃO SEREI COMO ANTES",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "VOU LAVAR MINHAS REDES\nMAS NÃO QUERO IR EMBORA\nQUERO TUA PRESENÇA, ELA MUDA UMA HISTÓRIA\nFOI DEPOIS DE UMA NOITE\nQUE SIMÃO TE ENCONTROU\nCOM O BARCO VAZIO NENHUM PEIXE APANHOU",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "DE QUE VALEM OS PLANOS SE ME SINTO VAZIO\nDE QUE VALEM OS SONHOS, SEM OS TEUS IDEAIS\nTUDO ISSO É MOMENTO ATÉ QUANDO EU OUVIR\nTUA VOZ ME DIZENDO LANCE A REDE NO MAR\nE DEPOIS DO MILAGRE, EU NÃO QUERO IR EMBORA\nQUERO VIVER CONTIGO, SENHOR\nUMA NOVA HISTÓRIA",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "VEM! ENTRA NO MEU BARCO\nMUDA MINHA HISTÓRIA\nME FAÇA ESQUECER A NOITE TRISTE NESSA HORA\nSÓ TUA PRESENÇA PRA MIM É O BASTANTE\nPOIS DE UMA COISA EU SEI, NÃO SEREI COMO ANTES",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

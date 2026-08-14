@@ -1,0 +1,64 @@
+{
+  "id": 1582748875625,
+  "title": "ROSA DE SARON",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "OLHANDO ESTE MUNDO ELE VIU GRANDE MULTIDÃO\nANDANDO SOZINHO SEM NADA NA MÃO\nSUA VIDA FOI ROSA VERMELHA CRAVADA NA CRUZ\nQUEM PASSOU POR ELE SENTIU COMPAIXÃO\n\nA ROSA MURCHANDO, SANGRANDO\nESVAINDO EM DOR\nPERDENDO A COR, SEM RESPIRAÇÃO\nMAS O SEU PERFUME\nSE APEGA À MÃO QUE A ESMAGOU\nE QUEM A FERIU CONCEDEU O PERDÃO\n\nAGORA SEU SANGUE VERTENDO CAINDO NO CHÃO\nTRÊS DIAS MORRENDO, OH QUE SOLIDÃO\nNO TERCEIRO DIA O MUNDO ENCHEU-SE DE FLORES\nE A ROSA VERMELHA DE NOVO BROTOU\n\nJESUS É O LÍRIO DOS VALES A ROSA DE SARON\nATÉ SEUS ESPINHOS SÃO MARCAS DE AMOR\nAGORA ELE VIVE A PLANTAR UM GRANDE JARDIM\nE SE VOCÊ QUISER SERÁ UMA FLOR",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "OLHANDO ESTE MUNDO ELE VIU GRANDE MULTIDÃO\nANDANDO SOZINHO SEM NADA NA MÃO\nSUA VIDA FOI ROSA VERMELHA CRAVADA NA CRUZ\nQUEM PASSOU POR ELE SENTIU COMPAIXÃO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "A ROSA MURCHANDO, SANGRANDO\nESVAINDO EM DOR\nPERDENDO A COR, SEM RESPIRAÇÃO\nMAS O SEU PERFUME\nSE APEGA À MÃO QUE A ESMAGOU\nE QUEM A FERIU CONCEDEU O PERDÃO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "AGORA SEU SANGUE VERTENDO CAINDO NO CHÃO\nTRÊS DIAS MORRENDO, OH QUE SOLIDÃO\nNO TERCEIRO DIA O MUNDO ENCHEU-SE DE FLORES\nE A ROSA VERMELHA DE NOVO BROTOU",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "JESUS É O LÍRIO DOS VALES A ROSA DE SARON\nATÉ SEUS ESPINHOS SÃO MARCAS DE AMOR\nAGORA ELE VIVE A PLANTAR UM GRANDE JARDIM\nE SE VOCÊ QUISER SERÁ UMA FLOR",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

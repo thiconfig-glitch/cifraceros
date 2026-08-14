@@ -1,0 +1,57 @@
+{
+  "id": 1587164882331,
+  "title": "Deixa Deus Te Ajudar",
+  "artist": "IURD",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Deixa Deus te ajudar\nEle tem ouvido a tua oração\nDê uma chance pra Jesus\nEle não está na cruz\nEstá vivo e quer te abençoar\n\nConta pra Ele onde está a sua dor\nPra tudo Ele tem a solução\nAgora é só uma questão de tempo\nEle está neste momento intercedendo\npor você\n\nDeixa Deus te ajudar  \nEntrega pra Ele o teu coração\nOre, acredite, tenha fé\nEle não muda Ele é \na solução pra tua vida",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Deixa Deus te ajudar\nEle tem ouvido a tua oração\nDê uma chance pra Jesus\nEle não está na cruz\nEstá vivo e quer te abençoar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Conta pra Ele onde está a sua dor\nPra tudo Ele tem a solução\nAgora é só uma questão de tempo\nEle está neste momento intercedendo\npor você",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Deixa Deus te ajudar  \nEntrega pra Ele o teu coração\nOre, acredite, tenha fé\nEle não muda Ele é \na solução pra tua vida",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

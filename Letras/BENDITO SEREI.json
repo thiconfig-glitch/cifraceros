@@ -1,0 +1,78 @@
+{
+  "id": 1582748875547,
+  "title": "BENDITO SEREI",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "SE ATENTAMENTE OUVIR A DEUS\nE OS MANDAMENTOS SEUS OBEDECER\n\nO SENHOR MEU DEUS ME EXALTARÁ\nSOBRE TODAS AS NAÇÕES \nONDE EU PASSAR\n\nEU NÃO CORREREI ATRÁS DE BÊNÇÃOS\nSEI QUE ELAS VÃO ME ALCANÇAR\n\nONDE EU COLOCAR \nA PLANTA DOS MEUS PÉS\nSEI QUE A SUA BENÇÃO CHEGARÁ\n\nBENDITO SEREI NA TERRA, \nBENDITO SEREI\nQUANDO EU PROFETIZAR\nSEI QUE A MINHA VOZ\nSERÁ A VOZ DE DEUS\n\nBENDITO SEREI NO CAMPO, \nBENDITO SEREI\nPOR ONDE EU PASSAR\nONDE EU TOCAR ABENÇOADO SERÁ\nQUANDO EU OBEDECER A SUA VOZ",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "SE ATENTAMENTE OUVIR A DEUS\nE OS MANDAMENTOS SEUS OBEDECER",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "O SENHOR MEU DEUS ME EXALTARÁ\nSOBRE TODAS AS NAÇÕES \nONDE EU PASSAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "EU NÃO CORREREI ATRÁS DE BÊNÇÃOS\nSEI QUE ELAS VÃO ME ALCANÇAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "ONDE EU COLOCAR \nA PLANTA DOS MEUS PÉS\nSEI QUE A SUA BENÇÃO CHEGARÁ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "BENDITO SEREI NA TERRA, \nBENDITO SEREI\nQUANDO EU PROFETIZAR\nSEI QUE A MINHA VOZ\nSERÁ A VOZ DE DEUS",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "BENDITO SEREI NO CAMPO, \nBENDITO SEREI\nPOR ONDE EU PASSAR\nONDE EU TOCAR ABENÇOADO SERÁ\nQUANDO EU OBEDECER A SUA VOZ",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

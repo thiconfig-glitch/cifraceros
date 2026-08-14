@@ -1,0 +1,57 @@
+{
+  "id": 1582748875509,
+  "title": "MELHOR AMIGO",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "VEM SONDAR A MINHA VIDA\nTODO O MEU INTERIOR\nÉS O MEU MELHOR AMIGO\nESPIRITO SANTO\n\nTU CONHECES OS MEUS PASSOS\nDE ONDE VIM, PRA ONDE VOU O MEU CORAÇÃO É TEU ESPÍRITO SANTO\n\nADORAREI, ADORAREI\nTUA VIDA EM MINHA VIDA\nÉS BEM VINDO EM MINHA VIDA\nESPÍRITO SANTO",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "VEM SONDAR A MINHA VIDA\nTODO O MEU INTERIOR\nÉS O MEU MELHOR AMIGO\nESPIRITO SANTO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "TU CONHECES OS MEUS PASSOS\nDE ONDE VIM, PRA ONDE VOU O MEU CORAÇÃO É TEU ESPÍRITO SANTO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "ADORAREI, ADORAREI\nTUA VIDA EM MINHA VIDA\nÉS BEM VINDO EM MINHA VIDA\nESPÍRITO SANTO",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

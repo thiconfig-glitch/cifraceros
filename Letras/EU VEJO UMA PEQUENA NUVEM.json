@@ -1,0 +1,57 @@
+{
+  "id": 1582748875746,
+  "title": "EU VEJO UMA PEQUENA NUVEM",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Eu vejo  uma pequena  nuvem\nEU VEJO UMA PEQUENA NUVEM\nDO TAMANHO DA MÃO DE UM HOMEM\nMAS ESTE É O SINAL\nQUE A TUA CHUVA VAI DESCER\n\nFAZ CHOVER, FAZ CHOVER\nABRE AS COMPORTAS DOS CÉUS\nE FAZ CHOVER, FAZ CHOVER\nABRE AS COMPORTAS DOS CÉUS\n\nSE PEDIRMOS, JESUS VIRÁ\nCOMO CHUVA DESCERÁ, ",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Eu vejo  uma pequena  nuvem\nEU VEJO UMA PEQUENA NUVEM\nDO TAMANHO DA MÃO DE UM HOMEM\nMAS ESTE É O SINAL\nQUE A TUA CHUVA VAI DESCER",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "FAZ CHOVER, FAZ CHOVER\nABRE AS COMPORTAS DOS CÉUS\nE FAZ CHOVER, FAZ CHOVER\nABRE AS COMPORTAS DOS CÉUS",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "SE PEDIRMOS, JESUS VIRÁ\nCOMO CHUVA DESCERÁ, ",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

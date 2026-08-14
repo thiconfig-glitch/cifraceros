@@ -1,0 +1,71 @@
+{
+  "id": 1582748876026,
+  "title": "SOLDADO FERIDO",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "HÁ MUITOS FERIDOS\nCHORAM DE ANGÚSTIA E DE DOR\nBUSCAM POR PROTEÇÃO E POR PAZ\nAMIGOS QUE SOFREM\nSUA NECESSIDADE ATENDE HOJE\nNÃO DEIXA O SOLDADO FERIDO MORRER\n\nSoldado  ferido\n\nDEITA O BÁLSAMO, E A FERIDA SARARÁ\nPROTEGE-O COM TEU MANTO DE AMOR\nO PÃO PARTIREMOS SIM\nDESCANSO LHES DARÁS\nE TODA ANGÚSTIA SAIRÁ\nNÃO DEIXE, O FIÉL, SOLDADO FERIDO MORRER\n\nSEGUINDO SUA ORDEM\nLUTARAM NA FRENTE PARA O REI\nE O FORTE INIMIGO PUDERAM VENCER\nMAS POR ESSE ESFORÇO\nSATÃ INTENTOU SUAS VIDAS MATAR\nNÃO DEIXE O SOLDADO FERIDO MORRER\n\nDERRAMA O BÁLSAMO, E A FERIDA SARARÁ\nPROTEGE-O COM TEU MANTO DE AMOR\nO PÃO PARTIREMOS SIM, DESCANSO LHES DARÁS\nE TODA ANGÚSTIA SAIRÁ\nNÃO DEIXE O FIÉL SOLDADO FERIDO MORRER\nNÃO PODES OLHAR SEM SOCORRER\nO AMOR É MAIS FORTE, FAZ VIVER\nNÃO PODES DEIXAR O SOLDADO FERIDO MORRER",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "HÁ MUITOS FERIDOS\nCHORAM DE ANGÚSTIA E DE DOR\nBUSCAM POR PROTEÇÃO E POR PAZ\nAMIGOS QUE SOFREM\nSUA NECESSIDADE ATENDE HOJE\nNÃO DEIXA O SOLDADO FERIDO MORRER",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Soldado  ferido",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "DEITA O BÁLSAMO, E A FERIDA SARARÁ\nPROTEGE-O COM TEU MANTO DE AMOR\nO PÃO PARTIREMOS SIM\nDESCANSO LHES DARÁS\nE TODA ANGÚSTIA SAIRÁ\nNÃO DEIXE, O FIÉL, SOLDADO FERIDO MORRER",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "SEGUINDO SUA ORDEM\nLUTARAM NA FRENTE PARA O REI\nE O FORTE INIMIGO PUDERAM VENCER\nMAS POR ESSE ESFORÇO\nSATÃ INTENTOU SUAS VIDAS MATAR\nNÃO DEIXE O SOLDADO FERIDO MORRER",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "DERRAMA O BÁLSAMO, E A FERIDA SARARÁ\nPROTEGE-O COM TEU MANTO DE AMOR\nO PÃO PARTIREMOS SIM, DESCANSO LHES DARÁS\nE TODA ANGÚSTIA SAIRÁ\nNÃO DEIXE O FIÉL SOLDADO FERIDO MORRER\nNÃO PODES OLHAR SEM SOCORRER\nO AMOR É MAIS FORTE, FAZ VIVER\nNÃO PODES DEIXAR O SOLDADO FERIDO MORRER",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

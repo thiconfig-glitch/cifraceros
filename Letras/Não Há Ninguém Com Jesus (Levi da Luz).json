@@ -1,0 +1,78 @@
+{
+  "id": 1606546461332,
+  "title": "Não Há Ninguém Com Jesus",
+  "artist": "Levi da Luz",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Não há ninguém como Jesus\nNão há ninguém como Jesus\nNão há ninguém como Jesus\nNão há ninguém como o senhor Jesus\nNão há ninguém como Jesus\n\nAndei, andei e não vi nada\nGirei, girei e não vi nada\nProcurei, procurei e não vi nada\nNão há ninguém como Jesus\n\nNão há ninguém como Jesus\n\nAkekho ofana nojesu\nAkekho ofana naye\nAdekho ofana nojesus\nAkekho ofana naye\n\nSahamba sahamba akekho akekho\nSajika sajika akekho akekho\nSafuna safuna akekho akekho\nAkekho afana naye\n\nNão há ninguém como Jesus",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Não há ninguém como Jesus\nNão há ninguém como Jesus\nNão há ninguém como Jesus\nNão há ninguém como o senhor Jesus\nNão há ninguém como Jesus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Andei, andei e não vi nada\nGirei, girei e não vi nada\nProcurei, procurei e não vi nada\nNão há ninguém como Jesus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Não há ninguém como Jesus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Akekho ofana nojesu\nAkekho ofana naye\nAdekho ofana nojesus\nAkekho ofana naye",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Sahamba sahamba akekho akekho\nSajika sajika akekho akekho\nSafuna safuna akekho akekho\nAkekho afana naye",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Não há ninguém como Jesus",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

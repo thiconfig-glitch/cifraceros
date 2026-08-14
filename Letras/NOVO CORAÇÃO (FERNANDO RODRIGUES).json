@@ -1,0 +1,64 @@
+{
+  "id": 1607782862787,
+  "title": "NOVO CORAÇÃO",
+  "artist": "FERNANDO RODRIGUES",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Me dá Senhor um novo coração\nEu quero sepultar o  meu querer\nMinh'alma está tão triste\nPedindo o Teu perdão\nMe dá Senhor um novo coração\n\nPreciso meu Senhor ouvir Tua voz\nDizendo filho Eu estou aqui\nReceber o Teu carinho\nReceber o Teu perdão\nMe dá Senhor um novo coração\n\nVem meu Senhor me renovar\nCom Teu poder me aceitar\nCom Teu Espírito envolver\nA minha vida e o meu ser\n\nVem meu Senhor me renovar\nCom Teu amor me aceitar\nCom Teu Espírito envolver\nPra entregar em Teu altar\nO meu viver",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Me dá Senhor um novo coração\nEu quero sepultar o  meu querer\nMinh'alma está tão triste\nPedindo o Teu perdão\nMe dá Senhor um novo coração",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Preciso meu Senhor ouvir Tua voz\nDizendo filho Eu estou aqui\nReceber o Teu carinho\nReceber o Teu perdão\nMe dá Senhor um novo coração",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Vem meu Senhor me renovar\nCom Teu poder me aceitar\nCom Teu Espírito envolver\nA minha vida e o meu ser",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Vem meu Senhor me renovar\nCom Teu amor me aceitar\nCom Teu Espírito envolver\nPra entregar em Teu altar\nO meu viver",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": 1585502174443,
+  "title": "Faz Um Milagre Em Mim",
+  "artist": "Regis Danese",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Como zaqueu eu quero subir\nO mais alto que eu puder\nSó pra Te ver, olhar para Ti\nE chamar sua atenção para mim\nEu preciso de Ti Senhor\nEu preciso de Ti o pai\n\nSou pequeno demais\nMe dá a tua paz\nLargo tudo pra Te seguir\n\nEntra na minha casa, \nEntra na minha vida\nMexe com minha estrutura, \nSara todas as feridas\nMe ensina a ter santidade\nQuero amar somente a Ti\nPorque o Senhor é meu bem maior\nFaz um milagre em mim",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Como zaqueu eu quero subir\nO mais alto que eu puder\nSó pra Te ver, olhar para Ti\nE chamar sua atenção para mim\nEu preciso de Ti Senhor\nEu preciso de Ti o pai",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Sou pequeno demais\nMe dá a tua paz\nLargo tudo pra Te seguir",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Entra na minha casa, \nEntra na minha vida\nMexe com minha estrutura, \nSara todas as feridas\nMe ensina a ter santidade\nQuero amar somente a Ti\nPorque o Senhor é meu bem maior\nFaz um milagre em mim",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

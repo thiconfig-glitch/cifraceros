@@ -1,0 +1,64 @@
+{
+  "id": 1598622838474,
+  "title": "Se Deus é Por Nós",
+  "artist": "Fernandinho",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "O que diremos pois diante dessas coisas?\nO que diremos pois diante dessas coisas?\n\nÉ Ele quem nos chama\nÉ Ele quem nos justifica\nÉ Ele quem nos glorifica\n\nSe Deus é por nós? Quem será contra nós?\nSe Deus é por nos? Quem será contra nós?\n\nAgindo Deus, quem impedirá?\nAgindo Deus, quem impedirá?",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "O que diremos pois diante dessas coisas?\nO que diremos pois diante dessas coisas?",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "É Ele quem nos chama\nÉ Ele quem nos justifica\nÉ Ele quem nos glorifica",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Se Deus é por nós? Quem será contra nós?\nSe Deus é por nos? Quem será contra nós?",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Agindo Deus, quem impedirá?\nAgindo Deus, quem impedirá?",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

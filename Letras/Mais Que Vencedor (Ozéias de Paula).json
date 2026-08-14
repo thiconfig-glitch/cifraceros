@@ -1,0 +1,106 @@
+{
+  "id": 1599086719980,
+  "title": "Mais Que Vencedor",
+  "artist": "Ozéias de Paula",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Eu sei que não estou sozinho\nQue nesse meu caminho\nJesus vem comigo\n\nEu sei que apesar das tentações\nE até mesmo provações\nJamais sou vencido\n\nE na hora do perigo\nJesus está bem perto\nNos momentos mais incertos\nEle é o amigo certo\n\nQuando tenho algum problema\nContigo eu converso\nTu és meu Deus, meu Salvador\nO dono do universo\n\nContigo eu sou\nMais que vencedor\nContigo eu sou\nMais que vencedor\nNada pode me separar, Senhor\nDo Teu divino amor\n\nE na hora do perigo\nVocê está bem perto\nNos momentos mais incertos\nVocê é o amigo certo\n\nQuando tenho algum problema\nContigo eu converso\nTu és meu Deus, meu Salvador\nO dono do universo\n\nContigo eu sou\nMais que vencedor\nContigo eu sou\nMais que vencedor\n\nNada pode me separar, Senhor\nDo Teu divino amor\nNada pode me separar, Senhor\nDo Teu divino amor\n\nNada pode me separar, Senhor\nDo Teu divino amor\nNada pode me separar, Senhor\nDo Teu grande poder",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Eu sei que não estou sozinho\nQue nesse meu caminho\nJesus vem comigo",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Eu sei que apesar das tentações\nE até mesmo provações\nJamais sou vencido",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "E na hora do perigo\nJesus está bem perto\nNos momentos mais incertos\nEle é o amigo certo",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Quando tenho algum problema\nContigo eu converso\nTu és meu Deus, meu Salvador\nO dono do universo",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Contigo eu sou\nMais que vencedor\nContigo eu sou\nMais que vencedor\nNada pode me separar, Senhor\nDo Teu divino amor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "E na hora do perigo\nVocê está bem perto\nNos momentos mais incertos\nVocê é o amigo certo",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Quando tenho algum problema\nContigo eu converso\nTu és meu Deus, meu Salvador\nO dono do universo",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": "Contigo eu sou\nMais que vencedor\nContigo eu sou\nMais que vencedor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 9,
+        "description": "",
+        "text": "Nada pode me separar, Senhor\nDo Teu divino amor\nNada pode me separar, Senhor\nDo Teu divino amor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 10,
+        "description": "",
+        "text": "Nada pode me separar, Senhor\nDo Teu divino amor\nNada pode me separar, Senhor\nDo Teu grande poder",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

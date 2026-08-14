@@ -1,0 +1,64 @@
+{
+  "id": 1629400092382,
+  "title": "Pra Sempre Quero Te Amar",
+  "artist": "Ruama",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Te encontrar foi tão bom pra mim,\nVocê é tudo que eu sempre quis,\nNunca pensei que alguém pra mim,\nFosse dar uma prova de amor,\n\nNão posso entender, que um dia alguém,\nMorreu só pra me salvar.\nNunca vi amor tão forte assim,\nHoje eu tenho a razão pra viver.\n\nPra sempre quero te amar.\nÉ o Rei dos reis e Senhor do amor,\nMeu coração pertence a Jesus.\nPra sempre quero te amar.\nEnquanto eu viver,sempre te amarei\nEu te amo, Oh! meu Jesus.\n\nTe encontrar foi tão bom pra mim,\nVocê é tudo que eu sempre quis.",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Te encontrar foi tão bom pra mim,\nVocê é tudo que eu sempre quis,\nNunca pensei que alguém pra mim,\nFosse dar uma prova de amor,",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Não posso entender, que um dia alguém,\nMorreu só pra me salvar.\nNunca vi amor tão forte assim,\nHoje eu tenho a razão pra viver.",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Pra sempre quero te amar.\nÉ o Rei dos reis e Senhor do amor,\nMeu coração pertence a Jesus.\nPra sempre quero te amar.\nEnquanto eu viver,sempre te amarei\nEu te amo, Oh! meu Jesus.",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Te encontrar foi tão bom pra mim,\nVocê é tudo que eu sempre quis.",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

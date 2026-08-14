@@ -1,0 +1,71 @@
+{
+  "id": 1582748875862,
+  "title": "TEM QUE MUDAR",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "SE TE FALTA PAZ NO CORAÇÃO\nSE NÃO ÉS CAPAZ DE AMAR O TEU IRMÃO\nSE PRA PERDOAR NÃO VÊS MAIS CONDIÇÃO\nSE EM TEU MODO DE AGIR \nNINGUÉM VÊ MAIS UNÇÃO\n\nSE NÃO HÁ MAIS TEMPO PRO TEU DEUS\nSE NÃO TENS PRAZER EM MEIO AOS BRAÇOS SEUS \nSE NÃO SOBRA TEMPO PRA UMA ORAÇÃO\nÉ TEMPO DE PARAR E PÔR OS PÉS NO CHÃO\n\nTEM QUE MUDAR\nESTÁ TUDO ERRADO COM VOCÊ\nTEM QUE MUDAR\nCRISTO TE ESPERA OUTRA VEZ\n\nSE TEUS COMPROMISSOS TE CONSOMEM\nNÃO AGRADA A DEUS E SIM AO HOMEM\nSE DO PEDESTAL AINDA DESCEU\nJESUS DIMINUIU E SÓ VOCÊ CRESCEU\n\nÉ HORA DE LEMBRAR ONDE VOCÊ CAIU\nE SE ARREPENDER, O MESTRE TUDO VIU\nDEUS FEZ DE VOCÊ UM VASO DE VALOR\nQUE ELE USA QUANDO QUER\nMOSTRAR O SEU AMOR",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "SE TE FALTA PAZ NO CORAÇÃO\nSE NÃO ÉS CAPAZ DE AMAR O TEU IRMÃO\nSE PRA PERDOAR NÃO VÊS MAIS CONDIÇÃO\nSE EM TEU MODO DE AGIR \nNINGUÉM VÊ MAIS UNÇÃO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "SE NÃO HÁ MAIS TEMPO PRO TEU DEUS\nSE NÃO TENS PRAZER EM MEIO AOS BRAÇOS SEUS \nSE NÃO SOBRA TEMPO PRA UMA ORAÇÃO\nÉ TEMPO DE PARAR E PÔR OS PÉS NO CHÃO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "TEM QUE MUDAR\nESTÁ TUDO ERRADO COM VOCÊ\nTEM QUE MUDAR\nCRISTO TE ESPERA OUTRA VEZ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "SE TEUS COMPROMISSOS TE CONSOMEM\nNÃO AGRADA A DEUS E SIM AO HOMEM\nSE DO PEDESTAL AINDA DESCEU\nJESUS DIMINUIU E SÓ VOCÊ CRESCEU",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "É HORA DE LEMBRAR ONDE VOCÊ CAIU\nE SE ARREPENDER, O MESTRE TUDO VIU\nDEUS FEZ DE VOCÊ UM VASO DE VALOR\nQUE ELE USA QUANDO QUER\nMOSTRAR O SEU AMOR",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

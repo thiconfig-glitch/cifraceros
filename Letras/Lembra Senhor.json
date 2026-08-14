@@ -1,0 +1,78 @@
+{
+  "id": 1612453176116,
+  "title": "Lembra Senhor",
+  "artist": "",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Quando não posso te ouvir\nE o meu clamor\nJá não muda o Teu silêncio\n\nSão nuvens que \nescondem o sol\nE tornam o dia \ntão escuro quanto a noite\n\nEntão lembro que não podes me esquecer\nSe o meu nome está gravado em Tuas mãos\nMesmo que ainda eu não consiga ver\nSei que se levantarás em meu favor\n\nLembra Senhor,\nJuraste o Teu amor\nE nada pode mudar \no que sentes por mim\nNem os meus pecados\n\nLembra Senhor,\nE faz mais uma vez \nos Teus sinais\nE saberão \nque ainda És o mesmo Deus\n\nQue revelou a sua Glória a Israel\nE que por amor abriu o mar parou o sol\nSei que farás o mesmo em meu favor.",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Quando não posso te ouvir\nE o meu clamor\nJá não muda o Teu silêncio",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "São nuvens que \nescondem o sol\nE tornam o dia \ntão escuro quanto a noite",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Então lembro que não podes me esquecer\nSe o meu nome está gravado em Tuas mãos\nMesmo que ainda eu não consiga ver\nSei que se levantarás em meu favor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Lembra Senhor,\nJuraste o Teu amor\nE nada pode mudar \no que sentes por mim\nNem os meus pecados",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Lembra Senhor,\nE faz mais uma vez \nos Teus sinais\nE saberão \nque ainda És o mesmo Deus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Que revelou a sua Glória a Israel\nE que por amor abriu o mar parou o sol\nSei que farás o mesmo em meu favor.",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

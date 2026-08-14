@@ -1,0 +1,57 @@
+{
+  "id": 1582748875586,
+  "title": "QUERO SER FIEL A TI",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "QUERO DEVOLVER A TI O QUE É TEU\nQUERO SER FIEL A TI, Ó MEU DEUS\nTU ME DESTE MUITO MAIS DO QUE MEREÇO\nMINHA VIDA NÃO TEM PREÇO\nEU SOU FILHO DE UM DEUS\n\nUM DEUS FIEL E PODEROSO\nELE É O DEUS DE ISRAEL\nQUE PROSPERA O DIZIMISTA\nABRINDO AS JANELAS DOS CÉUS\nQUE DERRAMA AS BÊNÇÃOS SEM MEDIDA\nE O ÓLEO DA UNÇÃO\nROUBARÁ O HOMEM A DEUS?\nMUITOS DIZEM QUE NÃO\n\nEU QUERO SER FIEL A TI\nDEVOLVER O QUE É TEU\nCONSAGRAR A MINHA VIDA\nTUDO QUE EU TENHO É TEU\nEU QUERO SER FIEL A TI\nDEVOLVER O QUE É TEU\nSOU OFERTANTE, DIZIMISTA DA CASA DO MEU DEUS",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "QUERO DEVOLVER A TI O QUE É TEU\nQUERO SER FIEL A TI, Ó MEU DEUS\nTU ME DESTE MUITO MAIS DO QUE MEREÇO\nMINHA VIDA NÃO TEM PREÇO\nEU SOU FILHO DE UM DEUS",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "UM DEUS FIEL E PODEROSO\nELE É O DEUS DE ISRAEL\nQUE PROSPERA O DIZIMISTA\nABRINDO AS JANELAS DOS CÉUS\nQUE DERRAMA AS BÊNÇÃOS SEM MEDIDA\nE O ÓLEO DA UNÇÃO\nROUBARÁ O HOMEM A DEUS?\nMUITOS DIZEM QUE NÃO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "EU QUERO SER FIEL A TI\nDEVOLVER O QUE É TEU\nCONSAGRAR A MINHA VIDA\nTUDO QUE EU TENHO É TEU\nEU QUERO SER FIEL A TI\nDEVOLVER O QUE É TEU\nSOU OFERTANTE, DIZIMISTA DA CASA DO MEU DEUS",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

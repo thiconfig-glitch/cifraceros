@@ -1,0 +1,57 @@
+{
+  "id": 1607778193268,
+  "title": "Nos Montes da Adoração",
+  "artist": "Isis Regina",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Eu quero ir além do véu\nMeu alimentar da tua presença\nNão consigo mais viver\nSem respirar a tua essência\n\nNos montes da adoração Tem incenso\nNos montes da adoração tem entrega\nE o teu vento que leva \no que não te agrada\nO que eu penso que tenho de bom\nQue não vale nada \n\nEu quero te adorar \nFeito a mulher na casa de Simão\nEu quero subir vazio\nE descer cheio de unção\nNos montes da adoração",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Eu quero ir além do véu\nMeu alimentar da tua presença\nNão consigo mais viver\nSem respirar a tua essência",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Nos montes da adoração Tem incenso\nNos montes da adoração tem entrega\nE o teu vento que leva \no que não te agrada\nO que eu penso que tenho de bom\nQue não vale nada ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Eu quero te adorar \nFeito a mulher na casa de Simão\nEu quero subir vazio\nE descer cheio de unção\nNos montes da adoração",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

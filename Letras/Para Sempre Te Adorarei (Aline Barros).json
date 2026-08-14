@@ -1,0 +1,71 @@
+{
+  "id": 1602078896071,
+  "title": "Para Sempre Te Adorarei",
+  "artist": "Aline Barros",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Aline Barros\nPra Sempre Te Adorarei\n\nRei dos Reis aqui estou \nRendo a ti o meu louvor e adoração \nPois tu és DEUS \nAcima dos céus Acima de nós \nO universo se formou \nCom a tua voz \nO mundo inteiro veio a existir\nVerbo de DEUS, princípio e fim. \n\nCoro \n\nE eu te louvarei \nSenhor levantando a ti minhas mãos \nCom canções de amor te exaltarei \nMinistrando com meu coração \nPara sempre te adorarei.(2x) \n\nNada pode calar\nNada pode deter \nMinha consagração",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Aline Barros\nPra Sempre Te Adorarei",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Rei dos Reis aqui estou \nRendo a ti o meu louvor e adoração \nPois tu és DEUS \nAcima dos céus Acima de nós \nO universo se formou \nCom a tua voz \nO mundo inteiro veio a existir\nVerbo de DEUS, princípio e fim. ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Coro ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "E eu te louvarei \nSenhor levantando a ti minhas mãos \nCom canções de amor te exaltarei \nMinistrando com meu coração \nPara sempre te adorarei.(2x) ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Nada pode calar\nNada pode deter \nMinha consagração",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": 1582748875521,
+  "title": "TUA AGUA",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Espírito do amor\nEnche este lugar\nTua presença Senhor\nÉ bem vinda\n\nVem com o Teu poder\nE faça o que ninguém pode fazer\nFonte de água viva\nVem nos saciar\n\nTroca Senhor o meu espírito Fonte de água viva quero ser\nDá água do Teu poço Dá-me de beber\nEspírito do amor Me faz Te conhecer",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Espírito do amor\nEnche este lugar\nTua presença Senhor\nÉ bem vinda",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Vem com o Teu poder\nE faça o que ninguém pode fazer\nFonte de água viva\nVem nos saciar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Troca Senhor o meu espírito Fonte de água viva quero ser\nDá água do Teu poço Dá-me de beber\nEspírito do amor Me faz Te conhecer",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

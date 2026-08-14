@@ -1,0 +1,71 @@
+{
+  "id": 1582748875550,
+  "title": "ME ESTENDE A SUA MÃO",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "TINHA UM TESOURO DENTRO DE MIM\nMAS RESOLVI TROCAR POR NADA\nTINHA UM OCEANO FLUINDO EM MIM\nE TROQUEI POR UM COPO DE ÁGUA\n\nTINHA TODO CÉU PRA CAMINHAR\nTROQUEI POR UMA FRESTA DE DIVERSÃO \nTINHA O PARAÍSO PRONTO A ME ESPERAR\nTROQUEI POR UMA GOTA DE EMOÇÃO\n\nME DIZ QUE ISSO NÃO É VAIDADE ?\nPOR UM SEGUNDO\nTROCAR A ETERNIDADE\n\nDE CORAÇÃO pesado CHEGO EM TEU ALTAR\nPRA VER SE AINDA HÁ JEITO DE ENCONTRAR \nPERDÃO MÉRITOS NÃO TENHO PARA AQUI ESTAR\nMAS POR FAVOR NÃO DIGA NÃO.\n\nE SE AS PALAVRAS VIEREM FALTAR\nAS LÁGRIMAS VÃO SER MINHA ARGUMENTAÇÃO\nPAI PRA SUA CASA EU QUERO VOLTAR\nME ESTENDE A SUA MÃO.",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "TINHA UM TESOURO DENTRO DE MIM\nMAS RESOLVI TROCAR POR NADA\nTINHA UM OCEANO FLUINDO EM MIM\nE TROQUEI POR UM COPO DE ÁGUA",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "TINHA TODO CÉU PRA CAMINHAR\nTROQUEI POR UMA FRESTA DE DIVERSÃO \nTINHA O PARAÍSO PRONTO A ME ESPERAR\nTROQUEI POR UMA GOTA DE EMOÇÃO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "ME DIZ QUE ISSO NÃO É VAIDADE ?\nPOR UM SEGUNDO\nTROCAR A ETERNIDADE",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "DE CORAÇÃO pesado CHEGO EM TEU ALTAR\nPRA VER SE AINDA HÁ JEITO DE ENCONTRAR \nPERDÃO MÉRITOS NÃO TENHO PARA AQUI ESTAR\nMAS POR FAVOR NÃO DIGA NÃO.",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "E SE AS PALAVRAS VIEREM FALTAR\nAS LÁGRIMAS VÃO SER MINHA ARGUMENTAÇÃO\nPAI PRA SUA CASA EU QUERO VOLTAR\nME ESTENDE A SUA MÃO.",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

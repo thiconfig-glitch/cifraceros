@@ -1,0 +1,64 @@
+{
+  "id": 1591886813180,
+  "title": "Deus Não Falhará",
+  "artist": "Davi Sacer",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Pode acontecer\nQue o dia não amanheça bem\nA má notícia que chegou\nA alegria que partiu\nE a paz se foi\n\nEnfrentando a dor\nNão vou aceitar \nque este seja o meu fim\n \nEu vou erguer a minha voz\nEu vou clamar a Deus pois sei\nQue Ele virá me socorrer\n\nPosso estar no deserto\nOu passando no vale\nMesmo assim estou certo\nDeus me guiará\n \nNão importa o que vejo\nNão importa o que eu passe\nMinha fé está firmada\nEm quem não falhará (jamais)\n\nO dia não terminará\nSem que eu veja Deus agir em meu favor.",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Pode acontecer\nQue o dia não amanheça bem\nA má notícia que chegou\nA alegria que partiu\nE a paz se foi",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Enfrentando a dor\nNão vou aceitar \nque este seja o meu fim\n \nEu vou erguer a minha voz\nEu vou clamar a Deus pois sei\nQue Ele virá me socorrer",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Posso estar no deserto\nOu passando no vale\nMesmo assim estou certo\nDeus me guiará\n \nNão importa o que vejo\nNão importa o que eu passe\nMinha fé está firmada\nEm quem não falhará (jamais)",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "O dia não terminará\nSem que eu veja Deus agir em meu favor.",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

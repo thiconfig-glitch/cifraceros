@@ -1,0 +1,71 @@
+{
+  "id": 1582748875621,
+  "title": "TENTE LEMBRAR",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Quando a gente não esquece\no que passou\nE não sente forças\npra recomeçar\nE reclama com o próprio coração\n\nNem dá tempo dele se recuperar\nBate um desespero\ncomO  a agonia\nDe uma coisa que\nse acaba de perder\n\nE perdemos quase\nsempre as esperanças\nDe voltar a ter vontade de viver\nMas existe alguém\nguardando Tua vida\n\nPreparando um novo\nplano pra você\nQue também se preocupa\ncom Teu coração\nQue faz tudo para\nnão te ver sofrer\n\nTente lembrar\nSe alguma vez Jesus\nte abandonou\nTente lembrar quantas\nvezes ele já te levantou",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Quando a gente não esquece\no que passou\nE não sente forças\npra recomeçar\nE reclama com o próprio coração",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Nem dá tempo dele se recuperar\nBate um desespero\ncomO  a agonia\nDe uma coisa que\nse acaba de perder",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "E perdemos quase\nsempre as esperanças\nDe voltar a ter vontade de viver\nMas existe alguém\nguardando Tua vida",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Preparando um novo\nplano pra você\nQue também se preocupa\ncom Teu coração\nQue faz tudo para\nnão te ver sofrer",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Tente lembrar\nSe alguma vez Jesus\nte abandonou\nTente lembrar quantas\nvezes ele já te levantou",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

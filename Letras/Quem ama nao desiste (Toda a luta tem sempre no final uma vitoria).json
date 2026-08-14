@@ -1,0 +1,78 @@
+{
+  "id": 1582748875889,
+  "title": "Quem ama nao desiste",
+  "artist": "Toda a luta tem sempre no final uma vitoria",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "O amor é um sentimento \ntão lindo\nViver é mais que sonhar \né preciso amar\nE aprender a confiar\n\nLUTAR É PERSEVERAR PELO SEU IDEAL\nSENTINDO A ESPERANÇA \nDE UM NOVO AMANHÃ\nE ANUNCIAR A SALVAÇÃO\n\nTODA LUTA TEM SEMPRE \nNO FINAL UMA VITÓRIA\nJAMAIS DECLARE \nE ACEITE A DERROTA\nQUEM AMA NÃO DESISTE\nVAI ATÉ O FIM\n\nACREDITE AINDA QUE \nAS DORES SEJAM FORTES\nAINDA QUE OS PROBLEMAS \nTE SUFOQUEM\nPRA TUDO EXISTE UMA SOLUÇÃO\n\nVOCÊ PRECISA VIVER \nSEM OLHAR PARA TRÁS\nDEPOSITAR E APOIAR SUA FÉ\nNO AMOR QUE JESUS \nPROVOU LÁ NA CRUZ\n\nE ASSIM VOCÊ VAI SENTIR\nESSA LUZ INVADIR\nE DEUS VAI BRILHAR \nNESSA ESCURIDÃO\nE DEUS VAI TOCAR \nEM SEU CORAÇÃO",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "O amor é um sentimento \ntão lindo\nViver é mais que sonhar \né preciso amar\nE aprender a confiar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "LUTAR É PERSEVERAR PELO SEU IDEAL\nSENTINDO A ESPERANÇA \nDE UM NOVO AMANHÃ\nE ANUNCIAR A SALVAÇÃO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "TODA LUTA TEM SEMPRE \nNO FINAL UMA VITÓRIA\nJAMAIS DECLARE \nE ACEITE A DERROTA\nQUEM AMA NÃO DESISTE\nVAI ATÉ O FIM",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "ACREDITE AINDA QUE \nAS DORES SEJAM FORTES\nAINDA QUE OS PROBLEMAS \nTE SUFOQUEM\nPRA TUDO EXISTE UMA SOLUÇÃO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "VOCÊ PRECISA VIVER \nSEM OLHAR PARA TRÁS\nDEPOSITAR E APOIAR SUA FÉ\nNO AMOR QUE JESUS \nPROVOU LÁ NA CRUZ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "E ASSIM VOCÊ VAI SENTIR\nESSA LUZ INVADIR\nE DEUS VAI BRILHAR \nNESSA ESCURIDÃO\nE DEUS VAI TOCAR \nEM SEU CORAÇÃO",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

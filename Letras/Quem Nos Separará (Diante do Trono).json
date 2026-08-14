@@ -1,0 +1,64 @@
+{
+  "id": 1587073026214,
+  "title": "Quem Nos Separará?",
+  "artist": "Diante do Trono",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Quem nos separará do amor de Cristo\nSerá tribulação, \nangústia ou perseguição\nFome ou nudez, \nperigo ou espada\n\nPorque estou bem certo\nDe que nem morte, nem vida\nNem anjos, nem principados\nNem coisas do presente e nem do porvir\n\nNem poderes, nem alturas\nNem profundidade\nNem qualquer outra criatura\nPoderá nos separar do amor de Deus\nQue está em Jesus Cristo\nNosso Senhor,\nQue está em Jesus Cristo\n\nNada, nada, poderá nos separar\nNada, nada, poderá nos separar\nDo amor de Deus\nQue está em Jesus Cristo\nNosso Senhor\nQue está em Jesus Cristo",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Quem nos separará do amor de Cristo\nSerá tribulação, \nangústia ou perseguição\nFome ou nudez, \nperigo ou espada",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Porque estou bem certo\nDe que nem morte, nem vida\nNem anjos, nem principados\nNem coisas do presente e nem do porvir",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Nem poderes, nem alturas\nNem profundidade\nNem qualquer outra criatura\nPoderá nos separar do amor de Deus\nQue está em Jesus Cristo\nNosso Senhor,\nQue está em Jesus Cristo",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Nada, nada, poderá nos separar\nNada, nada, poderá nos separar\nDo amor de Deus\nQue está em Jesus Cristo\nNosso Senhor\nQue está em Jesus Cristo",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

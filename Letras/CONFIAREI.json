@@ -1,0 +1,64 @@
+{
+  "id": 1582748876027,
+  "title": "CONFIAREI",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "EU NÃO TENHO QUE ANDAR ANSIOSO\nSE VOU TER O QUE COMER OU VESTIR\nSE O SENHOR VESTE OS LÍRIOS DO CAMPO \nO QUE MAIS NÃO FARÁ POR MIM\n\nEU NÃO TENHO QUE ANDAR PREOCUPADO\nCOM OS CUIDADOS E MALES DO AMANHÃ\nPOIS ATÉ AQUI O SENHOR ME SUSTENTOU\n\nCONFIAREI EM TI SENHOR\nMINHA ESPERANÇA ESTÁ EM TI\nNÃO HÁ MAIOR PRAZER DO QUE SABER\nQUE O MEU DEUS CUIDA DE MIM\n\nMEU FUTURO ESTÁ SEGURO EM TUAS MÃOS\nNÃO IMPORTA A CIRCUNSTÂNCIA\nPERMANECEREI FIRMADO NAS PROMESSAS\nQUE O SENHOR ME FEZ",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "EU NÃO TENHO QUE ANDAR ANSIOSO\nSE VOU TER O QUE COMER OU VESTIR\nSE O SENHOR VESTE OS LÍRIOS DO CAMPO \nO QUE MAIS NÃO FARÁ POR MIM",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "EU NÃO TENHO QUE ANDAR PREOCUPADO\nCOM OS CUIDADOS E MALES DO AMANHÃ\nPOIS ATÉ AQUI O SENHOR ME SUSTENTOU",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "CONFIAREI EM TI SENHOR\nMINHA ESPERANÇA ESTÁ EM TI\nNÃO HÁ MAIOR PRAZER DO QUE SABER\nQUE O MEU DEUS CUIDA DE MIM",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "MEU FUTURO ESTÁ SEGURO EM TUAS MÃOS\nNÃO IMPORTA A CIRCUNSTÂNCIA\nPERMANECEREI FIRMADO NAS PROMESSAS\nQUE O SENHOR ME FEZ",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

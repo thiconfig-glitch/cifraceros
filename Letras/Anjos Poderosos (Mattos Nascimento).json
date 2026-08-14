@@ -1,0 +1,57 @@
+{
+  "id": 1603805512658,
+  "title": "Anjos Poderosos",
+  "artist": "Mattos Nascimento",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Sou guardado por um anjo\nUm anjo que me guarda com amor\nUm anjo poderoso, Muito forte\nMe guarda seja no lugar que for\n\nAnjos, Anjos poderosos\nGuardando ninguém pode destruir\nUm exercito de anjos\nCom o seu general me guarda sim\n\nSe quiseres ser guardado\nÉ so a Jesus Cristo aceitar\nTerás a guarda fiel de um anjo\nTambém seu nome no céu estará\nUm sorriso nesta hora\nDeus vai dar se você o aceitar\nE logo vai mandar um anjo forte\nQue do teu lado sempre estará",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Sou guardado por um anjo\nUm anjo que me guarda com amor\nUm anjo poderoso, Muito forte\nMe guarda seja no lugar que for",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Anjos, Anjos poderosos\nGuardando ninguém pode destruir\nUm exercito de anjos\nCom o seu general me guarda sim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Se quiseres ser guardado\nÉ so a Jesus Cristo aceitar\nTerás a guarda fiel de um anjo\nTambém seu nome no céu estará\nUm sorriso nesta hora\nDeus vai dar se você o aceitar\nE logo vai mandar um anjo forte\nQue do teu lado sempre estará",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

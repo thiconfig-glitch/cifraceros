@@ -1,0 +1,92 @@
+{
+  "id": 1619617180798,
+  "title": "Reatando a Amizade",
+  "artist": "Samuel Mariano",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Tudo que eu queria era falar contigo\nMas tempo pra mim você não tem\nTudo que eu queria era ser o seu amigo\nMas o meu espaço você preencheu também\n\nNunca mais conversamos de madrugada\nE em soluço já não ouço tua voz\nQue saudade, que saudade\nEu tenho das nossas conversas\nE dos segredos que haviam entre nós\n\nFoi por isso que eu fechei as portas\nPra ver se você lembrava de mim\nJá não dá pra viver nessa indiferença\nNão, eu não suporto mais viver assim\n\nSeus negócios são mais importantes do que eu\nFaz muito tempo que eu ouvi\nVocê me chamar de meu amigo\nQue saudade, que saudade eu estou de você\nMarquei este encontro porque\nEu precisava conversar contigo\n\nQue é tempo de voltar, de se arrepender\nÉ tempo de reatar nossa amizade\nÉ tempo de chorar, e de se converter\nAinda quero ser o seu amigo de verdade\n\nTudo que eu queria era falar contigo\nMas até aqueles cinco minutinhos de oração\nQue você tinha, hoje já não tem\nTudo o que eu queria era ser o seu amigo\nMas você arrumou tantas amizades\nE o meu espaço você preencheu também\n\nLembra quando a gente conversava de madrugada?\nLá no cantinho da cama você sempre\nMe chamava, de meu amigo\nQue saudade, que saudade eu estou de você\nMarquei este encontro porque\nEu precisava conversar contigo\n\nQue é tempo de voltar, de se arrepender\nEu vim aqui pra gente reatar nossa amizade\nÉ tempo de chorar, e de se converter\nSe você quiser a gente vai sair\nDe mãos dadas por esta cidade\nAinda sou o seu amigo, o seu amigo de verdade",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Tudo que eu queria era falar contigo\nMas tempo pra mim você não tem\nTudo que eu queria era ser o seu amigo\nMas o meu espaço você preencheu também",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Nunca mais conversamos de madrugada\nE em soluço já não ouço tua voz\nQue saudade, que saudade\nEu tenho das nossas conversas\nE dos segredos que haviam entre nós",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Foi por isso que eu fechei as portas\nPra ver se você lembrava de mim\nJá não dá pra viver nessa indiferença\nNão, eu não suporto mais viver assim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Seus negócios são mais importantes do que eu\nFaz muito tempo que eu ouvi\nVocê me chamar de meu amigo\nQue saudade, que saudade eu estou de você\nMarquei este encontro porque\nEu precisava conversar contigo",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Que é tempo de voltar, de se arrepender\nÉ tempo de reatar nossa amizade\nÉ tempo de chorar, e de se converter\nAinda quero ser o seu amigo de verdade",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Tudo que eu queria era falar contigo\nMas até aqueles cinco minutinhos de oração\nQue você tinha, hoje já não tem\nTudo o que eu queria era ser o seu amigo\nMas você arrumou tantas amizades\nE o meu espaço você preencheu também",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Lembra quando a gente conversava de madrugada?\nLá no cantinho da cama você sempre\nMe chamava, de meu amigo\nQue saudade, que saudade eu estou de você\nMarquei este encontro porque\nEu precisava conversar contigo",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": "Que é tempo de voltar, de se arrepender\nEu vim aqui pra gente reatar nossa amizade\nÉ tempo de chorar, e de se converter\nSe você quiser a gente vai sair\nDe mãos dadas por esta cidade\nAinda sou o seu amigo, o seu amigo de verdade",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

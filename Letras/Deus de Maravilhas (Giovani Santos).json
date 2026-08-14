@@ -1,0 +1,99 @@
+{
+  "id": 1618838687713,
+  "title": "Deus de Maravilhas",
+  "artist": "Giovani Santos",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Então cantou Moisés\nE os filhos de Israel ao Senhor\nPelo que o Senhor já fez \nna terra de Faraó\n\nPorque o nosso Deus \ngloriosamente triunfou\nE fez o mar se abrir\nE Israel passou\n\nÉ este o meu Deus\nÉ Ele o Deus de meu Pai\nPor isso exaltarei Seu nome \né Senhor\n\nCada gota do mar entendeu\nQue a frente do povo hebreu\nIa o grande varão de guerra\no Deus de já\n\nCavaleiros de Faraó\nAfundaram-se no mar\nMar Vermelho a pés enxutos \npude atravessar\n\nPois o Senhor é a minha força\nE o meu cântico\nEle me foi por salvação\n\nQuem é como Tu\nGlorificado em Santidade\nAdmirável, entre os louvores de Israel\n\nCantai ao Senhor\nCantai ao Senhor\nPorque triunfou\ngloriosamente\n\nCantai ao Senhor\nCantai ao Senhor\nPorque triunfou, \ngloriosamente\nDeus de maravilhas",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Então cantou Moisés\nE os filhos de Israel ao Senhor\nPelo que o Senhor já fez \nna terra de Faraó",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Porque o nosso Deus \ngloriosamente triunfou\nE fez o mar se abrir\nE Israel passou",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "É este o meu Deus\nÉ Ele o Deus de meu Pai\nPor isso exaltarei Seu nome \né Senhor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Cada gota do mar entendeu\nQue a frente do povo hebreu\nIa o grande varão de guerra\no Deus de já",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Cavaleiros de Faraó\nAfundaram-se no mar\nMar Vermelho a pés enxutos \npude atravessar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Pois o Senhor é a minha força\nE o meu cântico\nEle me foi por salvação",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Quem é como Tu\nGlorificado em Santidade\nAdmirável, entre os louvores de Israel",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": "Cantai ao Senhor\nCantai ao Senhor\nPorque triunfou\ngloriosamente",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 9,
+        "description": "",
+        "text": "Cantai ao Senhor\nCantai ao Senhor\nPorque triunfou, \ngloriosamente\nDeus de maravilhas",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

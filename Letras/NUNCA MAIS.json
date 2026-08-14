@@ -1,0 +1,78 @@
+{
+  "id": 1582748875733,
+  "title": "NUNCA MAIS",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "1,3,4,5,6",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Olhei e enxerguei sua dor\nVi o quanto se humilhou\nSei que a marca ficou\nHei ! Eu sou o teu remidor \nDo tempo Eu Sou o Senhor\nLevanta a resposta chegou\n\nNUNCA MAIS\n\nDesertos, não duram pra sempre\nPor mais que a pressão aumente\nAguente filho, aguente\n\nNunca mais te chamarão desamparado\nNunca mais\nTe olharão como alguém que foi desprezado\nNunca mais\n( Diz o Senhor)\n\nEis que eu faço coisa nova\nTe dou o rumo novo\nTe ensino a lutar\n\nEstou removendo esse fardo\nProssiga para o alvo\nE não olhe para atrás\nNunca mais",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Olhei e enxerguei sua dor\nVi o quanto se humilhou\nSei que a marca ficou\nHei ! Eu sou o teu remidor \nDo tempo Eu Sou o Senhor\nLevanta a resposta chegou",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "NUNCA MAIS",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Desertos, não duram pra sempre\nPor mais que a pressão aumente\nAguente filho, aguente",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Nunca mais te chamarão desamparado\nNunca mais\nTe olharão como alguém que foi desprezado\nNunca mais\n( Diz o Senhor)",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Eis que eu faço coisa nova\nTe dou o rumo novo\nTe ensino a lutar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Estou removendo esse fardo\nProssiga para o alvo\nE não olhe para atrás\nNunca mais",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

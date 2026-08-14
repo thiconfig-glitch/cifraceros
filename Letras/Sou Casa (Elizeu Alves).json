@@ -1,0 +1,113 @@
+{
+  "id": 1598212244245,
+  "title": "Sou Casa",
+  "artist": "Elizeu Alves",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Tens liberdade aqui\nEspírito de Deus\nEspírito de Deus\n\nTens liberdade aqui\nEspírito Santo\nEspírito Santo\n\nEu sou Tua casa\nTua morada\nEu sou Teu lar\nMude as coisas de lugar\n\nTens liberdade aqui\nEspírito de Deus\nEspírito de Deus\n\nTens liberdade aqui\nEspírito Santo\n\nEu sou Tua casa\nTua morada\nEu sou Teu lar\nMude as coisas de lugar\n\nEu sou Tua casa\nTua morada\nEu sou Teu lar\nMude as coisas de lugar\nDe lugar, Senhor\n\nO Teu perdão é completo\nO Teu perdão é completo\nEle sara a minh'alma\nEle sara a minh'alma\n\nEu sou Tua casa\nTua morada\nEu sou Teu lar\nMude as coisas de lugar\n\nO Teu perdão é completo\nO Teu perdão é completo\nEle sara a minh'alma\nEle sara a minh'alma\n\nEu sou Tua casa\nTua morada\nEu sou Teu lar\nMude as coisas de lugar",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Tens liberdade aqui\nEspírito de Deus\nEspírito de Deus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Tens liberdade aqui\nEspírito Santo\nEspírito Santo",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Eu sou Tua casa\nTua morada\nEu sou Teu lar\nMude as coisas de lugar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Tens liberdade aqui\nEspírito de Deus\nEspírito de Deus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Tens liberdade aqui\nEspírito Santo",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Eu sou Tua casa\nTua morada\nEu sou Teu lar\nMude as coisas de lugar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Eu sou Tua casa\nTua morada\nEu sou Teu lar\nMude as coisas de lugar\nDe lugar, Senhor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": "O Teu perdão é completo\nO Teu perdão é completo\nEle sara a minh'alma\nEle sara a minh'alma",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 9,
+        "description": "",
+        "text": "Eu sou Tua casa\nTua morada\nEu sou Teu lar\nMude as coisas de lugar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 10,
+        "description": "",
+        "text": "O Teu perdão é completo\nO Teu perdão é completo\nEle sara a minh'alma\nEle sara a minh'alma",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 11,
+        "description": "",
+        "text": "Eu sou Tua casa\nTua morada\nEu sou Teu lar\nMude as coisas de lugar",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

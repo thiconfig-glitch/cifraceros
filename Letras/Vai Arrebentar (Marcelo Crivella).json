@@ -1,0 +1,113 @@
+{
+  "id": 1589627381131,
+  "title": "Vai Arrebentar",
+  "artist": "Marcelo Crivella",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Nesse mundo de ilusão\nQuantos sonhos são em vão\nMas a videira verdadeira\nDá fruto a vida inteira\n\nÁgua viva flui em nós \nquando ouvimos tua voz\nFaz haver dentro\nde nós esse desejo\n\nDe conhecer e anunciar teu nome\nExaltar bem alto\nBrilhar mais do que o sol \ne as trevas saem\n\nTu nos fez pra muito mais \ndo que viver por viver\nPra muito mais que só sobreviver\nVai arrebentar\n\nOh, oh, oh\nVai arrebentar\n\nEm tua palavra meditar\nE viver em teu altar\nVamos ao mundo anunciar\nA força que em ti há\n\nÁgua viva flui em nós \nquando ouvimos tua voz\nFaz haver dentro de nós esse desejo\n\nDe conhecer \ne anunciar teu nome\nExaltar bem alto\nBrilhar mais do que o sol \ne as trevas saem\n\nTu nos fez pra muito \nmais do que viver por viver\nPra muito mais que só sobreviver\nVai arrebentar\n\nPaz pra suportar \nfé pra superar\nPerfeito sacrifício \nnada é impossível\n\nPaz pra suportar \nfé pra superar\nPerfeito sacrifício \nnada é impossível",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Nesse mundo de ilusão\nQuantos sonhos são em vão\nMas a videira verdadeira\nDá fruto a vida inteira",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Água viva flui em nós \nquando ouvimos tua voz\nFaz haver dentro\nde nós esse desejo",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "De conhecer e anunciar teu nome\nExaltar bem alto\nBrilhar mais do que o sol \ne as trevas saem",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Tu nos fez pra muito mais \ndo que viver por viver\nPra muito mais que só sobreviver\nVai arrebentar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Oh, oh, oh\nVai arrebentar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Em tua palavra meditar\nE viver em teu altar\nVamos ao mundo anunciar\nA força que em ti há",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Água viva flui em nós \nquando ouvimos tua voz\nFaz haver dentro de nós esse desejo",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": "De conhecer \ne anunciar teu nome\nExaltar bem alto\nBrilhar mais do que o sol \ne as trevas saem",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 9,
+        "description": "",
+        "text": "Tu nos fez pra muito \nmais do que viver por viver\nPra muito mais que só sobreviver\nVai arrebentar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 10,
+        "description": "",
+        "text": "Paz pra suportar \nfé pra superar\nPerfeito sacrifício \nnada é impossível",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 11,
+        "description": "",
+        "text": "Paz pra suportar \nfé pra superar\nPerfeito sacrifício \nnada é impossível",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

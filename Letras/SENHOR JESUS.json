@@ -1,0 +1,78 @@
+{
+  "id": 1582748875614,
+  "title": "SENHOR JESUS",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "SENHOR JESUS\nDIANTE DE TI ESTOU\n \nUNJA O MEU SER\nINUNDA MEU CORAÇÃO\nEU QUERO TER A SALVAÇÃO \n\nEU NÃO SABIA \nQUE precisava\nTANTO DE TI \nÓ MEU SENHOR\n\nATÉ QUE UM DIA\nVEIO A DOR\nNA MINHA VIDA\n\nENTÃO CLAMEI \nEM MEIO AS LÁGRIMAS\nNÃO POSSO MAIS \nVIVER ASSIM\n\nEU QUERO ESTAR SEMPRE CONTIGO\nNO TEU ABRIGO\n\nOH ALELUIA, ALELUIA\nEU CANTAREI EM SEU LOUVOR\nOH ALELUIA, ALELUIA\nTU ÉS MEU SALVADOR",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "SENHOR JESUS\nDIANTE DE TI ESTOU\n \nUNJA O MEU SER\nINUNDA MEU CORAÇÃO\nEU QUERO TER A SALVAÇÃO ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "EU NÃO SABIA \nQUE precisava\nTANTO DE TI \nÓ MEU SENHOR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "ATÉ QUE UM DIA\nVEIO A DOR\nNA MINHA VIDA",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "ENTÃO CLAMEI \nEM MEIO AS LÁGRIMAS\nNÃO POSSO MAIS \nVIVER ASSIM",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "EU QUERO ESTAR SEMPRE CONTIGO\nNO TEU ABRIGO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "OH ALELUIA, ALELUIA\nEU CANTAREI EM SEU LOUVOR\nOH ALELUIA, ALELUIA\nTU ÉS MEU SALVADOR",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": 1582748875749,
+  "title": "NA TUA MÃO",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "NA TUA MÃO SEGURAREI \nNO TEU PODER CONFIAREI \nMEU JESUS MEU REI \nMEU SENHOR SIM EU SEI \nQUE JAMAIS TU ME FALTARÁS\nMEU REI TE ADORAREI",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "NA TUA MÃO SEGURAREI \nNO TEU PODER CONFIAREI \nMEU JESUS MEU REI \nMEU SENHOR SIM EU SEI \nQUE JAMAIS TU ME FALTARÁS\nMEU REI TE ADORAREI",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

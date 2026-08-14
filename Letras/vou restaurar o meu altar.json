@@ -1,0 +1,57 @@
+{
+  "id": 1655936930532,
+  "title": "vou restaurar o meu altar",
+  "artist": "",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "VOU RESTAURAR O MEU ALTAR\nDIANTE DO MEU DEUS \nEU VOU ME QUEBRANTAR\nE PERMITIR O TEU AGIR \nSEM TI EU NADA SOU\nEU QUERO RENASCER\n\nVEM RESPONDER COM FOGO\nVEM ME ATENDER DE NOVO\nVEM RECEBER\nTODA MINHA HUMILHAÇÃO\nOH PAI!\nVEM COM PODER\nVOU REERGUER O MEU ALTAR\n\nVOU REERGUER O MEU ALTAR",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "VOU RESTAURAR O MEU ALTAR\nDIANTE DO MEU DEUS \nEU VOU ME QUEBRANTAR\nE PERMITIR O TEU AGIR \nSEM TI EU NADA SOU\nEU QUERO RENASCER",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "VEM RESPONDER COM FOGO\nVEM ME ATENDER DE NOVO\nVEM RECEBER\nTODA MINHA HUMILHAÇÃO\nOH PAI!\nVEM COM PODER\nVOU REERGUER O MEU ALTAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "VOU REERGUER O MEU ALTAR",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

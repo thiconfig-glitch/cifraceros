@@ -1,0 +1,57 @@
+{
+  "id": 1582748875882,
+  "title": "PAI NESTE MOMENTO EU ENTREGO",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Pai \nneste momento eu entrego em Tuas mãos\nO meu louvor e adoração \nmeu Deus\n \nVenha tomar meu coração e o meu viver\nPois eu Te amo\n\nPai, sem o Senhor eu não sou nada\nsou pequeno\nQuero pra sempre em Tua presença \nser sincero\nTe amo Deus, \nÉs a razão do meu viver\n\nEspírito Santo \nvenha sobre nós\nQueremos o receber\nneste momento\n \nCom nossas vidas \nqueremos Te exaltar\nPra sempre em Tua presença Te amar",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Pai \nneste momento eu entrego em Tuas mãos\nO meu louvor e adoração \nmeu Deus\n \nVenha tomar meu coração e o meu viver\nPois eu Te amo",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Pai, sem o Senhor eu não sou nada\nsou pequeno\nQuero pra sempre em Tua presença \nser sincero\nTe amo Deus, \nÉs a razão do meu viver",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Espírito Santo \nvenha sobre nós\nQueremos o receber\nneste momento\n \nCom nossas vidas \nqueremos Te exaltar\nPra sempre em Tua presença Te amar",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

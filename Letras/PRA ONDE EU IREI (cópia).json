@@ -1,0 +1,64 @@
+{
+  "id": 1582748875840,
+  "title": "PRA ONDE EU IREI",
+  "artist": "cópia",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "CRIADOR DO UNIVERSO\nDONO DO MEU SER\nREI DO MEU CORAÇÃO\nÉS MINHA CANÇÃO\n\nDESDE SEMPRE ME AMOU\nDESDE SEMPRE ME CHAMOU\n\nPRA ONDE EU IREI?\nPRA ONDE FUGIREI?\nSE JÁ ESTÁ EM TODO LUGAR\n\nNÃO FUGIREI\nENTREGAREI\nMEU CORAÇÃO EM TUAS MÃOS",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "CRIADOR DO UNIVERSO\nDONO DO MEU SER\nREI DO MEU CORAÇÃO\nÉS MINHA CANÇÃO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "DESDE SEMPRE ME AMOU\nDESDE SEMPRE ME CHAMOU",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "PRA ONDE EU IREI?\nPRA ONDE FUGIREI?\nSE JÁ ESTÁ EM TODO LUGAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "NÃO FUGIREI\nENTREGAREI\nMEU CORAÇÃO EM TUAS MÃOS",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

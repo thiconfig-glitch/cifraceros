@@ -1,0 +1,71 @@
+{
+  "id": 1582748875947,
+  "title": "VEM ME ENCHER DE TI",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "SEI QUE ESTAS AQUI\nPOSSO TE SENTIR\nSEI QUE NADA SOU\nMAS TUA MISERICORDIA ME ALCANÇARÁ\n\nNÃO IMPORTA A MULTIDÃO\nNEM O QUE VÃO PENSAR DE MIM\nEU SÓ PRECISO É PRENCHER SENHOR\nESSE VAZIO QUE HÁ EM MIM\n\nVEM ME ENCHER DE TI\nPRECISO DA TUA PRESENÇA\nESTOU CARENTE DE TI SENHOR\nMINH'ALMA ANSEIA OUVIR O SOM DE TUA VOZ\nVEM DE PRESSA SEM DEMORA PRA MIM\n\nCOM O TEU PODER RENOVA O MEU VIVER\nTUA PRESENÇA É O MEU PRAZER\n\nPRECISO DE TI AQUI",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "SEI QUE ESTAS AQUI\nPOSSO TE SENTIR\nSEI QUE NADA SOU\nMAS TUA MISERICORDIA ME ALCANÇARÁ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "NÃO IMPORTA A MULTIDÃO\nNEM O QUE VÃO PENSAR DE MIM\nEU SÓ PRECISO É PRENCHER SENHOR\nESSE VAZIO QUE HÁ EM MIM",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "VEM ME ENCHER DE TI\nPRECISO DA TUA PRESENÇA\nESTOU CARENTE DE TI SENHOR\nMINH'ALMA ANSEIA OUVIR O SOM DE TUA VOZ\nVEM DE PRESSA SEM DEMORA PRA MIM",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "COM O TEU PODER RENOVA O MEU VIVER\nTUA PRESENÇA É O MEU PRAZER",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "PRECISO DE TI AQUI",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

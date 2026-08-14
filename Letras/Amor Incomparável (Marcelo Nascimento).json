@@ -1,0 +1,71 @@
+{
+  "id": 1630610378379,
+  "title": "Amor Incomparável",
+  "artist": "Marcelo Nascimento",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Foi assim o meu viver\nNeste mundo tão cruel\nMe iludi por tentar \nneste mundo ser amado\n\nMe envolvi sem perceber\nEntreguei meu coração\nA momentos de prazer\nPor não ter O AMOR DE DEUS \nno coração\n\nHoje eu sei o porquê\nQue não pude ser feliz\nSó havia solidão pelas \nminhas madrugadas\n\nMas um dia eu acordei\nDo sonho da ilusão\nConheci o grande amor \nque em toda a minha vida procurei\n\nNEM O AMOR DE UM PAI\nNEM O AMOR DE UMA MÃE\nNEM O AMOR DE UM IRMÃO\nMUITO MENOS A PAIXÃO\nPODE SE COMPARAR AO AMOR DE JESUS\nDEU POR MIM A SUA VIDA LÁ NA CRUZ",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Foi assim o meu viver\nNeste mundo tão cruel\nMe iludi por tentar \nneste mundo ser amado",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Me envolvi sem perceber\nEntreguei meu coração\nA momentos de prazer\nPor não ter O AMOR DE DEUS \nno coração",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Hoje eu sei o porquê\nQue não pude ser feliz\nSó havia solidão pelas \nminhas madrugadas",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Mas um dia eu acordei\nDo sonho da ilusão\nConheci o grande amor \nque em toda a minha vida procurei",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "NEM O AMOR DE UM PAI\nNEM O AMOR DE UMA MÃE\nNEM O AMOR DE UM IRMÃO\nMUITO MENOS A PAIXÃO\nPODE SE COMPARAR AO AMOR DE JESUS\nDEU POR MIM A SUA VIDA LÁ NA CRUZ",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

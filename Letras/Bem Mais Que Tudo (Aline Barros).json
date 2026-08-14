@@ -1,0 +1,92 @@
+{
+  "id": 1583364808621,
+  "title": "Bem Mais Que Tudo",
+  "artist": "Aline Barros",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "1,2,3,4,5,6",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Bem mais que as forças\nPoder e reis\nQue a natureza e tudo que se fez\n\nBem mais que tudo\ncriado por tuas mãos\nDeus Tu és o início, meio e fim\n\nBem mais que os mares\nBem mais que o sol\nE as maravilhas \nque o mundo conheceu\n\nE as riquezas, \ne tesouros desta Terra\nIncomparável és pra mim\n\nPor amor, sua vida entregou\nMeu Senhor, humilhado foi\n\nComo a flor machucada \nno jardim\nMorreu por mim, pensou \nem mim, Me amou\n\nBem mais que as forças\nPoder e reis\nQue a natureza e tudo que se fez\nBem mais que tudo, criado por tuas mãos\nDeus Tu és o início, meio e fim\nBem mais que os mares\nBem mais que o sol\nE as maravilhas que o mundo conheceu\nE as riquezas, tesouros desta Terra\nIncomparável És pra mim\n\nPor amor, Sua vida entregou\nMeu Senhor, humilhado foi\nComo a flor machucada no jardim\nMorreu por mim, pensou em mim\nMe amou\nPor amor, sua vida entregou\nMeu Senhor, humilhado foi\nComo a flor machucada no jardim\nMorreu por mim, pensou em mim\nMe amou\nComo a flor machucada no jardim\nMorreu por mim, pensou em mim\nMe amou...",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Bem mais que as forças\nPoder e reis\nQue a natureza e tudo que se fez",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Bem mais que tudo\ncriado por tuas mãos\nDeus Tu és o início, meio e fim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Bem mais que os mares\nBem mais que o sol\nE as maravilhas \nque o mundo conheceu",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "E as riquezas, \ne tesouros desta Terra\nIncomparável és pra mim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Por amor, sua vida entregou\nMeu Senhor, humilhado foi",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Como a flor machucada \nno jardim\nMorreu por mim, pensou \nem mim, Me amou",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Bem mais que as forças\nPoder e reis\nQue a natureza e tudo que se fez\nBem mais que tudo, criado por tuas mãos\nDeus Tu és o início, meio e fim\nBem mais que os mares\nBem mais que o sol\nE as maravilhas que o mundo conheceu\nE as riquezas, tesouros desta Terra\nIncomparável És pra mim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": "Por amor, Sua vida entregou\nMeu Senhor, humilhado foi\nComo a flor machucada no jardim\nMorreu por mim, pensou em mim\nMe amou\nPor amor, sua vida entregou\nMeu Senhor, humilhado foi\nComo a flor machucada no jardim\nMorreu por mim, pensou em mim\nMe amou\nComo a flor machucada no jardim\nMorreu por mim, pensou em mim\nMe amou...",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

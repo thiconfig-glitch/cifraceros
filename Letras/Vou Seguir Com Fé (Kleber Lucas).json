@@ -1,0 +1,92 @@
+{
+  "id": 1634310397832,
+  "title": "Vou Seguir Com Fé",
+  "artist": "Kleber Lucas",
+  "author": "Kleber Lucas",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "1,3,5,7",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "O meu Deus é maior\nQue os meus problemas\nEu não temerei\nCom Jesus eu vou além\nAinda que a figueira\nNão floresça\nE não haja frutos na videira\nEu não temerei, não\n\n \n\nEu sei que\nPara além das nuvens\nO Sol não deixou de brilhar\nSó por que a terra escureceu\nA minha vida está em Deus\nEu sei que Tudo posso em Deus\nÉ Ele que me fortalece\n\n \n\nEu vou seguir com fé\nCom meu Deus eu vou\nPara a rocha\nMais alta que eu\nEu sei pra onde vou\nComo águia vou\nNas alturas\nSou filho de Deus\n\n \n\nO meu Deus sabe\nTudo que eu preciso\nPra sentir a paz\nDentro do meu coração\nAinda que a lua adormeça\nE não haja\nO brilho das estrelas\nEu não temerei, não\n\n ",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "O meu Deus é maior\nQue os meus problemas\nEu não temerei\nCom Jesus eu vou além\nAinda que a figueira\nNão floresça\nE não haja frutos na videira\nEu não temerei, não",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": " ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Eu sei que\nPara além das nuvens\nO Sol não deixou de brilhar\nSó por que a terra escureceu\nA minha vida está em Deus\nEu sei que Tudo posso em Deus\nÉ Ele que me fortalece",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": " ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Eu vou seguir com fé\nCom meu Deus eu vou\nPara a rocha\nMais alta que eu\nEu sei pra onde vou\nComo águia vou\nNas alturas\nSou filho de Deus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": " ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "O meu Deus sabe\nTudo que eu preciso\nPra sentir a paz\nDentro do meu coração\nAinda que a lua adormeça\nE não haja\nO brilho das estrelas\nEu não temerei, não",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": " ",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

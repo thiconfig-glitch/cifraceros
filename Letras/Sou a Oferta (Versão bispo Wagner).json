@@ -1,0 +1,78 @@
+{
+  "id": 1719752041168,
+  "title": "Sou a Oferta",
+  "artist": "Versão bispo Wagner",
+  "author": "Gabriel Rodrigues",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Preparei um cordeiro no altar\nHoje venho a Ti me entregar\nComo Abraão seu Isaque entregou\nAssim sou eu, assim sou eu\n\nSem me entregar a Tua presença não\nAceito sair daqui\n\nComo aroma minha adoração\nSe achegue a Ti\n\nSou a oferta\nDisposta a queimar\nVem me incendiar\n\nEu sou a oferta\nVem me consumir\nPois eu pertenço a Ti\n\nO sacrifício, sou eu\nTudo que tenho é teu\nEu vim pra me entregar\nA lenha preparada está",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Preparei um cordeiro no altar\nHoje venho a Ti me entregar\nComo Abraão seu Isaque entregou\nAssim sou eu, assim sou eu",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Sem me entregar a Tua presença não\nAceito sair daqui",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Como aroma minha adoração\nSe achegue a Ti",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Sou a oferta\nDisposta a queimar\nVem me incendiar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Eu sou a oferta\nVem me consumir\nPois eu pertenço a Ti",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "O sacrifício, sou eu\nTudo que tenho é teu\nEu vim pra me entregar\nA lenha preparada está",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "https://open.spotify.com/track/5GWypxvpgJrkZIMBTDFAeP",
+      "youtube": "https://youtube.com/watch?v=TryAsea32xE",
+      "deezer": "https://deezer.com/track/100486080"
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

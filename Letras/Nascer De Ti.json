@@ -1,0 +1,64 @@
+{
+  "id": 1688188740230,
+  "title": "Nascer De Ti",
+  "artist": "",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "senhor Jesus vim aqui pra Te buscar\nnao aguento mais sofrer\nser escravo do meu ser\n\nSenhor Jesus tenho \nque desabafar\ntenho feito tantas coisas\nque nao quero praticar\n\nretira de mim o que me faz infeliz\npõe teu espirito no meu coraçao\nme livra Senhor de pecar contra Ti\nQuero tanto Te servir\n\nretira de mim toda acusação\ntodo jugo toda escravidão\nSenhor eu quero nascer de Ti\nmuda tudo tudo em mim",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "senhor Jesus vim aqui pra Te buscar\nnao aguento mais sofrer\nser escravo do meu ser",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Senhor Jesus tenho \nque desabafar\ntenho feito tantas coisas\nque nao quero praticar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "retira de mim o que me faz infeliz\npõe teu espirito no meu coraçao\nme livra Senhor de pecar contra Ti\nQuero tanto Te servir",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "retira de mim toda acusação\ntodo jugo toda escravidão\nSenhor eu quero nascer de Ti\nmuda tudo tudo em mim",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": 1591189391738,
+  "title": "Faz Parte de Mim",
+  "artist": "Banda e Voz",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Eu me entreguei,\nDe corpo e alma pra Você\nfoi nas Tuas mãos\nQue eu deixei a minha vida\nSei que nada nem ninguém\nVai poder nos separar\nSó Você me deu tantos motivos\nPra eu Te amar\n\nMe encontrou, perdido e sem motivação\nMe aceitou do jeito\nQue eu estava mesmo assim\nInvadiu meu coração\nE já faz parte de mim\nÉ por isso que eu Te amo tanto assim\n\nTe amo, te amo, não dá prá esconder\nEu preciso, eu preciso tanto de Você\nTe amo, te amo não dá pra esconder\nEu vou gritar pra todo mundo\nQue esse amor é pra valer",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Eu me entreguei,\nDe corpo e alma pra Você\nfoi nas Tuas mãos\nQue eu deixei a minha vida\nSei que nada nem ninguém\nVai poder nos separar\nSó Você me deu tantos motivos\nPra eu Te amar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Me encontrou, perdido e sem motivação\nMe aceitou do jeito\nQue eu estava mesmo assim\nInvadiu meu coração\nE já faz parte de mim\nÉ por isso que eu Te amo tanto assim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Te amo, te amo, não dá prá esconder\nEu preciso, eu preciso tanto de Você\nTe amo, te amo não dá pra esconder\nEu vou gritar pra todo mundo\nQue esse amor é pra valer",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

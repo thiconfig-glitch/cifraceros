@@ -1,0 +1,85 @@
+{
+  "id": 1585067996092,
+  "title": "Tu Podes",
+  "artist": "Regis Danese",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Como Bartimeu \neu preciso de um milagre\nE só o Senhor pode fazer\n\nEu farei o que for preciso\nPra que ouça a minha voz\nFilho de Davi socorre-me\n\nSem Ti eu sou tão frágil\nA Tua mão me sustenta de pé\nMesmo que tudo se acabe\nAinda me resta a fé\n\nO que eu não posso fazer Tu podes\nA mudança que eu preciso Tu podes\n\nO milagre que eu espero Tu podes\nSenhor vem me socorrer\n\nO meu milagre Senhor eu tomo posse\nA cura que eu preciso eu tomo posse\n\nA minha benção Senhor eu tomo posse\nAbro as mãos para receber",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Como Bartimeu \neu preciso de um milagre\nE só o Senhor pode fazer",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Eu farei o que for preciso\nPra que ouça a minha voz\nFilho de Davi socorre-me",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Sem Ti eu sou tão frágil\nA Tua mão me sustenta de pé\nMesmo que tudo se acabe\nAinda me resta a fé",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "O que eu não posso fazer Tu podes\nA mudança que eu preciso Tu podes",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "O milagre que eu espero Tu podes\nSenhor vem me socorrer",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "O meu milagre Senhor eu tomo posse\nA cura que eu preciso eu tomo posse",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "A minha benção Senhor eu tomo posse\nAbro as mãos para receber",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

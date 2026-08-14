@@ -1,0 +1,71 @@
+{
+  "id": 1582748875939,
+  "title": "VAI SER PRA SEMPRE",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Quando te olho hoje\nAté que foi de repente\nA gente ter se encontrado\nMe deixou tão contente\nComo é que você pode dizer\nTantas coisas em um olhar\n\nMas só quem ama escuta\no que as palavras não falam\nSó quem ama entende o que as rosas\nExalam agradeço a Deus a chance de ter você\nSempre ao meu lado\n\nE te amar vai ser pra sempre e te querer eternamente\nEu sei que nada vai nos separar\nPois sempre vou estar do teu lado\nE para sempre te amar\n\nQuando te olho ontem\nSinto que valeu a pena\nTer te esperado apesar dos problemas\nComo foi difícil por tantas coisas tivemos que passar\n\nMas só quem ama entende que o amor tem seus passos\nE que nada na vida acontece por acaso\nAgradeço a Deus a chance de ter você\nsempre ao meu lado",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Quando te olho hoje\nAté que foi de repente\nA gente ter se encontrado\nMe deixou tão contente\nComo é que você pode dizer\nTantas coisas em um olhar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Mas só quem ama escuta\no que as palavras não falam\nSó quem ama entende o que as rosas\nExalam agradeço a Deus a chance de ter você\nSempre ao meu lado",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "E te amar vai ser pra sempre e te querer eternamente\nEu sei que nada vai nos separar\nPois sempre vou estar do teu lado\nE para sempre te amar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Quando te olho ontem\nSinto que valeu a pena\nTer te esperado apesar dos problemas\nComo foi difícil por tantas coisas tivemos que passar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Mas só quem ama entende que o amor tem seus passos\nE que nada na vida acontece por acaso\nAgradeço a Deus a chance de ter você\nsempre ao meu lado",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

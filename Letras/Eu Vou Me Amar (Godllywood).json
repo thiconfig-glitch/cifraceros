@@ -1,0 +1,57 @@
+{
+  "id": 1622142347491,
+  "title": "Eu Vou Me Amar",
+  "artist": "Godllywood",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Tuas virtudes quero sempre possuir\nEm tua verdade, vou viver até o fim\nSer útil e agradável aonde for\nHumilde e corajosa pra sempre serva sou\n\nEu vou me amar\nSer forte pra me superar\nSer livre assim\nComo Deus olha pra mim\nTua justiça vou alcançar\nOferta viva pra te agradar\n\nGodllywood\nGodllywood\nGodllywood",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Tuas virtudes quero sempre possuir\nEm tua verdade, vou viver até o fim\nSer útil e agradável aonde for\nHumilde e corajosa pra sempre serva sou",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Eu vou me amar\nSer forte pra me superar\nSer livre assim\nComo Deus olha pra mim\nTua justiça vou alcançar\nOferta viva pra te agradar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Godllywood\nGodllywood\nGodllywood",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": 1582748875463,
+  "title": "ÊXODO",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "EU VOU\nPISAR O CHÃO QUE DEUS ME DEU\nA TERRA QUE EM SONHO VI\nO SOL NO AMANHECER\nMOSTROU-ME O VALE EM FLOR\nE FOI TUDO ASSIM QUE DEUS NOS PROMETEU\n\nVEM MEU SENHOR COMIGO CAMINHAR\nO VALE ESCURO ESTÁ, SENHOR\nVEM DÁR-ME A TUA MÃO\nGUIAR-ME ATÉ O FIM\nCONDUZIR-ME ALÉM DO CÉU\nMEU LAR DE AMOR",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "EU VOU\nPISAR O CHÃO QUE DEUS ME DEU\nA TERRA QUE EM SONHO VI\nO SOL NO AMANHECER\nMOSTROU-ME O VALE EM FLOR\nE FOI TUDO ASSIM QUE DEUS NOS PROMETEU",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "VEM MEU SENHOR COMIGO CAMINHAR\nO VALE ESCURO ESTÁ, SENHOR\nVEM DÁR-ME A TUA MÃO\nGUIAR-ME ATÉ O FIM\nCONDUZIR-ME ALÉM DO CÉU\nMEU LAR DE AMOR",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

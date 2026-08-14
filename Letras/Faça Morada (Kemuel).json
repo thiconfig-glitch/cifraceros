@@ -1,0 +1,64 @@
+{
+  "id": 1583617316318,
+  "title": "Faça Morada",
+  "artist": "Kemuel",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Eis-me aqui, tantas fraquezas\nDiante da Tua grandeza\nO que se vê o coração sente\nO corpo responde\nMinha alma não mente\n\nSonda agora este coração\nVeja, Senhor, se não tenho razão\nMas eu não quero ser tão racional\nEspírito Santo, pode se achegar\nE fazer morada, e fazer morada\nEspírito Santo, mora em mim \n\nO meu coração é o Teu lugar\nfaça morada\nEu Te convido a nunca \nmais me deixar aqui\n\nFaça morada em mim\nFaça morada em mim\nFaça morada em mim",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Eis-me aqui, tantas fraquezas\nDiante da Tua grandeza\nO que se vê o coração sente\nO corpo responde\nMinha alma não mente",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Sonda agora este coração\nVeja, Senhor, se não tenho razão\nMas eu não quero ser tão racional\nEspírito Santo, pode se achegar\nE fazer morada, e fazer morada\nEspírito Santo, mora em mim ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "O meu coração é o Teu lugar\nfaça morada\nEu Te convido a nunca \nmais me deixar aqui",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Faça morada em mim\nFaça morada em mim\nFaça morada em mim",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "id": 1598799179926,
+  "title": "Apaixonado",
+  "artist": "Aline Barros",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "pt",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Você mudou meu jeito de pensar\nVocê mudou meu jeito de agir\nMe deu sentido\nVocê está comigo\nVinte e quatro horas, e ainda assim é muito pouco\n\nVocê plantou em mim\nA semente da eternidade pra te adorar\n\n(Refrão)\nApaixonado\nApaixonado\nApaixonado\nPor você Senhor estou\n\nVocê morreu por mim naquela cruz\nSua vergonha foi em meu favor\nE hoje vivo pro meu Senhor e Cristo\nVinte e quatro horas, e ainda assim é muito pouco\n\nVocê plantou em mim\nA semente da eternidade pra te adorar\n\n(Refrão)\nApaixonado\nApaixonado\nApaixonado\nPor você Senhor estou\n\nVocê mudou o meu caminho, e hoje te encontrei\nE eu não vivo mais sozinho\nMas vinte e quatro horas, e ainda assim é muito pouco\n\nVocê plantou em mim\nA semente da eternidade pra te adorar\n\n(Refrão)\nApaixonado\nApaixonado\nApaixonado\nPor você Senhor estou",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Você mudou meu jeito de pensar\nVocê mudou meu jeito de agir\nMe deu sentido\nVocê está comigo\nVinte e quatro horas, e ainda assim é muito pouco",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Você plantou em mim\nA semente da eternidade pra te adorar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "(Refrão)\nApaixonado\nApaixonado\nApaixonado\nPor você Senhor estou",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Você morreu por mim naquela cruz\nSua vergonha foi em meu favor\nE hoje vivo pro meu Senhor e Cristo\nVinte e quatro horas, e ainda assim é muito pouco",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Você plantou em mim\nA semente da eternidade pra te adorar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "(Refrão)\nApaixonado\nApaixonado\nApaixonado\nPor você Senhor estou",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Você mudou o meu caminho, e hoje te encontrei\nE eu não vivo mais sozinho\nMas vinte e quatro horas, e ainda assim é muito pouco",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": "Você plantou em mim\nA semente da eternidade pra te adorar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 9,
+        "description": "",
+        "text": "(Refrão)\nApaixonado\nApaixonado\nApaixonado\nPor você Senhor estou",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

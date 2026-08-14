@@ -1,0 +1,71 @@
+{
+  "id": 1665600707121,
+  "title": "Passaporte Para o Céu",
+  "artist": "Marcelo Crivella",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Meu senhor Jesus\nO meu salvador\nE o rei dos reis\nMeu pai, meu redentor\nQuero lhe entregar\nO meu coração\nChega de sofrer\nSegura a minha mão\n\nMeu senhor\nEu sou um aprendiz\nMe conduz\nMe ensina a ser feliz\nE me faz fugir da tentação\nSenhor Jesus\nSegura em minha mão\n\nO senhor e meu pastor\nMeu escudo e proteção\nE o porto mais seguro\nMinha estrela guia\nMinha direção\n\nO senhor e meu pastor\nMeu amigo mais fiel\nJesus cristo e o caminho\nE o passaporte para o céu\n\nQuero lhe entregar\nO meu coração\nChega de sofrer\nSegura em minha mão\nMeu senhor\nNos sonhos onde andei\nProcurei a paz e não encontrei\nEu errei e peco teu perdão\nSenhor Jesus, segura em minha mão",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Meu senhor Jesus\nO meu salvador\nE o rei dos reis\nMeu pai, meu redentor\nQuero lhe entregar\nO meu coração\nChega de sofrer\nSegura a minha mão",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Meu senhor\nEu sou um aprendiz\nMe conduz\nMe ensina a ser feliz\nE me faz fugir da tentação\nSenhor Jesus\nSegura em minha mão",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "O senhor e meu pastor\nMeu escudo e proteção\nE o porto mais seguro\nMinha estrela guia\nMinha direção",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "O senhor e meu pastor\nMeu amigo mais fiel\nJesus cristo e o caminho\nE o passaporte para o céu",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Quero lhe entregar\nO meu coração\nChega de sofrer\nSegura em minha mão\nMeu senhor\nNos sonhos onde andei\nProcurei a paz e não encontrei\nEu errei e peco teu perdão\nSenhor Jesus, segura em minha mão",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

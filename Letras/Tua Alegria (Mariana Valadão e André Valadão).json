@@ -1,0 +1,71 @@
+{
+  "id": 1614115219172,
+  "title": "Tua Alegria",
+  "artist": "Mariana Valadão e André Valadão",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Tu me amas como sou\nMas não me deixas como estou\nSeguir Teus passos sempre vou\nRumo ao encontro do Teu amor\n\nO Teu amor é maior que \na vida\nMe traz paz e alegria\n\nCom Teu perfume \nquero me encher\nE a cada instante \nmais Te conhecer\n\nTua verdade é a luz\nQue me conduz para o céu\nTua palavra é o remédio \nque cura todo meu ser\n\nTua alegria em minha vida\nMe fortalece a cada novo dia\nTua alegria é minha vida\nRecebo dela hoje agora\nRecebo dela hoje agora",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Tu me amas como sou\nMas não me deixas como estou\nSeguir Teus passos sempre vou\nRumo ao encontro do Teu amor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "O Teu amor é maior que \na vida\nMe traz paz e alegria",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Com Teu perfume \nquero me encher\nE a cada instante \nmais Te conhecer",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Tua verdade é a luz\nQue me conduz para o céu\nTua palavra é o remédio \nque cura todo meu ser",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Tua alegria em minha vida\nMe fortalece a cada novo dia\nTua alegria é minha vida\nRecebo dela hoje agora\nRecebo dela hoje agora",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

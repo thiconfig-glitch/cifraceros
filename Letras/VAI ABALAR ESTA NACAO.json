@@ -1,0 +1,78 @@
+{
+  "id": 1582748875694,
+  "title": "VAI ABALAR ESTA NACAO",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "SE TENTAREM AFUGENTAR TUA FÉ\nNÃO DESISTA, DEUS CONTIGO É\nSE QUISEREM TE FAZER VOLTAR ATRÁS\nPERMANEÇA!\nDEUS TE FAZ CAPAZ\n\nNÃO TEM COMO\nSE DISSERES NO TEU CORAÇÃO\nQUE NÃO DÁ\nÉ PRECISO TER CORAGEM E FÉ\nPRA CHEGAR LÁ \n\nSEI QUE, DESSAS PROMESSAS,\nNÃO DESISTIREI\nMEU DEUS É MINHA FORÇA\nE EU VOU PROSPERAR\n\nSOU HERDEIRO DE DEUS\nEU SOU DESSA NAÇÃO\n\nMEU É O OURO E A PRATA\nDEUS, VAI ABALAR\n\nVAI ABALAR ESSA NAÇÃO\nVAI ABALAR\nVAI ABALAR COM ESSA UNÇÃO\nVAI ABALAR",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "SE TENTAREM AFUGENTAR TUA FÉ\nNÃO DESISTA, DEUS CONTIGO É\nSE QUISEREM TE FAZER VOLTAR ATRÁS\nPERMANEÇA!\nDEUS TE FAZ CAPAZ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "NÃO TEM COMO\nSE DISSERES NO TEU CORAÇÃO\nQUE NÃO DÁ\nÉ PRECISO TER CORAGEM E FÉ\nPRA CHEGAR LÁ ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "SEI QUE, DESSAS PROMESSAS,\nNÃO DESISTIREI\nMEU DEUS É MINHA FORÇA\nE EU VOU PROSPERAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "SOU HERDEIRO DE DEUS\nEU SOU DESSA NAÇÃO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "MEU É O OURO E A PRATA\nDEUS, VAI ABALAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "VAI ABALAR ESSA NAÇÃO\nVAI ABALAR\nVAI ABALAR COM ESSA UNÇÃO\nVAI ABALAR",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

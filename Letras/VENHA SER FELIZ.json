@@ -1,0 +1,71 @@
+{
+  "id": 1582748875689,
+  "title": "VENHA SER FELIZ",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "TUDO CHEGOU AO FIM \nASSIM DIZ O CORAÇÃO\nCANSADO DE SENTIR \nO VAZIO DA ILUSÃO\n\nO PENSAMENTO VAI, \nDIZ QUE O MUNDO DESABOU\nNEM DÁ MAIS PRA SONHAR, \nSEU OLHAR SE PERDE OUTRA VEZ\n\nMAS AQUELE QUE A TERRA FAZ GIRAR\nFAZ O HOMEM ANDAR POR SOBRE O MAR\nFAZ CLAREAR O CÉU, PRO SOL TE AQUECER\nPRA DEGELAR O AMOR, \nQUE EXISTE DENTRO DE VOCÊ\n\nE SE DENTRO DO PEITO \nO CORAÇÃO TÁ DISPARADO\nÉ A MÃO DE DEUS TRAZENDO AMOR\nTIRANDO A SOLIDÃO\nNÃO DEIXE QUE A TRISTEZA \nROUBE A SUA PAZ\nE VENHA SER FELIZ\n\nNÃO DÁ PRA ESCONDER \nA TRISTEZA EM SEU OLHAR\nA VIDA TE FERIU, E ESSA \nDOR NÃO QUER CALAR\nO SOL SE ESCONDEU, \nQUANDO O FRIO TE ABRAÇOU\nSEU SONHO SE DESFEZ, \nE O SEU MUNDO DESABOU",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "TUDO CHEGOU AO FIM \nASSIM DIZ O CORAÇÃO\nCANSADO DE SENTIR \nO VAZIO DA ILUSÃO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "O PENSAMENTO VAI, \nDIZ QUE O MUNDO DESABOU\nNEM DÁ MAIS PRA SONHAR, \nSEU OLHAR SE PERDE OUTRA VEZ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "MAS AQUELE QUE A TERRA FAZ GIRAR\nFAZ O HOMEM ANDAR POR SOBRE O MAR\nFAZ CLAREAR O CÉU, PRO SOL TE AQUECER\nPRA DEGELAR O AMOR, \nQUE EXISTE DENTRO DE VOCÊ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "E SE DENTRO DO PEITO \nO CORAÇÃO TÁ DISPARADO\nÉ A MÃO DE DEUS TRAZENDO AMOR\nTIRANDO A SOLIDÃO\nNÃO DEIXE QUE A TRISTEZA \nROUBE A SUA PAZ\nE VENHA SER FELIZ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "NÃO DÁ PRA ESCONDER \nA TRISTEZA EM SEU OLHAR\nA VIDA TE FERIU, E ESSA \nDOR NÃO QUER CALAR\nO SOL SE ESCONDEU, \nQUANDO O FRIO TE ABRAÇOU\nSEU SONHO SE DESFEZ, \nE O SEU MUNDO DESABOU",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

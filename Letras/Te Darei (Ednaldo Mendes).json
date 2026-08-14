@@ -1,0 +1,64 @@
+{
+  "id": 1601489646227,
+  "title": "Te Darei",
+  "artist": "Ednaldo Mendes",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "O que posso agora eu te entregar\nA minha alma anseia em saber\nSe tão pouco eu tenho pra te ofertar\nTu Mereces tanto receber\n\nTe darei, te darei\nTe darei Jesus\nMinha Vida, o meu ser\nTe darei\n\nTe darei, te darei\nTe darei Jesus\nMinha vida e o meu ser\nTe darei\n\nOh tu que fazes a rosa se abrir\nE o pranto tornas em sorrir\nO que devo eu te oferecer\nQuer minh'alma hoje pois saber\nTe darei",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "O que posso agora eu te entregar\nA minha alma anseia em saber\nSe tão pouco eu tenho pra te ofertar\nTu Mereces tanto receber",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Te darei, te darei\nTe darei Jesus\nMinha Vida, o meu ser\nTe darei",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Te darei, te darei\nTe darei Jesus\nMinha vida e o meu ser\nTe darei",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Oh tu que fazes a rosa se abrir\nE o pranto tornas em sorrir\nO que devo eu te oferecer\nQuer minh'alma hoje pois saber\nTe darei",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

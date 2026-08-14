@@ -1,0 +1,78 @@
+{
+  "id": 1611526223180,
+  "title": "Verdadeiro Encontro",
+  "artist": "Adilson Silva",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Senhor \neu não consigo mais, falar\nDo que se passa aqui, \ndentro de mim\n\nMeu Deus eu não suporto \nmais a dor\nSe é necessário assim\nPra Te encontrar aqui\n\nMeu Deus contigo eu quero ter\num verdadeiro encontro\nViver neste momento\nO que nunca eu vivi\n\nVem enxugar as lágrimas\nQue rolam no meu rosto\nNão quero mais\ncontinuar\nSofrendo assim\n\nMeu coração deseja encontrar\nA verdadeira alegria, \nque há em Ti\n\nAgora eu não quero mais chorar\nDe tristeza e angústia\nvem me fazer feliz",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Senhor \neu não consigo mais, falar\nDo que se passa aqui, \ndentro de mim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Meu Deus eu não suporto \nmais a dor\nSe é necessário assim\nPra Te encontrar aqui",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Meu Deus contigo eu quero ter\num verdadeiro encontro\nViver neste momento\nO que nunca eu vivi",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Vem enxugar as lágrimas\nQue rolam no meu rosto\nNão quero mais\ncontinuar\nSofrendo assim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Meu coração deseja encontrar\nA verdadeira alegria, \nque há em Ti",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Agora eu não quero mais chorar\nDe tristeza e angústia\nvem me fazer feliz",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

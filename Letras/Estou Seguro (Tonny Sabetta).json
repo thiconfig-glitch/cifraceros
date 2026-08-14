@@ -1,0 +1,71 @@
+{
+  "id": 1599512751818,
+  "title": "Estou Seguro",
+  "artist": "Tonny Sabetta",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Estou seguro, \nnão tenho mais motivo \npra me preocupar,\nnão há mais o medo e o desespero,\nnem preciso de uma dose \npra poder dormir.\n\nEstou seguro, \nfeito jóia que o ladrão \nnão pode roubar,\npois eu seguro estou \n\nnas mãos de Cristo,\nEle nunca, nunca irá \nme abandonar\n\nEle é Fiel, Ele é Fiel,\ne nunca falhará\nEle é Deus não é homem, \npra que duvidar?\n\nEle é Fiel, Ele é Fiel, \ne nunca falhará\nEle é Deus não é homem, \npra que duvidar?",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Estou seguro, \nnão tenho mais motivo \npra me preocupar,\nnão há mais o medo e o desespero,\nnem preciso de uma dose \npra poder dormir.",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Estou seguro, \nfeito jóia que o ladrão \nnão pode roubar,\npois eu seguro estou ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "nas mãos de Cristo,\nEle nunca, nunca irá \nme abandonar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Ele é Fiel, Ele é Fiel,\ne nunca falhará\nEle é Deus não é homem, \npra que duvidar?",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Ele é Fiel, Ele é Fiel, \ne nunca falhará\nEle é Deus não é homem, \npra que duvidar?",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

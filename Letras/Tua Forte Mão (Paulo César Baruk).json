@@ -1,0 +1,78 @@
+{
+  "id": 1707490637111,
+  "title": "Tua Forte Mão",
+  "artist": "Paulo César Baruk",
+  "author": "Dell Cordeiro",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Se a minha alma teme o amanhã\nE o coração não vê o Teu cuidado\nSe eu não consigo ouvir a Tua voz\nAinda assim confiarei\nConfiarei\n\nEu sei que o meu Redentor Vive\nQue se levantará sobre a terra\nA Tua bondade transbordará\nMeus desertos com misericórdia\n\nTua forte mão\nGuarda os meus dias\nMesmo sem Te ver\nEu pertenço a Ti\nO Teu perdão me cura, ó Deus\nTua cruz me limpa\n\nEu sei que não mereço\nMas me amas\nCom amor sem fim\nSem fim\n\nEu sei que o meu Redentor Vive\nQue se levantará sobre a terra\nA Tua bondade transbordará\nMeus desertos com misericórdia\n\nSei que me amas\nDe um modo\nTotalmente gracioso, Jesus\nTão grande amor",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Se a minha alma teme o amanhã\nE o coração não vê o Teu cuidado\nSe eu não consigo ouvir a Tua voz\nAinda assim confiarei\nConfiarei",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Eu sei que o meu Redentor Vive\nQue se levantará sobre a terra\nA Tua bondade transbordará\nMeus desertos com misericórdia",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Tua forte mão\nGuarda os meus dias\nMesmo sem Te ver\nEu pertenço a Ti\nO Teu perdão me cura, ó Deus\nTua cruz me limpa",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Eu sei que não mereço\nMas me amas\nCom amor sem fim\nSem fim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Eu sei que o meu Redentor Vive\nQue se levantará sobre a terra\nA Tua bondade transbordará\nMeus desertos com misericórdia",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Sei que me amas\nDe um modo\nTotalmente gracioso, Jesus\nTão grande amor",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "https://open.spotify.com/track/6EhGW7loyDD2BwPqeAKvoK",
+      "youtube": "https://youtube.com/watch?v=bX3MZvr00qo",
+      "deezer": "https://deezer.com/track/804606202"
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

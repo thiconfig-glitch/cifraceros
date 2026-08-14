@@ -1,0 +1,78 @@
+{
+  "id": 1582748875992,
+  "title": "JUSTIÇA",
+  "artist": "MARCELO CRIVELLA",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "SENHOR JUSTIÇA\nPARA AQUELES QUE TEM FOME\nPARA AQUELES QUE TEM SEDE\nQUE SÓ ENTRAM NOS PALÁCIOS\nPRA VARRER O CHÃO\n\nSENHOR JUSTIÇA\nPRA QUEM SERVE A REALEZA\nE NÃO TEM LUGAR NA MESA\nCATA RESTOS PRA COMER\nCOMO SE FOSSE UM CÃO\n\nJUSTIÇA\nCONTRA TANTO MAL QUE É FEITO\nCONTRA TANTO PRECONCEITO\nTANTA FALTA DE JESUS NO CORAÇÃO\n\nJUSTIÇA\nCONTRA O ÓDIO E A VIOLÊNCIA\nCONTRA TANTA INDIFERENÇA\nCOM A DOR DE UM IRMÃO\n\nVEM SENHOR\nA ÚLTIMA ESPERANÇA\nDE QUEM SOFRE É O TEU AMOR\nVEM SENHOR\nJULGA NOSSA CAUSA\nE ACABA COM ESSE DOR\n\nVEM SENHOR\nTEU POVO TE SUPLICA\nNÃO AGUENTA MAIS\nVEM SENHOR\nERGUE A TUA ESPADA\nE TRAZ A NOSSA PAZ",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "SENHOR JUSTIÇA\nPARA AQUELES QUE TEM FOME\nPARA AQUELES QUE TEM SEDE\nQUE SÓ ENTRAM NOS PALÁCIOS\nPRA VARRER O CHÃO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "SENHOR JUSTIÇA\nPRA QUEM SERVE A REALEZA\nE NÃO TEM LUGAR NA MESA\nCATA RESTOS PRA COMER\nCOMO SE FOSSE UM CÃO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "JUSTIÇA\nCONTRA TANTO MAL QUE É FEITO\nCONTRA TANTO PRECONCEITO\nTANTA FALTA DE JESUS NO CORAÇÃO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "JUSTIÇA\nCONTRA O ÓDIO E A VIOLÊNCIA\nCONTRA TANTA INDIFERENÇA\nCOM A DOR DE UM IRMÃO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "VEM SENHOR\nA ÚLTIMA ESPERANÇA\nDE QUEM SOFRE É O TEU AMOR\nVEM SENHOR\nJULGA NOSSA CAUSA\nE ACABA COM ESSE DOR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "VEM SENHOR\nTEU POVO TE SUPLICA\nNÃO AGUENTA MAIS\nVEM SENHOR\nERGUE A TUA ESPADA\nE TRAZ A NOSSA PAZ",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

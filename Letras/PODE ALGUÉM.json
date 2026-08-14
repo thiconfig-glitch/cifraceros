@@ -1,0 +1,71 @@
+{
+  "id": 1582748875713,
+  "title": "PODE ALGUÉM",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "PODE ALGUÉM CASTIGAR O MEU CORPO\nOU TIRAR A VISÃO DOS OLHOS MEUS\nPODE ALGUÉM DESTRUIR MINHA VIDA\nMAS NÃO VAI ME AFASTAR DO MEU DEUS\n\nNEM A MORTE, NEM A VIDA, NEM OS ANJOS\nPODERÃO ME AFASTAR DESSA LUZ\nPODE ALGUÉM ME AFASTAR DA FAMÍLIA QUERIDA\nMAS NÃO VAI ME AFASTAR DE JESUS\n\nPODE ALGUÉM VASCULHAR MEU PASSADO\nOU TRATAR-ME COM ÓDIO OU RANCOR\nPODE ALGUÉM PUBLICAR MEUS PECADOS\nMAS NÃO VAI ME AFASTAR DO SENHOR\n\nNEM A MORTE, NEM A VIDA, NEM OS ANJOS\nPODERÃO ME AFASTAR DESSA LUZ\nPODE ALGUÉM ME AFASTAR DA FAMÍLIA QUERIDA\nMAS NÃO VAI ME AFASTAR DE JESUS\n\nPODE ALGUÉM PERSEGUIR-ME COM FÚRIA\nE EU NÃO VOU PRONUNCIAR NEM UM \"AI\"\nPODE ALGUÉM ME AFASTAR DOS AMIGOS\nSÓ NÃO VAI ME AFASTAR DO MEU PAI",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "PODE ALGUÉM CASTIGAR O MEU CORPO\nOU TIRAR A VISÃO DOS OLHOS MEUS\nPODE ALGUÉM DESTRUIR MINHA VIDA\nMAS NÃO VAI ME AFASTAR DO MEU DEUS",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "NEM A MORTE, NEM A VIDA, NEM OS ANJOS\nPODERÃO ME AFASTAR DESSA LUZ\nPODE ALGUÉM ME AFASTAR DA FAMÍLIA QUERIDA\nMAS NÃO VAI ME AFASTAR DE JESUS",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "PODE ALGUÉM VASCULHAR MEU PASSADO\nOU TRATAR-ME COM ÓDIO OU RANCOR\nPODE ALGUÉM PUBLICAR MEUS PECADOS\nMAS NÃO VAI ME AFASTAR DO SENHOR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "NEM A MORTE, NEM A VIDA, NEM OS ANJOS\nPODERÃO ME AFASTAR DESSA LUZ\nPODE ALGUÉM ME AFASTAR DA FAMÍLIA QUERIDA\nMAS NÃO VAI ME AFASTAR DE JESUS",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "PODE ALGUÉM PERSEGUIR-ME COM FÚRIA\nE EU NÃO VOU PRONUNCIAR NEM UM \"AI\"\nPODE ALGUÉM ME AFASTAR DOS AMIGOS\nSÓ NÃO VAI ME AFASTAR DO MEU PAI",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

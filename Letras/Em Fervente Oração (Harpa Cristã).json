@@ -1,0 +1,78 @@
+{
+  "id": 1669543818658,
+  "title": "Em Fervente Oração",
+  "artist": "Harpa Cristã",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Em fervente oração\nvem o teu coração\nNa presença de Deus derramar\nMas só podes fluir \no que estás a pedir\nQuando tudo deixares no altar\n\nQuando tudo perante o Senhor estiver\nE todo o teu ser Ele controlar\nSó então, hás de ver \nque o Senhor tem poder\nQuando tudo deixares no altar\n\nMaravilhas de amor \nte fará o Senhor\nAtendendo à oração que aceitar\nSeu imenso poder, te virá socorrer\nQuando tudo deixares no altar\n\nQuando tudo perante o Senhor estiver\n\nSe orares, porém, sem o teu coração\nTer a paz que o Senhor pode dar\nFoi por Deus não Sentir que tua alma se abriu\nTudo, tudo, deixando no altar\n\nQuando tudo perante o Senhor estiver\nE todo o teu ser Ele controlar\nSó, então, hás de ver que o Senhor tem poder\nQuando tudo deixares no altar",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Em fervente oração\nvem o teu coração\nNa presença de Deus derramar\nMas só podes fluir \no que estás a pedir\nQuando tudo deixares no altar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Quando tudo perante o Senhor estiver\nE todo o teu ser Ele controlar\nSó então, hás de ver \nque o Senhor tem poder\nQuando tudo deixares no altar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Maravilhas de amor \nte fará o Senhor\nAtendendo à oração que aceitar\nSeu imenso poder, te virá socorrer\nQuando tudo deixares no altar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Quando tudo perante o Senhor estiver",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Se orares, porém, sem o teu coração\nTer a paz que o Senhor pode dar\nFoi por Deus não Sentir que tua alma se abriu\nTudo, tudo, deixando no altar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Quando tudo perante o Senhor estiver\nE todo o teu ser Ele controlar\nSó, então, hás de ver que o Senhor tem poder\nQuando tudo deixares no altar",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

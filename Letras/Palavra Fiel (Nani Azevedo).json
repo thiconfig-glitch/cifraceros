@@ -1,0 +1,78 @@
+{
+  "id": 1585238496000,
+  "title": "Palavra Fiel",
+  "artist": "Nani Azevedo",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Ah! Se meu povo Me escutasse \nE me servisse com integridade\nEu abriria a janela do céu \nE lhe daria o trigo mais fino\n\nAh! Se meu povo, que me adora \nMe adorasse acima de tudo,\nCom o mel puro da rocha \nO sustentaria\n\nA PALAVRA DE DEUS É FIEL \nE JAMAIS ELA VOLTA VAZIA,\nSE EU HONRAR E BENDIZER \nAO MEU SENHOR OBEDECER\nEU COMEREI \nO MELHOR DESTA TERRA\n\nAh! Se meu povo me escutasse\nE me servisse com integridade\nEu abriria a janela do céu \nE lhe daria o trigo mais fino\n\nAH! SE MEU POVO QUE ME ADORA \nME ADORASSE ACIMA DE TUDO,\nCOM O MEL DA ROCHA \nO SUSTENTARIA\n\nA PALAVRA DE DEUS É FIEL \nE JAMAIS ELA VOLTA VAZIA \n \nSE EU HONRAR E BENDIZER \nAO MEU SENHOR OBEDECER\nEU COMEREI \nDO MELHOR DESTA TERRA",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Ah! Se meu povo Me escutasse \nE me servisse com integridade\nEu abriria a janela do céu \nE lhe daria o trigo mais fino",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Ah! Se meu povo, que me adora \nMe adorasse acima de tudo,\nCom o mel puro da rocha \nO sustentaria",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "Refrão",
+        "text": "A PALAVRA DE DEUS É FIEL \nE JAMAIS ELA VOLTA VAZIA,\nSE EU HONRAR E BENDIZER \nAO MEU SENHOR OBEDECER\nEU COMEREI \nO MELHOR DESTA TERRA",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Ah! Se meu povo me escutasse\nE me servisse com integridade\nEu abriria a janela do céu \nE lhe daria o trigo mais fino",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "AH! SE MEU POVO QUE ME ADORA \nME ADORASSE ACIMA DE TUDO,\nCOM O MEL DA ROCHA \nO SUSTENTARIA",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "Refrão",
+        "text": "A PALAVRA DE DEUS É FIEL \nE JAMAIS ELA VOLTA VAZIA \n \nSE EU HONRAR E BENDIZER \nAO MEU SENHOR OBEDECER\nEU COMEREI \nDO MELHOR DESTA TERRA",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

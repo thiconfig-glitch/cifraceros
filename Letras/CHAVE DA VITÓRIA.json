@@ -1,0 +1,64 @@
+{
+  "id": 1582748875618,
+  "title": "CHAVE DA VITÓRIA",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Vou buscar o que perdi\nSatanás foi quem roubou A paz\ne a riqueza com que \no Senhor me abençoou\nPois nas mãos de Satanás \nhavia um decreto\nCondenação por certo\nsem recurso algum\n\nEu sabia que eu não tinha\nnada para oferecer \nE por mais que lutasse\neu tinha tudo pARA  perder\nEu estava entregando minha vida\nquando de repente surgiu Jesus\n\nDono do mundo, desceu profundo\nfoi ao inferno prá me salvar\nTenho a chave desta vitória\nE aquele decreto por terra caiu\nJesus é o mesmo que desceu do céu\nJesus é o mesmo que ao céu subiu\n\nTenho a chave da vitória\nquem manda aqui agora\nÉ quem crê em Jesus\nEle deixou a porta aberta\nE tudo que era meu o diabo devolveu\nFeliz sou eu",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Vou buscar o que perdi\nSatanás foi quem roubou A paz\ne a riqueza com que \no Senhor me abençoou\nPois nas mãos de Satanás \nhavia um decreto\nCondenação por certo\nsem recurso algum",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Eu sabia que eu não tinha\nnada para oferecer \nE por mais que lutasse\neu tinha tudo pARA  perder\nEu estava entregando minha vida\nquando de repente surgiu Jesus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Dono do mundo, desceu profundo\nfoi ao inferno prá me salvar\nTenho a chave desta vitória\nE aquele decreto por terra caiu\nJesus é o mesmo que desceu do céu\nJesus é o mesmo que ao céu subiu",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Tenho a chave da vitória\nquem manda aqui agora\nÉ quem crê em Jesus\nEle deixou a porta aberta\nE tudo que era meu o diabo devolveu\nFeliz sou eu",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

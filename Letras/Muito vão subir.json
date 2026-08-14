@@ -1,0 +1,57 @@
+{
+  "id": 1582748876025,
+  "title": "Muito vão subir",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "MUITOS VÃO SUBIR MUITOS VÃO FICAR\nAQUI NO MUNDO DE ILUSÃO\nPOIS AQUELE QUE VENCER NO \nCÉU VAI RECEBER\nUMA COROA RESPLANDECENTE\n\nEU QUERO MORAR COM JESUS O MEU SENHOR\nNÃO QUERO FICAR NESTE MUNDO DE HORROR\nEU QUERO SUBIR COM O MEU SENHOR JESUS\nNÃO QUERO FICAR\nMAS QUERO SUBIR COM MEU JESUS\n\nOLHE MEU AMIGO A PORTA ABERTA ESTÁ\nVENHA CORRENDO PRA SE SALVAR\nPOIS AQUELE QUE VENCER NO CÉU VAI RECEBER\nUMA COROA RESPLANDECENTE",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "MUITOS VÃO SUBIR MUITOS VÃO FICAR\nAQUI NO MUNDO DE ILUSÃO\nPOIS AQUELE QUE VENCER NO \nCÉU VAI RECEBER\nUMA COROA RESPLANDECENTE",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "EU QUERO MORAR COM JESUS O MEU SENHOR\nNÃO QUERO FICAR NESTE MUNDO DE HORROR\nEU QUERO SUBIR COM O MEU SENHOR JESUS\nNÃO QUERO FICAR\nMAS QUERO SUBIR COM MEU JESUS",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "OLHE MEU AMIGO A PORTA ABERTA ESTÁ\nVENHA CORRENDO PRA SE SALVAR\nPOIS AQUELE QUE VENCER NO CÉU VAI RECEBER\nUMA COROA RESPLANDECENTE",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

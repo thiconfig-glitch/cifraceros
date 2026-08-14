@@ -1,0 +1,120 @@
+{
+  "id": 1606505836113,
+  "title": "Batalha",
+  "artist": "Cicero Nogueira",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "1,2,3,4",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "BATALHA NÃO É BATALHA\nSE NÃO SURGEM AS LUTAS\nSE O DIABO NÃO SE LEVANTA\nBATALHA NÃO É BATALHA\n\nBATALHA NÃO É BATALHA\nSE NÃO SURGEM AS LUTAS\nSE O DIABO NÃO SE LEVANTA\nBATALHA NÃO É BATALHA\n\nE COM JESUS EU IREI\nVENCEREI ESSA BATALHA\nCOM JESUS EU IREI\nVENCEREI ESSA BATALHA\n\nEU JÁ VENCI, A BATALHA\nVOCÊ JÁ VENCEU, A BATALHA\nELE JÁ VENCEU,  A BATALHA\nNÓS JÁ VENCEMOS, A BATALHA\n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n ",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "BATALHA NÃO É BATALHA\nSE NÃO SURGEM AS LUTAS\nSE O DIABO NÃO SE LEVANTA\nBATALHA NÃO É BATALHA",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "BATALHA NÃO É BATALHA\nSE NÃO SURGEM AS LUTAS\nSE O DIABO NÃO SE LEVANTA\nBATALHA NÃO É BATALHA",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "E COM JESUS EU IREI\nVENCEREI ESSA BATALHA\nCOM JESUS EU IREI\nVENCEREI ESSA BATALHA",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "EU JÁ VENCI, A BATALHA\nVOCÊ JÁ VENCEU, A BATALHA\nELE JÁ VENCEU,  A BATALHA\nNÓS JÁ VENCEMOS, A BATALHA",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": " ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": " ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": " ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": " ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 9,
+        "description": "",
+        "text": " ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 10,
+        "description": "",
+        "text": " ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 11,
+        "description": "",
+        "text": " ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 12,
+        "description": "",
+        "text": " ",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

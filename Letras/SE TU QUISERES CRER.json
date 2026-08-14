@@ -1,0 +1,57 @@
+{
+  "id": 1582748875433,
+  "title": "SE TU QUISERES CRER",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "MUITOS VÃO ORAR\nE QUEREM ENCONTRAR ALGUÉM\nQUE GARANTA AO MÁXIMO\nA PAZ NOS CORAÇÕES\nNÃO HÁ O QUE TEMER\nEMBORA O MEDO EXISTA EM NÓS\nMAS A FÉ NOS FAZ MOVER\nMONTANHAS, COM PODER\n\nPODE UM MILAGRE ENFIM ACONTECER\nQUANDO VOCÊ ACREDITAR\nA ESPERANÇA EM TI NINGUÉM JAMAIS\nIRÁ MATAR, DEPENDE SÓ\nSE TU QUISERES CRER\n\nO MEDO ACABOU\nPOIS ELE AGIA SEMPRE EM VÃO\nA ESPERANÇA EM TI FARÁ AOS ARES FLUTUAR\nNÃO POSSO EXPLICAR\nO QUE O CORAÇÃO DE ALGUÉM\nSENTE QUANDO ENCONTRA A PAZ\nE A FÉ PARA IR ALÉM",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "MUITOS VÃO ORAR\nE QUEREM ENCONTRAR ALGUÉM\nQUE GARANTA AO MÁXIMO\nA PAZ NOS CORAÇÕES\nNÃO HÁ O QUE TEMER\nEMBORA O MEDO EXISTA EM NÓS\nMAS A FÉ NOS FAZ MOVER\nMONTANHAS, COM PODER",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "PODE UM MILAGRE ENFIM ACONTECER\nQUANDO VOCÊ ACREDITAR\nA ESPERANÇA EM TI NINGUÉM JAMAIS\nIRÁ MATAR, DEPENDE SÓ\nSE TU QUISERES CRER",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "O MEDO ACABOU\nPOIS ELE AGIA SEMPRE EM VÃO\nA ESPERANÇA EM TI FARÁ AOS ARES FLUTUAR\nNÃO POSSO EXPLICAR\nO QUE O CORAÇÃO DE ALGUÉM\nSENTE QUANDO ENCONTRA A PAZ\nE A FÉ PARA IR ALÉM",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

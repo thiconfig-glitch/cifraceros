@@ -1,0 +1,57 @@
+{
+  "id": 1598211792663,
+  "title": "Eu Amo a Tua Lei",
+  "artist": "Tonny Sabetta",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Eu Amo a Tua Lei\nNela medita o meu coração\nPois quero viver aqui\nA Tua Vida em mim, oh Senhor\n\nEu quero aos pés da cruz\nEntregar meu ser, todo o meu viver\nE pra sempre te servir\nE por onde eu for\nFalar desse amor\n\nEu te amo, oh Rei dos reis\nOh, Raiz de Davi\nTe amo, oh Salvador!",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Eu Amo a Tua Lei\nNela medita o meu coração\nPois quero viver aqui\nA Tua Vida em mim, oh Senhor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Eu quero aos pés da cruz\nEntregar meu ser, todo o meu viver\nE pra sempre te servir\nE por onde eu for\nFalar desse amor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Eu te amo, oh Rei dos reis\nOh, Raiz de Davi\nTe amo, oh Salvador!",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

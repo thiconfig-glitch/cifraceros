@@ -1,0 +1,64 @@
+{
+  "id": 1598803140856,
+  "title": "O Meu Deus é Forte",
+  "artist": "Regis Danese",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Entreguei a minha vida pra Jesus\nE agora vou falar só de Jesus\nNão importa o que as pessoas\nvão dizer de mim\nSó a Ele eu vou seguir, \nsua vontade vou fazer\n\nAlegria encontrei em seu amor\nFoi chegando e tirando toda dor\nTodo medo que existia, \nfoi embora e eu senti\nO poder de Deus agindo sobre mim\n\nO meu Deus é forte, \njusto e verdadeiro,\nPríncipe da paz, \nme amou primeiro\n\nÉ fiel comigo, sempre meu amigo,\nMesmo eu sendo falho, \nfraco e pecador\nSempre me amou",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Entreguei a minha vida pra Jesus\nE agora vou falar só de Jesus\nNão importa o que as pessoas\nvão dizer de mim\nSó a Ele eu vou seguir, \nsua vontade vou fazer",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Alegria encontrei em seu amor\nFoi chegando e tirando toda dor\nTodo medo que existia, \nfoi embora e eu senti\nO poder de Deus agindo sobre mim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "O meu Deus é forte, \njusto e verdadeiro,\nPríncipe da paz, \nme amou primeiro",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "É fiel comigo, sempre meu amigo,\nMesmo eu sendo falho, \nfraco e pecador\nSempre me amou",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

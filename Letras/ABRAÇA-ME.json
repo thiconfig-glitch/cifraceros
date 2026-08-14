@@ -1,0 +1,64 @@
+{
+  "id": 1582748875795,
+  "title": "ABRAÇA-ME",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "ENSINA-ME A SENTIR TEU CORAÇÃO\nJESUS, QUERO OUVIR TEU RESPIRAR\nTIRAR TEU FÔLEGO COM MINHA FÉ\nE TE ADORAR \n\nJESUS, TU ÉS O PÃO QUE ME ALIMENTA\nO VERBO VIVO QUE DESCEU DO CÉU\nVEM AQUECER MEU FRIO CORAÇÃO\nCOM TEU AMOR \n\nABRAÇA-ME , ABRAÇA-ME\nCURA-ME , CURA-ME\nUNGE-ME , UNGE-ME\nTOCA-ME, TOCA-ME\n\nVEM SOBRE MIM COM O TEU MANTO\nREINA EM MIM COM TUA GLÓRIA\nPOIS AO TEU LADO É O MEU LUGAR\nALELUIA, ALELUIA ",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "ENSINA-ME A SENTIR TEU CORAÇÃO\nJESUS, QUERO OUVIR TEU RESPIRAR\nTIRAR TEU FÔLEGO COM MINHA FÉ\nE TE ADORAR ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "JESUS, TU ÉS O PÃO QUE ME ALIMENTA\nO VERBO VIVO QUE DESCEU DO CÉU\nVEM AQUECER MEU FRIO CORAÇÃO\nCOM TEU AMOR ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "ABRAÇA-ME , ABRAÇA-ME\nCURA-ME , CURA-ME\nUNGE-ME , UNGE-ME\nTOCA-ME, TOCA-ME",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "VEM SOBRE MIM COM O TEU MANTO\nREINA EM MIM COM TUA GLÓRIA\nPOIS AO TEU LADO É O MEU LUGAR\nALELUIA, ALELUIA ",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

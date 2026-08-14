@@ -1,0 +1,57 @@
+{
+  "id": 1582748875901,
+  "title": "JESUS VIRÁ",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "NUM DIA LINDO \nALMEJO EU ENCONTRAR\nA ETERNA GLÓRIA \nQUE PROMETIDA ESTÁ\nGOZO E ALEGRIA \nPOSSO ENTÃO SENTIR\nPOIS JESUS CRISTO \nJÁ ESTÁ POR VIR\n\nJESUS VIRÁ OUTRA VEZ AQUI\nJESUS VIRÁ, JESUS VIRÁ\nMAIS OUTRA VEZ AQUI\nPOR ISSO TODOS JUNTOS \nEM UM SÓ LOUVOR CANTEMOS\nCANTEMOS TODOS \nELE É O NOSSO SENHOR\n\nELE VEIO AO MUNDO \nPRA SER MÁRTIR DA PAZ\nELE FOI TENTADO \nE NÃO PECOU JAMAIS\nA SUA VIDA \nFOI UM EXEMPLO DE AMOR\nPOR ISSO EU CANTO \nELE É O NOSSO SENHOR",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "NUM DIA LINDO \nALMEJO EU ENCONTRAR\nA ETERNA GLÓRIA \nQUE PROMETIDA ESTÁ\nGOZO E ALEGRIA \nPOSSO ENTÃO SENTIR\nPOIS JESUS CRISTO \nJÁ ESTÁ POR VIR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "JESUS VIRÁ OUTRA VEZ AQUI\nJESUS VIRÁ, JESUS VIRÁ\nMAIS OUTRA VEZ AQUI\nPOR ISSO TODOS JUNTOS \nEM UM SÓ LOUVOR CANTEMOS\nCANTEMOS TODOS \nELE É O NOSSO SENHOR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "ELE VEIO AO MUNDO \nPRA SER MÁRTIR DA PAZ\nELE FOI TENTADO \nE NÃO PECOU JAMAIS\nA SUA VIDA \nFOI UM EXEMPLO DE AMOR\nPOR ISSO EU CANTO \nELE É O NOSSO SENHOR",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

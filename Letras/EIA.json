@@ -1,0 +1,71 @@
+{
+  "id": 1582748875834,
+  "title": "EIA",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "EIA, LEVANTE A CABEÇA\nNÃO TEMAS NÃO ESMOREÇA\nSUBAMOS PARA CONQUISTAR\n\nEIA, NÃO SE ATEMORIZE\nDIANTE DOS PROBLEMAS\nMAIOR É O QUE CONOSCO ESTÁ\n\nEIA, ACREDITE NÃO DUVIDE\nVOCÊ PODE OS SEUS LIMITES\nCOM SUA FÉ ULTRAPASSAR\n\nCREIA, QUE AS PROMESSAS DESSA BÍBLIA\nNÃO SÃO PALAVRAS DE HOMEM\nMAS DE UM DEUS QUE VIVO ESTÁ\n\nEIA, ACREDITE EM VOCÊ\nESSE DEUS TE FAZ VENCER\nELE TE FAZ CONQUISTAR",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "EIA, LEVANTE A CABEÇA\nNÃO TEMAS NÃO ESMOREÇA\nSUBAMOS PARA CONQUISTAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "EIA, NÃO SE ATEMORIZE\nDIANTE DOS PROBLEMAS\nMAIOR É O QUE CONOSCO ESTÁ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "EIA, ACREDITE NÃO DUVIDE\nVOCÊ PODE OS SEUS LIMITES\nCOM SUA FÉ ULTRAPASSAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "CREIA, QUE AS PROMESSAS DESSA BÍBLIA\nNÃO SÃO PALAVRAS DE HOMEM\nMAS DE UM DEUS QUE VIVO ESTÁ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "EIA, ACREDITE EM VOCÊ\nESSE DEUS TE FAZ VENCER\nELE TE FAZ CONQUISTAR",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

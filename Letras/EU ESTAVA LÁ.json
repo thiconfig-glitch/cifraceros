@@ -1,0 +1,57 @@
+{
+  "id": 1582748875935,
+  "title": "EU ESTAVA LÁ",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "LEMBRA AQUELE DIA QUE VOCÊ PENSOU EM DESISTIR?\nEU ESTAVA LÁ\nLEMBRA AQUELE DIA QUE VOCÊ DISSE\n“PAI, EU NÃO VOU CONSEGUIR”EU ESTAVA LÁ\n\nVOCÊ NEM VIU\nMAS EU SEGUREI SUAS MÃOS\nPRA NÃO TE DEIXAR CAIR\nVOCÊ NEM SENTIU\nMAS TE CARREGUEI NOS BRAÇOS E TROUXE ATÉ AQUI\n\nFILHO, EU NÃO VOU TE DEIXAR JAMAIS\nFILHO, EU NÃO VOU TE DEIXAR JAMAIS\nFILHO, EU NÃO VOU TE DEIXAR JAMAIS\nEU SOU TEU DEUS, EU SOU TEU PAI",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "LEMBRA AQUELE DIA QUE VOCÊ PENSOU EM DESISTIR?\nEU ESTAVA LÁ\nLEMBRA AQUELE DIA QUE VOCÊ DISSE\n“PAI, EU NÃO VOU CONSEGUIR”EU ESTAVA LÁ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "VOCÊ NEM VIU\nMAS EU SEGUREI SUAS MÃOS\nPRA NÃO TE DEIXAR CAIR\nVOCÊ NEM SENTIU\nMAS TE CARREGUEI NOS BRAÇOS E TROUXE ATÉ AQUI",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "FILHO, EU NÃO VOU TE DEIXAR JAMAIS\nFILHO, EU NÃO VOU TE DEIXAR JAMAIS\nFILHO, EU NÃO VOU TE DEIXAR JAMAIS\nEU SOU TEU DEUS, EU SOU TEU PAI",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

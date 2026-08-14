@@ -1,0 +1,50 @@
+{
+  "id": 1582748875853,
+  "title": "enche a minha vida",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "ESPÍRITO, ENCHE MINHA VIDA\nENCHE-ME DO TEU PODER\nPOIS DE TI EU QUERO SER\nESPÍRITO, ENCHE O MEU SER\n\nAS MINHAS MÃOS EU QUERO LEVANTAR\nE EM LOUVOR TE ADORAR\nMEU CORAÇÃO EU QUERO DERRAMAR\nDIANTE DO TEU ALTAR",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "ESPÍRITO, ENCHE MINHA VIDA\nENCHE-ME DO TEU PODER\nPOIS DE TI EU QUERO SER\nESPÍRITO, ENCHE O MEU SER",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "AS MINHAS MÃOS EU QUERO LEVANTAR\nE EM LOUVOR TE ADORAR\nMEU CORAÇÃO EU QUERO DERRAMAR\nDIANTE DO TEU ALTAR",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

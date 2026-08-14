@@ -1,0 +1,57 @@
+{
+  "id": 1582748875884,
+  "title": "DEUS NAO FALHA",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "SE A VIDA QUE VOCÊ ESTÁ VIVENDO AGORA\nNÃO É AQUELA QUE UM DIA TANTO DESEJOU\nSE ATÉ AQUI PRA VOCÊ NADA DEU CERTO\nNÃO SE DESESPERE, JESUS CRISTO É O SENHOR\n\nO NOSSO DEUS NUNCA FALHOU\nE AS PROMESSAS QUE ELE FEZ ESTÃO DE PÉ\nEU SEI QUE O SEU NOME É JESUS\nDETERMINE A VITÓRIA\nNESTE MOMENTO NESTA HORA\nPELA SUA FÉ\n\nEU CONHEÇO UM GRANDE DEUS\nE O PODER QUE ELE TEM\nO QUE ELE FEZ POR MIM\nFARÁ POR VOCÊ TAMBÉM\nÉ SÓ PEDIR COM FÉ E NELE CONFIAR\nQUE A RESPOSTA COM CERTEZA VAI CHEGAR",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "SE A VIDA QUE VOCÊ ESTÁ VIVENDO AGORA\nNÃO É AQUELA QUE UM DIA TANTO DESEJOU\nSE ATÉ AQUI PRA VOCÊ NADA DEU CERTO\nNÃO SE DESESPERE, JESUS CRISTO É O SENHOR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "O NOSSO DEUS NUNCA FALHOU\nE AS PROMESSAS QUE ELE FEZ ESTÃO DE PÉ\nEU SEI QUE O SEU NOME É JESUS\nDETERMINE A VITÓRIA\nNESTE MOMENTO NESTA HORA\nPELA SUA FÉ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "EU CONHEÇO UM GRANDE DEUS\nE O PODER QUE ELE TEM\nO QUE ELE FEZ POR MIM\nFARÁ POR VOCÊ TAMBÉM\nÉ SÓ PEDIR COM FÉ E NELE CONFIAR\nQUE A RESPOSTA COM CERTEZA VAI CHEGAR",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

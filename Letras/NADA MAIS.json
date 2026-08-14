@@ -1,0 +1,92 @@
+{
+  "id": 1582748875956,
+  "title": "NADA MAIS",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "ENVOLTO EM TUA PRESENÇA\nQUERO ME SENTAR AQUI AOS TEUS PÉS \nENVOLTO NESTE SANTO LUGAR\nNÃO QUERO MAIS SAIR\n\nNÃO VIM POR TUAS BÊNÇÃOS\nTU NÃO DEVES NADA PARA MIM\nMAIS DO QUE TU PODES ME PROVER\nJESUS EU QUERO A TI\n\nPERDOA, QUANDO FIZ TUDO NO AUTOMÁTICO\nPERDOA, QUANDO PRA TI ME FIZ CANSADO\nQUERO VOLTAR LÁ NO COMEÇO\nABRO O MEU CORAÇÃO A TI\n\nPERDOA, QUANDO VIM COM EXIGÊNCIAS\nPERDOA, QUANDO ESQUECI QUE TU ME BASTAS\nQUERO VOLTAR LÁ NO COMEÇO\nABRO O MEU CORAÇÃO A TI\n\nENVOLTO EM TUA PRESENÇA\nQUERO ME SENTAR AQUI AOS TEUS PÉS \nENVOLTO NESTE SANTO LUGAR\nNÃO QUERO MAIS SAIR\n\nNÃO VIM POR TUAS BÊNÇÃOS\nTU NÃO DEVES NADA PARA MIM\nMAIS DO QUE TU PODES ME PROVER\nJESUS EU QUERO A TI\n\nEU QUERO A TI\nNADA MAIS, NADA MAIS\nNADA MAIS AQUI\n\nSÓ QUERO A TI\nNADA MAIS, NADA MAIS\nNADA MAIS AQUI",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "ENVOLTO EM TUA PRESENÇA\nQUERO ME SENTAR AQUI AOS TEUS PÉS \nENVOLTO NESTE SANTO LUGAR\nNÃO QUERO MAIS SAIR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "NÃO VIM POR TUAS BÊNÇÃOS\nTU NÃO DEVES NADA PARA MIM\nMAIS DO QUE TU PODES ME PROVER\nJESUS EU QUERO A TI",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "PERDOA, QUANDO FIZ TUDO NO AUTOMÁTICO\nPERDOA, QUANDO PRA TI ME FIZ CANSADO\nQUERO VOLTAR LÁ NO COMEÇO\nABRO O MEU CORAÇÃO A TI",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "PERDOA, QUANDO VIM COM EXIGÊNCIAS\nPERDOA, QUANDO ESQUECI QUE TU ME BASTAS\nQUERO VOLTAR LÁ NO COMEÇO\nABRO O MEU CORAÇÃO A TI",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "ENVOLTO EM TUA PRESENÇA\nQUERO ME SENTAR AQUI AOS TEUS PÉS \nENVOLTO NESTE SANTO LUGAR\nNÃO QUERO MAIS SAIR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "NÃO VIM POR TUAS BÊNÇÃOS\nTU NÃO DEVES NADA PARA MIM\nMAIS DO QUE TU PODES ME PROVER\nJESUS EU QUERO A TI",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "EU QUERO A TI\nNADA MAIS, NADA MAIS\nNADA MAIS AQUI",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": "SÓ QUERO A TI\nNADA MAIS, NADA MAIS\nNADA MAIS AQUI",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

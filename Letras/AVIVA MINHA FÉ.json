@@ -1,0 +1,64 @@
+{
+  "id": 1582748875723,
+  "title": "AVIVA MINHA FÉ",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Aviva esta fé que eu tenho em mim, senhor\nFaz crescer a confiança que tenho em ti\nEu quero ter a fé pra remover montanhas\nEu quero ter a fé \nem coisas que ainda não vi\n\nMe dá o coração de um vencedor\nQue chegue até a ti o meu clamor\nResponda-me estendendo a tua mão\nE que não seja simples emoção\n\nCom a fé eu tenho a força de um leão\nCom a fé eu tenho um puro coração\n\nA fé é o que eu mais quero ter\nA fé de transformar qualquer situação\nOh ! vem me levantar\nsenhor me faz vencer\nContigo serei sempre campeão",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Aviva esta fé que eu tenho em mim, senhor\nFaz crescer a confiança que tenho em ti\nEu quero ter a fé pra remover montanhas\nEu quero ter a fé \nem coisas que ainda não vi",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Me dá o coração de um vencedor\nQue chegue até a ti o meu clamor\nResponda-me estendendo a tua mão\nE que não seja simples emoção",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Com a fé eu tenho a força de um leão\nCom a fé eu tenho um puro coração",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "A fé é o que eu mais quero ter\nA fé de transformar qualquer situação\nOh ! vem me levantar\nsenhor me faz vencer\nContigo serei sempre campeão",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

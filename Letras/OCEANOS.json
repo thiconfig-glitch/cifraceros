@@ -1,0 +1,78 @@
+{
+  "id": 1582748875513,
+  "title": "OCEANOS",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "TUA VOZ ME CHAMA SOBRE AS ÁGUAS\nONDE OS MEUS PÉS \nPODEM FALHAR\n \nE ALI TE ENCONTRO pela fé\nEM MEIO AO MAR, CONFIAREI\n\nAO TEU NOME CLAMAREI\nE ALÉM DAS ONDAS OLHAREI\nSE O MAR CRESCER\nSOMENTE EM TI CONFIAREI\nPOIS EU SOU TEU E TU ÉS MEU\n\nTUA VOZ COBRE OS MEUS TEMORES\nTUA FORTE MÃO ME GUIARÁ\n \nSE ESTOU CERCADO PELO MEDO\nTU ÉS FIEL, NUNCA VAIS FALHAR\n\nAO TEU NOME CLAMAREI\nE ALÉM DAS ONDAS OLHAREI\nSE O MAR CRESCER\nSOMENTE EM TI CONFIAREI\nPOIS EU SOU TEU E TU ÉS MEU\n\nGUIA-ME \nPRA QUE EM TUDO EM TI CONFIE\nSOBRE AS ÁGUAS EU CAMINHE\nPOR ONDE QUER QUE CHAMES\n\n\nGUIA-ME\nCOM TUA VOZ Ó ALTÍSSIMO\nE A MINHA FÉ SERÁ MAIS FIRME\nSENHOR, EM TUA PRESENÇA!",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "TUA VOZ ME CHAMA SOBRE AS ÁGUAS\nONDE OS MEUS PÉS \nPODEM FALHAR\n \nE ALI TE ENCONTRO pela fé\nEM MEIO AO MAR, CONFIAREI",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "AO TEU NOME CLAMAREI\nE ALÉM DAS ONDAS OLHAREI\nSE O MAR CRESCER\nSOMENTE EM TI CONFIAREI\nPOIS EU SOU TEU E TU ÉS MEU",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "TUA VOZ COBRE OS MEUS TEMORES\nTUA FORTE MÃO ME GUIARÁ\n \nSE ESTOU CERCADO PELO MEDO\nTU ÉS FIEL, NUNCA VAIS FALHAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "AO TEU NOME CLAMAREI\nE ALÉM DAS ONDAS OLHAREI\nSE O MAR CRESCER\nSOMENTE EM TI CONFIAREI\nPOIS EU SOU TEU E TU ÉS MEU",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "GUIA-ME \nPRA QUE EM TUDO EM TI CONFIE\nSOBRE AS ÁGUAS EU CAMINHE\nPOR ONDE QUER QUE CHAMES",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "\nGUIA-ME\nCOM TUA VOZ Ó ALTÍSSIMO\nE A MINHA FÉ SERÁ MAIS FIRME\nSENHOR, EM TUA PRESENÇA!",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

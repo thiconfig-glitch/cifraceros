@@ -1,0 +1,64 @@
+{
+  "id": 1658356537759,
+  "title": "O Lamento de Israel",
+  "artist": "Sérgio Lopes",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Quando em cativeiro \nTe levaram de Sião\nE os teus sacerdotes \nPrantearam de aflição\nFoi como morrer de vergonha e dor\nCaminhava triste \nO povo forte do Senhor\n\nAh! Jerusalém \nPor que deixaste de adorar\nO Deus vivo \nQue em tantas batalhas te ajudou?\nChora, Israel num lamento só\nTalvez Deus se lembre do bichinho de Jacó!\n\nChora, Israel!\nBabilônia não é teu lugar\nClama ao teu Deus e Ele te ouvirá\nDo inimigo te libertará\n\nChora, Israel!\nBabilônia não é teu lugar\nClama ao teu Deus e Ele te ouvirá\nDo inimigo te libertará",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Quando em cativeiro \nTe levaram de Sião\nE os teus sacerdotes \nPrantearam de aflição\nFoi como morrer de vergonha e dor\nCaminhava triste \nO povo forte do Senhor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Ah! Jerusalém \nPor que deixaste de adorar\nO Deus vivo \nQue em tantas batalhas te ajudou?\nChora, Israel num lamento só\nTalvez Deus se lembre do bichinho de Jacó!",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Chora, Israel!\nBabilônia não é teu lugar\nClama ao teu Deus e Ele te ouvirá\nDo inimigo te libertará",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Chora, Israel!\nBabilônia não é teu lugar\nClama ao teu Deus e Ele te ouvirá\nDo inimigo te libertará",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

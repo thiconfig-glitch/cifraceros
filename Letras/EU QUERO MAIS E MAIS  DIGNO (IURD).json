@@ -1,0 +1,64 @@
+{
+  "id": 1747262691231,
+  "title": "EU QUERO MAIS E MAIS / DIGNO",
+  "artist": "IURD",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Eu quero mais e mais de Cristo\nEu quero mais do seu poder\nEu quero mais da sua presença\nEu quero mais do seu viver\n\nDigno, oh digno es Jesus\nDigno de louvor e adoração e poder\nDigno, oh digno es Jesus\nDigno de louvor e adoração e poder\n\nDesperta o meu ser, para amar- te o Jesus\nDesperta o meu ser, para derrama-lo diante de ti\nFaz me entender\nO teu amor por mim\nE assim amar- te mais\nFluindo de um coração rendido a ti\n\nO grande amor, do senhor nunca cessa\nSuas misericórdias, não chegam ao fim\nSe renovam todo dia, a cada manhã\nFiel e grande es tu senhor",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Eu quero mais e mais de Cristo\nEu quero mais do seu poder\nEu quero mais da sua presença\nEu quero mais do seu viver",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Digno, oh digno es Jesus\nDigno de louvor e adoração e poder\nDigno, oh digno es Jesus\nDigno de louvor e adoração e poder",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Desperta o meu ser, para amar- te o Jesus\nDesperta o meu ser, para derrama-lo diante de ti\nFaz me entender\nO teu amor por mim\nE assim amar- te mais\nFluindo de um coração rendido a ti",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "O grande amor, do senhor nunca cessa\nSuas misericórdias, não chegam ao fim\nSe renovam todo dia, a cada manhã\nFiel e grande es tu senhor",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "https://open.spotify.com/track/05NhFceVdp2OoPQZPkCIyJ",
+      "youtube": "",
+      "deezer": "https://deezer.com/track/539854662"
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

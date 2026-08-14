@@ -1,0 +1,106 @@
+{
+  "id": 1599070160586,
+  "title": "Folha Seca",
+  "artist": "Mara Maravilha",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Eu não aguento mais\nPassar as noites sem \nsaber o que vai ser\nDo novo dia quando \n\nele amanhecer\nQuase sem vida já \nnão tenho mais prazer\n\nEu não aguento mais\nViver num mundo desprezado \ne sem amor\nPor isso eu vim aqui \ne peço ó Senhor\nReceba a vida deste pobre pecador\n\nÓ Deus estou aqui\nPois me disseram que \nTu és o Deus da paz\nEntão me ajuda,\n\npois eu já sofri demais\nO meu tormento \nparece não ter mais fim\n\nComo uma folha seca \narrastada pelo vento\nAbandonado estou no \nmundo sem alento\n\nDesesperado estou então,\nvenha curar meu coração\nJá não suporto mais \na dor da solidão\n\nComo uma folha seca \narrastada pelo vento\nAbandonado estou no \nmundo sem alento\nDesesperado estou então,\nvenha curar meu coração\nJá não suporto mais \na dor da solidão\n\nÓ Deus estou aqui\nPois me disseram \nque Tu és o Deus da paz\nEntão me ajuda,\npois eu já sofri demais\nO meu tormento \nparece não ter mais fim\n\nComo uma folha seca \narrastada pelo vento\nAbandonado estou no\nmundo sem alento\nDesesperado estou então,\nvenha curar meu coração\nJá não suporto mais \na dor da solidão",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Eu não aguento mais\nPassar as noites sem \nsaber o que vai ser\nDo novo dia quando ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "ele amanhecer\nQuase sem vida já \nnão tenho mais prazer",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Eu não aguento mais\nViver num mundo desprezado \ne sem amor\nPor isso eu vim aqui \ne peço ó Senhor\nReceba a vida deste pobre pecador",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Ó Deus estou aqui\nPois me disseram que \nTu és o Deus da paz\nEntão me ajuda,",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "pois eu já sofri demais\nO meu tormento \nparece não ter mais fim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Como uma folha seca \narrastada pelo vento\nAbandonado estou no \nmundo sem alento",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Desesperado estou então,\nvenha curar meu coração\nJá não suporto mais \na dor da solidão",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": "Como uma folha seca \narrastada pelo vento\nAbandonado estou no \nmundo sem alento\nDesesperado estou então,\nvenha curar meu coração\nJá não suporto mais \na dor da solidão",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 9,
+        "description": "",
+        "text": "Ó Deus estou aqui\nPois me disseram \nque Tu és o Deus da paz\nEntão me ajuda,\npois eu já sofri demais\nO meu tormento \nparece não ter mais fim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 10,
+        "description": "",
+        "text": "Como uma folha seca \narrastada pelo vento\nAbandonado estou no\nmundo sem alento\nDesesperado estou então,\nvenha curar meu coração\nJá não suporto mais \na dor da solidão",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": 1747866135695,
+  "title": "Eu só quero adorar ",
+  "artist": "bp.Wagner",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Eu não sei o que Ele viu em mim\nNão entendo por que me amou\nEu não sou o que devia ser\nMesmo assim, Ele me abraçou\n\nSou pequeno, Ele, tão grande é\nEu sou falho, Ele é fiel\nO que eu deveria era morrer\nMas Ele me prometeu o céu\n\nEu só quero entregar, por isso estou aqui\nE se eu não entregar, falta algo em mim\nEu jamais saberei por que me escolheu\nMas de uma coisa eu sei\nTudo que eu tenho ELE ME DEU",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Eu não sei o que Ele viu em mim\nNão entendo por que me amou\nEu não sou o que devia ser\nMesmo assim, Ele me abraçou",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Sou pequeno, Ele, tão grande é\nEu sou falho, Ele é fiel\nO que eu deveria era morrer\nMas Ele me prometeu o céu",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Eu só quero entregar, por isso estou aqui\nE se eu não entregar, falta algo em mim\nEu jamais saberei por que me escolheu\nMas de uma coisa eu sei\nTudo que eu tenho ELE ME DEU",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "https://open.spotify.com/track/05NhFceVdp2OoPQZPkCIyJ",
+      "youtube": "",
+      "deezer": "https://deezer.com/track/539854662"
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

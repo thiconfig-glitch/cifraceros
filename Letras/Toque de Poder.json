@@ -1,0 +1,50 @@
+{
+  "id": 1582748876031,
+  "title": "Toque de Poder",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "VEM ESPÍRITO SANTO\nVEM INUNDAR MEU SER\nVEM ESPÍRITO DE AMOR\nVEM SER MEU CONSOLADOR\nVEM ESPÍRITO, VEM ESPÍRITO\n\nINSPIRA O MEU VIVER\nCOM TEU TOQUE DE PODER\nVEM AGORA LIBERTAR\nEM MIM HABITAR\nALÍVIO E REFÚGIO ÉS PARA MIM",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "VEM ESPÍRITO SANTO\nVEM INUNDAR MEU SER\nVEM ESPÍRITO DE AMOR\nVEM SER MEU CONSOLADOR\nVEM ESPÍRITO, VEM ESPÍRITO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "INSPIRA O MEU VIVER\nCOM TEU TOQUE DE PODER\nVEM AGORA LIBERTAR\nEM MIM HABITAR\nALÍVIO E REFÚGIO ÉS PARA MIM",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

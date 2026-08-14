@@ -1,0 +1,71 @@
+{
+  "id": 1700951176318,
+  "title": "No poder da Tua presença",
+  "artist": "",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "No poder da Tua presença\ncomo águia vou voar\nConfiando em Tua palavra\ncorrerei sem me cansar\nRenova minhas forças\nTeu amor me leva além, além\n\nConfio na promessa \nque jamais me deixará\nE o meu coração arde\npois ao meu lado Tu estás\nTua presença faz minh'alma transbordar\n\nSe sinto sede, és água fresca para mim\nTu és o pão da vida, me sacio em Ti\nNo Teu poder não há limites, Senhor\nE desde quando eu Te encontrei\nO céu pra mim já começou\n\nTe amo, perto de Ti é o meu lugar\nPra onde irei? \nEm Ti eu posso descansar\nPalavras de vida eterna tenho em Ti\nTua presença é tudo\nTua presença é o céu pra mim\n\nTua presença é tudo, Tua presença é tudo\nTua presença é o céu pra mim\nTua presença é tudo, Tua presença é tudo\nTua presença é o céu pra mim, Senhor",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "No poder da Tua presença\ncomo águia vou voar\nConfiando em Tua palavra\ncorrerei sem me cansar\nRenova minhas forças\nTeu amor me leva além, além",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Confio na promessa \nque jamais me deixará\nE o meu coração arde\npois ao meu lado Tu estás\nTua presença faz minh'alma transbordar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Se sinto sede, és água fresca para mim\nTu és o pão da vida, me sacio em Ti\nNo Teu poder não há limites, Senhor\nE desde quando eu Te encontrei\nO céu pra mim já começou",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Te amo, perto de Ti é o meu lugar\nPra onde irei? \nEm Ti eu posso descansar\nPalavras de vida eterna tenho em Ti\nTua presença é tudo\nTua presença é o céu pra mim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Tua presença é tudo, Tua presença é tudo\nTua presença é o céu pra mim\nTua presença é tudo, Tua presença é tudo\nTua presença é o céu pra mim, Senhor",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

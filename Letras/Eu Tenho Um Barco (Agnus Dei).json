@@ -1,0 +1,85 @@
+{
+  "id": 1588355746953,
+  "title": "Eu Tenho Um Barco",
+  "artist": "Agnus Dei",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Eu tenho um barco \nque navega sobre o mar\ne Jesus Cristo é o capitão\n \nEu tenho um barco \nque navega sobre o mar\ne Jesus Cristo é o capitão\n\nE os marinheiros \nque navegam ao Seu lado\nTem que ter lavado \no seu próprio coração\n \nE os marinheiros \nque navegam ao Seu lado\nTem que ter lavado \no seu próprio coração\n\nVem, vem, vem Espírito de Deus\nVem, vem, vem apossa Te de mim\n \nVem, vem, vem Espírito de Deus\nVem, vem, vem apossa Te de mim\n\nApodera -te, apodera - te\nApodera -te de todo o meu ser\nApodera -te, apodera - te\nApodera -te de todo o meu ser\n\nJerusalém, que bonita és\nRuas de ouro, mar de cristal\nJerusalém, que bonita és\nRuas de ouro, mar de cristal\n\nPor essas ruas essas ruas \nde ouro andarei\nRuas de ouro, mar de cristal\n \nPor essas ruas \nde ouro andarei\nRuas de ouro, mar de cristal\n\nApoder a  -te, apodera - te\nApodera -te de todo o meu ser\nApodera -te, apodera - te\nApodera -te de todo o meu ser",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Eu tenho um barco \nque navega sobre o mar\ne Jesus Cristo é o capitão\n \nEu tenho um barco \nque navega sobre o mar\ne Jesus Cristo é o capitão",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "E os marinheiros \nque navegam ao Seu lado\nTem que ter lavado \no seu próprio coração\n \nE os marinheiros \nque navegam ao Seu lado\nTem que ter lavado \no seu próprio coração",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Vem, vem, vem Espírito de Deus\nVem, vem, vem apossa Te de mim\n \nVem, vem, vem Espírito de Deus\nVem, vem, vem apossa Te de mim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Apodera -te, apodera - te\nApodera -te de todo o meu ser\nApodera -te, apodera - te\nApodera -te de todo o meu ser",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Jerusalém, que bonita és\nRuas de ouro, mar de cristal\nJerusalém, que bonita és\nRuas de ouro, mar de cristal",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Por essas ruas essas ruas \nde ouro andarei\nRuas de ouro, mar de cristal\n \nPor essas ruas \nde ouro andarei\nRuas de ouro, mar de cristal",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Apoder a  -te, apodera - te\nApodera -te de todo o meu ser\nApodera -te, apodera - te\nApodera -te de todo o meu ser",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

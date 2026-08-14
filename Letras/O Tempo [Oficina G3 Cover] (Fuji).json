@@ -1,0 +1,85 @@
+{
+  "id": 1614454429878,
+  "title": "O Tempo [Oficina G3 Cover]",
+  "artist": "Fuji",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "O vento toca o meu rosto, \nme lembrando que o tempo vai com ele\nLevando em suas asas os meus\n dias dessa vida passageira\nMinhas certezas meus conceitos\n minhas virtudes meus defeitos\nNada pode detê-lo\n\nO tempo se vai mas algo \neu sempre guardarei,\nO teu amor que um dia eu encontrei\n\nRefrão\n\nOs meus sonhos o vento não pode levar,\n e a esperança encontrei no teu olhar\nOs meus sonhos a areia não vai enterrar,\nporque a vida recebi ao te encontrar\n\nNos seus braços não importa \no tempo só existe o momento de sonhar\nE o medo que está sempre a porta, \nquando estou com você ele não pode entrar\n\nAhh , ahh , ahh...\n\nOs meus sonhos o vento não pode levar,\n e a esperança encontrei no teu olhar\nOs meus sonhos a areia não vai enterrar,\nporque a vida recebi ao te encontrar",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "O vento toca o meu rosto, \nme lembrando que o tempo vai com ele\nLevando em suas asas os meus\n dias dessa vida passageira\nMinhas certezas meus conceitos\n minhas virtudes meus defeitos\nNada pode detê-lo",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "O tempo se vai mas algo \neu sempre guardarei,\nO teu amor que um dia eu encontrei",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Refrão",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Os meus sonhos o vento não pode levar,\n e a esperança encontrei no teu olhar\nOs meus sonhos a areia não vai enterrar,\nporque a vida recebi ao te encontrar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Nos seus braços não importa \no tempo só existe o momento de sonhar\nE o medo que está sempre a porta, \nquando estou com você ele não pode entrar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Ahh , ahh , ahh...",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Os meus sonhos o vento não pode levar,\n e a esperança encontrei no teu olhar\nOs meus sonhos a areia não vai enterrar,\nporque a vida recebi ao te encontrar",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

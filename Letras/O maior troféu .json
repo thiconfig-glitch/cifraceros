@@ -1,0 +1,71 @@
+{
+  "id": 1692422605268,
+  "title": "O maior troféu ",
+  "artist": "",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Não vou me importar com o que o mundo diz\nO importante é o que o meu Deus pensa de mim\nA minha vida está, guardada no Senhor\nMe lembro muito bem de onde Ele me tirou\n\nUm projeto falido, que Ele investiu\nA construção da minha história, Ele assumiu\nNa galeria dos vencedores\nReservou pra mim um lugar\nVitórias e conquistas me fez alcançar\n\nMas o meu troféu será lá no Céu, O abraçar\nNo resumo da minha história, O encontrar\n\nO maior troféu é no livro da vida\nSaber que o meu nome está escrito lá\nE quando os portais da glória se abrirem\nTer a certeza que Deus irá me chamar\n\nO maior troféu é saber que um dia\nNo coral celeste eu irei cantar\nNa eternidade será só o começo\nQuando o meu mestre eu abraçar",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Não vou me importar com o que o mundo diz\nO importante é o que o meu Deus pensa de mim\nA minha vida está, guardada no Senhor\nMe lembro muito bem de onde Ele me tirou",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Um projeto falido, que Ele investiu\nA construção da minha história, Ele assumiu\nNa galeria dos vencedores\nReservou pra mim um lugar\nVitórias e conquistas me fez alcançar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Mas o meu troféu será lá no Céu, O abraçar\nNo resumo da minha história, O encontrar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "O maior troféu é no livro da vida\nSaber que o meu nome está escrito lá\nE quando os portais da glória se abrirem\nTer a certeza que Deus irá me chamar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "O maior troféu é saber que um dia\nNo coral celeste eu irei cantar\nNa eternidade será só o começo\nQuando o meu mestre eu abraçar",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

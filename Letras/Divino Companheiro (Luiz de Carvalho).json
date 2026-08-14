@@ -1,0 +1,64 @@
+{
+  "id": 1620589529790,
+  "title": "Divino Companheiro",
+  "artist": "Luiz de Carvalho",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Divino companheiro no caminho\nTua presença sinto logo ao transitar\nVINDO, dissipaste toda sombra\nJá tenho luz a luz bendita do amor\n\nFica, Senhor, já se faz tarde\nTens meu coração para pousar\nFaz em mim morada permanente\nFica, Senhor, fica Senhor\nmeu Salvador\n\nA sombra da noite se aproxima\nE nela o tentador vai chegar\nNão, não me deixes só no caminho\nAjuda-me, ajuda-me, até chegar\n\nFica, Senhor, já se faz tarde\nTens meu coração para pousar\nFaz em mim morada permanente\nFica, Senhor, fica Senhor, meu Salvador",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Divino companheiro no caminho\nTua presença sinto logo ao transitar\nVINDO, dissipaste toda sombra\nJá tenho luz a luz bendita do amor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Fica, Senhor, já se faz tarde\nTens meu coração para pousar\nFaz em mim morada permanente\nFica, Senhor, fica Senhor\nmeu Salvador",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "A sombra da noite se aproxima\nE nela o tentador vai chegar\nNão, não me deixes só no caminho\nAjuda-me, ajuda-me, até chegar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Fica, Senhor, já se faz tarde\nTens meu coração para pousar\nFaz em mim morada permanente\nFica, Senhor, fica Senhor, meu Salvador",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

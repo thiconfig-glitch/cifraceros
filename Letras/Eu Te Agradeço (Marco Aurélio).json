@@ -1,0 +1,92 @@
+{
+  "id": 1604696579217,
+  "title": "Eu Te Agradeço",
+  "artist": "Marco Aurélio",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Pelas vezes em que eu me perdi\nE o Senhor me achou\nPelos erros que eu cometi\nE o Senhor perdoou\n\nPelas vezes que me entristeci\nE o Senhor me alegrou\nPelas lágrimas que derramei\nE o Senhor enxugou\nEu Te agradeço\n\nPelas vezes que me enfureci\nE o senhor me acalmou\nPelas vezes em eu que Te ofendi\nE o Senhor relevou\n\nNos momentos em eu que me afastei\nE o Senhor me encontrou\nPelas vezes que eu quase cai\nE o Senhor me salvou\nEu Te agradeço\n\nEu Te agradeço por esta chance\nDe ir em frente, de ser feliz\nHumildemente, eu te agradeço\nPor estar vivo, por existir\n\nEu Te agradeço por ter certeza\nQue a liberdade pode existir\nEu Te agradeço pela esperança\nQue me dá forças de prosseguir\n\nHumildemente eu te agradeço\nPor estar vivo por existir\nEu Te agradeço pela esperança\nQue me dá forças de prosseguir\n\nPor vir comigo no meu caminho\nE neste instante estar aqui\nHumildemente eu te agradeço\nPor estar vivo, por existir",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Pelas vezes em que eu me perdi\nE o Senhor me achou\nPelos erros que eu cometi\nE o Senhor perdoou",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Pelas vezes que me entristeci\nE o Senhor me alegrou\nPelas lágrimas que derramei\nE o Senhor enxugou\nEu Te agradeço",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Pelas vezes que me enfureci\nE o senhor me acalmou\nPelas vezes em eu que Te ofendi\nE o Senhor relevou",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Nos momentos em eu que me afastei\nE o Senhor me encontrou\nPelas vezes que eu quase cai\nE o Senhor me salvou\nEu Te agradeço",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Eu Te agradeço por esta chance\nDe ir em frente, de ser feliz\nHumildemente, eu te agradeço\nPor estar vivo, por existir",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Eu Te agradeço por ter certeza\nQue a liberdade pode existir\nEu Te agradeço pela esperança\nQue me dá forças de prosseguir",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Humildemente eu te agradeço\nPor estar vivo por existir\nEu Te agradeço pela esperança\nQue me dá forças de prosseguir",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": "Por vir comigo no meu caminho\nE neste instante estar aqui\nHumildemente eu te agradeço\nPor estar vivo, por existir",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

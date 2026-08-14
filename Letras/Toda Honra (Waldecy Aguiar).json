@@ -1,0 +1,78 @@
+{
+  "id": 1710977161403,
+  "title": "Toda Honra",
+  "artist": "Waldecy Aguiar",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Toda honra, toda glória\nTodo louvor, a Tí Senhor\n\nEu Te agradeço Senhor\nPelo Seu tão grande amor\nEu Te agradeço Senhor\nPela Sua bondade infinita\n\nEu Te agradeço Senhor\nCom todas as forças da alma\nE eternamente eu Te louvarei\n\nEu não posso \nesquecer\nDos benefícios que \no Senhor nos fez\n\nMesmo porque, sem \nao menos eu merecer\nE é por isso Senhor\n\nQue eu te exalto na \npresença de todos\nE eternamente \neu te louvarei",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Toda honra, toda glória\nTodo louvor, a Tí Senhor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Eu Te agradeço Senhor\nPelo Seu tão grande amor\nEu Te agradeço Senhor\nPela Sua bondade infinita",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Eu Te agradeço Senhor\nCom todas as forças da alma\nE eternamente eu Te louvarei",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Eu não posso \nesquecer\nDos benefícios que \no Senhor nos fez",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Mesmo porque, sem \nao menos eu merecer\nE é por isso Senhor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Que eu te exalto na \npresença de todos\nE eternamente \neu te louvarei",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "https://open.spotify.com/track/2uRKOp8KDMlZytwrYa2t6h",
+      "youtube": "https://youtube.com/watch?v=rrY9lJZZ1mg",
+      "deezer": "https://deezer.com/track/1472881012"
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

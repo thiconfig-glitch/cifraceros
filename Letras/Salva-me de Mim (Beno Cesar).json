@@ -1,0 +1,71 @@
+{
+  "id": 1611184730509,
+  "title": "Salva-me de Mim",
+  "artist": "Beno Cesar",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Me salva Senhor de mim\nMe liberta do meu eu\nJá não quero ser igual\nTanta coisa de mim se perdeu\n\nO bem que eu quero fazer\nSenhor eu não faço\nO mal que eu não quero fazer\nEstá diante de mim\n\nQuando o homem \nque eu era diz não\nO homem que eu sou\n pela fé diz que sim\nTem misericórdia \nsalva-me de mim\n\nSenhor eu quero ter \num coração de criança\nNa tua presença\nE quando eu chorar \nlágrimas de gratidão\n\nÉ que morreu um velho \nhomem em mim\nE nasceu um novo coração",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Me salva Senhor de mim\nMe liberta do meu eu\nJá não quero ser igual\nTanta coisa de mim se perdeu",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "O bem que eu quero fazer\nSenhor eu não faço\nO mal que eu não quero fazer\nEstá diante de mim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Quando o homem \nque eu era diz não\nO homem que eu sou\n pela fé diz que sim\nTem misericórdia \nsalva-me de mim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Senhor eu quero ter \num coração de criança\nNa tua presença\nE quando eu chorar \nlágrimas de gratidão",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "É que morreu um velho \nhomem em mim\nE nasceu um novo coração",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

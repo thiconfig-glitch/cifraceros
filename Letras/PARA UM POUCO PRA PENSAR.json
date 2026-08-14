@@ -1,0 +1,71 @@
+{
+  "id": 1582748875642,
+  "title": "PARA UM POUCO PRA PENSAR",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "VOCÊ OUVE SEMPRE O SEU NOME\nSUA HISTÓRIA ALGUÉM JÁ LHE CONTOU\nVOCÊ VIU O FILME E ATÉ CHOROU\nMAS DEPOIS VOCÊ NÃO SE IMPORTOU\n\nVOCÊ JÁ CONHECE SUA VIDA\nCERTAMENTE ALGUÉM JÁ TE FALOU\nPOR QUE ELE SOFREU SOMENTE POR TE AMAR\nE VOCÊ NEM MESMO SE TOCOU\n\nMAS ELE É TÃO BOM\nQUE AINDA ESPERA POR VOCÊ\nPOR QUE NÃO PARA UM POUCO PRA PENSAR\nSÓ ELE TEM O AMOR E A PAZ QUE VOCÊ QUER\nABRE O CORAÇÃO E DEIXA CRISTO ENTRAR\n\nSEI QUE VOCÊ TEM MUITOS PROBLEMAS\nE SÓ ELE PODE AJUDAR\nVOCÊ SÓ PRECISA OUVIR O QUE ELE DIZ\nCOM CERTEZA TUDO VAI MUDAR\n\nVOCÊ JÁ OUVIU FALAR DE CRISTO\nMAS NÃO VIU AINDA SUA LUZ\nPRA PODER TAMBÉM PROVAR O SEU AMOR\nPRECISA TER UM ENCONTRO COM JESUS",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "VOCÊ OUVE SEMPRE O SEU NOME\nSUA HISTÓRIA ALGUÉM JÁ LHE CONTOU\nVOCÊ VIU O FILME E ATÉ CHOROU\nMAS DEPOIS VOCÊ NÃO SE IMPORTOU",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "VOCÊ JÁ CONHECE SUA VIDA\nCERTAMENTE ALGUÉM JÁ TE FALOU\nPOR QUE ELE SOFREU SOMENTE POR TE AMAR\nE VOCÊ NEM MESMO SE TOCOU",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "MAS ELE É TÃO BOM\nQUE AINDA ESPERA POR VOCÊ\nPOR QUE NÃO PARA UM POUCO PRA PENSAR\nSÓ ELE TEM O AMOR E A PAZ QUE VOCÊ QUER\nABRE O CORAÇÃO E DEIXA CRISTO ENTRAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "SEI QUE VOCÊ TEM MUITOS PROBLEMAS\nE SÓ ELE PODE AJUDAR\nVOCÊ SÓ PRECISA OUVIR O QUE ELE DIZ\nCOM CERTEZA TUDO VAI MUDAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "VOCÊ JÁ OUVIU FALAR DE CRISTO\nMAS NÃO VIU AINDA SUA LUZ\nPRA PODER TAMBÉM PROVAR O SEU AMOR\nPRECISA TER UM ENCONTRO COM JESUS",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

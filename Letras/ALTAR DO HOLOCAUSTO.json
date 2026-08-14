@@ -1,0 +1,71 @@
+{
+  "id": 1582748875787,
+  "title": "ALTAR DO HOLOCAUSTO",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "DE MADRUGADA ABRAÃO SE LEVANTOU\nTRÊS DIAS NO DESERTO CAMINHOU\nNINGUÉM SABIA O QUE ELE IA FAZER\nE O QUANTO LHE CUSTAVA OBEDECER\n\nGUIADO PELA FÉ, A VOZ DE DEUS\nPENSOU TORNAR EM CINZA OS SONHOS SEUS\nSUBIU O MONTE SANTO MORIÁ\nE PÔS O PRÓPRIO FILHO NO ALTAR\n\nE QUANDO ABRAÃO ERGUEU A MÃO\nTOCOU EM DEUS NO CÉU O CORAÇÃO\nE UM ANJO\nBRADOU EM ALTA VOZ\n\nDEUS PROVERÁ, DEUS PROVERÁ\nPRA QUEM LUTAR, SACRIFICAR\nDEUS PROVERÁ PRA QUEM SUBIR\nO MONTE MORIÁ\n\nDEUS PROVERÁ, DEUS PROVERÁ\nPRA QUEM LUTAR E MESMO EXAUSTO\nENTREGAR A PRÓPRIA VIDA\nNO ALTAR DO HOLOCAUSTO",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "DE MADRUGADA ABRAÃO SE LEVANTOU\nTRÊS DIAS NO DESERTO CAMINHOU\nNINGUÉM SABIA O QUE ELE IA FAZER\nE O QUANTO LHE CUSTAVA OBEDECER",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "GUIADO PELA FÉ, A VOZ DE DEUS\nPENSOU TORNAR EM CINZA OS SONHOS SEUS\nSUBIU O MONTE SANTO MORIÁ\nE PÔS O PRÓPRIO FILHO NO ALTAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "E QUANDO ABRAÃO ERGUEU A MÃO\nTOCOU EM DEUS NO CÉU O CORAÇÃO\nE UM ANJO\nBRADOU EM ALTA VOZ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "DEUS PROVERÁ, DEUS PROVERÁ\nPRA QUEM LUTAR, SACRIFICAR\nDEUS PROVERÁ PRA QUEM SUBIR\nO MONTE MORIÁ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "DEUS PROVERÁ, DEUS PROVERÁ\nPRA QUEM LUTAR E MESMO EXAUSTO\nENTREGAR A PRÓPRIA VIDA\nNO ALTAR DO HOLOCAUSTO",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

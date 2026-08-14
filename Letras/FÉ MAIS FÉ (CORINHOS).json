@@ -1,0 +1,57 @@
+{
+  "id": 1629908895580,
+  "title": "FÉ MAIS FÉ",
+  "artist": "CORINHOS",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "FÉ MAIS FÉ\nAMOR MAIS AMOR\nQUEM NÃO TEM PEÇA AO SALVADOR\nPOIS SEM FÉ E SEM AMOR\nNÃO PODE AGRADAR AO SENHOR\nFÉ MAIS FÉ\n\nO HOMEM QUE ANDOU NA GALILEIA\nCHAMA-SE JESUS DE NAZARÉ\nHOJE ESTÁ COMIGO\nRENOVA MINHA VIDA\nAUMENTA A CADA DIA MAIS\nA MINHA FÉ\n\nFÉ MAIS FÉ\nAMOR MAIS AMOR\nQUEM NÃO TEM PEÇA AO SALVADOR\nPOIS SEM FÉ E SEM AMOR\nNÃO PODE AGRADAR AO SENHOR",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "FÉ MAIS FÉ\nAMOR MAIS AMOR\nQUEM NÃO TEM PEÇA AO SALVADOR\nPOIS SEM FÉ E SEM AMOR\nNÃO PODE AGRADAR AO SENHOR\nFÉ MAIS FÉ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "O HOMEM QUE ANDOU NA GALILEIA\nCHAMA-SE JESUS DE NAZARÉ\nHOJE ESTÁ COMIGO\nRENOVA MINHA VIDA\nAUMENTA A CADA DIA MAIS\nA MINHA FÉ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "FÉ MAIS FÉ\nAMOR MAIS AMOR\nQUEM NÃO TEM PEÇA AO SALVADOR\nPOIS SEM FÉ E SEM AMOR\nNÃO PODE AGRADAR AO SENHOR",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

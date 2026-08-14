@@ -1,0 +1,141 @@
+{
+  "id": 1634822629957,
+  "title": "Preciso de Ti",
+  "artist": "Diante do Trono",
+  "author": "Ana Paula Valadão",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Preciso de Ti\nPreciso do Teu perdão\nPreciso de Ti\nQuebranta meu coração\n\nComo a corça\nAnseia por águas\nAssim tenho sede\n\nComo terra seca\nAssim é a minh'alma\nPreciso de Ti\n\nDistante de Ti, Senhor\nNão posso viver\nNão vale a pena existir\n\nEscuta o meu clamor\nMais que o ar que eu respiro\nPreciso de Ti\n\nNão posso esquecer\nO que fizeste por mim\nComo alto é o céu\nTua misericórdia é sem fim\n\nComo um pai\nSe compadece dos filhos\nAssim Tu me amas\n\nAfasta as minhas\nTransgressões\nPreciso de Ti\n\nDistante de Ti, Senhor\nNão posso viver\nNão vale a pena existir\n\nEscuta o meu clamor\nMais que o ar que eu respiro\nPreciso de Ti\n\nE as lutas vêm tentando\nMe afastar de Ti\nFrieza, escuridão\nProcuram me cegar\n\nMas eu não vou desistir\nAjuda-me Senhor\nEu quero permanecer\nContigo até o fim\n\nDistante de Ti, Senhor\nNão posso viver\nNão vale a pena existir\n\nEscuta o meu clamor\nMais que o ar que eu respiro\nPreciso de Ti\n\nPreciso de Ti",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Preciso de Ti\nPreciso do Teu perdão\nPreciso de Ti\nQuebranta meu coração",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Como a corça\nAnseia por águas\nAssim tenho sede",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Como terra seca\nAssim é a minh'alma\nPreciso de Ti",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Distante de Ti, Senhor\nNão posso viver\nNão vale a pena existir",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Escuta o meu clamor\nMais que o ar que eu respiro\nPreciso de Ti",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Não posso esquecer\nO que fizeste por mim\nComo alto é o céu\nTua misericórdia é sem fim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Como um pai\nSe compadece dos filhos\nAssim Tu me amas",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": "Afasta as minhas\nTransgressões\nPreciso de Ti",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 9,
+        "description": "",
+        "text": "Distante de Ti, Senhor\nNão posso viver\nNão vale a pena existir",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 10,
+        "description": "",
+        "text": "Escuta o meu clamor\nMais que o ar que eu respiro\nPreciso de Ti",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 11,
+        "description": "",
+        "text": "E as lutas vêm tentando\nMe afastar de Ti\nFrieza, escuridão\nProcuram me cegar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 12,
+        "description": "",
+        "text": "Mas eu não vou desistir\nAjuda-me Senhor\nEu quero permanecer\nContigo até o fim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 13,
+        "description": "",
+        "text": "Distante de Ti, Senhor\nNão posso viver\nNão vale a pena existir",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 14,
+        "description": "",
+        "text": "Escuta o meu clamor\nMais que o ar que eu respiro\nPreciso de Ti",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 15,
+        "description": "",
+        "text": "Preciso de Ti",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

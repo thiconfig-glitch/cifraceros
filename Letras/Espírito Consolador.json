@@ -1,0 +1,71 @@
+{
+  "id": 1643448526901,
+  "title": "Espírito Consolador",
+  "artist": "",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "É Ele o manancial \nno meio do deserto\nNas horas difíceis \nEle está bem perto\nPra sarar a nossa dor\n\nÉ Ele a brisa suave \nque nos acalma\nO guardião de nossas almas\nEspírito Consolador \n\nEspírito Meu Deus Consolador\nSopra sobre nós o Teu poder\nVem com a Tua Presença \nnos encher\nNão posso viver \naqui no mundo sem ti ter\n\nEspírito Meu Deus Consolador\nVenha como fogo sobre nós\nQueremos ouvir a Tua Voz\nDerrama a Tua Unção em meu viver\n\nEle é a direção\nEle é o abrigo\nÉ a fonte \nque não para de jorrar\nNa longa estrada \nEle vai comigo\nMe ajudando sempre \na caminhar",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "É Ele o manancial \nno meio do deserto\nNas horas difíceis \nEle está bem perto\nPra sarar a nossa dor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "É Ele a brisa suave \nque nos acalma\nO guardião de nossas almas\nEspírito Consolador ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Espírito Meu Deus Consolador\nSopra sobre nós o Teu poder\nVem com a Tua Presença \nnos encher\nNão posso viver \naqui no mundo sem ti ter",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Espírito Meu Deus Consolador\nVenha como fogo sobre nós\nQueremos ouvir a Tua Voz\nDerrama a Tua Unção em meu viver",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Ele é a direção\nEle é o abrigo\nÉ a fonte \nque não para de jorrar\nNa longa estrada \nEle vai comigo\nMe ajudando sempre \na caminhar",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": 1699099714825,
+  "title": "Eu Sei Que Não Estou Só",
+  "artist": "",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Senhor, por mais que eu fale\nQue eu não tenho medo de caminhar\nSinto uma insegurança, pois sou ser humano\nCom defeitos, imperfeito\n\nMas sei que os Teus olhos estão\nSobre mim, a me vigiar\nMas quero ouvir Tua voz me dizendo: \nNão temas, Sou contigo, só confia em mim\n\nEu sei que não estou só\nPois tenho Tua presença em mim\nEu sei que não estou só\nPosso até descansar,\nRepousar em Teus braços",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Senhor, por mais que eu fale\nQue eu não tenho medo de caminhar\nSinto uma insegurança, pois sou ser humano\nCom defeitos, imperfeito",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Mas sei que os Teus olhos estão\nSobre mim, a me vigiar\nMas quero ouvir Tua voz me dizendo: \nNão temas, Sou contigo, só confia em mim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Eu sei que não estou só\nPois tenho Tua presença em mim\nEu sei que não estou só\nPosso até descansar,\nRepousar em Teus braços",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

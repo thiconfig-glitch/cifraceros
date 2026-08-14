@@ -1,0 +1,99 @@
+{
+  "id": 1610286398380,
+  "title": "Coração A Coração",
+  "artist": "Marcelo Crivella",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Somos como a flor e a semente\nNinguém se ama como a gente\nSonho lindo de ternura e emoção\n\nSomos afluentes deste rio\nsomos ponta desse fio\nQue nos liga Coração a Coração\n\nTe amo tanto \ne cada vez te amo mais\nE do seu lado \neu encontro a minha paz\n\nQue seja eterno esse amor\nQue me pegou e me envolveu\nNo aconchego dos seus braços.\n\nQue seja eterno esse amor\nQue transformou \ne preencheu em minha vida\nCada espaço.\n\nSem você \nnão tem mais noites de luar\nO sol nasce sem brilhar\nE as estrelas não refletem luz no mar\n\nCom você tudo acontece\nAo mesmo tempo o sol, a lua,\no firmamento \nBrilham juntos \ncom a luz do teu olhar\n\nAntes de dormir\neu peço em minha oração\nPara Jesus guardar \nsempre a nossa união\n\nCada amanhecer\nEu quero ver você assim\nA cada dia eu gosto mais\nDe ter você perto de mim",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Somos como a flor e a semente\nNinguém se ama como a gente\nSonho lindo de ternura e emoção",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Somos afluentes deste rio\nsomos ponta desse fio\nQue nos liga Coração a Coração",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Te amo tanto \ne cada vez te amo mais\nE do seu lado \neu encontro a minha paz",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Que seja eterno esse amor\nQue me pegou e me envolveu\nNo aconchego dos seus braços.",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Que seja eterno esse amor\nQue transformou \ne preencheu em minha vida\nCada espaço.",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Sem você \nnão tem mais noites de luar\nO sol nasce sem brilhar\nE as estrelas não refletem luz no mar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Com você tudo acontece\nAo mesmo tempo o sol, a lua,\no firmamento \nBrilham juntos \ncom a luz do teu olhar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": "Antes de dormir\neu peço em minha oração\nPara Jesus guardar \nsempre a nossa união",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 9,
+        "description": "",
+        "text": "Cada amanhecer\nEu quero ver você assim\nA cada dia eu gosto mais\nDe ter você perto de mim",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

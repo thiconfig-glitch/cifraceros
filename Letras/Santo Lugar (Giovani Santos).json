@@ -1,0 +1,64 @@
+{
+  "id": 1607771892574,
+  "title": "Santo Lugar",
+  "artist": "Giovani Santos",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Este é um santo lugar\nEstamos num santo lugar\nPorque sabemos \nque o Senhor esta aqui\n\nLevantemos as mãos\nPois elas são santas mãos\nPorque sabemos \nque o Senhor esta aqui\n\nNós nos levantamos \nnum santo lugar\nPorque nos sabemos \nque anjos ao redor\n\nVamos adora-Lo, \nvamos louvar, Jesus agora\nVamos adora-Lo, vamos louva-Lo\nEle é o Grande Rei",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Este é um santo lugar\nEstamos num santo lugar\nPorque sabemos \nque o Senhor esta aqui",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Levantemos as mãos\nPois elas são santas mãos\nPorque sabemos \nque o Senhor esta aqui",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Nós nos levantamos \nnum santo lugar\nPorque nos sabemos \nque anjos ao redor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Vamos adora-Lo, \nvamos louvar, Jesus agora\nVamos adora-Lo, vamos louva-Lo\nEle é o Grande Rei",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

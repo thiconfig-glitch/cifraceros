@@ -1,0 +1,71 @@
+{
+  "id": 1606533858264,
+  "title": "Deixa de Caô",
+  "artist": "Banda Primicias",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Um dia encontrei a luz que \niluminou o meu caminho\nNão volto pro lado de lá\nTão só estava e triste caminhava \nsem ter um destino\nDifícil de imaginar\n\nE quem está em busca de um \nmotivo, eu dou\nMotivo pra sorrir, viver e cantar\n\nDeixa de caô\nVocê tem valor\nVem pra cá amigo\nCola comigo\n\nDescobrir o amor\nQue me transformou\nEsse é o caminho\nSegue comigo\n\nSegue comigo\n(Vem pra cá)\nSegue comigo\n(Vem pra cá)\nSegue comigo\n(Vem pra cá)\nSegue comigo",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Um dia encontrei a luz que \niluminou o meu caminho\nNão volto pro lado de lá\nTão só estava e triste caminhava \nsem ter um destino\nDifícil de imaginar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "E quem está em busca de um \nmotivo, eu dou\nMotivo pra sorrir, viver e cantar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Deixa de caô\nVocê tem valor\nVem pra cá amigo\nCola comigo",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Descobrir o amor\nQue me transformou\nEsse é o caminho\nSegue comigo",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Segue comigo\n(Vem pra cá)\nSegue comigo\n(Vem pra cá)\nSegue comigo\n(Vem pra cá)\nSegue comigo",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

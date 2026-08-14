@@ -1,0 +1,78 @@
+{
+  "id": 1582748875591,
+  "title": "O ESCUDO",
+  "artist": "",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "POR TODA A MINHA VIDA\nOH SENHOR, TE LOUVAREI\nPOIS MEU FÔLEGO É A TUA VIDA\nE NUNCA ME CANSAREI\n\nPOSSO OUVIR A TUA VOZ\nÉ MAIS DOCE DO QUE O MEL\nQUE ME TIRA DESTA COVA\nE ME LEVA ATÉ O CÉU\n\nJÁ VI FOGO E TERREMOTOS\nVENTO FORTE QUE PASSOU\nJÁ VIVI TANTOS PERIGOS\nMAS TUA VOZ ME ACALMOU\n\nTU DÁS ORDEM ÀS ESTRELAS\nE AO MAR, OS SEUS LIMITES\nEU ESTOU SEMPRE TÃO SEGURO\nNOS TEUS BRAÇOS , OH ALTÍSSIMO\n\nNÃO HÁ FERROLHOS, NEM PORTAS\nQUE SE FECHEM DIANTE DA TUA VOZ\nNÃO HÁ DOENÇAS, NEM CULPA\nQUE FIQUEM DE PÉ DIANTE DE NÓS\n\nE A TEMPESTADE SE ACALMA\nNA VOZ DAQUELE QUE TUDO CRIOU\nPOIS SUA PALAVRA É PURA\nESCUDO PARA OS QUE N’ELE CREEM",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "POR TODA A MINHA VIDA\nOH SENHOR, TE LOUVAREI\nPOIS MEU FÔLEGO É A TUA VIDA\nE NUNCA ME CANSAREI",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "POSSO OUVIR A TUA VOZ\nÉ MAIS DOCE DO QUE O MEL\nQUE ME TIRA DESTA COVA\nE ME LEVA ATÉ O CÉU",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "JÁ VI FOGO E TERREMOTOS\nVENTO FORTE QUE PASSOU\nJÁ VIVI TANTOS PERIGOS\nMAS TUA VOZ ME ACALMOU",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "TU DÁS ORDEM ÀS ESTRELAS\nE AO MAR, OS SEUS LIMITES\nEU ESTOU SEMPRE TÃO SEGURO\nNOS TEUS BRAÇOS , OH ALTÍSSIMO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "NÃO HÁ FERROLHOS, NEM PORTAS\nQUE SE FECHEM DIANTE DA TUA VOZ\nNÃO HÁ DOENÇAS, NEM CULPA\nQUE FIQUEM DE PÉ DIANTE DE NÓS",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "E A TEMPESTADE SE ACALMA\nNA VOZ DAQUELE QUE TUDO CRIOU\nPOIS SUA PALAVRA É PURA\nESCUDO PARA OS QUE N’ELE CREEM",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

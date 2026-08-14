@@ -1,0 +1,64 @@
+{
+  "id": 1598274564553,
+  "title": "Haja Luz",
+  "artist": "Banda Universos",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Quando tudo era escuridão\nE nada existia\nO Senhor já estava ali\n\nQuando olho para o céu\nE vejo o amanhecer\nE no fim de mais um dia\nVem o entardecer\nQuando ouço um pássaro cantar\nQuando olho para as flores\nOu para a imensidão do mar\nToda natureza se declara Ti\n\nO Senhor disse haja luz\nEntão O vi\nNa luz que brilha em mim\nO vi Na luz\nque abriu meu entender\nEm tudo O vejo\nNessa luz O vejo\n\nComo negar?\nComo não O ver em todas\nEssas maravilhas?\nComo não acreditar ?\nQue existe um Criador\nTão perfeito assim",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Quando tudo era escuridão\nE nada existia\nO Senhor já estava ali",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Quando olho para o céu\nE vejo o amanhecer\nE no fim de mais um dia\nVem o entardecer\nQuando ouço um pássaro cantar\nQuando olho para as flores\nOu para a imensidão do mar\nToda natureza se declara Ti",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "O Senhor disse haja luz\nEntão O vi\nNa luz que brilha em mim\nO vi Na luz\nque abriu meu entender\nEm tudo O vejo\nNessa luz O vejo",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Como negar?\nComo não O ver em todas\nEssas maravilhas?\nComo não acreditar ?\nQue existe um Criador\nTão perfeito assim",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

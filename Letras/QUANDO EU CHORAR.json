@@ -1,0 +1,99 @@
+{
+  "id": 1582748875846,
+  "title": "QUANDO EU CHORAR",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "1,3,4,1,3,4,4,9",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "DEUS, MEU DEUS\nTUDO ESTÁ TÃO DIFÍCIL PRA MIM\nDEUS, MEU DEUS\nMUITOS ME PERGUNTAM ONDE TU ESTÁS\n\nQUANDO EU CHORAR\n\nDENTRO DE MIM\nMINH'ALMA SE ABATEU\nMAS TUA MÃO, CONTUDO, ME ESCONDEU\nEM TUA PRESENÇA, OH DEUS\n\nQUANDO EU CHORAR, VOU ME LEMBRAR\nQUE ATÉ AQUI TUA MÃO ME SUSTENTOU\nDIGO À MINHA ALMA: ESPERA EM DEUS\nPOIS AINDA O LOUVAREI, EU O LOUVAREI\n\nDEUS, MEU DEUS\nTUDO ESTÁ TÃO DIFÍCIL PRA MIM\nDEUS, MEU DEUS\nMUITOS ME PERGUNTAM ONDE TU ESTÁS\n\nDENTRO DE MIM\nMINH'ALMA SE ABATEU\nMAS TUA MÃO, CONTUDO, ME ESCONDEU\nEM TUA PRESENÇA, OH DEUS\n\nQUANDO EU CHORAR, VOU ME LEMBRAR\nQUE ATÉ AQUI TUA MÃO ME SUSTENTOU\nDIGO À MINHA ALMA: ESPERA EM DEUS\nPOIS AINDA O LOUVAREI, EU O LOUVAREI\n\nQUANDO EU CHORAR, VOU ME LEMBRAR\nQUE ATÉ AQUI TUA MÃO ME SUSTENTOU\nDIGO À MINHA ALMA: ESPERA EM DEUS\nPOIS AINDA O LOUVAREI, EU O LOUVAREI\n\nEU TE LOUVAREI EM MEIO À PROVAÇÃO, EM MEIO ÀS LUTAS\nEU TE LOUVAREI, EU TE LOUVAREI, VENHA O QUE VIER\nEU TE LOUVAREI, EU TE LOUVAREI\nLOUVAREI TEU NOME, SENHOR",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "DEUS, MEU DEUS\nTUDO ESTÁ TÃO DIFÍCIL PRA MIM\nDEUS, MEU DEUS\nMUITOS ME PERGUNTAM ONDE TU ESTÁS",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "QUANDO EU CHORAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "DENTRO DE MIM\nMINH'ALMA SE ABATEU\nMAS TUA MÃO, CONTUDO, ME ESCONDEU\nEM TUA PRESENÇA, OH DEUS",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "QUANDO EU CHORAR, VOU ME LEMBRAR\nQUE ATÉ AQUI TUA MÃO ME SUSTENTOU\nDIGO À MINHA ALMA: ESPERA EM DEUS\nPOIS AINDA O LOUVAREI, EU O LOUVAREI",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "DEUS, MEU DEUS\nTUDO ESTÁ TÃO DIFÍCIL PRA MIM\nDEUS, MEU DEUS\nMUITOS ME PERGUNTAM ONDE TU ESTÁS",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "DENTRO DE MIM\nMINH'ALMA SE ABATEU\nMAS TUA MÃO, CONTUDO, ME ESCONDEU\nEM TUA PRESENÇA, OH DEUS",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "QUANDO EU CHORAR, VOU ME LEMBRAR\nQUE ATÉ AQUI TUA MÃO ME SUSTENTOU\nDIGO À MINHA ALMA: ESPERA EM DEUS\nPOIS AINDA O LOUVAREI, EU O LOUVAREI",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": "QUANDO EU CHORAR, VOU ME LEMBRAR\nQUE ATÉ AQUI TUA MÃO ME SUSTENTOU\nDIGO À MINHA ALMA: ESPERA EM DEUS\nPOIS AINDA O LOUVAREI, EU O LOUVAREI",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 9,
+        "description": "",
+        "text": "EU TE LOUVAREI EM MEIO À PROVAÇÃO, EM MEIO ÀS LUTAS\nEU TE LOUVAREI, EU TE LOUVAREI, VENHA O QUE VIER\nEU TE LOUVAREI, EU TE LOUVAREI\nLOUVAREI TEU NOME, SENHOR",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

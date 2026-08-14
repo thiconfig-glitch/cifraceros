@@ -1,0 +1,106 @@
+{
+  "id": 1585517466653,
+  "title": "Eu Navegarei",
+  "artist": "Hinário",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "1,5,3",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Eu navegarei\nNo oceano do Espírito\nE ali adorarei\nAo DEUS que me salvou\n\nEu navegarei\nNo oceano do Espírito\nE ali adorarei\nAo Deus do meu amor\n\nEspírito, Espírito \nQue desce como fogo\nVem como em pentecoste\nE enche-me de fogo\n\nEspírito, Espírito \nQue desce como fogo \nVem como em pentecoste \nE enche-me de novo \n\nEu adorarei\nAo senhor da minha vida\nQue me compreendeu\nSem nenhuma explicação\n\nEu adorarei\nAo senhor da minha vida\nQue me compreendeu\nSem nenhuma explicação\n\nEspírito, Espírito \nQue desce como fogo \nVem como em pentecoste \nE enche-me de novo \n\nEspírito, Espírito \nQue desce como fogo \nVem como em pentecoste \nE enche-me de novo \n\nEspírito, Espírito \nQue desce como fogo \nVem como em pentecoste \nE enche-me de novo \n\nEspírito, Espírito \nQue desce como fogo \nVem como em pentecoste \nE enche-me de novo ",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Eu navegarei\nNo oceano do Espírito\nE ali adorarei\nAo DEUS que me salvou",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Eu navegarei\nNo oceano do Espírito\nE ali adorarei\nAo Deus do meu amor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Espírito, Espírito \nQue desce como fogo\nVem como em pentecoste\nE enche-me de fogo",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Espírito, Espírito \nQue desce como fogo \nVem como em pentecoste \nE enche-me de novo ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Eu adorarei\nAo senhor da minha vida\nQue me compreendeu\nSem nenhuma explicação",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Eu adorarei\nAo senhor da minha vida\nQue me compreendeu\nSem nenhuma explicação",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Espírito, Espírito \nQue desce como fogo \nVem como em pentecoste \nE enche-me de novo ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": "Espírito, Espírito \nQue desce como fogo \nVem como em pentecoste \nE enche-me de novo ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 9,
+        "description": "",
+        "text": "Espírito, Espírito \nQue desce como fogo \nVem como em pentecoste \nE enche-me de novo ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 10,
+        "description": "",
+        "text": "Espírito, Espírito \nQue desce como fogo \nVem como em pentecoste \nE enche-me de novo ",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

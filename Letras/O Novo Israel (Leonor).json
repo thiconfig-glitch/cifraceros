@@ -1,0 +1,71 @@
+{
+  "id": 1607777823934,
+  "title": "O Novo Israel",
+  "artist": "Leonor",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Olha o novo israel\nPela fé descendentes de abraão\nUm povo remido na terra\nEleito pra morar em sião\n\nOlha o novo Israel\nPela fé descendente de Abraão\nUm povo remido na terra\nEleito pra morar em Sião\n\nOlho e vejo milhões\nCrianças, jovens e anciãos\nTodos cantando em coro\nOs acordes de uma nova canção\n\nDos quatro cantos da terra\nVem surgindo os batalhões\nO novo israel vem cantando\nLouvando o salvador\n\nEm breve Jesus votará\nE o novo israel subirá\nA jornada foi longa e dificil\nMas com cristo israel reinará",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Olha o novo israel\nPela fé descendentes de abraão\nUm povo remido na terra\nEleito pra morar em sião",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Olha o novo Israel\nPela fé descendente de Abraão\nUm povo remido na terra\nEleito pra morar em Sião",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Olho e vejo milhões\nCrianças, jovens e anciãos\nTodos cantando em coro\nOs acordes de uma nova canção",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Dos quatro cantos da terra\nVem surgindo os batalhões\nO novo israel vem cantando\nLouvando o salvador",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Em breve Jesus votará\nE o novo israel subirá\nA jornada foi longa e dificil\nMas com cristo israel reinará",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

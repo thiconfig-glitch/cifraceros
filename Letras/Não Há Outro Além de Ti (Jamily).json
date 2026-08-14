@@ -1,0 +1,71 @@
+{
+  "id": 1662197697464,
+  "title": "Não Há Outro Além de Ti",
+  "artist": "Jamily",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Sei que os teus olhos procuram\nA minha adoração\nMeu Amado não há outro\nAlém de ti\n\nSó tú visitas o meu jardim secreto\nRegado plantado no meu coração\nEu quero que o vento me abrace\nQue o primeiro amor nunca cesse\n\nNada é igual\nAo toque do Espírito Santo\nEu quero que o vento me abrace\nQue o primeiro amor nunca cesse\n\nNada é igual\nA presença do Espírito Santo\nEu sou do meu amado e ele é meu\nUm só coração ele e eu\n\nVem saltando nos montes \npra me encontrar\nVem saltando nos montes \npra me encontrar",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Sei que os teus olhos procuram\nA minha adoração\nMeu Amado não há outro\nAlém de ti",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Só tú visitas o meu jardim secreto\nRegado plantado no meu coração\nEu quero que o vento me abrace\nQue o primeiro amor nunca cesse",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Nada é igual\nAo toque do Espírito Santo\nEu quero que o vento me abrace\nQue o primeiro amor nunca cesse",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Nada é igual\nA presença do Espírito Santo\nEu sou do meu amado e ele é meu\nUm só coração ele e eu",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Vem saltando nos montes \npra me encontrar\nVem saltando nos montes \npra me encontrar",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

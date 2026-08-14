@@ -1,0 +1,71 @@
+{
+  "id": 1582748875466,
+  "title": "SÓ DEUS SABE",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "SÓ DEUS SABE O QUE EU SINTO\nSÓ DEUS SABE A MINHA HISTÓRIA\nMEU PASSADO SÓ DEUS SABE\nE O QUE ESTOU SENTINDO AGORA\n\nSÓ DEUS SABE O QUANTO EU CHORO\nSÓ DEUS SABE O MEU VIVER\nO QUE MUITOS NÃO ENTENDEM\nSÓ MEU DEUS PODE SABER\n\nSÓ DEUS SABE E CONTEMPLA TODO O MEU VIVER\nELE SABE O QUE EU SINTO DENTRO DO MEU SER\nOS SEUS OLHOS COMO CHAMA\nILUMINAM OS MEUS DIAS\nOS PROBLEMAS MEUS\nSIMPLESMENTE DEUS TUDO SABE\n\nSÓ DEUS SABE A MINHA LUTA\nQUANTO PESA A MINHA CRUZ\nMEUS LAMENTOS ELE ESCUTA\nE À VITÓRIA ME CONDUZ\n\nSÓ DEUS SABE O QUE EU ESPERO\nNO SEU GRANDE E ETERNO AMOR\nPOIS TUDO QUE EU MAIS QUERO\nE SERVIR AO MEU SENHOR",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "SÓ DEUS SABE O QUE EU SINTO\nSÓ DEUS SABE A MINHA HISTÓRIA\nMEU PASSADO SÓ DEUS SABE\nE O QUE ESTOU SENTINDO AGORA",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "SÓ DEUS SABE O QUANTO EU CHORO\nSÓ DEUS SABE O MEU VIVER\nO QUE MUITOS NÃO ENTENDEM\nSÓ MEU DEUS PODE SABER",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "SÓ DEUS SABE E CONTEMPLA TODO O MEU VIVER\nELE SABE O QUE EU SINTO DENTRO DO MEU SER\nOS SEUS OLHOS COMO CHAMA\nILUMINAM OS MEUS DIAS\nOS PROBLEMAS MEUS\nSIMPLESMENTE DEUS TUDO SABE",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "SÓ DEUS SABE A MINHA LUTA\nQUANTO PESA A MINHA CRUZ\nMEUS LAMENTOS ELE ESCUTA\nE À VITÓRIA ME CONDUZ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "SÓ DEUS SABE O QUE EU ESPERO\nNO SEU GRANDE E ETERNO AMOR\nPOIS TUDO QUE EU MAIS QUERO\nE SERVIR AO MEU SENHOR",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "id": 1703503128541,
+  "title": "Vai Ser Tão Lindo",
+  "artist": "Pedro Henrique",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Deus faz escravo\n ser governador\nDeus faz, pastor \nde ovelhas se tornar rei \nde uma multidão \nEle não vê aparência ou condição\nEle não vê estrutura, \ne é por isso que ele te escolheu\nÉ raro ter um coração igual ao teu\n\nMas é preciso ser provado, \npreparado\nNão vai ser de qualquer maneira \nque Deus vai fazer\nMas saiba que tudo já \nestá preparado\nEsperando por você\n\nVai ser tão lindo\nQuando Deus cumprir \no que te prometeu\nVai ser tão lindo\nQuando teu sonho sair do papel\n\nVocê passou por coisas \nque ninguém passou\nMas, vai conquistar \no que ninguém ainda conquistou\n\nTá esperando por você, \no teu milagre\nTá esperando por você, \ntua vitória\nTá esperando por você\nAtravesse esse deserto\n dando glória",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Deus faz escravo\n ser governador\nDeus faz, pastor \nde ovelhas se tornar rei \nde uma multidão \nEle não vê aparência ou condição\nEle não vê estrutura, \ne é por isso que ele te escolheu\nÉ raro ter um coração igual ao teu",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Mas é preciso ser provado, \npreparado\nNão vai ser de qualquer maneira \nque Deus vai fazer\nMas saiba que tudo já \nestá preparado\nEsperando por você",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Vai ser tão lindo\nQuando Deus cumprir \no que te prometeu\nVai ser tão lindo\nQuando teu sonho sair do papel",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Você passou por coisas \nque ninguém passou\nMas, vai conquistar \no que ninguém ainda conquistou",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Tá esperando por você, \no teu milagre\nTá esperando por você, \ntua vitória\nTá esperando por você\nAtravesse esse deserto\n dando glória",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "https://open.spotify.com/track/5bAcu6gmtS5YCoCzNS4vny",
+      "youtube": "https://youtube.com/watch?v=kue7kWQfSWA",
+      "deezer": "https://deezer.com/track/2188969017"
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": 1592406513420,
+  "title": "Hoje Eu Só Quero Te Adorar",
+  "artist": "Ludmila Ferber",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Hoje eu não quero retirar nada dos Teus celeiros\nHoje, eu não quero me assentar à mesa do banquete\nHoje eu só quero oferecer minha vida em Teu altar\nHoje, eu só quero Te adorar, Te adorar\n\nHoje, eu não quero Te pedir alguma coisa em meu favor\nHoje, eu não quero extrair nada de Ti, Senhor\nHoje, eu só quero derramar minha vida aos Teus pés\nHoje eu só quero Te adorar por tudo o que Tu és\n\nAdorar, adorar, adorar, adorar\nHoje eu só quero simplesmente\nAdorar",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Hoje eu não quero retirar nada dos Teus celeiros\nHoje, eu não quero me assentar à mesa do banquete\nHoje eu só quero oferecer minha vida em Teu altar\nHoje, eu só quero Te adorar, Te adorar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Hoje, eu não quero Te pedir alguma coisa em meu favor\nHoje, eu não quero extrair nada de Ti, Senhor\nHoje, eu só quero derramar minha vida aos Teus pés\nHoje eu só quero Te adorar por tudo o que Tu és",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Adorar, adorar, adorar, adorar\nHoje eu só quero simplesmente\nAdorar",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

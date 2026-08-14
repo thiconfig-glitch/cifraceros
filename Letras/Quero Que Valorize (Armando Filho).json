@@ -1,0 +1,78 @@
+{
+  "id": 1634774568752,
+  "title": "Quero Que Valorize",
+  "artist": "Armando Filho",
+  "author": "Armando Filho",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Quero que valorize\nO que você tem\nVocê é um ser\nVocê é alguém\nTão importante\nPara Deus\n\nchega de ficar sofrendo\nAngústia e dor\nNesse teu\nComplexo inferior\nDizendo às vezes\nQue não é ninguém\n\nEu venho falar\nDo valor que você tem\nEu venho falar\nDo valor que você tem\n\nEle está em você\nO Espírito Santo\nSe move em você\nAté com gemidos\nInexprimíveis, \ninexprimíveis\n\nDaí você pode\nEntão perceber\nQue pra Ele há algo\nImportante em você\nPor isso levante e cante\nExalte ao Senhor\n\nVocê tem valor\nO Espírito Santo\nSe move em você",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Quero que valorize\nO que você tem\nVocê é um ser\nVocê é alguém\nTão importante\nPara Deus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "chega de ficar sofrendo\nAngústia e dor\nNesse teu\nComplexo inferior\nDizendo às vezes\nQue não é ninguém",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Eu venho falar\nDo valor que você tem\nEu venho falar\nDo valor que você tem",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Ele está em você\nO Espírito Santo\nSe move em você\nAté com gemidos\nInexprimíveis, \ninexprimíveis",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Daí você pode\nEntão perceber\nQue pra Ele há algo\nImportante em você\nPor isso levante e cante\nExalte ao Senhor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Você tem valor\nO Espírito Santo\nSe move em você",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

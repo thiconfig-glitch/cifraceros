@@ -1,0 +1,71 @@
+{
+  "id": 1582748875445,
+  "title": "DEUS CUIDA DE MIM",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "EU PRECISO APRENDER UM POUCO AQUI\nEU PRECISO APRENDER UM POUCO ALI\n\nEU PRECISO APRENDER MAIS DE DEUS\nPORQUE ELE É QUEM CUIDA DE MIM\nDEUS CUIDA DE MIM\n\nSE UMA PORTA SE FECHA AQUI\nOUTRAS PORTAS SE ABREM ALI\nEU PRECISO APRENDER MAIS DE DEUS\nPORQUE ELE É QUEM CUIDA DE MIM\nDEUS CUIDA DE MIM\n\nDEUS CUIDA DE MIM\nNA SOMBRA DAS SUAS ASAS\nDEUS CUIDA DE MIM, EU AMO A SUA CASA\nE NÃO ANDO SOZINHO, NÃO ESTOU SOZINHO\nPOIS SEI, DEUS CUIDA DE MIM\n\nSE NA VIDA NÃO TEM DIREÇÃO \nÉ PRECISO TOMAR DECISÃO\nEU SEI QUE EXISTE ALGUÉM QUE ME AMA\nELE QUER ME DAR A MÃO",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "EU PRECISO APRENDER UM POUCO AQUI\nEU PRECISO APRENDER UM POUCO ALI",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "EU PRECISO APRENDER MAIS DE DEUS\nPORQUE ELE É QUEM CUIDA DE MIM\nDEUS CUIDA DE MIM",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "SE UMA PORTA SE FECHA AQUI\nOUTRAS PORTAS SE ABREM ALI\nEU PRECISO APRENDER MAIS DE DEUS\nPORQUE ELE É QUEM CUIDA DE MIM\nDEUS CUIDA DE MIM",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "DEUS CUIDA DE MIM\nNA SOMBRA DAS SUAS ASAS\nDEUS CUIDA DE MIM, EU AMO A SUA CASA\nE NÃO ANDO SOZINHO, NÃO ESTOU SOZINHO\nPOIS SEI, DEUS CUIDA DE MIM",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "SE NA VIDA NÃO TEM DIREÇÃO \nÉ PRECISO TOMAR DECISÃO\nEU SEI QUE EXISTE ALGUÉM QUE ME AMA\nELE QUER ME DAR A MÃO",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

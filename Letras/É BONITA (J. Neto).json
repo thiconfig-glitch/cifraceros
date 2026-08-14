@@ -1,0 +1,99 @@
+{
+  "id": 1582748875725,
+  "title": "É BONITA",
+  "artist": "J. Neto",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "PARECE ATÉ QUE ESTOU VENDO \nO CÉU SE ABRINDO\nE NAS NUVENS JESUS ME CHAMANDO\nPRA COM ELE ENCONTRAR\n\nTRANSFORMADO, EU ALI SUBIREI\nCANTANDO UM HINO\nE UM ABRAÇO APERTADO EM JESUS \nEU QUERO DAR\n\nNESSA HORA O PASTOR DA IGREJA \nVAI ENTREGAR\nAS OVELHAS QUE AQUI NA TERRA \nELE PASTOREOU\n\nE JESUS RECEBENDO PRA ELE \nTAMBÉM VAI FALAR\nCONTEMPLA ESTA LINDA CIDADE\nQUE VOCÊ VAI MORAR\n\nENTÃO NUMA PORTA BONITA \nE DOURADA IREMOS ATRAVESSAR\nCHEGANDO DO OUTRO LADO\nNO CORAL VAMOS CANTAR\n\nMIGUEL, O ARCANJO, REGENDO O CORAL\nE TODOS DIZENDO ASSIM\nCOMO É LINDO O LUGAR\nQUE JESUS PREPAROU PARA MIM\n\nÉ BONITA! É BONITA!\nA CIDADE QUE JESUS PREPAROU\nELA É BONITA!\n \n\nÉ LÁ QUE EU VOU MORAR\nO PECADOR NÃO ACREDITA\nA CIDADE QUE JESUS PREPAROU\nELA É BONITA!\n\nALELUIA! ALELUIA! ALELUIA!",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "PARECE ATÉ QUE ESTOU VENDO \nO CÉU SE ABRINDO\nE NAS NUVENS JESUS ME CHAMANDO\nPRA COM ELE ENCONTRAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "TRANSFORMADO, EU ALI SUBIREI\nCANTANDO UM HINO\nE UM ABRAÇO APERTADO EM JESUS \nEU QUERO DAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "NESSA HORA O PASTOR DA IGREJA \nVAI ENTREGAR\nAS OVELHAS QUE AQUI NA TERRA \nELE PASTOREOU",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "E JESUS RECEBENDO PRA ELE \nTAMBÉM VAI FALAR\nCONTEMPLA ESTA LINDA CIDADE\nQUE VOCÊ VAI MORAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "ENTÃO NUMA PORTA BONITA \nE DOURADA IREMOS ATRAVESSAR\nCHEGANDO DO OUTRO LADO\nNO CORAL VAMOS CANTAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "MIGUEL, O ARCANJO, REGENDO O CORAL\nE TODOS DIZENDO ASSIM\nCOMO É LINDO O LUGAR\nQUE JESUS PREPAROU PARA MIM",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "É BONITA! É BONITA!\nA CIDADE QUE JESUS PREPAROU\nELA É BONITA!\n ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": "É LÁ QUE EU VOU MORAR\nO PECADOR NÃO ACREDITA\nA CIDADE QUE JESUS PREPAROU\nELA É BONITA!",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 9,
+        "description": "",
+        "text": "ALELUIA! ALELUIA! ALELUIA!",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

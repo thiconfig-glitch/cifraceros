@@ -1,0 +1,71 @@
+{
+  "id": 1582748875545,
+  "title": "CONSQUISTANDO O IMPOSSÍVEL",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "ACREDITE\nÉ HORA DE VENCER\nESSA FORÇA VEM DE DENTRO DE VOCÊ\nVOCÊ PODE ATÉ TOCAR O CÉU SE CRER\n\nACREDITE QUE NENHUM DE NÓS\nJÁ NASCEU COM JEITO \nPRA SUPER HERÓI\nNOSSOS SONHOS A GENTE \nÉ QUEM CONSTRÓI\n\nÉ VENCENDO OS LIMITES \nESCALANDO AS FORTALEZAS\nCONQUISTANDO O IMPOSSÍVEL \nPELA FÉ\n\nCAMPEÃO, VENCEDOR\nDEUS DÁ ASAS, FAZ TEU VOO\nCAMPEÃO, VENCEDOR\nESSA FÉ QUE TE FAZ IMBATÍVEL\nMOSTRA SEU VALOR\n\nTANTOS RECORDES \nVOCÊ PODE QUEBRAR\nAS BARREIRAS VOCÊ PODE \nULTRAPASSAR\nE VENCER",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "ACREDITE\nÉ HORA DE VENCER\nESSA FORÇA VEM DE DENTRO DE VOCÊ\nVOCÊ PODE ATÉ TOCAR O CÉU SE CRER",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "ACREDITE QUE NENHUM DE NÓS\nJÁ NASCEU COM JEITO \nPRA SUPER HERÓI\nNOSSOS SONHOS A GENTE \nÉ QUEM CONSTRÓI",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "É VENCENDO OS LIMITES \nESCALANDO AS FORTALEZAS\nCONQUISTANDO O IMPOSSÍVEL \nPELA FÉ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "CAMPEÃO, VENCEDOR\nDEUS DÁ ASAS, FAZ TEU VOO\nCAMPEÃO, VENCEDOR\nESSA FÉ QUE TE FAZ IMBATÍVEL\nMOSTRA SEU VALOR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "TANTOS RECORDES \nVOCÊ PODE QUEBRAR\nAS BARREIRAS VOCÊ PODE \nULTRAPASSAR\nE VENCER",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

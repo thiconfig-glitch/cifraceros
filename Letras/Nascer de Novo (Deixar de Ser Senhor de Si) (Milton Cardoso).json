@@ -1,0 +1,71 @@
+{
+  "id": 1632333360589,
+  "title": "Nascer de Novo (Deixar de Ser Senhor de Si)",
+  "artist": "Milton Cardoso",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Não basta conhecer\nSuas promessas profecias\nTambém não basta crer\nQue Jesus Cristo é o Messias\n\nTem que rasgar as aparências\nSi despir do velho eu\nE deixar as coisas velhas \nno altar de Deus\n\nTem que sim nascer da água\nPara lavar o que é passado\nTem que sim nascer do Espírito\nEle muda o velho estado\n\nÉ ficar feito criança \ne não dá um passo há mais\nSem saber se está \nguardada pelo olhar do Pai\n\nNascer de Novo é \ndeixar de ser senhor de sí\nApenas ser servo diante de Deus\nNascer de Novo é deixar o velho eu\nDiante do altar \ne receber um novo coração",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Não basta conhecer\nSuas promessas profecias\nTambém não basta crer\nQue Jesus Cristo é o Messias",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Tem que rasgar as aparências\nSi despir do velho eu\nE deixar as coisas velhas \nno altar de Deus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Tem que sim nascer da água\nPara lavar o que é passado\nTem que sim nascer do Espírito\nEle muda o velho estado",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "É ficar feito criança \ne não dá um passo há mais\nSem saber se está \nguardada pelo olhar do Pai",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Nascer de Novo é \ndeixar de ser senhor de sí\nApenas ser servo diante de Deus\nNascer de Novo é deixar o velho eu\nDiante do altar \ne receber um novo coração",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

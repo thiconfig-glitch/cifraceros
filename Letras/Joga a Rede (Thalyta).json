@@ -1,0 +1,85 @@
+{
+  "id": 1607969829002,
+  "title": "Joga a Rede",
+  "artist": "Thalyta",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Joga a rede, joga rede, \njoga do lado direito\nJoga a rede, joga a rede, \ne vais pegar muitos peixes\nJoga a rede, joga rede, \noga do lado direito\nJoga a rede, joga a rede, \ne vais pegar muitos peixes\n\nPedro saiu pra pescar, \nmas ele não pegou nada\nAssim voltou triste pra beira da praia, \nquando o Senhor ordenou\nPara de novo voltar \ne joga a sua rede pra peixe apanhar\n\nJoga a rede, joga rede, \nPedro a rede jogou\nPuxa a rede, puxa a rede, \ne cheia de peixe voltou\n\nJoga a rede, joga rede, \nPedro a rede jogou\nPuxa a rede, puxa a rede, \ne cheia de peixe voltou\n\nJoga a rede, joga rede, \njoga do lado direito\nJoga a rede, joga a rede, \ne vais pegar muitos peixes\nJoga a rede, joga rede, \njoga do lado direito\nJoga a rede, joga a rede, \ne vais pegar muitos peixes\n\nPedro saiu pra pescar, \nmas ele não pegou nada\nAssim voltou triste pra beira da praia, \nquando o Senhor ordenou\nPara de novo voltar \ne joga a sua rede pra peixe apanhar\n\nJoga a rede, joga rede, \nPedro a rede jogou\nPuxa a rede, puxa a rede, \ne cheia de peixe voltou\nJoga a rede, joga rede, \nPedro a rede jogou\nPuxa a rede, puxa a rede, \ne cheia de peixe voltou",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Joga a rede, joga rede, \njoga do lado direito\nJoga a rede, joga a rede, \ne vais pegar muitos peixes\nJoga a rede, joga rede, \noga do lado direito\nJoga a rede, joga a rede, \ne vais pegar muitos peixes",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Pedro saiu pra pescar, \nmas ele não pegou nada\nAssim voltou triste pra beira da praia, \nquando o Senhor ordenou\nPara de novo voltar \ne joga a sua rede pra peixe apanhar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Joga a rede, joga rede, \nPedro a rede jogou\nPuxa a rede, puxa a rede, \ne cheia de peixe voltou",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Joga a rede, joga rede, \nPedro a rede jogou\nPuxa a rede, puxa a rede, \ne cheia de peixe voltou",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Joga a rede, joga rede, \njoga do lado direito\nJoga a rede, joga a rede, \ne vais pegar muitos peixes\nJoga a rede, joga rede, \njoga do lado direito\nJoga a rede, joga a rede, \ne vais pegar muitos peixes",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Pedro saiu pra pescar, \nmas ele não pegou nada\nAssim voltou triste pra beira da praia, \nquando o Senhor ordenou\nPara de novo voltar \ne joga a sua rede pra peixe apanhar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Joga a rede, joga rede, \nPedro a rede jogou\nPuxa a rede, puxa a rede, \ne cheia de peixe voltou\nJoga a rede, joga rede, \nPedro a rede jogou\nPuxa a rede, puxa a rede, \ne cheia de peixe voltou",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

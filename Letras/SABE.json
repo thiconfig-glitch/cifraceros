@@ -1,0 +1,71 @@
+{
+  "id": 1582748875767,
+  "title": "SABE",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "SABE, UMA L Á GRIMA PEQUENA\nNUMA FACE T Ã O SERENA\nPODE SER DE TANTA DOR...\n\nSABE UM OLHAR DE LONGE, PERDIDO\nUM SEMBLANTE ENDURECIDO,\nPODE SER DE TANTA DOR...\n\nÁS VEZES,\nEU ME SINTO T Ã O ASSIM\nAS PESSOAS DO MEU LADO\nNEM SEQUER SABEM DE MIM.\n\nPOIS O MEU CÉU ESCURECEU\nFIQUEI SOZINHO\nNEM UMA ESTRELA APARECEU\nEM MEU CAMINHO\nMEU SOFRIMENTO PARECE NÃO TER FIM\n\nEU VIM AQUI PARA TE PEDIR AJUDA\nTUDO NESTA VIDA MUDA\nEU TAMBÉM QUERO MUDAR\nE ACABAR COM ESSE SOFRIMENTO\nME DESCULPE ESTE LAMENTO\nNESTA FORMA DE CANÇÃO",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "SABE, UMA L Á GRIMA PEQUENA\nNUMA FACE T Ã O SERENA\nPODE SER DE TANTA DOR...",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "SABE UM OLHAR DE LONGE, PERDIDO\nUM SEMBLANTE ENDURECIDO,\nPODE SER DE TANTA DOR...",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "ÁS VEZES,\nEU ME SINTO T Ã O ASSIM\nAS PESSOAS DO MEU LADO\nNEM SEQUER SABEM DE MIM.",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "POIS O MEU CÉU ESCURECEU\nFIQUEI SOZINHO\nNEM UMA ESTRELA APARECEU\nEM MEU CAMINHO\nMEU SOFRIMENTO PARECE NÃO TER FIM",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "EU VIM AQUI PARA TE PEDIR AJUDA\nTUDO NESTA VIDA MUDA\nEU TAMBÉM QUERO MUDAR\nE ACABAR COM ESSE SOFRIMENTO\nME DESCULPE ESTE LAMENTO\nNESTA FORMA DE CANÇÃO",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

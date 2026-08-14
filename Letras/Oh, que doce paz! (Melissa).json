@@ -1,0 +1,85 @@
+{
+  "id": 1708253055635,
+  "title": "Oh, que doce paz!",
+  "artist": "Melissa",
+  "author": "Melissa",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Oh que doce paz \nem minh'alma se faz\nQuando estou \norando ao Senhor\n\nVejo bem junto a mim \nneste lindo jardim\nA presença do meu Salvador\n\nCanto em meu \ncoração uma linda canção\nQue transborda de glória, \naleluia!\n\nQuem me dera ficar \npara sempre assim\nCom Jesus neste lindo jardim\n\nSe eu tivesse a palavra \ncapaz de explicar\nQuão glorioso \n\né o amor de Deus\nSó provando o maná \né que podes cantar\n\nGlória a Deus\nGlória a Deus, aleluia!",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Oh que doce paz \nem minh'alma se faz\nQuando estou \norando ao Senhor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Vejo bem junto a mim \nneste lindo jardim\nA presença do meu Salvador",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Canto em meu \ncoração uma linda canção\nQue transborda de glória, \naleluia!",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Quem me dera ficar \npara sempre assim\nCom Jesus neste lindo jardim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Se eu tivesse a palavra \ncapaz de explicar\nQuão glorioso ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "é o amor de Deus\nSó provando o maná \né que podes cantar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Glória a Deus\nGlória a Deus, aleluia!",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "https://open.spotify.com/track/68ZvDmzqRcxkESamSkvBkj",
+      "youtube": "https://youtube.com/watch?v=PSRG4c43qEA",
+      "deezer": "https://deezer.com/track/928281292"
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

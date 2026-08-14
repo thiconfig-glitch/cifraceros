@@ -1,0 +1,64 @@
+{
+  "id": 1582748875828,
+  "title": "QUEM E ESTE POVO",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "QUEM É ESSE POVO\nQUE SE LEVANTOU\nestão orando revoltados\n\nESSE É O POVO QUE TEM FÉ PARA VENCER\nESSE É O POVO QUE TEM FÉ PARA VENCER\n\nSE LEVANTOU PARA LUTAR OH OH OH,\nSE LEVANTOU PARA VENCER OH OH OH\n\nSE LEVANTOU PARA PISAR\nNA CABEÇA DO DIABO\nEM NOME DE JESUS",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "QUEM É ESSE POVO\nQUE SE LEVANTOU\nestão orando revoltados",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "ESSE É O POVO QUE TEM FÉ PARA VENCER\nESSE É O POVO QUE TEM FÉ PARA VENCER",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "SE LEVANTOU PARA LUTAR OH OH OH,\nSE LEVANTOU PARA VENCER OH OH OH",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "SE LEVANTOU PARA PISAR\nNA CABEÇA DO DIABO\nEM NOME DE JESUS",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

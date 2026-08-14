@@ -1,0 +1,57 @@
+{
+  "id": 1592646325062,
+  "title": "Forte Campeão",
+  "artist": "Márcio Pinheiro",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Não posso mais fugir desta batalha\nLá fora o inimigo destrói o que é meu\nNão vou me esconder\nFicar nesta situação\nVer meu Deus no papel viver de informação\n\nArranca esse medo \ne me faça um vencedor\nA Tua alegria é minha força oh meu Senhor\nO medo pode até tentar\nA minha fé intimidar\nMas sobre Tua palavra meu Deus vou confiar\n\nContigo eu tudo posso \ne nada pode me deter\nContigo o inimigo não irá prevalecer\nContigo eu venço o medo assim como Gideão\nMeu Deus jamais falhou\nContigo na batalha eu sou um Forte Campeão",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Não posso mais fugir desta batalha\nLá fora o inimigo destrói o que é meu\nNão vou me esconder\nFicar nesta situação\nVer meu Deus no papel viver de informação",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Arranca esse medo \ne me faça um vencedor\nA Tua alegria é minha força oh meu Senhor\nO medo pode até tentar\nA minha fé intimidar\nMas sobre Tua palavra meu Deus vou confiar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Contigo eu tudo posso \ne nada pode me deter\nContigo o inimigo não irá prevalecer\nContigo eu venço o medo assim como Gideão\nMeu Deus jamais falhou\nContigo na batalha eu sou um Forte Campeão",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": 1602701209313,
+  "title": "Ao Findar o Labor",
+  "artist": "Adilson Silva",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Ao findar o labor desta vida\nQuando a morte ao teu lado chegar\nQue destino ha de ter tua alma\nQual sera no futuro teu lar\n\nMeu amigo hoje tu tens a escolha\nVida ou morte, qual vais aceitar\nAmanhã pode ser muito tarde\nHoje Cristo te quer libertar\n\nTu procuras a paz neste mundo\nEm prazeres que passam e vao\nMas na última hora da vida\nEle já, não mais, te satisfarão\n\nPor acaso tu riste, ó amigo\nQuando ouviste falar de Jesus?\nMas somente Jesus pode dar-te\nSalvação pela morte na cruz\n\nTens Manchada tua alma e não podes\nContemplar o semblante de Deus\nSó os crentes de corações limpos\nPoderão ter o gozo nos céus\n\nSe decides deixar teus pecados\nE entregar tua vida a Jesus\nTrilharás sim, na ultima hora\nUm caminho brilhante de luz",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Ao findar o labor desta vida\nQuando a morte ao teu lado chegar\nQue destino ha de ter tua alma\nQual sera no futuro teu lar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Meu amigo hoje tu tens a escolha\nVida ou morte, qual vais aceitar\nAmanhã pode ser muito tarde\nHoje Cristo te quer libertar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Tu procuras a paz neste mundo\nEm prazeres que passam e vao\nMas na última hora da vida\nEle já, não mais, te satisfarão",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Por acaso tu riste, ó amigo\nQuando ouviste falar de Jesus?\nMas somente Jesus pode dar-te\nSalvação pela morte na cruz",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Tens Manchada tua alma e não podes\nContemplar o semblante de Deus\nSó os crentes de corações limpos\nPoderão ter o gozo nos céus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Se decides deixar teus pecados\nE entregar tua vida a Jesus\nTrilharás sim, na ultima hora\nUm caminho brilhante de luz",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

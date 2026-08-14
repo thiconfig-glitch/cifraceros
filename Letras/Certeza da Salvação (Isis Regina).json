@@ -1,0 +1,64 @@
+{
+  "id": 1598369257147,
+  "title": "Certeza da Salvação",
+  "artist": "Isis Regina",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Hoje meu coração deseja mais\nque uma simples emoção\nQuero a certeza da salvação\n\nDeixar pra trás uma vida de pecados\ncom a força do Teu perdão\nSer uma nova criatura\nPela fé em Tua palavra, ter estrutura\n\npermanecer na Tua luz\nSer Teu servo, meu Jesus\n\nTeu espírito em mim Óh! habita\nEscreve o meu nome no livro da vida\nAcende a minh'alma com Teu temor\nQue não viva eu\nmas em mim viva o Senhor",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Hoje meu coração deseja mais\nque uma simples emoção\nQuero a certeza da salvação",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Deixar pra trás uma vida de pecados\ncom a força do Teu perdão\nSer uma nova criatura\nPela fé em Tua palavra, ter estrutura",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "permanecer na Tua luz\nSer Teu servo, meu Jesus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Teu espírito em mim Óh! habita\nEscreve o meu nome no livro da vida\nAcende a minh'alma com Teu temor\nQue não viva eu\nmas em mim viva o Senhor",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

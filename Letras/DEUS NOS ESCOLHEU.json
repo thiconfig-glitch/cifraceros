@@ -1,0 +1,57 @@
+{
+  "id": 1582748875502,
+  "title": "DEUS NOS ESCOLHEU",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "DEUS NOS ESCOLHEU EM OUTRO TEMPO\nNOS UNIU ANTES DO NASCIMENTO\nOS NOSSOS PASSOS ANDAVAM\nPOR AÍ SEM SE ENCONTRAR\nMAS DEUS RESOLVEU NOS APRESENTAR\n\nA VIDA RESERVA SEMPRE UMA SURPRESA\nUM AMOR REAL JAMAIS TEM FIM\nFIRMADOS NESTE PROPÓSITO\nEU CANTO ESSA CANÇÃO\nAMOR É TODO TEU, MEU CORAÇÃO\n\nVOCÊ É TANTO EU\nQUE TENHO SAUDADES DE MIM\nCOMO MARINHEIRO QUER O MAR\nQUERO VOCÊ PRA MIM\nVOCÊ É TANTO EU\nQUE TENHO SAUDADES DE MIM\nCOMO MARINHEIRO QUER O MAR\nCOMO PASSARINHO QUER VOAR\nQUERO VOCÊ PRA MIM!",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "DEUS NOS ESCOLHEU EM OUTRO TEMPO\nNOS UNIU ANTES DO NASCIMENTO\nOS NOSSOS PASSOS ANDAVAM\nPOR AÍ SEM SE ENCONTRAR\nMAS DEUS RESOLVEU NOS APRESENTAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "A VIDA RESERVA SEMPRE UMA SURPRESA\nUM AMOR REAL JAMAIS TEM FIM\nFIRMADOS NESTE PROPÓSITO\nEU CANTO ESSA CANÇÃO\nAMOR É TODO TEU, MEU CORAÇÃO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "VOCÊ É TANTO EU\nQUE TENHO SAUDADES DE MIM\nCOMO MARINHEIRO QUER O MAR\nQUERO VOCÊ PRA MIM\nVOCÊ É TANTO EU\nQUE TENHO SAUDADES DE MIM\nCOMO MARINHEIRO QUER O MAR\nCOMO PASSARINHO QUER VOAR\nQUERO VOCÊ PRA MIM!",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

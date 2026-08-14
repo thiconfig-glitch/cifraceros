@@ -1,0 +1,113 @@
+{
+  "id": 1655839226905,
+  "title": "Vem Cear Comigo",
+  "artist": "Gerson Rufino",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "VOU ME LEVANTAR E ABRIR A MINHA PORTA\nESPERAR O MEU AMADO CHEGAR\nQUANDO ELE CHEGAR\nVOU CONVIDÁ-LO \nPRA ENTRAR EM MINHA CASA\n\nISSO É TUDO QUE PRECISO, \nISSO É TUDO QUE MAIS QUERO\nESTOU DESESPERADO\nPRA TER SUA PRESENÇA \nEM MINHA VIDA\nEM MINHA CASA\n\nENTRA EM MINHA CASA\nVEM CEAR COMIGO\nSUA PRESENÇA \nSEMPRE FOI MEU PRAZER\n\nFIQUE À VONTADE\nSEM PRESSA DE IR EMBORA\nSE QUISER POUSAR\nMINHA CASA É SEU LUGAR\n\nISSO É TUDO QUE PRECISO, ISSO É TUDO QUE MAIS QUERO\nESTOU DESESPERADO\nPRA TER SUA PRESENÇA EM MINHA VIDA\nEM MINHA CASA\n\nENTRA EM MINHA CASA\nVEM CEAR COMIGO\nSUA PRESENÇA SEMPRE FOI MEU PRAZER\n\nFIQUE À VONTADE\nSEM PRESSA DE IR EMBORA\nSE QUISER POUSAR, MINHA CASA\n\nENTRA EM MINHA CASA\nVEM CEAR COMIGO\nSUA PRESENÇA SEMPRE FOI MEU PRAZER\n\nFIQUE À VONTADE\nSEM PRESSA DE IR EMBORA\nSE QUISER POUSAR, MINHA CASA\nÉ SEU LUGAR\n\nENTRA EM MINHA CASA\nVEM CEAR COMIGO\nSUA PRESENÇA SEMPRE FOI MEU PRAZER\n\nFIQUE À VONTADE\nSEM PRESSA DE IR EMBORA\nSE QUISER POUSAR\nMINHA CASA É SEU LUGAR\nMINHA CASA É SEU LUGAR",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "VOU ME LEVANTAR E ABRIR A MINHA PORTA\nESPERAR O MEU AMADO CHEGAR\nQUANDO ELE CHEGAR\nVOU CONVIDÁ-LO \nPRA ENTRAR EM MINHA CASA",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "ISSO É TUDO QUE PRECISO, \nISSO É TUDO QUE MAIS QUERO\nESTOU DESESPERADO\nPRA TER SUA PRESENÇA \nEM MINHA VIDA\nEM MINHA CASA",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "ENTRA EM MINHA CASA\nVEM CEAR COMIGO\nSUA PRESENÇA \nSEMPRE FOI MEU PRAZER",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "FIQUE À VONTADE\nSEM PRESSA DE IR EMBORA\nSE QUISER POUSAR\nMINHA CASA É SEU LUGAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "ISSO É TUDO QUE PRECISO, ISSO É TUDO QUE MAIS QUERO\nESTOU DESESPERADO\nPRA TER SUA PRESENÇA EM MINHA VIDA\nEM MINHA CASA",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "ENTRA EM MINHA CASA\nVEM CEAR COMIGO\nSUA PRESENÇA SEMPRE FOI MEU PRAZER",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "FIQUE À VONTADE\nSEM PRESSA DE IR EMBORA\nSE QUISER POUSAR, MINHA CASA",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": "ENTRA EM MINHA CASA\nVEM CEAR COMIGO\nSUA PRESENÇA SEMPRE FOI MEU PRAZER",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 9,
+        "description": "",
+        "text": "FIQUE À VONTADE\nSEM PRESSA DE IR EMBORA\nSE QUISER POUSAR, MINHA CASA\nÉ SEU LUGAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 10,
+        "description": "",
+        "text": "ENTRA EM MINHA CASA\nVEM CEAR COMIGO\nSUA PRESENÇA SEMPRE FOI MEU PRAZER",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 11,
+        "description": "",
+        "text": "FIQUE À VONTADE\nSEM PRESSA DE IR EMBORA\nSE QUISER POUSAR\nMINHA CASA É SEU LUGAR\nMINHA CASA É SEU LUGAR",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

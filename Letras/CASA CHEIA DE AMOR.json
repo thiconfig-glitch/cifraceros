@@ -1,0 +1,64 @@
+{
+  "id": 1582748875996,
+  "title": "CASA CHEIA DE AMOR",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "ATRAVÉS DA COMUNHÃO COM DEUS SEREI UMA BÊNÇÃO\nLEVAREI O QUE JESUS ME DEU PARA MINHA CASA\nA VONTADE DO SENHOR GOVERNARÁ O MEU LAR\nCRISTO EM MINHA CASA VIVERÁ\n\nA MINHA FAMÍLIA MEU DEUS EDIFICOU\nA MINHA CASA É CHEIA DE AMOR\nJUNTOS EM UMA SÓ FÉ E NA MESMA DIREÇÃO\nVIVENDO AS PROMESSAS DO SENHOR\n\nPAI, MÃE E FILHOS NO SENHOR SÃO INSEPARÁVEIS\nSEMPRE CONFIANDO NO SENHOR SÃO INABALÁVEIS\nA VONTADE DO SENHOR GOVERNARÁ O MEU LAR\nCRISTO EM MINHA CASA VIVERÁ\n\nA VONTADE DO SENHOR GOVERNARÁ O MEU LAR\nCRISTO EM MINHA CASA VIVERÁ",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "ATRAVÉS DA COMUNHÃO COM DEUS SEREI UMA BÊNÇÃO\nLEVAREI O QUE JESUS ME DEU PARA MINHA CASA\nA VONTADE DO SENHOR GOVERNARÁ O MEU LAR\nCRISTO EM MINHA CASA VIVERÁ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "A MINHA FAMÍLIA MEU DEUS EDIFICOU\nA MINHA CASA É CHEIA DE AMOR\nJUNTOS EM UMA SÓ FÉ E NA MESMA DIREÇÃO\nVIVENDO AS PROMESSAS DO SENHOR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "PAI, MÃE E FILHOS NO SENHOR SÃO INSEPARÁVEIS\nSEMPRE CONFIANDO NO SENHOR SÃO INABALÁVEIS\nA VONTADE DO SENHOR GOVERNARÁ O MEU LAR\nCRISTO EM MINHA CASA VIVERÁ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "A VONTADE DO SENHOR GOVERNARÁ O MEU LAR\nCRISTO EM MINHA CASA VIVERÁ",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

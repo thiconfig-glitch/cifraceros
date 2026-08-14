@@ -1,0 +1,64 @@
+{
+  "id": 1582748875481,
+  "title": "Nova Criatura Sou",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "A MINHA VIDA É  TUA VIDA\nTUDO QUE SOU É  TOTALMENTE TEU SENHOR\nO MEU PRESENTE O MEU FUTURO EU ENTREGUEI\nO MEU PASSADO APAGUEI\nNO MAR DO ESQUECIMENTO DO SENHOR\n\nNOVA CRIATURA SOU NOVA CRIATURA\nEU NÃO SOU TUDO OQUE VOCÊ PRECISA\nAINDA NÃO SOU TUDO AQUILO QUE EU QUERIA SER\nMAIS UMA COISA EU SOU NÃO ABRO MÃO\nNÃO NOVA CRIATURA SOU NOVA CRIATURA\n\nA AAA EU SOU NOVA CRIATURA NOVA CRIATURA\nA AAA EU SOU NOVA CRIATURA NOVA CRIATURA\n\nA AQUELE QUE ESTÁ EM CRISTO JÁ MORREU PRO MUNDO\nA AQUELE QUE ESTÁ EM CRISTO VIVE PRA DEUS SIM",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "A MINHA VIDA É  TUA VIDA\nTUDO QUE SOU É  TOTALMENTE TEU SENHOR\nO MEU PRESENTE O MEU FUTURO EU ENTREGUEI\nO MEU PASSADO APAGUEI\nNO MAR DO ESQUECIMENTO DO SENHOR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "NOVA CRIATURA SOU NOVA CRIATURA\nEU NÃO SOU TUDO OQUE VOCÊ PRECISA\nAINDA NÃO SOU TUDO AQUILO QUE EU QUERIA SER\nMAIS UMA COISA EU SOU NÃO ABRO MÃO\nNÃO NOVA CRIATURA SOU NOVA CRIATURA",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "A AAA EU SOU NOVA CRIATURA NOVA CRIATURA\nA AAA EU SOU NOVA CRIATURA NOVA CRIATURA",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "A AQUELE QUE ESTÁ EM CRISTO JÁ MORREU PRO MUNDO\nA AQUELE QUE ESTÁ EM CRISTO VIVE PRA DEUS SIM",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

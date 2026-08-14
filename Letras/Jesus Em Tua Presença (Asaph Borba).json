@@ -1,0 +1,57 @@
+{
+  "id": 1615060715864,
+  "title": "Jesus Em Tua Presença",
+  "artist": "Asaph Borba",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Jesus, em Tua presença \nreunimo-nos aqui\nContemplamos Tua face \ne rendemo-nos a Ti\nPois um dia Tua morte\nTrouxe vida a todos nós\nE nos deu completo acesso\nAo coração do Pai\n\nE o véu que separava \njá não separa mais\nA luz, outrora apagada\nagora brilha\nE cada dia brilha mais\n\nSó pra Te adorar\nE fazer Teu nome grande\nE Te dar o louvor que é devido\nEstamos nós aqui (ALELUIA)",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Jesus, em Tua presença \nreunimo-nos aqui\nContemplamos Tua face \ne rendemo-nos a Ti\nPois um dia Tua morte\nTrouxe vida a todos nós\nE nos deu completo acesso\nAo coração do Pai",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "E o véu que separava \njá não separa mais\nA luz, outrora apagada\nagora brilha\nE cada dia brilha mais",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Só pra Te adorar\nE fazer Teu nome grande\nE Te dar o louvor que é devido\nEstamos nós aqui (ALELUIA)",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

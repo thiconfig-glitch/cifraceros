@@ -1,0 +1,64 @@
+{
+  "id": 1582748875645,
+  "title": "EU VOU PERSEGUIR ",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "EU VOU PERSEGUIR MEUS INIMIGOS\nE SÓ VOU VOLTAR\nCOM A VITÓRIA NAS MÃOS\nQUE JESUS CRISTO VAI ME DAR\n\nPARADO NINGUÉM CONSEGUE NADA\nAS COISAS DE DEUS SÃO PELA FÉ\nNÃO ADIANTA CHORAR\nÉ PRECISO LUTAR\nPARA SE TER O QUE QUER\n\nA VIDA NA TERRA É UMA GUERRA\nE SÓ QUEM LUTA PODE VENCER\nE QUEM CRER EM DEUS TEM VITÓRIA\nNÃO ACEITA A DERROTA\nNÃO ACEITA PERDER\n\nEU VOU PERSEGUIR MEUS INIMIGOS\nE SÓ VOU VOLTAR\nCOM A VITÓRIA NAS MÃOS\nQUE JESUS CRISTO VAI ME DAR",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "EU VOU PERSEGUIR MEUS INIMIGOS\nE SÓ VOU VOLTAR\nCOM A VITÓRIA NAS MÃOS\nQUE JESUS CRISTO VAI ME DAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "PARADO NINGUÉM CONSEGUE NADA\nAS COISAS DE DEUS SÃO PELA FÉ\nNÃO ADIANTA CHORAR\nÉ PRECISO LUTAR\nPARA SE TER O QUE QUER",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "A VIDA NA TERRA É UMA GUERRA\nE SÓ QUEM LUTA PODE VENCER\nE QUEM CRER EM DEUS TEM VITÓRIA\nNÃO ACEITA A DERROTA\nNÃO ACEITA PERDER",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "EU VOU PERSEGUIR MEUS INIMIGOS\nE SÓ VOU VOLTAR\nCOM A VITÓRIA NAS MÃOS\nQUE JESUS CRISTO VAI ME DAR",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

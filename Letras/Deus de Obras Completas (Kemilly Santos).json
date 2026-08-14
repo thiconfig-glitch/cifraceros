@@ -1,0 +1,106 @@
+{
+  "id": 1783987257093,
+  "title": "Deus de Obras Completas",
+  "artist": "Kemilly Santos",
+  "author": "Arnaldo Quaresma",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "G",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Quando eu olho\nPara os meus projetos\nEu confesso\nFica tão difícil acreditar\n\nQuando eu olho\nPras Tuas promessas\nAcredito\nVai valer a pena esperar\n\nPois eu sirvo um Deus\nQue é tão grande\n\nEm apenas um instante\nFaz o impossível\nSe materializar\n\nO meu Deus\nNão faz pela metade\nNão vou viver uma parte\nPor completo Ele fará\n\nEu vou viver\nA totalidade da promessa\n\nO Deus de obras completas\nVai fazer cumprir\nNa hora certa\n\nNão vou temer\nO projeto vem\nDe quem não erra\n\nO Deus de obras completas\nVai fazer cumprir\nNa hora certa\n\nMeu Deus não falha, não\nEu não vou duvidar\nEu sei que por completo fará",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Quando eu olho\nPara os meus projetos\nEu confesso\nFica tão difícil acreditar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Quando eu olho\nPras Tuas promessas\nAcredito\nVai valer a pena esperar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Pois eu sirvo um Deus\nQue é tão grande",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Em apenas um instante\nFaz o impossível\nSe materializar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "O meu Deus\nNão faz pela metade\nNão vou viver uma parte\nPor completo Ele fará",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Eu vou viver\nA totalidade da promessa",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "O Deus de obras completas\nVai fazer cumprir\nNa hora certa",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": "Não vou temer\nO projeto vem\nDe quem não erra",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 9,
+        "description": "",
+        "text": "O Deus de obras completas\nVai fazer cumprir\nNa hora certa",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 10,
+        "description": "",
+        "text": "Meu Deus não falha, não\nEu não vou duvidar\nEu sei que por completo fará",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "https://open.spotify.com/track/2w0ClmhcjbXhTUHwZRWDJ8",
+      "youtube": "https://youtube.com/watch?v=sjKYjItLZGo",
+      "deezer": "https://deezer.com/track/3036659771"
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

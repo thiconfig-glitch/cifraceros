@@ -1,0 +1,71 @@
+{
+  "id": 1582748875456,
+  "title": "FELICIDADE EXISTE",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Há tanto tempo você anda triste\nTenta e não consegue ser feliz !\nDepois de tantos desenganos\nNão tem mais fé no amor humano\nÉ como uma planta que não tem raiz\n\nEu que na vida andei sofrendo tanto\nSei muito bem o que é a solidão\nE o que você esta vivendo eu já\nVivi por isso entendo\no que esta sentindo o seu coração\n\nEu já andei perdido \nem tantos caminhos\nComo o coração ferido \nem tantos espinhos\n \nAgora eu tenho Cristo \ne não sofro mais assim\nPois o teu espírito \nveio morar em mim\n\nJá chega de sofrer \nde viver assim tão triste\nJá chega de chorar \nfelicidade existe\n\nVocê precisa crer \nnesse Deus que eu acredito\nPrecisa conhecer o amor de \nJesus Cristo",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Há tanto tempo você anda triste\nTenta e não consegue ser feliz !\nDepois de tantos desenganos\nNão tem mais fé no amor humano\nÉ como uma planta que não tem raiz",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Eu que na vida andei sofrendo tanto\nSei muito bem o que é a solidão\nE o que você esta vivendo eu já\nVivi por isso entendo\no que esta sentindo o seu coração",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Eu já andei perdido \nem tantos caminhos\nComo o coração ferido \nem tantos espinhos\n \nAgora eu tenho Cristo \ne não sofro mais assim\nPois o teu espírito \nveio morar em mim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Já chega de sofrer \nde viver assim tão triste\nJá chega de chorar \nfelicidade existe",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Você precisa crer \nnesse Deus que eu acredito\nPrecisa conhecer o amor de \nJesus Cristo",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

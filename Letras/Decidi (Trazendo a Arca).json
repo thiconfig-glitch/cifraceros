@@ -1,0 +1,78 @@
+{
+  "id": 1611674280877,
+  "title": "Decidi",
+  "artist": "Trazendo a Arca",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "1,2,4,5,6",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "O tempo da dor\nAs frustações, a solidão\nAngustia de estar vivendo sem saber \nquando vai mudar\n\nEu nunca te vi, mas reconheço que estas aqui\neu vou me levantar\njá vejo acontecer\nquando eu te tocar\nEu sei que posso te alcançar\n\nEu sei que posso te alcançar\n\nDecidi não vou Desistir\nVou lutar contra a multidão\nLancar-me aos teu pés e te tocar\n\nA virtude em ti pra sarar o meu mal\nTransformado serei se ao \nmenos te tocar\n\nDecidi não vou Desistir\nVou lutar contra a multidão\nLancar-me aos teu pés e te tocar",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "O tempo da dor\nAs frustações, a solidão\nAngustia de estar vivendo sem saber \nquando vai mudar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Eu nunca te vi, mas reconheço que estas aqui\neu vou me levantar\njá vejo acontecer\nquando eu te tocar\nEu sei que posso te alcançar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Eu sei que posso te alcançar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Decidi não vou Desistir\nVou lutar contra a multidão\nLancar-me aos teu pés e te tocar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "A virtude em ti pra sarar o meu mal\nTransformado serei se ao \nmenos te tocar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Decidi não vou Desistir\nVou lutar contra a multidão\nLancar-me aos teu pés e te tocar",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": 1582748875553,
+  "title": "TEMPO DE COLHER",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "1,3,4,5,6",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "EU NÃO ACEITO TRISTEZA\nEU NÃO ACEITO MALDIÇÃO\nEU NÃO ACEITO ENFERMIDADE EM MIM\n\nTEMPO DE COLHER\n\nEU NÃO ACEITO MISÉRIA\nEU NÃO ACEITO ESCASSEZ\nESTÁ ESCRITO NA PALAVRA DE DEUS ASSIM:\n\nQUE EU COMEREI O MELHOR DESTA TERRA\nQUE EU COMEREI O MELHOR DESTA TERRA\nQUE EU COMEREI O MELHOR DESTA TERRA, SIM\n\nQUE EU COMEREI O MELHOR DESTA TERRA\nQUE EU COMEREI O MELHOR DESTA TERRA\nQUE EU COMEREI O MELHOR DESTA TERRA, SIM\nTODAS AS BENÇÃOS DO SENHOR VIRÃO SOBRE MIM\n\nÉ TEMPO DE COLHER O QUE PLANTOU\nTEMPO DE CONQUISTAR O QUE SONHOU\nEU SOU O QUE A BÍBLIA DIZ QUE EU SOU\nESTÁ ESCRITO QUE EU SOU MAIS QUE VENCEDOR",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "EU NÃO ACEITO TRISTEZA\nEU NÃO ACEITO MALDIÇÃO\nEU NÃO ACEITO ENFERMIDADE EM MIM",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "TEMPO DE COLHER",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "EU NÃO ACEITO MISÉRIA\nEU NÃO ACEITO ESCASSEZ\nESTÁ ESCRITO NA PALAVRA DE DEUS ASSIM:",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "QUE EU COMEREI O MELHOR DESTA TERRA\nQUE EU COMEREI O MELHOR DESTA TERRA\nQUE EU COMEREI O MELHOR DESTA TERRA, SIM",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "QUE EU COMEREI O MELHOR DESTA TERRA\nQUE EU COMEREI O MELHOR DESTA TERRA\nQUE EU COMEREI O MELHOR DESTA TERRA, SIM\nTODAS AS BENÇÃOS DO SENHOR VIRÃO SOBRE MIM",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "É TEMPO DE COLHER O QUE PLANTOU\nTEMPO DE CONQUISTAR O QUE SONHOU\nEU SOU O QUE A BÍBLIA DIZ QUE EU SOU\nESTÁ ESCRITO QUE EU SOU MAIS QUE VENCEDOR",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

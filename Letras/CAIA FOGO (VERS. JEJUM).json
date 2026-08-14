@@ -1,0 +1,99 @@
+{
+  "id": 1582748875692,
+  "title": "CAIA FOGO",
+  "artist": "VERS. JEJUM",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "MINHA VIDA É PELA FÉ\nEU QUERO VER TUA GLÓRIA\nPORQUE EU VIVO PELA FÉ\nEU VOU MUDAR DE VIDA\n\nSOU TEU TEMPLO TEU SACRIFÍCIO\nO TEU ALTAR VEM QUEIMAR EM MIM\n\nCAIA FOGO DOS CÉUS\nQUEIMA ESSE ALTAR\nE MOSTRA NA MINHA VIDA\nO DEUS DE ISRAEL\n\nCAIA FOGO DO CÉU\nQUEIMA ESSE ALTAR\nE MOSTRA PRA ESSE POVO\nQUE HÁ DEUS NO JEJUM\n\nPORQUE EU VIVO PELA, E QUERO VER TUA GLÓRIA\nJÁ ESTOU EM TEU ALTAR E QUERO VER TUA GLÓRIA\nSOU TEU TEMPLO, TEU SACRIFÍCIO, O TEU ALTAR\nVEM QUEIMAR EM MIM\nSOU TEU TEMPLO, TEU SACRIFÍCIO, O TEU ALTAR\nVEM QUEIMAR EM MIM\n\nCAIA FOGO – VERS. JEJUM\n\nSOU TEU TEMPLO, TEU SACRIFÍCIO, O TEU ALTAR\nVEM QUEIMAR EM MIM\nSOU TEU TEMPLO, TEU SACRIFÍCIO, O TEU ALTAR\nVEM QUEIMAR EM MIM\n\nCAIA FOGO DOS CÉUS\nQUEIMA ESSE ALTAR\nMOSTRA PRA ESSE POVO\nQUE HÁ DEUS EM ISRAEL\n\nCAIA FOGO DO CÉUS, QUEIMA ESSE ALTAR\nMOSTRA NA MINHA VIDA QUE ÉS O DEUS DE ISRAEL \nCAIA FOGO DOS CÉUS\nQUEIMA ESSE ALTAR\nMOSTRA PRA ESSE POVO\nQUE HÁ DEUS EM ISRAEL",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "MINHA VIDA É PELA FÉ\nEU QUERO VER TUA GLÓRIA\nPORQUE EU VIVO PELA FÉ\nEU VOU MUDAR DE VIDA",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "SOU TEU TEMPLO TEU SACRIFÍCIO\nO TEU ALTAR VEM QUEIMAR EM MIM",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "CAIA FOGO DOS CÉUS\nQUEIMA ESSE ALTAR\nE MOSTRA NA MINHA VIDA\nO DEUS DE ISRAEL",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "CAIA FOGO DO CÉU\nQUEIMA ESSE ALTAR\nE MOSTRA PRA ESSE POVO\nQUE HÁ DEUS NO JEJUM",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "PORQUE EU VIVO PELA, E QUERO VER TUA GLÓRIA\nJÁ ESTOU EM TEU ALTAR E QUERO VER TUA GLÓRIA\nSOU TEU TEMPLO, TEU SACRIFÍCIO, O TEU ALTAR\nVEM QUEIMAR EM MIM\nSOU TEU TEMPLO, TEU SACRIFÍCIO, O TEU ALTAR\nVEM QUEIMAR EM MIM",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "CAIA FOGO – VERS. JEJUM",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "SOU TEU TEMPLO, TEU SACRIFÍCIO, O TEU ALTAR\nVEM QUEIMAR EM MIM\nSOU TEU TEMPLO, TEU SACRIFÍCIO, O TEU ALTAR\nVEM QUEIMAR EM MIM",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": "CAIA FOGO DOS CÉUS\nQUEIMA ESSE ALTAR\nMOSTRA PRA ESSE POVO\nQUE HÁ DEUS EM ISRAEL",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 9,
+        "description": "",
+        "text": "CAIA FOGO DO CÉUS, QUEIMA ESSE ALTAR\nMOSTRA NA MINHA VIDA QUE ÉS O DEUS DE ISRAEL \nCAIA FOGO DOS CÉUS\nQUEIMA ESSE ALTAR\nMOSTRA PRA ESSE POVO\nQUE HÁ DEUS EM ISRAEL",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

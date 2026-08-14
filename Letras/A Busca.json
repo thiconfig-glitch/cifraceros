@@ -1,0 +1,78 @@
+{
+  "id": 1582749436390,
+  "title": "A Busca",
+  "artist": "",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Busquei a razão de viver\nNos caminhos que percorri\nAndei por lugares comuns\nA procura de ser feliz\n\nMe entreguei por qualquer \nsensação\nAos prazeres da vida\nJamais pensei que momentos \nassim pudessem terminar, \nterminar\n\nE então, de repente eu senti \num vazio no coração\nE até mesmo junto de alguém\nEu sentia a solidão\n\nNão deu pra essa dor segurar\nEssa cruz pesada demais\nTentei como um louco tentei\nDo meu próprio corpo fuGIR\n\nSem ter mais lugar pra onde ir\nDe joelhos orei, \nprocurando uma luz\nSenti Tua mão me tocar, \nmeu SENHOR Jesus\n\nSeja onde for me \nleva meu Senhor\nQuero Te amar, \nTe dar o meu louvor\nA qualquer lugar\npra sempre ao \nTeu lado quero estar",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Busquei a razão de viver\nNos caminhos que percorri\nAndei por lugares comuns\nA procura de ser feliz",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Me entreguei por qualquer \nsensação\nAos prazeres da vida\nJamais pensei que momentos \nassim pudessem terminar, \nterminar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "E então, de repente eu senti \num vazio no coração\nE até mesmo junto de alguém\nEu sentia a solidão",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Não deu pra essa dor segurar\nEssa cruz pesada demais\nTentei como um louco tentei\nDo meu próprio corpo fuGIR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Sem ter mais lugar pra onde ir\nDe joelhos orei, \nprocurando uma luz\nSenti Tua mão me tocar, \nmeu SENHOR Jesus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Seja onde for me \nleva meu Senhor\nQuero Te amar, \nTe dar o meu louvor\nA qualquer lugar\npra sempre ao \nTeu lado quero estar",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

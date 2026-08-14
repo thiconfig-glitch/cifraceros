@@ -1,0 +1,78 @@
+{
+  "id": 1607432476688,
+  "title": "Me Faz Te Conhecer",
+  "artist": "Márcio Pinheiro",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Tenho ouvido só falar do Seu Poder\nQuanto tempo eu Te sirvo \nsem Te conhecer\n\nEsse DEUS DESCONHECIDO, \nde que em tanto ouço falar\nEle derrubou muralhas, \nEsse DEUS abriu o mar\n\nMas de quê me adianta \ncom os meus lábios Te adorar\nSe a minha vida ó DEUS \nnão Te  glorificar\n\nSei que o tempo não mudou \na Força do Seu Poder\nDEUS eu sei que TU és Grande\ne eu vim Te conhecer\n\nMe faz Te conhecer, \ntransforma a minha vida\nFaz os meus olhos verem \no que não viram ainda\nNão quero informações, \nSe materializa em mim ó DEUS\n\nQuem não conhece a DEUS \nrecua na batalha\nMas quem conhece vai em frente, \npois Ele não falha\nQuem conhece o SENHOR \nna vida será sempre um vencedor",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Tenho ouvido só falar do Seu Poder\nQuanto tempo eu Te sirvo \nsem Te conhecer",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Esse DEUS DESCONHECIDO, \nde que em tanto ouço falar\nEle derrubou muralhas, \nEsse DEUS abriu o mar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Mas de quê me adianta \ncom os meus lábios Te adorar\nSe a minha vida ó DEUS \nnão Te  glorificar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Sei que o tempo não mudou \na Força do Seu Poder\nDEUS eu sei que TU és Grande\ne eu vim Te conhecer",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Me faz Te conhecer, \ntransforma a minha vida\nFaz os meus olhos verem \no que não viram ainda\nNão quero informações, \nSe materializa em mim ó DEUS",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Quem não conhece a DEUS \nrecua na batalha\nMas quem conhece vai em frente, \npois Ele não falha\nQuem conhece o SENHOR \nna vida será sempre um vencedor",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

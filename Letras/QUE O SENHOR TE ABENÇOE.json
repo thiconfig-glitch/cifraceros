@@ -1,0 +1,50 @@
+{
+  "id": 1683573106606,
+  "title": " QUE O SENHOR TE ABENÇOE",
+  "artist": "",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Que o senhor te abençoe\nE faça brilhar seu rosto em ti\nQue conceda sua graça\nE te dê paz\n\nAmém, amém, amém\nAmém, amém, amém",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Que o senhor te abençoe\nE faça brilhar seu rosto em ti\nQue conceda sua graça\nE te dê paz",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Amém, amém, amém\nAmém, amém, amém",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": 1622737354718,
+  "title": "Alguém Que Eu Amo",
+  "artist": "Ton Carfi",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Oh! Meu Deus obrigado porque tu me deste\nEste alguém que entrou no meu caminho\nOh! Meu deus te agradeço porque tu fizeste \neste alguém pra mim que me deu um novo \nrumo!\n\nÉ alguém que eu amo\nAlguém que eu preciso\nÉ alguém que eu quero\nAlguém que eu procuro\nAh! Se eu soubesse que teria um alguém pra mim assim\nPodes crê és o meu grande amor\n\nUm amor tão grande assim não poderia \nencontrar em lugar algum neste mundo \ne nenhum coração",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Oh! Meu Deus obrigado porque tu me deste\nEste alguém que entrou no meu caminho\nOh! Meu deus te agradeço porque tu fizeste \neste alguém pra mim que me deu um novo \nrumo!",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "É alguém que eu amo\nAlguém que eu preciso\nÉ alguém que eu quero\nAlguém que eu procuro\nAh! Se eu soubesse que teria um alguém pra mim assim\nPodes crê és o meu grande amor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Um amor tão grande assim não poderia \nencontrar em lugar algum neste mundo \ne nenhum coração",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": 1582748875524,
+  "title": "ESCRAVO NUNCA MAIS",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "EU VOU PARA O MONTE SINAI\nQUE É O ALTAR NATURAL DO MEU DEUS\nMEU SACRIFÍCIO OFERECER, \nQUANDO O FOGO EM MIM ARDER\n\nALIANÇA COM DEUS EU FAREI,\nNESTE MONTE ESCOLHIDO POR ELE\nSEI QUE É MESMO DEUS DE MEUS PAIS\nVIVER ESCRAVO, NUNCA MAIS.\n\nLÁ NO SINAI\nMARAVILHAS EU VEREI\nLÁ NO SINAI\nQUE É O SANTO MONTE, SACRIFICAREI\n\nLÁ NO SINAI\nVOU OUVIR A VOZ DE DEUS\nARDER EM MEU CORAÇÃO\nPRA NUNCA MAIS SER ESCRAVO DA HUMILHAÇÃO",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "EU VOU PARA O MONTE SINAI\nQUE É O ALTAR NATURAL DO MEU DEUS\nMEU SACRIFÍCIO OFERECER, \nQUANDO O FOGO EM MIM ARDER",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "ALIANÇA COM DEUS EU FAREI,\nNESTE MONTE ESCOLHIDO POR ELE\nSEI QUE É MESMO DEUS DE MEUS PAIS\nVIVER ESCRAVO, NUNCA MAIS.",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "LÁ NO SINAI\nMARAVILHAS EU VEREI\nLÁ NO SINAI\nQUE É O SANTO MONTE, SACRIFICAREI",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "LÁ NO SINAI\nVOU OUVIR A VOZ DE DEUS\nARDER EM MEU CORAÇÃO\nPRA NUNCA MAIS SER ESCRAVO DA HUMILHAÇÃO",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

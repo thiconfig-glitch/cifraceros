@@ -1,0 +1,43 @@
+{
+  "id": 1582748875897,
+  "title": "Mais de Cristo",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "EU QUERO MAIS E MAIS DE CRISTO\nEU QUERO MAIS DO TEU PODER\nEU QUERO MAIS DA TUA PRESENÇA\nEU QUERO MAIS DO TEU VIVER",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "EU QUERO MAIS E MAIS DE CRISTO\nEU QUERO MAIS DO TEU PODER\nEU QUERO MAIS DA TUA PRESENÇA\nEU QUERO MAIS DO TEU VIVER",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

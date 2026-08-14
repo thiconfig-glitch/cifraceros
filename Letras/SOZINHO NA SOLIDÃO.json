@@ -1,0 +1,71 @@
+{
+  "id": 1582748875777,
+  "title": "SOZINHO NA SOLIDÃO",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "1,3,4,5",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "SOZINHO NA SOLIDÃO\nVAZIO E TRISTE AQUI\nESTOU PRECISANDO DO TEU AMOR\n\nSOZINHO NA SOLIDÃO\n\nDA TUA COMPAIXÃO\nDO TEU PERDÃO\nVEM AGORA MEU DEUS ME AJUDAR\n\nSENHOR, ESTENDA AS TUAS MÃOS\nMUITOS DIZEM EM DEUS\nNÃO HÁ SALVAÇÃO PRA MIM\n\nEU ME ARREPENDO SENHOR JESUS\nVENHA DAR ALEGRIA EM MINH`ALMA\nE EM MEU CORAÇÃO",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "SOZINHO NA SOLIDÃO\nVAZIO E TRISTE AQUI\nESTOU PRECISANDO DO TEU AMOR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "SOZINHO NA SOLIDÃO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "DA TUA COMPAIXÃO\nDO TEU PERDÃO\nVEM AGORA MEU DEUS ME AJUDAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "SENHOR, ESTENDA AS TUAS MÃOS\nMUITOS DIZEM EM DEUS\nNÃO HÁ SALVAÇÃO PRA MIM",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "EU ME ARREPENDO SENHOR JESUS\nVENHA DAR ALEGRIA EM MINH`ALMA\nE EM MEU CORAÇÃO",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

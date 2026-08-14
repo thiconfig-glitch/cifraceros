@@ -1,0 +1,71 @@
+{
+  "id": 1582748876019,
+  "title": "TE ESCOLHEU PRA VENCER",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Foi Deus que te escolheu\nE te capacitou para a guerra\nEle te preparou, te deu vestes e escudo\nTe cobriu de força e autoridade\n\nChegou a hora de avançar\nE não de desistir\nSoldado És, Deus conta contigo\nEntão verás que não irás sozinho\nNeste campo de batalha\nDeus irá contigo\n\nÉ Ele que te dá condição pra lutar\nPode o mundo inteiro tentar, destruir teus sonhos\nNão temas, não esqueça que o teu Deus é contigo\nVeja agora Ele derrota o inimigo por você\nTe ungiu, te escolheu pra vencer\n\nNão tenha medo do exército do mal\nDeus em sua frente vai destruindo os laços\n\nChegou a hora de avançar\nE não de desistir\nSoldado És, Deus conta contigo\nEntão verás que não irás sozinho\nNeste campo de batalha\nDeus irá contigo\nÉ Ele que te dá condição pra lutar",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Foi Deus que te escolheu\nE te capacitou para a guerra\nEle te preparou, te deu vestes e escudo\nTe cobriu de força e autoridade",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Chegou a hora de avançar\nE não de desistir\nSoldado És, Deus conta contigo\nEntão verás que não irás sozinho\nNeste campo de batalha\nDeus irá contigo",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "É Ele que te dá condição pra lutar\nPode o mundo inteiro tentar, destruir teus sonhos\nNão temas, não esqueça que o teu Deus é contigo\nVeja agora Ele derrota o inimigo por você\nTe ungiu, te escolheu pra vencer",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Não tenha medo do exército do mal\nDeus em sua frente vai destruindo os laços",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Chegou a hora de avançar\nE não de desistir\nSoldado És, Deus conta contigo\nEntão verás que não irás sozinho\nNeste campo de batalha\nDeus irá contigo\nÉ Ele que te dá condição pra lutar",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

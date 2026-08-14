@@ -1,0 +1,57 @@
+{
+  "id": 1610459319973,
+  "title": "São Tantas Coisas",
+  "artist": "Renato Suhett",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "São tantas coisas\nPra Te pedir meu Senhor\nNeste momento tantas lágrimas\nMolhando o travesseiro, cobertor\n\nAh quanta gente\nProcurando um caminho a seguir\nSão peregrinos, forasteiros\nSem ter aonde ir\n\nAh quanta vida em você meu amigo\nPra quem sofre num leito de dor\nAh quanto amor em você meu amigo\nPra quem vive na solidão\nVem Jesus responder\nA minha oração",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "São tantas coisas\nPra Te pedir meu Senhor\nNeste momento tantas lágrimas\nMolhando o travesseiro, cobertor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Ah quanta gente\nProcurando um caminho a seguir\nSão peregrinos, forasteiros\nSem ter aonde ir",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Ah quanta vida em você meu amigo\nPra quem sofre num leito de dor\nAh quanto amor em você meu amigo\nPra quem vive na solidão\nVem Jesus responder\nA minha oração",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

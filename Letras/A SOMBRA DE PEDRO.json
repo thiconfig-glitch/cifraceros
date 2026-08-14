@@ -1,0 +1,71 @@
+{
+  "id": 1644148001823,
+  "title": "A SOMBRA DE PEDRO",
+  "artist": "",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Quem tem um ente querido, no leito de um hospital\nQuerendo sobreviver, em fase terminal\nJá foi diagnosticado que ele não vai resistir\nSó aí entendemos Marta e Maria\nChame o mestre para vir aqui\n\nSó Deus pra fazer milagres, e eu me coloco na posição\nQue debaixo da Sua sombra, minha sombra tem a unção\nPra expulsar a enfermidade quando eu chegar no lugar\nE onde o ambiente estiver triste todos possam se alegrar\n\nA sombra de Pedro tinha a unção\nQuem chegava enfermo saia são\nE não era a sombra que curava\nMais a unção de Deus que nela estava \n\nEu quero, Senhor, desta unção\nPra ver o enfermo ficar são\nNo toque, na sombra ou no olhar\nVer o milagre se realizar\nCurar, Senhor, curar, Senhor!\nCurar, Senhor, curar, Senhor!\n\nEu vou estender as mãos e milagre acontecerá\nPor que tenho ainda a unção neste lugar",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Quem tem um ente querido, no leito de um hospital\nQuerendo sobreviver, em fase terminal\nJá foi diagnosticado que ele não vai resistir\nSó aí entendemos Marta e Maria\nChame o mestre para vir aqui",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Só Deus pra fazer milagres, e eu me coloco na posição\nQue debaixo da Sua sombra, minha sombra tem a unção\nPra expulsar a enfermidade quando eu chegar no lugar\nE onde o ambiente estiver triste todos possam se alegrar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "A sombra de Pedro tinha a unção\nQuem chegava enfermo saia são\nE não era a sombra que curava\nMais a unção de Deus que nela estava ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Eu quero, Senhor, desta unção\nPra ver o enfermo ficar são\nNo toque, na sombra ou no olhar\nVer o milagre se realizar\nCurar, Senhor, curar, Senhor!\nCurar, Senhor, curar, Senhor!",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Eu vou estender as mãos e milagre acontecerá\nPor que tenho ainda a unção neste lugar",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

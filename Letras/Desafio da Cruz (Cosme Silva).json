@@ -1,0 +1,71 @@
+{
+  "id": 1603812074981,
+  "title": "Desafio da Cruz",
+  "artist": "Cosme Silva",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "O Deus do desafio não perde na batalha\nExpulsa o trevoso e cancela todo mal\nO Deus do desafio não perde na batalha\nExpulsa o trevoso e cancela todo mal\n\nDesafio da cruz é pra decidir\nDesafio da cruz é pra decidir\n\nE não existe mal que possa me deter\nCom o Deus do desafio\neu não tenho o que temer\n\nE não existe mal que possa me deter\nCom o Deus do desafio\nEu não tenho o que temer\n\nEssa peleja é minha eu não posso recuar\nO desafio da cruz minha vitória vai chegar",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "O Deus do desafio não perde na batalha\nExpulsa o trevoso e cancela todo mal\nO Deus do desafio não perde na batalha\nExpulsa o trevoso e cancela todo mal",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Desafio da cruz é pra decidir\nDesafio da cruz é pra decidir",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "E não existe mal que possa me deter\nCom o Deus do desafio\neu não tenho o que temer",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "E não existe mal que possa me deter\nCom o Deus do desafio\nEu não tenho o que temer",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Essa peleja é minha eu não posso recuar\nO desafio da cruz minha vitória vai chegar",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

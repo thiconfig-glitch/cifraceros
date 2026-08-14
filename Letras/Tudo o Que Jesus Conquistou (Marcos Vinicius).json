@@ -1,0 +1,57 @@
+{
+  "id": 1616782869111,
+  "title": "Tudo o Que Jesus Conquistou",
+  "artist": "Marcos Vinicius",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Tudo o que Jesus conquistou na cruz\nÉ direito nosso, é nossa herança\nTodas as bênçãos de Deus prá nós\nTomamos posse, é nossa herança\n\nToda vida, todo poder\nTudo que Deus tem para dar\nAbrimos nossas vidas pra receber\nNada mais nos resistirá\n\nMaior é o que está em nós\nDo que o que está no mundo\nBem maior é o que está em nós",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Tudo o que Jesus conquistou na cruz\nÉ direito nosso, é nossa herança\nTodas as bênçãos de Deus prá nós\nTomamos posse, é nossa herança",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Toda vida, todo poder\nTudo que Deus tem para dar\nAbrimos nossas vidas pra receber\nNada mais nos resistirá",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Maior é o que está em nós\nDo que o que está no mundo\nBem maior é o que está em nós",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

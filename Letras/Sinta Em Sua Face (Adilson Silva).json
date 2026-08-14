@@ -1,0 +1,50 @@
+{
+  "id": 1627515455629,
+  "title": "Sinta Em Sua Face",
+  "artist": "Adilson Silva",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Sinta em sua face o roçar \nda orla do vestido de Jesus\n \nSinta que o Senhor esta aqui \ne quer ouvir o seu louvor\nCantemos com alegria \ne oremos com devoção\n\nVem, Senhor morar \nem meu coração\n \nVem, Senhor morar \nem meu coração",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Sinta em sua face o roçar \nda orla do vestido de Jesus\n \nSinta que o Senhor esta aqui \ne quer ouvir o seu louvor\nCantemos com alegria \ne oremos com devoção",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Vem, Senhor morar \nem meu coração\n \nVem, Senhor morar \nem meu coração",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

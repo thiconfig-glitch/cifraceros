@@ -1,0 +1,78 @@
+{
+  "id": 1617534526920,
+  "title": "Ministração, venho como estou",
+  "artist": "R.R. Soares",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Eu venho como estou!\nEu venho como estou!\nPorque Jesus por mim morreu,\nEu venho como estou!\n\nAceita, ó pecador!\nAceita, ó pecador!\nPorque Jesus por ti morreu\nAceita, ó pecador!\n\nSeu Nome é Jesus\nSeu Nome é Jesus\nSeu Nome é Jesus\nEu O amo sim\nOh! Quanto eu O adoro\nA Ele eu me rendo\nSeu Nome é Jesus,\nEu O amo sim\n\nEu O amo sim\nOh! Quanto eu O adoro\nA Ele eu me rendo\nSeu Nome é Jesus,\nEu O amo sim\n\nEu quero adorar!\nEu quero adorar!\nA quem por mim na cruz morreu\nEu quero adorar!\n\nEu venho agradecer!\nEu venho agradecer!\nA quem por mim na cruz morreu\nEu venho agradecer!",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Eu venho como estou!\nEu venho como estou!\nPorque Jesus por mim morreu,\nEu venho como estou!",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Aceita, ó pecador!\nAceita, ó pecador!\nPorque Jesus por ti morreu\nAceita, ó pecador!",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Seu Nome é Jesus\nSeu Nome é Jesus\nSeu Nome é Jesus\nEu O amo sim\nOh! Quanto eu O adoro\nA Ele eu me rendo\nSeu Nome é Jesus,\nEu O amo sim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Eu O amo sim\nOh! Quanto eu O adoro\nA Ele eu me rendo\nSeu Nome é Jesus,\nEu O amo sim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Eu quero adorar!\nEu quero adorar!\nA quem por mim na cruz morreu\nEu quero adorar!",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Eu venho agradecer!\nEu venho agradecer!\nA quem por mim na cruz morreu\nEu venho agradecer!",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

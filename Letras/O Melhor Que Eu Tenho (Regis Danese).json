@@ -1,0 +1,92 @@
+{
+  "id": 1598805339992,
+  "title": "O Melhor Que Eu Tenho",
+  "artist": "Regis Danese",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Eis aqui Senhor o melhor \nque eu tenho\nO Senhor mesmo me dá\nÉs o meu pastor meu \n\nmelhor amigo\nQue me sustenta e \nnada deixa me faltar\n\nDe coração com alegria\nQuero devolver aquilo que \né Teu, Estou aqui pra te honrar\nAs Suas bênçãos sempre vão \nMe acompanhar\n\nRepreende todo mal\nAbre a janela do céu sobre mim\nE derrama, bênçãos sem fim\n \nSei que És um Deus fiel\nNa Tua palavra está escrito assim\nFoi o Senhor quem falou: \nFazei prova de mim\n\nDe coração com alegria\nQuero devolver aquilo que \né Teu, Estou aqui Senhor \n\npra lhe ofertar\nAs Suas bênçãos sempre vão\nMe acompanhar\n\nRepreende todo mal\nAbre a janela do céu sobre mim\nE derrama, bênçãos sem fim\n\nSei que És um Deus fiel\nNa Tua palavra está escrito assim\nFoi o Senhor quem falou:\nFazei prova de mim",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Eis aqui Senhor o melhor \nque eu tenho\nO Senhor mesmo me dá\nÉs o meu pastor meu ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "melhor amigo\nQue me sustenta e \nnada deixa me faltar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "De coração com alegria\nQuero devolver aquilo que \né Teu, Estou aqui pra te honrar\nAs Suas bênçãos sempre vão \nMe acompanhar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Repreende todo mal\nAbre a janela do céu sobre mim\nE derrama, bênçãos sem fim\n \nSei que És um Deus fiel\nNa Tua palavra está escrito assim\nFoi o Senhor quem falou: \nFazei prova de mim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "De coração com alegria\nQuero devolver aquilo que \né Teu, Estou aqui Senhor ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "pra lhe ofertar\nAs Suas bênçãos sempre vão\nMe acompanhar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Repreende todo mal\nAbre a janela do céu sobre mim\nE derrama, bênçãos sem fim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": "Sei que És um Deus fiel\nNa Tua palavra está escrito assim\nFoi o Senhor quem falou:\nFazei prova de mim",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

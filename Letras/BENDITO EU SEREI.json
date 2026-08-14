@@ -1,0 +1,64 @@
+{
+  "id": 1582748875943,
+  "title": "BENDITO EU SEREI",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "QUERO OUVIR TUA VOZ\nAS SANDÁLIAS EU JÁ TIREI\nA MINH'ALMA ANSEIA \nPOR TUA PRESENÇA\nMAIS QUE A TERRA SECA \nANSEIA PELA CHUVA\n\nGUARDAREI TEUS MANDAMENTOS\nPOIS PRA MIM SÃO MAIS PRECIOSOS\nDO QUE OURO, PRATA OU \nQUALQUER RIQUEZA\nPOIS TUAS BÊNÇÃOS VIRÃO \nE ME ALCANÇARÃO\n\nBENDITO EU SEREI\nOS MEUS CELEIROS TRANSBORDARÃO\nTODOS VERÃO QUE SOU CHAMADO\nPELO NOME DO SENHOR\n\nE OS CÉUS SE ABRIRÃO\nO BOM TESOURO DO MEU SENHOR\nTUDO VAI PROSPERAR\nONDE EU TOCAR AS MINHAS MÃOS",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "QUERO OUVIR TUA VOZ\nAS SANDÁLIAS EU JÁ TIREI\nA MINH'ALMA ANSEIA \nPOR TUA PRESENÇA\nMAIS QUE A TERRA SECA \nANSEIA PELA CHUVA",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "GUARDAREI TEUS MANDAMENTOS\nPOIS PRA MIM SÃO MAIS PRECIOSOS\nDO QUE OURO, PRATA OU \nQUALQUER RIQUEZA\nPOIS TUAS BÊNÇÃOS VIRÃO \nE ME ALCANÇARÃO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "BENDITO EU SEREI\nOS MEUS CELEIROS TRANSBORDARÃO\nTODOS VERÃO QUE SOU CHAMADO\nPELO NOME DO SENHOR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "E OS CÉUS SE ABRIRÃO\nO BOM TESOURO DO MEU SENHOR\nTUDO VAI PROSPERAR\nONDE EU TOCAR AS MINHAS MÃOS",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

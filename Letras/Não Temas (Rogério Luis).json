@@ -1,0 +1,64 @@
+{
+  "id": 1607774340941,
+  "title": "Não Temas",
+  "artist": "Rogério Luis",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Não temas\nNa angústia em aflição, estou contigo\nNesse deserto eu sou o teu abrigo\nEu torno a tua angústia em alegria\n\nNão temas\nNa tempestade eu estou no teu barco\nEu sou o teu farol pra te guiar\nA terra que você sempre sonhou chegar\n\nNão temas\nEu sou contigo mesmo se o sol se apagar\nConfia e em mim perseveras\nQue a promessa se cumprirá\n\nNão temas\nEu sou contigo, a minha palavra é fiel\nEu sou o Deus criador do sol\nDa terra, do mar e do céu",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Não temas\nNa angústia em aflição, estou contigo\nNesse deserto eu sou o teu abrigo\nEu torno a tua angústia em alegria",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Não temas\nNa tempestade eu estou no teu barco\nEu sou o teu farol pra te guiar\nA terra que você sempre sonhou chegar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Não temas\nEu sou contigo mesmo se o sol se apagar\nConfia e em mim perseveras\nQue a promessa se cumprirá",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Não temas\nEu sou contigo, a minha palavra é fiel\nEu sou o Deus criador do sol\nDa terra, do mar e do céu",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": 1582748875866,
+  "title": "VOLTA POR CIMA",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "EU JÁ ESQUECI O PASSADO\nMAS EU VOU DAR A VOLTA POR CIMA\nE VOU EM FRENTE\nINFELIZMENTE NA VIDA DA GENTE\nÀS VEZES ACONTECEM COISAS\nTÃO DIFÍCEIS DE ACEITAR\n\nMAS EU VOU \nDAR A VOLTA POR CIMA\n \nMAS EU VOU\nDAR A VOLTA POR CIMA\nSIM EU VOU\n\nPORQUE EU LUTO COM AS ARMAS\nQUE O SENHOR ME DEU\nPORQUE EU CREIO NA SANTA \nPALAVRA DE DEUS\nSE O DIABO É FEROZ \nE O MUNDO É CRUEL\nDEUS É MARAVILHOSO E JESUS É FIEL",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "EU JÁ ESQUECI O PASSADO\nMAS EU VOU DAR A VOLTA POR CIMA\nE VOU EM FRENTE\nINFELIZMENTE NA VIDA DA GENTE\nÀS VEZES ACONTECEM COISAS\nTÃO DIFÍCEIS DE ACEITAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "MAS EU VOU \nDAR A VOLTA POR CIMA\n \nMAS EU VOU\nDAR A VOLTA POR CIMA\nSIM EU VOU",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "PORQUE EU LUTO COM AS ARMAS\nQUE O SENHOR ME DEU\nPORQUE EU CREIO NA SANTA \nPALAVRA DE DEUS\nSE O DIABO É FEROZ \nE O MUNDO É CRUEL\nDEUS É MARAVILHOSO E JESUS É FIEL",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

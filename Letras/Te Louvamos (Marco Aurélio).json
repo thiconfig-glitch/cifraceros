@@ -1,0 +1,57 @@
+{
+  "id": 1615124222527,
+  "title": "Te Louvamos",
+  "artist": "Marco Aurélio",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Te louvamos ó Senhor \nporque és Santo\nA Ti rendemos honras e louvor\nLevantamos nossas mãos\nPra te exaltar\nEm perfeita comunhão\nEm teu altar\n\nTe adoramos ó Senhor\nPorque és digno\nSim digno és Senhor de adoração\nNessa hora de oração\nÉ teu nosso coração\nVem visita cada um com tua unção\n\nPasseia entre nós \nSanto Espírito meu Deus\nQueremos ouvir Tua voz\nFala Senhor com os servos Teus\n \nToca nos corações\nMinistra paz e renovação\nQueremos sentir o toque de Tuas mãos",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Te louvamos ó Senhor \nporque és Santo\nA Ti rendemos honras e louvor\nLevantamos nossas mãos\nPra te exaltar\nEm perfeita comunhão\nEm teu altar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Te adoramos ó Senhor\nPorque és digno\nSim digno és Senhor de adoração\nNessa hora de oração\nÉ teu nosso coração\nVem visita cada um com tua unção",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Passeia entre nós \nSanto Espírito meu Deus\nQueremos ouvir Tua voz\nFala Senhor com os servos Teus\n \nToca nos corações\nMinistra paz e renovação\nQueremos sentir o toque de Tuas mãos",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "id": 1634823298152,
+  "title": "Sobre as Águas",
+  "artist": "Toque no Altar",
+  "author": "Davi Sacer, Luiz Arcanjo, Ronald Fonseca",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Se o sol se pôr\nE a noite chegar\nTu és quem me guia\n\nSe a tempestade\nMe alcançar\nTu és meu abrigo\n\nSe o mar me submergir\nA Tua mão me traz\nÀ tona pra respirar\n\nE me faz andar\nSobre as águas\n\nTu és o Deus\nDa minha salvação\nÉs o meu dono\nMinha paixão\n\nMinha canção\nE o meu louvor\n\nAleluia, aleluia",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Se o sol se pôr\nE a noite chegar\nTu és quem me guia",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Se a tempestade\nMe alcançar\nTu és meu abrigo",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Se o mar me submergir\nA Tua mão me traz\nÀ tona pra respirar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "E me faz andar\nSobre as águas",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Tu és o Deus\nDa minha salvação\nÉs o meu dono\nMinha paixão",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Minha canção\nE o meu louvor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Aleluia, aleluia",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

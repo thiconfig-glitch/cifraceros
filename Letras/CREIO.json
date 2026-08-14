@@ -1,0 +1,85 @@
+{
+  "id": 1582748875430,
+  "title": "CREIO",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "CREIO, NUM DEUS QUE PODE TUDO\nE DÁ A LUZ À ESTE MUNDO\nE FAZ A NOITE TÃO LINDA SER\n\nCREIO, NESTA VERDADE SANTA\nQUEM ESTÁ CAÍDO SE LEVANTA\nPELA VIRTUDE QUE ESTA PALAVRA TEM\n\nÉ FORTE COMO O AMOR\nÉ LINDA COMO A flor\nMAIS PURA DO QUE UMA \nTAÇA DE CRISTAL; \nÉ DOCE COMO O MEL, \nNOS FALA LÁ DO CÉU\nÉ A PALAVRA SANTA DO SENHOR\n\nCREIO, QUE O MAR VERMELHO\nUM DIA SE ABRIU\nPOR ONDE O POVO ASSIM FUGIU\nMAS A FARAÓ NÃO DEIXOU PASSAR\n\nCREIO, EM DANIEL NA \nCOVA DOS LEÕES\nNÃO TINHA MEDO \nNEM ARRANHÕES\nPOIS COM ELE ESTAVA \nA PALAVRA DE DEUS\n\nCREIO, QUE FOGO LÁ DO CÉU MESMO CAIU\nE O HOLOCAUSTO CONSUMIU\nVIRAM QUE O DEUS DE ELIAS\nÉ O DEUS DE ISRAEL\n\nCREIO, QUE AS TUAS LUTAS\nPODERÃO PASSAR\nBASTA SOMENTE CONFIAR\nNAS PROMESSAS SANTAS\nDA PALAVRA DE DEUS",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "CREIO, NUM DEUS QUE PODE TUDO\nE DÁ A LUZ À ESTE MUNDO\nE FAZ A NOITE TÃO LINDA SER",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "CREIO, NESTA VERDADE SANTA\nQUEM ESTÁ CAÍDO SE LEVANTA\nPELA VIRTUDE QUE ESTA PALAVRA TEM",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "É FORTE COMO O AMOR\nÉ LINDA COMO A flor\nMAIS PURA DO QUE UMA \nTAÇA DE CRISTAL; \nÉ DOCE COMO O MEL, \nNOS FALA LÁ DO CÉU\nÉ A PALAVRA SANTA DO SENHOR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "CREIO, QUE O MAR VERMELHO\nUM DIA SE ABRIU\nPOR ONDE O POVO ASSIM FUGIU\nMAS A FARAÓ NÃO DEIXOU PASSAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "CREIO, EM DANIEL NA \nCOVA DOS LEÕES\nNÃO TINHA MEDO \nNEM ARRANHÕES\nPOIS COM ELE ESTAVA \nA PALAVRA DE DEUS",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "CREIO, QUE FOGO LÁ DO CÉU MESMO CAIU\nE O HOLOCAUSTO CONSUMIU\nVIRAM QUE O DEUS DE ELIAS\nÉ O DEUS DE ISRAEL",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "CREIO, QUE AS TUAS LUTAS\nPODERÃO PASSAR\nBASTA SOMENTE CONFIAR\nNAS PROMESSAS SANTAS\nDA PALAVRA DE DEUS",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

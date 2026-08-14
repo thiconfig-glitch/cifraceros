@@ -1,0 +1,85 @@
+{
+  "id": 1582748875565,
+  "title": "EM ESPIRITO E EM VERDADE",
+  "artist": "MOISES CLAYTON",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "OH! PAI EU SOU TÃO FALHO\nSOU UM POBRE PECADOR\nE AS VEZES ME ESQUEÇO\nO QUAO GRANDE É O TEU AMOR\n\nAS VEZES EU RECLAMO\nQUERO SEMPRE TER RAZÃO\nME ESQUEÇO QUE A FÉ\nÉ O QUE ME TRAZ SALVAÇÃO\n\nPAI ME AJUDE SER MELHOR\nE EM VERDADE TE ADORAR\nA ESQUECER O QUE PASSOU\nME AJUDE A PERDOAR\n\nJA NÃO QUERO SER MAIS EU\nEU QUERO QUE VIVAS EM MIM\nO MEU CORAÇÃO É TEU\nTUA VONTADE FAÇA EM MIM\n\nVEM TRANSFORMAR MEU CORAÇÃO\nCOMO FIZESTES A DAVI\nRENOVA EM MIM A TUA UNÇÃO\nPOIS QUERO SER FIEL A TI\nEU QUERO ME PROSTRAR\nSEM RANCOR SEM FALSIDADE\nEM ESPIRITO E EM VERDADE\nPAI EU QUERO TE ADORAR\n\nPAI ME AJUDE SER MELHOR\nE EM VERDADE TE ADORAR\nA ESQUECER O QUE PASSOU\nME AJUDE A PERDOAR\n\nJA NÃO QUERO SER MAIS EU\nEU QUERO QUE VIVAS EM MIM\nO MEU CORAÇÃO É TEU\nTUA VONTADE FAÇA EM MIM",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "OH! PAI EU SOU TÃO FALHO\nSOU UM POBRE PECADOR\nE AS VEZES ME ESQUEÇO\nO QUAO GRANDE É O TEU AMOR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "AS VEZES EU RECLAMO\nQUERO SEMPRE TER RAZÃO\nME ESQUEÇO QUE A FÉ\nÉ O QUE ME TRAZ SALVAÇÃO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "PAI ME AJUDE SER MELHOR\nE EM VERDADE TE ADORAR\nA ESQUECER O QUE PASSOU\nME AJUDE A PERDOAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "JA NÃO QUERO SER MAIS EU\nEU QUERO QUE VIVAS EM MIM\nO MEU CORAÇÃO É TEU\nTUA VONTADE FAÇA EM MIM",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "VEM TRANSFORMAR MEU CORAÇÃO\nCOMO FIZESTES A DAVI\nRENOVA EM MIM A TUA UNÇÃO\nPOIS QUERO SER FIEL A TI\nEU QUERO ME PROSTRAR\nSEM RANCOR SEM FALSIDADE\nEM ESPIRITO E EM VERDADE\nPAI EU QUERO TE ADORAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "PAI ME AJUDE SER MELHOR\nE EM VERDADE TE ADORAR\nA ESQUECER O QUE PASSOU\nME AJUDE A PERDOAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "JA NÃO QUERO SER MAIS EU\nEU QUERO QUE VIVAS EM MIM\nO MEU CORAÇÃO É TEU\nTUA VONTADE FAÇA EM MIM",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

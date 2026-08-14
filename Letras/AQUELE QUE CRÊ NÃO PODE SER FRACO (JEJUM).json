@@ -1,0 +1,71 @@
+{
+  "id": 1582748875756,
+  "title": "AQUELE QUE CRÊ NÃO PODE SER FRACO",
+  "artist": "JEJUM",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "AQUELE QUE CRÊ NÃO PODE SER FRACO\nNÃO PODE ACEITAR A SITUAÇÃO\nPOIS O SEU DEUS NÃO É LIMITADO\nÉ CHAMA ARDENTE EM SEU CORAÇÃO\nAQUELE QUE CRÊ NÃO PODE SER FRACO\n\nAQUELE QUE É FORTE VENCE A BATALHA E NÃO DEPENDE DAQUILO QUE VÊ\nO FOGO ARDENTE ESTÁ EM SEU PEITO\n\nS UAS MARAVILHAS NO ALTAR QUERO VER\nE A VITÓRIA EU SEI QUE VOU RECEBER\nQUE MARAVILHA MINHA VIDA SERÁ\nE NO JEJUM IREI SACRIFICAR\n\nE NO JEJUM IREI SACRIFICAR\nE NO JEJUM IREI SACRIFICAR\nE NO JEJUM IREI SACRIFICAR\n\nS UAS MARAVILHAS NO ALTAR QUERO VER\nE A VITÓRIA EU SEI QUE VOU RECEBER\nQUE MARAVILHA MINHA VIDA SERÁ\nE NO JEJUM IREI SACRIFICAR",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "AQUELE QUE CRÊ NÃO PODE SER FRACO\nNÃO PODE ACEITAR A SITUAÇÃO\nPOIS O SEU DEUS NÃO É LIMITADO\nÉ CHAMA ARDENTE EM SEU CORAÇÃO\nAQUELE QUE CRÊ NÃO PODE SER FRACO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "AQUELE QUE É FORTE VENCE A BATALHA E NÃO DEPENDE DAQUILO QUE VÊ\nO FOGO ARDENTE ESTÁ EM SEU PEITO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "S UAS MARAVILHAS NO ALTAR QUERO VER\nE A VITÓRIA EU SEI QUE VOU RECEBER\nQUE MARAVILHA MINHA VIDA SERÁ\nE NO JEJUM IREI SACRIFICAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "E NO JEJUM IREI SACRIFICAR\nE NO JEJUM IREI SACRIFICAR\nE NO JEJUM IREI SACRIFICAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "S UAS MARAVILHAS NO ALTAR QUERO VER\nE A VITÓRIA EU SEI QUE VOU RECEBER\nQUE MARAVILHA MINHA VIDA SERÁ\nE NO JEJUM IREI SACRIFICAR",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

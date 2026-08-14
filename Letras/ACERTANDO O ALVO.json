@@ -1,0 +1,71 @@
+{
+  "id": 1658602856797,
+  "title": "ACERTANDO O ALVO",
+  "artist": "",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Eu sei que já tentei buscar uma saída \nUm rumo, um caminho certo pra minha vida\nComplicado\nTão complicado\n\nEm tantas coisas pus expectativa \nCai, me levantei \nForam tantas tentativas \nComplicado\nMuito complicado\n\nMas no fundo \nEu sempre soube \nO meu lugar\nE é nos braços do Senhor que vou me lançar \nEu caí, mas escolho me levantar \n\nMirar no alvo \nPra acertar \nSem cair, sem desistir, sem desanimar \nConfiar, insistir e acreditar\n\nMirar no alvo\nPra acertar \nSem cair, sem desistir, sem desanimar \nConfiar, insistir e acreditar",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Eu sei que já tentei buscar uma saída \nUm rumo, um caminho certo pra minha vida\nComplicado\nTão complicado",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Em tantas coisas pus expectativa \nCai, me levantei \nForam tantas tentativas \nComplicado\nMuito complicado",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Mas no fundo \nEu sempre soube \nO meu lugar\nE é nos braços do Senhor que vou me lançar \nEu caí, mas escolho me levantar ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Mirar no alvo \nPra acertar \nSem cair, sem desistir, sem desanimar \nConfiar, insistir e acreditar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Mirar no alvo\nPra acertar \nSem cair, sem desistir, sem desanimar \nConfiar, insistir e acreditar",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

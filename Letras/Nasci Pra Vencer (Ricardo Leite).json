@@ -1,0 +1,85 @@
+{
+  "id": 1598879838993,
+  "title": "Nasci Pra Vencer",
+  "artist": "Ricardo Leite",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Eu nasci pra vencer\nNasci pra reinar\nNasci para conquistar\n\nTudo posso em Cristo Jesus\nEle me conduz\nAos pastos verdejantes\nEu não temerei\nCom Cristo eu sou\nMais que vencedor\n\nEu nasci pra vencer\nNasci pra reinar\nNasci para conquistar\n\nCom Cristo derrubo as muralhas\nEu venço exércitos\nEu sou um campeão\nEstou protegido por Deus bem guardado\nEu sou soldado\ne não nasci pra perder\n\nEu nasci pra vencer\nNasci pra reinar\nNasci para conquistar\n\nEstou bem certo que nada nem ninguém\nVai me impedir de conquistar\nEu vou insistir com Deus prosseguir\nMeu nome é vitória\ne assim eu vou até o fim\n\nEu nasci pra vencer\nNasci pra reinar\nNasci para conquistar",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Eu nasci pra vencer\nNasci pra reinar\nNasci para conquistar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Tudo posso em Cristo Jesus\nEle me conduz\nAos pastos verdejantes\nEu não temerei\nCom Cristo eu sou\nMais que vencedor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Eu nasci pra vencer\nNasci pra reinar\nNasci para conquistar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Com Cristo derrubo as muralhas\nEu venço exércitos\nEu sou um campeão\nEstou protegido por Deus bem guardado\nEu sou soldado\ne não nasci pra perder",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Eu nasci pra vencer\nNasci pra reinar\nNasci para conquistar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Estou bem certo que nada nem ninguém\nVai me impedir de conquistar\nEu vou insistir com Deus prosseguir\nMeu nome é vitória\ne assim eu vou até o fim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Eu nasci pra vencer\nNasci pra reinar\nNasci para conquistar",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

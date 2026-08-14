@@ -1,0 +1,78 @@
+{
+  "id": 1582748875533,
+  "title": "Ele Não Desiste de Você",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "NÃO IMPORTA \nQUEM VOCÊ É\nNÃO IMPORTA \nO QUE VOCÊ FEZ\nJESUS CONHECE O SEU \nINTERIOR TAMBÉM\n\nQUANTAS VEZES VOCÊ CAIU\nTENTANDO ACERTAR\nMAS A TRISTEZA E O DESESPERO\nTE FIZERAM CHORAR\n\nNÃO IMPORTA PRA ONDE VOCÊ FOI\nSE NA ESCURIDÃO DA NOITE\nELE APAGA O SEU PASSADO\nE NÃO DESISTE DE VOCÊ\n\nELE NÃO DESISTE DE VOCÊ\nELE SE IMPORTA COM VOCÊ\nELE COMPREENDE O SEU CAMINHAR\nNUNCA VI UM AMOR \nTÃO GRANDE ASSIM\n\nELE NÃO DESISTE DE VOCÊ\nELE SE IMPORTA COM VOCÊ\nELE COMPREENDE O SEU CAMINHAR\nNUNCA VI UM AMOR \nTÃO GRANDE ASSIM\nELE NÃO DESISTE\n\nELE NAO DESISTE\nELE NAO DESISTE\nELE NAO DESISTE",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "NÃO IMPORTA \nQUEM VOCÊ É\nNÃO IMPORTA \nO QUE VOCÊ FEZ\nJESUS CONHECE O SEU \nINTERIOR TAMBÉM",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "QUANTAS VEZES VOCÊ CAIU\nTENTANDO ACERTAR\nMAS A TRISTEZA E O DESESPERO\nTE FIZERAM CHORAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "NÃO IMPORTA PRA ONDE VOCÊ FOI\nSE NA ESCURIDÃO DA NOITE\nELE APAGA O SEU PASSADO\nE NÃO DESISTE DE VOCÊ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "ELE NÃO DESISTE DE VOCÊ\nELE SE IMPORTA COM VOCÊ\nELE COMPREENDE O SEU CAMINHAR\nNUNCA VI UM AMOR \nTÃO GRANDE ASSIM",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "ELE NÃO DESISTE DE VOCÊ\nELE SE IMPORTA COM VOCÊ\nELE COMPREENDE O SEU CAMINHAR\nNUNCA VI UM AMOR \nTÃO GRANDE ASSIM\nELE NÃO DESISTE",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "ELE NAO DESISTE\nELE NAO DESISTE\nELE NAO DESISTE",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

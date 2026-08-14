@@ -1,0 +1,99 @@
+{
+  "id": 1582748875907,
+  "title": "FORCA E VITORIA",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "TODO JOELHO SE DOBRARÁ\nE TODA LÍNGUA PROCLAMARÁ\nQUE JESUS CRISTO É O SENHOR\n\nTODO JOELHO SE DOBRARÁ\nE TODA LÍNGUA PROCLAMARÁ\nQUE JESUS CRISTO É O SENHOR\n\nNADA PODERÁ ME ABALAR\nNADA PODERÁ ME DERROTAR\nPOIS MINHA FORÇA E VITÓRIA\nTEM UM NOME\nÉ JESUS\n\nNADA PODERÁ ME ABALAR\nNADA PODERÁ ME DERROTAR\nPOIS MINHA FORÇA E VITÓRIA\nÉ JESUS\n\nQUERO VIVER TUA PALAVRA\nQUERO SER CHEIO DO TEU ESPÍRITO\nMAS SÓ TE PEÇO, LIVRA-ME DO MAL\n\nQUERO VIVER TUA PALAVRA\nQUERO SER CHEIO DO TEU ESPÍRITO\nMAS SÓ TE PEÇO, LIVRA-ME DO MAL\n\nNADA PODERÁ ME ABALAR\nNADA PODERÁ ME DERROTAR\nPOIS MINHA FORÇA E VITÓRIA\nTEM UM NOME\nÉ JESUS\n\nNADA PODERÁ ME ABALAR\nNADA PODERÁ ME DERROTAR\nPOIS MINHA FORÇA E VITÓRIA\nÉ JESUS\n\nJESUS!\nJESUS!\nJESUS!",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "TODO JOELHO SE DOBRARÁ\nE TODA LÍNGUA PROCLAMARÁ\nQUE JESUS CRISTO É O SENHOR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "TODO JOELHO SE DOBRARÁ\nE TODA LÍNGUA PROCLAMARÁ\nQUE JESUS CRISTO É O SENHOR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "NADA PODERÁ ME ABALAR\nNADA PODERÁ ME DERROTAR\nPOIS MINHA FORÇA E VITÓRIA\nTEM UM NOME\nÉ JESUS",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "NADA PODERÁ ME ABALAR\nNADA PODERÁ ME DERROTAR\nPOIS MINHA FORÇA E VITÓRIA\nÉ JESUS",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "QUERO VIVER TUA PALAVRA\nQUERO SER CHEIO DO TEU ESPÍRITO\nMAS SÓ TE PEÇO, LIVRA-ME DO MAL",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "QUERO VIVER TUA PALAVRA\nQUERO SER CHEIO DO TEU ESPÍRITO\nMAS SÓ TE PEÇO, LIVRA-ME DO MAL",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "NADA PODERÁ ME ABALAR\nNADA PODERÁ ME DERROTAR\nPOIS MINHA FORÇA E VITÓRIA\nTEM UM NOME\nÉ JESUS",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": "NADA PODERÁ ME ABALAR\nNADA PODERÁ ME DERROTAR\nPOIS MINHA FORÇA E VITÓRIA\nÉ JESUS",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 9,
+        "description": "",
+        "text": "JESUS!\nJESUS!\nJESUS!",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": 1582748876010,
+  "title": "MEU SOCORRO",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "PELA MANHÃ TE BUSCAREI\nDE MADRUGADA \nEU ME ACERCAREI DE TI\n\nMINH'ALMA TE ANELA E TEM SEDE\nDE VER TUA GLÓRIA \nE TEU PODER\n\nMEU SOCORRO VEM DE TI\nE NA SOMBRA DE \nTUAS ASAS REGOZIJAREI\nMINH'ALMA ESTÁ APEGADA A TI\n\nPORQUE TUA DESTRA \nME TEM SUSTENTADO\nPOIS TUA DESTRA \nME TEM SUSTENTADO",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "PELA MANHÃ TE BUSCAREI\nDE MADRUGADA \nEU ME ACERCAREI DE TI",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "MINH'ALMA TE ANELA E TEM SEDE\nDE VER TUA GLÓRIA \nE TEU PODER",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "MEU SOCORRO VEM DE TI\nE NA SOMBRA DE \nTUAS ASAS REGOZIJAREI\nMINH'ALMA ESTÁ APEGADA A TI",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "PORQUE TUA DESTRA \nME TEM SUSTENTADO\nPOIS TUA DESTRA \nME TEM SUSTENTADO",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

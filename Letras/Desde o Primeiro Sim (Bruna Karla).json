@@ -1,0 +1,99 @@
+{
+  "id": 1622737432470,
+  "title": "Desde o Primeiro Sim",
+  "artist": "Bruna Karla",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Eu disse sim pra você\nFoi no primeiro olhar\nEu disse sim pra nós dois\nAté o fim\n\nEu disse sim, vou dividir\nOs meus momentos com você\nEu disse sim, vou estar aqui\nQuando você precisar\n\nDias de Sol, dias de chuva\nDe ventania ou calmaria\nEu disse sim, quero viver\nA minha vida inteira com você\n\nEu amo o seu jeito de me fazer sorrir\nAmo as surpresas e o seu olhar pra mim\nDizendo que me ama\nEu amo o seu jeito de me entender\nAmo a sua voz a me dizer\nQue vai me amar até o fim\nDesde o primeiro sim\n\nEu disse sim, quero viver\nA minha vida inteira com você\n\nEu amo o seu jeito de me fazer sorrir\nAmo as surpresas e o seu olhar pra mim\nDizendo que me ama\nEu amo o seu jeito de me entender\nAmo a sua voz a me dizer\nQue vai me amar até o fim\nDesde o primeiro sim\n\nEu disse sim para o amor\nQuando encontrei você\nDeus disse sim para nós dois\nE nos abençoou\n\nEu amo o seu jeito de me fazer sorrir\nAmo as surpresas e o seu olhar pra mim\nDizendo que me ama\nEu amo o seu jeito de me entender\nAmo a sua voz a me dizer\nQue vai me amar até o fim\nDesde o primeiro sim\n\nDesde o primeiro sim\nEu já sabia que era até o fim",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Eu disse sim pra você\nFoi no primeiro olhar\nEu disse sim pra nós dois\nAté o fim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Eu disse sim, vou dividir\nOs meus momentos com você\nEu disse sim, vou estar aqui\nQuando você precisar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Dias de Sol, dias de chuva\nDe ventania ou calmaria\nEu disse sim, quero viver\nA minha vida inteira com você",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Eu amo o seu jeito de me fazer sorrir\nAmo as surpresas e o seu olhar pra mim\nDizendo que me ama\nEu amo o seu jeito de me entender\nAmo a sua voz a me dizer\nQue vai me amar até o fim\nDesde o primeiro sim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Eu disse sim, quero viver\nA minha vida inteira com você",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Eu amo o seu jeito de me fazer sorrir\nAmo as surpresas e o seu olhar pra mim\nDizendo que me ama\nEu amo o seu jeito de me entender\nAmo a sua voz a me dizer\nQue vai me amar até o fim\nDesde o primeiro sim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Eu disse sim para o amor\nQuando encontrei você\nDeus disse sim para nós dois\nE nos abençoou",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": "Eu amo o seu jeito de me fazer sorrir\nAmo as surpresas e o seu olhar pra mim\nDizendo que me ama\nEu amo o seu jeito de me entender\nAmo a sua voz a me dizer\nQue vai me amar até o fim\nDesde o primeiro sim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 9,
+        "description": "",
+        "text": "Desde o primeiro sim\nEu já sabia que era até o fim",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

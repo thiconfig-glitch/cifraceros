@@ -1,0 +1,57 @@
+{
+  "id": 1618086982589,
+  "title": "Espalha",
+  "artist": "FJU",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Espalha a notícia que Jesus chegou\nEle é a vida é o nosso Salvador\nEspalha a notícia que Jesus Chegou\n\nEspalha, espalha, \nespalha, espalha\nA Força Jovem tá na área\n\nPisa pisa pisa no pecado\nSó não pode pisar no pé \ndo amigo do seu lado",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Espalha a notícia que Jesus chegou\nEle é a vida é o nosso Salvador\nEspalha a notícia que Jesus Chegou",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Espalha, espalha, \nespalha, espalha\nA Força Jovem tá na área",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Pisa pisa pisa no pecado\nSó não pode pisar no pé \ndo amigo do seu lado",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

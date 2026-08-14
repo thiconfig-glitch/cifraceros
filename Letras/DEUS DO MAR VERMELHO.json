@@ -1,0 +1,78 @@
+{
+  "id": 1582748875657,
+  "title": "DEUS DO MAR VERMELHO",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Tu és\nA rocha firme que jamais se abala\nO teu falar traz refrigério e calma\nPorque Tu és um Deus de poder\n\nTu és\nUm Deus de paz e general de guerra\nO teu falar faz tremer a terra\nSomente em Ti é que podemos crer\n\nO Deus do mar vermelho\nQue com Moisés o povo Atravessou\nE com Elias o holocausto queimou\nE fez Estevão ver a tua glória\n\nO Deus do mar vermelho\nQue fez a sarça se incendiar\nCom Elizeu fez o rio secar\nE o machado em água flutuar\n\nTu és\nO Deus do mar vermelho\nO teu trovão parece um espelho\nMostrando toda a face do universo\n\nTu és\nO Deus que do nada tudo faz\nEm ti encontro alegria e paz\nDe Ti não me esquecerei jamais",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Tu és\nA rocha firme que jamais se abala\nO teu falar traz refrigério e calma\nPorque Tu és um Deus de poder",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Tu és\nUm Deus de paz e general de guerra\nO teu falar faz tremer a terra\nSomente em Ti é que podemos crer",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "O Deus do mar vermelho\nQue com Moisés o povo Atravessou\nE com Elias o holocausto queimou\nE fez Estevão ver a tua glória",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "O Deus do mar vermelho\nQue fez a sarça se incendiar\nCom Elizeu fez o rio secar\nE o machado em água flutuar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Tu és\nO Deus do mar vermelho\nO teu trovão parece um espelho\nMostrando toda a face do universo",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Tu és\nO Deus que do nada tudo faz\nEm ti encontro alegria e paz\nDe Ti não me esquecerei jamais",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

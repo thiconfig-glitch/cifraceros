@@ -1,0 +1,64 @@
+{
+  "id": 1611011600487,
+  "title": "Trono da Graça",
+  "artist": "Priscila Ramos",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": " Quero subir ao monte de Deus\n E à sombra do Altíssimo descansar\n Quero olhar os meus problemas e saber\n Que do alto o socorro vem\n \n\n Quando enfrento um deserto\n Posso me alegrar\n Em saber que o Senhor está comigo\n Em períodos de seca posso confiar\n Pois, Jesus, é a fonte da vida!\n\n Leva-me, Senhor\n Para o teu santo monte\n De onde posso ver Golias\n Já não mais como um gigante\n\nleva-me, Senhor\nPara os teus altares\nsob tuas asas quero me esconder\nEm tua morada viver",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": " Quero subir ao monte de Deus\n E à sombra do Altíssimo descansar\n Quero olhar os meus problemas e saber\n Que do alto o socorro vem\n ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": " Quando enfrento um deserto\n Posso me alegrar\n Em saber que o Senhor está comigo\n Em períodos de seca posso confiar\n Pois, Jesus, é a fonte da vida!",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "F8F588",
+        "text": " Leva-me, Senhor\n Para o teu santo monte\n De onde posso ver Golias\n Já não mais como um gigante",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "leva-me, Senhor\nPara os teus altares\nsob tuas asas quero me esconder\nEm tua morada viver",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

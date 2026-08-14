@@ -1,0 +1,50 @@
+{
+  "id": 1587501029372,
+  "title": "Move As Águas",
+  "artist": "Comunidade de Nilópolis",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Quanto tempo esperei\nChegou a minha vez\nSei que hoje é o meu dia\nJesus está aqui\n\nMove as águas, Senhor\nMove as águas\n \nVou mergulhar,\nMe libertar, \nSim, move as águas",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Quanto tempo esperei\nChegou a minha vez\nSei que hoje é o meu dia\nJesus está aqui",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Move as águas, Senhor\nMove as águas\n \nVou mergulhar,\nMe libertar, \nSim, move as águas",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

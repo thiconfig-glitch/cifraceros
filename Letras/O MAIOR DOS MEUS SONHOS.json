@@ -1,0 +1,71 @@
+{
+  "id": 1582748875674,
+  "title": "O MAIOR DOS MEUS SONHOS",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "O SENHOR CHAMOU MOISÉS \nPARA LHE FALAR\nSEI DE TUDO QUE ACONTECE \nPOIS DESCI ALI PRA LIBERTAR\n\nTENHO VISTO A AFLIÇÃO\nA TIRANA ESCRAVIDÃO\nTENHO OUVIDO O CLAMOR \nDE QUEM SOFRE EM MEIO A DOR\n\nMEU DEUS, EU TAMBÉM VOU AO MESMO LUGAR\nQUE O SENHOR TAMBÉM CONHECE \nPOIS DESCEU A FIM DE LIBERTAR\n\nLUGAR DE DECISÃO \nPRA QUEM SABE O QUE QUER\nPRA QUEM TEM DEFINIÇÃO\nPRA QUEM VIVE PELA FÉ\n\nO MAIOR DOS MEUS SONHOS \nVOU LEVAR LÁ NO SINAI\nPOIS SEI QUE HÁ UM DEUS \nQUE TUDO PODE SE EU CRER\nCOM TODA A SUA FORÇA \nEM FUNÇÃO DO QUE SE QUER\nÉ O CAMINHO PRA QUEM QUER VENCER",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "O SENHOR CHAMOU MOISÉS \nPARA LHE FALAR\nSEI DE TUDO QUE ACONTECE \nPOIS DESCI ALI PRA LIBERTAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "TENHO VISTO A AFLIÇÃO\nA TIRANA ESCRAVIDÃO\nTENHO OUVIDO O CLAMOR \nDE QUEM SOFRE EM MEIO A DOR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "MEU DEUS, EU TAMBÉM VOU AO MESMO LUGAR\nQUE O SENHOR TAMBÉM CONHECE \nPOIS DESCEU A FIM DE LIBERTAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "LUGAR DE DECISÃO \nPRA QUEM SABE O QUE QUER\nPRA QUEM TEM DEFINIÇÃO\nPRA QUEM VIVE PELA FÉ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "O MAIOR DOS MEUS SONHOS \nVOU LEVAR LÁ NO SINAI\nPOIS SEI QUE HÁ UM DEUS \nQUE TUDO PODE SE EU CRER\nCOM TODA A SUA FORÇA \nEM FUNÇÃO DO QUE SE QUER\nÉ O CAMINHO PRA QUEM QUER VENCER",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "id": 1582748875785,
+  "title": "VEM ME DAR A PAZ",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "ATENDE A MINHA ORAÇÃO\nJÁ NÃO TENHO RAZÃO PARA VIVER\nMEU DEUS EU JÁ SOFRI DEMAIS\n\nSEM TER PAZ POR NÃO TE CONHECER\nQUEM MAIS PODE ME OUVIR?\n\nSEI QUE NINGUÉM MAIS\nPODE POR UM FIM NA MINHA DOR\nE NADA SATISFAZ MEU CORAÇÃO\nENGANADO, SOFREDOR\n\nVEM ME DAR A PAZ QUE DESEJO\nE QUE SÓ TEM QUEM TE CONHECE\nÓ SENHOR, EM TEU ALTAR\n\nEU TE ADORAREI, E FALAREI\nDAS MARAVILHAS QUE O SENHOR FARÁ POR MIM\nE QUE ALÉM DE TI, NÃO HÁ OUTRO DEUS",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "ATENDE A MINHA ORAÇÃO\nJÁ NÃO TENHO RAZÃO PARA VIVER\nMEU DEUS EU JÁ SOFRI DEMAIS",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "SEM TER PAZ POR NÃO TE CONHECER\nQUEM MAIS PODE ME OUVIR?",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "SEI QUE NINGUÉM MAIS\nPODE POR UM FIM NA MINHA DOR\nE NADA SATISFAZ MEU CORAÇÃO\nENGANADO, SOFREDOR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "VEM ME DAR A PAZ QUE DESEJO\nE QUE SÓ TEM QUEM TE CONHECE\nÓ SENHOR, EM TEU ALTAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "EU TE ADORAREI, E FALAREI\nDAS MARAVILHAS QUE O SENHOR FARÁ POR MIM\nE QUE ALÉM DE TI, NÃO HÁ OUTRO DEUS",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

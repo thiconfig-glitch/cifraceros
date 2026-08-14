@@ -1,0 +1,57 @@
+{
+  "id": 1582748876040,
+  "title": "BEM AVENTURADO (SALMO 128)",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "SENHOR\nEDIFICA A MINHA CASA\nFAZ DELA TUA MORADA\nTUDO O QUE EU TENHO É TEU\n\nSENHOR\nTE ENTREGO A MINHA FAMÍLIA\nPRA QUE TODOS COM ALEGRIA\nTE SIRVAM NA TUA CASA, OH, DEUS\n\nBEM AVENTURADO AQUELE\nQUE TEME AO SENHOR\nQUE ANDA NOS TEUS CAMINHOS\nE CUMPRE TUAS LEIS\nDO TRABALHO DE TUAS MÃOS COMERÁS\nFELIZ SERÁS E TUDO TE IRÁ BEM",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "SENHOR\nEDIFICA A MINHA CASA\nFAZ DELA TUA MORADA\nTUDO O QUE EU TENHO É TEU",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "SENHOR\nTE ENTREGO A MINHA FAMÍLIA\nPRA QUE TODOS COM ALEGRIA\nTE SIRVAM NA TUA CASA, OH, DEUS",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "BEM AVENTURADO AQUELE\nQUE TEME AO SENHOR\nQUE ANDA NOS TEUS CAMINHOS\nE CUMPRE TUAS LEIS\nDO TRABALHO DE TUAS MÃOS COMERÁS\nFELIZ SERÁS E TUDO TE IRÁ BEM",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

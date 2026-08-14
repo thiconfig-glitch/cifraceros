@@ -1,0 +1,71 @@
+{
+  "id": 1709956771932,
+  "title": "A mesa",
+  "artist": "",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Pai, contra ti e contra o céu pequei\nMe enchi de mim, me deixei levar\nE escravo dos meus erros me tornei\n\nTroquei minha casa pela liberdade vã\nTentando me encontrar eu me perdi\nE quando eu pensei era o fim ali\nOuvi a tua voz dizendo assim pra mim\n\nTem lugar na mesa\nPode se assentar\nVenha não demore\nEstou te esperando\nAqui é o teu lugar\n\nTroquei minha casa pela liberdade vã\nTentando me encontrar eu me perdi\nE quando eu pensei era o fim alí\nOuvi a tua voz dizendo assim pra mim\n\nTem lugar na mesa\nPode se assentar\nVenha não demore\nEstou te esperando\nAqui é o teu lugar",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Pai, contra ti e contra o céu pequei\nMe enchi de mim, me deixei levar\nE escravo dos meus erros me tornei",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Troquei minha casa pela liberdade vã\nTentando me encontrar eu me perdi\nE quando eu pensei era o fim ali\nOuvi a tua voz dizendo assim pra mim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Tem lugar na mesa\nPode se assentar\nVenha não demore\nEstou te esperando\nAqui é o teu lugar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Troquei minha casa pela liberdade vã\nTentando me encontrar eu me perdi\nE quando eu pensei era o fim alí\nOuvi a tua voz dizendo assim pra mim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Tem lugar na mesa\nPode se assentar\nVenha não demore\nEstou te esperando\nAqui é o teu lugar",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

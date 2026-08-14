@@ -1,0 +1,85 @@
+{
+  "id": 1582748875978,
+  "title": "NÃO VOU DUVIDAR",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "PAI, COMO EU CONFIO \nNO TEU PODER\nPAI, COMO EU CONFIO \nNO TEU FAVOR\n\nPAI, O SENHOR\n É DEUS GALARDOADOR\nPARA AQUELES QUE CONFIAM\n\nPAI, MUITOS TENTARAM \nMAS NÃO CONSEGUIRAM\nPAI, MUITOS FICARAM\n A BEIRA DO CAMINHO\n\nPAI, MAS EU NÃO VOU SER ASSIM\nPAI, EU VOU ATÉ O FIM\n\nEU NÃO VOU DUVIDAR \nDO MEU SENHOR\nQUE ABRE A PORTA\nE FECHA A PORTA \nQUANDO QUER\n\nEU SERIA LOUCO EM DUVIDAR\nDESSE DEUS QUE NÃO FALHOU \nE NEM FALHARÁ\n\nDESSE DEUS QUE NÃO FALHOU \nE NEM FALHARÁ",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "PAI, COMO EU CONFIO \nNO TEU PODER\nPAI, COMO EU CONFIO \nNO TEU FAVOR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "PAI, O SENHOR\n É DEUS GALARDOADOR\nPARA AQUELES QUE CONFIAM",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "PAI, MUITOS TENTARAM \nMAS NÃO CONSEGUIRAM\nPAI, MUITOS FICARAM\n A BEIRA DO CAMINHO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "PAI, MAS EU NÃO VOU SER ASSIM\nPAI, EU VOU ATÉ O FIM",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "Refrao",
+        "text": "EU NÃO VOU DUVIDAR \nDO MEU SENHOR\nQUE ABRE A PORTA\nE FECHA A PORTA \nQUANDO QUER",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "EU SERIA LOUCO EM DUVIDAR\nDESSE DEUS QUE NÃO FALHOU \nE NEM FALHARÁ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "DESSE DEUS QUE NÃO FALHOU \nE NEM FALHARÁ",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": 1610582654989,
+  "title": "Antes que Seja Tarde",
+  "artist": "Michelle Nascimento",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Vem, ouça de Deus o teu chamar\nVem, a sua vida mudará\nVem, não endureça o coração\nVem, que Deus estende a sua mão\n\nVem do jeito que estas\nDo teu passado Deus\njá não se lembra mais\nVem Cristo quer te salvar\nVem logo \nantes que seja tarde demais\n\nVem, chega de tanta ilusão\nVem, Deus quer te levantar do chão\nVem, já não há tempo pra pensar\nVem, antes da mote chegar\n\nVem do jeito que estas\nDo teu passado Deus\njá não se lembra mais\nVem, Cristo quer te salvar\nVem logo antes \nque seja tarde demais",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Vem, ouça de Deus o teu chamar\nVem, a sua vida mudará\nVem, não endureça o coração\nVem, que Deus estende a sua mão",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Vem do jeito que estas\nDo teu passado Deus\njá não se lembra mais\nVem Cristo quer te salvar\nVem logo \nantes que seja tarde demais",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Vem, chega de tanta ilusão\nVem, Deus quer te levantar do chão\nVem, já não há tempo pra pensar\nVem, antes da mote chegar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Vem do jeito que estas\nDo teu passado Deus\njá não se lembra mais\nVem, Cristo quer te salvar\nVem logo antes \nque seja tarde demais",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

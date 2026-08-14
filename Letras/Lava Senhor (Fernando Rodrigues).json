@@ -1,0 +1,78 @@
+{
+  "id": 1610892410829,
+  "title": "Lava Senhor",
+  "artist": "Fernando Rodrigues",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Aqui neste momento de oração\nEm Espírito e em verdade\nTe buscamos, oh Senhor\nPois eu sinto em meu rosto\nMinhas lágrimas rolarem\nE na minha busca peço\nTeu perdão\n\nOh me faz Senhor entrar\nNo Santíssimo Lugar\nE renova-me na santa comunhão\n\nLava, Senhor, lava minh’alma\nLimpa, Senhor, meu coração\nEnche, Senhor, enche o meu ser\nE inunda o meu viver\n\nLava, Senhor, lava minh’alma\nLimpa, Senhor, meu coração\nEnche, Senhor, enche o meu ser\nE inunda o meu viver\n\nE agora tu me deste a salvação\nEu não quero mais voltar\nPra esse mundo de ilusão\nJá não vivo mais perdido\nEncontrei a Luz\nE essa luz que me ilumina\nÉ Jesus\n\nHoje eu posso te adorar\nAqui nesse Santo Lugar\nPois um dia lá na glória\nHei de estar",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Aqui neste momento de oração\nEm Espírito e em verdade\nTe buscamos, oh Senhor\nPois eu sinto em meu rosto\nMinhas lágrimas rolarem\nE na minha busca peço\nTeu perdão",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Oh me faz Senhor entrar\nNo Santíssimo Lugar\nE renova-me na santa comunhão",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Lava, Senhor, lava minh’alma\nLimpa, Senhor, meu coração\nEnche, Senhor, enche o meu ser\nE inunda o meu viver",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Lava, Senhor, lava minh’alma\nLimpa, Senhor, meu coração\nEnche, Senhor, enche o meu ser\nE inunda o meu viver",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "E agora tu me deste a salvação\nEu não quero mais voltar\nPra esse mundo de ilusão\nJá não vivo mais perdido\nEncontrei a Luz\nE essa luz que me ilumina\nÉ Jesus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Hoje eu posso te adorar\nAqui nesse Santo Lugar\nPois um dia lá na glória\nHei de estar",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

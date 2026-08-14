@@ -1,0 +1,99 @@
+{
+  "id": 1582748875888,
+  "title": "QUANDO VENTO SOPRAR",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "SOPRA ESPÍRITO, \nLEVANTA OS CAÍDOS\nRESTAURA AS FERIDAS, \nDORES ANTIGAS\nVEM PRA CURAR\n\nSOPRA ESPÍRITO, \nTRAZENDO VIDA\nJUNTA OS PEDAÇOS\nJÁ OUÇO RUÍDOS DO TEU AGIR\n\nFAZ LEVANTAR DO VALE\nPÕE DE PÉ OS OSSOS SECOS\nCOM TEU PODER, \nVEM RESTAURAR\n\nDA MULTIDÃO DE CAÍDOS\nFAZ SENHOR, UM POVO FORTE\nMARCHAR SOBRE A TERRA\nQUANDO O VENTO SOPRAR\n\nQUANDO O VENTO SOPRAR\nTUDO VAI SE MOVER\nTUDO VOLTA AO LUGAR\nQUANDO O VENTO SOPRAR\n\nSOPRA ESPÍRITO, \nTRAZENDO VIDA\nJUNTA OS PEDAÇOS\nJÁ OUÇO RUÍDOS \nDO TEU AGIR\n\nFAZ LEVANTAR DO VALE\nPÕE DE PÉ OS OSSOS SECOS\nCOM TEU PODER, \nVEM RESTAURAR\n\nDA MULTIDÃO DE CAÍDOS\nFAZ SENHOR, UM POVO FORTE\nMARCHAR SOBRE A TERRA\nQUANDO O VENTO SOPRAR\n\nQUANDO O VENTO SOPRAR\nTUDO VAI SE MOVER\nTUDO VOLTA AO LUGAR\nQUANDO O VENTO SOPRAR",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "SOPRA ESPÍRITO, \nLEVANTA OS CAÍDOS\nRESTAURA AS FERIDAS, \nDORES ANTIGAS\nVEM PRA CURAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "SOPRA ESPÍRITO, \nTRAZENDO VIDA\nJUNTA OS PEDAÇOS\nJÁ OUÇO RUÍDOS DO TEU AGIR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "FAZ LEVANTAR DO VALE\nPÕE DE PÉ OS OSSOS SECOS\nCOM TEU PODER, \nVEM RESTAURAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "DA MULTIDÃO DE CAÍDOS\nFAZ SENHOR, UM POVO FORTE\nMARCHAR SOBRE A TERRA\nQUANDO O VENTO SOPRAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "QUANDO O VENTO SOPRAR\nTUDO VAI SE MOVER\nTUDO VOLTA AO LUGAR\nQUANDO O VENTO SOPRAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "SOPRA ESPÍRITO, \nTRAZENDO VIDA\nJUNTA OS PEDAÇOS\nJÁ OUÇO RUÍDOS \nDO TEU AGIR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "FAZ LEVANTAR DO VALE\nPÕE DE PÉ OS OSSOS SECOS\nCOM TEU PODER, \nVEM RESTAURAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": "DA MULTIDÃO DE CAÍDOS\nFAZ SENHOR, UM POVO FORTE\nMARCHAR SOBRE A TERRA\nQUANDO O VENTO SOPRAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 9,
+        "description": "",
+        "text": "QUANDO O VENTO SOPRAR\nTUDO VAI SE MOVER\nTUDO VOLTA AO LUGAR\nQUANDO O VENTO SOPRAR",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

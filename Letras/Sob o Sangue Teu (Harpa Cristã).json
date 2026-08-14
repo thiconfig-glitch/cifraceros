@@ -1,0 +1,78 @@
+{
+  "id": 1725795232209,
+  "title": "Sob o Sangue Teu",
+  "artist": "Harpa Cristã",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Asperge hoje meu coração\nCom sangue Teu, ó Redentor!\nLiberta-me da vil tentação\nCom sangue Teu, Senhor!\n\nSob o sangue Teu, Senhor\nGuarda-me da corrupção’\nSob o sangue expiador\nEu tenho proteção!\n\nDe todas dúvidas, do temor\nNo sangue Teu, vem me lavar\nDos males do grande tentador\nO queiras me livrar!\n\nRefúgio acha o pecador\nNo sangue Teu, ó meu Jesus\nAsperge-me sempre, ó Senhor\nNo sangue, lá da cruz!\n\nO vem me enchendo do Teu vigor\nPelo manar do sangue Teu\nFazendo-me mais que vencedor\nPelo poder de Deus\n\nConcede-me a perfeita paz\nPor Tua cruz e sangue Teu\nCom ricos dons, ó me satisfaz\nE faz-me ver o céu",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Asperge hoje meu coração\nCom sangue Teu, ó Redentor!\nLiberta-me da vil tentação\nCom sangue Teu, Senhor!",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Sob o sangue Teu, Senhor\nGuarda-me da corrupção’\nSob o sangue expiador\nEu tenho proteção!",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "De todas dúvidas, do temor\nNo sangue Teu, vem me lavar\nDos males do grande tentador\nO queiras me livrar!",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Refúgio acha o pecador\nNo sangue Teu, ó meu Jesus\nAsperge-me sempre, ó Senhor\nNo sangue, lá da cruz!",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "O vem me enchendo do Teu vigor\nPelo manar do sangue Teu\nFazendo-me mais que vencedor\nPelo poder de Deus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Concede-me a perfeita paz\nPor Tua cruz e sangue Teu\nCom ricos dons, ó me satisfaz\nE faz-me ver o céu",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

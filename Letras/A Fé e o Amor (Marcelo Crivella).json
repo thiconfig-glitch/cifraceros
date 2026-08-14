@@ -1,0 +1,78 @@
+{
+  "id": 1618434862244,
+  "title": "A Fé e o Amor",
+  "artist": "Marcelo Crivella",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "O amor apaga o passado\nE deslumbra o futuro\nQue a gente sonhou\nO amor faz calar as intrigas\nE cura as feridas\nQue o tempo deixou\n\nA fé faz homem ser forte\nLutar pela vida sem medo da morte\nÉ a fé que muda a velha história\nDe que pobre morre pobre\nE não conquista a vitória\n\nPela fé creu abraão\nE assim foi o pai\nDe uma grande nação\nMas foi o amor de josé\nQue os salvou\nQuando a fome a seca\nA terra assolou\n\nA fé tem tamanho poder\nFez pedro caminhar\nSobre as ondas do mar\nMas foi o amor\nQue lhe estendeu a mão\nQuando a fé acabou\nE ele afundou\n\nSem fé não há salvação\nMas é o amor que concede o perdão\nPela fé se encontra a Deus, que é amor\nA fé é a partida, o amor a chegada\nOs dois andam juntos na mesma estrada\n\nA fé, o amor\nA pura verdade\nO início de tudo, a eternidade\nNa fé e no amor\nCaminha a igreja do nosso senhor",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "O amor apaga o passado\nE deslumbra o futuro\nQue a gente sonhou\nO amor faz calar as intrigas\nE cura as feridas\nQue o tempo deixou",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "A fé faz homem ser forte\nLutar pela vida sem medo da morte\nÉ a fé que muda a velha história\nDe que pobre morre pobre\nE não conquista a vitória",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Pela fé creu abraão\nE assim foi o pai\nDe uma grande nação\nMas foi o amor de josé\nQue os salvou\nQuando a fome a seca\nA terra assolou",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "A fé tem tamanho poder\nFez pedro caminhar\nSobre as ondas do mar\nMas foi o amor\nQue lhe estendeu a mão\nQuando a fé acabou\nE ele afundou",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Sem fé não há salvação\nMas é o amor que concede o perdão\nPela fé se encontra a Deus, que é amor\nA fé é a partida, o amor a chegada\nOs dois andam juntos na mesma estrada",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "A fé, o amor\nA pura verdade\nO início de tudo, a eternidade\nNa fé e no amor\nCaminha a igreja do nosso senhor",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

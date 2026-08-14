@@ -1,0 +1,92 @@
+{
+  "id": 1582748875617,
+  "title": "VALEU A PENA ESPERAR",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "SERÁ QUE VOCÊ JÁ PENSOU\nCOMO SERÁ NAQUELE DIA?\nQUANDO VOCÊ ENTRAR NO CÉU\nDIANTE DE JESUS, COMO SERÁ?\nVALEU A PENA ESPERAR\n\nSERÁ QUE VOCÊ JÁ PENSOU\nNO QUE ELE VAI TE FALAR\nQUANDO OLHAR BEM DENTRO DOS SEUS OLHOS, \nE DIZER TEU NOVO NOME HÁ\n\nVALEU A PENA ESPERAR\nVALEU A PENA CONFIAR\nE SUA VIDA INTEIRA CONSAGRAR A DEUS\nVALEU A PENA OBEDECER\nE POR JESUS AQUI SOFRER\nNAQUELE DIA VOCÊ VAI DIZER\nMEU DEUS VALEU\n\nSERÁ QUE VOCÊ TEM NOÇÃO\nDO QUE PRA VOCÊ ESTÁ PREPARADO\nO QUE O OLHO NÃO VIU E NINGUÉM JAMAIS CONTOU\n E A MENTE HUMANA NÃO IMAGINOU\n\nE NÃO HÁ FELICIDADE MAIOR, \nNEM PRAZER QUE POSSA \nASSIM SER COMPARADO\nCOMO TOCAR NO ROSTO DE JESUS\n E RECEBER AQUELE ABRAÇO\n\nVALEU A PENA ESPERAR\nVALEU A PENA CONFIAR\nE SUA VIDA INTEIRA CONSAGRAR A DEUS\nVALEU A PENA OBEDECER\nE POR JESUS AQUI SOFRER\nNAQUELE DIA VOCÊ VAI DIZER\nMEU DEUS VALEU\n\nSERÁ QUE VOCÊ JÁ PENSOU\nQUE ESTÁ TÃO PERTO ESTE DIA?\nÉ HORA DE SE PREPARAR\nJESUS ESTÁ VOLTANDO\n\nE A IGREJA VAI VIVER O MOMENTO\nMAIS LINDO DA SUA HISTÓRIA\nPOIS O CÉU ESTÁ PREPARADO\nPRONTO PRA CANTAR SUA VITÓRIA",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "SERÁ QUE VOCÊ JÁ PENSOU\nCOMO SERÁ NAQUELE DIA?\nQUANDO VOCÊ ENTRAR NO CÉU\nDIANTE DE JESUS, COMO SERÁ?\nVALEU A PENA ESPERAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "SERÁ QUE VOCÊ JÁ PENSOU\nNO QUE ELE VAI TE FALAR\nQUANDO OLHAR BEM DENTRO DOS SEUS OLHOS, \nE DIZER TEU NOVO NOME HÁ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "VALEU A PENA ESPERAR\nVALEU A PENA CONFIAR\nE SUA VIDA INTEIRA CONSAGRAR A DEUS\nVALEU A PENA OBEDECER\nE POR JESUS AQUI SOFRER\nNAQUELE DIA VOCÊ VAI DIZER\nMEU DEUS VALEU",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "SERÁ QUE VOCÊ TEM NOÇÃO\nDO QUE PRA VOCÊ ESTÁ PREPARADO\nO QUE O OLHO NÃO VIU E NINGUÉM JAMAIS CONTOU\n E A MENTE HUMANA NÃO IMAGINOU",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "E NÃO HÁ FELICIDADE MAIOR, \nNEM PRAZER QUE POSSA \nASSIM SER COMPARADO\nCOMO TOCAR NO ROSTO DE JESUS\n E RECEBER AQUELE ABRAÇO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "VALEU A PENA ESPERAR\nVALEU A PENA CONFIAR\nE SUA VIDA INTEIRA CONSAGRAR A DEUS\nVALEU A PENA OBEDECER\nE POR JESUS AQUI SOFRER\nNAQUELE DIA VOCÊ VAI DIZER\nMEU DEUS VALEU",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "SERÁ QUE VOCÊ JÁ PENSOU\nQUE ESTÁ TÃO PERTO ESTE DIA?\nÉ HORA DE SE PREPARAR\nJESUS ESTÁ VOLTANDO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": "E A IGREJA VAI VIVER O MOMENTO\nMAIS LINDO DA SUA HISTÓRIA\nPOIS O CÉU ESTÁ PREPARADO\nPRONTO PRA CANTAR SUA VITÓRIA",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": 1582748875719,
+  "title": "O MILAGRE VAI ACONTECER",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "VOU ORAR CONFIANDO\nNO NOME DE JESUS, VAI ACONTECER\nUM MILAGRE VAI ACONTECER\nSE ESTIVERES EM MIM\nE MINHAS PALAVRAS EM VOCÊ\nPEDIREIS O QUE QUISERES\nVAI ACONTECER, O MILAGRE VAI ACONTECER\n\nO MILAGRE VAI ACONTECER\nNO NOME DE JESUS VAI ACONTECER\nUM MILAGRE VAI ACONTECER\n\nVOCÊ PODE, VOCÊ PODE CRER\nDEUS É MARAVILHOSO E NÃO QUER\nVER NINGUÉM SOFRENDO\nENTÃO PRA QUE CHORAR\nPOPE, PODE CRER\nCRISTO CONTINUA O MESMO\nELE FEZ E FAZ O MILAGRE ACONTECER",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "VOU ORAR CONFIANDO\nNO NOME DE JESUS, VAI ACONTECER\nUM MILAGRE VAI ACONTECER\nSE ESTIVERES EM MIM\nE MINHAS PALAVRAS EM VOCÊ\nPEDIREIS O QUE QUISERES\nVAI ACONTECER, O MILAGRE VAI ACONTECER",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "O MILAGRE VAI ACONTECER\nNO NOME DE JESUS VAI ACONTECER\nUM MILAGRE VAI ACONTECER",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "VOCÊ PODE, VOCÊ PODE CRER\nDEUS É MARAVILHOSO E NÃO QUER\nVER NINGUÉM SOFRENDO\nENTÃO PRA QUE CHORAR\nPOPE, PODE CRER\nCRISTO CONTINUA O MESMO\nELE FEZ E FAZ O MILAGRE ACONTECER",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

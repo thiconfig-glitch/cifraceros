@@ -1,0 +1,71 @@
+{
+  "id": 1582748875561,
+  "title": "A DOR DO CORAÇÃO",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "SABE AQUELES MOMENTOS \nNA VIDA GENTE\nQUE BATE UMA DOR \nSÓ A GENTE SENTE\nNÃO DÁ PRA EXPLICAR \nA DOR DO CORAÇÃO\n\nONDE ACHAR UMA PORTA \nQUE SEJA A SAÍDA\nPRA NOS CONDUZIR DE \n\nVOLTA PRA VIDA\nPOR MAIS QUE EU PROCURE\nPARECE TUDO EM VÃO\n\nSÓ DEUS PODE ENTENDER\nO QUE EU SINTO NO CORAÇÃO\nVEM ME AJUDAR SENHOR\nPOR UM FIM NESTA DOR, \nNESTA SOLIDÃO\n\nQUEM PODERÁ ENTENDER\nO QUE SE PASSA \nNO MEU CORAÇÃO?\nSABER O QUE É O MEU SOFRER\nSÓ COM PALAVRAS \nNÃO ENTENDERÃO",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "SABE AQUELES MOMENTOS \nNA VIDA GENTE\nQUE BATE UMA DOR \nSÓ A GENTE SENTE\nNÃO DÁ PRA EXPLICAR \nA DOR DO CORAÇÃO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "ONDE ACHAR UMA PORTA \nQUE SEJA A SAÍDA\nPRA NOS CONDUZIR DE ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "VOLTA PRA VIDA\nPOR MAIS QUE EU PROCURE\nPARECE TUDO EM VÃO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "SÓ DEUS PODE ENTENDER\nO QUE EU SINTO NO CORAÇÃO\nVEM ME AJUDAR SENHOR\nPOR UM FIM NESTA DOR, \nNESTA SOLIDÃO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "QUEM PODERÁ ENTENDER\nO QUE SE PASSA \nNO MEU CORAÇÃO?\nSABER O QUE É O MEU SOFRER\nSÓ COM PALAVRAS \nNÃO ENTENDERÃO",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

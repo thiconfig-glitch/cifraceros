@@ -1,0 +1,57 @@
+{
+  "id": 1608935116837,
+  "title": "Nascer de Novo",
+  "artist": "Eduardo Cardozo quero nascer de deus",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Quero nascer de Deus\nNascer do Espírito Santo\nQuero nascer da fé, no Senhor Jesus\nEu quero teu poder\nQueimando todo o meu Eu\nSendo gerado em Mim\nVitorioso ser\n\nQuero nascer de água\nQuero nascer de Ti\nTer uma nova vida\nVivê-la e ser feliz\n\nQuero nascer da água\nQuero nascer de Deus\nSer um vaso novo\nSer um filho seu",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Quero nascer de Deus\nNascer do Espírito Santo\nQuero nascer da fé, no Senhor Jesus\nEu quero teu poder\nQueimando todo o meu Eu\nSendo gerado em Mim\nVitorioso ser",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Quero nascer de água\nQuero nascer de Ti\nTer uma nova vida\nVivê-la e ser feliz",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Quero nascer da água\nQuero nascer de Deus\nSer um vaso novo\nSer um filho seu",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "id": 1612706753849,
+  "title": "Aquele Dia",
+  "artist": "Dayvid Windson",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Aquele dia que \nencontrei\nJesus eu nunca \nmais me esquecerei\n\nEu vivia a chorar\nHoje eu só vivo \npra te amar\n\nAgora nunca mais \neu fico triste\nJesus apareceu \npra me salvar\n\nHoje estarás sempre \nao meu lado\nJesus amado quero \nsempre te louvar\n\nQuero sempre te louvar\nÔô aquele dia\nEu nunca mais esquecerei\nO dia que encontrei Jesus\nNA IGREJA UNIVERSAL",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Aquele dia que \nencontrei\nJesus eu nunca \nmais me esquecerei",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Eu vivia a chorar\nHoje eu só vivo \npra te amar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Agora nunca mais \neu fico triste\nJesus apareceu \npra me salvar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Hoje estarás sempre \nao meu lado\nJesus amado quero \nsempre te louvar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Quero sempre te louvar\nÔô aquele dia\nEu nunca mais esquecerei\nO dia que encontrei Jesus\nNA IGREJA UNIVERSAL",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

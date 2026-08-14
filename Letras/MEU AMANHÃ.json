@@ -1,0 +1,64 @@
+{
+  "id": 1582748875739,
+  "title": "MEU AMANHÃ",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Eu nunca vi um justo mendigar o pão\nNem sua descendência perecer\nDeus sempre tem o escape em Suas mãos\nDeus sempre tem resposta ao que crê\n\nPreciso aprender a confiar em Deus\nVitória só se alcança pela fé\nDeus sempre tem uma saída\nA vitória é minha, só me resta crer\n\nO que não vejo com os meus olhos naturais\nA minha fé vai me dar forças pra enxergar\nalém ... Além.\n\nEu  vou  AVANÇAR\nPois  já  entreguei meu amanhã  nas  mãos de Deus\nA última  palavra  vem de Deus\nA última  resposta  vem de Deus",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Eu nunca vi um justo mendigar o pão\nNem sua descendência perecer\nDeus sempre tem o escape em Suas mãos\nDeus sempre tem resposta ao que crê",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Preciso aprender a confiar em Deus\nVitória só se alcança pela fé\nDeus sempre tem uma saída\nA vitória é minha, só me resta crer",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "O que não vejo com os meus olhos naturais\nA minha fé vai me dar forças pra enxergar\nalém ... Além.",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Eu  vou  AVANÇAR\nPois  já  entreguei meu amanhã  nas  mãos de Deus\nA última  palavra  vem de Deus\nA última  resposta  vem de Deus",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

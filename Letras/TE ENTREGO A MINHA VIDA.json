@@ -1,0 +1,57 @@
+{
+  "id": 1582748875504,
+  "title": "TE ENTREGO A MINHA VIDA",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "TE ENTREGO A MINHA VIDA, MEUS SONHOS\nMEU VIVER MEU SOFRER\nE ATÉ AQUI NUNCA DESISTI\nPORQUE EU SEI VENCEREI\n\nEU VOU LUTAR SIM\nPERSEVERAR SACRIFICAR\nE AGORA SEI QUE\nÉ NO ALTAR QUE EU VOU ESTAR\n\nPOIS ASSIM PROVAREI, TOMAREI DECISÃO\nDE SUBIR MAIS ALTO\nE AQUELES QUE NÃO CRERAM\nQUE ZOMBARAM DA MINHA FÉ\nVERÃO SIM DEUS EM MIM",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "TE ENTREGO A MINHA VIDA, MEUS SONHOS\nMEU VIVER MEU SOFRER\nE ATÉ AQUI NUNCA DESISTI\nPORQUE EU SEI VENCEREI",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "EU VOU LUTAR SIM\nPERSEVERAR SACRIFICAR\nE AGORA SEI QUE\nÉ NO ALTAR QUE EU VOU ESTAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "POIS ASSIM PROVAREI, TOMAREI DECISÃO\nDE SUBIR MAIS ALTO\nE AQUELES QUE NÃO CRERAM\nQUE ZOMBARAM DA MINHA FÉ\nVERÃO SIM DEUS EM MIM",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

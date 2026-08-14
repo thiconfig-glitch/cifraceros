@@ -1,0 +1,50 @@
+{
+  "id": 1582748875843,
+  "title": "EXALTADO",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "\nTEU NOME É EXALTADO\nTUA GLÓRIA BRILHA MAIS QUE O SOL\nSANTO ÉS TU SENHOR\nDEUS AMADO\nQUE ERAS, QUE ÉS\nE QUE HÁ DE SER\n\nTEU NOME É EXALTADO\nTUA GLÓRIA BRILHA MAIS QUE O SOL\nSANTO ÉS TU SENHOR\nDEUS AMADO\nENTRONIZADO, EM GLÓRIA\nE EM MIM\nTAMBÉM REINARÁ",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "\nTEU NOME É EXALTADO\nTUA GLÓRIA BRILHA MAIS QUE O SOL\nSANTO ÉS TU SENHOR\nDEUS AMADO\nQUE ERAS, QUE ÉS\nE QUE HÁ DE SER",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "TEU NOME É EXALTADO\nTUA GLÓRIA BRILHA MAIS QUE O SOL\nSANTO ÉS TU SENHOR\nDEUS AMADO\nENTRONIZADO, EM GLÓRIA\nE EM MIM\nTAMBÉM REINARÁ",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

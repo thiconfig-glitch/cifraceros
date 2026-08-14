@@ -1,0 +1,71 @@
+{
+  "id": 1582748875677,
+  "title": "CICATRIZES",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Deus conhece a minha história\nSabe tudo que eu passei\nSabe a marca que ficou em mim\nDor que não passava\nAchei que nunca ia esquecer\nAquela marca que ficou em mim\n\nA fé diminuía, a dor só aumentava\nEu não falava\nmais minh’alma só gritava\nE não havia nada que me desse paz\n\nFoi quando meu Jesus \ntocou em minha vida\nE colocou remédio na minha ferida\nQue doía tanto agora não dói mais\n\nUma nova história começou em mim\nDaquela dor só me restou a cicatriz\nJesus foi o remédio que fez viver\n\nTudo que eu perdi o Senhor devolveu\nE me fez esquecer tudo que aconteceu\nE hoje eu tenho mais de mil motivos\nPra adorar a Deus",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Deus conhece a minha história\nSabe tudo que eu passei\nSabe a marca que ficou em mim\nDor que não passava\nAchei que nunca ia esquecer\nAquela marca que ficou em mim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "A fé diminuía, a dor só aumentava\nEu não falava\nmais minh’alma só gritava\nE não havia nada que me desse paz",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Foi quando meu Jesus \ntocou em minha vida\nE colocou remédio na minha ferida\nQue doía tanto agora não dói mais",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Uma nova história começou em mim\nDaquela dor só me restou a cicatriz\nJesus foi o remédio que fez viver",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Tudo que eu perdi o Senhor devolveu\nE me fez esquecer tudo que aconteceu\nE hoje eu tenho mais de mil motivos\nPra adorar a Deus",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

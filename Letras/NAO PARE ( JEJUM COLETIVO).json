@@ -1,0 +1,99 @@
+{
+  "id": 1582748875605,
+  "title": "NAO PARE",
+  "artist": " JEJUM COLETIVO",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "VOCÊ NÃO PODE DESISTIR AGORA\nLEMBRE DE TUDO QUE VOCÊ PASSOU \nATÉ CHEGAR AQUI\n\nVOCÊ NÃO PODE DESISTIR AGORA\nFALTA TÃO POUCO PARA O \nMILAGRE ACONTECER\nVOCÊ NÃO PODE DESISTIR AGORA\nO VENTO NÃO PODE SER \nMAIS FORTE QUE O TEU DEUS\n\nOUÇA O RUÍDO DAS MURALHAS QUE CAEM\nOUÇA O SOM DO MAR QUE JÁ SE ABRE\nOUÇA O GRITO DE DERROTA DO GIGANTE\n\nTUA CONQUISTA JÁ ESTÁ POR VIR\nMAS VOCÊ NÃO PODE DESISTIR\nVOCÊ NÃO PODE DESISTIR AGORA\nNÃO PARE, NÃO PARE\n\nNÃO PARE, NÃO PARE\nDEUS ESTÁ NO CONTROLE\n\nNÃO PARE, NÃO PARE\nDEUS ESTÁ NO CONTROLE\n\nO povo do jejum nasceu para vencer\nO povo do jejum nasceu para vencer\n\nOUÇA O RUÍDO DAS MURALHAS QUE CAEM\nOUÇA O SOM DAS PORTAS QUE SE ABREM\nOUÇA O GRITO DE DERROTA DO GIGANTE\n\nTUA CONQUISTA JÁ ESTA POR VIR\nMAS VOCÊ NÃO PODE DESISTIR\nVOCÊ NÃO PODE DESISTIR AGORA\nNÃO PARE, NÃO PARE",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "VOCÊ NÃO PODE DESISTIR AGORA\nLEMBRE DE TUDO QUE VOCÊ PASSOU \nATÉ CHEGAR AQUI",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "VOCÊ NÃO PODE DESISTIR AGORA\nFALTA TÃO POUCO PARA O \nMILAGRE ACONTECER\nVOCÊ NÃO PODE DESISTIR AGORA\nO VENTO NÃO PODE SER \nMAIS FORTE QUE O TEU DEUS",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "OUÇA O RUÍDO DAS MURALHAS QUE CAEM\nOUÇA O SOM DO MAR QUE JÁ SE ABRE\nOUÇA O GRITO DE DERROTA DO GIGANTE",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "TUA CONQUISTA JÁ ESTÁ POR VIR\nMAS VOCÊ NÃO PODE DESISTIR\nVOCÊ NÃO PODE DESISTIR AGORA\nNÃO PARE, NÃO PARE",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "NÃO PARE, NÃO PARE\nDEUS ESTÁ NO CONTROLE",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "NÃO PARE, NÃO PARE\nDEUS ESTÁ NO CONTROLE",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "O povo do jejum nasceu para vencer\nO povo do jejum nasceu para vencer",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": "OUÇA O RUÍDO DAS MURALHAS QUE CAEM\nOUÇA O SOM DAS PORTAS QUE SE ABREM\nOUÇA O GRITO DE DERROTA DO GIGANTE",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 9,
+        "description": "",
+        "text": "TUA CONQUISTA JÁ ESTA POR VIR\nMAS VOCÊ NÃO PODE DESISTIR\nVOCÊ NÃO PODE DESISTIR AGORA\nNÃO PARE, NÃO PARE",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": 1582748875608,
+  "title": "OLHE PRA CRUZ",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "POR CAUSA DOS MEUS PECADOS \nEU ESTOU AQUI, NESSA CRUZ\nCOMETI ERROS QUE JÁ NEM SEI MAIS,\nSE HÁ ESPERANÇA PRA MIM\n\nEU OLHEI PRA MULTIDÃO,\nVI QUE TODOS ME OLHAVAM \nCOMO UM CONDENADO\nMAS ENCONTREI A DOÇURA \nNO OLHAR DESTE HOMEM\nQUE ESTÁ AO MEU LADO \nQUEM SERÁ ELE?\n\nSENHOR, \nVI COMPAIXÃO EM SEUS OLHOS\nVI QUE ME OLHOU DIFERENTE,\nCOMO SE EU FOSSE BOM\n\nSENHOR, \nEU SEMPRE FUI UM LADRÃO\nMAS AO VÊ-LO NA CRUZ, \nEU ME SENTI AMADO\nNÃO TENHO EXPLICAÇÃO\n\nSE QUER SER AMADO\nOLHE PRA CRUZ\nSE QUER O PERDÃO\nOLHE PRA CRUZ\nPOIS NA CRUZ DO MEIO ESTÁ O AMOR\nO FILHO DE DEUS, JESUS SALVADOR\n\nSE QUER NOVA VIDA\nOLHE PRA CRUZ\nSE QUER ESPERANÇA\nOLHE PRA CRUZ\nSE COMO LADRÃO VOCÊ SÓ ERROU\nSE OLHAR PRA CRISTO\nENCONTRARÁ GRAÇAS, PAZ E AMOR",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "POR CAUSA DOS MEUS PECADOS \nEU ESTOU AQUI, NESSA CRUZ\nCOMETI ERROS QUE JÁ NEM SEI MAIS,\nSE HÁ ESPERANÇA PRA MIM",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "EU OLHEI PRA MULTIDÃO,\nVI QUE TODOS ME OLHAVAM \nCOMO UM CONDENADO\nMAS ENCONTREI A DOÇURA \nNO OLHAR DESTE HOMEM\nQUE ESTÁ AO MEU LADO \nQUEM SERÁ ELE?",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "SENHOR, \nVI COMPAIXÃO EM SEUS OLHOS\nVI QUE ME OLHOU DIFERENTE,\nCOMO SE EU FOSSE BOM",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "SENHOR, \nEU SEMPRE FUI UM LADRÃO\nMAS AO VÊ-LO NA CRUZ, \nEU ME SENTI AMADO\nNÃO TENHO EXPLICAÇÃO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "SE QUER SER AMADO\nOLHE PRA CRUZ\nSE QUER O PERDÃO\nOLHE PRA CRUZ\nPOIS NA CRUZ DO MEIO ESTÁ O AMOR\nO FILHO DE DEUS, JESUS SALVADOR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "SE QUER NOVA VIDA\nOLHE PRA CRUZ\nSE QUER ESPERANÇA\nOLHE PRA CRUZ\nSE COMO LADRÃO VOCÊ SÓ ERROU\nSE OLHAR PRA CRISTO\nENCONTRARÁ GRAÇAS, PAZ E AMOR",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "id": 1712871883979,
+  "title": "Imperfeito",
+  "artist": "Anderson Freire",
+  "author": "Anderson Freire",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Pai, perdoa o meu jeito\nDe achar que sou perfeito\nVejo erro nas pessoas\nE não olho meus defeitos\n\nJustifico-me com o bem\nQuando o mal eu pratiquei\nNo final eu reconheço\nQuando eu erro outra vez\n\nEstou sempre declarando:\n\"Quero ser como criança\"\nCom o coração tão cheio\nDe maldade e de vingança\n\nPai, perdoa o meu jeito\nDe achar que sou perfeito\nSou tão falho pecador\nDetalhado de defeitos\n\nPai, meu Pai\nTenho muito que mudar\nPai, meu Pai\nMe ajude a melhorar\n\nPai, a minha oração\nPode parecer tão dura\nÉ que essa realidade\nNo meu peito só machuca\n\nNão dava pra esperar\nAmanhã seria tarde\nTe entregar meu coração\nÉ minha prioridade\n\nMe olhando nessa hora\nAinda não sou perfeito\nMas eu sinto que me amas\nMesmo eu sendo desse jeito\n\nObrigado por me ouvir\nNão vou nem me despedir\nFica aqui dentro de mim\nPara nunca mais sair",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Pai, perdoa o meu jeito\nDe achar que sou perfeito\nVejo erro nas pessoas\nE não olho meus defeitos",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Justifico-me com o bem\nQuando o mal eu pratiquei\nNo final eu reconheço\nQuando eu erro outra vez",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Estou sempre declarando:\n\"Quero ser como criança\"\nCom o coração tão cheio\nDe maldade e de vingança",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Pai, perdoa o meu jeito\nDe achar que sou perfeito\nSou tão falho pecador\nDetalhado de defeitos",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Pai, meu Pai\nTenho muito que mudar\nPai, meu Pai\nMe ajude a melhorar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Pai, a minha oração\nPode parecer tão dura\nÉ que essa realidade\nNo meu peito só machuca",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Não dava pra esperar\nAmanhã seria tarde\nTe entregar meu coração\nÉ minha prioridade",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": "Me olhando nessa hora\nAinda não sou perfeito\nMas eu sinto que me amas\nMesmo eu sendo desse jeito",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 9,
+        "description": "",
+        "text": "Obrigado por me ouvir\nNão vou nem me despedir\nFica aqui dentro de mim\nPara nunca mais sair",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "https://open.spotify.com/track/51elUW6IXPOEGaZZ3cNsP2",
+      "youtube": "https://youtube.com/watch?v=F0mbLd9OBes",
+      "deezer": "https://deezer.com/track/93545356"
+    },
+    "backing_track": {
+      "spotify": "https://open.spotify.com/track/7mf8ZTdIo5d4kQz7kZi9Vf",
+      "youtube": "https://youtube.com/watch?v=OoxG8-jtECo",
+      "deezer": "https://deezer.com/track/139186047"
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

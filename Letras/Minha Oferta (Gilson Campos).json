@@ -1,0 +1,85 @@
+{
+  "id": 1607783457323,
+  "title": "Minha Oferta",
+  "artist": "Gilson Campos",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Agora entendo Deus \nQUE sempre és o mesmo \nE se importa com os seus   \nQuando tudo dá errado o motivo sou eu     \nque preciso te buscar a cada dia mais\npra te adorar\n\nAgora entendo Deus \nQue o culpado pela morte na cruz era eu\nFoi o maior sacrifício que o céu já recebeu\nE não a nada que eu faça\nQue pagará este favor, para Ti Senhor\n\nO pardal encontrou casa pra morar \nE a andorinha encontrou ninho pra pousar\nEu encontrei teu altar, Senhor meu Deus\n\nO meu único desejo é te adorar\nE a minha vida inteira te entregar \nem sacrifício\n\nEu encontrei teu altar senhor \nE a minha oferta sou eu \nE a minha  oferta sou eu, Jesus\n\nEu ofereço a minha vida a Ti\nE a minha oferta sou eu\nE a minha  oferta sou eu Jesus\n\nSe eu me posicionar\nVerei tua gloria em minha vida, Oh Deus!\nBasta somente eu me entregar\nPor completo a Tí, Senhor!",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Agora entendo Deus \nQUE sempre és o mesmo \nE se importa com os seus   \nQuando tudo dá errado o motivo sou eu     \nque preciso te buscar a cada dia mais\npra te adorar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Agora entendo Deus \nQue o culpado pela morte na cruz era eu\nFoi o maior sacrifício que o céu já recebeu\nE não a nada que eu faça\nQue pagará este favor, para Ti Senhor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "O pardal encontrou casa pra morar \nE a andorinha encontrou ninho pra pousar\nEu encontrei teu altar, Senhor meu Deus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "O meu único desejo é te adorar\nE a minha vida inteira te entregar \nem sacrifício",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Eu encontrei teu altar senhor \nE a minha oferta sou eu \nE a minha  oferta sou eu, Jesus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Eu ofereço a minha vida a Ti\nE a minha oferta sou eu\nE a minha  oferta sou eu Jesus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Se eu me posicionar\nVerei tua gloria em minha vida, Oh Deus!\nBasta somente eu me entregar\nPor completo a Tí, Senhor!",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

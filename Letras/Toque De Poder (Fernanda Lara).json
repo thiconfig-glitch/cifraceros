@@ -1,0 +1,64 @@
+{
+  "id": 1685197042047,
+  "title": "Toque De Poder",
+  "artist": "Fernanda Lara",
+  "author": "Fernanda Lara, Giordani Vidal",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Vem Espírito Santo\nVem inundar meu ser\nVem Espírito de amor\nVem ser meu Consolador\nVem Espírito, vem Espírito\n\nInspira o meu viver\nCom Teu toque de poder\nVem agora libertar\nEm mim habitar\nAlívio e refúgio és para mim\n\nVem Espírito Santo\nVem inundar meu ser\nVem Espírito de amor\nVem ser meu Consolador\nVem Espírito, vem Espírito\n\nInspira o meu viver\nCom Teu toque de poder\nVem agora libertar\nEm mim habitar\nAlívio e refúgio és para mim",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Vem Espírito Santo\nVem inundar meu ser\nVem Espírito de amor\nVem ser meu Consolador\nVem Espírito, vem Espírito",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Inspira o meu viver\nCom Teu toque de poder\nVem agora libertar\nEm mim habitar\nAlívio e refúgio és para mim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Vem Espírito Santo\nVem inundar meu ser\nVem Espírito de amor\nVem ser meu Consolador\nVem Espírito, vem Espírito",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Inspira o meu viver\nCom Teu toque de poder\nVem agora libertar\nEm mim habitar\nAlívio e refúgio és para mim",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": 1597358623597,
+  "title": "Nós Dois",
+  "artist": "Carlinhos Félix",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Nós dois\nNascemos pra nos amar\nE em meu coração\nJá não existe lugar\nPara solidão\nEnchendo o meu ser\nEu sinto o amor de Deus\nEu sei que você\nÉ um presente que ele me deu\n\nNós dois\nUma aliança de amor\nUnidos no senhor\nAndando sempre na luz, seguindo a Jesus\nVivendo pela fé,\nOuvindo sempre o que ele diz\nHomem, mulher, formando um casal feliz\n\nEu agradeço a Deus\nQue fez você pra mim\nQue me fez pra você\nQue fez a gente se encontrar\nEu agradeço a Deus\nQue nos predestinou pra ele \nem amor e nos deu o dom de amar\n\nEu agradeço a Deus\nQue fez você pra mim\nQue me fez pra você\nQue fez a gente se encontrar\nEu agradeço a Deus\nQue nos predestinou pra ele \nem amor e nos Deus o dom de amar",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Nós dois\nNascemos pra nos amar\nE em meu coração\nJá não existe lugar\nPara solidão\nEnchendo o meu ser\nEu sinto o amor de Deus\nEu sei que você\nÉ um presente que ele me deu",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Nós dois\nUma aliança de amor\nUnidos no senhor\nAndando sempre na luz, seguindo a Jesus\nVivendo pela fé,\nOuvindo sempre o que ele diz\nHomem, mulher, formando um casal feliz",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Eu agradeço a Deus\nQue fez você pra mim\nQue me fez pra você\nQue fez a gente se encontrar\nEu agradeço a Deus\nQue nos predestinou pra ele \nem amor e nos deu o dom de amar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Eu agradeço a Deus\nQue fez você pra mim\nQue me fez pra você\nQue fez a gente se encontrar\nEu agradeço a Deus\nQue nos predestinou pra ele \nem amor e nos Deus o dom de amar",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

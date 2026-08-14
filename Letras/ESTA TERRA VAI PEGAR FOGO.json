@@ -1,0 +1,64 @@
+{
+  "id": 1582748875446,
+  "title": "ESTA TERRA VAI PEGAR FOGO",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "ESTA TERRA VAI PEGAR FOGO\nAONDE É QUE TU VAIS MORRAR\nESTA TERRA VAI PEGAR FOGO\nAONDE É QUE TU VAIS MORRAR\n\nEU VOU, EU VOU MORRAR COM JESUS LA NO CÉU\nEU VOU, EU VOU MORRAR COM JESUS LA NO CÉU\nESTA TERRA VAI PEGAR FOGO\n\nNÃO VAI FICAR, NEM RAIZ NEM RAMO\nAONDE É QUE TUVAIS MORRAR\nNÃO VAI FICAR, NEM RAIZ NEM RAMO\nAONDE É QUE TU VAIS MORRAR\n\nEU VOU, EU VOU MORRAR COM JESUS LA NO CÉU\nEU VOU, EU VOU MORRAR COM JESUS LA NO CÉU",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "ESTA TERRA VAI PEGAR FOGO\nAONDE É QUE TU VAIS MORRAR\nESTA TERRA VAI PEGAR FOGO\nAONDE É QUE TU VAIS MORRAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "EU VOU, EU VOU MORRAR COM JESUS LA NO CÉU\nEU VOU, EU VOU MORRAR COM JESUS LA NO CÉU\nESTA TERRA VAI PEGAR FOGO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "NÃO VAI FICAR, NEM RAIZ NEM RAMO\nAONDE É QUE TUVAIS MORRAR\nNÃO VAI FICAR, NEM RAIZ NEM RAMO\nAONDE É QUE TU VAIS MORRAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "EU VOU, EU VOU MORRAR COM JESUS LA NO CÉU\nEU VOU, EU VOU MORRAR COM JESUS LA NO CÉU",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

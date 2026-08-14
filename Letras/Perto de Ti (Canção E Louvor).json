@@ -1,0 +1,71 @@
+{
+  "id": 1585151725548,
+  "title": "Perto de Ti",
+  "artist": "Canção E Louvor",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Não quero mais errar\nnão quero mais pecar\nNão quero transgredir\nsó quero Te servir\n\nquero ser mais fiel\nquero ser verdadeiro\nE no meu coração\nserás sempre o primeiro\n\nEu quero estar, em Tua casa\nO Teu poder, quero RECEBER\nNão há lugar \nmelhor no mundo\nDo que estar perto de Ti\n\nMais perto quero estar\nmeu Deus de Ti\nInda que seja dor\nque me una a Ti\n\nSempre hei de suplicar\nmais perto quero estar\nMais perto quero estar\nmeu Deus de Ti",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Não quero mais errar\nnão quero mais pecar\nNão quero transgredir\nsó quero Te servir",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "quero ser mais fiel\nquero ser verdadeiro\nE no meu coração\nserás sempre o primeiro",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Eu quero estar, em Tua casa\nO Teu poder, quero RECEBER\nNão há lugar \nmelhor no mundo\nDo que estar perto de Ti",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Mais perto quero estar\nmeu Deus de Ti\nInda que seja dor\nque me una a Ti",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Sempre hei de suplicar\nmais perto quero estar\nMais perto quero estar\nmeu Deus de Ti",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "id": 1597932172548,
+  "title": "Os Sonhos de Deus",
+  "artist": "Nani Azevedo",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Os SONHOS de Deus\nsão maiores que os meus\nEle vai fazer o melhor por mim\nEle vai além do que eu posso ver\nEle faz o que eu não posso fazer\n\nDeus vai cumprir \nos seus planos em mim\nEle vai fazer o que lhe apraz\nSou pequeno e falho, \nmas Ele é Deus\nEle só faz o melhor pelos seus\n\nDeus vai cumprir \nos seus planos em mim\nEle vai fazer o que lhe apraz\nSou pequeno e falho, \nmas Ele é Deus\nEle só faz o melhor pelos seus\n\nAcredito sim \nacredito sim\nAcredito sim \nque Deus vai fazer\nO impossível em meu viver\no impossivel deus vai fazer\n\nAcredito sim, acredito sim\nque Deus vai fazer\nO impossível em meu viver\nO impossível Deus vai fazer",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Os SONHOS de Deus\nsão maiores que os meus\nEle vai fazer o melhor por mim\nEle vai além do que eu posso ver\nEle faz o que eu não posso fazer",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Deus vai cumprir \nos seus planos em mim\nEle vai fazer o que lhe apraz\nSou pequeno e falho, \nmas Ele é Deus\nEle só faz o melhor pelos seus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Deus vai cumprir \nos seus planos em mim\nEle vai fazer o que lhe apraz\nSou pequeno e falho, \nmas Ele é Deus\nEle só faz o melhor pelos seus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Acredito sim \nacredito sim\nAcredito sim \nque Deus vai fazer\nO impossível em meu viver\no impossivel deus vai fazer",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Acredito sim, acredito sim\nque Deus vai fazer\nO impossível em meu viver\nO impossível Deus vai fazer",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

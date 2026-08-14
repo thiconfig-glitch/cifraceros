@@ -1,0 +1,57 @@
+{
+  "id": 1601671157459,
+  "title": "Quantas Vezes",
+  "artist": "J. Neto",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Quantas vezes tropecei em meu caminho!\nQuantas vezes me arranhei entre espinhos!\nQuantas vezes eu chorei de dor\nTão amargurado, sem amor!\nQuantas vezes reneguei o meu Senhor!\n\nQuantas vezes eu tentei vencer a tentação!\nQuantas vezes eu tentei mais foi em vão!\nAté que uma voz me disse então\nDeixe eu mudar teu coração\nDeixe eu te libertar dessa prisão\n\nMinha vida agora é só de luz\nNada me separa de Jesus\nMeu coração não quer saber\nDe outra paixão",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Quantas vezes tropecei em meu caminho!\nQuantas vezes me arranhei entre espinhos!\nQuantas vezes eu chorei de dor\nTão amargurado, sem amor!\nQuantas vezes reneguei o meu Senhor!",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Quantas vezes eu tentei vencer a tentação!\nQuantas vezes eu tentei mais foi em vão!\nAté que uma voz me disse então\nDeixe eu mudar teu coração\nDeixe eu te libertar dessa prisão",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Minha vida agora é só de luz\nNada me separa de Jesus\nMeu coração não quer saber\nDe outra paixão",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

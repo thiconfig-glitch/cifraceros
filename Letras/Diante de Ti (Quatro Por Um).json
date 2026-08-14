@@ -1,0 +1,92 @@
+{
+  "id": 1606533967624,
+  "title": "Diante de Ti",
+  "artist": "Quatro Por Um",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Vem, Senhor, encher este lugar\nVem, Senhor, encher este lugar\nCom tua glória, com tua glória\nCom tua glória, com tua glória\n\nFala-me, eu quero te ouvir\nToca-me, eu quero te sentir\nVem e abraça-me, vem e abraça-me\nVem e abraça-me, vem e abraça-me\n\nTodo dia é dia de adorar ao Senhor\nEu conto os segundos \nsó pra te encontrar\nQuando estou em tua presença\n\nDá vontade de pular, \ndá vontade de dançar\nDá vontade de gritar, \ndá vontade de correr\nDiante de ti\n\nDá vontade de pular, \ndá vontade de dançar\nDá vontade de gritar, \ndá vontade de correr\nDá vontade de pular, \ndá vontade de dançar\nHey yeah\n\nNa tua presença, Senhor\nDá vontade de correr, de saltar de alegria\nDe te conhecer, Senhor\nDe erguer minhas mãos\nE te adorar, e te adorar, Senhor\nDá vontade\n\nDá vontade de pular, dá vontade de dançar\nDá vontade de gritar, dá vontade de correr\nDiante de ti\n\nDá vontade de pular, dá vontade de dançar\nDá vontade de gritar, dá vontade de correr\nDá vontade de pular, dá vontade de dançar",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Vem, Senhor, encher este lugar\nVem, Senhor, encher este lugar\nCom tua glória, com tua glória\nCom tua glória, com tua glória",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Fala-me, eu quero te ouvir\nToca-me, eu quero te sentir\nVem e abraça-me, vem e abraça-me\nVem e abraça-me, vem e abraça-me",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Todo dia é dia de adorar ao Senhor\nEu conto os segundos \nsó pra te encontrar\nQuando estou em tua presença",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Dá vontade de pular, \ndá vontade de dançar\nDá vontade de gritar, \ndá vontade de correr\nDiante de ti",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Dá vontade de pular, \ndá vontade de dançar\nDá vontade de gritar, \ndá vontade de correr\nDá vontade de pular, \ndá vontade de dançar\nHey yeah",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Na tua presença, Senhor\nDá vontade de correr, de saltar de alegria\nDe te conhecer, Senhor\nDe erguer minhas mãos\nE te adorar, e te adorar, Senhor\nDá vontade",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Dá vontade de pular, dá vontade de dançar\nDá vontade de gritar, dá vontade de correr\nDiante de ti",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": "Dá vontade de pular, dá vontade de dançar\nDá vontade de gritar, dá vontade de correr\nDá vontade de pular, dá vontade de dançar",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

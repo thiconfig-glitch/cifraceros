@@ -1,0 +1,57 @@
+{
+  "id": 1682796340302,
+  "title": "Pedra Na Mão",
+  "artist": "",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Pedra na Mão, gigante na mira\nPoder de Deus é minha artilharia\n\nVou derrubar esse gigante\n(vou derrubar esse gigante)\n\nOh oh oh oh oh \noh oh oh oh oh oh",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Pedra na Mão, gigante na mira\nPoder de Deus é minha artilharia",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Vou derrubar esse gigante\n(vou derrubar esse gigante)",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Oh oh oh oh oh \noh oh oh oh oh oh",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

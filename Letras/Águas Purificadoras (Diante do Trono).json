@@ -1,0 +1,85 @@
+{
+  "id": 1634822462550,
+  "title": "Águas Purificadoras",
+  "artist": "Diante do Trono",
+  "author": "Ana Paula Valadão",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Existe um rio, Senhor\nQue flui do Teu\nGrande amor\n\nÁguas que correm\nDo trono\nÁguas que curam\nQue limpam\n\nPor onde o rio passar\nTudo vai transformar\n\nPois leva a vida\nDo próprio Deus\nE esse rio está\nNeste lugar\n\nQuero beber\nDo Teu rio, Senhor\nSacia a minha sede\nLava o meu interior\n\nEu quero fluir em Tuas águas\nEu quero beber da Tua fonte\nFonte de águas vivas\nTu és a fonte, Senhor\n\nTu és o rio, Senhor\nTú és a fonte, Senhor",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Existe um rio, Senhor\nQue flui do Teu\nGrande amor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Águas que correm\nDo trono\nÁguas que curam\nQue limpam",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Por onde o rio passar\nTudo vai transformar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Pois leva a vida\nDo próprio Deus\nE esse rio está\nNeste lugar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Quero beber\nDo Teu rio, Senhor\nSacia a minha sede\nLava o meu interior",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Eu quero fluir em Tuas águas\nEu quero beber da Tua fonte\nFonte de águas vivas\nTu és a fonte, Senhor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Tu és o rio, Senhor\nTú és a fonte, Senhor",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

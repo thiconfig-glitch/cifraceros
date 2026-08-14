@@ -1,0 +1,113 @@
+{
+  "id": 1585239205165,
+  "title": "Marcas da Vida",
+  "artist": "Pr. Lucas",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Quem vê meus olhos\nNão sabe as lágrimas que derramei\nQuem vê meus pés\nNão sabe os espinhos que pisei\n\nSe ouvir minha voz\nNão sabe as vezes \nque eu me calei pra não sofrer\n\nQuem vê minhas mãos\nNão sabe as batalhas que travei\nE o meu sorriso\nQue muitas vezes eu o disfarcei\nPor fora um livro com as marcas \nque a vida escreveu\n\nE diante das coisas \nque eu não pude evitar\nEu encontrei abrigo \naté tudo passar\n\nNa vida tem um tempo pra sorrir\ne pra chorar\nMas em tudo eu vejo\nAs mãos do meu Deus a me guardar\n\nMeu passado é uma história\nMeu futuro está sendo escrito\nPor um Deus que cuida de mim\ncom muito amor\n\nJá passei por coisas na vida\nHoje eu quero as coisas de Deus\nEu vou viver o sobrenatural\nMesmo depois de tudo que passei\n\nE diante das coisas \nque eu não pude evitar\nEu encontrei abrigo \naté tudo passar\n\nNa vida tem um tempo \npra sorrir e pra chorar\nMas em tudo eu vejo\nAs mãos do meu Deus \na me guardar\n\n\nMeu passado é uma história\nMeu futuro está sendo escrito\nPor um Deus que cuida de mim \ncom muito amor\n\nJá passei por coisas na vida\nHoje eu quero as coisas de Deus\nEu vou viver o sobrenatural\nMesmo depois de tudo que passei",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Quem vê meus olhos\nNão sabe as lágrimas que derramei\nQuem vê meus pés\nNão sabe os espinhos que pisei",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Se ouvir minha voz\nNão sabe as vezes \nque eu me calei pra não sofrer",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Quem vê minhas mãos\nNão sabe as batalhas que travei\nE o meu sorriso\nQue muitas vezes eu o disfarcei\nPor fora um livro com as marcas \nque a vida escreveu",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "E diante das coisas \nque eu não pude evitar\nEu encontrei abrigo \naté tudo passar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Na vida tem um tempo pra sorrir\ne pra chorar\nMas em tudo eu vejo\nAs mãos do meu Deus a me guardar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "Refrão",
+        "text": "Meu passado é uma história\nMeu futuro está sendo escrito\nPor um Deus que cuida de mim\ncom muito amor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "Refrão",
+        "text": "Já passei por coisas na vida\nHoje eu quero as coisas de Deus\nEu vou viver o sobrenatural\nMesmo depois de tudo que passei",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": "E diante das coisas \nque eu não pude evitar\nEu encontrei abrigo \naté tudo passar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 9,
+        "description": "",
+        "text": "Na vida tem um tempo \npra sorrir e pra chorar\nMas em tudo eu vejo\nAs mãos do meu Deus \na me guardar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 10,
+        "description": "Refrão",
+        "text": "\nMeu passado é uma história\nMeu futuro está sendo escrito\nPor um Deus que cuida de mim \ncom muito amor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 11,
+        "description": "Refrão",
+        "text": "Já passei por coisas na vida\nHoje eu quero as coisas de Deus\nEu vou viver o sobrenatural\nMesmo depois de tudo que passei",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

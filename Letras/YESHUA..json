@@ -1,0 +1,64 @@
+{
+  "id": 1582748875929,
+  "title": "YESHUA.",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "YESHUA\nYESHUA\nYESHUA\nYESHUA\n\nVEM SALTANDO SOBRE OS MONTES\nDE JERUSALÉM\nSOU TUA NOIVA APAIXONADA\nTE ESPERANDO PARA DANÇAR\n\nYESHUA\nYESHUA\nYESHUA\nYESHUA\n\nVEM SALTANDO SOBRE OS MONTES\nDE JERUSALÉM\nSOU TUA NOIVA APAIXONADA\nTE ESPERANDO PARA DANÇAR",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "YESHUA\nYESHUA\nYESHUA\nYESHUA",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "VEM SALTANDO SOBRE OS MONTES\nDE JERUSALÉM\nSOU TUA NOIVA APAIXONADA\nTE ESPERANDO PARA DANÇAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "YESHUA\nYESHUA\nYESHUA\nYESHUA",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "VEM SALTANDO SOBRE OS MONTES\nDE JERUSALÉM\nSOU TUA NOIVA APAIXONADA\nTE ESPERANDO PARA DANÇAR",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

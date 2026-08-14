@@ -1,0 +1,71 @@
+{
+  "id": 1582748875864,
+  "title": "BATIZA-ME",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "SEI QUE TENS CIÚMES DE MIM\nSEI QUE CLAMAS POR MIM\nconfiando ESTOU POR TEU AGIR\nVENTO DE DEUS, SOPRA EM MIM\n\nSEI QUE TENS CIÚMES DE MIM\nSEI QUE CLAMAS POR MIM\nESPERANDO ESTOU POR TEU AGIR\nVENTO DE DEUS, SOPRA EM MIM\n\nBATIZA-ME COM TEU FOGO\nBATIZA-ME COM TEU FOGO\nSANTO, SANTO\nSANTO ESPÍRITO\n\nBATIZA-ME COM TEU FOGO\nBATIZA-ME COM TEU FOGO\nSANTO, SANTO\nSANTO ESPÍRITO\n\nME ESVAZIAR DE MIM\nME TRANSBORDAR DE TI\nOS MEUS DIAS VIVEREI PRA TI\nESPÍRITO SANTO",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "SEI QUE TENS CIÚMES DE MIM\nSEI QUE CLAMAS POR MIM\nconfiando ESTOU POR TEU AGIR\nVENTO DE DEUS, SOPRA EM MIM",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "SEI QUE TENS CIÚMES DE MIM\nSEI QUE CLAMAS POR MIM\nESPERANDO ESTOU POR TEU AGIR\nVENTO DE DEUS, SOPRA EM MIM",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "BATIZA-ME COM TEU FOGO\nBATIZA-ME COM TEU FOGO\nSANTO, SANTO\nSANTO ESPÍRITO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "BATIZA-ME COM TEU FOGO\nBATIZA-ME COM TEU FOGO\nSANTO, SANTO\nSANTO ESPÍRITO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "ME ESVAZIAR DE MIM\nME TRANSBORDAR DE TI\nOS MEUS DIAS VIVEREI PRA TI\nESPÍRITO SANTO",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

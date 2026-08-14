@@ -1,0 +1,57 @@
+{
+  "id": 1606760367369,
+  "title": "Tudo que sou",
+  "artist": "Davi Sacer",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Tu és tudo para mim,\nMeu futuro a ti pertence,\nSei que jamais me deixara,\nEu não me canso de te buscar.\n\nNo teu sangue me lavei\nTu me guardas a todo instante\nTua graça não tem fim\nTu és dono de tudo que há em mim.\n\nTudo o que sou\nTudo o que tenho\nO ar que eu respiro a todo o momento\nTudo o que sou tudo o que tenho\nO ar que eu respiro a todo o momento.\nÉs a minha forca, minha confiança\nÉs minha saída tu ES meu tudo.",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Tu és tudo para mim,\nMeu futuro a ti pertence,\nSei que jamais me deixara,\nEu não me canso de te buscar.",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "No teu sangue me lavei\nTu me guardas a todo instante\nTua graça não tem fim\nTu és dono de tudo que há em mim.",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Tudo o que sou\nTudo o que tenho\nO ar que eu respiro a todo o momento\nTudo o que sou tudo o que tenho\nO ar que eu respiro a todo o momento.\nÉs a minha forca, minha confiança\nÉs minha saída tu ES meu tudo.",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

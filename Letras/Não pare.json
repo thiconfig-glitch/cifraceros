@@ -1,0 +1,85 @@
+{
+  "id": 1582748875566,
+  "title": "Não pare",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "VOCÊ NÃO PODE DESISTIR AGORA\nLEMBRE DE TUDO QUE VOCÊ PASSOU\nATÉ CHEGAR AQUI\nVOCÊ NÃO PODE DESISTIR AGORA\n\nFALTA TÃO POUCO PARA O MILAGRE ACONTECER\nVOCÊ NÃO PODE DESISTIR AGORA\nO VENTO NÃO PODE SER MAIS FORTE QUE O TEU DEUS\n\nOUÇA O RUÍDO DAS MURALHAS QUE CAEM\nOUÇA O SOM DO MAR QUE JÁ SE ABRE\nOUÇA O GRITO DE DERROTA DO GIGANTE\nTUA CONQUISTA JÁ ESTÁ POR VIR\nMAS VOCÊ NÃO PODE DESISTIR\nVOCÊ NÃO PODE DESISTIR AGORA\n\nNÃO PARE, NÃO PARE\n\nNÃO PARE, NÃO PARE\nDEUS ESTÁ NO CONTROLE\nNÃO PARE, NÃO PARE\nDEUS ESTÁ NO CONTROLE\nNÃO PARE, NÃO PARE\nDEUS ESTÁ NO CONTROLE\n\nO FILHO DE DEUS NASCEU PARA VENCER\n\nOUÇA O RUÍDO DAS MURALHAS QUE CAEM\nOUÇA O SOM DO MAR QUE JÁ SE ABRE\nOUÇA O GRITO DE DERROTA DO GIGANTE\nTUA CONQUISTA JÁ ESTÁ POR VIR\nMAS VOCÊ NÃO PODE DESISTIR\nVOCÊ NÃO PODE DESISTIR AGORA",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "VOCÊ NÃO PODE DESISTIR AGORA\nLEMBRE DE TUDO QUE VOCÊ PASSOU\nATÉ CHEGAR AQUI\nVOCÊ NÃO PODE DESISTIR AGORA",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "FALTA TÃO POUCO PARA O MILAGRE ACONTECER\nVOCÊ NÃO PODE DESISTIR AGORA\nO VENTO NÃO PODE SER MAIS FORTE QUE O TEU DEUS",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "OUÇA O RUÍDO DAS MURALHAS QUE CAEM\nOUÇA O SOM DO MAR QUE JÁ SE ABRE\nOUÇA O GRITO DE DERROTA DO GIGANTE\nTUA CONQUISTA JÁ ESTÁ POR VIR\nMAS VOCÊ NÃO PODE DESISTIR\nVOCÊ NÃO PODE DESISTIR AGORA",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "NÃO PARE, NÃO PARE",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "NÃO PARE, NÃO PARE\nDEUS ESTÁ NO CONTROLE\nNÃO PARE, NÃO PARE\nDEUS ESTÁ NO CONTROLE\nNÃO PARE, NÃO PARE\nDEUS ESTÁ NO CONTROLE",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "O FILHO DE DEUS NASCEU PARA VENCER",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "OUÇA O RUÍDO DAS MURALHAS QUE CAEM\nOUÇA O SOM DO MAR QUE JÁ SE ABRE\nOUÇA O GRITO DE DERROTA DO GIGANTE\nTUA CONQUISTA JÁ ESTÁ POR VIR\nMAS VOCÊ NÃO PODE DESISTIR\nVOCÊ NÃO PODE DESISTIR AGORA",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

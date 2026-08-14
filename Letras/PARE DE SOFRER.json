@@ -1,0 +1,57 @@
+{
+  "id": 1582748875611,
+  "title": "PARE DE SOFRER",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "SE TUA VIDA É TÃO SOFRIDA\nLUTA BASTANTE, MAS NÃO VENCEU AINDA\nJÁ ESTÁ CANSANDO DE TENTAR\nUMA SAÍDA ENCONTRAR, ENCONTRAR\n\nSE EM TANTOS CAMINHOS VOCÊ PROCUROU\nMAS NA VERDADE NUNCA ENCONTROU\nSE OS SEUS SONHOS SE ACABARAMOS\nSEUS CASTELOS DESABARAM\n\nPARE DE SOFRER AGORA\nJESUS TEM PRA VOCÊ TODA VITÓRIA\nAGORA SÓ DEPENDE DE VOCÊ\nCONTINUAR SOFRENDO OU VENCER",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "SE TUA VIDA É TÃO SOFRIDA\nLUTA BASTANTE, MAS NÃO VENCEU AINDA\nJÁ ESTÁ CANSANDO DE TENTAR\nUMA SAÍDA ENCONTRAR, ENCONTRAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "SE EM TANTOS CAMINHOS VOCÊ PROCUROU\nMAS NA VERDADE NUNCA ENCONTROU\nSE OS SEUS SONHOS SE ACABARAMOS\nSEUS CASTELOS DESABARAM",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "PARE DE SOFRER AGORA\nJESUS TEM PRA VOCÊ TODA VITÓRIA\nAGORA SÓ DEPENDE DE VOCÊ\nCONTINUAR SOFRENDO OU VENCER",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

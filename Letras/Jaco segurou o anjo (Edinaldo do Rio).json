@@ -1,0 +1,64 @@
+{
+  "id": 1624097246176,
+  "title": "Jaco segurou o anjo",
+  "artist": "Edinaldo do Rio",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Jacó segurou o anjo, \nsegurou e não deixou subir\nJacó segurou o anjo, \nsegurou e não deixou subir\n\nE o anjo perguntou\nO que queres que eu te faça?\nJacó respondeu \nMe dá minha bênção pra depois subir\n\nMe dá minha bênção pra depois subir\nMe dá minha bênção pra depois subir\nMe dá minha bênção pra depois subir\n\nVEM CÁ VEM VER,\nJESUS JÁ PREPAROU MUITAS\nBÊNÇÃOS PRA VOCÊ.",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Jacó segurou o anjo, \nsegurou e não deixou subir\nJacó segurou o anjo, \nsegurou e não deixou subir",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "E o anjo perguntou\nO que queres que eu te faça?\nJacó respondeu \nMe dá minha bênção pra depois subir",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Me dá minha bênção pra depois subir\nMe dá minha bênção pra depois subir\nMe dá minha bênção pra depois subir",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "VEM CÁ VEM VER,\nJESUS JÁ PREPAROU MUITAS\nBÊNÇÃOS PRA VOCÊ.",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": 1652222192709,
+  "title": "Reconheço O Teu Amor",
+  "artist": "Ivanilson Pontes",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Eu queria apenas uma chance\nPra falar do grande amor de Deus\nExpressar o quanto eu o amo\nE o adorar com o mais lindo louvor\n\nReconheço o Teu amor na minha vida\nJesus Cristo sem você não há saída\nEu preciso de você nunca mais vou te esquecer\nPois meu coração é Teu\n\nNão adianta ocultar o que passou\nNão adianta me fechar pra esse amor\nSe Jesus Cristo me tocar\nMinha alma sentirá\nA alegria que somente em Jesus\nEu posso encontrar.",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Eu queria apenas uma chance\nPra falar do grande amor de Deus\nExpressar o quanto eu o amo\nE o adorar com o mais lindo louvor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Reconheço o Teu amor na minha vida\nJesus Cristo sem você não há saída\nEu preciso de você nunca mais vou te esquecer\nPois meu coração é Teu",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Não adianta ocultar o que passou\nNão adianta me fechar pra esse amor\nSe Jesus Cristo me tocar\nMinha alma sentirá\nA alegria que somente em Jesus\nEu posso encontrar.",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

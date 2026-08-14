@@ -1,0 +1,64 @@
+{
+  "id": 1582748875483,
+  "title": "EXCLUSIVO",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "\nSE A SUA HISTÓRIA ATÉ AQUI NÃO FOI FELIZ\nISSO NÃO TE TORNA INFERIOR OU MENOR\nNENHUM DE NÓS PEDIU PRA VIR A ESSE MUNDO\nEM MEIO À  BILHÕES PRA DEUS VOCÊ É ÚNICO\n\nQUANDO DEUS FORMOU\nVOCÊ NO VENTRE DE SUA MÃE\nFEZ UM PROJETO LINDO UMA JÓIA RARA\nSÓ ELE SABE CADA UM DE SEUS DETALHES\nSOMENTE ELE CONHECE O SEU INTERIOR\n\nVOCÊ NÃO É MAIS UM\nE NÃO ESTÁ NO MUNDO POR ACASO\nVOCÊ É EXCLUSIVO, VOCÊ É RARIDADE\n\nSE NINGUÉM TE AMA, ISSO NÃO É VERDADE\nDEUS TE AMA TANTO CUIDA DE VOCÊ\nVOCÊ É RARIDADE",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "\nSE A SUA HISTÓRIA ATÉ AQUI NÃO FOI FELIZ\nISSO NÃO TE TORNA INFERIOR OU MENOR\nNENHUM DE NÓS PEDIU PRA VIR A ESSE MUNDO\nEM MEIO À  BILHÕES PRA DEUS VOCÊ É ÚNICO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "QUANDO DEUS FORMOU\nVOCÊ NO VENTRE DE SUA MÃE\nFEZ UM PROJETO LINDO UMA JÓIA RARA\nSÓ ELE SABE CADA UM DE SEUS DETALHES\nSOMENTE ELE CONHECE O SEU INTERIOR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "VOCÊ NÃO É MAIS UM\nE NÃO ESTÁ NO MUNDO POR ACASO\nVOCÊ É EXCLUSIVO, VOCÊ É RARIDADE",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "SE NINGUÉM TE AMA, ISSO NÃO É VERDADE\nDEUS TE AMA TANTO CUIDA DE VOCÊ\nVOCÊ É RARIDADE",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

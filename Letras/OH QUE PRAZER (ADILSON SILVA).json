@@ -1,0 +1,57 @@
+{
+  "id": 1634423417763,
+  "title": "OH QUE PRAZER",
+  "artist": "ADILSON SILVA",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Oh! Que prazer é\nÉ descansar na força do seu braço\nÉ te encontrar em tudo que eu faço\nÉ perceber que estás comigo aqui\n\nOh! Que prazer\nÉ ser o templo do Espírito Santo\nÉ te adorar com salmos e com cânticos\nOuvir tua voz provar do teu poder\n\nOh! Que prazer\nÉ descobrir que andas ao meu lado\nSentir tua mão por toda caminhada\nOlhando sempre na direção do céu",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Oh! Que prazer é\nÉ descansar na força do seu braço\nÉ te encontrar em tudo que eu faço\nÉ perceber que estás comigo aqui",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Oh! Que prazer\nÉ ser o templo do Espírito Santo\nÉ te adorar com salmos e com cânticos\nOuvir tua voz provar do teu poder",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Oh! Que prazer\nÉ descobrir que andas ao meu lado\nSentir tua mão por toda caminhada\nOlhando sempre na direção do céu",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

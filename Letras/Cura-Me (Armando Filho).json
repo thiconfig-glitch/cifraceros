@@ -1,0 +1,64 @@
+{
+  "id": 1608671741748,
+  "title": "Cura-Me",
+  "artist": "Armando Filho",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Senhor, tu tens me dado\nMil motivos pra cantar\nUsas a minha voz\nPor onde quer que eu andar\nE através de mim\n\nQuantos vieram para ti\nVidas que outras vidas vão trazer\nPorém o que me faz\nAjoelhar em oração\nAlém de te louvar\n\nPor tua graça e tua unção\nÉ que há algo dentro de mim\nQue não gosto de ter\nPreciso de um milagre\nOh, vem Senhor fazer\n\nCura-me\nRestaura-me\nEnvolve o meu ser\nSenhor da Glória\nCura-me\nRestaura-me\nToca o meu viver\nDeus da vitória",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Senhor, tu tens me dado\nMil motivos pra cantar\nUsas a minha voz\nPor onde quer que eu andar\nE através de mim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Quantos vieram para ti\nVidas que outras vidas vão trazer\nPorém o que me faz\nAjoelhar em oração\nAlém de te louvar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Por tua graça e tua unção\nÉ que há algo dentro de mim\nQue não gosto de ter\nPreciso de um milagre\nOh, vem Senhor fazer",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Cura-me\nRestaura-me\nEnvolve o meu ser\nSenhor da Glória\nCura-me\nRestaura-me\nToca o meu viver\nDeus da vitória",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

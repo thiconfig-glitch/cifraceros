@@ -1,0 +1,106 @@
+{
+  "id": 1617534146820,
+  "title": "Ressuscitou",
+  "artist": "Carlos Heitor",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Ele venceu a morte\nPor amor a todos nós\nDesceu de sua glória\nPra cumprir o plano de Deus\n\nFoi humilhado e machucado\nMas carregou aquela cruz\nE ao terceiro dia\nRessuscitou o meu Jesus\n\nRessuscitou\nEle ressuscitou\nJesus venceu a morte\nRessuscitou\n\nRessuscitou\nEle ressuscitou\nJesus venceu a morte\nRessuscitou\n\nHoje quer te dar a vida\nQuer mudar todo o teu ser\nSe quiseres a vitória\nNo seu sangue há poder\n\nPois nem mesmo a própria morte\nSua vida derrotou\nDa tumba a prisão fria\nO meu Jesus ressuscitou\n\nRessuscitou\nEle ressuscitou\nJesus venceu a morte\nRessuscitou\n\nRessuscitou\nEle ressuscitou\nJesus venceu a morte\nRessuscitou\n\nEle voltara, \nem breve voltara\nDescerá-a entre as nuvens \npara nos buscar\n\nEle voltara, \nem breve voltara\nDescerá-a entre as nuvens \npara nos buscar",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Ele venceu a morte\nPor amor a todos nós\nDesceu de sua glória\nPra cumprir o plano de Deus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Foi humilhado e machucado\nMas carregou aquela cruz\nE ao terceiro dia\nRessuscitou o meu Jesus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Ressuscitou\nEle ressuscitou\nJesus venceu a morte\nRessuscitou",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Ressuscitou\nEle ressuscitou\nJesus venceu a morte\nRessuscitou",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Hoje quer te dar a vida\nQuer mudar todo o teu ser\nSe quiseres a vitória\nNo seu sangue há poder",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Pois nem mesmo a própria morte\nSua vida derrotou\nDa tumba a prisão fria\nO meu Jesus ressuscitou",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Ressuscitou\nEle ressuscitou\nJesus venceu a morte\nRessuscitou",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": "Ressuscitou\nEle ressuscitou\nJesus venceu a morte\nRessuscitou",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 9,
+        "description": "",
+        "text": "Ele voltara, \nem breve voltara\nDescerá-a entre as nuvens \npara nos buscar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 10,
+        "description": "",
+        "text": "Ele voltara, \nem breve voltara\nDescerá-a entre as nuvens \npara nos buscar",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

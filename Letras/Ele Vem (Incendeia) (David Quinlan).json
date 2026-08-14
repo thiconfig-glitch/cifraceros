@@ -1,0 +1,85 @@
+{
+  "id": 1606546612342,
+  "title": "Ele Vem (Incendeia)",
+  "artist": "David Quinlan",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "O tempo de cantar chegou\nO tempo de dançar chegou\nO tempo de cantar chegou\nO tempo de dançar chegou\n\nE Ele vem, e Ele vem\nSaltando pelos montes\nE Ele vem, e Ele vem\nSaltando pelos montes\n\nE os Seus cabelos\nE os Seus cabelos\nSão brancos como a neve\n\nE os Seus cabelos\nE os Seus cabelos\nSão brancos como a neve\n\nE nos Seus olhos\nE nos Seus olhos\nHá fogo!\n\nIncendeia Senhor a força jovem\nIncendeia Senhor a força jovem\nIncendeia Senhor a Sua casa\nVem me incendiar\n\nIncendeia Senhor a FORÇA JOVEM\nIncendeia Senhor a FORÇA JOVEM\nIncendeia Senhor a FORÇA JOVEM\nVem me incendiar",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "O tempo de cantar chegou\nO tempo de dançar chegou\nO tempo de cantar chegou\nO tempo de dançar chegou",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "E Ele vem, e Ele vem\nSaltando pelos montes\nE Ele vem, e Ele vem\nSaltando pelos montes",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "E os Seus cabelos\nE os Seus cabelos\nSão brancos como a neve",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "E os Seus cabelos\nE os Seus cabelos\nSão brancos como a neve",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "E nos Seus olhos\nE nos Seus olhos\nHá fogo!",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Incendeia Senhor a força jovem\nIncendeia Senhor a força jovem\nIncendeia Senhor a Sua casa\nVem me incendiar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Incendeia Senhor a FORÇA JOVEM\nIncendeia Senhor a FORÇA JOVEM\nIncendeia Senhor a FORÇA JOVEM\nVem me incendiar",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

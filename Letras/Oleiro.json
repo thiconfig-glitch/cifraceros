@@ -1,0 +1,57 @@
+{
+  "id": 1607782233774,
+  "title": "Oleiro",
+  "artist": "",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Oleiro, o meu vaso se quebrou\nOs pedaços venho hoje te entregar\nSerá que podes novamente me moldar?\nVaso novo para Te glorificar\n\nVenho aqui, coração quebrantado\nVenho aqui, contrito e humilhado\nPerdoa-me Senhor, restaura a comunhão\nRestitui minha alegria na Tua salvação\n\nQuero adorar, quero exaltar\nEm tua presença quero estar\nQuero viver para o Teu louvor\nOleiro restaura meu vaso por favor",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Oleiro, o meu vaso se quebrou\nOs pedaços venho hoje te entregar\nSerá que podes novamente me moldar?\nVaso novo para Te glorificar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Venho aqui, coração quebrantado\nVenho aqui, contrito e humilhado\nPerdoa-me Senhor, restaura a comunhão\nRestitui minha alegria na Tua salvação",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Quero adorar, quero exaltar\nEm tua presença quero estar\nQuero viver para o Teu louvor\nOleiro restaura meu vaso por favor",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

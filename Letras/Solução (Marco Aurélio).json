@@ -1,0 +1,99 @@
+{
+  "id": 1618599115685,
+  "title": "Solução",
+  "artist": "Marco Aurélio",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Não, não deixe tudo acabar \nassim desse jeito\nEnxuga as lagrimas \nvem eu te aceito\n\nDas tuas transgressões \nnão me lembrarei mais\nVem filho vem sem tardar \nvem assim como estás\n\nMe dá teu coração \nte darei paz \nsou cristo a solução \nnão sofras mais\n\nSei que é difícil o libertar \ndessa angustia que em ti está\nSaiba que só não vencerás \nalguém precisa te ajudar\n\nEstou aqui e em nenhum outro \nhá solução\nSomente em mim terás em fim\nabrigo e paz no coração\n\nNão, não deixes tudo terminar \npensa bem ninguém é perfeito\nPra toda situação \nsó existe um jeito \n\nTe dou meu coração \nTerei tua paz\nSó Cristo é a solução \nNão sofras mais\n\nMe dá teu coração \nte darei Paz \nsou cristo a solução \nnão sofras mais\n\nMe dá teu coração \nte darei Paz \nsou cristo a solução \nnão sofras mais",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Não, não deixe tudo acabar \nassim desse jeito\nEnxuga as lagrimas \nvem eu te aceito",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Das tuas transgressões \nnão me lembrarei mais\nVem filho vem sem tardar \nvem assim como estás",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Me dá teu coração \nte darei paz \nsou cristo a solução \nnão sofras mais",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Sei que é difícil o libertar \ndessa angustia que em ti está\nSaiba que só não vencerás \nalguém precisa te ajudar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Estou aqui e em nenhum outro \nhá solução\nSomente em mim terás em fim\nabrigo e paz no coração",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Não, não deixes tudo terminar \npensa bem ninguém é perfeito\nPra toda situação \nsó existe um jeito ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Te dou meu coração \nTerei tua paz\nSó Cristo é a solução \nNão sofras mais",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": "Me dá teu coração \nte darei Paz \nsou cristo a solução \nnão sofras mais",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 9,
+        "description": "",
+        "text": "Me dá teu coração \nte darei Paz \nsou cristo a solução \nnão sofras mais",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

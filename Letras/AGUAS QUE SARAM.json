@@ -1,0 +1,57 @@
+{
+  "id": 1582748875900,
+  "title": "AGUAS QUE SARAM",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Nesses dias quero ver Seus milagres\nQuero ver as maravilhas do Senhor\nPela fé eu vejo um rio que desce de Deus\nQue sara, que cura\nÁguas que saram, que curam.\nÁguas que saram\n\nÁguas que saram, que curam\nÁguas que saram, que curam\n\nSUAS ÁGUAS JÁ ESTÃO ENTRE NÓS\nUMA UNÇÃO CELESTIAL ENCHE O TEMPLO\nQUERUBINS E SERAFINS \nTRAZEM BENÇÃOS DO CÉU\nQUERO RECEBER,QUERO RECEBER",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Nesses dias quero ver Seus milagres\nQuero ver as maravilhas do Senhor\nPela fé eu vejo um rio que desce de Deus\nQue sara, que cura\nÁguas que saram, que curam.\nÁguas que saram",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Águas que saram, que curam\nÁguas que saram, que curam",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "SUAS ÁGUAS JÁ ESTÃO ENTRE NÓS\nUMA UNÇÃO CELESTIAL ENCHE O TEMPLO\nQUERUBINS E SERAFINS \nTRAZEM BENÇÃOS DO CÉU\nQUERO RECEBER,QUERO RECEBER",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

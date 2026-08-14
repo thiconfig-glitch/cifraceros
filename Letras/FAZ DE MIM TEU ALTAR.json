@@ -1,0 +1,71 @@
+{
+  "id": 1582748875690,
+  "title": "FAZ DE MIM TEU ALTAR",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "SENHOR ESPIRITO SANTO \nEU PRECISO TANTO DA TUA AMIZADE\nSENHOR ENXUGA O MEU PRANTO \nE ME MOSTRA O CAMINHO DA FELICIDADE \n\n O MEU CORAÇÃO \nÉ COMO AS ONDAS DO MAR\nSÓ A VOZ DE JESUS\nÉ QUEM PODE ACALMAR\n\nESPIRITO SANTO \nFAZ DE MIM UM ALTAR \nONDE O MEU SALVADOR\nTENHA PRAZER EM MORAR\n\nESPIRITO SANTO, \nFAZ DE MIM TEU ALTAR \nE SE NESSE MEU CANTO\nEU SORRIR OU CHORAR \nÉ PORQUE EU TE AMO DEMAIS\n\nESPIRITO SANTO,\nFAZ DE MIM TEU ALTAR\nE SE NESSE MEU CANTO \nEU SORRIR OU CHORAR \nÉ PORQUE TENHO PAZ ",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "SENHOR ESPIRITO SANTO \nEU PRECISO TANTO DA TUA AMIZADE\nSENHOR ENXUGA O MEU PRANTO \nE ME MOSTRA O CAMINHO DA FELICIDADE ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": " O MEU CORAÇÃO \nÉ COMO AS ONDAS DO MAR\nSÓ A VOZ DE JESUS\nÉ QUEM PODE ACALMAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "ESPIRITO SANTO \nFAZ DE MIM UM ALTAR \nONDE O MEU SALVADOR\nTENHA PRAZER EM MORAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "ESPIRITO SANTO, \nFAZ DE MIM TEU ALTAR \nE SE NESSE MEU CANTO\nEU SORRIR OU CHORAR \nÉ PORQUE EU TE AMO DEMAIS",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "ESPIRITO SANTO,\nFAZ DE MIM TEU ALTAR\nE SE NESSE MEU CANTO \nEU SORRIR OU CHORAR \nÉ PORQUE TENHO PAZ ",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

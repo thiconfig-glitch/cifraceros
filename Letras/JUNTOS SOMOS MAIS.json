@@ -1,0 +1,64 @@
+{
+  "id": 1582748875687,
+  "title": "JUNTOS SOMOS MAIS",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "JUNTOS SOMOS MAIS \nMAIS QUE SÓ PAIXÃO, BEM MAIS\nSOMOS SIM E NÃO \nE O TALVEZ SE DESFAZ\n\nNÃO HÁ DIVISÃO, SÓ CUMPLICIDADE \nNADA DE ILUSÃO, SÓ SINCERIDADE\n\nNÃO HÁ RAZÃO, PRA SEPARAR \nO QUE O AMOR UNIU PRA SEMPRE \nE O QUE FAZER, SE O MEU LUGAR \nÉ ONDE VOCÊ ESTÁ\n\nNÃO HÁ RAZÃO, PRA SEPARAR \nO QUE A FÉ UNIU PRA SEMPRE \nNÃO VOU TEMER, SE O MEU LUGAR \nÉ ONDE VOCÊ ESTÁ",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "JUNTOS SOMOS MAIS \nMAIS QUE SÓ PAIXÃO, BEM MAIS\nSOMOS SIM E NÃO \nE O TALVEZ SE DESFAZ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "NÃO HÁ DIVISÃO, SÓ CUMPLICIDADE \nNADA DE ILUSÃO, SÓ SINCERIDADE",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "NÃO HÁ RAZÃO, PRA SEPARAR \nO QUE O AMOR UNIU PRA SEMPRE \nE O QUE FAZER, SE O MEU LUGAR \nÉ ONDE VOCÊ ESTÁ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "NÃO HÁ RAZÃO, PRA SEPARAR \nO QUE A FÉ UNIU PRA SEMPRE \nNÃO VOU TEMER, SE O MEU LUGAR \nÉ ONDE VOCÊ ESTÁ",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

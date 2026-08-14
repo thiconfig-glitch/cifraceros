@@ -1,0 +1,50 @@
+{
+  "id": 1608934548582,
+  "title": "Nascer de Novo",
+  "artist": "Eduardo Cardozo",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Tem que nascer da água\nTem que nascer de Deus\nTem que nascer do Espírito Santo\nPra ser um filho de Deus\n\nO mundo tenho que esquecer\nA velha vida abandonar\nTenho que olhar para Cristo\nOrar também vigiar\nTenho que obedecê-lo em tudo\nTenho que crer na palavra\nSer fiel a Jesus, até o fim da estrada",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Tem que nascer da água\nTem que nascer de Deus\nTem que nascer do Espírito Santo\nPra ser um filho de Deus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "O mundo tenho que esquecer\nA velha vida abandonar\nTenho que olhar para Cristo\nOrar também vigiar\nTenho que obedecê-lo em tudo\nTenho que crer na palavra\nSer fiel a Jesus, até o fim da estrada",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

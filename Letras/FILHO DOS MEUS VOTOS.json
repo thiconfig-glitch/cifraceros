@@ -1,0 +1,64 @@
+{
+  "id": 1582748875546,
+  "title": "FILHO DOS MEUS VOTOS",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "EU VI O TEU PRIMEIRO SORRISO\nNO MEU COLO TE CARREGUEI\nTENTEI TE MOSTRAR O BOM CAMINHO\nFIZESTE POUCO DOS CONSELHOS QUE EU TE DEI\n\nHOJE QUEM CHORA SOU EU\nPOR TE VER ASSIM SEM DEUS\nMAS FILHO NÃO VOU TE PERDER\nPARA ESTE MUNDO MAL\n\nSENHOR TU TAMBÉM ÉS PAI\nNÃO SUPORTASTE VER TEU FILHO LÁ NA CRUZ\nNA FORÇA DESTE VOTO ENTREGO O MEU A TI\nAINDA SORRIREMOS JUNTOS NESTE ALTAR\n\nSENHOR TU TAMBÉM ÉS PAI\nNÃO SUPORTASTE VER TEU FILHO LÁ NA CRUZ\nNA FORÇA DESTE VOTO ENTREGO O MEU A TI\nAINDA SORRIREMOS JUNTOS\nJUNTOS NO ALTAR",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "EU VI O TEU PRIMEIRO SORRISO\nNO MEU COLO TE CARREGUEI\nTENTEI TE MOSTRAR O BOM CAMINHO\nFIZESTE POUCO DOS CONSELHOS QUE EU TE DEI",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "HOJE QUEM CHORA SOU EU\nPOR TE VER ASSIM SEM DEUS\nMAS FILHO NÃO VOU TE PERDER\nPARA ESTE MUNDO MAL",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "SENHOR TU TAMBÉM ÉS PAI\nNÃO SUPORTASTE VER TEU FILHO LÁ NA CRUZ\nNA FORÇA DESTE VOTO ENTREGO O MEU A TI\nAINDA SORRIREMOS JUNTOS NESTE ALTAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "SENHOR TU TAMBÉM ÉS PAI\nNÃO SUPORTASTE VER TEU FILHO LÁ NA CRUZ\nNA FORÇA DESTE VOTO ENTREGO O MEU A TI\nAINDA SORRIREMOS JUNTOS\nJUNTOS NO ALTAR",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

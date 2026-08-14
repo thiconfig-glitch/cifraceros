@@ -1,0 +1,71 @@
+{
+  "id": 1619979587171,
+  "title": "Na Casa de meu Pai",
+  "artist": "Juventude Ilha",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Na casa de meu Pai\nhá unção e há poder.\nNa casa de meu Pai, \nhá unção e há poder.\n\nO cego enxerga, \no coxo anda \ne o morto se levanta para adorar a Deus.\nO cego enxerga, \no coxo anda e o morto se levanta \npara adorar a Deus.\n\nNa casa de meu Pai, \nhá unção e há poder.\nNa casa de meu Pai, \nhá unção e há poder.\n\nE a fofoca cai (cai cai) \ne a doença vai (vai vai)\ne a tristeza sai (sai sai) e não volta mais.\nE a fofoca cai (cai cai) e \na doença vai (vai vai) e a tristeza sai (sai sai) \ne não volta mais.\n\nNa casa de meu Pai, \nhá unção e há poder.\nNa casa de meu Pai, \nhá unção e há poder.",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Na casa de meu Pai\nhá unção e há poder.\nNa casa de meu Pai, \nhá unção e há poder.",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "O cego enxerga, \no coxo anda \ne o morto se levanta para adorar a Deus.\nO cego enxerga, \no coxo anda e o morto se levanta \npara adorar a Deus.",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Na casa de meu Pai, \nhá unção e há poder.\nNa casa de meu Pai, \nhá unção e há poder.",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "E a fofoca cai (cai cai) \ne a doença vai (vai vai)\ne a tristeza sai (sai sai) e não volta mais.\nE a fofoca cai (cai cai) e \na doença vai (vai vai) e a tristeza sai (sai sai) \ne não volta mais.",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Na casa de meu Pai, \nhá unção e há poder.\nNa casa de meu Pai, \nhá unção e há poder.",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": 1591207586067,
+  "title": "Quando Te encontrei",
+  "artist": "Renato Suhett",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Sem Te conhecer\nNa minha vida não via \numa razão de ser\nPor muitos caminhos eu tentei \nme socorrer\nMas não pude entender quanto errei\n\nQuando Te encontrei\nVi que achei na vida\nO Verdadeiro Rei\nTodas as honras e louvores eu Te dei\nMinha vida eu recuperei\nAgora vou cantar o Teu Nome\n\nEstou aqui Senhor\nMinha vida é como a Tua Luz\nE nada nesse mundo\nVai separar meus braços\nDesse Teu amor\n\nE tudo vai mudar\nA vida vai mudar\nPra quem Te encontrar Jesus",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Sem Te conhecer\nNa minha vida não via \numa razão de ser\nPor muitos caminhos eu tentei \nme socorrer\nMas não pude entender quanto errei",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Quando Te encontrei\nVi que achei na vida\nO Verdadeiro Rei\nTodas as honras e louvores eu Te dei\nMinha vida eu recuperei\nAgora vou cantar o Teu Nome",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Estou aqui Senhor\nMinha vida é como a Tua Luz\nE nada nesse mundo\nVai separar meus braços\nDesse Teu amor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "E tudo vai mudar\nA vida vai mudar\nPra quem Te encontrar Jesus",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

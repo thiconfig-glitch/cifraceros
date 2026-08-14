@@ -1,0 +1,64 @@
+{
+  "id": 1628813056289,
+  "title": "Espírito Santo",
+  "artist": "Ednaldo Mendes",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Se eu chorar\nNão pense que o sofrer está em mim\nNão pense que a tristeza em mim bateu\nNão, não é que a presença do Senhor\nFaz morada em mim\n\nSe eu sorrir\nNão pense que estou ficando louco\nA alegria invadiu meu coração\nO meu coração\nÉ que a presença do Senhor faz morada em mim\n\nEspírito, Espírito Santo\nVem me consolar\n   \nEspírito, Espírito Santo\nVem me consolar\n \nPra sempre em mim morar\n\nSe eu orar\nClamarei com toda força da minh'alma\nE cantarei louvores para o meu Senhor\nO meu Senhor\nÉ que Deus faz Morada em mim",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Se eu chorar\nNão pense que o sofrer está em mim\nNão pense que a tristeza em mim bateu\nNão, não é que a presença do Senhor\nFaz morada em mim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Se eu sorrir\nNão pense que estou ficando louco\nA alegria invadiu meu coração\nO meu coração\nÉ que a presença do Senhor faz morada em mim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Espírito, Espírito Santo\nVem me consolar\n   \nEspírito, Espírito Santo\nVem me consolar\n \nPra sempre em mim morar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Se eu orar\nClamarei com toda força da minh'alma\nE cantarei louvores para o meu Senhor\nO meu Senhor\nÉ que Deus faz Morada em mim",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

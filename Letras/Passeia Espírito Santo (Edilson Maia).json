@@ -1,0 +1,71 @@
+{
+  "id": 1632942958668,
+  "title": "Passeia Espírito Santo",
+  "artist": "Edilson Maia",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Passeia Espírito Santo meu Deus\nNo meio do Teu povo aqui\nLiberta os cativos que estão a sofrer\nE dá-lhes o renovo em todo o viver\n\nEncha a minh'alma \nde Santo Prazer\nVem toca em minha vida \ncom Grande Poder\n\nVem meu Senhor \nnão demore a chegar\nEu quero estar junto \nde Ti a Louvar\n\nAh, Senhor \nme leva pra longe daqui\nAh, Senhor \neu quero ir pra glória cantar\n\nAh, Senhor \nme leva pra longe daqui\nQuero estar junto a Ti",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Passeia Espírito Santo meu Deus\nNo meio do Teu povo aqui\nLiberta os cativos que estão a sofrer\nE dá-lhes o renovo em todo o viver",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Encha a minh'alma \nde Santo Prazer\nVem toca em minha vida \ncom Grande Poder",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Vem meu Senhor \nnão demore a chegar\nEu quero estar junto \nde Ti a Louvar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Ah, Senhor \nme leva pra longe daqui\nAh, Senhor \neu quero ir pra glória cantar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Ah, Senhor \nme leva pra longe daqui\nQuero estar junto a Ti",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

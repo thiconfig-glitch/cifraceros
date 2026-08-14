@@ -1,0 +1,106 @@
+{
+  "id": 1592406449801,
+  "title": "A Glória É Tua",
+  "artist": "Anderson Freire",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "A Glória É Tua\n\nRetira meus medos, toda timidez\nToda prepotência\nEnsina-me a lutar, como os 300\nMesmo eu sendo pequeno\n\nPequeno que ora, pequeno que adora\nQue se humilha, não busca a glória\nNão larga a espada, vigia, confia\nEm todas as horas\n\nEm Ti, sou mais que vencedor\n\nMais a Glória é Tua\nTotalmente Tua\nNão mais de Ninguém\nPra sempre amém\n\nA gloria é tua totalmente\ntua, não mais de ninguém\npra sempre amém\n\nÔ Ôôô Ôô Ôô...\nÔ Ôôô Ôô...\n\nAleluia, Aleluia (3x)\n\nA glória é tua\ntotalmente tua,não mais de ninguém\npra sempre amém\n\nAutor: Anderson Freire",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "A Glória É Tua",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Retira meus medos, toda timidez\nToda prepotência\nEnsina-me a lutar, como os 300\nMesmo eu sendo pequeno",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Pequeno que ora, pequeno que adora\nQue se humilha, não busca a glória\nNão larga a espada, vigia, confia\nEm todas as horas",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Em Ti, sou mais que vencedor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Mais a Glória é Tua\nTotalmente Tua\nNão mais de Ninguém\nPra sempre amém",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "A gloria é tua totalmente\ntua, não mais de ninguém\npra sempre amém",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Ô Ôôô Ôô Ôô...\nÔ Ôôô Ôô...",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": "Aleluia, Aleluia (3x)",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 9,
+        "description": "",
+        "text": "A glória é tua\ntotalmente tua,não mais de ninguém\npra sempre amém",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 10,
+        "description": "",
+        "text": "Autor: Anderson Freire",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

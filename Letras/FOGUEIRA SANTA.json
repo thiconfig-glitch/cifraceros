@@ -1,0 +1,71 @@
+{
+  "id": 1582748875812,
+  "title": "FOGUEIRA SANTA",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "É DEUS QUEM CHAMA O SEU POVO\nPRA ESSA CAUSA SANTA\nO ESPÍRITO SANTO JÁ SE MOVE EM NÓS\nJÁ SE MOVE EM NÓS UNGIDOS DO SENHOR\n\nÉ O PASTOR JUNTANDO OVELHAS\nPRA ESSE AVIVAMENTO\nSINAL DOS TEMPOS NOVO PENTECOSTE\nO FOGO SANTO DO CONSOLADOR\n\nDEIXA QUEIMAR ESSA FOGUEIRA SANTA\nPORQUE ESSE FOGO NÃO SE APAGARÁ\nESSA FOGUEIRA TEM PODER DE DEUS\nPODER DE DEUS NESSE LUGAR\n\nA NOSSA ARMA É O SACRIFÍCIO\nE O PODER DE DEUS\nELE VAI NA FRENTE EM TODA A SUA GLORIA\nELE É A VITORIA E EU SOU O VENCEDOR\n\nE FOI NO SACRIFÍCIO QUE ELIAS \nPODE ABRIR OS CÉUS\nO FOGO FOI CAINDO COM PODER DO ALTO\nACENDENDO O ALTAR, O FOGO DO SENHOR",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "É DEUS QUEM CHAMA O SEU POVO\nPRA ESSA CAUSA SANTA\nO ESPÍRITO SANTO JÁ SE MOVE EM NÓS\nJÁ SE MOVE EM NÓS UNGIDOS DO SENHOR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "É O PASTOR JUNTANDO OVELHAS\nPRA ESSE AVIVAMENTO\nSINAL DOS TEMPOS NOVO PENTECOSTE\nO FOGO SANTO DO CONSOLADOR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "DEIXA QUEIMAR ESSA FOGUEIRA SANTA\nPORQUE ESSE FOGO NÃO SE APAGARÁ\nESSA FOGUEIRA TEM PODER DE DEUS\nPODER DE DEUS NESSE LUGAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "A NOSSA ARMA É O SACRIFÍCIO\nE O PODER DE DEUS\nELE VAI NA FRENTE EM TODA A SUA GLORIA\nELE É A VITORIA E EU SOU O VENCEDOR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "E FOI NO SACRIFÍCIO QUE ELIAS \nPODE ABRIR OS CÉUS\nO FOGO FOI CAINDO COM PODER DO ALTO\nACENDENDO O ALTAR, O FOGO DO SENHOR",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

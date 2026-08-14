@@ -1,0 +1,71 @@
+{
+  "id": 1598802390862,
+  "title": "Jardim da Inocência",
+  "artist": "Paulo Cesar Baruk",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Ah que saudade\nQue saudade, \nde ouvir Tua voz ao entardecer\n\nAh que vontade\nQue vontade, \nde voltar ao jardim \nda inocência\n\nSe eu pudesse voltaria atrás \ne não faria TUDO AQUILO que EU fiz\nTroquei minha comunhão\nPela escuridão da noite\nEm trevas tornei os meus dias\n\nAh que vontade de andar contigo!\nPelo jardim, na viração dos dias\nPegar em Tuas mãos e voar\nPela imensidão da terra e Te adorar!\n\nAh Que vontade de dizer a Ti,\nTudo que aprendi, nesse jardim\nJardim da Inocência",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Ah que saudade\nQue saudade, \nde ouvir Tua voz ao entardecer",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Ah que vontade\nQue vontade, \nde voltar ao jardim \nda inocência",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Se eu pudesse voltaria atrás \ne não faria TUDO AQUILO que EU fiz\nTroquei minha comunhão\nPela escuridão da noite\nEm trevas tornei os meus dias",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Ah que vontade de andar contigo!\nPelo jardim, na viração dos dias\nPegar em Tuas mãos e voar\nPela imensidão da terra e Te adorar!",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Ah Que vontade de dizer a Ti,\nTudo que aprendi, nesse jardim\nJardim da Inocência",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

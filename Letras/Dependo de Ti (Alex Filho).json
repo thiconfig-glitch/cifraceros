@@ -1,0 +1,64 @@
+{
+  "id": 1623578256200,
+  "title": "Dependo de Ti",
+  "artist": "Alex Filho",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Senhor transforma-me\nMe fazes como tu\nNão quero mais o meu querer\nMais o teu em mim\n\nSenhor modela-me\nTeu vaso quero ser\nSomente barro sou\nSem ti nada posso fazer\n\nSou tão pequeno\nDependo de ti\nMinha alma tem sede\nDa tua presença em mim\n\nSou tão pequeno\nCarente dO SENHOR\nToda minha vida\nConsagro a ti Senhor",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Senhor transforma-me\nMe fazes como tu\nNão quero mais o meu querer\nMais o teu em mim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Senhor modela-me\nTeu vaso quero ser\nSomente barro sou\nSem ti nada posso fazer",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Sou tão pequeno\nDependo de ti\nMinha alma tem sede\nDa tua presença em mim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Sou tão pequeno\nCarente dO SENHOR\nToda minha vida\nConsagro a ti Senhor",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

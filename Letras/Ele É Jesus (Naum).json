@@ -1,0 +1,85 @@
+{
+  "id": 1606944144171,
+  "title": "Ele É Jesus",
+  "artist": "Naum",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Quem é que cuida de você\nQuando todos dizem não\nQuando todas as portas se fecham\nE em teu peito bate solidão\nQuem é que enxuga as tuas lágrimas\n\nE te ajuda sempre a caminhar\nQuem é que está sempre contigo\nAonde quer que você vá\nE faz nascer feliz um novo dia\nE transforma as trevas em luz\nE tem um Nome sobre todo o nome\nO nome é Jesus\n\nEle é Jesus\nQuem crer nesse Nome\nNão perde batalhas\nEle é Jesus\nCreia nesse Nome Ele nunca falha\nPor esse Nome muitos são libertos\nPois a vitória conquistou na cruz\nVenceu a morte quebrou as algemas\nO Nome é Jesus\n\nQuem é que cuida de você\nNo trabalho ou na multidão\nQuem é que supre a sua mesa\nE não deixa te faltar o pão\nQuem é que olha pra você\nE te ajuda sem ter interesses\n\nE é Amigo pra todas as horas\nMe diga que Nome é esse\nQue faz nascer feliz um novo dia\nE transforma as trevas em luz\nE tem um Nome sobre todo o nome\nO Nome é Jesus\n\nEle é Jesus\nQuem crer nesse Nome\nNão perde batalhas\nEle é Jesus\nCreia nesse Nome Ele nunca falha\nPor esse Nome muitos são libertos\nPois a vitória conquistou na cruz\n\nVenceu a morte quebrou as algemas\nO Nome é Jesus\nVenceu a morte quebrou as algemas\nO Nome é Jesus\nVenceu a morte quebrou as algemas\nO Nome é Jesus",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Quem é que cuida de você\nQuando todos dizem não\nQuando todas as portas se fecham\nE em teu peito bate solidão\nQuem é que enxuga as tuas lágrimas",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "E te ajuda sempre a caminhar\nQuem é que está sempre contigo\nAonde quer que você vá\nE faz nascer feliz um novo dia\nE transforma as trevas em luz\nE tem um Nome sobre todo o nome\nO nome é Jesus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Ele é Jesus\nQuem crer nesse Nome\nNão perde batalhas\nEle é Jesus\nCreia nesse Nome Ele nunca falha\nPor esse Nome muitos são libertos\nPois a vitória conquistou na cruz\nVenceu a morte quebrou as algemas\nO Nome é Jesus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Quem é que cuida de você\nNo trabalho ou na multidão\nQuem é que supre a sua mesa\nE não deixa te faltar o pão\nQuem é que olha pra você\nE te ajuda sem ter interesses",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "E é Amigo pra todas as horas\nMe diga que Nome é esse\nQue faz nascer feliz um novo dia\nE transforma as trevas em luz\nE tem um Nome sobre todo o nome\nO Nome é Jesus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Ele é Jesus\nQuem crer nesse Nome\nNão perde batalhas\nEle é Jesus\nCreia nesse Nome Ele nunca falha\nPor esse Nome muitos são libertos\nPois a vitória conquistou na cruz",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Venceu a morte quebrou as algemas\nO Nome é Jesus\nVenceu a morte quebrou as algemas\nO Nome é Jesus\nVenceu a morte quebrou as algemas\nO Nome é Jesus",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

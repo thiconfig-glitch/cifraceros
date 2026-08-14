@@ -1,0 +1,71 @@
+{
+  "id": 1604339992277,
+  "title": "Ressuscita o Meu Sonho",
+  "artist": "Regis Danese",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Situações pra eu parar\nCircunstâncias e decepções \nque eu encontrei na vida\n\nPra me desanimar\nPerseguições pra me derrubar\nMas, o Senhor me deu a direção\nMe mostrou a saída\nMe fez enxergar\n\nO teu propósito, \no teu imenso amor\nO teu cuidado, \npra ti eu tenho valor\n\nNão há nada nesse mundo \nque vai impedir\nOs teus projetos em minha vida \nirão se cumprir\nEu creio\n\nRessuscita o meu sonho\nQue um dia morreu\nNão abro mão da minha herança\nTraz de volta o que é meu\nCumpre em mim os teus planos\nQue o senhor prometeu\nPois, eu sei que os teus planos\nSão maiores que os meus",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Situações pra eu parar\nCircunstâncias e decepções \nque eu encontrei na vida",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Pra me desanimar\nPerseguições pra me derrubar\nMas, o Senhor me deu a direção\nMe mostrou a saída\nMe fez enxergar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "O teu propósito, \no teu imenso amor\nO teu cuidado, \npra ti eu tenho valor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Não há nada nesse mundo \nque vai impedir\nOs teus projetos em minha vida \nirão se cumprir\nEu creio",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Ressuscita o meu sonho\nQue um dia morreu\nNão abro mão da minha herança\nTraz de volta o que é meu\nCumpre em mim os teus planos\nQue o senhor prometeu\nPois, eu sei que os teus planos\nSão maiores que os meus",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

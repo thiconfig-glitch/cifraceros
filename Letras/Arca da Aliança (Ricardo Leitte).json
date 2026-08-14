@@ -1,0 +1,57 @@
+{
+  "id": 1601909358688,
+  "title": "Arca da Aliança",
+  "artist": "Ricardo Leitte",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "A arca da aliança\nRepresenta a sua presença\nQue abençoa a minha vida\nE protege a minha casa\n\nEu vou determinar, eu vou perseverar\nE o milagre em minha vida acontecerá\n\nTua presença é o que me faz crescer\nTua presença é o que me faz prevalecer\nTua presença é o que me faz prosperar\nA arca representa Tua presença",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "A arca da aliança\nRepresenta a sua presença\nQue abençoa a minha vida\nE protege a minha casa",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Eu vou determinar, eu vou perseverar\nE o milagre em minha vida acontecerá",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Tua presença é o que me faz crescer\nTua presença é o que me faz prevalecer\nTua presença é o que me faz prosperar\nA arca representa Tua presença",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

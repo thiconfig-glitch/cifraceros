@@ -1,0 +1,78 @@
+{
+  "id": 1595715235196,
+  "title": "Deus Soberano",
+  "artist": "Adilson Silva",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Aqui eu vim pra te buscar\nentregar a minha vida\ncomo oferta em teu altar\n\nOs céus proclamam tua glória\ne o firmamento \nas obras de tuas mãos\n\nA quem eu posso comparar\nem todo o universo\nalguém igual não há\n\no Autor de toda a criação\nconsumador da fé\nescudo e salvação\n\nDeus soberano\nmagnífico, glorioso\nem minh'alma sinto um gozo\nquando estou a te adorar\n\nSó em teus braços\neu me sinto bem seguro\ne ouvir a tua voz\nfaz minh'alma sossegar",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Aqui eu vim pra te buscar\nentregar a minha vida\ncomo oferta em teu altar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Os céus proclamam tua glória\ne o firmamento \nas obras de tuas mãos",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "A quem eu posso comparar\nem todo o universo\nalguém igual não há",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "o Autor de toda a criação\nconsumador da fé\nescudo e salvação",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Deus soberano\nmagnífico, glorioso\nem minh'alma sinto um gozo\nquando estou a te adorar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Só em teus braços\neu me sinto bem seguro\ne ouvir a tua voz\nfaz minh'alma sossegar",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

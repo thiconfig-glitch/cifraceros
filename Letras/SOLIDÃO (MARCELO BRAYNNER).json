@@ -1,0 +1,71 @@
+{
+  "id": 1582748875987,
+  "title": "SOLIDÃO",
+  "artist": "MARCELO BRAYNNER",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "OH! MEU DEUS, SALVA-ME!\nPORQUE AS ÁGUAS ARRASTAM-ME\nESTOU CANSADO DE CLAMAR\nOS MEUS OLHOS DE CHORAR\n\nDE TANTO ESPERAR \nPOR TUA SALVAÇÃO\nEU TENHO QUE SOFRER\nNAS MÃOS DOS QUE ME ODEIAM\n\nNÃO ME DEIXE SÓ, \nPOIS EU SÓ TENHO A TI\nPOIS TENHO SUPORTADO \nAFRONTAS SÓ POR TI\nMEU ROSTO ESTÁ MARCADO\nDE TANTO ESPERAR\n\nOH! MEU DEUS, SALVA-ME!\nPOIS EM CINZAS ME CONSUMI\nMEUS AMIGOS ME DEIXARAM\nESTOU SÓ, DESPREZAM-ME\n\nOH! NÃO ME REJEITES \nNA MINHA VELHICE\nQUANDO ME FALTAREM \nFORÇAS PRA TI SERVIR\nEM TI ME REFUGIO \nPOIS EU SÓ TENHO A TI",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "OH! MEU DEUS, SALVA-ME!\nPORQUE AS ÁGUAS ARRASTAM-ME\nESTOU CANSADO DE CLAMAR\nOS MEUS OLHOS DE CHORAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "DE TANTO ESPERAR \nPOR TUA SALVAÇÃO\nEU TENHO QUE SOFRER\nNAS MÃOS DOS QUE ME ODEIAM",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "NÃO ME DEIXE SÓ, \nPOIS EU SÓ TENHO A TI\nPOIS TENHO SUPORTADO \nAFRONTAS SÓ POR TI\nMEU ROSTO ESTÁ MARCADO\nDE TANTO ESPERAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "OH! MEU DEUS, SALVA-ME!\nPOIS EM CINZAS ME CONSUMI\nMEUS AMIGOS ME DEIXARAM\nESTOU SÓ, DESPREZAM-ME",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "OH! NÃO ME REJEITES \nNA MINHA VELHICE\nQUANDO ME FALTAREM \nFORÇAS PRA TI SERVIR\nEM TI ME REFUGIO \nPOIS EU SÓ TENHO A TI",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

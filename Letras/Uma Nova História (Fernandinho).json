@@ -1,0 +1,85 @@
+{
+  "id": 1605798572911,
+  "title": "Uma Nova História",
+  "artist": "Fernandinho",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Sai de tua tenda, oh, filho meu\nE te mostrarei as estrelas do céu\nSai de tua tenda, oh, filho meu\nTe mostrarei a areia do mar\n\nSerá que podes contar?\nSerá que podes imaginar\nTudo aquilo que sonhei para ti, \nfilho meu?\nO que minhas mãos fizeram para ti, \nfilho meu?\nMinha bênção será sobre ti\n\nUMA NOVA HISTÓRIA, \nDEUS TEM PRA MIM\nUM NOVO TEMPO, \nDEUS TEM PRA MIM\nE TUDO AQUILO QUE \nPERDIDO FOI\nOUVIREI DE SUA BOCA, \nTE ABENÇOAREI\n\nSAI DE TUA TENDA, \nOH, FILHO MEU\nE TE MOSTRAREI AS ESTRELAS \nDO CÉU\n\nSerá que podes imaginar\nTudo aquilo que sonhei para ti, \nfilho meu?\nO que minhas mãos fizeram para ti, \nfilho meu?\nMinha bênção será sobre ti\n\nUMA NOVA HISTÓRIA, \nDEUS TEM PRA MIM\nUM NOVO TEMPO, \nDEUS TEM PRA MIM\nE TUDO AQUILO QUE \nPERDIDO FOI\nOUVIREI DE SUA BOCA, \nTE ABENÇOAREI\n\nUMA NOVA HISTÓRIA, \nDEUS TEM PRA MIM\nUM NOVO TEMPO, \nDEUS TEM PRA MIM\nE TUDO AQUILO QUE \nPERDIDO FOI\nOUVIREI DE SUA BOCA, \nTE ABENÇOAREI",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Sai de tua tenda, oh, filho meu\nE te mostrarei as estrelas do céu\nSai de tua tenda, oh, filho meu\nTe mostrarei a areia do mar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Será que podes contar?\nSerá que podes imaginar\nTudo aquilo que sonhei para ti, \nfilho meu?\nO que minhas mãos fizeram para ti, \nfilho meu?\nMinha bênção será sobre ti",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "UMA NOVA HISTÓRIA, \nDEUS TEM PRA MIM\nUM NOVO TEMPO, \nDEUS TEM PRA MIM\nE TUDO AQUILO QUE \nPERDIDO FOI\nOUVIREI DE SUA BOCA, \nTE ABENÇOAREI",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "SAI DE TUA TENDA, \nOH, FILHO MEU\nE TE MOSTRAREI AS ESTRELAS \nDO CÉU",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Será que podes imaginar\nTudo aquilo que sonhei para ti, \nfilho meu?\nO que minhas mãos fizeram para ti, \nfilho meu?\nMinha bênção será sobre ti",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "UMA NOVA HISTÓRIA, \nDEUS TEM PRA MIM\nUM NOVO TEMPO, \nDEUS TEM PRA MIM\nE TUDO AQUILO QUE \nPERDIDO FOI\nOUVIREI DE SUA BOCA, \nTE ABENÇOAREI",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "UMA NOVA HISTÓRIA, \nDEUS TEM PRA MIM\nUM NOVO TEMPO, \nDEUS TEM PRA MIM\nE TUDO AQUILO QUE \nPERDIDO FOI\nOUVIREI DE SUA BOCA, \nTE ABENÇOAREI",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

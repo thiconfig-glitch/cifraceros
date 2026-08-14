@@ -1,0 +1,64 @@
+{
+  "id": 1598888214632,
+  "title": "A Fé Faz A Hora",
+  "artist": "Robinson Monteiro",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Por trás da nuvem cinza\nO sol ainda brilha\nOnde não há ponte\nDeus é o teu caminho\n\nSe te lançaram pedras\nConstrói o teu palácio\nSe ninguém te estende a mão\nO céu te abraçará\n\nÉ só acreditar\nSim, você pode crer\nVocê é vencedor\nNinguém vai te parar\nNinguém vai te deter\nBarreiras vão surgir\nQue é pra gente crescer\n\nNunca desista\nDe nenhum dos sonhos\nDeus faz dar certo, É só acreditar\nVocê pode tudo, A fé faz a hora\nChegou a sua vez\nO Alto é teu lugar",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Por trás da nuvem cinza\nO sol ainda brilha\nOnde não há ponte\nDeus é o teu caminho",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Se te lançaram pedras\nConstrói o teu palácio\nSe ninguém te estende a mão\nO céu te abraçará",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "É só acreditar\nSim, você pode crer\nVocê é vencedor\nNinguém vai te parar\nNinguém vai te deter\nBarreiras vão surgir\nQue é pra gente crescer",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Nunca desista\nDe nenhum dos sonhos\nDeus faz dar certo, É só acreditar\nVocê pode tudo, A fé faz a hora\nChegou a sua vez\nO Alto é teu lugar",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

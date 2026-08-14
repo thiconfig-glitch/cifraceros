@@ -1,0 +1,92 @@
+{
+  "id": 1705352856970,
+  "title": "Dono da Promessa",
+  "artist": "Kellen Byanca",
+  "author": "Arnaldo Quaresma, Beto Rocha, Misaias Oliveira",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Como é difícil acreditar\nQuando eu não posso ver\nSerá que vai acontecer?\n\nA minha impaciência\nMexe com minha estrutura\nE ativa ansiedade\nMas eu não vou deixar de crer\n\nMas é nesse momento\nQue Deus entra em cena\nE o tempo deixa de ser\nUm problema pra mim\n\nE eu desacelero\nE passo acreditar que\nO final de tudo Ele vai cuidar\n\nNão existe nada que impeça\nEu conheço o dono da promessa\nEle se mantém fiel a mim\nEle se mantém fiel a mim\n\nE por mais que eu tenha pressa\nO tempo não anula a promessa\nEle se mantém fiel a mim\nEle se mantém fiel a mim\n\nFiel a mim\nMesmo que eu não mereça\nEle é fiel a mim\n\nFiel a mim\nEu não tenho porque duvidar\nNo Seu tempo tudo cumprirá",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Como é difícil acreditar\nQuando eu não posso ver\nSerá que vai acontecer?",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "A minha impaciência\nMexe com minha estrutura\nE ativa ansiedade\nMas eu não vou deixar de crer",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Mas é nesse momento\nQue Deus entra em cena\nE o tempo deixa de ser\nUm problema pra mim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "E eu desacelero\nE passo acreditar que\nO final de tudo Ele vai cuidar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Não existe nada que impeça\nEu conheço o dono da promessa\nEle se mantém fiel a mim\nEle se mantém fiel a mim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "E por mais que eu tenha pressa\nO tempo não anula a promessa\nEle se mantém fiel a mim\nEle se mantém fiel a mim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Fiel a mim\nMesmo que eu não mereça\nEle é fiel a mim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": "Fiel a mim\nEu não tenho porque duvidar\nNo Seu tempo tudo cumprirá",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "https://open.spotify.com/track/1s4qZgWod9sm2XFWAlRYyk",
+      "youtube": "https://youtube.com/watch?v=l_o9KrTRgi0",
+      "deezer": "https://deezer.com/track/2505966231"
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

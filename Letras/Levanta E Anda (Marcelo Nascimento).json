@@ -1,0 +1,92 @@
+{
+  "id": 1588698500134,
+  "title": "Levanta E Anda",
+  "artist": "Marcelo Nascimento",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Quando tudo parecer acabado\nE sem forças já não dá pra caminhar\nA tristeza, a solidão são companhias\nMesmo assim você precisa acreditar\n\nNão se lembra do que aconteceu com aquele coxo\nQue ficava ali sentado a mendigar\nEsperando de alguém uma saída\nMas com certeza no outro dia ia voltar\n\nPedro e João iam pro Templo\nE avistaram aquele homem a pedir\nDisse Pedro: _ Não tenho ouro nem prata,\nMas o que tenho isso te dou.\n\nLevanta em nome de Jesus, levanta\nLevanta em nome de Jesus e anda\nLevanta em nome de Jesus, levanta\nEm nome de Jesus e anda\nLevanta e anda em nome de Jesus\n\nPedro e João iam pro Templo\nE avistaram aquele homem a pedir\nDisse Pedro: _ Não tenho ouro nem prata,\nMas o que tenho isso te dou.\n\nLevanta em nome de Jesus, levanta\nLevanta em nome de Jesus e anda\nLevanta em nome de Jesus, levanta\nEm nome de Jesus e anda\nLevanta e anda em nome de Jesus\n\nLevanta em nome de Jesus, levanta\nLevanta em nome de Jesus e anda\nLevanta em nome de Jesus, levanta\nEm nome de Jesus e anda\nLevanta e anda em nome de Jesus\n\nEm nome de Jesus",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Quando tudo parecer acabado\nE sem forças já não dá pra caminhar\nA tristeza, a solidão são companhias\nMesmo assim você precisa acreditar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Não se lembra do que aconteceu com aquele coxo\nQue ficava ali sentado a mendigar\nEsperando de alguém uma saída\nMas com certeza no outro dia ia voltar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Pedro e João iam pro Templo\nE avistaram aquele homem a pedir\nDisse Pedro: _ Não tenho ouro nem prata,\nMas o que tenho isso te dou.",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Levanta em nome de Jesus, levanta\nLevanta em nome de Jesus e anda\nLevanta em nome de Jesus, levanta\nEm nome de Jesus e anda\nLevanta e anda em nome de Jesus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Pedro e João iam pro Templo\nE avistaram aquele homem a pedir\nDisse Pedro: _ Não tenho ouro nem prata,\nMas o que tenho isso te dou.",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Levanta em nome de Jesus, levanta\nLevanta em nome de Jesus e anda\nLevanta em nome de Jesus, levanta\nEm nome de Jesus e anda\nLevanta e anda em nome de Jesus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Levanta em nome de Jesus, levanta\nLevanta em nome de Jesus e anda\nLevanta em nome de Jesus, levanta\nEm nome de Jesus e anda\nLevanta e anda em nome de Jesus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": "Em nome de Jesus",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "id": 1599242807166,
+  "title": "Eu Escolho Deus",
+  "artist": "Thalles Roberto",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Senhor, eu nasci pra \nte chamar de Deus\nEu nasci pra te chamar \nde Pai e andar do Seu Lado\n\nSenhor, \ndesde o ventre da minha mãe\nEu sou povo exclusivo Teu\nEu sou abençoado, \nse vivo obediente\n\nMas todo dia o pecado vem, \nme chama\nTodo dia as propostas vêm, \nme chamam\n\nMas eu escolho Deus\nEu escolho ser amigo de Deus\nEu escolho Cristo todo dia\nJá morri pra minha vida \ne agora eu vivo a vida de Deus\n\nMas eu escolho Deus\nEu escolho ser amigo de Deus\nEu escolho Cristo todo dia\nJá morri pra minha vida \ne agora eu vivo a vida de Deus\n\nSenhor, eu nasci pra \nte chamar de amor\nEu nasci pra te chamar de Pai \ne andar do Seu lado\n\nSenhor, desde o ventre da minha mãe\nEu sou povo exclusivo Teu\nEu sou abençoado, se vivo obediente\n\nMas todo dia o pecado vem, me chama\nTodo dia vêm as tentações, me chamam\nTodo dia as propostas vêm, me chamam\nTodo dia o pecado vem\n\nMas eu escolho Deus\nEu escolho ser amigo de Deus\nEu escolho Cristo todo dia\nJá morri pra minha vida \ne agora eu vivo a vida de Deus\n\nMas eu escolho Deus\nEu escolho ser amigo de Deus\nEu escolho Cristo todo dia\nJá morri pra minha vida \ne agora eu vivo a vida de Deus",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Senhor, eu nasci pra \nte chamar de Deus\nEu nasci pra te chamar \nde Pai e andar do Seu Lado",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Senhor, \ndesde o ventre da minha mãe\nEu sou povo exclusivo Teu\nEu sou abençoado, \nse vivo obediente",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Mas todo dia o pecado vem, \nme chama\nTodo dia as propostas vêm, \nme chamam",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Mas eu escolho Deus\nEu escolho ser amigo de Deus\nEu escolho Cristo todo dia\nJá morri pra minha vida \ne agora eu vivo a vida de Deus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Mas eu escolho Deus\nEu escolho ser amigo de Deus\nEu escolho Cristo todo dia\nJá morri pra minha vida \ne agora eu vivo a vida de Deus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Senhor, eu nasci pra \nte chamar de amor\nEu nasci pra te chamar de Pai \ne andar do Seu lado",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Senhor, desde o ventre da minha mãe\nEu sou povo exclusivo Teu\nEu sou abençoado, se vivo obediente",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": "Mas todo dia o pecado vem, me chama\nTodo dia vêm as tentações, me chamam\nTodo dia as propostas vêm, me chamam\nTodo dia o pecado vem",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 9,
+        "description": "",
+        "text": "Mas eu escolho Deus\nEu escolho ser amigo de Deus\nEu escolho Cristo todo dia\nJá morri pra minha vida \ne agora eu vivo a vida de Deus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 10,
+        "description": "",
+        "text": "Mas eu escolho Deus\nEu escolho ser amigo de Deus\nEu escolho Cristo todo dia\nJá morri pra minha vida \ne agora eu vivo a vida de Deus",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

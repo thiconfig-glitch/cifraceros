@@ -1,0 +1,57 @@
+{
+  "id": 1582748875587,
+  "title": "FAMÍLIA",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "TE AGRADEÇO PELA MINHA FAMÍLIA\nE POR TUA PRESENÇA NO MEU LAR\nTE AGRADEÇO PELO PÃO DE CADA DIA\nQUE O SENHOR NUNCA DEIXOU FALTAR\n\nTE AGRADEÇO PELA NOSSA HARMONIA\nSÓ EM TI SENHOR \nPODEMOS CONFIAR\nJÁ TE AGRADEÇO \nPELAS TUAS MARAVILHAS\nE OS MILAGRES \nQUE AINDA HÁ DE OPERAR\n\nA MINHA FAMÍLIA \nÉ BÊNÇÃO DO SENHOR\nME ENSINA A TRATAR \nMINHA FAMÍLIA COM AMOR\nEDIFICA MINHA CASA\nPARA O TEU LOUVOR\nA MINHA FAMÍLIA \nÉ UM PRESENTE DO SENHOR",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "TE AGRADEÇO PELA MINHA FAMÍLIA\nE POR TUA PRESENÇA NO MEU LAR\nTE AGRADEÇO PELO PÃO DE CADA DIA\nQUE O SENHOR NUNCA DEIXOU FALTAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "TE AGRADEÇO PELA NOSSA HARMONIA\nSÓ EM TI SENHOR \nPODEMOS CONFIAR\nJÁ TE AGRADEÇO \nPELAS TUAS MARAVILHAS\nE OS MILAGRES \nQUE AINDA HÁ DE OPERAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "A MINHA FAMÍLIA \nÉ BÊNÇÃO DO SENHOR\nME ENSINA A TRATAR \nMINHA FAMÍLIA COM AMOR\nEDIFICA MINHA CASA\nPARA O TEU LOUVOR\nA MINHA FAMÍLIA \nÉ UM PRESENTE DO SENHOR",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

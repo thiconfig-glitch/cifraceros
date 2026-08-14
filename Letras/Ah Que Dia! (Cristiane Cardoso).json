@@ -1,0 +1,85 @@
+{
+  "id": 1598188063052,
+  "title": "Ah Que Dia!",
+  "artist": "Cristiane Cardoso",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Eis me aqui, Oh Senhor\nTenho tanto pra contar\nMas não sei como falar\n\nPoesias de amor,\nE em cantos Te busquei\nMas não Te achei alí\nMeu Salvador\n\nOh Espírito de Deus\nMe ajude a me expressar\nPois minh'alma anseia Te encontrar\n\nAh que dia! Meu Senhor\nAh que dia! Meu Salvador\nAh que dia meu Amor!\n\nQuando enfim Te encontrar\nEncontrar Meu Salvador\nFinalmente conhecer\nO meu Amor!\n\nAh que dia! Meu Senhor\nAh que dia! Meu Salvador\nDia que encontrei o meu Amor!\n\nTe achei meu Jesus!\nTe achei meu Salvador!\nFinalmente encontrei o meu Amor",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Eis me aqui, Oh Senhor\nTenho tanto pra contar\nMas não sei como falar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Poesias de amor,\nE em cantos Te busquei\nMas não Te achei alí\nMeu Salvador",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Oh Espírito de Deus\nMe ajude a me expressar\nPois minh'alma anseia Te encontrar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Ah que dia! Meu Senhor\nAh que dia! Meu Salvador\nAh que dia meu Amor!",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Quando enfim Te encontrar\nEncontrar Meu Salvador\nFinalmente conhecer\nO meu Amor!",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Ah que dia! Meu Senhor\nAh que dia! Meu Salvador\nDia que encontrei o meu Amor!",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Te achei meu Jesus!\nTe achei meu Salvador!\nFinalmente encontrei o meu Amor",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

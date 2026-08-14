@@ -1,0 +1,92 @@
+{
+  "id": 1616075462220,
+  "title": "O amor nunca perde",
+  "artist": "Marquinhos Gomes",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Não adianta lutar\nCom as armas do mal\nLevante a bandeira do amor\nE esse vento vai passar\n\nO nosso Deus nunca dorme\nE sempre está vendo tudo\nE num piscar de olhos,\nJesus toma a frente sua vida.\n\nO amor nunca perde\nO amor sempre vence\nO amor prevalece na vida daquele\nQue serve a Jesus\n\nO amor nunca perde\nO amor sempre vence\nO amor prevalece na vida daquele\nQue serve a Jesus\n\nLute com as armas do bem\nE obterás a vitória\nÁguas passadas não movem moinhos\nDos seus pecados Deus esqueceu\n\nO nosso Deus nunca dorme\nE sempre está vendo tudo\nE num piscar de olhos,\nJesus toma a frente sua vida.\n\nO amor nunca perde\nO amor sempre vence\nO amor prevalece na vida daquele\nQue serve a Jesus\n\nO amor nunca perde\nO amor sempre vence\nO amor prevalece na vida daquele\nQue serve a Jesus",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Não adianta lutar\nCom as armas do mal\nLevante a bandeira do amor\nE esse vento vai passar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "O nosso Deus nunca dorme\nE sempre está vendo tudo\nE num piscar de olhos,\nJesus toma a frente sua vida.",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "O amor nunca perde\nO amor sempre vence\nO amor prevalece na vida daquele\nQue serve a Jesus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "O amor nunca perde\nO amor sempre vence\nO amor prevalece na vida daquele\nQue serve a Jesus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Lute com as armas do bem\nE obterás a vitória\nÁguas passadas não movem moinhos\nDos seus pecados Deus esqueceu",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "O nosso Deus nunca dorme\nE sempre está vendo tudo\nE num piscar de olhos,\nJesus toma a frente sua vida.",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "O amor nunca perde\nO amor sempre vence\nO amor prevalece na vida daquele\nQue serve a Jesus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": "O amor nunca perde\nO amor sempre vence\nO amor prevalece na vida daquele\nQue serve a Jesus",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

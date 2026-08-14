@@ -1,0 +1,78 @@
+{
+  "id": 1696066008786,
+  "title": "Deserto ",
+  "artist": "Maria Marçal",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Eu não preciso transformar\nPedras em pães para provar\nQue no deserto Tu estás\nCuidando de mim\n\nDe um lugar alto \nnão vou me lançar\nSó pra demonstrar \no Teu poder\nEu não preciso ver \nfenômenos para crer em Ti\n\nNão troco nossa comunhão\nPelo prazer de conquistar\nPalácios, riquezas\nComo um deserto,\nisso vai passar\n\nPor isso resistindo estou\nE quando a minha \nforça se esgotar\nO Teu anjo vai me alimentar\n\ne confiar é o que \nsustenta minha fé\nNão vou perder a guerra\nconfiar em meio as tentações\nÉ mais que estratégia\n\nPosso não ver o amanhã\nMas hoje sei\nQue esse deserto \nvai chegar ao fim\nO Senhor está \ncuidando de mim",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Eu não preciso transformar\nPedras em pães para provar\nQue no deserto Tu estás\nCuidando de mim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "De um lugar alto \nnão vou me lançar\nSó pra demonstrar \no Teu poder\nEu não preciso ver \nfenômenos para crer em Ti",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Não troco nossa comunhão\nPelo prazer de conquistar\nPalácios, riquezas\nComo um deserto,\nisso vai passar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Por isso resistindo estou\nE quando a minha \nforça se esgotar\nO Teu anjo vai me alimentar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "e confiar é o que \nsustenta minha fé\nNão vou perder a guerra\nconfiar em meio as tentações\nÉ mais que estratégia",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Posso não ver o amanhã\nMas hoje sei\nQue esse deserto \nvai chegar ao fim\nO Senhor está \ncuidando de mim",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

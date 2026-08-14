@@ -1,0 +1,78 @@
+{
+  "id": 1690121257782,
+  "title": "Jesus é tudo que eu quero",
+  "artist": "",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Jesus é tudo que eu quero\nÉ tudo que o que eu mais preciso\nVocê vive em meus sonhos\nah! Jamais vou te esquecer\n\nEu te amo sim meu Deus\nTe amo pra valer\nEu não sei viver meu Jesus\nLonge, longe do Senhor\n\nQuando estou sozinho na\nEstrada bate forte a solidão\nSem Jesus tudo é tão triste\nah! Volta pro meu coração\n\nEu te amo sim meu Deus\nTe amo pra valer\nEu não sei viver meu Jesus\nLonge, longe do Senhor \n\nJesus é tudo que eu quero\nÉ tudo que o que eu mais preciso\nVocê vive em meus sonhos\nHá! Jamais vou te esquecer\n\nEu te amo sim meu Deus\nTe amo pra valer\nEu não sei viver meu Jesus\nLonge, longe do Senhor",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Jesus é tudo que eu quero\nÉ tudo que o que eu mais preciso\nVocê vive em meus sonhos\nah! Jamais vou te esquecer",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Eu te amo sim meu Deus\nTe amo pra valer\nEu não sei viver meu Jesus\nLonge, longe do Senhor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Quando estou sozinho na\nEstrada bate forte a solidão\nSem Jesus tudo é tão triste\nah! Volta pro meu coração",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Eu te amo sim meu Deus\nTe amo pra valer\nEu não sei viver meu Jesus\nLonge, longe do Senhor ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Jesus é tudo que eu quero\nÉ tudo que o que eu mais preciso\nVocê vive em meus sonhos\nHá! Jamais vou te esquecer",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Eu te amo sim meu Deus\nTe amo pra valer\nEu não sei viver meu Jesus\nLonge, longe do Senhor",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

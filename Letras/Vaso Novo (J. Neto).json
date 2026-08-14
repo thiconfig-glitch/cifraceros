@@ -1,0 +1,92 @@
+{
+  "id": 1585782999338,
+  "title": "Vaso Novo",
+  "artist": "J. Neto",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Eu sei que errei\nMas peço outra vez uma chance\nEu quero voltar\nPrometo seguir como antes\n\nNão dá pra ficar distante assim\nCom essa angústia no olhar\nPor isso preciso\nAo primeiro amor voltar\n\nEu quero voltar ao primeiro amor\nPreciso voltar ao primeiro amor\nQuebra minha vida\nFaça-me de novo\nÉ tudo que eu preciso\nPra ser um vaso novo\n\nSó dá pra ser feliz\nCheio do teu amor\nPor isso eu te peço\nOutra chance, Senhor\n\nQuebra minha vida\nFaça-me de novo\nÉ tudo que eu preciso\nPra ser um vaso novo\n\nSó dá pra ser feliz\nCheio do teu amor\nPor isso eu te peço\nOutra chance, Senhor\n\nNão dá pra ficar distante assim\nCom essa angústia no olhar\nPor isso preciso\nAo primeiro amor voltar\n\nQuebra minha vida\nFaça-me de novo\nÉ tudo que eu preciso\nPra ser um vaso novo",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Eu sei que errei\nMas peço outra vez uma chance\nEu quero voltar\nPrometo seguir como antes",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Não dá pra ficar distante assim\nCom essa angústia no olhar\nPor isso preciso\nAo primeiro amor voltar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Eu quero voltar ao primeiro amor\nPreciso voltar ao primeiro amor\nQuebra minha vida\nFaça-me de novo\nÉ tudo que eu preciso\nPra ser um vaso novo",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Só dá pra ser feliz\nCheio do teu amor\nPor isso eu te peço\nOutra chance, Senhor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Quebra minha vida\nFaça-me de novo\nÉ tudo que eu preciso\nPra ser um vaso novo",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Só dá pra ser feliz\nCheio do teu amor\nPor isso eu te peço\nOutra chance, Senhor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Não dá pra ficar distante assim\nCom essa angústia no olhar\nPor isso preciso\nAo primeiro amor voltar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": "Quebra minha vida\nFaça-me de novo\nÉ tudo que eu preciso\nPra ser um vaso novo",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

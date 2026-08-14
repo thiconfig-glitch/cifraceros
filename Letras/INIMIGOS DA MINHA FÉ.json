@@ -1,0 +1,78 @@
+{
+  "id": 1582748875448,
+  "title": "INIMIGOS DA MINHA FÉ",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "No caminho que escolhi\nMuitas vezes eu ouvi\nConselhos que diziam\né melhor você parar\n\nMuitos foram os que voltaram\nEm suas guerras fracassaram\nE tentaram com palavras\nme impedir de avançar\n\nDizendo você não é capaz\nA gente também não conseguiu\nDesista voltemos para trÁS\nPois é muito grande o desafio\n\nMas não vou deixar me esmorecer\nCreio na promessa do meu Deus\nAssim terei forças pra vencer\ngigantes mais fortes do que eu\n\nO impossível só existe até alguém realizar\nAs muralhas e barreiras \ncairão pra eu passar\nA minha fé será a ponte \nque me leva ao outro lado\nOnde há separação \ndo vencedor e o derrotado\n\nPois até entre as estrelas \nhá diferença de esplendor\nDeus conservará de pé \nos inimigos da minha fé\nPra que eles possam \naplaudir minha vitória\nE reconhecer que somente o meu Deus\né digno de glória",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "No caminho que escolhi\nMuitas vezes eu ouvi\nConselhos que diziam\né melhor você parar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Muitos foram os que voltaram\nEm suas guerras fracassaram\nE tentaram com palavras\nme impedir de avançar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Dizendo você não é capaz\nA gente também não conseguiu\nDesista voltemos para trÁS\nPois é muito grande o desafio",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Mas não vou deixar me esmorecer\nCreio na promessa do meu Deus\nAssim terei forças pra vencer\ngigantes mais fortes do que eu",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "O impossível só existe até alguém realizar\nAs muralhas e barreiras \ncairão pra eu passar\nA minha fé será a ponte \nque me leva ao outro lado\nOnde há separação \ndo vencedor e o derrotado",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Pois até entre as estrelas \nhá diferença de esplendor\nDeus conservará de pé \nos inimigos da minha fé\nPra que eles possam \naplaudir minha vitória\nE reconhecer que somente o meu Deus\né digno de glória",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

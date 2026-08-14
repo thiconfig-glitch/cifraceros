@@ -1,0 +1,64 @@
+{
+  "id": 1582748875589,
+  "title": "PAI",
+  "artist": "SULAMITA",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "PAI, ANDEI DISTANTE, MAS RESOLVI VOLTAR\nPAI, DÁ-ME OUTRA CHANCE, QUERO RECOMEÇAR\nPAI, EU VOU MUDAR, NUNCA MAIS VOU TE DEIXAR\nPAI, DAQUI PRA FRENTE, VAI SER BEM DIFERENTE\npai\n\nOH OH OH PAI\nMAS UMA VEZ, EU VOU VOLTAR\nMAS DESTA VEZ, VIM PRA FICAR\nME DÊ A MÃO, HÁ CANSAÇO NOS MEUS PASSOS\nLONGE EU ANDEI, MAS PAI, RETORNEI\n\nPAI, SÓ TEU OLHAR PODE ME TRANSFORMAR\nPAI, SE ME TOCAR, TUDO IRÁ MUDAR\nPAI, JAMAIS CHORAR, SIM SOMENTE IREI CANTAR\nPAI, PORQUÊ PERDER?\nSE CONTIGO POSSO VENCER\n\nOH OH OH PAI\nMAS UMA VEZ, EU VOU VOLTAR\nMAS DESTA VEZ, VIM PRA FICAR\nME DÊ A MÃO, HÁ CANSAÇO NOS MEUS PASSOS\nLONGE EU ANDEI, MAS PAI, RETORNEI",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "PAI, ANDEI DISTANTE, MAS RESOLVI VOLTAR\nPAI, DÁ-ME OUTRA CHANCE, QUERO RECOMEÇAR\nPAI, EU VOU MUDAR, NUNCA MAIS VOU TE DEIXAR\nPAI, DAQUI PRA FRENTE, VAI SER BEM DIFERENTE\npai",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "OH OH OH PAI\nMAS UMA VEZ, EU VOU VOLTAR\nMAS DESTA VEZ, VIM PRA FICAR\nME DÊ A MÃO, HÁ CANSAÇO NOS MEUS PASSOS\nLONGE EU ANDEI, MAS PAI, RETORNEI",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "PAI, SÓ TEU OLHAR PODE ME TRANSFORMAR\nPAI, SE ME TOCAR, TUDO IRÁ MUDAR\nPAI, JAMAIS CHORAR, SIM SOMENTE IREI CANTAR\nPAI, PORQUÊ PERDER?\nSE CONTIGO POSSO VENCER",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "OH OH OH PAI\nMAS UMA VEZ, EU VOU VOLTAR\nMAS DESTA VEZ, VIM PRA FICAR\nME DÊ A MÃO, HÁ CANSAÇO NOS MEUS PASSOS\nLONGE EU ANDEI, MAS PAI, RETORNEI",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

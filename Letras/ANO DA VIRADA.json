@@ -1,0 +1,57 @@
+{
+  "id": 1582748875493,
+  "title": "ANO DA VIRADA",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "UM NOVO TEMPO, UM NOVO ANO\nUMA ETAPA DE VITÓRIAS COMEÇOU\nDETERMINE AGORA EU SOU UM VENCEDOR\nO PASSADO TRISTE PARA TRÁS FICOU\nANO DA VIRADA\n\nCOM MUITAS LUTAS E SACRIFÍCIOS\nAS PROMESSAS DO MEU DEUS VOU CONQUISTAR\nO MEU SONHO AGORA EU VOU REALIZAR\nESSE É O ANO DA VIRADA\nMINHA VIDA VAI MUDAR\n\nEU VOU CONQUISTAR, ESTABELECER\nPERMANECER, SIM EU VOU VENCER\nVIVER PELA FÉ ATÉ O FIM\nO PASSADO TRISTE PARA TRÁS FICOU\nNA NAÇÃO DO VENCEDORES\nEU SOU MAIS QUE VENCEDOR",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "UM NOVO TEMPO, UM NOVO ANO\nUMA ETAPA DE VITÓRIAS COMEÇOU\nDETERMINE AGORA EU SOU UM VENCEDOR\nO PASSADO TRISTE PARA TRÁS FICOU\nANO DA VIRADA",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "COM MUITAS LUTAS E SACRIFÍCIOS\nAS PROMESSAS DO MEU DEUS VOU CONQUISTAR\nO MEU SONHO AGORA EU VOU REALIZAR\nESSE É O ANO DA VIRADA\nMINHA VIDA VAI MUDAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "EU VOU CONQUISTAR, ESTABELECER\nPERMANECER, SIM EU VOU VENCER\nVIVER PELA FÉ ATÉ O FIM\nO PASSADO TRISTE PARA TRÁS FICOU\nNA NAÇÃO DO VENCEDORES\nEU SOU MAIS QUE VENCEDOR",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

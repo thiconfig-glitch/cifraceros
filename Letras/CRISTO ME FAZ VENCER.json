@@ -1,0 +1,50 @@
+{
+  "id": 1582748875470,
+  "title": "CRISTO ME FAZ VENCER",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "UM DIA EU PUDI OUVIR UMA VOZ\nSUAVE ME FALAR\nQUE A CADA INSTANTE EU TIVESSE F É\nPRA CONTINUAR\nSUAS DOCES PALAVRAS\nINVADIRAM O MEU VIVER\nE ME DERAM FORÇAS, PARA TUDO VENCER\n\nEU, NÃO TENHO O QUE TEMER \nCRISTO ME FAZ VENCER\nEU NÃO TEMO O DIA MAL\nE, DESCANSO PELO AMANHÃ \nA MINHA FÉ NÃO É VÃ \nELE VAI ME GUARDAR",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "UM DIA EU PUDI OUVIR UMA VOZ\nSUAVE ME FALAR\nQUE A CADA INSTANTE EU TIVESSE F É\nPRA CONTINUAR\nSUAS DOCES PALAVRAS\nINVADIRAM O MEU VIVER\nE ME DERAM FORÇAS, PARA TUDO VENCER",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "EU, NÃO TENHO O QUE TEMER \nCRISTO ME FAZ VENCER\nEU NÃO TEMO O DIA MAL\nE, DESCANSO PELO AMANHÃ \nA MINHA FÉ NÃO É VÃ \nELE VAI ME GUARDAR",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

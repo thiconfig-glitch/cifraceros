@@ -1,0 +1,78 @@
+{
+  "id": 1607285544897,
+  "title": "Caminho No Deserto",
+  "artist": "Soraya Moraes",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Estás aqui movendo entre nós\nEu clamarei, eu clamarei\n\nEstás aqui mudando destinos\nEu clamarei, eu clamarei\n\nEstás aqui operando milagres\nEu clamarei, eu clamarei\n\nEstás aqui transformando nossas vidas\nEu clamarei, eu clamarei\n\nMeu Deus é\nDeus de milagres, Deus de promessas\nCaminho no deserto, luz na escuridão\nMeu Deus, este é quem Tu és\n\nMeu Deus é\nDeus de milagres, Deus de promessas\nCaminho no deserto, luz na escuridão\nMeu Deus, este é quem Tu és",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Estás aqui movendo entre nós\nEu clamarei, eu clamarei",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Estás aqui mudando destinos\nEu clamarei, eu clamarei",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Estás aqui operando milagres\nEu clamarei, eu clamarei",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Estás aqui transformando nossas vidas\nEu clamarei, eu clamarei",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Meu Deus é\nDeus de milagres, Deus de promessas\nCaminho no deserto, luz na escuridão\nMeu Deus, este é quem Tu és",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Meu Deus é\nDeus de milagres, Deus de promessas\nCaminho no deserto, luz na escuridão\nMeu Deus, este é quem Tu és",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

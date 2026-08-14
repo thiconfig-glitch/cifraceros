@@ -1,0 +1,78 @@
+{
+  "id": 1582748875646,
+  "title": "A VOLTA DO NOIVO",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "ELE VOLTARÁ\nPRA BUSCAR A SUA NOIVA \nEU VOU CONSERVAR\nO AZEITE EM MINHA LÂMPADA\n\nNÃO VOU DEIXAR \nA VASILHA SEM O ÓLEO\nJA ESTOU INDO \nPARA ENCONTRAR O NOIVO\n\nVEM MEU SENHOR, JESUS\nCRISTO AMADO\nQUE JÁ LAVOU A MINH’ALMA DO PECADO\n\nCHEGOU O DIA \nE A HORA ESPERADA\nDE VER SUA IGREJA \nDESSE MUNDO ARREBATADA\n\nTODO LOUVOR\nSOMENTE PARA O MEU SENHOR \nQUE PREPAROU À SUA IGREJA \nUMA CIDADE \n\nTODA DE OURO E DE PEDRAS PRECIOSAS\nE PARA SEMPRE EU VEREI\nA SUA GLÓRIA\n ",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "ELE VOLTARÁ\nPRA BUSCAR A SUA NOIVA \nEU VOU CONSERVAR\nO AZEITE EM MINHA LÂMPADA",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "NÃO VOU DEIXAR \nA VASILHA SEM O ÓLEO\nJA ESTOU INDO \nPARA ENCONTRAR O NOIVO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "VEM MEU SENHOR, JESUS\nCRISTO AMADO\nQUE JÁ LAVOU A MINH’ALMA DO PECADO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "CHEGOU O DIA \nE A HORA ESPERADA\nDE VER SUA IGREJA \nDESSE MUNDO ARREBATADA",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "TODO LOUVOR\nSOMENTE PARA O MEU SENHOR \nQUE PREPAROU À SUA IGREJA \nUMA CIDADE ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "TODA DE OURO E DE PEDRAS PRECIOSAS\nE PARA SEMPRE EU VEREI\nA SUA GLÓRIA\n ",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

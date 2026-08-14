@@ -1,0 +1,78 @@
+{
+  "id": 1634310879964,
+  "title": "Na Mesa do Rei",
+  "artist": "Damares",
+  "author": "Tângela Vieira",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Disseram que eu\nNão ia conseguir\nDisseram que os meus sonhos\nAcabaram ali\nQuando os meus pés\nSe quebraram\nMe zombaram\nMe criticaram\n\nMe mandaram\nPara a terra de Lo-debar\nTerra que se chamava esquecimento\nE naquele lugar sozinho fiquei\nHumilhado, desamparado\n\nMas no coração\nhavia uma esperança\nO Rei prometeu \nnão se esquecer de mim\nEu sei que esse dia vai chegar\nE a carruagem do Rei\nNa cidade vou ver entrar\npra me buscar\n\nEu vou me assentar \nà mesa do Rei\nEu vou comer na mesa do Rei\nE todos que me humilharam \nvão me ver ali\nE vão ter que saber \nque fui convidado, sim\n\nEu vou receber \nas terras que perdi\nE todos os tesouros \nque meu pai deixou\nQuando na batalha \nteve que lutar\n\nE a sua vida foi levada\nÉ assim quando Deus promete\nO tempo pode passar\nMas de você não se esquece",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Disseram que eu\nNão ia conseguir\nDisseram que os meus sonhos\nAcabaram ali\nQuando os meus pés\nSe quebraram\nMe zombaram\nMe criticaram",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Me mandaram\nPara a terra de Lo-debar\nTerra que se chamava esquecimento\nE naquele lugar sozinho fiquei\nHumilhado, desamparado",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Mas no coração\nhavia uma esperança\nO Rei prometeu \nnão se esquecer de mim\nEu sei que esse dia vai chegar\nE a carruagem do Rei\nNa cidade vou ver entrar\npra me buscar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Eu vou me assentar \nà mesa do Rei\nEu vou comer na mesa do Rei\nE todos que me humilharam \nvão me ver ali\nE vão ter que saber \nque fui convidado, sim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Eu vou receber \nas terras que perdi\nE todos os tesouros \nque meu pai deixou\nQuando na batalha \nteve que lutar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "E a sua vida foi levada\nÉ assim quando Deus promete\nO tempo pode passar\nMas de você não se esquece",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

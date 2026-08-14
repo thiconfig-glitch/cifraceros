@@ -1,0 +1,78 @@
+{
+  "id": 1625092166296,
+  "title": "Sacrifício",
+  "artist": "",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Por onde irei se Tu és\na luz e vida em mim\nSendo Tu, meu alvo\nmeu precioso amor\n\nBusco Tua face\ngraça e terno amor\nE tudo que agrade\na Ti oh meu SenhoR\n\nChego ao Teu altar\nSou o sacrifício\nPara Te agradar\nE me entregar\n\nFlua o meu interior\ncom Tua palavra\nQue me alimenta \ne me torna santo\n\nDo amor que destes\nretribuo a Ti\nPra que manifestes\nTua glória em mim\n\nChego ao Teu altar\nSou o sacrifício\nPara Te agradar\nE me entregar",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Por onde irei se Tu és\na luz e vida em mim\nSendo Tu, meu alvo\nmeu precioso amor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Busco Tua face\ngraça e terno amor\nE tudo que agrade\na Ti oh meu SenhoR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Chego ao Teu altar\nSou o sacrifício\nPara Te agradar\nE me entregar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Flua o meu interior\ncom Tua palavra\nQue me alimenta \ne me torna santo",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Do amor que destes\nretribuo a Ti\nPra que manifestes\nTua glória em mim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Chego ao Teu altar\nSou o sacrifício\nPara Te agradar\nE me entregar",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

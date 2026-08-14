@@ -1,0 +1,71 @@
+{
+  "id": 1582748875527,
+  "title": "É NA FORNALHA",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "HÁ UMA ESCOLHA A SE FAZER\nHÁ UMA VOZ A SE OUVIR\nQUEM VOCÊ VAI OBEDECER\nE A QUEM VOCÊ VAI SERVIR\n\nHÁ UMA ESCOLHA A SE FAZER\nQUANDO A TROMBETA ECOAR\nE VÃO OLHAR PARA VOCÊ\nSE VOCÊ NÃO SE AJOELHAR\n\nHÁ OS QUE NEGAM SE CURVAR\nMESMO DIANTE DA FORNALHA\nSÃO MALTRATADOS, HUMILHADOS\nE AINDA ASSIM FICAM DE PÉ\nPRA VIVER OU PRA MORRER\nMAS JAMAIS NEGAR A FÉ\n\nÉ NA FORNALHA, É NO CALOR DA BATALHA\nQUE DEUS MUDA TUA VIDA\nE TE LIVRA DA MORTE\nÉ NA FORNALHA, É NO CALOR DA BATALHA\nQUE A GENTE MOSTRA AO MUNDO\nQUE O NOSSO DEUS É MAIS FORTE\n\nSADRAQUE, MESAQUE, ABEDE NEGO\nTRÊS INOCENTES LANÇADOS NO FOGO\nMAS NO MEIO DA CHAMA SURGIU UMA LUZ\nO QUARTO HOMEM ERA JESUS",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "HÁ UMA ESCOLHA A SE FAZER\nHÁ UMA VOZ A SE OUVIR\nQUEM VOCÊ VAI OBEDECER\nE A QUEM VOCÊ VAI SERVIR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "HÁ UMA ESCOLHA A SE FAZER\nQUANDO A TROMBETA ECOAR\nE VÃO OLHAR PARA VOCÊ\nSE VOCÊ NÃO SE AJOELHAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "HÁ OS QUE NEGAM SE CURVAR\nMESMO DIANTE DA FORNALHA\nSÃO MALTRATADOS, HUMILHADOS\nE AINDA ASSIM FICAM DE PÉ\nPRA VIVER OU PRA MORRER\nMAS JAMAIS NEGAR A FÉ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "É NA FORNALHA, É NO CALOR DA BATALHA\nQUE DEUS MUDA TUA VIDA\nE TE LIVRA DA MORTE\nÉ NA FORNALHA, É NO CALOR DA BATALHA\nQUE A GENTE MOSTRA AO MUNDO\nQUE O NOSSO DEUS É MAIS FORTE",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "SADRAQUE, MESAQUE, ABEDE NEGO\nTRÊS INOCENTES LANÇADOS NO FOGO\nMAS NO MEIO DA CHAMA SURGIU UMA LUZ\nO QUARTO HOMEM ERA JESUS",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

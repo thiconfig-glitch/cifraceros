@@ -1,0 +1,64 @@
+{
+  "id": 1582748875747,
+  "title": "Eu Não Posso Te Deixar",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "EU ANDO COM MEU DEUS NA RUA\nE QUANDO CHEGO EM CASA ELE ESTÁ COMIGO\nEU FALO COM MEU DEUS NA HORA DE DORMIR\nE LOGO QUANDO ACORDO DIGO: \"EIS ME AQUI”\nSOU DE JESUS\n\nE MESMO ATAREFADO SEMPRE ESTOU LIGADO\nEU NÃO ABRO MÃO DA PRESENÇA, \nE NO PARTIR DO PÃO EM CADA COMUNHÃO\nGRAÇAS, GRAÇAS POR TUDO\nSOU DE JESUS\n\nEU NÃO POSSO TE DEIXAR, \nPOIS DE UMA COISA EU SEI MUITO BEM\nÉ A TUA SOMBRA QUE ME GUARDA\nE A TUA MISERICÓRDIA QUE ME SUSTÉM\n\nPAI PERDOA OS MEUS ERROS \nE ME ENSINA A PERDOAR\nVENHA A NÓS TEU SANTO \nREINO E ME ENSINA A AMAR",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "EU ANDO COM MEU DEUS NA RUA\nE QUANDO CHEGO EM CASA ELE ESTÁ COMIGO\nEU FALO COM MEU DEUS NA HORA DE DORMIR\nE LOGO QUANDO ACORDO DIGO: \"EIS ME AQUI”\nSOU DE JESUS",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "E MESMO ATAREFADO SEMPRE ESTOU LIGADO\nEU NÃO ABRO MÃO DA PRESENÇA, \nE NO PARTIR DO PÃO EM CADA COMUNHÃO\nGRAÇAS, GRAÇAS POR TUDO\nSOU DE JESUS",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "EU NÃO POSSO TE DEIXAR, \nPOIS DE UMA COISA EU SEI MUITO BEM\nÉ A TUA SOMBRA QUE ME GUARDA\nE A TUA MISERICÓRDIA QUE ME SUSTÉM",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "PAI PERDOA OS MEUS ERROS \nE ME ENSINA A PERDOAR\nVENHA A NÓS TEU SANTO \nREINO E ME ENSINA A AMAR",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

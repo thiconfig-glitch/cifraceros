@@ -1,0 +1,71 @@
+{
+  "id": 1598622527266,
+  "title": "Minha Essência",
+  "artist": "Thiago Brado",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Vim até aqui\nDerramar o meu passado em Ti\nVim banhar os pés \nque andaram por aí\nSem carinho receber\n\nHoje estou aqui\nNão porque mereço, eu sei\nPois Tu sabes por onde eu andei\nConheces bem o meu perfume\n\nMas Tu sabes também\nQue o meu choro \né sincero porém\nNão tenho nada a oferecer,\nmeu Senhor\nMas Te dou a minha vida\n\nÉ tudo que tenho\nRecebe MINHA alma\nRefaz a morada\nHabita em mim\n\nMe pega em teus braços\nMe acalma em Teu peito\nSou Teu, sou eleito\nE a minha essência \né exalar Teu cheiro",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Vim até aqui\nDerramar o meu passado em Ti\nVim banhar os pés \nque andaram por aí\nSem carinho receber",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Hoje estou aqui\nNão porque mereço, eu sei\nPois Tu sabes por onde eu andei\nConheces bem o meu perfume",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Mas Tu sabes também\nQue o meu choro \né sincero porém\nNão tenho nada a oferecer,\nmeu Senhor\nMas Te dou a minha vida",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "É tudo que tenho\nRecebe MINHA alma\nRefaz a morada\nHabita em mim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Me pega em teus braços\nMe acalma em Teu peito\nSou Teu, sou eleito\nE a minha essência \né exalar Teu cheiro",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

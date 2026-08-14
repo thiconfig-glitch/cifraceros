@@ -1,0 +1,57 @@
+{
+  "id": 1582748875963,
+  "title": "NÃO HÁ DEUS COMO TU",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "NÃO HÁ DEUS COMO TU\nNÃO HÁ DEUS COMO TU\nQUE GUERREIA AS MINHAS GUERRAS\nE ME FAZ UM VENCEDOR\n\nEU ABRO CORAÇÃO PRA TE ADORAR\nLEVANTO AS MINHAS MÃOS PRA TE EXALTAR\nEU ERGO A MINHA VOZ PRA TE LOUVAR\nNÃO HÁ DEUS COMO TU\n\nEU ABRO CORAÇÃO PRA TE ADORAR\nLEVANTO AS MINHAS MÃOS PRA TE EXALTAR\nEU ERGO A MINHA VOZ PRA TE LOUVAR\nNÃO HÁ DEUS COMO TU",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "NÃO HÁ DEUS COMO TU\nNÃO HÁ DEUS COMO TU\nQUE GUERREIA AS MINHAS GUERRAS\nE ME FAZ UM VENCEDOR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "EU ABRO CORAÇÃO PRA TE ADORAR\nLEVANTO AS MINHAS MÃOS PRA TE EXALTAR\nEU ERGO A MINHA VOZ PRA TE LOUVAR\nNÃO HÁ DEUS COMO TU",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "EU ABRO CORAÇÃO PRA TE ADORAR\nLEVANTO AS MINHAS MÃOS PRA TE EXALTAR\nEU ERGO A MINHA VOZ PRA TE LOUVAR\nNÃO HÁ DEUS COMO TU",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

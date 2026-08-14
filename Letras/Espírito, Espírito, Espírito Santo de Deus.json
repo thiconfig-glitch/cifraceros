@@ -1,0 +1,43 @@
+{
+  "id": 1582748875905,
+  "title": "Espírito, Espírito, Espírito Santo de Deus",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "ESPÍRITO, ESPÍRITO, ESPÍRITO SANTO DE DEUS\nESPÍRITO, ESPÍRITO, ESPÍRITO SANTO DE DEUS\nVEM CONTROLAR TODO O MEU SER\nVEM DIRIGIR O MEU VIVER\nO MEU PENSAR, O MEU FALAR\nO MEU SENTIR, O MEU AGIR",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "ESPÍRITO, ESPÍRITO, ESPÍRITO SANTO DE DEUS\nESPÍRITO, ESPÍRITO, ESPÍRITO SANTO DE DEUS\nVEM CONTROLAR TODO O MEU SER\nVEM DIRIGIR O MEU VIVER\nO MEU PENSAR, O MEU FALAR\nO MEU SENTIR, O MEU AGIR",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

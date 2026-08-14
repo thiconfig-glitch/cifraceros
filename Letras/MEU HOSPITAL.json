@@ -1,0 +1,78 @@
+{
+  "id": 1582748875794,
+  "title": "MEU HOSPITAL",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "SÃO COMO SUSSURROS NO CÉU\nQUANDO ESTOU CHORANDO PRA TI\nUM GRITO DE UMA ALMA, NINGUÉM\nNA TERRA É CAPAZ DE OUVIR\n\nÉ BEM MAIS FÁCIL ALGUÉM APONTAR\nOS ERROS QUE EXISTEM EM MIM\nMAS O SENHOR ME FAZ RECORDAR\nQUE ME AMA MESMO ASSIM\n\nÉ TÃO DIFÍCIL AQUI SER FELIZ\nPRA CADA ERRO HÁ UM TRIBUNAL\nAINDA BEM QUE DENTRO DE MIM\nTUA PRESENÇA É O MEU HOSPITAL\n\nTU ÉS A MEDICINA DO CÉU\nSOCORRO BEM PRESENTE PRA MIM\nUM NOVO CORAÇÃO TRANSPLANTOU\nJÁ CANCELOU NA CRUZ O MEU FIM\n\nTODA VEZ QUE A MINHA ALMA CHORAR\nCOM SINTOMAS QUE O MUNDO CAUSAR\nNOVAMENTE VOU SORRIR NO FINAL\nTUA PRESENÇA É O MEU HOSPITAL\n\nSÃO TANTOS ERROS QUE COMETI\nQUE O SENHOR NÃO ME TRANSFORMOU EM RÉU\nSÃO EXPERIÊNCIAS QUE EU VIVI\nHOJE NADA ME SEPARA DO CÉU\nMEU REMÉDIO É TUA PALAVRA, OH! SENHOR\nELA É MAIS DOCE QUE O PURO MEL\nSARADO ESTOU, VIVO PARA O TEU LOUVOR",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "SÃO COMO SUSSURROS NO CÉU\nQUANDO ESTOU CHORANDO PRA TI\nUM GRITO DE UMA ALMA, NINGUÉM\nNA TERRA É CAPAZ DE OUVIR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "É BEM MAIS FÁCIL ALGUÉM APONTAR\nOS ERROS QUE EXISTEM EM MIM\nMAS O SENHOR ME FAZ RECORDAR\nQUE ME AMA MESMO ASSIM",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "É TÃO DIFÍCIL AQUI SER FELIZ\nPRA CADA ERRO HÁ UM TRIBUNAL\nAINDA BEM QUE DENTRO DE MIM\nTUA PRESENÇA É O MEU HOSPITAL",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "TU ÉS A MEDICINA DO CÉU\nSOCORRO BEM PRESENTE PRA MIM\nUM NOVO CORAÇÃO TRANSPLANTOU\nJÁ CANCELOU NA CRUZ O MEU FIM",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "TODA VEZ QUE A MINHA ALMA CHORAR\nCOM SINTOMAS QUE O MUNDO CAUSAR\nNOVAMENTE VOU SORRIR NO FINAL\nTUA PRESENÇA É O MEU HOSPITAL",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "SÃO TANTOS ERROS QUE COMETI\nQUE O SENHOR NÃO ME TRANSFORMOU EM RÉU\nSÃO EXPERIÊNCIAS QUE EU VIVI\nHOJE NADA ME SEPARA DO CÉU\nMEU REMÉDIO É TUA PALAVRA, OH! SENHOR\nELA É MAIS DOCE QUE O PURO MEL\nSARADO ESTOU, VIVO PARA O TEU LOUVOR",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

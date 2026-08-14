@@ -1,0 +1,71 @@
+{
+  "id": 1626637328283,
+  "title": "Amor Perfeito",
+  "artist": "Adriana Marques",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "O vento sopra e leva a solidão\nE uma canção\nme aquece o coração\n \nMeus olhos tristes deixam \nde chorar, ouço a Sua voz, \ncom carinho a me falar\n\nO horizonte enfim\nSe revela luminoso assim\nna luz do Seu olhar\n \nMesmo sem voar\nSinto a sensação de flutuar\nCom o toque de Suas mãos \nem meu viver\n\nTudo era triste longe do Senhor\nTudo o que eu quis\nparecia se perder\nPor tantas vezes eu te procurei\nMas não te encontrei\nNão sabia procurar\n\nMas Jesus me ouviu\nQuando olhei pro céu e me perdi, \nna luz do seu olhar\n \nMesmo sem voar\nSinto a sensação de flutuar\nCom o toque de suas mãos \nem meu viver\n\nJesus\nAmor, maior não há\nQue o Seu não há, Jesus\n \nAmor, perfeito assim não há\nFica no meu coração\nPara sempre\nPara sempre",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "O vento sopra e leva a solidão\nE uma canção\nme aquece o coração\n \nMeus olhos tristes deixam \nde chorar, ouço a Sua voz, \ncom carinho a me falar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "O horizonte enfim\nSe revela luminoso assim\nna luz do Seu olhar\n \nMesmo sem voar\nSinto a sensação de flutuar\nCom o toque de Suas mãos \nem meu viver",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Tudo era triste longe do Senhor\nTudo o que eu quis\nparecia se perder\nPor tantas vezes eu te procurei\nMas não te encontrei\nNão sabia procurar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Mas Jesus me ouviu\nQuando olhei pro céu e me perdi, \nna luz do seu olhar\n \nMesmo sem voar\nSinto a sensação de flutuar\nCom o toque de suas mãos \nem meu viver",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Jesus\nAmor, maior não há\nQue o Seu não há, Jesus\n \nAmor, perfeito assim não há\nFica no meu coração\nPara sempre\nPara sempre",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

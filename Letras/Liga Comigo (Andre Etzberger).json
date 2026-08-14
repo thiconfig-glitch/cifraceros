@@ -1,0 +1,71 @@
+{
+  "id": 1624662479344,
+  "title": "Liga Comigo",
+  "artist": "Andre Etzberger",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Eu tenho a minha fé\nNo nome de Jesus\nEu tenho a vitória e a paz\nE a sua luz\n\nCom esse nome \neu vou conquistar\nE tudo vai mudar\nPorque se ligarmos aqui\nEstá ligado lá\n\nLiga comigo agora\nLiga comigo agora\nLiga comigo e cante\nEu tenho a vitória\n\nSe está ligado aqui\nLá no céu ligado está\nEssa corrente é forte\nTudo vai mudar\n\nFoi Jesus quem prometeu\nSe entre nós está ligado\nNão temo a inveja e a miséria\nTudo está amarrado",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Eu tenho a minha fé\nNo nome de Jesus\nEu tenho a vitória e a paz\nE a sua luz",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Com esse nome \neu vou conquistar\nE tudo vai mudar\nPorque se ligarmos aqui\nEstá ligado lá",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Liga comigo agora\nLiga comigo agora\nLiga comigo e cante\nEu tenho a vitória",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Se está ligado aqui\nLá no céu ligado está\nEssa corrente é forte\nTudo vai mudar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Foi Jesus quem prometeu\nSe entre nós está ligado\nNão temo a inveja e a miséria\nTudo está amarrado",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

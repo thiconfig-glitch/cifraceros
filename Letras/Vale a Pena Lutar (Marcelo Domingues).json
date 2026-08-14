@@ -1,0 +1,71 @@
+{
+  "id": 1628445827014,
+  "title": "Vale a Pena Lutar",
+  "artist": "Marcelo Domingues",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "O que é que está havendo com você\nQue anda assim tão deprimido\nCom esse teu jeito tentado enlouquecer\n \nDeixe de tentar tantas loucuras\nSe alimentar de tantas ilusões\nTransformando você num monstro\nDevorando o teu ser\n\nDeixa de tantas tristezas\nVocê \"tá\" se enfiando no poço sem fim\nTenta\nJesus está aqui pra te ajudar\nTenta\nAo menos tenta\n\nVamos lá\nVocê pode conseguir\nEu estive assim também\nMas eu conseguir sair\n\nVamos lá\nSe levanta põe de pé\nA vitória sua é\nPorque Cristo já venceu\n \nVenceu por mim\nPor você\nPor todos nós\n\nVale a pena lutar\nVale a pena\nVale a pena lutar\nVale a pena",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "O que é que está havendo com você\nQue anda assim tão deprimido\nCom esse teu jeito tentado enlouquecer\n \nDeixe de tentar tantas loucuras\nSe alimentar de tantas ilusões\nTransformando você num monstro\nDevorando o teu ser",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Deixa de tantas tristezas\nVocê \"tá\" se enfiando no poço sem fim\nTenta\nJesus está aqui pra te ajudar\nTenta\nAo menos tenta",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Vamos lá\nVocê pode conseguir\nEu estive assim também\nMas eu conseguir sair",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Vamos lá\nSe levanta põe de pé\nA vitória sua é\nPorque Cristo já venceu\n \nVenceu por mim\nPor você\nPor todos nós",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Vale a pena lutar\nVale a pena\nVale a pena lutar\nVale a pena",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

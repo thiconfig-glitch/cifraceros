@@ -1,0 +1,64 @@
+{
+  "id": 1618606940014,
+  "title": "Do Que Vale",
+  "artist": "Adilson Silva",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Do que vale eu ganhar o mundo\nTer aquilo que quiser\nE comprar tudo o que vejo\nDo que vale ter um carro zero\nMuito dinheiro no bolso\nOu viajar pelo hemisfério\n\nDo que vale ter roupa bonita\nA família mais linda e saúde pra vender\nDo que vale construir um mundo\nE curtir cada segundo\nPoupar para enriquecer\n\nNada, nada disso tem sentido\nSem Jesus no coração\nNão sou nada sou pequeno\nSou mais um na multidão\n\nNada vale mais que a salvação\nCom Jesus estou seguro\nCom Ele posso tudo\nPois segura a minha mão",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Do que vale eu ganhar o mundo\nTer aquilo que quiser\nE comprar tudo o que vejo\nDo que vale ter um carro zero\nMuito dinheiro no bolso\nOu viajar pelo hemisfério",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Do que vale ter roupa bonita\nA família mais linda e saúde pra vender\nDo que vale construir um mundo\nE curtir cada segundo\nPoupar para enriquecer",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Nada, nada disso tem sentido\nSem Jesus no coração\nNão sou nada sou pequeno\nSou mais um na multidão",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Nada vale mais que a salvação\nCom Jesus estou seguro\nCom Ele posso tudo\nPois segura a minha mão",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

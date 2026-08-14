@@ -1,0 +1,106 @@
+{
+  "id": 1634310587785,
+  "title": "Vitória No Deserto",
+  "artist": "Aline Barros",
+  "author": "Luciano Moreira",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Quando a noite fria\nCair sobre mim\nE num deserto\nEu me encontrar\n\nMe vir cercado\nPor egípcios e por faraó\nSendo impedido\nDe prosseguir\n\nSei que o Teu fogo\nCairá sobre mim\n\nE me levará a em Ti confiar\n\nEntão eu direi:\nÔô, abra-se o mar\nE eu passarei\nPulando e dançando\n\nEm Sua presença\n\nPor isso eu pulo\nPulo, pulo, pulo, pulo\nNa presença do Rei\n\nPor isso eu danço\nDanço, danço, danço, danço\nNa presença do Rei\n\nPor isso eu grito\nGrito, grito, grito, grito\nNa presença do Rei\n\nPor isso eu corro\nCorro, corro, corro, corro\nNa presença do Rei",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Quando a noite fria\nCair sobre mim\nE num deserto\nEu me encontrar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Me vir cercado\nPor egípcios e por faraó\nSendo impedido\nDe prosseguir",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Sei que o Teu fogo\nCairá sobre mim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "E me levará a em Ti confiar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Então eu direi:\nÔô, abra-se o mar\nE eu passarei\nPulando e dançando",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Em Sua presença",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Por isso eu pulo\nPulo, pulo, pulo, pulo\nNa presença do Rei",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": "Por isso eu danço\nDanço, danço, danço, danço\nNa presença do Rei",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 9,
+        "description": "",
+        "text": "Por isso eu grito\nGrito, grito, grito, grito\nNa presença do Rei",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 10,
+        "description": "",
+        "text": "Por isso eu corro\nCorro, corro, corro, corro\nNa presença do Rei",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

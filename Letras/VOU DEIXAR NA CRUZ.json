@@ -1,0 +1,71 @@
+{
+  "id": 1582748875993,
+  "title": "VOU DEIXAR NA CRUZ",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "SUA MORTE ALI NA CRUZ\nCARREGANDO A MINHA DOR\nJESUS SE EXPÔS POR MIM\n\nSE ENTREGOU EM MEU LUGAR\nE ME DEU UMA NOVA CHANCE\nEU VOU RECOMEÇAR\n\nVOU DEIXAR NA CRUZ \nTUDO O QUE PASSOU\nTUDO O QUE FICOU PRA TRÁS\n\nOLHO PARA JESUS, \nCORRO PRA JESUS\nO SEU AMOR ME CHAMA\n\nEU DEPENDO DESSE AMOR\nDO SEU AMOR MAIS QUE TUDO\nEU CONFIO QUE ESSE AMOR \nTEM PODER, PRA CURAR DORES",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "SUA MORTE ALI NA CRUZ\nCARREGANDO A MINHA DOR\nJESUS SE EXPÔS POR MIM",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "SE ENTREGOU EM MEU LUGAR\nE ME DEU UMA NOVA CHANCE\nEU VOU RECOMEÇAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "VOU DEIXAR NA CRUZ \nTUDO O QUE PASSOU\nTUDO O QUE FICOU PRA TRÁS",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "OLHO PARA JESUS, \nCORRO PRA JESUS\nO SEU AMOR ME CHAMA",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "EU DEPENDO DESSE AMOR\nDO SEU AMOR MAIS QUE TUDO\nEU CONFIO QUE ESSE AMOR \nTEM PODER, PRA CURAR DORES",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": 1582748875643,
+  "title": "Aquele que habita",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "AQUELE QUE HABITA\nO ESCONDERIJO DO ALTÍSSIMO\nÀ SOMBRA DO SENHOR\nONIPOTENTE  DESCANSARÁ\n\nDIREI AO SENHOR, QUE ELE É O MEU DEUS\nDIREI AO SENHOR, QUE ELE É O MEU DEUS\nDIREI AO SENHOR, QUE ELE É O MEU DEUS\nAMÉM\n\nSE DEUS É POR NÓS,\nQUEM SERÁ CONTRA NÓS\nSE DEUS É POR NÓS,\nQUEM SERÁ CONTRA NÓS\nSE DEUS É POR NÓS,\nQUEM SERÁ CONTRA NÓS\nNINGUÉM",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "AQUELE QUE HABITA\nO ESCONDERIJO DO ALTÍSSIMO\nÀ SOMBRA DO SENHOR\nONIPOTENTE  DESCANSARÁ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "DIREI AO SENHOR, QUE ELE É O MEU DEUS\nDIREI AO SENHOR, QUE ELE É O MEU DEUS\nDIREI AO SENHOR, QUE ELE É O MEU DEUS\nAMÉM",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "SE DEUS É POR NÓS,\nQUEM SERÁ CONTRA NÓS\nSE DEUS É POR NÓS,\nQUEM SERÁ CONTRA NÓS\nSE DEUS É POR NÓS,\nQUEM SERÁ CONTRA NÓS\nNINGUÉM",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

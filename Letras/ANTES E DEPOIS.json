@@ -1,0 +1,85 @@
+{
+  "id": 1582748875542,
+  "title": "ANTES E DEPOIS",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "VOCÊ QUE JÁ FOI EXCLUÍDO \nDAS RODAS DA VIDA\nVOCÊ FOI TIRADO DA MESA\nE AGORA SÓ COME AS \nMIGALHAS DO CHÃO\n\nATÉ PRA ENTRAR NOS LUGARES\nTEM QUE PROVAR QUEM \nÉ E TAMBÉM QUEM JÁ FOI\n\nMAS DEUS QUER DIVIDIR SUA VIDA\nNO ANTES E O DEPOIS\nANTES E DEPOIS\n\nVOCÊ É O RETRATO FALADO\nDA DOR QUE CONSOME\nE AS LÁGRIMAS SÃO TESTEMUNHAS\nDA DOR QUE SUFOCA ESSE TEU CORAÇÃO\n\nA VOZ QUE TE FALA AOS OUVIDOS\nNÃO, NÃO DÁ MAIS É MELHOR DESISTIR\nNINGUÉM JÁ SE IMPORTA \nCONTIGO PRA ONDE FUGIR\n\nDEIXA AGORA ESSE COMPLEXO \nQUE VOCÊ TEM\nVOCÊ NÃO É INFERIOR A NINGUÉM\nPRA QUE FICAR VIVENDO DE FAVOR\nSE DEUS QUER TE FAZER UM VENCEDOR\n\nAS MARCAS DE CRAVOS \nQUE ELE TEM NAS MÃOS\nÉ A PROVA DE QUE TUDO \nJÁ FEZ POR VOCÊ\n \nMORREU BRAÇOS \nABERTOS PRA TE DAR PERDÃO\nAGORA SÓ DEPENDE DE VOCÊ",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "VOCÊ QUE JÁ FOI EXCLUÍDO \nDAS RODAS DA VIDA\nVOCÊ FOI TIRADO DA MESA\nE AGORA SÓ COME AS \nMIGALHAS DO CHÃO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "ATÉ PRA ENTRAR NOS LUGARES\nTEM QUE PROVAR QUEM \nÉ E TAMBÉM QUEM JÁ FOI",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "MAS DEUS QUER DIVIDIR SUA VIDA\nNO ANTES E O DEPOIS\nANTES E DEPOIS",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "VOCÊ É O RETRATO FALADO\nDA DOR QUE CONSOME\nE AS LÁGRIMAS SÃO TESTEMUNHAS\nDA DOR QUE SUFOCA ESSE TEU CORAÇÃO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "A VOZ QUE TE FALA AOS OUVIDOS\nNÃO, NÃO DÁ MAIS É MELHOR DESISTIR\nNINGUÉM JÁ SE IMPORTA \nCONTIGO PRA ONDE FUGIR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "DEIXA AGORA ESSE COMPLEXO \nQUE VOCÊ TEM\nVOCÊ NÃO É INFERIOR A NINGUÉM\nPRA QUE FICAR VIVENDO DE FAVOR\nSE DEUS QUER TE FAZER UM VENCEDOR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "AS MARCAS DE CRAVOS \nQUE ELE TEM NAS MÃOS\nÉ A PROVA DE QUE TUDO \nJÁ FEZ POR VOCÊ\n \nMORREU BRAÇOS \nABERTOS PRA TE DAR PERDÃO\nAGORA SÓ DEPENDE DE VOCÊ",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

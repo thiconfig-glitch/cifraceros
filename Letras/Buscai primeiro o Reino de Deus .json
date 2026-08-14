@@ -1,0 +1,57 @@
+{
+  "id": 1697372873510,
+  "title": "Buscai primeiro o Reino de Deus ",
+  "artist": "",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Buscai primeiro o Reino de Deus\nE a Sua Justiça\nTodas as coisas vos serão acrescentadas\nAleluia, Aleluia\n\nNem só de pão o homem viverá \nMas de toda Palavra \nQue procede da boca de Deus \nAleluia, aleluia\n\nPedi, pedi e dar ser-vos-á\nBuscai e achá-lo-ei\nPois todo aquele que pede recebe\nAleluia, aleluia",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Buscai primeiro o Reino de Deus\nE a Sua Justiça\nTodas as coisas vos serão acrescentadas\nAleluia, Aleluia",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Nem só de pão o homem viverá \nMas de toda Palavra \nQue procede da boca de Deus \nAleluia, aleluia",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Pedi, pedi e dar ser-vos-á\nBuscai e achá-lo-ei\nPois todo aquele que pede recebe\nAleluia, aleluia",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

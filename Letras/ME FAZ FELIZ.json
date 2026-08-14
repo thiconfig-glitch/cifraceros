@@ -1,0 +1,71 @@
+{
+  "id": 1582748875497,
+  "title": "ME FAZ FELIZ",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "MEU JESUS, VEM ME VER \nE ME FAZ REVIVER\nPOIS ESTOU AQUI E QUERO SER FORTE\nBEM MAIS FORTE \nIGUAL AO MEU SENHOR EU QUERO SER\n\nQUERO SER BEM FELIZ\nE TE BUSCAR PARA VENCER \n\nNÃO HAVERÁ MOTIVO ALGUM PRA CHORAR \nVEM VEM LOGO VEM ESTOU A TE ESPERAR\nVEM VEM LOGO VEM ESTOU A TE ESPERAR  \n\nQUERO ESTAR FELIZ COMO EU SONHEI\nEM TE BUSCAR HOJE AQUI\nE EM QUALQUER LUGAR MEU REI\nME TRANSFORMA ÓH DEUS ME FAZ REVIVER \nFAZ ÓH DEUS ME FAZ ME FAZ ME FAZ\nME FAZ FELIZ ÓH MESTRE O DEUS ME FAZ ME FAZ \n\nFAZ ÓH DEUS ME FAZ ME FAZ ME FAZ\nME FAZ FELIZ ÓH MESTRE O DEUS ME FAZ ME FAZ\nFAZ ÓH DEUS ME FAZ ME FAZ ME FAZ\nME FAZ FELIZ ÓH MESTRE O DEUS\nME FAZ ME FAZ \nME FAZ ME FAZ ",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "MEU JESUS, VEM ME VER \nE ME FAZ REVIVER\nPOIS ESTOU AQUI E QUERO SER FORTE\nBEM MAIS FORTE \nIGUAL AO MEU SENHOR EU QUERO SER",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "QUERO SER BEM FELIZ\nE TE BUSCAR PARA VENCER ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "NÃO HAVERÁ MOTIVO ALGUM PRA CHORAR \nVEM VEM LOGO VEM ESTOU A TE ESPERAR\nVEM VEM LOGO VEM ESTOU A TE ESPERAR  ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "QUERO ESTAR FELIZ COMO EU SONHEI\nEM TE BUSCAR HOJE AQUI\nE EM QUALQUER LUGAR MEU REI\nME TRANSFORMA ÓH DEUS ME FAZ REVIVER \nFAZ ÓH DEUS ME FAZ ME FAZ ME FAZ\nME FAZ FELIZ ÓH MESTRE O DEUS ME FAZ ME FAZ ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "FAZ ÓH DEUS ME FAZ ME FAZ ME FAZ\nME FAZ FELIZ ÓH MESTRE O DEUS ME FAZ ME FAZ\nFAZ ÓH DEUS ME FAZ ME FAZ ME FAZ\nME FAZ FELIZ ÓH MESTRE O DEUS\nME FAZ ME FAZ \nME FAZ ME FAZ ",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

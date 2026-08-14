@@ -1,0 +1,57 @@
+{
+  "id": 1605133522717,
+  "title": "Alfa e Ômega",
+  "artist": "Asaph Borba",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Tu que estás assentado \nno trono\nSempre reinando\nsoberano\nAnjos cantando\nhomens louvando\nDeus reunido com seu povo\n\nÓ, ó, Alfa, Ômega\nCristo, filho\nÓ vem, ó vem, ó vem\nSenhor Jesus \n\nE então subiremos \nJuntos estaremos\nNo grande dia\nEm que Tu virás",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Tu que estás assentado \nno trono\nSempre reinando\nsoberano\nAnjos cantando\nhomens louvando\nDeus reunido com seu povo",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Ó, ó, Alfa, Ômega\nCristo, filho\nÓ vem, ó vem, ó vem\nSenhor Jesus ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "E então subiremos \nJuntos estaremos\nNo grande dia\nEm que Tu virás",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

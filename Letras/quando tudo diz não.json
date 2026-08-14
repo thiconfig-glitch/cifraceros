@@ -1,0 +1,64 @@
+{
+  "id": 1582748875976,
+  "title": "quando tudo diz não",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "QUANDO TUDO DIZ QUE NÃO\nSUA VOZ ME ENCORAJA A PROSSEGUIR\nQUANDO TUDO DIZ QUE NÃO\nOU PARECE QUE O MAR NÃO VAI SE ABRIR\n\nSEI QUE NÃO ESTOU SÓ\nE O QUE DIZES SOBRE MIM\nNÃO PODE SE FRUSTRAR\nVENHAS EM MEU FAVOR\nE CUMPRA EM MIM TEU QUERER\n\nO DEUS DO IMPOSSÍVEL\nNÃO se esqueceu DE MIM\nSUA DESTRA ME SUSTENTA\nE ME FAZ PREVALECER\n\nO DEUS DO IMPOSSÍVEL\nNÃO se esqueceu DE MIM\nSUA DESTRA ME SUSTENTA\nE ME FAZ PREVALECER\nO DEUS DO IMPOSSÍVEL",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "QUANDO TUDO DIZ QUE NÃO\nSUA VOZ ME ENCORAJA A PROSSEGUIR\nQUANDO TUDO DIZ QUE NÃO\nOU PARECE QUE O MAR NÃO VAI SE ABRIR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "SEI QUE NÃO ESTOU SÓ\nE O QUE DIZES SOBRE MIM\nNÃO PODE SE FRUSTRAR\nVENHAS EM MEU FAVOR\nE CUMPRA EM MIM TEU QUERER",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "O DEUS DO IMPOSSÍVEL\nNÃO se esqueceu DE MIM\nSUA DESTRA ME SUSTENTA\nE ME FAZ PREVALECER",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "O DEUS DO IMPOSSÍVEL\nNÃO se esqueceu DE MIM\nSUA DESTRA ME SUSTENTA\nE ME FAZ PREVALECER\nO DEUS DO IMPOSSÍVEL",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

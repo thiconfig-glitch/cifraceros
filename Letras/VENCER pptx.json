@@ -1,0 +1,64 @@
+{
+  "id": 1582748875751,
+  "title": "VENCER pptx",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "1,3,4",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "VENCER VENCER\nVOCÊ IRÁ VENCER\nVENCER VENCER\nVOCÊ IRÁ VENCER\n\nVENCER VENCER\n\nEU VOU LUTAR E VENCER\nEU QUERO RECEBER A MINHA VITÓRIA\nE CHEGA DE FRACASSO DERROTADO\nÉ O DIABO SOU UM VENCEDOR\nSOU VENCEDOR\n\nOOOO SOU VENCEDOR\nOOOO E EU SOU MAIS QUE VENCEDOR",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "VENCER VENCER\nVOCÊ IRÁ VENCER\nVENCER VENCER\nVOCÊ IRÁ VENCER",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "VENCER VENCER",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "EU VOU LUTAR E VENCER\nEU QUERO RECEBER A MINHA VITÓRIA\nE CHEGA DE FRACASSO DERROTADO\nÉ O DIABO SOU UM VENCEDOR\nSOU VENCEDOR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "OOOO SOU VENCEDOR\nOOOO E EU SOU MAIS QUE VENCEDOR",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

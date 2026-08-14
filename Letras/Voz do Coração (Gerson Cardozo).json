@@ -1,0 +1,64 @@
+{
+  "id": 1600725952073,
+  "title": "Voz do Coração",
+  "artist": "Gerson Cardozo",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Tantos sonhos que um dia planejei\nE não pude realizar\nPois a direção errada eu tomei\nQuando ouvi tua voz meu coração\nMe enganei\n\nTantas lutas e problemas\nEnfrentei\nMas não tive forças para\nSuperar\nDescobri que és a fonte\nDa emoção\nE não foi preparado pra lutar\nMas simplesmente pra sentir\n\nVoz do coração\nNão vou ouvir a voz do coração\nNão posso mais viver pela emoção\nE nem me envolver com sentimentos\n\nViver pela fé\nInteligente e Espiritual\nE com perseverança vencerei\nE todos os meu sonhos\nEu conquistarei",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Tantos sonhos que um dia planejei\nE não pude realizar\nPois a direção errada eu tomei\nQuando ouvi tua voz meu coração\nMe enganei",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Tantas lutas e problemas\nEnfrentei\nMas não tive forças para\nSuperar\nDescobri que és a fonte\nDa emoção\nE não foi preparado pra lutar\nMas simplesmente pra sentir",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Voz do coração\nNão vou ouvir a voz do coração\nNão posso mais viver pela emoção\nE nem me envolver com sentimentos",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Viver pela fé\nInteligente e Espiritual\nE com perseverança vencerei\nE todos os meu sonhos\nEu conquistarei",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

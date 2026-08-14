@@ -1,0 +1,50 @@
+{
+  "id": 1582748875811,
+  "title": "BASTA QUE ME TOQUE",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "EU MARQUEI UM ENCONTRO COM DEUS\nSEU AMOR É REAL, SUA PAZ ALCANÇAREI\nEU MARQUEI UM ENCONTRO COM DEUS\n\nBASTA QUE ME QUE TOQUES SENHOR\nPRA MINHA ALMA CANSADA VENCER\n \nSE A NOITE ESCURA ESTÁ\nSUA MÃO ME GUIARÁ\nBASTA QUE ME TOQUES SENHOR",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "EU MARQUEI UM ENCONTRO COM DEUS\nSEU AMOR É REAL, SUA PAZ ALCANÇAREI\nEU MARQUEI UM ENCONTRO COM DEUS",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "BASTA QUE ME QUE TOQUES SENHOR\nPRA MINHA ALMA CANSADA VENCER\n \nSE A NOITE ESCURA ESTÁ\nSUA MÃO ME GUIARÁ\nBASTA QUE ME TOQUES SENHOR",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

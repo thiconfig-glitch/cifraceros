@@ -1,0 +1,43 @@
+{
+  "id": 1601057092780,
+  "title": "A Minha Fé É Poderosa",
+  "artist": "Marcelo Domingues",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "A minha fé é poderosa \npela graça de Jesus \nE todo mal vai saindo \nporque não resiste à luz\nSai, sai, sai em nome de Jesus ",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "A minha fé é poderosa \npela graça de Jesus \nE todo mal vai saindo \nporque não resiste à luz\nSai, sai, sai em nome de Jesus ",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

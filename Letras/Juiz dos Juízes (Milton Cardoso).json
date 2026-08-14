@@ -1,0 +1,64 @@
+{
+  "id": 1618049766141,
+  "title": "Juiz dos Juízes",
+  "artist": "Milton Cardoso",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": " \n\nSenhor dos senhores\nJuíz dos juízes,\njulgue a minha causa \nem Teu santo tribunal\nNão escondas de mim o Teu rosto\nNão me abandone pois sou Teu filho\n\nTeu ouvido não está tampado\nSei que podes me ouvir\nTua mão não está encolhida\nTua destra é fiel \ne só Tú podes me salvar\n\nMinha alma clama por justiça\nPois o meu tudo \neu ofereço em Teu altar\nCom minha vida hoje \nquero Te exaltar\nPois Tú és Justo e eu sei\nnão vai falhar",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": " ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Senhor dos senhores\nJuíz dos juízes,\njulgue a minha causa \nem Teu santo tribunal\nNão escondas de mim o Teu rosto\nNão me abandone pois sou Teu filho",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Teu ouvido não está tampado\nSei que podes me ouvir\nTua mão não está encolhida\nTua destra é fiel \ne só Tú podes me salvar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Minha alma clama por justiça\nPois o meu tudo \neu ofereço em Teu altar\nCom minha vida hoje \nquero Te exaltar\nPois Tú és Justo e eu sei\nnão vai falhar",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

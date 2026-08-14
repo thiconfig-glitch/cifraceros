@@ -1,0 +1,71 @@
+{
+  "id": 1582748875801,
+  "title": "RECEBA A FORÇA",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "SE TENTARAM MATAR OS TEUS SONHOS\nSUFOCANDO O TEU CORAÇÃO\nSE LANÇARAM VOCÊ NUMA COVA\nE FERIDO PERDEU A VISÃO\n\nNÃO DESISTA, NÃO PARE DE CRER\nOS SONHOS DE DEUS \nJAMAIS VÃO MORRER\nNÃO DESISTA NÃO PARE DE LUTAR\nNÃO PARE DE CLAMAR\n\nLEVANTA OS TEUS OLHOS E VÊ\nDEUS ESTÁ RESTAURANDO \nOS TEUS SONHOS\nE A TUA VISÃO\n\nRECEBA A FORÇA\nRECEBA A UNÇÃO\nUNÇÃO DE OUSADIA\nUNÇÃO DE CONQUISTA\nUNÇÃO DE MULTIPLICAÇÃO\n\nRECEBA A FORÇA\nRECEBA A VISÃO\nVISÃO DE OUSADIA\nVISÃO DE CONQUISTA\nVISÃO DE MULTIPLICAÇÃO",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "SE TENTARAM MATAR OS TEUS SONHOS\nSUFOCANDO O TEU CORAÇÃO\nSE LANÇARAM VOCÊ NUMA COVA\nE FERIDO PERDEU A VISÃO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "NÃO DESISTA, NÃO PARE DE CRER\nOS SONHOS DE DEUS \nJAMAIS VÃO MORRER\nNÃO DESISTA NÃO PARE DE LUTAR\nNÃO PARE DE CLAMAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "LEVANTA OS TEUS OLHOS E VÊ\nDEUS ESTÁ RESTAURANDO \nOS TEUS SONHOS\nE A TUA VISÃO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "RECEBA A FORÇA\nRECEBA A UNÇÃO\nUNÇÃO DE OUSADIA\nUNÇÃO DE CONQUISTA\nUNÇÃO DE MULTIPLICAÇÃO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "RECEBA A FORÇA\nRECEBA A VISÃO\nVISÃO DE OUSADIA\nVISÃO DE CONQUISTA\nVISÃO DE MULTIPLICAÇÃO",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

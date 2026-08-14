@@ -1,0 +1,78 @@
+{
+  "id": 1582748875800,
+  "title": "VAI PASSAR",
+  "artist": "Gerson Rufino",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Tenho uma palavra pra você\nnão desanime\nTudo que você pediu a Deus\njá está vindo\n\nEsses dias Deus te viu chorar\nno canto escondido\nVocê mal conseguia falar\nEu só ouvi o teu gemido\n\nMas o Deus que me enviou aqui\nsabe de tudo\nEle me mandou falar que vai\nmudar seu rumo\n\nEle está enviando \no consolo, pra tua alma\nEnxugue essas lágrimas \ndo rosto, e tenha calma\n\nVai passar\nEu sei que essa luta logo \nvai passar Está DOENDO, \nMAS VOCÊ NÃO VAI PARAR \nNão deixe a esperança em você \nmorrer! Você precisa crer\n\nVai chegar\nA solução pra tudo que te \naconteceu Você vai ter de volta  \no que você perdeu Só \nnão se desespere,\nTENHA FÉ EM Deus",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Tenho uma palavra pra você\nnão desanime\nTudo que você pediu a Deus\njá está vindo",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Esses dias Deus te viu chorar\nno canto escondido\nVocê mal conseguia falar\nEu só ouvi o teu gemido",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Mas o Deus que me enviou aqui\nsabe de tudo\nEle me mandou falar que vai\nmudar seu rumo",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Ele está enviando \no consolo, pra tua alma\nEnxugue essas lágrimas \ndo rosto, e tenha calma",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Vai passar\nEu sei que essa luta logo \nvai passar Está DOENDO, \nMAS VOCÊ NÃO VAI PARAR \nNão deixe a esperança em você \nmorrer! Você precisa crer",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Vai chegar\nA solução pra tudo que te \naconteceu Você vai ter de volta  \no que você perdeu Só \nnão se desespere,\nTENHA FÉ EM Deus",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

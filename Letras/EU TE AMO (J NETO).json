@@ -1,0 +1,71 @@
+{
+  "id": 1582748875849,
+  "title": "EU TE AMO",
+  "artist": "J NETO",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "EU NÃO POSSO MAIS VIVER SEM TER\nTEU OLHAR, TUA PRESENÇA\nEU PRECISO SEMPRE RECEBER\nTEU AMOR, TUA PAZ INTENSA\nEU TE AMO\n\nNÃO QUERO MAIS FICAR DISTANTE\nSOFRI DEMAIS, FOI TÃO RUIM\nNÃO QUERO NEM POR UM INSTANTE\nSENTIR QUE ESTÁS LONGE DE MIM\n\nEU TE AMO, NÃO ME CANSO DE DIZER\nEU TE AMO, O QUE FIZ FOI SEM QUERER\nEU TE AMO, NUNCA MAIS VOU TE DEIXAR\nCONFESSO QUE NASCI PRA TE ADORAR\n\nO MEU CORAÇÃO É TODO TEU\nA MINHA VIDA TE PERTENCE\nÉ TÃO GRANDE O TEU AMOR, MEU DEUS\nAGORA TUDO É DIFERENTE\n\nNÃO QUERO MAIS FICAR DISTANTE\nSOFRI DEMAIS, FOI TÃO RUIM\nNÃO QUERO NEM POR UM INSTANTE\nSENTIR QUE ESTÁS LONGE DE MIM",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "EU NÃO POSSO MAIS VIVER SEM TER\nTEU OLHAR, TUA PRESENÇA\nEU PRECISO SEMPRE RECEBER\nTEU AMOR, TUA PAZ INTENSA\nEU TE AMO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "NÃO QUERO MAIS FICAR DISTANTE\nSOFRI DEMAIS, FOI TÃO RUIM\nNÃO QUERO NEM POR UM INSTANTE\nSENTIR QUE ESTÁS LONGE DE MIM",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "EU TE AMO, NÃO ME CANSO DE DIZER\nEU TE AMO, O QUE FIZ FOI SEM QUERER\nEU TE AMO, NUNCA MAIS VOU TE DEIXAR\nCONFESSO QUE NASCI PRA TE ADORAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "O MEU CORAÇÃO É TODO TEU\nA MINHA VIDA TE PERTENCE\nÉ TÃO GRANDE O TEU AMOR, MEU DEUS\nAGORA TUDO É DIFERENTE",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "NÃO QUERO MAIS FICAR DISTANTE\nSOFRI DEMAIS, FOI TÃO RUIM\nNÃO QUERO NEM POR UM INSTANTE\nSENTIR QUE ESTÁS LONGE DE MIM",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": 1582748875856,
+  "title": "ESPERA NO SENHOR",
+  "artist": "",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Bem aventurado aquele\nque teme ao Senhor\nE confia perpetuamente em seu poder\n\nE medita de dia e de noite\nNoite e dia sem fim\n\nminha casa edificada sobre a rocha\nNão existe vendaval, pra destruir\nE a família que habita dentro dela\nNo Senhor espera\n\nESPERo no Senhor sem desistir\nNa certeza que ele não falha\nTudo ele já preparou\nSeu poder nunca mudou\nESPERo no Senhor sem desistir\nSeu poder nunca mudou",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Bem aventurado aquele\nque teme ao Senhor\nE confia perpetuamente em seu poder",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "E medita de dia e de noite\nNoite e dia sem fim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "minha casa edificada sobre a rocha\nNão existe vendaval, pra destruir\nE a família que habita dentro dela\nNo Senhor espera",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "ESPERo no Senhor sem desistir\nNa certeza que ele não falha\nTudo ele já preparou\nSeu poder nunca mudou\nESPERo no Senhor sem desistir\nSeu poder nunca mudou",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

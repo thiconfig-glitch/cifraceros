@@ -1,0 +1,57 @@
+{
+  "id": 1582748875471,
+  "title": "PODER INCOMPARAVEL",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "EU NÃO POSSO ACEITAR UMA VIDA DE FRACASSO\nSE O DEUS QUE EU CONHEÇO MARAVILHAS TEM CRIADO\nEU NÃO POSSO MAIS VIVER\nSEM MOSTRAR TUA GRANDEZA\nO SOL QUE O SENHOR CRIOU\nAINDA AQUECE O MEU PLANETA\n\nMEDIU OS CÉUS A PALMOS\nE O MAR NA CONCHA DE TUAS MÃOS\nE TAMBÉM PESOU OS MONTES\nEM BALANÇA DE PRECISÃO\nCHAMA AS ESTRELAS PELO NOME\nSEM NENHUMA ESQUECER\nAS NAÇÕES SÃO COMO UM PINGO\nQUE DO BALDE CAIU\n\nEU QUERO VER EM MINHA VIDA\nUM TESTEMUNHO SEM IGUAL\nCOM TEU PODER INCOMPARÁVEL\nTU ÉS O DEUS QUE VENCE O MAL\nCOMPLETE EM MIM A TUA OBRA\nPARA QUE TODOS POSSAM VER\nE ENXERGUE EM MIM A TUA GLÓRIA\nÓ MEU SENHOR ME FAZ VENCER",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "EU NÃO POSSO ACEITAR UMA VIDA DE FRACASSO\nSE O DEUS QUE EU CONHEÇO MARAVILHAS TEM CRIADO\nEU NÃO POSSO MAIS VIVER\nSEM MOSTRAR TUA GRANDEZA\nO SOL QUE O SENHOR CRIOU\nAINDA AQUECE O MEU PLANETA",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "MEDIU OS CÉUS A PALMOS\nE O MAR NA CONCHA DE TUAS MÃOS\nE TAMBÉM PESOU OS MONTES\nEM BALANÇA DE PRECISÃO\nCHAMA AS ESTRELAS PELO NOME\nSEM NENHUMA ESQUECER\nAS NAÇÕES SÃO COMO UM PINGO\nQUE DO BALDE CAIU",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "EU QUERO VER EM MINHA VIDA\nUM TESTEMUNHO SEM IGUAL\nCOM TEU PODER INCOMPARÁVEL\nTU ÉS O DEUS QUE VENCE O MAL\nCOMPLETE EM MIM A TUA OBRA\nPARA QUE TODOS POSSAM VER\nE ENXERGUE EM MIM A TUA GLÓRIA\nÓ MEU SENHOR ME FAZ VENCER",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

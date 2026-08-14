@@ -1,0 +1,92 @@
+{
+  "id": 1605798200299,
+  "title": "Muda Minha Vida",
+  "artist": "Alex e Alex",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Estou aqui na tua casa\nPreciso ouvir tua voz\nAos seus pés me lanço agora\nEu sei que tu podes curar\n\nEu trago a cicatriz de alguém \nque tanto errou\nMas tentou acertar\nEu tentei acertar\nSei que hoje é meu dia, então decidi\nQue eu não vou mais chorar ah\n\nMuda minha vida\nMuda minha história\nPreciso de uma chance, do teu favor\nTu tens o remédio pra minha alma\nPreciso de um milagre, hoje senhor!\n\nEu trago a cicatriz de alguém\nque tanto errou\nMas tentou acertar\nEu tentei acertar\nSei que hoje é meu dia, então decidi\nQue eu não vou mais chorar ah\n\nMuda minha vida\nMuda minha história\nPreciso de uma chance, do teu favor\nTu tens o remédio pra minha alma\nPreciso de um milagre, hoje senhor!\n\nNão vou sair daqui\nEnquanto não me abençoar\nMeu Deus, Deus meu\nEu vou te tocar\nCuste o que custar\n\nMuda minha vida\nMuda minha história\nPreciso de uma chance, do teu favor\nTu tens o remédio pra minha alma\nPreciso de um milagre, hoje senhor!\n\nNão vou sair daqui enquanto\nnão me abençoar\nMeu Deus Deus meu\nEu vou te tocar, custe o que custar",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Estou aqui na tua casa\nPreciso ouvir tua voz\nAos seus pés me lanço agora\nEu sei que tu podes curar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Eu trago a cicatriz de alguém \nque tanto errou\nMas tentou acertar\nEu tentei acertar\nSei que hoje é meu dia, então decidi\nQue eu não vou mais chorar ah",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Muda minha vida\nMuda minha história\nPreciso de uma chance, do teu favor\nTu tens o remédio pra minha alma\nPreciso de um milagre, hoje senhor!",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Eu trago a cicatriz de alguém\nque tanto errou\nMas tentou acertar\nEu tentei acertar\nSei que hoje é meu dia, então decidi\nQue eu não vou mais chorar ah",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Muda minha vida\nMuda minha história\nPreciso de uma chance, do teu favor\nTu tens o remédio pra minha alma\nPreciso de um milagre, hoje senhor!",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Não vou sair daqui\nEnquanto não me abençoar\nMeu Deus, Deus meu\nEu vou te tocar\nCuste o que custar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Muda minha vida\nMuda minha história\nPreciso de uma chance, do teu favor\nTu tens o remédio pra minha alma\nPreciso de um milagre, hoje senhor!",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": "Não vou sair daqui enquanto\nnão me abençoar\nMeu Deus Deus meu\nEu vou te tocar, custe o que custar",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

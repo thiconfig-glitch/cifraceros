@@ -1,0 +1,64 @@
+{
+  "id": 1582748875724,
+  "title": "ELE VIRÁ",
+  "artist": "LEONOR",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "ELE VIRÁ A ESSE MUNDO DE NOVO\nELE VIRÁ, O ESPERA SEU POVO\nELE VIRÁ E JÁ ESTÁ BEM PERTO\nMAS NINGUÉM SABE O DIA E A HORA\nQUE ELE VAI CHEGAR\n\nELE VIRÁ PRA BUSCAR SUA IGREJA\nNÃO FALHARÁ, ELE LHES DEU CERTEZA\nELE VIRÁ E SERÁ DE SURPRESA\nE O MUNDO SE LAMENTARÁ!\n\nELE VIRÁ DESTA VEZ COM PODER E GLÓRIA\nCOM OS SEUS ANJOS\nPOR SOBRE AS NUVENS DO CÉU\nDO JEITO QUE PROMETEU\nA TODOS QUANTO ESCOLHEU\nCRISTO VIRÁ COM CERTEZA PARA ARREBATAR!\n\nELE VIRÁ, OS SINAIS JÁ NOS MOSTRAM\nELE VIRÁ MAJESTOSO EM SEU DIA\nE PELA FÉ TEMOS A SEGURANÇA\nEM DIZER \"MARANATA, VEM SENHOR JESUS!\"",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "ELE VIRÁ A ESSE MUNDO DE NOVO\nELE VIRÁ, O ESPERA SEU POVO\nELE VIRÁ E JÁ ESTÁ BEM PERTO\nMAS NINGUÉM SABE O DIA E A HORA\nQUE ELE VAI CHEGAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "ELE VIRÁ PRA BUSCAR SUA IGREJA\nNÃO FALHARÁ, ELE LHES DEU CERTEZA\nELE VIRÁ E SERÁ DE SURPRESA\nE O MUNDO SE LAMENTARÁ!",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "ELE VIRÁ DESTA VEZ COM PODER E GLÓRIA\nCOM OS SEUS ANJOS\nPOR SOBRE AS NUVENS DO CÉU\nDO JEITO QUE PROMETEU\nA TODOS QUANTO ESCOLHEU\nCRISTO VIRÁ COM CERTEZA PARA ARREBATAR!",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "ELE VIRÁ, OS SINAIS JÁ NOS MOSTRAM\nELE VIRÁ MAJESTOSO EM SEU DIA\nE PELA FÉ TEMOS A SEGURANÇA\nEM DIZER \"MARANATA, VEM SENHOR JESUS!\"",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

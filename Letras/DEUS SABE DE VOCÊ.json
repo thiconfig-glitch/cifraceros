@@ -1,0 +1,64 @@
+{
+  "id": 1582748875567,
+  "title": "DEUS SABE DE VOCÊ",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "DEUS SABE DE VOCÊ\nNINGUÉM CONHECE BEM\nMAS ELE SABE DE VOCÊ\nNÃO PRECISA TUA LÁGRIMA\nNEM PALAVRA PARA ENTENDER\nO ESTADO QUE A VIDA TE DEIXOU\n\nDEUS SABE DE VOCÊ\nVOCÊ CHEGOU AQUI\nNEM SABE COMO ELE VÊ\nA FACE DO ABANDONO \nESTAMPADA EM VOCÊ\nPENSANDO ATÉ QUE DEUS \nTE ABANDONOU\n\nMAS DEUS SÓ LEVA PRO DESERTO\nQUANDO QUER EXALTAR NOS MONTES\nPROVA TUA CONDIÇÃO DE SERVO\nE TE FAZ UM VENCEDOR\n\nAO QUE ERA NADA\nPÕE EM EVIDÊNCIA \nO QUE NINGUÉM QUERIA\nELE ENTREGA O TROFÉU\nUSE A TUA FÉ\nPORQUE DEUS É FIEL",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "DEUS SABE DE VOCÊ\nNINGUÉM CONHECE BEM\nMAS ELE SABE DE VOCÊ\nNÃO PRECISA TUA LÁGRIMA\nNEM PALAVRA PARA ENTENDER\nO ESTADO QUE A VIDA TE DEIXOU",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "DEUS SABE DE VOCÊ\nVOCÊ CHEGOU AQUI\nNEM SABE COMO ELE VÊ\nA FACE DO ABANDONO \nESTAMPADA EM VOCÊ\nPENSANDO ATÉ QUE DEUS \nTE ABANDONOU",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "MAS DEUS SÓ LEVA PRO DESERTO\nQUANDO QUER EXALTAR NOS MONTES\nPROVA TUA CONDIÇÃO DE SERVO\nE TE FAZ UM VENCEDOR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "AO QUE ERA NADA\nPÕE EM EVIDÊNCIA \nO QUE NINGUÉM QUERIA\nELE ENTREGA O TROFÉU\nUSE A TUA FÉ\nPORQUE DEUS É FIEL",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

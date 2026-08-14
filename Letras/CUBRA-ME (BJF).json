@@ -1,0 +1,57 @@
+{
+  "id": 1582748875873,
+  "title": "CUBRA-ME",
+  "artist": "BJF",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "CUBRA-ME, ABRAÇA-ME\nVEM ESCONDER-ME EM SUAS ASAS, OH SENHOR\nCUBRA-ME, ABRAÇA-ME\nVEM ESCONDER-ME EM SUAS ASAS, OH SENHOR\nNÃO ME DEIXE IR SEM QUE EU RECEBA DA SUA GRAÇA\nDO SEU AMOR\n\nSE O MEDO INUNDAR MEU CORAÇÃO\nTENTANDO ME IMPEDIR DE AVANÇAR E PROSSEGUIR\nFAZENDO-ME PENSAR QUE É POUCO O MEU VALOR\nME LEMBRAREI DE TUDO O QUE ME PROMETEU\n\nE É QUANDO MAIS EU TE QUERO\nE É QUANDO MAIS EU NECESSITO\nOUVIR TUA DOCE VOZ DIZENDO: \"EU ESTOU AQUI\"",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "CUBRA-ME, ABRAÇA-ME\nVEM ESCONDER-ME EM SUAS ASAS, OH SENHOR\nCUBRA-ME, ABRAÇA-ME\nVEM ESCONDER-ME EM SUAS ASAS, OH SENHOR\nNÃO ME DEIXE IR SEM QUE EU RECEBA DA SUA GRAÇA\nDO SEU AMOR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "SE O MEDO INUNDAR MEU CORAÇÃO\nTENTANDO ME IMPEDIR DE AVANÇAR E PROSSEGUIR\nFAZENDO-ME PENSAR QUE É POUCO O MEU VALOR\nME LEMBRAREI DE TUDO O QUE ME PROMETEU",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "E É QUANDO MAIS EU TE QUERO\nE É QUANDO MAIS EU NECESSITO\nOUVIR TUA DOCE VOZ DIZENDO: \"EU ESTOU AQUI\"",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

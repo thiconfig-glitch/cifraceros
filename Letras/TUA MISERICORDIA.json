@@ -1,0 +1,64 @@
+{
+  "id": 1582748875875,
+  "title": "TUA MISERICORDIA",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "TUA MISERICÓRDIA \nINCOMPREENSÍVEL É, SENHOR\nÉ TÃO GRANDE O TEU AMOR\nQUE EU NÃO POSSO\nCOMPREENDER, SENHOR!\n\nQUANDO EU SOU REBELDE\nQUANDO EU NÃO TE ESCUTO\nMESMO ASSIM O TEU AMOR\nABRE MEUS OLHOS PARA VER\nE TUA GRAÇA ME LEVANTA\nMAIS UMA VEZ\nNÃO CONSIGO COMPREENDER, SENHOR\n\nQUANDO EU FALHO EM MEU AGIR\nE COM MEDO PENSO EM FUGIR\nSEMPRE AO MEU LADO ESTÁS\nDANDO-ME PALAVRAS DE AMOR\nPALAVRAS QUE LEVANTAM E CONSOLAM\nEU DOU GRAÇAS QUE O TEU AMOR É ASSIM\nE QUERIA AO MENOS DAR-TE UM POUCO\n\nDESSE AMOR POR MIM\nE QUERIA TE DIZER, MEU DEUS\nQUE O MEU AMOR POR TI, SENHOR\nEU HOJE QUERO DAR\nTUDO AQUILO QUE HÁ EM MIM\nQUERO TE ENTREGAR",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "TUA MISERICÓRDIA \nINCOMPREENSÍVEL É, SENHOR\nÉ TÃO GRANDE O TEU AMOR\nQUE EU NÃO POSSO\nCOMPREENDER, SENHOR!",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "QUANDO EU SOU REBELDE\nQUANDO EU NÃO TE ESCUTO\nMESMO ASSIM O TEU AMOR\nABRE MEUS OLHOS PARA VER\nE TUA GRAÇA ME LEVANTA\nMAIS UMA VEZ\nNÃO CONSIGO COMPREENDER, SENHOR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "QUANDO EU FALHO EM MEU AGIR\nE COM MEDO PENSO EM FUGIR\nSEMPRE AO MEU LADO ESTÁS\nDANDO-ME PALAVRAS DE AMOR\nPALAVRAS QUE LEVANTAM E CONSOLAM\nEU DOU GRAÇAS QUE O TEU AMOR É ASSIM\nE QUERIA AO MENOS DAR-TE UM POUCO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "DESSE AMOR POR MIM\nE QUERIA TE DIZER, MEU DEUS\nQUE O MEU AMOR POR TI, SENHOR\nEU HOJE QUERO DAR\nTUDO AQUILO QUE HÁ EM MIM\nQUERO TE ENTREGAR",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

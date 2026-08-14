@@ -1,0 +1,64 @@
+{
+  "id": 1599139545790,
+  "title": "Primícias",
+  "artist": "Bruna Rodrigues",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Pai, eu vim te entregar\nMinhas primícias, comprometer a ti\nToda benção que há em mim\nO dom que recebi, primeiramente é seu\nOs dias que vivi, e os que viverei\n\nTodos os bens que eu possuo\nSão pertences seus\nO sopro de minha vida\nFoste tu quem concedeu\n\nMinhas primícias são pra ti\nTudo entrego para ti\nSem me importar com o que virá depois\nsei que  acrescentará\nTudo o que eu precisar\nSenhor, comprometo-me a ti\nSenhor, comprometo-me a ti\n\nMinha carreira, o sucesso\nSenhor, comprometerei a ti\nToda vida que há em mim\nSenhor, comprometerei a ti",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Pai, eu vim te entregar\nMinhas primícias, comprometer a ti\nToda benção que há em mim\nO dom que recebi, primeiramente é seu\nOs dias que vivi, e os que viverei",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Todos os bens que eu possuo\nSão pertences seus\nO sopro de minha vida\nFoste tu quem concedeu",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Minhas primícias são pra ti\nTudo entrego para ti\nSem me importar com o que virá depois\nsei que  acrescentará\nTudo o que eu precisar\nSenhor, comprometo-me a ti\nSenhor, comprometo-me a ti",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Minha carreira, o sucesso\nSenhor, comprometerei a ti\nToda vida que há em mim\nSenhor, comprometerei a ti",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

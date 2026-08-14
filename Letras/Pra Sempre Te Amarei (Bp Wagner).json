@@ -1,0 +1,78 @@
+{
+  "id": 1745157562383,
+  "title": "Pra Sempre Te Amarei",
+  "artist": "Bp Wagner",
+  "author": "Renato Suhett, Claudinei Fernandes",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Quando por Ti gritei\nEstava tão sozinho\nPois em vão buscará no mundo\nCompreensão e paz no coração\n\nDepois de muito chorar\nDepois de muito penar\nDescobri que só com Jesus\nTeria amor, paz e compreensão\n\nEm Ti Senhor me apeguei\nEm Ti Senhor me abriguei\nPara sempre meu Jesus\nTe louvarei\n\nEm Ti Senhor me apeguei\nEm Ti Senhor me abriguei\nPara sempre meu Jesus\nTe amarei\n\nFoi então ao renascer\nQue pude pra sempre entender\nQue havia um poderoso ser\nQue causou a renovação\nNo meu viver\n\nEm Ti Senhor me apeguei\nEm Ti Senhor me abriguei\nPara sempre meu Jesus\nTe SERVIREI",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Quando por Ti gritei\nEstava tão sozinho\nPois em vão buscará no mundo\nCompreensão e paz no coração",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Depois de muito chorar\nDepois de muito penar\nDescobri que só com Jesus\nTeria amor, paz e compreensão",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Em Ti Senhor me apeguei\nEm Ti Senhor me abriguei\nPara sempre meu Jesus\nTe louvarei",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Em Ti Senhor me apeguei\nEm Ti Senhor me abriguei\nPara sempre meu Jesus\nTe amarei",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Foi então ao renascer\nQue pude pra sempre entender\nQue havia um poderoso ser\nQue causou a renovação\nNo meu viver",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Em Ti Senhor me apeguei\nEm Ti Senhor me abriguei\nPara sempre meu Jesus\nTe SERVIREI",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "https://open.spotify.com/track/2zyipNJdpRjGgyFfV7BK8L",
+      "youtube": "https://youtube.com/watch?v=2jLSSzg2kTA",
+      "deezer": "https://deezer.com/track/1051058682"
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

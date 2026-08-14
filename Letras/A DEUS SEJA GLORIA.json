@@ -1,0 +1,64 @@
+{
+  "id": 1685276342066,
+  "title": "A DEUS SEJA GLORIA",
+  "artist": "",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Como posso expressar \no que Deus fez por mim\nQue sem merecer \ndeu Teu sangue carmesim\nNem as vozes de um milhão de anjos\nExpressarão minha gratidão\nTudo que sou e o que quero ser\nEu devo tudo a Ele\n\nA Deus seja a glória\nA Deus seja a glória\nA Deus seja a glória\nPelo que fez por mim\nCom Teu sangue, salvou me\nTeu poder, levantou me\nA Deus seja a glória\nPelo que fez por mim\n\nQuero viver para Deus\nE caminhar nos passos Seus\nE se alguma glória a mim chegar\nEntregarei ao meu Senhor\n\nCom Teu sangue, salvou me\nTeu poder, levantou me\nA Deus seja a glória\nPelo que fez por mim",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Como posso expressar \no que Deus fez por mim\nQue sem merecer \ndeu Teu sangue carmesim\nNem as vozes de um milhão de anjos\nExpressarão minha gratidão\nTudo que sou e o que quero ser\nEu devo tudo a Ele",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "A Deus seja a glória\nA Deus seja a glória\nA Deus seja a glória\nPelo que fez por mim\nCom Teu sangue, salvou me\nTeu poder, levantou me\nA Deus seja a glória\nPelo que fez por mim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Quero viver para Deus\nE caminhar nos passos Seus\nE se alguma glória a mim chegar\nEntregarei ao meu Senhor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Com Teu sangue, salvou me\nTeu poder, levantou me\nA Deus seja a glória\nPelo que fez por mim",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

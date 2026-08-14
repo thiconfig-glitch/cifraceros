@@ -18,6 +18,7 @@ const auth = getAuth(app);
 
 let songsData = [];
 let localPlaylists = new Set();
+window.appMode = null;
 let selectedPlaylistFilter = 'all';
 let isAdmin = false;
 let editingSongId = null;
@@ -110,10 +111,14 @@ window.triggerLogout = async function() {
 };
 
 function startListeningToSongs() {
+    if (!window.appMode) return;
+
     const resultsContainer = document.getElementById('results-container');
     resultsContainer.innerHTML = '<p style="text-align:center; padding:20px; color:#888;">Carregando repertório...</p>';
 
-    onSnapshot(collection(db, "repertorio"), (querySnapshot) => {
+    const collectionName = window.appMode === 'letras' ? "repertorio_letras" : "repertorio";
+
+    onSnapshot(collection(db, collectionName), (querySnapshot) => {
         songsData = querySnapshot.docs.map(d => {
             const data = d.data();
             let pList = [];
@@ -143,6 +148,78 @@ function startListeningToSongs() {
         resultsContainer.innerHTML = '<p style="text-align:center; color:var(--error-color);">Erro ao carregar dados. Verifique sua conexão.</p>';
     });
 }
+
+window.selectAppMode = function(mode) {
+    window.appMode = mode;
+    document.getElementById('mode-selection-overlay').style.display = 'none';
+    document.getElementById('main-app-container').style.display = 'flex';
+    
+    // Toggle UI elements specific to Letras mode
+    const transposeGroup = document.querySelector('input#m-transpose')?.closest('.form-group');
+    const importBtn = document.getElementById('admin-letras-import');
+    
+    if (mode === 'letras') {
+        document.body.classList.add('letras-mode');
+        if (transposeGroup) transposeGroup.style.display = 'none';
+        if (importBtn) importBtn.style.display = 'block';
+    } else {
+        document.body.classList.remove('letras-mode');
+        if (transposeGroup) transposeGroup.style.display = 'block';
+        if (importBtn) importBtn.style.display = 'none';
+    }
+
+    startListeningToSongs();
+};
+
+window.importLetrasDump = async function() {
+    const btn = document.querySelector('#admin-letras-import button');
+    const msg = document.getElementById('import-msg');
+    
+    if (!window.LETRAS_DUMP || window.LETRAS_DUMP.length === 0) {
+        msg.textContent = 'Nenhum dado encontrado no dump.';
+        msg.className = 'msg msg-error';
+        msg.style.display = 'block';
+        return;
+    }
+    
+    if (!confirm(`Tem certeza que deseja importar ${window.LETRAS_DUMP.length} letras para o banco de dados? Isso pode levar um minuto.`)) {
+        return;
+    }
+    
+    btn.disabled = true;
+    btn.textContent = 'Importando...';
+    msg.style.display = 'none';
+    
+    let successCount = 0;
+    let errorCount = 0;
+    
+    // Process in batches so we don't block the UI completely
+    const batchSize = 50;
+    for (let i = 0; i < window.LETRAS_DUMP.length; i += batchSize) {
+        const batch = window.LETRAS_DUMP.slice(i, i + batchSize);
+        const promises = batch.map(song => {
+            return addDoc(collection(db, "repertorio_letras"), {
+                title: song.title,
+                lyrics: song.lyrics,
+                playlists: ["Letras Importadas"],
+                transpose: ""
+            }).then(() => successCount++)
+              .catch(e => { console.error(e); errorCount++; });
+        });
+        
+        await Promise.all(promises);
+        btn.textContent = `Importando... (${successCount}/${window.LETRAS_DUMP.length})`;
+    }
+    
+    btn.disabled = false;
+    btn.textContent = 'Importar Letras';
+    msg.innerHTML = `Importação concluída! <b>${successCount}</b> letras importadas. <b>${errorCount}</b> erros.`;
+    msg.className = 'msg msg-success';
+    msg.style.display = 'block';
+    
+    // Clear dump from memory to save space
+    window.LETRAS_DUMP = null;
+};
 
 function renderPlaylistChips() {
     const container = document.getElementById('playlist-chips-container');
@@ -478,6 +555,7 @@ function isChordLine(line) {
 }
 
 function formatCifraText(text) {
+    if (window.appMode === 'letras') return text;
     return text.split('\n').map(line => {
         if (isChordLine(line)) {
             return line.replace(/(\S+)/g, '<span class="chord">$1</span>');
@@ -548,7 +626,14 @@ window.openSong = function(song) {
 
     document.getElementById('song-view').style.display = 'block';
     document.getElementById('sv-title').textContent = song.title;
-    document.getElementById('sv-transpose').textContent = song.transpose ? `Tom: ${song.transpose}` : 'Tom Original';
+    
+    const transposeBadge = document.getElementById('sv-transpose');
+    if (window.appMode === 'letras') {
+        transposeBadge.style.display = 'none';
+    } else {
+        transposeBadge.style.display = 'inline-block';
+        transposeBadge.textContent = song.transpose ? `Tom: ${song.transpose}` : 'Tom Original';
+    }
     
     const contentArea = document.getElementById('sv-content');
     contentArea.innerHTML = formatCifraText(song.lyrics);
@@ -773,11 +858,13 @@ document.getElementById('upload-form').addEventListener('submit', async (e) => {
     };
 
     try {
+        const collectionName = window.appMode === 'letras' ? "repertorio_letras" : "repertorio";
+        
         if (editingSongId) {
-            await updateDoc(doc(db, "repertorio", editingSongId), payload);
+            await updateDoc(doc(db, collectionName, editingSongId), payload);
             msgDiv.textContent = "Música atualizada!";
         } else {
-            await addDoc(collection(db, "repertorio"), { ...payload, playlists: [] });
+            await addDoc(collection(db, collectionName), { ...payload, playlists: [] });
             msgDiv.textContent = "Música cadastrada com sucesso!";
             document.getElementById('upload-form').reset();
         }

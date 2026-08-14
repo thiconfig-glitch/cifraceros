@@ -1,0 +1,57 @@
+{
+  "id": 1582748875500,
+  "title": "Preciso Melhorar",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Deus não espera que eu seja perfeito\nNem que a minha oração seja a mais bonita\nEle só espera que eu\nseja sincero Em minhas palavras\nDeus só espera que eu seja verdadeiro\n\nE pra ser verdadeiro eu reconheço\nque tenho falhado\nDe Deus muito tenho exigido,\npouco tenho ofertado\nComo eu receberei\nas bênçãos se não tenho Pago o preço\nSenhor preciso melhorar, eu reconheço\n\nPreciso orar um pouco mais, um pouco mais\nJejuar um pouco mais, um pouco mais\nPreciso ser melhor do que sou\nRasgar minha alma na presença de Deus\nEu preciso melhorar\nEu preciso melhorar\nMELHORAR para Deus",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Deus não espera que eu seja perfeito\nNem que a minha oração seja a mais bonita\nEle só espera que eu\nseja sincero Em minhas palavras\nDeus só espera que eu seja verdadeiro",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "E pra ser verdadeiro eu reconheço\nque tenho falhado\nDe Deus muito tenho exigido,\npouco tenho ofertado\nComo eu receberei\nas bênçãos se não tenho Pago o preço\nSenhor preciso melhorar, eu reconheço",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Preciso orar um pouco mais, um pouco mais\nJejuar um pouco mais, um pouco mais\nPreciso ser melhor do que sou\nRasgar minha alma na presença de Deus\nEu preciso melhorar\nEu preciso melhorar\nMELHORAR para Deus",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

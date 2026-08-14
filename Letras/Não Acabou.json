@@ -1,0 +1,120 @@
+{
+  "id": 1697885764242,
+  "title": "Não Acabou",
+  "artist": "",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Mesmo quando não vejo solução\nEm meio à escuridão, \neu posso descansar\n\nE mesmo estando cercado, \npode parecer o fim\nMas sei que Sua luz me encontrará\n\nE me levanto depressa\nOuço a voz do meu Senhor\nQue me envia o socorro, a provisão\n\nVejo correntes caindo\nQue me impediam de viver\nO que o Senhor me prometeu\n\nQuem determina o começo e o fim \né o meu Deus\nE Ele me diz\nNão acabou, não acabou\n\nAbro os meus olhos e posso \nver cadeias caindo\nPortas se abrindo\nNão acabou, não acabou\n\nE me levanto depressa\nOuço a voz do meu Senhor\nQue me envia o socorro, a provisão\n\nVejo correntes caindo\nQue me impediam de viver\nO que o Senhor me prometeu\n\nQuem determina o começo e o fim \né o meu Deus\nE Ele me diz\nNão acabou, não acabou\n\nAbro os meus olhos \ne posso ver cadeias caindo\nPortas se abrindo\nNão acabou, não acabou\n\nNão há o que temer\nMeu Deus comigo está\nE o que prometeu, se cumprirá\n\nNão há o que temer\nMeu Deus comigo está\nE eu sei que jamais me deixará",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Mesmo quando não vejo solução\nEm meio à escuridão, \neu posso descansar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "E mesmo estando cercado, \npode parecer o fim\nMas sei que Sua luz me encontrará",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "E me levanto depressa\nOuço a voz do meu Senhor\nQue me envia o socorro, a provisão",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Vejo correntes caindo\nQue me impediam de viver\nO que o Senhor me prometeu",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Quem determina o começo e o fim \né o meu Deus\nE Ele me diz\nNão acabou, não acabou",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Abro os meus olhos e posso \nver cadeias caindo\nPortas se abrindo\nNão acabou, não acabou",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "E me levanto depressa\nOuço a voz do meu Senhor\nQue me envia o socorro, a provisão",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": "Vejo correntes caindo\nQue me impediam de viver\nO que o Senhor me prometeu",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 9,
+        "description": "",
+        "text": "Quem determina o começo e o fim \né o meu Deus\nE Ele me diz\nNão acabou, não acabou",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 10,
+        "description": "",
+        "text": "Abro os meus olhos \ne posso ver cadeias caindo\nPortas se abrindo\nNão acabou, não acabou",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 11,
+        "description": "",
+        "text": "Não há o que temer\nMeu Deus comigo está\nE o que prometeu, se cumprirá",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 12,
+        "description": "",
+        "text": "Não há o que temer\nMeu Deus comigo está\nE eu sei que jamais me deixará",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

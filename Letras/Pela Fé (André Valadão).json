@@ -1,0 +1,71 @@
+{
+  "id": 1618060852671,
+  "title": "Pela Fé",
+  "artist": "André Valadão",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Pela fé posso clamar\nPela fé posso enxergar\nPela fé posso tocar\nPela fé, pela fé\n\nNão há muralhas \nque ficarão de pé\nDiante de mim\nEstou firmado \nem Cristo pra sempre\nTenho a luz em mim\n\nPela fé posso mudar\nPela fé posso alcançar\nPela fé posso viver\nPela fé, pela fé\n\nNão há muralhas \nque ficarão de pé\nDiante de mim\nEstou firmado \nem cristo pra sempre\nTenho a luz em mim\n\nPela fé\nPela fé\nPela fé\nPela fé",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Pela fé posso clamar\nPela fé posso enxergar\nPela fé posso tocar\nPela fé, pela fé",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Não há muralhas \nque ficarão de pé\nDiante de mim\nEstou firmado \nem Cristo pra sempre\nTenho a luz em mim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Pela fé posso mudar\nPela fé posso alcançar\nPela fé posso viver\nPela fé, pela fé",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Não há muralhas \nque ficarão de pé\nDiante de mim\nEstou firmado \nem cristo pra sempre\nTenho a luz em mim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Pela fé\nPela fé\nPela fé\nPela fé",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": 1614287118027,
+  "title": "Somente Deus",
+  "artist": "David Fantazzini",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Somente Deus\nÉ quem pode transformar\nUm coração que ferido está\nSomente Deus\nSomente Deus\n\nNinguém tem o poder\nDe conhecer meu interior\nHomem nenhum vai\nDizer quem sou eu\nSomente Deus\nSomente Deus\n\nSomente Deus\nTem a fórmula da vida\nÉ a única saída\nNele eu posso descansar\n\nSomente Deus\nAlimenta minha alma\nTeu Espírito me acalma\nMeu socorro vem de Ti\n\nSomente Deus\nÉ quem pode entender\nO teu sofrer quando choras tua dor\nSomente Deus\nSomente Deus\n\nEle é o Pai\nO Eterno Criador\nFale com Deus\nQue Ele vai te socorrer\nSomente Deus\nSomente Deus",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Somente Deus\nÉ quem pode transformar\nUm coração que ferido está\nSomente Deus\nSomente Deus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Ninguém tem o poder\nDe conhecer meu interior\nHomem nenhum vai\nDizer quem sou eu\nSomente Deus\nSomente Deus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Somente Deus\nTem a fórmula da vida\nÉ a única saída\nNele eu posso descansar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Somente Deus\nAlimenta minha alma\nTeu Espírito me acalma\nMeu socorro vem de Ti",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Somente Deus\nÉ quem pode entender\nO teu sofrer quando choras tua dor\nSomente Deus\nSomente Deus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Ele é o Pai\nO Eterno Criador\nFale com Deus\nQue Ele vai te socorrer\nSomente Deus\nSomente Deus",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

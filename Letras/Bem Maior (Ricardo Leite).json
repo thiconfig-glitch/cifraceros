@@ -1,0 +1,78 @@
+{
+  "id": 1607613490145,
+  "title": "Bem Maior",
+  "artist": "Ricardo Leite",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Eu preciso estar de pé até o fim\nNão posso me deixar levar\nPreciso prosseguir\n\nMeu Deus\nNão deixe o tempo me afastar de Ti\nNão deixe eu me perder\nAjuda-me\nTe quero mais que o ar que eu respiro\n\nSenhor, muito mais que as bênçãos\nE o que tens Pra mim\nMeu coração deseja Ti conhecer\nAnelo Tua Presença\nDerrama o Teu Espirito em meu ser\n\nEspirito Santo \nmeu bem maior\nÉs tudo que tenho \ne sem Ti sou como pó\n\nEspirito Santo \nminha salvação\nQuero andar contigo\nOuvir Tua Voz, Seguir tua direção\n \nEspírito Santo \neu necessito Tê-lo em mim\nVem me possuir\nPois não sei viver aqui sem Ti\n\n ",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Eu preciso estar de pé até o fim\nNão posso me deixar levar\nPreciso prosseguir",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Meu Deus\nNão deixe o tempo me afastar de Ti\nNão deixe eu me perder\nAjuda-me\nTe quero mais que o ar que eu respiro",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Senhor, muito mais que as bênçãos\nE o que tens Pra mim\nMeu coração deseja Ti conhecer\nAnelo Tua Presença\nDerrama o Teu Espirito em meu ser",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "Refrão",
+        "text": "Espirito Santo \nmeu bem maior\nÉs tudo que tenho \ne sem Ti sou como pó",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Espirito Santo \nminha salvação\nQuero andar contigo\nOuvir Tua Voz, Seguir tua direção\n \nEspírito Santo \neu necessito Tê-lo em mim\nVem me possuir\nPois não sei viver aqui sem Ti",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": " ",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

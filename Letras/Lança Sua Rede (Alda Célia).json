@@ -1,0 +1,78 @@
+{
+  "id": 1616452730093,
+  "title": "Lança Sua Rede",
+  "artist": "Alda Célia",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Nosso Deus é poderoso pra fazer\nInfinitamente mais do que tudo\nDo que tudo que pedimos\n\nDo que tudo que pensamos\nDo que tudo que sonhamos \ne esperamos\n\nNosso Deus é poderoso pra mudar\nSituações que nos afligem todo dia\nEle faz o impossível, \n\nressuscita até os mortos\nNão há nada que o possa derrotar\n\nLance sua rede ao mar\nCreia na palavra de Deus\nSinais e maravilhas \nEle hoje vai fazer\n\nLance sua rede ao mar\nCreia na palavra de Deus\nTudo é possível ao que crê",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Nosso Deus é poderoso pra fazer\nInfinitamente mais do que tudo\nDo que tudo que pedimos",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Do que tudo que pensamos\nDo que tudo que sonhamos \ne esperamos",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Nosso Deus é poderoso pra mudar\nSituações que nos afligem todo dia\nEle faz o impossível, ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "ressuscita até os mortos\nNão há nada que o possa derrotar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Lance sua rede ao mar\nCreia na palavra de Deus\nSinais e maravilhas \nEle hoje vai fazer",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Lance sua rede ao mar\nCreia na palavra de Deus\nTudo é possível ao que crê",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

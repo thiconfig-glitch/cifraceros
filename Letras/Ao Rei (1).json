@@ -1,0 +1,120 @@
+{
+  "id": 1785677261401,
+  "title": "Ao Rei (1)",
+  "artist": "",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "É a canção dos redimidos\nQue ouço a terra cantar\n\nÉ a canção dos escolhidos\nQue ouço os povos a cantar\n\nÉ a canção dos que creem\nCheios do fogo de Deus\n\nToda tribo, língua e nação\nJuntos na mesma canção \n\nE todo povo canta\nGlória, Glória\nAleluia ao Rei\n\nE todo povo canta\nGlória, Glória\nAleluia ao Rei\n\nÉ o som de toda terra\nUnidos em um lindo coral\n\nQue a adoração suba de cada igreja\nJuntos em um som celestial\n\nPorque de todas as canções que conheço\nEsta é a que eu quero cantar\nNaquele dia quando em glória nos veremos\nFace a face com o Pai\n\nE todo povo canta\nGlória, Glória\nAleluia ao Rei\n\nE o poder das trevas\nTreme ao ouvir esse som\nE o poder das trevas\nNão vai calar esse som\n\nE todo povo canta\nGlória, Glória\nAleluia ao Rei",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "É a canção dos redimidos\nQue ouço a terra cantar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "É a canção dos escolhidos\nQue ouço os povos a cantar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "É a canção dos que creem\nCheios do fogo de Deus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Toda tribo, língua e nação\nJuntos na mesma canção ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "E todo povo canta\nGlória, Glória\nAleluia ao Rei",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "E todo povo canta\nGlória, Glória\nAleluia ao Rei",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "É o som de toda terra\nUnidos em um lindo coral",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": "Que a adoração suba de cada igreja\nJuntos em um som celestial",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 9,
+        "description": "",
+        "text": "Porque de todas as canções que conheço\nEsta é a que eu quero cantar\nNaquele dia quando em glória nos veremos\nFace a face com o Pai",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 10,
+        "description": "",
+        "text": "E todo povo canta\nGlória, Glória\nAleluia ao Rei",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 11,
+        "description": "",
+        "text": "E o poder das trevas\nTreme ao ouvir esse som\nE o poder das trevas\nNão vai calar esse som",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 12,
+        "description": "",
+        "text": "E todo povo canta\nGlória, Glória\nAleluia ao Rei",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

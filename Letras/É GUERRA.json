@@ -1,0 +1,64 @@
+{
+  "id": 1582748875833,
+  "title": "É GUERRA",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "TAMBÉM SOU UM VALENTE \nVOU AGIR A MINHA FÉ\nMINHA CAUSA É IMPOSSÍVEL\nVOU SER BEM SUCEDIDO \nVOU VENCER MEU INIMIGO\nE AMARRAR TODO FRACASSO\n\nE ASSIM EU VOU SEGUINDO\nNA FÉ VOU INSISTINDO\nEU NÃO VOU DESISTIR\nNÃO TENHO MEIO TERMO\nVENCER É MEU DIREITO\nEU CONQUISTAR ASSIM\n\nEU SOU UM REVOLTADO \nVOU CONQUISTAR ESPAÇO\nE  VOU DAR A VOLTA POR CIMA\nNÃO SOU ACOMODADO \nVOU BUSCAR MEU RESULTADO\nNA FÉ EU VENÇO ESSA GUERRA\n\nÉ GUERRA\nÉ GUERRA\nÉ GUERRA\nVOU VENCER A GUERRA",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "TAMBÉM SOU UM VALENTE \nVOU AGIR A MINHA FÉ\nMINHA CAUSA É IMPOSSÍVEL\nVOU SER BEM SUCEDIDO \nVOU VENCER MEU INIMIGO\nE AMARRAR TODO FRACASSO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "E ASSIM EU VOU SEGUINDO\nNA FÉ VOU INSISTINDO\nEU NÃO VOU DESISTIR\nNÃO TENHO MEIO TERMO\nVENCER É MEU DIREITO\nEU CONQUISTAR ASSIM",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "EU SOU UM REVOLTADO \nVOU CONQUISTAR ESPAÇO\nE  VOU DAR A VOLTA POR CIMA\nNÃO SOU ACOMODADO \nVOU BUSCAR MEU RESULTADO\nNA FÉ EU VENÇO ESSA GUERRA",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "É GUERRA\nÉ GUERRA\nÉ GUERRA\nVOU VENCER A GUERRA",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

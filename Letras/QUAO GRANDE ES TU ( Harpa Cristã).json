@@ -1,0 +1,85 @@
+{
+  "id": 1582748875743,
+  "title": "QUAO GRANDE ES TU",
+  "artist": " Harpa Cristã",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "SENHOR MEU DEUS, \nQUANDO EU MARAVILHADO\nFICO A PENSAR NAS OBRAS DE TUAS MÃOS\nO CÉU AZUL DE ESTRELAS PONTILHADO\nO SEU PODER MOSTRANDO A CRIAÇÃO\n\nENTÃO MINH'ALMA CANTA A TI, SENHOR\nQUÃO GRANDE ÉS TU\nQUÃO GRANDE ÉS TU\n \nENTÃO MINH’ALMA CANTA A TI, SENHOR\nQUÃO GRANDE ÉS TU\nQUÃO GRANDE ÉS TU\n\nQUANDO A VAGAR NAS MATAS E FLORESTAS\nO PASSAREDO ALEGRE OUÇO A CANTAR\nOLHANDO OS MONTES, VALES E CAMPINAS\nEM TUDO VEJO O TEU PODER SEM PAR\n\nENTÃO MINH'ALMA CANTA A TI, SENHOR\nQUÃO GRANDE ÉS TU, QUÃO GRANDE ÉS TU\nENTÃO MINH’ALMA CANTA A TI, SENHOR\nQUÃO GRANDE ÉS TU, QUÃO GRANDE ÉS TU\n\nQUANDO EU MEDITO EM TEU AMOR TÃO GRANDE\nTEU FILHO DANDO AO MUNDO PRA SALVAR\nNA CRUZ VERTENDO \nO SEU PRECIOSO SANGUE\nMINH'ALMA PODE ASSIM PURIFICAR\n\nENTÃO MINH'ALMA \nCANTA A TI, SENHOR\nQUÃO GRANDE ÉS TU, \nQUÃO GRANDE ÉS TU\nENTÃO MINH’ALMA \nCANTA A TI, SENHOR\nQUÃO GRANDE ÉS TU, \nQUÃO GRANDE ÉS TU\n\nE QUANDO ENFIM, JESUS VIER EM GLÓRIA\nE AO LAR CELESTE ENTÃO ME TRANSPORTAR\nADORAREI, PROSTRADO E PARA SEMPRE\nQUÃO GRANDE ÉS TU, MEU DEUS, HEI DE CANTAR",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "SENHOR MEU DEUS, \nQUANDO EU MARAVILHADO\nFICO A PENSAR NAS OBRAS DE TUAS MÃOS\nO CÉU AZUL DE ESTRELAS PONTILHADO\nO SEU PODER MOSTRANDO A CRIAÇÃO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "ENTÃO MINH'ALMA CANTA A TI, SENHOR\nQUÃO GRANDE ÉS TU\nQUÃO GRANDE ÉS TU\n \nENTÃO MINH’ALMA CANTA A TI, SENHOR\nQUÃO GRANDE ÉS TU\nQUÃO GRANDE ÉS TU",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "QUANDO A VAGAR NAS MATAS E FLORESTAS\nO PASSAREDO ALEGRE OUÇO A CANTAR\nOLHANDO OS MONTES, VALES E CAMPINAS\nEM TUDO VEJO O TEU PODER SEM PAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "ENTÃO MINH'ALMA CANTA A TI, SENHOR\nQUÃO GRANDE ÉS TU, QUÃO GRANDE ÉS TU\nENTÃO MINH’ALMA CANTA A TI, SENHOR\nQUÃO GRANDE ÉS TU, QUÃO GRANDE ÉS TU",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "QUANDO EU MEDITO EM TEU AMOR TÃO GRANDE\nTEU FILHO DANDO AO MUNDO PRA SALVAR\nNA CRUZ VERTENDO \nO SEU PRECIOSO SANGUE\nMINH'ALMA PODE ASSIM PURIFICAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "ENTÃO MINH'ALMA \nCANTA A TI, SENHOR\nQUÃO GRANDE ÉS TU, \nQUÃO GRANDE ÉS TU\nENTÃO MINH’ALMA \nCANTA A TI, SENHOR\nQUÃO GRANDE ÉS TU, \nQUÃO GRANDE ÉS TU",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "E QUANDO ENFIM, JESUS VIER EM GLÓRIA\nE AO LAR CELESTE ENTÃO ME TRANSPORTAR\nADORAREI, PROSTRADO E PARA SEMPRE\nQUÃO GRANDE ÉS TU, MEU DEUS, HEI DE CANTAR",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

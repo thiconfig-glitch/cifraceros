@@ -1,0 +1,71 @@
+{
+  "id": 1582748875436,
+  "title": "CAMPEAO",
+  "artist": "CONTIGO NO MEU CORACAO",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "CONTIGO NO MEU CORAÇÃO\nSEI QUE VENÇO O MUNDO\nNÃO EXISTE NADA\nQUE ME FAÇA DESISTIR\n\nCONTIGO SEI QUE POSSO TUDO\nCONTIGO NÃO TEMO O FUTURO\nSEI QUE A VITÓRIA É MINHA\nSOU UM VENCEDOR\n\nCONTIGO EU ME SINTO FORTE\nCOMO UM LEÃO\nEU NÃO TEMO A TEMPESTADE\nA TRIBULAÇÃO\n\nPOIS SEI QUE ESTOU BEM CERTO\nSEGURO EM MINHA DECISÃO\nEU SÓ CONFIO EM TI\nE SOU UM CAMPEÃO\n\nCONTIGO SÓ TENHO VITÓRIA\nCOMPLETA E TOTAL\nCONTIGO VENÇO AS BARREIRAS\nVENÇO TODO O MAL",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "CONTIGO NO MEU CORAÇÃO\nSEI QUE VENÇO O MUNDO\nNÃO EXISTE NADA\nQUE ME FAÇA DESISTIR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "CONTIGO SEI QUE POSSO TUDO\nCONTIGO NÃO TEMO O FUTURO\nSEI QUE A VITÓRIA É MINHA\nSOU UM VENCEDOR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "CONTIGO EU ME SINTO FORTE\nCOMO UM LEÃO\nEU NÃO TEMO A TEMPESTADE\nA TRIBULAÇÃO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "POIS SEI QUE ESTOU BEM CERTO\nSEGURO EM MINHA DECISÃO\nEU SÓ CONFIO EM TI\nE SOU UM CAMPEÃO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "CONTIGO SÓ TENHO VITÓRIA\nCOMPLETA E TOTAL\nCONTIGO VENÇO AS BARREIRAS\nVENÇO TODO O MAL",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

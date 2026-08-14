@@ -1,0 +1,92 @@
+{
+  "id": 1582748875563,
+  "title": "SOU GRATO AO SENHOR",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "SOU GRATO AO SENHOR POR\nTODAS AS PROVAÇÕES\nQUE ME FAZEM CRESCER EM TI\nAO DEIXA-LO AGIR\n\nSOU GRATO AO SENHOR\nPOIS AS PROVAS VÊM TRANSFORMAR\nA MINHA VIDA PACIÊNCIA TRAZ\nAPRENDENDO A AMAR\n\nMAS É DIFÍCIL TE ENTREGAR \nMEU EGOÍSMO E ASSIM DEIXAR\nQUE O TEU ESPÍRITO \nCONTROLE O QUE EU SOU \n\nMAS QUANDO CHEGAM \nAS PROVAÇÕES\nEU LOGO QUERO AGIR\nE A VOZ DE DEUS\nASSIM EU IREI OUVIR\n\nSOU GRATO AO SENHOR\nPELAS LUTAS QUE EU VOU VIVER\nPOSSO VÊ-LO A ME PROTEGER\nE ME DESVIANDO DO MAL\n\nPOIS PROMETESTE, TU PROMETESTE\nQUE EM CADA PROVAÇÃO\nTU ME SUSTENTARIAS COM TUA MÃO\n\nSOU GRATO AO SENHOR\nPORQUE A VITÓRIA É CRESCER EM TI\nENTREGANDO-ME TODO A TI\nA VIDA É BEM MELHOR\n\n OH MEU SENHOR, OH MEU SENHOR\nQUANDO TUDO SE ACABAR\nTUA FACE VOU CONTEMPLAR\nE CONTIGO MORAR",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "SOU GRATO AO SENHOR POR\nTODAS AS PROVAÇÕES\nQUE ME FAZEM CRESCER EM TI\nAO DEIXA-LO AGIR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "SOU GRATO AO SENHOR\nPOIS AS PROVAS VÊM TRANSFORMAR\nA MINHA VIDA PACIÊNCIA TRAZ\nAPRENDENDO A AMAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "MAS É DIFÍCIL TE ENTREGAR \nMEU EGOÍSMO E ASSIM DEIXAR\nQUE O TEU ESPÍRITO \nCONTROLE O QUE EU SOU ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "MAS QUANDO CHEGAM \nAS PROVAÇÕES\nEU LOGO QUERO AGIR\nE A VOZ DE DEUS\nASSIM EU IREI OUVIR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "SOU GRATO AO SENHOR\nPELAS LUTAS QUE EU VOU VIVER\nPOSSO VÊ-LO A ME PROTEGER\nE ME DESVIANDO DO MAL",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "POIS PROMETESTE, TU PROMETESTE\nQUE EM CADA PROVAÇÃO\nTU ME SUSTENTARIAS COM TUA MÃO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "SOU GRATO AO SENHOR\nPORQUE A VITÓRIA É CRESCER EM TI\nENTREGANDO-ME TODO A TI\nA VIDA É BEM MELHOR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": " OH MEU SENHOR, OH MEU SENHOR\nQUANDO TUDO SE ACABAR\nTUA FACE VOU CONTEMPLAR\nE CONTIGO MORAR",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

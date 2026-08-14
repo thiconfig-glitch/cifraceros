@@ -1,0 +1,71 @@
+{
+  "id": 1582748875639,
+  "title": "VEJO NO ALTO LUGAR UMA CHAMA",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "VEJO NO ALTO LUGAR UMA CHAMA\nA ME CHAMAR\nVOU VIVER NESSE ALTAR MINHA VIDA\nVOU LHE ENTREGAR\n\nVEJO NO ALTO LUGAR UMA CHAMA\nA ME CHAMAR\nVOU VIVER NESSE ALTAR MINHA VIDA\nVOU LHE ENTREGAR \n\nEU SEI JÁ DECIDI\nNÃO VOU PARAR\nEU SOU DO ALTO LUGAR\nO QUE VIER CONTRA MIM JAMAIS\nNUNCA PODERÁ ME ABALAR\nA CHAMA ESTÁ ACESA EM MIM OH DEUS SEI QUE MINHA VIDA MUDARÁ\n\nEU VOU USAR A MINHA FÉ\nNO SOBRENATURAL\n\nEU VOU USAR A MINHA FÉ\nNO SOBRENATURAL",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "VEJO NO ALTO LUGAR UMA CHAMA\nA ME CHAMAR\nVOU VIVER NESSE ALTAR MINHA VIDA\nVOU LHE ENTREGAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "VEJO NO ALTO LUGAR UMA CHAMA\nA ME CHAMAR\nVOU VIVER NESSE ALTAR MINHA VIDA\nVOU LHE ENTREGAR ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "EU SEI JÁ DECIDI\nNÃO VOU PARAR\nEU SOU DO ALTO LUGAR\nO QUE VIER CONTRA MIM JAMAIS\nNUNCA PODERÁ ME ABALAR\nA CHAMA ESTÁ ACESA EM MIM OH DEUS SEI QUE MINHA VIDA MUDARÁ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "EU VOU USAR A MINHA FÉ\nNO SOBRENATURAL",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "EU VOU USAR A MINHA FÉ\nNO SOBRENATURAL",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

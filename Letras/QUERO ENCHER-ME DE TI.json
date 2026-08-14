@@ -1,0 +1,64 @@
+{
+  "id": 1582748875915,
+  "title": "QUERO ENCHER-ME DE TI",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "QUERO ME ENCHER DE TI \nESPÍRITO SANTO\nSER CHEIO DO TEU PODER, \nESPÍRITO SANTO\n\nME ASSISTE NAS MINHAS FRAQUEZAS\nEU NÃO SEI COMO ORAR\nINTERCEDE POR MIM JUNTO A DEUS\nVEM ESPÍRITO SANTO ME RENOVAR\n\nESPÍRITO SANTO MEU DEUS\nVENHA ME ENCHER COM A TUA UNÇÃO\nSE ALGUMA COISA TE DESAGRADA\nFALA COMIGO EM ORAÇÃO\n\nESPÍRITO SANTO MEU DEUS\nVENHA ME ENCHER COM A TUA UNÇÃO\nVEM RENOVAR A MINHA VIDA\nVEM SER A MINHA DIREÇÃO\nESPÍRITO SANTO",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "QUERO ME ENCHER DE TI \nESPÍRITO SANTO\nSER CHEIO DO TEU PODER, \nESPÍRITO SANTO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "ME ASSISTE NAS MINHAS FRAQUEZAS\nEU NÃO SEI COMO ORAR\nINTERCEDE POR MIM JUNTO A DEUS\nVEM ESPÍRITO SANTO ME RENOVAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "ESPÍRITO SANTO MEU DEUS\nVENHA ME ENCHER COM A TUA UNÇÃO\nSE ALGUMA COISA TE DESAGRADA\nFALA COMIGO EM ORAÇÃO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "ESPÍRITO SANTO MEU DEUS\nVENHA ME ENCHER COM A TUA UNÇÃO\nVEM RENOVAR A MINHA VIDA\nVEM SER A MINHA DIREÇÃO\nESPÍRITO SANTO",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

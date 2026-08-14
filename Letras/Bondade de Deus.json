@@ -1,0 +1,106 @@
+{
+  "id": 1690018556569,
+  "title": "Bondade de Deus",
+  "artist": "",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Te amo, Deus\nTua palavra nunca falha\nTodos os dias\nEu estou em Tuas mãos\n\nDesde quando me levanto\nAté eu me deitar\nEu cantarei da bondade de Deus\n\nÉs fiel em todo tempo\nEm todo tempo \nTu és tão, tão bom\n\nCom todo fôlego que tenho\nEu cantarei da \nbondade de Deus\n\nTua doce voz\nQue me guia em meio ao fogo\nNa escuridão\nTua presença me conforta\n\nSei que és meu Pai\nQue amigo és\nVivo na bondade de Deus\n\nÉs fiel em todo tempo\nEm todo tempo Tu és tão, tão bom\nCom todo fôlego que tenho\nEu cantarei da bondade de Deus \n\nTua bondade me seguirá, \nme seguirá, Senhor\nTua bondade me seguirá, \nme seguirá, Senhor\n\nEu me rendo a Ti, te dou o meu ser, \nentrego tudo a Ti\nTua bondade me seguirá, \nme seguirá, Senhor\n\nÉs fiel em todo tempo\nEm todo tempo Tu és tão, tão bom\nCom todo fôlego que tenho\nEu cantarei da bondade de Deus ",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Te amo, Deus\nTua palavra nunca falha\nTodos os dias\nEu estou em Tuas mãos",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Desde quando me levanto\nAté eu me deitar\nEu cantarei da bondade de Deus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "És fiel em todo tempo\nEm todo tempo \nTu és tão, tão bom",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Com todo fôlego que tenho\nEu cantarei da \nbondade de Deus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Tua doce voz\nQue me guia em meio ao fogo\nNa escuridão\nTua presença me conforta",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Sei que és meu Pai\nQue amigo és\nVivo na bondade de Deus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "És fiel em todo tempo\nEm todo tempo Tu és tão, tão bom\nCom todo fôlego que tenho\nEu cantarei da bondade de Deus ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": "Tua bondade me seguirá, \nme seguirá, Senhor\nTua bondade me seguirá, \nme seguirá, Senhor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 9,
+        "description": "",
+        "text": "Eu me rendo a Ti, te dou o meu ser, \nentrego tudo a Ti\nTua bondade me seguirá, \nme seguirá, Senhor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 10,
+        "description": "",
+        "text": "És fiel em todo tempo\nEm todo tempo Tu és tão, tão bom\nCom todo fôlego que tenho\nEu cantarei da bondade de Deus ",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

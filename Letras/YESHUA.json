@@ -1,0 +1,64 @@
+{
+  "id": 1582748875664,
+  "title": "YESHUA",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "EU NÃO CONSIGO ENTENDER\nO QUE EU FIZ PRA MERECER\nO REI QUE HOMEM SE TORNOU\nE OS MEUS PECADOS SUPORTOU\n\nSEU NOME É EMANUEL\nO REI DOS REIS\nÉ O SENHOR\nNUM GESTO SIMPLES DE AMOR\nNUM JUMENTINHO TRIUNFOU\n\nBENDITO É O REI QUE VEM\nQUE VEM EM NOME DO SENHOR\nTODA TERRA CANTA AO MESSIAS\nA MORTE NÃO PÔDE DETER\nO SANGUE DERRAMADO FOI\nAO TERCEIRO DIA, RESSUSCITOU\n\nYESHUA\nGLÓRIA SEJA AO REI\nGLORIOSO SALVADOR",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "EU NÃO CONSIGO ENTENDER\nO QUE EU FIZ PRA MERECER\nO REI QUE HOMEM SE TORNOU\nE OS MEUS PECADOS SUPORTOU",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "SEU NOME É EMANUEL\nO REI DOS REIS\nÉ O SENHOR\nNUM GESTO SIMPLES DE AMOR\nNUM JUMENTINHO TRIUNFOU",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "BENDITO É O REI QUE VEM\nQUE VEM EM NOME DO SENHOR\nTODA TERRA CANTA AO MESSIAS\nA MORTE NÃO PÔDE DETER\nO SANGUE DERRAMADO FOI\nAO TERCEIRO DIA, RESSUSCITOU",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "YESHUA\nGLÓRIA SEJA AO REI\nGLORIOSO SALVADOR",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

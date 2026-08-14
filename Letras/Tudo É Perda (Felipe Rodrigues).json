@@ -1,0 +1,85 @@
+{
+  "id": 1761487969357,
+  "title": "Tudo É Perda",
+  "artist": "Felipe Rodrigues",
+  "author": "Felipe Rodrigues",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 63.0,
+  "time_sig": "4/4",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Tudo é perda\nSe não tenho a Ti\nA Tua presença\nÉ o que me basta\n\nTudo é perda\nSe não tenho a Ti\nA Tua palavra\nÉ o que me basta\n\nSem o senhor não sei pra onde ir\nSem Tua presença\nNada importa\n\nDo que adianta\nEu ganhar o mundo inteiro\nE a minha alma se perder\nSem Ti, Senhor\n\nDo que adianta\nEu juntar os meus tesouros\nE me esquecer\nDaquele que me amou\n\nSe eu não tenho a Ti\nNão tenho nada\nNada eu serei sem Ti, Senhor\nSó Tua Presença\nÉ o que me basta\nEu Te honrarei por onde eu for\n\nTua presença\nÉ o que me basta\nQuem sou eu sem Teu amor\nSenhor",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Tudo é perda\nSe não tenho a Ti\nA Tua presença\nÉ o que me basta",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Tudo é perda\nSe não tenho a Ti\nA Tua palavra\nÉ o que me basta",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Sem o senhor não sei pra onde ir\nSem Tua presença\nNada importa",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Do que adianta\nEu ganhar o mundo inteiro\nE a minha alma se perder\nSem Ti, Senhor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Do que adianta\nEu juntar os meus tesouros\nE me esquecer\nDaquele que me amou",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Se eu não tenho a Ti\nNão tenho nada\nNada eu serei sem Ti, Senhor\nSó Tua Presença\nÉ o que me basta\nEu Te honrarei por onde eu for",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Tua presença\nÉ o que me basta\nQuem sou eu sem Teu amor\nSenhor",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "https://open.spotify.com/track/46w8kyLAUvD5fUGPLfXXH2",
+      "youtube": "https://youtube.com/watch?v=3fgGPv1JFXQ",
+      "deezer": "https://deezer.com/track/3252267521"
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "id": 1600077388810,
+  "title": "Sete Vezes Mais",
+  "artist": "Davi Sacer",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Quando a videira brotar\nE no campo o trigo crescer\nE a fonte das águas correrem dos montes\nChegou a restituição\n\nQuando a chuva descer\nE o deserto florescer\nE quando se ouvir então\nA voz dos que cantam\nChegou a restituição\n\nOs meus celeiros transbordarão\nDa provisão do Senhor\nO gafanhoto não mais consumirá\nO que o Senhor restituiu\n\nOs céus se abrem\nA chuva de Deus chegou\nTrazendo sete vezes mais\nDo que o devorador roubou\n\nOs céus se abrem\nA chuva de Deus chegou\nTrazendo sete vezes mais\nDe restituição\n\nSete vezes mais, sete vezes mais\nDo que o devorador roubou\n\nSete vezes mais, sete vezes mais!",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Quando a videira brotar\nE no campo o trigo crescer\nE a fonte das águas correrem dos montes\nChegou a restituição",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Quando a chuva descer\nE o deserto florescer\nE quando se ouvir então\nA voz dos que cantam\nChegou a restituição",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Os meus celeiros transbordarão\nDa provisão do Senhor\nO gafanhoto não mais consumirá\nO que o Senhor restituiu",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Os céus se abrem\nA chuva de Deus chegou\nTrazendo sete vezes mais\nDo que o devorador roubou",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Os céus se abrem\nA chuva de Deus chegou\nTrazendo sete vezes mais\nDe restituição",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Sete vezes mais, sete vezes mais\nDo que o devorador roubou",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Sete vezes mais, sete vezes mais!",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": 1723506863146,
+  "title": "Deus Tem o Melhor Pra Mim",
+  "artist": "Fernandinho",
+  "author": "Fernandinho",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Deus tem o melhor pra mim\nDeus tem o melhor pra mim\n\nE o que perdido foi\nNão se compara\nCom o que há de vir\n\nUma nova história\nDeus tem pra mim\nUm novo tempo\nDeus tem pra mim\n\nTudo aquilo que perdido foi\nOuvirei de Sua boca:\n\"Te abençoarei\"",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Deus tem o melhor pra mim\nDeus tem o melhor pra mim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "E o que perdido foi\nNão se compara\nCom o que há de vir",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Uma nova história\nDeus tem pra mim\nUm novo tempo\nDeus tem pra mim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Tudo aquilo que perdido foi\nOuvirei de Sua boca:\n\"Te abençoarei\"",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "https://open.spotify.com/track/3ZEOtIbhhjBAPBFem2pxAY",
+      "youtube": "https://youtube.com/watch?v=M9MtI8i3PyE",
+      "deezer": "https://deezer.com/track/694749452"
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

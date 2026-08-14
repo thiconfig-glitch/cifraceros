@@ -1,0 +1,78 @@
+{
+  "id": 1597243664232,
+  "title": "Até Que Te Encontrei",
+  "artist": "Leonor",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Nos lugares onde fui \nnão te encontrei\nNão pude perceber, \nnem te sentir\nEu tentei achar Jesus,\n como eu sonhei\nE não estavas lá, oh não!\n\nProcurei quem tinha \nas vestes de um rei\nE não estavas lá, \nnão entendi!\nNão te vi pelos palácios da cidade,\nAté que te encontrei\n\nCom os pés feridos\nNão podia ser aquele \no meu Jesus\nOnde está sua coroa \nde brilhantes?\nE por que se veste \nfeito um pescador?\n\nSua voz \ntão mansa me falou:\nMeu Reino não é desse mundo,\n\nE jamais me encontrarias \nde outro jeito\nPorque o bem maior\n na vida é o Amor!\n\nAssim mesmo dei a vida numa cruz\nE foi por amor, \nmorri por ti\nSuportei uma coroa \nde espinhos\nPra ser teu Salvador!",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Nos lugares onde fui \nnão te encontrei\nNão pude perceber, \nnem te sentir\nEu tentei achar Jesus,\n como eu sonhei\nE não estavas lá, oh não!",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Procurei quem tinha \nas vestes de um rei\nE não estavas lá, \nnão entendi!\nNão te vi pelos palácios da cidade,\nAté que te encontrei",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Com os pés feridos\nNão podia ser aquele \no meu Jesus\nOnde está sua coroa \nde brilhantes?\nE por que se veste \nfeito um pescador?",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Sua voz \ntão mansa me falou:\nMeu Reino não é desse mundo,",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "E jamais me encontrarias \nde outro jeito\nPorque o bem maior\n na vida é o Amor!",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Assim mesmo dei a vida numa cruz\nE foi por amor, \nmorri por ti\nSuportei uma coroa \nde espinhos\nPra ser teu Salvador!",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

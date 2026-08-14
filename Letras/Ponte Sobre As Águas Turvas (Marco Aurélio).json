@@ -1,0 +1,64 @@
+{
+  "id": 1622025070757,
+  "title": "Ponte Sobre As Águas Turvas",
+  "artist": "Marco Aurélio",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Oh! Meu Deus\nOh! Meu Deus\nSei que estás aqui neste lugar\nSinto vontade de te exaltar\n\nVou levantar a voz\nE louvar a Ti, senhor, meu Deus\nE enquanto eu viver\nVou louvar a Ti, Senhor, meu Deus\nGrande é o teu poder\n\nQuando oro, de joelhos\nSinto em meu ser nascer\nNova vida, que vem de Ti\nOh! Meu Senhor\n\nVou levantar a voz\nE louvar a Ti, Senhor, meu Deus\nE enquanto eu viver\nVou louvar a Ti, Senhor, meu Deus\nGrande é o Teu poder",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Oh! Meu Deus\nOh! Meu Deus\nSei que estás aqui neste lugar\nSinto vontade de te exaltar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Vou levantar a voz\nE louvar a Ti, senhor, meu Deus\nE enquanto eu viver\nVou louvar a Ti, Senhor, meu Deus\nGrande é o teu poder",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Quando oro, de joelhos\nSinto em meu ser nascer\nNova vida, que vem de Ti\nOh! Meu Senhor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Vou levantar a voz\nE louvar a Ti, Senhor, meu Deus\nE enquanto eu viver\nVou louvar a Ti, Senhor, meu Deus\nGrande é o Teu poder",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": 1582748875540,
+  "title": "PELO TELHADO",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "NEM QUE EU TENHA QUE DESCER \nPELO TELHADO, EU VOU SER CURADO\nA MULTIDÃO NÃO VAI IMPEDIR \nQUE EU TOQUE EM TUAS VESTES \nE SEJA SARADO\n\nMINHA ANATOMIA\nA TUA CIÊNCIA FEZ BRILHAR\nEM CADA PARTE DO MEU SER\nSE EU PROCURAR \nEU SEI JESUS VOU ENCONTRAR TEU DNA\n\nÉ HOJE QUE EU VOU CONTAR\nMEU MILAGRE\nÉ HOJE QUE EU VOU SENTIR\nTUAS MÃOS DE CRAVOS\nÉ HOJE QUE EU VOU SER CURADO\nNEM QUE EU TENHA QUE DESCER\nPELO TELHADO",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "NEM QUE EU TENHA QUE DESCER \nPELO TELHADO, EU VOU SER CURADO\nA MULTIDÃO NÃO VAI IMPEDIR \nQUE EU TOQUE EM TUAS VESTES \nE SEJA SARADO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "MINHA ANATOMIA\nA TUA CIÊNCIA FEZ BRILHAR\nEM CADA PARTE DO MEU SER\nSE EU PROCURAR \nEU SEI JESUS VOU ENCONTRAR TEU DNA",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "É HOJE QUE EU VOU CONTAR\nMEU MILAGRE\nÉ HOJE QUE EU VOU SENTIR\nTUAS MÃOS DE CRAVOS\nÉ HOJE QUE EU VOU SER CURADO\nNEM QUE EU TENHA QUE DESCER\nPELO TELHADO",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

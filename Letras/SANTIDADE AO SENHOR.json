@@ -1,0 +1,64 @@
+{
+  "id": 1582748875518,
+  "title": "SANTIDADE AO SENHOR",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "ESTOU AQUI MEU PAI, MAS QUERO TE DIZER\nQUE NÃO SOU DIGNO NEM FIZ, POR MERECER\nENTRAR NO SANTO LUGAR  DE ADORAÇÃO\nEU VIM AQUI TE BUSCAR DE TODO CORAÇÃO\n\nVEM ESPÍRITO SANTO CONSOLADOR\nMEU GLORIOSO SENHOR ME ACEITA COMO SOU ENTREGO A MINHA VIDA NO TEU ALTAR\nNO TEU TEMPLO SENHOR, EU QUERO HABITAR\n\nSANTIDADE AO SENHOR\nCRIADOR DA UNIVERSAL\nCOM REVERÊNCIA E TEMOR\nESTOU AQUI SÓ PRA TE ADORAR\n\nSANTIDADE AO SENHOR\nTÚ ÉS A VIDA QUE HÁ EM MIM\nEU TE AMO MEU SALVADOR\nESPÍRITO SANTO PRINCÍPIO, MEIO E FIM",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "ESTOU AQUI MEU PAI, MAS QUERO TE DIZER\nQUE NÃO SOU DIGNO NEM FIZ, POR MERECER\nENTRAR NO SANTO LUGAR  DE ADORAÇÃO\nEU VIM AQUI TE BUSCAR DE TODO CORAÇÃO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "VEM ESPÍRITO SANTO CONSOLADOR\nMEU GLORIOSO SENHOR ME ACEITA COMO SOU ENTREGO A MINHA VIDA NO TEU ALTAR\nNO TEU TEMPLO SENHOR, EU QUERO HABITAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "SANTIDADE AO SENHOR\nCRIADOR DA UNIVERSAL\nCOM REVERÊNCIA E TEMOR\nESTOU AQUI SÓ PRA TE ADORAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "SANTIDADE AO SENHOR\nTÚ ÉS A VIDA QUE HÁ EM MIM\nEU TE AMO MEU SALVADOR\nESPÍRITO SANTO PRINCÍPIO, MEIO E FIM",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

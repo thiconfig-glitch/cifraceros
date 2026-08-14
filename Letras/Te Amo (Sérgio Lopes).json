@@ -1,0 +1,71 @@
+{
+  "id": 1597878730672,
+  "title": "Te Amo",
+  "artist": "Sérgio Lopes",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Eu me perdi\nNum grande abismo tropecei\nE por uma estrada\nDesconhecida me arrastei\nMe angustiava, não tinha nada\nA vida mais sem vida eu vivi\n\nA minha voz \nnão tinha a quem chamar\nMinhas mãos vazias\nnada tinham pra mostrar\nEra o retrato do meu cansaço\nQuantas noites frias eu vivi\n\nQuase sem vida, sem esperança\nGritei teu nome, Jesus!\nMe deste forças, me levantaste\nE hoje confesso\nTe amo, Jesus!\n\nTe amo\nCada dia que eu vivo \nmais Te amo\nIncluíste minha vida \nnos Teus planos\nE hoje vivo pra falar do Teu amor\n\nAgora\nMinhas mãos mostram ao mundo \ntua estrada\nMinha voz semeará tua palavra\nPra mostrar quanto eu te amo\nJesus!",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Eu me perdi\nNum grande abismo tropecei\nE por uma estrada\nDesconhecida me arrastei\nMe angustiava, não tinha nada\nA vida mais sem vida eu vivi",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "A minha voz \nnão tinha a quem chamar\nMinhas mãos vazias\nnada tinham pra mostrar\nEra o retrato do meu cansaço\nQuantas noites frias eu vivi",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Quase sem vida, sem esperança\nGritei teu nome, Jesus!\nMe deste forças, me levantaste\nE hoje confesso\nTe amo, Jesus!",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Te amo\nCada dia que eu vivo \nmais Te amo\nIncluíste minha vida \nnos Teus planos\nE hoje vivo pra falar do Teu amor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Agora\nMinhas mãos mostram ao mundo \ntua estrada\nMinha voz semeará tua palavra\nPra mostrar quanto eu te amo\nJesus!",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

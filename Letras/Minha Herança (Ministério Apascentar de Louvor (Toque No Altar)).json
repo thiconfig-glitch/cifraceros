@@ -1,0 +1,64 @@
+{
+  "id": 1610647819087,
+  "title": "Minha Herança",
+  "artist": "Ministério Apascentar de Louvor (Toque No Altar)",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Eu já decidi ouvir a tua voz,\nnão ser mais um na multidão\nRomper com meus limites\ne acreditar que tudo vai mudar\nNão olhar o que passou e saber que o melhor ainda está por vir\nTomar posse do impossível, pois sei que nada pode me impedir\n\nSou tudo aquilo que dizes que sou, há uma promessa sobre mim\nCo-herdeiro com Cristo, Tu me fazes mais que vencedor\n\nÉs minha herança, meu dono e Senhor, minha esperança está em ti\nCoroado com glória, todos os meus dias estão em ti.\n\nVou além com o sobrenatural\nMais que os meus sonhos eu conquistarei...",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Eu já decidi ouvir a tua voz,\nnão ser mais um na multidão\nRomper com meus limites\ne acreditar que tudo vai mudar\nNão olhar o que passou e saber que o melhor ainda está por vir\nTomar posse do impossível, pois sei que nada pode me impedir",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Sou tudo aquilo que dizes que sou, há uma promessa sobre mim\nCo-herdeiro com Cristo, Tu me fazes mais que vencedor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "És minha herança, meu dono e Senhor, minha esperança está em ti\nCoroado com glória, todos os meus dias estão em ti.",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Vou além com o sobrenatural\nMais que os meus sonhos eu conquistarei...",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

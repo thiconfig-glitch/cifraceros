@@ -1,0 +1,64 @@
+{
+  "id": 1599604753552,
+  "title": "Ele é Poder",
+  "artist": "Cassiane",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "\"Ele é poder\nTodo poder\nEm suas mãos está todo poder\nPra fazer o cego ver \nE fazer o surdo ouvir\nEm suas mãos está todo poder\n\nTransformou a água em vinho\nEle acalma a tempestade\nEle cura os leprosos\nE caminha sobre o mar\nEle expulsa os demônios\n\nMultiplica o peixe e o pão\nProduz pesca milagrosa\nE alimenta multidão\nJesus cura o paralítico\nE consola o ferido\nDá a alma do aflito\n\nNovo rumo a seguir\nEle ressuscita os mortos\nFaz milagres entre nós\nE o inferno estremece\nAo ouvir a Sua voz\"",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "\"Ele é poder\nTodo poder\nEm suas mãos está todo poder\nPra fazer o cego ver \nE fazer o surdo ouvir\nEm suas mãos está todo poder",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Transformou a água em vinho\nEle acalma a tempestade\nEle cura os leprosos\nE caminha sobre o mar\nEle expulsa os demônios",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Multiplica o peixe e o pão\nProduz pesca milagrosa\nE alimenta multidão\nJesus cura o paralítico\nE consola o ferido\nDá a alma do aflito",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Novo rumo a seguir\nEle ressuscita os mortos\nFaz milagres entre nós\nE o inferno estremece\nAo ouvir a Sua voz\"",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

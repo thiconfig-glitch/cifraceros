@@ -1,0 +1,57 @@
+{
+  "id": 1626894683247,
+  "title": "O Servo do Senhor",
+  "artist": "Melissa",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Eis aqui meu servo a quem escolhi\nNele me alegro porque me ouviu\nDei-lhe o meu espírito para salvar\nDar visão aos cegos e libertar.\n\nQuando choraste eu te ouvi\nTe fortaleço eu te escolhi\nSou o Senhor te mostrarei\nEsse é meu nome eu te chamei.\n\nPor isso mostra Senhor\nO que queres que eu faça\nFala Senhor forte em meu coração\nGuia meus passos por tuas veredas\nPõe em meus lábios a tua unção.",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Eis aqui meu servo a quem escolhi\nNele me alegro porque me ouviu\nDei-lhe o meu espírito para salvar\nDar visão aos cegos e libertar.",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Quando choraste eu te ouvi\nTe fortaleço eu te escolhi\nSou o Senhor te mostrarei\nEsse é meu nome eu te chamei.",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Por isso mostra Senhor\nO que queres que eu faça\nFala Senhor forte em meu coração\nGuia meus passos por tuas veredas\nPõe em meus lábios a tua unção.",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

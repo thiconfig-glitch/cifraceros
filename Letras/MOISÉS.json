@@ -1,0 +1,57 @@
+{
+  "id": 1582748875486,
+  "title": "MOISÉS",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Moisés, Moisés o teu clamor Eu ouvi\nEstende o teu cajado Moisés \nQue as águas vão se abrir\n\nMoisés depressa o cajado estendeu\nObedecendo a ordem de Deus\nE o milagre na hora surgiu\nE o Mar Vermelho se abriu\n\nO grande mar em muralhas ficou\nO povo de Israel triunfou\nDe novo Moisés o cajado estendeu\nE Faraó pereceu",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Moisés, Moisés o teu clamor Eu ouvi\nEstende o teu cajado Moisés \nQue as águas vão se abrir",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Moisés depressa o cajado estendeu\nObedecendo a ordem de Deus\nE o milagre na hora surgiu\nE o Mar Vermelho se abriu",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "O grande mar em muralhas ficou\nO povo de Israel triunfou\nDe novo Moisés o cajado estendeu\nE Faraó pereceu",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

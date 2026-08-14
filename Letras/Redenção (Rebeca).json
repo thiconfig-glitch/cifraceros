@@ -1,0 +1,78 @@
+{
+  "id": 1610882268450,
+  "title": "Redenção",
+  "artist": "Rebeca",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Tu Senhor, \nÉs a minha força\nO meu escudo, minha redenção\n \n\nO meu cântico, é todo Seu\nComo oferta viva em Teu altar\n\nTu Senhor, és a minha força\nO meu escudo, minha redenção\nO meu cântico, é todo seu\nComo oferta viva em teu altar\n\n\nAplaudimos o Teu Santo nome\nó Deus\nConfessamos com nossos lábios \no Teu poder\n \n\nMagnifico, soberano\nSublime, glorioso\nQue restaura a alma, \ne o coração\n\nTua beleza\nresplandece em meu viver\nTua beleza\nresplandece em meu viver",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Tu Senhor, \nÉs a minha força\nO meu escudo, minha redenção\n ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "O meu cântico, é todo Seu\nComo oferta viva em Teu altar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Tu Senhor, és a minha força\nO meu escudo, minha redenção\nO meu cântico, é todo seu\nComo oferta viva em teu altar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "\nAplaudimos o Teu Santo nome\nó Deus\nConfessamos com nossos lábios \no Teu poder\n ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Magnifico, soberano\nSublime, glorioso\nQue restaura a alma, \ne o coração",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Tua beleza\nresplandece em meu viver\nTua beleza\nresplandece em meu viver",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

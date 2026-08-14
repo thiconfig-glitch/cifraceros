@@ -1,0 +1,71 @@
+{
+  "id": 1582748875519,
+  "title": "SALMO DA VITÓRIA",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "MUITOS CONFIAM EM CARROS \nOUTROS NA PRÓPRIA FORÇA\nMAS EU CREIO NO DEUS VIVO \nQUE NUNCA VAI FALHAR\n\nMESMO QUE VENHA A TRISTEZA \nASSOLAR-ME NO ANOITECER\nDEUS ME GARANTE A VITÓRIA \nQUANDO O DIA AMANHECER\n\n \n\nEU CREIO NO PODER DE DEUS\nCREIO NO NOME DE JESUS\nNÃO HÁ DERROTA PARA MIM\nMESMO NA NOITE EU TENHO A SUA LUZ\n\nEU CREIO NO PODER DE DEUS\nCREIO NO NOME DE JESUS\nTENHO VITÓRIA SOBRE O MAL\nCRENDO NO NOME DE JESUS",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "MUITOS CONFIAM EM CARROS \nOUTROS NA PRÓPRIA FORÇA\nMAS EU CREIO NO DEUS VIVO \nQUE NUNCA VAI FALHAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "MESMO QUE VENHA A TRISTEZA \nASSOLAR-ME NO ANOITECER\nDEUS ME GARANTE A VITÓRIA \nQUANDO O DIA AMANHECER",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": " ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "EU CREIO NO PODER DE DEUS\nCREIO NO NOME DE JESUS\nNÃO HÁ DERROTA PARA MIM\nMESMO NA NOITE EU TENHO A SUA LUZ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "EU CREIO NO PODER DE DEUS\nCREIO NO NOME DE JESUS\nTENHO VITÓRIA SOBRE O MAL\nCRENDO NO NOME DE JESUS",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

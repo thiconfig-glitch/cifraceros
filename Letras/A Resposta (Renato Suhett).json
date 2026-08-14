@@ -1,0 +1,71 @@
+{
+  "id": 1620583206293,
+  "title": "A Resposta",
+  "artist": "Renato Suhett",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Procurei um caminho que me desse paz\nProcurei um caminho, procurei mais e mais\nAndava sozinho, triste a chorar\nE o cansado coração, já cansado de esperar\n\nSinfonia triste, o meu viver\nVida sem cor e sem luz, nos bares a procurar\nUm copo na mão,\nMil problemas no coração\nE quase desistindo da aventura de viver\n\nFoi quando encontrei a resposta\nEle estava ali, bem perto de mim\n\nUma voz tão suave me falou de amor\nDe um amor tão grande\nQue eu jamais poderia supor\nE a minha procura teve o seu fim\nCom todos os meus defeitos \nme amava mesmo assim\n\nQuase que não pude simplesmente acreditar\nQue Alguém tão sublime assim poderia me aceitar\nEnxugou minhas lágrimas, me consolou\nConquistou o meu coração, libertou-me da ilusão",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Procurei um caminho que me desse paz\nProcurei um caminho, procurei mais e mais\nAndava sozinho, triste a chorar\nE o cansado coração, já cansado de esperar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Sinfonia triste, o meu viver\nVida sem cor e sem luz, nos bares a procurar\nUm copo na mão,\nMil problemas no coração\nE quase desistindo da aventura de viver",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Foi quando encontrei a resposta\nEle estava ali, bem perto de mim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Uma voz tão suave me falou de amor\nDe um amor tão grande\nQue eu jamais poderia supor\nE a minha procura teve o seu fim\nCom todos os meus defeitos \nme amava mesmo assim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Quase que não pude simplesmente acreditar\nQue Alguém tão sublime assim poderia me aceitar\nEnxugou minhas lágrimas, me consolou\nConquistou o meu coração, libertou-me da ilusão",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

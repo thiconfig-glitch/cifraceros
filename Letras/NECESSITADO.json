@@ -1,0 +1,92 @@
+{
+  "id": 1582748875708,
+  "title": " NECESSITADO",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "HÁ MUITA DOR QUE EU TRAGO AQUI\nNÃO SEI POR ONDE COMEÇAR, \nVEM ME OUVIR\n\nEU SOU UM NECESSITADO OH! DEUS, \nAJUDA-ME\nDEPOIS DE ANDAR TANTOS CAMINHOS\nME ACHEGO A TI\n\nEU TENHO TANTO A LHE FALAR, \nDA MINHA DOR\nSÃO NOITES MAL DORMIDAS, \nSOU SOFREDOR\n\nESCUTA ESTA MINHA VOZ, \nTÃO EMBARGADA\nQUERO APRENDER SEGUIR \nA CAMINHADA\n\nOH! VEM SENHOR MEU DEUS\nNÃO TENHO A QUEM CLAMAR\nSÓ TENHO A TI JESUS \nDÁ-ME FORÇAS PRA LUTAR\n\nESCUTA ESTE CLAMOR \nQUE FAÇO EM TEU ALTAR\nSENHOR, VEM ME AJUDAR\n\nOH! VEM SENHOR MEU DEUS\nSEGURA EM MINHAS MÃOS\nEU QUERO ME ENTREGAR \nDE TODO CORAÇÃO\n\nQUERO VIVER FELIZ \nUSANDO A MINHA FÉ\nEM TI JESUS DE NAZARÉ",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "HÁ MUITA DOR QUE EU TRAGO AQUI\nNÃO SEI POR ONDE COMEÇAR, \nVEM ME OUVIR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "EU SOU UM NECESSITADO OH! DEUS, \nAJUDA-ME\nDEPOIS DE ANDAR TANTOS CAMINHOS\nME ACHEGO A TI",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "EU TENHO TANTO A LHE FALAR, \nDA MINHA DOR\nSÃO NOITES MAL DORMIDAS, \nSOU SOFREDOR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "ESCUTA ESTA MINHA VOZ, \nTÃO EMBARGADA\nQUERO APRENDER SEGUIR \nA CAMINHADA",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "OH! VEM SENHOR MEU DEUS\nNÃO TENHO A QUEM CLAMAR\nSÓ TENHO A TI JESUS \nDÁ-ME FORÇAS PRA LUTAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "ESCUTA ESTE CLAMOR \nQUE FAÇO EM TEU ALTAR\nSENHOR, VEM ME AJUDAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "OH! VEM SENHOR MEU DEUS\nSEGURA EM MINHAS MÃOS\nEU QUERO ME ENTREGAR \nDE TODO CORAÇÃO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": "QUERO VIVER FELIZ \nUSANDO A MINHA FÉ\nEM TI JESUS DE NAZARÉ",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": 1582748875672,
+  "title": "O mar vermelho",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "PRECISO IR ALÉM DESSE DESERTO\nPISAR NA TERRA QUE O SENHOR ME DEU\nEXÉRCITOS PERSEGUEM O MEU POVO\nE À MINHA FRENTE UM GRANDE MAR APARECEU\n\nOLHANDO AO MEU REDOR NÃO HÁ SOCORRO\nEM MINHA ANGÚSTIA ELEVO O MEU OLHAR\nE VEJO UMA NUVEM QUE APONTA PARA O MAR\nPOR ESSAS ÁGUAS TENHO QUE PASSAR\n\nAVANÇA SOBRE AS ÁGUAS\nE O MAR SE ABRIRÁ\nENQUANTO NÃO PISAR NA MINHA CANAÃ\nEU NÃO DESISTIREI DE AVANÇAR\n\nAVANÇA SOBRE AS ÁGUAS\nE O MAR SE ABRIRÁ\nSE COM A MINHA FÉ TOCAR NAS ÁGUAS\nNA TERRA PROMETIDA VOU CHEGAR",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "PRECISO IR ALÉM DESSE DESERTO\nPISAR NA TERRA QUE O SENHOR ME DEU\nEXÉRCITOS PERSEGUEM O MEU POVO\nE À MINHA FRENTE UM GRANDE MAR APARECEU",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "OLHANDO AO MEU REDOR NÃO HÁ SOCORRO\nEM MINHA ANGÚSTIA ELEVO O MEU OLHAR\nE VEJO UMA NUVEM QUE APONTA PARA O MAR\nPOR ESSAS ÁGUAS TENHO QUE PASSAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "AVANÇA SOBRE AS ÁGUAS\nE O MAR SE ABRIRÁ\nENQUANTO NÃO PISAR NA MINHA CANAÃ\nEU NÃO DESISTIREI DE AVANÇAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "AVANÇA SOBRE AS ÁGUAS\nE O MAR SE ABRIRÁ\nSE COM A MINHA FÉ TOCAR NAS ÁGUAS\nNA TERRA PROMETIDA VOU CHEGAR",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

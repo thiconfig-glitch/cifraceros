@@ -1,0 +1,64 @@
+{
+  "id": 1601320480283,
+  "title": "Grande É o Senhor",
+  "artist": "Nívea Soares",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Grande é o Senhor\nE mui digno de louvor\nNa cidade do nosso Deus\nSeu Santo monte\nAlegria de toda terra\n\nGrande é o Senhor\nEm quem nós temos a vitória\nQue nos ajuda\nContra o inimigo\nPor isso diante Dele\nNos prostramos\n\nQueremos o Teu nome engrandecer\nE agradecer-Te\nPor tua obra em nossa vida\nConfiamos em Teu infinito amor\nPois só Tu és o Deus eterno\nSobre toda terra e Céus\n\nQueremos o Teu nome engrandecer\nE agradecer-Te\nPor tua obra em nossa vida\nConfiamos em Teu infinito amor\nPois só Tu és o Deus eterno\nSobre toda terra e Céus",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Grande é o Senhor\nE mui digno de louvor\nNa cidade do nosso Deus\nSeu Santo monte\nAlegria de toda terra",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Grande é o Senhor\nEm quem nós temos a vitória\nQue nos ajuda\nContra o inimigo\nPor isso diante Dele\nNos prostramos",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Queremos o Teu nome engrandecer\nE agradecer-Te\nPor tua obra em nossa vida\nConfiamos em Teu infinito amor\nPois só Tu és o Deus eterno\nSobre toda terra e Céus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Queremos o Teu nome engrandecer\nE agradecer-Te\nPor tua obra em nossa vida\nConfiamos em Teu infinito amor\nPois só Tu és o Deus eterno\nSobre toda terra e Céus",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

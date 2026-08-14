@@ -1,0 +1,92 @@
+{
+  "id": 1723820692780,
+  "title": "Cadeias Quebrar",
+  "artist": "Soraya Moraes",
+  "author": "Will Reagan",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "F#m",
+  "bpm": 68.0,
+  "time_sig": "4/4",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Há poder no nome de Jesus\nHá poder no nome de Jesus\nPra cadeias quebrar\nCadeias quebrar, cadeias quebrar\n\nAlto preço Ele pagou\nTão livremente se entregou\nPor nossa redenção se deu\nE o céu se abriu\n\nUm exército surgiu\nUm exército surgiu\nUm exército surgiu\nPra cadeias quebrar\n\nCadeias quebrar\nCadeias quebrar\nCadeias quebrar\nCadeias quebrar\n\nOuço cadeias quebrando\nOuço cadeias quebrando\nOuço cadeias quebrando\nOuço cadeias quebrando\n\nOuço cadeias quebrando\nOuço cadeias quebrando\nOuço cadeias quebrando\nHá poder no Teu nome, Jesus\n\nPra cadeias quebrar\nCadeias quebrar, cadeias quebrar\nCadeias quebrar, cadeias quebrar\ncadeias quebrar\n\nHá poder no nome de Jesus",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Há poder no nome de Jesus\nHá poder no nome de Jesus\nPra cadeias quebrar\nCadeias quebrar, cadeias quebrar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Alto preço Ele pagou\nTão livremente se entregou\nPor nossa redenção se deu\nE o céu se abriu",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Um exército surgiu\nUm exército surgiu\nUm exército surgiu\nPra cadeias quebrar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Cadeias quebrar\nCadeias quebrar\nCadeias quebrar\nCadeias quebrar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Ouço cadeias quebrando\nOuço cadeias quebrando\nOuço cadeias quebrando\nOuço cadeias quebrando",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Ouço cadeias quebrando\nOuço cadeias quebrando\nOuço cadeias quebrando\nHá poder no Teu nome, Jesus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Pra cadeias quebrar\nCadeias quebrar, cadeias quebrar\nCadeias quebrar, cadeias quebrar\ncadeias quebrar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": "Há poder no nome de Jesus",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "https://open.spotify.com/track/1L6qk33dBMQwaD16OX9Ltn",
+      "youtube": "https://youtube.com/watch?v=FSx6aCXHb3s",
+      "deezer": "https://deezer.com/track/1062249242"
+    },
+    "backing_track": {
+      "spotify": "https://open.spotify.com/track/2ZQRoqYbWzN1BgPla9MhwO",
+      "youtube": "https://youtube.com/watch?v=LZN8dz_bEsY",
+      "deezer": "https://deezer.com/track/2254874557"
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

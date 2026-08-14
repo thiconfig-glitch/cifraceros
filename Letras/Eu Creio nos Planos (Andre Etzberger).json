@@ -1,0 +1,78 @@
+{
+  "id": 1585148641881,
+  "title": "Eu Creio nos Planos",
+  "artist": "Andre Etzberger",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "O homem pode tentar\nCom palavras me desanimar\nMas eu creio nos planos\nQue o Senhor preparou para mim\n\nÉ bem maior\nDo que os meus olhos possam ver\nÉ bem maior\nDo que eu possa imaginar\n\nEu creio nos planos de Deus\nEu creio nas promessas que \nEle tem pra mim\n\nO mundo pode até duvidar\nConfio no Senhor \nTudo vai se cumprir\n\nCircunstâncias pra eu parar\nServiram para aumentar minha fé\nO Senhor nunca me deixou\nSempre comigo me fortalecendo\n\nMeus inimigos\nForam envergonhados\nDeus sempre exalta\naquele que se humilha",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "O homem pode tentar\nCom palavras me desanimar\nMas eu creio nos planos\nQue o Senhor preparou para mim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "É bem maior\nDo que os meus olhos possam ver\nÉ bem maior\nDo que eu possa imaginar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Eu creio nos planos de Deus\nEu creio nas promessas que \nEle tem pra mim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "O mundo pode até duvidar\nConfio no Senhor \nTudo vai se cumprir",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Circunstâncias pra eu parar\nServiram para aumentar minha fé\nO Senhor nunca me deixou\nSempre comigo me fortalecendo",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Meus inimigos\nForam envergonhados\nDeus sempre exalta\naquele que se humilha",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

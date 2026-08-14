@@ -1,0 +1,64 @@
+{
+  "id": 1582748875898,
+  "title": "Águas Cristalinas ",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "BEBER DA TUA FONTE\nEU VIM ME SACIAR, SENHOR\nNAS ÁGUAS CRISTALINAS\nME INUNDAR DO TEU amor\n\nME ESVAZIEI DE MIM, DO MEU EU\nVEM ME ENCHER ESPÍRITO DE DEUS\nPRA ESTAR BEM JUNTO A TI\nTE CONHECER, ME ENCHER \nDO TEU PODER\n\nBEM SEI QUE ME ESQUADRINHAS\nCONHECES O MEU PROCEDER\nMESMO EM PROFUNDO SONO\nVISITAS O MEU SER\n\nME ESVAZIEI DE MIM, DO MEU EU\nVEM ME ENCHER ESPÍRITO DE DEUS\nPRA ESTAR BEM JUNTO A TI\nTE CONHECER, ME ENCHER \nDO TEU PODER",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "BEBER DA TUA FONTE\nEU VIM ME SACIAR, SENHOR\nNAS ÁGUAS CRISTALINAS\nME INUNDAR DO TEU amor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "ME ESVAZIEI DE MIM, DO MEU EU\nVEM ME ENCHER ESPÍRITO DE DEUS\nPRA ESTAR BEM JUNTO A TI\nTE CONHECER, ME ENCHER \nDO TEU PODER",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "BEM SEI QUE ME ESQUADRINHAS\nCONHECES O MEU PROCEDER\nMESMO EM PROFUNDO SONO\nVISITAS O MEU SER",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "ME ESVAZIEI DE MIM, DO MEU EU\nVEM ME ENCHER ESPÍRITO DE DEUS\nPRA ESTAR BEM JUNTO A TI\nTE CONHECER, ME ENCHER \nDO TEU PODER",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

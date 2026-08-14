@@ -1,0 +1,85 @@
+{
+  "id": 1591473049142,
+  "title": "Meu Amado",
+  "artist": "Thaiane Seghetto",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Sei que estás aqui nesse lugar\nTeu perfume eu posso sentir\nVem ao meu encontro me abraçar\nManifesta Tua glória em mim\n\nTeu toque é real\nTua presença é real\nPermita que eu Te veja Deus\n\nTeu toque é real\nTua presença é real\nPermita que eu Te veja Deus\n\nO meu amado\nO meu amado\nVeio me ver\nE eu vim Lhe adorar\n\nO meu amado\nO meu amado\nVeio me ver\nE eu vim Lhe adorar\n\nVem na força de um leão\nCom poder me envolve em Tuas mãos\nMe abraça e me leva pra perto\n\nVem na força de um leão\nCom poder me envolve em Tuas mãos\nMe abraça e me leva pra perto",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Sei que estás aqui nesse lugar\nTeu perfume eu posso sentir\nVem ao meu encontro me abraçar\nManifesta Tua glória em mim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Teu toque é real\nTua presença é real\nPermita que eu Te veja Deus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Teu toque é real\nTua presença é real\nPermita que eu Te veja Deus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "O meu amado\nO meu amado\nVeio me ver\nE eu vim Lhe adorar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "O meu amado\nO meu amado\nVeio me ver\nE eu vim Lhe adorar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Vem na força de um leão\nCom poder me envolve em Tuas mãos\nMe abraça e me leva pra perto",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Vem na força de um leão\nCom poder me envolve em Tuas mãos\nMe abraça e me leva pra perto",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": 1582748875968,
+  "title": "A DECISÃO",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "VIM AQUI PRA DECIDIR\nA MINHA VIDA TEM QUE MUDAR\nA INTELIGÊNCIA ME FAZ REFLETIR\nQUE EU NASCI PRA CONQUISTAR\n\nEU VOU OUVIR A VOZ DE DEUS\nFAZER A MINHA PARTE \nPROVAR A MINHA FÉ\nMAS UMA COISA EU NÃO VOU ACEITAR\nQUE A MINHA VIDA CONTINUE ASSIM\n\nA REVOLTA NO MEU PEITO SE ACENDEU\nSUAS PROMESSAS DE VITÓRIAS\nNÃO ENVELHECERAM\nMEU DEUS EU NÃO SAIO DAQUI\nSEM ALCANÇAR RESPOSTA \nDO QUE VIM BUSCAR\n\nNÃO IMPORTA COMO VAI ACONTECER\nSE O CÉU VAI BAIXAR OU O SOL PARAR\nMAS DE UMA COISA EU TENHO CERTEZA\nMINHA VITÓRIA EU VOU ALCANÇAR\n\nDEUS PROVERÁ\nNA VIDA DE QUEM sacrificar\nQUEM USAR A FÉ NESSE ALTAR\nO IMPOSSÍVEL VAI ACONTECER\n\nDEUS PROVERÁ\nNA VIDA DE QUEM PERSEVERAR\nQUEM USAR A FÉ NESSE ALTAR\nO IMPOSSÍVEL VAI ACONTECER",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "VIM AQUI PRA DECIDIR\nA MINHA VIDA TEM QUE MUDAR\nA INTELIGÊNCIA ME FAZ REFLETIR\nQUE EU NASCI PRA CONQUISTAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "EU VOU OUVIR A VOZ DE DEUS\nFAZER A MINHA PARTE \nPROVAR A MINHA FÉ\nMAS UMA COISA EU NÃO VOU ACEITAR\nQUE A MINHA VIDA CONTINUE ASSIM",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "A REVOLTA NO MEU PEITO SE ACENDEU\nSUAS PROMESSAS DE VITÓRIAS\nNÃO ENVELHECERAM\nMEU DEUS EU NÃO SAIO DAQUI\nSEM ALCANÇAR RESPOSTA \nDO QUE VIM BUSCAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "NÃO IMPORTA COMO VAI ACONTECER\nSE O CÉU VAI BAIXAR OU O SOL PARAR\nMAS DE UMA COISA EU TENHO CERTEZA\nMINHA VITÓRIA EU VOU ALCANÇAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "DEUS PROVERÁ\nNA VIDA DE QUEM sacrificar\nQUEM USAR A FÉ NESSE ALTAR\nO IMPOSSÍVEL VAI ACONTECER",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "DEUS PROVERÁ\nNA VIDA DE QUEM PERSEVERAR\nQUEM USAR A FÉ NESSE ALTAR\nO IMPOSSÍVEL VAI ACONTECER",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

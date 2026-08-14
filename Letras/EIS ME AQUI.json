@@ -1,0 +1,78 @@
+{
+  "id": 1582748875472,
+  "title": "EIS ME AQUI",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "1,3,4,3,6",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "A TUA LUZ ACENDEU MEU CORAÇÃO\nE EU PUDE VER EM MEIO A ESCURIDÃO\nTUA PRESENÇA, TUA FIDELIDADE, GRAÇA E AMOR\nME LEVANTARAM OUTRA VEZ\nME DERAM FORÇAS E PROSSEGUIREI\n\nEIS-ME AQUI\n\nIREI CONTIGO, ONDE QUER QUE FORES, MEU SENHOR\nO TEU CHAMADO CUMPRIREI NA ALEGRIA OU NA DOR\nE TODA VEZ QUE EU CHORAR\nOU QUISER DESANIMAR\nO TEU ESPÍRITO\nME CONSOLARÁ\n\nSE É NA FRAQUEZA DO MEU SER\nQUE MANIFESTAS TEU PODER\nEIS-ME AQUI\nDEPENDO DE TI\nPRECISO DE TI\n\nIREI CONTIGO, ONDE QUER QUE FORES, MEU SENHOR\nO TEU CHAMADO CUMPRIREI NA ALEGRIA OU NA DOR\nE TODA VEZ QUE EU CHORAR\nOU QUISER DESANIMAR\nO TEU ESPÍRITO\nME CONSOLARÁ\n\nSE É NA FRAQUEZA DO MEU SER\nQUE MANIFESTAS TEU PODER\nEIS-ME AQUI\nDEPENDO DE TI\nPRECISO DE TI\nTODA GLÓRIA, TODA VITÓRIA EU SEI\nPERTENCE A TI\nTODA HONRA , TODO O LOUVOR ENTREGO A TI\nPORQUE SEM TI, NÃO ESTARIA AQUI , ESTARIA aqui",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "A TUA LUZ ACENDEU MEU CORAÇÃO\nE EU PUDE VER EM MEIO A ESCURIDÃO\nTUA PRESENÇA, TUA FIDELIDADE, GRAÇA E AMOR\nME LEVANTARAM OUTRA VEZ\nME DERAM FORÇAS E PROSSEGUIREI",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "EIS-ME AQUI",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "IREI CONTIGO, ONDE QUER QUE FORES, MEU SENHOR\nO TEU CHAMADO CUMPRIREI NA ALEGRIA OU NA DOR\nE TODA VEZ QUE EU CHORAR\nOU QUISER DESANIMAR\nO TEU ESPÍRITO\nME CONSOLARÁ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "SE É NA FRAQUEZA DO MEU SER\nQUE MANIFESTAS TEU PODER\nEIS-ME AQUI\nDEPENDO DE TI\nPRECISO DE TI",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "IREI CONTIGO, ONDE QUER QUE FORES, MEU SENHOR\nO TEU CHAMADO CUMPRIREI NA ALEGRIA OU NA DOR\nE TODA VEZ QUE EU CHORAR\nOU QUISER DESANIMAR\nO TEU ESPÍRITO\nME CONSOLARÁ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "SE É NA FRAQUEZA DO MEU SER\nQUE MANIFESTAS TEU PODER\nEIS-ME AQUI\nDEPENDO DE TI\nPRECISO DE TI\nTODA GLÓRIA, TODA VITÓRIA EU SEI\nPERTENCE A TI\nTODA HONRA , TODO O LOUVOR ENTREGO A TI\nPORQUE SEM TI, NÃO ESTARIA AQUI , ESTARIA aqui",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

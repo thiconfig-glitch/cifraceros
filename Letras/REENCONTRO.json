@@ -1,0 +1,78 @@
+{
+  "id": 1582748875881,
+  "title": "REENCONTRO",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "EU HOJE ESTOU AQUI\nQUERENDO TE REVER\nTRAZENDO UM VAZIO\nGIGANTE EM MEU SER\n\nHOJE SEI QUE NUNCA\nDEVERIA TE DEIXAR\nPOIS UM PRAZER IGUAL\nEU NUNCA PUDE ACHAR\n\nME AFASTEI DE TI\nNÃO QUERENDO COMPREENDER\nQUE TUDO QUE PASSASTE\nFOI POR MUITO ME QUERER\n\nHOJE EU ENTENDO, SIM\nQUE FOI PRA ME CONQUISTAR\nQUE TUDO QUE SOFRESTE\nFOI Por muito me amar\n\nVEM HABITAR EM MIM\nPOIS IRÁS ME FAZER BEM\nEU QUERO DECLARAR\nQUE SEM TI NÃO SOU NINGUÉM\n\nVEM HABITAR EM MIM\nAGORA EU TE QUERO, VEM\nEU TENHO MUITO MEDO\nQUE ME REJEITES TAMBÉM",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "EU HOJE ESTOU AQUI\nQUERENDO TE REVER\nTRAZENDO UM VAZIO\nGIGANTE EM MEU SER",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "HOJE SEI QUE NUNCA\nDEVERIA TE DEIXAR\nPOIS UM PRAZER IGUAL\nEU NUNCA PUDE ACHAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "ME AFASTEI DE TI\nNÃO QUERENDO COMPREENDER\nQUE TUDO QUE PASSASTE\nFOI POR MUITO ME QUERER",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "HOJE EU ENTENDO, SIM\nQUE FOI PRA ME CONQUISTAR\nQUE TUDO QUE SOFRESTE\nFOI Por muito me amar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "VEM HABITAR EM MIM\nPOIS IRÁS ME FAZER BEM\nEU QUERO DECLARAR\nQUE SEM TI NÃO SOU NINGUÉM",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "VEM HABITAR EM MIM\nAGORA EU TE QUERO, VEM\nEU TENHO MUITO MEDO\nQUE ME REJEITES TAMBÉM",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

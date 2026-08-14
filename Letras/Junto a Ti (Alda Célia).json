@@ -1,0 +1,85 @@
+{
+  "id": 1609956745741,
+  "title": "Junto a Ti",
+  "artist": "Alda Célia",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Junto a Ti, Senhor\nJunto a Ti, Senhor\nJunto a Ti, em Tua presença\n\nQuero ser \nvaso em Tuas mãos\nPra Te exaltar e Te adorar\nVem moldar o meu coração\nE todo o meu ser vem inundar\n\nQuero mais, Senhor\nMuito mais, Senhor\nEu quero mais, de Tua presença\n\nQuero mais, Senhor\nMuito muito mais, Senhor\nEu Quero mais, de Tua presença\n\nMergulhar no rio de amor\nE me ENVOLVER no Teu poder\nTransbordar nas águas do louvor\nE em Ti me aconchegar\nTe conhecer\n\nTe conhecer\nTe conhecer\nTe conhecer\n\nTe conhecer\nTe conhecer\nTe conhecer",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Junto a Ti, Senhor\nJunto a Ti, Senhor\nJunto a Ti, em Tua presença",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Quero ser \nvaso em Tuas mãos\nPra Te exaltar e Te adorar\nVem moldar o meu coração\nE todo o meu ser vem inundar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Quero mais, Senhor\nMuito mais, Senhor\nEu quero mais, de Tua presença",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Quero mais, Senhor\nMuito muito mais, Senhor\nEu Quero mais, de Tua presença",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Mergulhar no rio de amor\nE me ENVOLVER no Teu poder\nTransbordar nas águas do louvor\nE em Ti me aconchegar\nTe conhecer",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Te conhecer\nTe conhecer\nTe conhecer",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Te conhecer\nTe conhecer\nTe conhecer",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

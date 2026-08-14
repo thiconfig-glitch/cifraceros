@@ -1,0 +1,50 @@
+{
+  "id": 1582748875449,
+  "title": "LIMPA O MEU SENTIMENTO",
+  "artist": "PASTOR DANIEL",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "LIMPA O MEU SENTIMENTO JESUS\nLIMPA O MEU SENTIMENTO JESUS\nTIRA , TIRA, TIRA\nTIRA DO MEU SENTIMENTO\nLIMPA O MEU SENTIMENTO\n\nLAVA O MEU CORAÇÃO JESUS\nLAVA  O MEU CORAÇÃO JESUS\nLAVA , LAVA , LAVA\nLAVA  O MEU CORAÇÃO",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "LIMPA O MEU SENTIMENTO JESUS\nLIMPA O MEU SENTIMENTO JESUS\nTIRA , TIRA, TIRA\nTIRA DO MEU SENTIMENTO\nLIMPA O MEU SENTIMENTO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "LAVA O MEU CORAÇÃO JESUS\nLAVA  O MEU CORAÇÃO JESUS\nLAVA , LAVA , LAVA\nLAVA  O MEU CORAÇÃO",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

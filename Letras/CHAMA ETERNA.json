@@ -1,0 +1,71 @@
+{
+  "id": 1582748875543,
+  "title": "CHAMA ETERNA",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "BRILHA EM MIM A TUA LUZ SENHOR\nLUZ QUE NUNCA SE APAGARÁ\nLUZ QUE GUIA O MEU CAMINHO\nPOR ONDE EU FOR, BRILHARÁ\n\nCHAMA ETERNA QUE EM MEU PEITO ESTÁ\nFONTE DE CALOR E AMOR SEM PAR\nÉ TÃO BOM PODER SENTIR\nQUE TU JAMAIS ME DEIXARÁ\n\nOH, SENHOR\nTU ÉS TUDO QUE HÁ DE BOM PRA MIM\nTE AMO OH PAI\nQUERO TÊ-LO SEMPRE ASSIM\n\nCHAMA ETERNA DOM DE MEU SENHOR\nME ILUMINA A ALMA E O CORAÇÃO\nNÃO PERMITA QUE ME CERQUE\nA ESCURIDÃO, OH PAI DE AMOR\n\nDERRAMA EM MIM\nA CHAMA VIVA DO PODER\nQUE VEM DE TI SENHOR\nEM TEUS BRAÇOS\nTENHO DESCANSO OH SALVADOR",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "BRILHA EM MIM A TUA LUZ SENHOR\nLUZ QUE NUNCA SE APAGARÁ\nLUZ QUE GUIA O MEU CAMINHO\nPOR ONDE EU FOR, BRILHARÁ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "CHAMA ETERNA QUE EM MEU PEITO ESTÁ\nFONTE DE CALOR E AMOR SEM PAR\nÉ TÃO BOM PODER SENTIR\nQUE TU JAMAIS ME DEIXARÁ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "OH, SENHOR\nTU ÉS TUDO QUE HÁ DE BOM PRA MIM\nTE AMO OH PAI\nQUERO TÊ-LO SEMPRE ASSIM",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "CHAMA ETERNA DOM DE MEU SENHOR\nME ILUMINA A ALMA E O CORAÇÃO\nNÃO PERMITA QUE ME CERQUE\nA ESCURIDÃO, OH PAI DE AMOR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "DERRAMA EM MIM\nA CHAMA VIVA DO PODER\nQUE VEM DE TI SENHOR\nEM TEUS BRAÇOS\nTENHO DESCANSO OH SALVADOR",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

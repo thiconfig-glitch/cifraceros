@@ -1,0 +1,64 @@
+{
+  "id": 1582748875961,
+  "title": "DE MADRUGADA",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "DE MADRUGADA\nAINDA ESCURO\nEU JÁ BUSCAVA\nA FACE DO SENHOR\nDE MADRUGADA\n\nSENHOR, SENHOR\nTEM COMPAIXÃO DE MIM\nRESOLVE OS MEUS PROBLEMAS\nENTREGO TUDO A TI\n\nA ESTRELA D'ALVA\nAINDA BRILHAVA\nE EU JÁ BUSCAVA\nA FACE DO SENHOR\n\nSENHOR, SENHOR\nTEM COMPAIXÃO DE MIM\nRESOLVE OS MEUS PROBLEMAS\nENTREGO TUDO A TI",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "DE MADRUGADA\nAINDA ESCURO\nEU JÁ BUSCAVA\nA FACE DO SENHOR\nDE MADRUGADA",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "SENHOR, SENHOR\nTEM COMPAIXÃO DE MIM\nRESOLVE OS MEUS PROBLEMAS\nENTREGO TUDO A TI",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "A ESTRELA D'ALVA\nAINDA BRILHAVA\nE EU JÁ BUSCAVA\nA FACE DO SENHOR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "SENHOR, SENHOR\nTEM COMPAIXÃO DE MIM\nRESOLVE OS MEUS PROBLEMAS\nENTREGO TUDO A TI",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

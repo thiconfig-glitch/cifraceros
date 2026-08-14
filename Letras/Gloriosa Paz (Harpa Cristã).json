@@ -1,0 +1,71 @@
+{
+  "id": 1618608042825,
+  "title": "Gloriosa Paz",
+  "artist": "Harpa Cristã",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Crendo em Cristo Jesus vim obter\nGloriosa paz, perfeita paz\nInda que dores açoitem meu ser\nTenho doce paz!\n\nPaz, paz, gloriosa paz\nPaz, paz, perfeita paz\nDesde que Cristo minh'alma salvou\nTenho doce paz!\n\nPaz insondável, qual um grande mar\nGloriosa paz, perfeita paz\nPosso nos braços de Deus repousar\nTenho doce paz!\n\nPaz inefável de Deus, que faz bem\nGloriosa paz, perfeita paz\nQue dá alento à alma também\nTenho doce paz!\n\nE, nos conflitos com o tentador\nGloriosa paz. Perfeita paz\nCristo Jesus me fará vencedor\nTenho doce paz!",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Crendo em Cristo Jesus vim obter\nGloriosa paz, perfeita paz\nInda que dores açoitem meu ser\nTenho doce paz!",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Paz, paz, gloriosa paz\nPaz, paz, perfeita paz\nDesde que Cristo minh'alma salvou\nTenho doce paz!",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Paz insondável, qual um grande mar\nGloriosa paz, perfeita paz\nPosso nos braços de Deus repousar\nTenho doce paz!",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Paz inefável de Deus, que faz bem\nGloriosa paz, perfeita paz\nQue dá alento à alma também\nTenho doce paz!",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "E, nos conflitos com o tentador\nGloriosa paz. Perfeita paz\nCristo Jesus me fará vencedor\nTenho doce paz!",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

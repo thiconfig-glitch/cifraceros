@@ -1,0 +1,78 @@
+{
+  "id": 1634477539075,
+  "title": "Sonda-me (Salmo 139)",
+  "artist": "Aline Barros",
+  "author": "Jonatas Liasch",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Senhor, Tu me sondas\nE me conheces\nSabes quando assento\nE levanto\n\nEsquadrinhas meu andar\nE o meu deitar\nConheces todos os\nMeus caminhos\n\nAinda a palavra\nNão me chegou à boca, não\nE Tu já conheces, Senhor\n\nTu me cercas\nPor trás e por diante\nE sobre mim põe Tua mão\n\nSonda-me, ó Deus\nConhece o meu coração\nProva-me os pensamentos\n\nVê se há em mim\nAlgum caminho mal\nE guia-me\nPelo caminho eterno",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Senhor, Tu me sondas\nE me conheces\nSabes quando assento\nE levanto",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Esquadrinhas meu andar\nE o meu deitar\nConheces todos os\nMeus caminhos",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Ainda a palavra\nNão me chegou à boca, não\nE Tu já conheces, Senhor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Tu me cercas\nPor trás e por diante\nE sobre mim põe Tua mão",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Sonda-me, ó Deus\nConhece o meu coração\nProva-me os pensamentos",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Vê se há em mim\nAlgum caminho mal\nE guia-me\nPelo caminho eterno",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

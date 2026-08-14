@@ -1,0 +1,71 @@
+{
+  "id": 1620950291689,
+  "title": "Melhor Lugar do Mundo",
+  "artist": "Eli Soares",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "O melhor que eu tenho pra Te dar\nO dinheiro não pode comprar\nÉ um quebrantado coração\nDisposto a te ouvir\n\nConfesso que eu quase me perdi\nO mundo fez de tudo pra me corromper\nFoi quando eu me lembrei do \nque o senhor me falou\n\nDe que vale a vida sem Deus?\nGanhar o mundo inteiro e se perder?\nNão vale nada andar sem Deus\nViver sem Ele não dá, nao dá...\n\nO melhor lugar do mundo\nÉ o centro da Tua vontade, oh Deus\nTua vontade, oh Deus\n\nO melhor lugar do mundo\nÉ perto do Pai\nMais vale um dia em Teus átrios\nQue mil lá fora",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "O melhor que eu tenho pra Te dar\nO dinheiro não pode comprar\nÉ um quebrantado coração\nDisposto a te ouvir",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Confesso que eu quase me perdi\nO mundo fez de tudo pra me corromper\nFoi quando eu me lembrei do \nque o senhor me falou",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "De que vale a vida sem Deus?\nGanhar o mundo inteiro e se perder?\nNão vale nada andar sem Deus\nViver sem Ele não dá, nao dá...",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "O melhor lugar do mundo\nÉ o centro da Tua vontade, oh Deus\nTua vontade, oh Deus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "O melhor lugar do mundo\nÉ perto do Pai\nMais vale um dia em Teus átrios\nQue mil lá fora",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

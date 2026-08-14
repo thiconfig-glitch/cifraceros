@@ -1,0 +1,78 @@
+{
+  "id": 1586992876314,
+  "title": "Consagração",
+  "artist": "Aline Barros",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Ao Rei dos Reis consagro \ntudo o que sou\nDe gratos louvores \ntransborda o meu coração\n\nA minha vida eu entrego \nnas Tuas mãos meu Senhor\nPra Te exaltar com todo o \nmeu amor\n\nEu Te louvarei \nconforme a Tua justiça\nE cantarei louvores \npois Tu és Altíssimo\n\nCelebrarei a Ti oh, Deus\ncom meu viver\nCantarei e contarei \nas Tuas obras\n \nPois, por Tuas mãos \nforam criados \nterra, céu e mar\nE todo ser que neles há\n\nToda terra celebra a Ti \ncom cânticos e júbilo\nPois Tu és o Deus criador\n\nA honra, a glória, a força \ne o poder ao Rei Jesus\nE o louvor ao Rei Jesus!",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Ao Rei dos Reis consagro \ntudo o que sou\nDe gratos louvores \ntransborda o meu coração",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "A minha vida eu entrego \nnas Tuas mãos meu Senhor\nPra Te exaltar com todo o \nmeu amor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Eu Te louvarei \nconforme a Tua justiça\nE cantarei louvores \npois Tu és Altíssimo",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Celebrarei a Ti oh, Deus\ncom meu viver\nCantarei e contarei \nas Tuas obras\n \nPois, por Tuas mãos \nforam criados \nterra, céu e mar\nE todo ser que neles há",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Toda terra celebra a Ti \ncom cânticos e júbilo\nPois Tu és o Deus criador",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "A honra, a glória, a força \ne o poder ao Rei Jesus\nE o louvor ao Rei Jesus!",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

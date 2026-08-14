@@ -1,0 +1,78 @@
+{
+  "id": 1582748876016,
+  "title": "O MURO CAIU",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "SE VOCÊ USAR A FÉ\nESSA MURALHA QUE ESTÁ NA FRENTE VAI CAIR\nPELO PODER DE DEUS NÃO VAI RESISTIR\nQUANDO A GLÓRIA DE DEUS DESCER\nNESSE LUGAR\n\nO MURO CAIU, CAIU, CAIU\nO MURO CAIU, CAIU, CAIU\nO MURO CAIU, CAIU, CAIU\nQUANDO O POVO DE DEUS\nUSOU A FÉ\n\nE A MURALHA CAIU, CAIU, CAIU\nA MURALHA CAIU, CAIU, CAIU\nA MURALHA CAIU, CAIU, CAIU\nQUANDO O POVO DE DEUS\nUSOU A FÉ\n\nE SE VOCÊ USAR A FÉ\nO DIABO VAI SAIR CORRENDO\nPORQUE O PODER DE DEUS É TREMENDO\nQUANDO A GLÓRIA A DEUS \nDESCER NESSE LUGAR\n\nO MURO CAIU, CAIU, CAIU\nO MURO CAIU, CAIU, CAIU\nO MURO CAIU, CAIU, CAIU\nQUANDO O POVO DE DEUS\nUSOU A FÉ\n\nFORAM SETE VOLTAS QUE ELES DERAM\nE NINGUÉM DESISTIU\nQUANDO CHEGOU NA SÉTIMA\nELES GRITARAM E A MURALHA CAIU",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "SE VOCÊ USAR A FÉ\nESSA MURALHA QUE ESTÁ NA FRENTE VAI CAIR\nPELO PODER DE DEUS NÃO VAI RESISTIR\nQUANDO A GLÓRIA DE DEUS DESCER\nNESSE LUGAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "O MURO CAIU, CAIU, CAIU\nO MURO CAIU, CAIU, CAIU\nO MURO CAIU, CAIU, CAIU\nQUANDO O POVO DE DEUS\nUSOU A FÉ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "E A MURALHA CAIU, CAIU, CAIU\nA MURALHA CAIU, CAIU, CAIU\nA MURALHA CAIU, CAIU, CAIU\nQUANDO O POVO DE DEUS\nUSOU A FÉ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "E SE VOCÊ USAR A FÉ\nO DIABO VAI SAIR CORRENDO\nPORQUE O PODER DE DEUS É TREMENDO\nQUANDO A GLÓRIA A DEUS \nDESCER NESSE LUGAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "O MURO CAIU, CAIU, CAIU\nO MURO CAIU, CAIU, CAIU\nO MURO CAIU, CAIU, CAIU\nQUANDO O POVO DE DEUS\nUSOU A FÉ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "FORAM SETE VOLTAS QUE ELES DERAM\nE NINGUÉM DESISTIU\nQUANDO CHEGOU NA SÉTIMA\nELES GRITARAM E A MURALHA CAIU",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

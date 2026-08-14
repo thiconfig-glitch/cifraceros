@@ -1,0 +1,92 @@
+{
+  "id": 1729504207718,
+  "title": "Um Novo Dia Virá ",
+  "artist": "Rayne Almeida",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "A tempestade vai passar\nTudo vai ser diferente\n\nNão há mal\nQue nunca se acabe\nE dor que dure pra sempre\n\nVocê não vai desistir\nNão vai se entregar\nDeus vai agir\nE vai te ajudar\n\nSe você lutar\nA vitória vem\nDeus está do teu lado\nVai ficar tudo bem\n\nNão desista, acredita\nDeus está aqui\nPara te ajudar\n\nTenha força\nTudo vai passar\nNunca perca a esperança\nUm novo dia virá\n\nE quando achar\nQue está tudo perdido\nQue não vai conseguir vencer\n\nDeus vai te levantar\nVocê vai caminhar",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "A tempestade vai passar\nTudo vai ser diferente",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Não há mal\nQue nunca se acabe\nE dor que dure pra sempre",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Você não vai desistir\nNão vai se entregar\nDeus vai agir\nE vai te ajudar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Se você lutar\nA vitória vem\nDeus está do teu lado\nVai ficar tudo bem",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Não desista, acredita\nDeus está aqui\nPara te ajudar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Tenha força\nTudo vai passar\nNunca perca a esperança\nUm novo dia virá",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "E quando achar\nQue está tudo perdido\nQue não vai conseguir vencer",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": "Deus vai te levantar\nVocê vai caminhar",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

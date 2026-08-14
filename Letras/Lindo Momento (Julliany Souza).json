@@ -1,0 +1,85 @@
+{
+  "id": 1727812255382,
+  "title": "Lindo Momento",
+  "artist": "Julliany Souza",
+  "author": "Challenge Salcedo, Enmanuel Encarnación, Laurelys Castillo",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Tão lindo é cada momento\nQue me visita\nE faz de mim o Teu altar\n\nQuero ir Contigo\nMais profundo\nSegura a minha mão\nEu sei, nunca vai soltar\n\nLeva-me ao lugar\nOnde só Você e eu\nDesfrutamos o momento\n\nTe amo, meu Papai\nEu dependo desse amor\nE sem Ti eu sei que morro\n\nMe enxergou\nNa minha tormenta\nMe livrou\nEm meus problemas\n\nTransformou minha tristeza\nE mudou minha vida inteira\n\nMe vestiu com roupas novas\nPôs azeite em minha cabeça\nMe deu um lugar na mesa\nO meu Pai não me rejeita",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Tão lindo é cada momento\nQue me visita\nE faz de mim o Teu altar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Quero ir Contigo\nMais profundo\nSegura a minha mão\nEu sei, nunca vai soltar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Leva-me ao lugar\nOnde só Você e eu\nDesfrutamos o momento",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Te amo, meu Papai\nEu dependo desse amor\nE sem Ti eu sei que morro",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Me enxergou\nNa minha tormenta\nMe livrou\nEm meus problemas",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Transformou minha tristeza\nE mudou minha vida inteira",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Me vestiu com roupas novas\nPôs azeite em minha cabeça\nMe deu um lugar na mesa\nO meu Pai não me rejeita",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "https://open.spotify.com/track/396JT3FtF2kk9lxvLQqEaH",
+      "youtube": "https://youtube.com/watch?v=xcC3Xh3PFcE",
+      "deezer": "https://deezer.com/track/2652642922"
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "id": 1582748875525,
+  "title": "QUERO CONHECER JESUS",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "1,2,3,8,9",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "O MEU ORGULHO \nME TIROU DO JARDIM\nSUA HUMILDADE \nCOLOCOU O JARDIM EM MIM\nE SE EU VENDER TUDO O QUE TENHO\nEM TROCA DO AMOR\nEU FALHARIA\n\nPOIS O AMOR NÃO SE COMPRA\nNEM SE MERECE\nO AMOR SE GANHA, \nDE GRAÇA O RECEBE\n\nEU QUERO CONHECER JESUS\nEU QUERO CONHECER JESUS\n\n \n\nPOIS O AMOR NÃO SE COMPRA\nNEM SE MERECE\nO AMOR SE GANHA\nDE GRAÇA O RECEBE\n\nEU QUERO CONHECER JESUS\nEU QUERO CONHECER JESUS\n(E SER ACHADO NELE)\nEU QUERO CONHECER JESUS\nEU QUERO CONHECER JESUS\n\nJESUS!\nSENHOR JESUS!\n\nO MEU AMADO É O MAIS BELO\nENTRE MILHARES E MILHARES\n\nJESUS!\nSENHOR JESUS!",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "O MEU ORGULHO \nME TIROU DO JARDIM\nSUA HUMILDADE \nCOLOCOU O JARDIM EM MIM\nE SE EU VENDER TUDO O QUE TENHO\nEM TROCA DO AMOR\nEU FALHARIA",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "POIS O AMOR NÃO SE COMPRA\nNEM SE MERECE\nO AMOR SE GANHA, \nDE GRAÇA O RECEBE",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "EU QUERO CONHECER JESUS\nEU QUERO CONHECER JESUS",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": " ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "POIS O AMOR NÃO SE COMPRA\nNEM SE MERECE\nO AMOR SE GANHA\nDE GRAÇA O RECEBE",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "EU QUERO CONHECER JESUS\nEU QUERO CONHECER JESUS\n(E SER ACHADO NELE)\nEU QUERO CONHECER JESUS\nEU QUERO CONHECER JESUS",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "JESUS!\nSENHOR JESUS!",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": "O MEU AMADO É O MAIS BELO\nENTRE MILHARES E MILHARES",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 9,
+        "description": "",
+        "text": "JESUS!\nSENHOR JESUS!",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

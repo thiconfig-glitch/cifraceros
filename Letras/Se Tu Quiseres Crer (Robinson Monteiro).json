@@ -1,0 +1,78 @@
+{
+  "id": 1615151193588,
+  "title": "Se Tu Quiseres Crer",
+  "artist": "Robinson Monteiro",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Muitos vão orar\nE querem encontrar alguém\nQue garanta ao máximo\nA paz nos corações\nNão há o que temer\nEmbora o medo exista em nós\nMas a fé nos faz mover\nMontanhas, com poder\n\nPode um milagre enfim acontecer\nQuando você acreditar\nA esperança em ti ninguém jamais\nIrá matar, depende só\nSe tu quiseres crer\n\nO medo acabou\nPois ele agia sempre em vão\nA esperança em ti fará aos ares flutuar\nNão posso explicar\nO que o coração de alguém\nSente quando encontra a paz\nE a fé para ir além\n\nPode um milagre enfim acontecer\nQuando você acreditar\nA esperança em ti ninguém jamais\nIrá matar, depende só\nSe tu quiseres crer\n\nA coragem te fará vencer\nconquistando o reino em redor\nÉ só assim que enxergarás\nQue nada enfim lhe faltará\nOuça a voz, a voz que diz, que diz\nContigo eu estarei\n\nPode um milagre enfim acontecer\nQuando você acreditar\nA esperança em ti ninguém jamais\nirá matar, depende só\nse tu quiseres crer",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Muitos vão orar\nE querem encontrar alguém\nQue garanta ao máximo\nA paz nos corações\nNão há o que temer\nEmbora o medo exista em nós\nMas a fé nos faz mover\nMontanhas, com poder",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Pode um milagre enfim acontecer\nQuando você acreditar\nA esperança em ti ninguém jamais\nIrá matar, depende só\nSe tu quiseres crer",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "O medo acabou\nPois ele agia sempre em vão\nA esperança em ti fará aos ares flutuar\nNão posso explicar\nO que o coração de alguém\nSente quando encontra a paz\nE a fé para ir além",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Pode um milagre enfim acontecer\nQuando você acreditar\nA esperança em ti ninguém jamais\nIrá matar, depende só\nSe tu quiseres crer",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "A coragem te fará vencer\nconquistando o reino em redor\nÉ só assim que enxergarás\nQue nada enfim lhe faltará\nOuça a voz, a voz que diz, que diz\nContigo eu estarei",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Pode um milagre enfim acontecer\nQuando você acreditar\nA esperança em ti ninguém jamais\nirá matar, depende só\nse tu quiseres crer",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

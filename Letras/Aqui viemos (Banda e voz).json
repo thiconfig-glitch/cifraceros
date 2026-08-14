@@ -1,0 +1,64 @@
+{
+  "id": 1609938942424,
+  "title": "Aqui viemos",
+  "artist": "Banda e voz",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Aqui viemos Te adorar, oh Cristo\nE proclamar o Seu poder\nNos levantamos para o Seu louvor\nSenhor Jesus Rei Salvador\nAqui viemos por amor, oh Cristo\nAceita a nossa adoração\n\nE as nossas vida no altar de Deus\nConfirme a nossa oração\nVamos adorar a Deus (bis)\nVamos invocar Seu nome\nVamos adorar a Deus\nAo que está assentado no trono\n\nE ao Cordeiro\nSeja o louvor e a honra e a glória,\nE o domínio\nPelos séculos dos séculos, amém\nTu que estás assentado no trono\nSempre reinando Soberano\nAnjos cantando, homens louvando\nDeus reunido, com Seu povo\n\nOh! Alfa, Ômega, Cristo, Filho\nOh! Vem, oh vem,\nOh! VEm, Senhor Jesus\nAnsioso espero, a sua volta\nO grande dia em que Tu, Virás\nEntão subiremos, Contigo estaremos\nPara sempre, aleluia",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Aqui viemos Te adorar, oh Cristo\nE proclamar o Seu poder\nNos levantamos para o Seu louvor\nSenhor Jesus Rei Salvador\nAqui viemos por amor, oh Cristo\nAceita a nossa adoração",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "E as nossas vida no altar de Deus\nConfirme a nossa oração\nVamos adorar a Deus (bis)\nVamos invocar Seu nome\nVamos adorar a Deus\nAo que está assentado no trono",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "E ao Cordeiro\nSeja o louvor e a honra e a glória,\nE o domínio\nPelos séculos dos séculos, amém\nTu que estás assentado no trono\nSempre reinando Soberano\nAnjos cantando, homens louvando\nDeus reunido, com Seu povo",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Oh! Alfa, Ômega, Cristo, Filho\nOh! Vem, oh vem,\nOh! VEm, Senhor Jesus\nAnsioso espero, a sua volta\nO grande dia em que Tu, Virás\nEntão subiremos, Contigo estaremos\nPara sempre, aleluia",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

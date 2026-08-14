@@ -1,0 +1,113 @@
+{
+  "id": 1607721982093,
+  "title": "Via Dolorosa",
+  "artist": "Sérgio SAAS",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Pela via dolorosa\nEm Jerusalém chegou\nCerto homem \ncarregando uma cruz\n\nMultidões queriam ver\nO homem condenado \na morrer\n\nEle estava tão ferido\nE sangrava \nsem parar\n\nCoroado com espinhos Ele foi\nE em dor podia ver\nO homem condenado a morrer\n\nPela via dolorosa\nQue é a estrada de horror\nQual ovelha veio Cristo\nRei e Senhor\n\nEle foi quem escolheu\nDar a vida por ti e por mim\nPela via dolorosa\nMeu Jesus sofreu assim\n\nEle estava tão ferido\nE sangrava sem parar\nCoroado com espinhos Ele foi\nE em dor podia ver\nO homem condenado a morrer\n\nPela via dolorosa\nQue é a estrada de horror\nQual ovelha veio Cristo\nRei e Senhor\nEle foi quem escolheu\nDar a vida por ti e por mim\nPela via dolorosa\nMeu Jesus sofreu assim\n\nJesus se entregou\nMostrou o Seu amor\nMorreu numa cruz em Jerusalém\n\nPela via dolorosa\nQue é a estrada do horror\nQual ovelha veio Cristo\nRei e Senhor\nEle foi quem escolheu\nDar a vida por ti e por mim\nPela via dolorosa meu Jesus\nPela via dolorosa meu Jesus\n\nPela via dolorosa Ele me salvou\nPela via dolorosa Ele venceu\nEle sofreu, assim",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Pela via dolorosa\nEm Jerusalém chegou\nCerto homem \ncarregando uma cruz",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Multidões queriam ver\nO homem condenado \na morrer",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Ele estava tão ferido\nE sangrava \nsem parar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Coroado com espinhos Ele foi\nE em dor podia ver\nO homem condenado a morrer",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Pela via dolorosa\nQue é a estrada de horror\nQual ovelha veio Cristo\nRei e Senhor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Ele foi quem escolheu\nDar a vida por ti e por mim\nPela via dolorosa\nMeu Jesus sofreu assim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Ele estava tão ferido\nE sangrava sem parar\nCoroado com espinhos Ele foi\nE em dor podia ver\nO homem condenado a morrer",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": "Pela via dolorosa\nQue é a estrada de horror\nQual ovelha veio Cristo\nRei e Senhor\nEle foi quem escolheu\nDar a vida por ti e por mim\nPela via dolorosa\nMeu Jesus sofreu assim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 9,
+        "description": "",
+        "text": "Jesus se entregou\nMostrou o Seu amor\nMorreu numa cruz em Jerusalém",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 10,
+        "description": "",
+        "text": "Pela via dolorosa\nQue é a estrada do horror\nQual ovelha veio Cristo\nRei e Senhor\nEle foi quem escolheu\nDar a vida por ti e por mim\nPela via dolorosa meu Jesus\nPela via dolorosa meu Jesus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 11,
+        "description": "",
+        "text": "Pela via dolorosa Ele me salvou\nPela via dolorosa Ele venceu\nEle sofreu, assim",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

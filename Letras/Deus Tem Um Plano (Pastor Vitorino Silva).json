@@ -1,0 +1,71 @@
+{
+  "id": 1586814970270,
+  "title": "Deus Tem Um Plano",
+  "artist": "Pastor Vitorino Silva",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Deus tem um plano, em cada criatura\nAos astros Ele dá o céu\nA cada rio Ele dá o leito\nE um caminho para mim traçou\n\nA minha vida eu entrego à Deus\nPois o Seu Filho entregou por mim\nNão importa onde for\n \nSeguirei meu Senhor\nSobre terra ou mar\nOnde Deus mandar, irei\n\nDeus enumera a cada grão de areia\nAs ondas ouvem Seu mandar\nAs aves em seus rumos lhe\nObedecem\nSeu carinho faz abrir a flor\n\nA minha vida ...\n\nEm Seu querer\nEncontro paz na vida\nE bençãos que já mais gozei\nEmbora venham lutas e tristezas\nTenho fé que Deus me guiará",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Deus tem um plano, em cada criatura\nAos astros Ele dá o céu\nA cada rio Ele dá o leito\nE um caminho para mim traçou",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "A minha vida eu entrego à Deus\nPois o Seu Filho entregou por mim\nNão importa onde for\n \nSeguirei meu Senhor\nSobre terra ou mar\nOnde Deus mandar, irei",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Deus enumera a cada grão de areia\nAs ondas ouvem Seu mandar\nAs aves em seus rumos lhe\nObedecem\nSeu carinho faz abrir a flor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "A minha vida ...",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Em Seu querer\nEncontro paz na vida\nE bençãos que já mais gozei\nEmbora venham lutas e tristezas\nTenho fé que Deus me guiará",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

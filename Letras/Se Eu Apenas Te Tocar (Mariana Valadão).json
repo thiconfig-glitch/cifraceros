@@ -1,0 +1,78 @@
+{
+  "id": 1615294595189,
+  "title": "Se Eu Apenas Te Tocar",
+  "artist": "Mariana Valadão",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Se eu apenas te tocar\nUm milagre viverei em minha vida\nMinha fé vai me levar\nOnde o impossível torna-se real\n\nMeu milagre vim buscar\nSó você pode mudar minha história\n\nJá sofri demais, eu sei\nMas ouvi que existe alguém que me ama\nJá sofri demais, eu sei\nMas ouvi que existe alguém que me ama, que me ama\n\nSe eu apenas te tocar\nEu sei, serei curado\nSe eu apenas te tocar\nEu sei, serei sarado\n\nSe eu apenas te tocar\nEu sei, serei curado\nSe eu apenas te tocar\nEu sei, serei sarado\n\nTeu amor me alcançou\nMinha fé me salvou\nTeu amor me alcançou\nMinha fé me salvou",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Se eu apenas te tocar\nUm milagre viverei em minha vida\nMinha fé vai me levar\nOnde o impossível torna-se real",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Meu milagre vim buscar\nSó você pode mudar minha história",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Já sofri demais, eu sei\nMas ouvi que existe alguém que me ama\nJá sofri demais, eu sei\nMas ouvi que existe alguém que me ama, que me ama",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Se eu apenas te tocar\nEu sei, serei curado\nSe eu apenas te tocar\nEu sei, serei sarado",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Se eu apenas te tocar\nEu sei, serei curado\nSe eu apenas te tocar\nEu sei, serei sarado",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Teu amor me alcançou\nMinha fé me salvou\nTeu amor me alcançou\nMinha fé me salvou",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

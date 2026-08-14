@@ -1,0 +1,85 @@
+{
+  "id": 1582748875467,
+  "title": "ADVOGADO FIEL",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "2,1,3,4,5,6,7",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "NÃO VOU ME PREOCUPAR\nCOM AS PERSEGUIÇÕES\nCOM AS PEDRAS QUE ME LANÇAM\nJESUS ESTÁ POR PERTO\nEU POSSO CONFIAR, \nEU POSSO DESCANSAR\nJESUS ESTÁ POR PERTO\n\nADVOGADO FIEL\n\nPRA FALAR\nATIRE A PRIMEIRA PEDRA\nAQUELE QUE NÃO TEM PECADO \nAQUELE QUE NÃO ERRA\n\nPRA ME DEFENDER DIANTE DO INIMIGO\nTOMAR MINHA DOR, PRA LUTAR COMIGO\nPRA ME SUSTENTAR DEBAIXO DE TUA DESTRA\nISSO É FATO CONSUMADO\nOS MEUS CASOS IMPOSSÍVEIS\nSERÃO SEMPRE ENCERRADOS\nPELO MEU ADVOGADO\n\nMEU ADVOGADO É O MEU SENHOR\nELE ME DEFENDE DO ACUSADOR\nMINHA CAUSA ENTREGUEI EM SUAS MÃOS\nPOSSO DESCANSAR O MEU CORAÇÃO\n\nMINHA AUDIÊNCIA ELE JÁ MARCOU\nE GARANTIU DE NOVO \nQUE EU SEREI O VENCEDOR\nMEU ADVOGADO MORA LÁ NO CÉU\nVERDADEIRO JUSTO, PRA SEMPRE FIEL\n\nADVOGADO FIEL, ADVOGADO FIEL\nO MEU JESUS É PRA MIM\nADVOGADO FIEL\nADVOGADO FIEL, ADVOGADO FIEL\nO MEU JESUS É PRA MIM",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "NÃO VOU ME PREOCUPAR\nCOM AS PERSEGUIÇÕES\nCOM AS PEDRAS QUE ME LANÇAM\nJESUS ESTÁ POR PERTO\nEU POSSO CONFIAR, \nEU POSSO DESCANSAR\nJESUS ESTÁ POR PERTO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "ADVOGADO FIEL",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "PRA FALAR\nATIRE A PRIMEIRA PEDRA\nAQUELE QUE NÃO TEM PECADO \nAQUELE QUE NÃO ERRA",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "PRA ME DEFENDER DIANTE DO INIMIGO\nTOMAR MINHA DOR, PRA LUTAR COMIGO\nPRA ME SUSTENTAR DEBAIXO DE TUA DESTRA\nISSO É FATO CONSUMADO\nOS MEUS CASOS IMPOSSÍVEIS\nSERÃO SEMPRE ENCERRADOS\nPELO MEU ADVOGADO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "MEU ADVOGADO É O MEU SENHOR\nELE ME DEFENDE DO ACUSADOR\nMINHA CAUSA ENTREGUEI EM SUAS MÃOS\nPOSSO DESCANSAR O MEU CORAÇÃO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "MINHA AUDIÊNCIA ELE JÁ MARCOU\nE GARANTIU DE NOVO \nQUE EU SEREI O VENCEDOR\nMEU ADVOGADO MORA LÁ NO CÉU\nVERDADEIRO JUSTO, PRA SEMPRE FIEL",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "ADVOGADO FIEL, ADVOGADO FIEL\nO MEU JESUS É PRA MIM\nADVOGADO FIEL\nADVOGADO FIEL, ADVOGADO FIEL\nO MEU JESUS É PRA MIM",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

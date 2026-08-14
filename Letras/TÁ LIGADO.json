@@ -1,0 +1,50 @@
+{
+  "id": 1582748876013,
+  "title": "TÁ LIGADO",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "TUDO QUE PEDIRES EM MEU NOME\nEU VOS DAREI\nSE CONCORDARES COM CERTEZA\nEU RESPONDEREI, \n \nVOCÊ TEM A CHAVE\nQUE ABRE A PORTA DA VITÓRIA\nESTÁ EM TUAS MÃOS \nA CHAVE DA ORAÇÃO\n\nTÁ LIGADO, OH OH, \nTÁ LIGADO\n \nO QUE LIGARES NA TERRA\nTÁ LIGADO NO CÉU\nTÁ LIGADO",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "TUDO QUE PEDIRES EM MEU NOME\nEU VOS DAREI\nSE CONCORDARES COM CERTEZA\nEU RESPONDEREI, \n \nVOCÊ TEM A CHAVE\nQUE ABRE A PORTA DA VITÓRIA\nESTÁ EM TUAS MÃOS \nA CHAVE DA ORAÇÃO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "TÁ LIGADO, OH OH, \nTÁ LIGADO\n \nO QUE LIGARES NA TERRA\nTÁ LIGADO NO CÉU\nTÁ LIGADO",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

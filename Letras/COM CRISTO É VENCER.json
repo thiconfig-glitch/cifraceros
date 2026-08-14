@@ -1,0 +1,71 @@
+{
+  "id": 1582748875454,
+  "title": "COM CRISTO É VENCER",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "EU SEI QUE A TUA VIDA POR AÍ\nNÃO É TÃO FÁCIL DE SEGUIR\nMAS AVANTE VOCÊ TEM QUE IR\nJESUS É QUEM TE AMA E TE QUER BEM\nCHUVAS DE BENÇÃO ELE TEM PRA TE DAR\n\nVOCÊ TEM QUE LUTAR E ACREDITAR\nQUE A VITÓRIA CHEGARÁ\nPOIS JESUS É TEU ESCUDO\nENTÃO LEVANTE E USE A SUA FÉ\nPORQUE JESUS CONTIGO É\nE NELE VOCÊ PODE TUDO\n\nNÃO PENSE QUE A VIDA ACABOU\nSÓ LEMBRE QUE VOCÊ É VENCEDOR\nVOCÊ NÃO É UNGIDO PRA PERDER\nCOM CRISTO É VENCER OU VENCER\n\nNÃO DIGA QUE A VITÓRIA NUNCA VEM\nPORQUE VITÓRIA PRA VOCÊ DEUS TEM\nSE O MAR DA VIDA EM SUA FRENTE ESTÁ\nDEUS ABRE O CAMINHO NESTE MAR\n\nE VOCÊ VAI PASSAR, E CANTAR DE LÁ\nSÓ O SENHOR É DEUS\nO MAR VAI SE FECHAR\nE EXTERMINAR OS INIMIGOS TEUS",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "EU SEI QUE A TUA VIDA POR AÍ\nNÃO É TÃO FÁCIL DE SEGUIR\nMAS AVANTE VOCÊ TEM QUE IR\nJESUS É QUEM TE AMA E TE QUER BEM\nCHUVAS DE BENÇÃO ELE TEM PRA TE DAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "VOCÊ TEM QUE LUTAR E ACREDITAR\nQUE A VITÓRIA CHEGARÁ\nPOIS JESUS É TEU ESCUDO\nENTÃO LEVANTE E USE A SUA FÉ\nPORQUE JESUS CONTIGO É\nE NELE VOCÊ PODE TUDO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "NÃO PENSE QUE A VIDA ACABOU\nSÓ LEMBRE QUE VOCÊ É VENCEDOR\nVOCÊ NÃO É UNGIDO PRA PERDER\nCOM CRISTO É VENCER OU VENCER",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "NÃO DIGA QUE A VITÓRIA NUNCA VEM\nPORQUE VITÓRIA PRA VOCÊ DEUS TEM\nSE O MAR DA VIDA EM SUA FRENTE ESTÁ\nDEUS ABRE O CAMINHO NESTE MAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "E VOCÊ VAI PASSAR, E CANTAR DE LÁ\nSÓ O SENHOR É DEUS\nO MAR VAI SE FECHAR\nE EXTERMINAR OS INIMIGOS TEUS",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "id": 1620251515681,
+  "title": "Caminhada",
+  "artist": "HINÁRIO",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Eu vim andado só\nPisando o pó da dura estrada\nEu vim em solidão, na aflição\nDa caminhada\n\nAté que pela fé eu encontrei\nJesus eu encontrei\nVi Jesus\nJesus me viu\nE nele me salvei\n\nEu vi Jesus\nJesus me viu\nNo mesmo instante me redimiu\nJesus me fez sorrir cantar, \ne me mostrou a salvação\nE desde então posso dizer, \nque em Cristo me salvei\n\nE foi, sim foi assim \nQue um dia em mim\nRaiou o dia\nO dia em que na cruz\nEu vi Jesus em agonia\n\nPor mim que estava ali\nAo pé da cruz, \ntão pobre pecador\nFoi ali, ali na cruz, \nque Cristo me salvou\n\nEu vi Jesus\nJesus me viu\nNo mesmo instante me redimiu\nJesus me fez sorrir cantar, \ne me mostrou a salvação\nE desde então posso dizer, \nque em Cristo me salvei\n\nEu vi Jesus\nJesus me viu\nNo mesmo instante me redimiu\nJesus me fez sorrir cantar, \nme fez chorar de emoção\nE desde então posso dizer,\nque em Cristo me salvei",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Eu vim andado só\nPisando o pó da dura estrada\nEu vim em solidão, na aflição\nDa caminhada",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Até que pela fé eu encontrei\nJesus eu encontrei\nVi Jesus\nJesus me viu\nE nele me salvei",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Eu vi Jesus\nJesus me viu\nNo mesmo instante me redimiu\nJesus me fez sorrir cantar, \ne me mostrou a salvação\nE desde então posso dizer, \nque em Cristo me salvei",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "E foi, sim foi assim \nQue um dia em mim\nRaiou o dia\nO dia em que na cruz\nEu vi Jesus em agonia",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Por mim que estava ali\nAo pé da cruz, \ntão pobre pecador\nFoi ali, ali na cruz, \nque Cristo me salvou",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Eu vi Jesus\nJesus me viu\nNo mesmo instante me redimiu\nJesus me fez sorrir cantar, \ne me mostrou a salvação\nE desde então posso dizer, \nque em Cristo me salvei",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Eu vi Jesus\nJesus me viu\nNo mesmo instante me redimiu\nJesus me fez sorrir cantar, \nme fez chorar de emoção\nE desde então posso dizer,\nque em Cristo me salvei",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

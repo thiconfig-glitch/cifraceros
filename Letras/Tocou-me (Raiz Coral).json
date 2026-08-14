@@ -1,0 +1,71 @@
+{
+  "id": 1618744520372,
+  "title": "Tocou-me",
+  "artist": "Raiz Coral",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Algemado por um peso\nOh! Quão triste eu andei\nAté sentir a mão de Cristo\nNão sou mais como eu era, eu sei\n\nTocou-me, Jesus, tocou-me\nDe paz, ele encheu meu coração\nQuando, o Senhor Jesus me tocou\nLivrou-me da escuridão\n\nDesde que encontrei a Cristo\nE senti seu terno amor\nEu tenho achado paz e vida\nPra sempre cantarei, em seu louvor\n\nTocou-me, Jesus, tocou-me\nDe paz, ele encheu meu coração\nQuando o Senhor Jesus me tocou\nLivrou-me da escuridão\n\nTocou-me, Jesus, tocou-me\nDe paz, ele encheu meu coração\nQuando o Senhor Jesus me tocou\nLivrou-me da escuridão",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Algemado por um peso\nOh! Quão triste eu andei\nAté sentir a mão de Cristo\nNão sou mais como eu era, eu sei",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Tocou-me, Jesus, tocou-me\nDe paz, ele encheu meu coração\nQuando, o Senhor Jesus me tocou\nLivrou-me da escuridão",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Desde que encontrei a Cristo\nE senti seu terno amor\nEu tenho achado paz e vida\nPra sempre cantarei, em seu louvor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Tocou-me, Jesus, tocou-me\nDe paz, ele encheu meu coração\nQuando o Senhor Jesus me tocou\nLivrou-me da escuridão",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Tocou-me, Jesus, tocou-me\nDe paz, ele encheu meu coração\nQuando o Senhor Jesus me tocou\nLivrou-me da escuridão",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

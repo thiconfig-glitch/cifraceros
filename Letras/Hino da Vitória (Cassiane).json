@@ -1,0 +1,134 @@
+{
+  "id": 1634823238576,
+  "title": "Hino da Vitória",
+  "artist": "Cassiane",
+  "author": "Rozeane Ribeiro",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "1,3,4,5,6,7,9,10,12",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Quem é o homem\nQue teve o poder\nDe andar sobre o mar\nQuem é Ele que pode\nFazer o mar se calar\nNo momento em que\nA tempestade vier te afogar\n\n \n\nEle vem com toda autoridade\nE manda acalmar\n\nQuem é homem que teve\nO poder de fazer Israel\nCaminhar por entre as\nÁguas do Mar Vermelho\n\nFez caminho no meio do mar\nPara o povo de Israel passar\n\nDo outro lado\nCom os pés enxutos\nPuderam cantar\nO hino da vitória\n\nQuando estiver frente ao mar\nE não puder atravessar\nChame este homem com fé\nSó Ele abre o mar\nNão tenha medo, então\nSe atrás vem Faraó\n\n \n\nDeus vai te atravessar\nE você vai entoar\nO hino da vitória\n\nToda vez que o Mar Vermelho\nTiver que passar\nChame logo este Homem\nPara te ajudar\nÉ nas horas mais difíceis\nQue Ele mais te vê\nPode chamar este Homem\nQue Ele tem poder\n\n \n\nSe passares pelo fogo\nNão vai te queimar\nSe nas águas tu passares\nNão vão te afogar\nFaça como Israel\nQue o mar atravessou\nE no nome do Senhor\nUm hino de vitória\nDo outro lado cantou\n\n \n\n ",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Quem é o homem\nQue teve o poder\nDe andar sobre o mar\nQuem é Ele que pode\nFazer o mar se calar\nNo momento em que\nA tempestade vier te afogar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": " ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Ele vem com toda autoridade\nE manda acalmar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Quem é homem que teve\nO poder de fazer Israel\nCaminhar por entre as\nÁguas do Mar Vermelho",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Fez caminho no meio do mar\nPara o povo de Israel passar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Do outro lado\nCom os pés enxutos\nPuderam cantar\nO hino da vitória",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Quando estiver frente ao mar\nE não puder atravessar\nChame este homem com fé\nSó Ele abre o mar\nNão tenha medo, então\nSe atrás vem Faraó",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": " ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 9,
+        "description": "",
+        "text": "Deus vai te atravessar\nE você vai entoar\nO hino da vitória",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 10,
+        "description": "",
+        "text": "Toda vez que o Mar Vermelho\nTiver que passar\nChame logo este Homem\nPara te ajudar\nÉ nas horas mais difíceis\nQue Ele mais te vê\nPode chamar este Homem\nQue Ele tem poder",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 11,
+        "description": "",
+        "text": " ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 12,
+        "description": "",
+        "text": "Se passares pelo fogo\nNão vai te queimar\nSe nas águas tu passares\nNão vão te afogar\nFaça como Israel\nQue o mar atravessou\nE no nome do Senhor\nUm hino de vitória\nDo outro lado cantou",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 13,
+        "description": "",
+        "text": " ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 14,
+        "description": "",
+        "text": " ",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

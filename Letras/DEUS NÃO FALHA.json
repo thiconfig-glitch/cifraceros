@@ -1,0 +1,71 @@
+{
+  "id": 1582748875517,
+  "title": "DEUS NÃO FALHA",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "QUERO FALAR DE UM DEUS\nQUE NUNCA DEIXOU\nUM SERVO FIEL MENDIGAR O PÃO\nELE TRANSFORMA, ELE RESSUSCITA\nELE DÁ A VIDA E DÁ SOLUÇÃO\nDEUS NÃO FALHA\n\nQUERO FALAR DE UM DEUS QUE NÃO DEIXOU\nO POVO DE ISRAEL NAS MÃOS DE FARAÓ\nELE ABRIU O MAR VERMELHO\nE COM AUTORIDADE ISRAEL PASSOU\n\nO NOSSO DEUS NÃO FALHA\nO NOSSO DEUS NÃO FALHA\nELE É ONIPOTENTE\nO NOSSO DEUS ESTÁ PRESENTE\nO NOSSO DEUS NÃO FALHA\n\nQUERO FALAR DE UM\nDEUS QUE FEZ O SOL PARAR\nELE TAMBÉM FEZ MIRIÃ DANÇAR\nTRANSFORMOU A ÁGUA EM VINHO\nE FEZ O MORTO LÁZARO RESSUSCITAR\n\nO NOSSO DEUS NÃO FALHA\nELE É ONIPOTENTE\nO NOSSO DEUS ESTÁ PRESENTE\nO NOSSO DEUS NÃO FALHA",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "QUERO FALAR DE UM DEUS\nQUE NUNCA DEIXOU\nUM SERVO FIEL MENDIGAR O PÃO\nELE TRANSFORMA, ELE RESSUSCITA\nELE DÁ A VIDA E DÁ SOLUÇÃO\nDEUS NÃO FALHA",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "QUERO FALAR DE UM DEUS QUE NÃO DEIXOU\nO POVO DE ISRAEL NAS MÃOS DE FARAÓ\nELE ABRIU O MAR VERMELHO\nE COM AUTORIDADE ISRAEL PASSOU",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "O NOSSO DEUS NÃO FALHA\nO NOSSO DEUS NÃO FALHA\nELE É ONIPOTENTE\nO NOSSO DEUS ESTÁ PRESENTE\nO NOSSO DEUS NÃO FALHA",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "QUERO FALAR DE UM\nDEUS QUE FEZ O SOL PARAR\nELE TAMBÉM FEZ MIRIÃ DANÇAR\nTRANSFORMOU A ÁGUA EM VINHO\nE FEZ O MORTO LÁZARO RESSUSCITAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "O NOSSO DEUS NÃO FALHA\nELE É ONIPOTENTE\nO NOSSO DEUS ESTÁ PRESENTE\nO NOSSO DEUS NÃO FALHA",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "id": 1785943832309,
+  "title": "Chame a Deus ²",
+  "artist": "Novo Som",
+  "author": "Kim",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Se você não sabe para onde seguir\nSe você percebe que não quer mais fingir\nLevante a cabeça e não olhe pra trás\nChame a Deus, chame a Deus\n\nSe sua vida anda prum abismo sem fim\nSe teus olhos choram e não querem esse fim\nLevante a cabeça e não olhe pra trás\nChame a Deus, chame a Deus\n\nChame a Deus que tua vida logo mudará\nEle cura a ferida, te libertará\nA verdade e a vida Ele quer te dar\nChame a Deus, chame a Deus\n\nChame a Deus que o tempo passa e não volta mais\nSua chance, sua vida pode se acabar\nEle cura a ferida, te libertará\nChame a Deus, chame a Deus\nChame a Deus!\n\nSe sua vida anda prum abismo sem fim\nSe teus olhos choram e não querem esse fim\nLevante a cabeça e não olhe pra trás\nChame a Deus, chame a Deus",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Se você não sabe para onde seguir\nSe você percebe que não quer mais fingir\nLevante a cabeça e não olhe pra trás\nChame a Deus, chame a Deus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Se sua vida anda prum abismo sem fim\nSe teus olhos choram e não querem esse fim\nLevante a cabeça e não olhe pra trás\nChame a Deus, chame a Deus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Chame a Deus que tua vida logo mudará\nEle cura a ferida, te libertará\nA verdade e a vida Ele quer te dar\nChame a Deus, chame a Deus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Chame a Deus que o tempo passa e não volta mais\nSua chance, sua vida pode se acabar\nEle cura a ferida, te libertará\nChame a Deus, chame a Deus\nChame a Deus!",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Se sua vida anda prum abismo sem fim\nSe teus olhos choram e não querem esse fim\nLevante a cabeça e não olhe pra trás\nChame a Deus, chame a Deus",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "https://open.spotify.com/track/68OIrQO6TMi9rrsQYs4Fw8",
+      "youtube": "https://youtube.com/watch?v=2JKurguh96I",
+      "deezer": "https://deezer.com/track/81326442"
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

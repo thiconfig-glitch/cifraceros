@@ -1,0 +1,64 @@
+{
+  "id": 1582748875447,
+  "title": "A CANÇÃO QUE ESCREVI PRA DEUS",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "EU QUERIA TANTO TE IMPRESSIONAR\nFAZER ALGO GRANDIOSO PRA TE SURPREENDER\nMAS ME PERCO NAS PALAVRAS, SÓ EM TENTAR\nPALAVRAS SÃO PEQUENAS PRA TE DESCREVER\n\nCOMO IMPRESSIONAR\nUM DEUS QUE FEZ\nO CÉU, A TERRA E TAMBÉM O MAR\nENTÃO OLHE BEM AQUI\nE INCLINA OS SEUS OUVIDOS PARA ME OUVIR\nESSA CANÇÃO EU ESCREVI SÓ PRA TE ELOGIAR\nE TE DIZER ASSIM\n\nLINDO\nPRA MIM NÃO HÁ NINGUÉM MAIS LINDO\nQUE O MEU DEUS\nÉ LINDO A TUA PRESENÇA,\nLINDO É O NOME TEU\nÉ LINDO TE IMAGINAR SORRINDO \nENQUANTO EU TE CHAMO DE LINDO\n\nÉ LINDA A TUA GLÓRIA, LINDO É TUA VOZ\nFOI LINDO O QUE FEZ NAQUELA CRUZ\nPOR MIM\nTODA ESSA GENTE QUE ESTÁ AQUI\nTAMBÉM TE AMA E TE ACHA O MAIS LINDO SIM",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "EU QUERIA TANTO TE IMPRESSIONAR\nFAZER ALGO GRANDIOSO PRA TE SURPREENDER\nMAS ME PERCO NAS PALAVRAS, SÓ EM TENTAR\nPALAVRAS SÃO PEQUENAS PRA TE DESCREVER",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "COMO IMPRESSIONAR\nUM DEUS QUE FEZ\nO CÉU, A TERRA E TAMBÉM O MAR\nENTÃO OLHE BEM AQUI\nE INCLINA OS SEUS OUVIDOS PARA ME OUVIR\nESSA CANÇÃO EU ESCREVI SÓ PRA TE ELOGIAR\nE TE DIZER ASSIM",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "LINDO\nPRA MIM NÃO HÁ NINGUÉM MAIS LINDO\nQUE O MEU DEUS\nÉ LINDO A TUA PRESENÇA,\nLINDO É O NOME TEU\nÉ LINDO TE IMAGINAR SORRINDO \nENQUANTO EU TE CHAMO DE LINDO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "É LINDA A TUA GLÓRIA, LINDO É TUA VOZ\nFOI LINDO O QUE FEZ NAQUELA CRUZ\nPOR MIM\nTODA ESSA GENTE QUE ESTÁ AQUI\nTAMBÉM TE AMA E TE ACHA O MAIS LINDO SIM",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

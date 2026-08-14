@@ -1,0 +1,64 @@
+{
+  "id": 1589547735364,
+  "title": "Invoca me",
+  "artist": "Leonor",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Invoca me no dia da tua angústia\nE veras o meu livramento\nEntão me glorificaras\n\nPra que ficar \nsofrendo assim desse jeito\nSentindo essa dor em seu peito\nSe tudo eu posso mudar\n\nInvoca me \nestou aqui perto e te escuto\nSou teu refugio em absoluto\nVocê so precisa me invocar\n\nTe conheço \ndos teus pensamentos eu sei\nSou nada pro mundo me faça teu rei\nMe intronize em teu coração",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Invoca me no dia da tua angústia\nE veras o meu livramento\nEntão me glorificaras",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Pra que ficar \nsofrendo assim desse jeito\nSentindo essa dor em seu peito\nSe tudo eu posso mudar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Invoca me \nestou aqui perto e te escuto\nSou teu refugio em absoluto\nVocê so precisa me invocar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Te conheço \ndos teus pensamentos eu sei\nSou nada pro mundo me faça teu rei\nMe intronize em teu coração",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": 1602873013039,
+  "title": "A Vitória",
+  "artist": "Valdeci Aguiar",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Eu recebi de Deus\nE não posso me calar\nDeus mandou dizer ao mundo\nCreia em Jesus Cristo \npara ter vitória\n\nPorque a vitória \né do povo de Deus\nA vitória é nossa\né do povo de Deus\n\n\nNinguém está livre nesta vida\nDe situações que fazem chorar\nMomentos difíceis\nNÃO ACEITO MAIS PASSAR \nMas vitória certa só Deus\nPode dar",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Eu recebi de Deus\nE não posso me calar\nDeus mandou dizer ao mundo\nCreia em Jesus Cristo \npara ter vitória",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Porque a vitória \né do povo de Deus\nA vitória é nossa\né do povo de Deus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "\nNinguém está livre nesta vida\nDe situações que fazem chorar\nMomentos difíceis\nNÃO ACEITO MAIS PASSAR \nMas vitória certa só Deus\nPode dar",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

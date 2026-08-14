@@ -1,0 +1,92 @@
+{
+  "id": 1602195842534,
+  "title": "Oração do Aflito",
+  "artist": "Nelson Ned",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Oh, meu Deus, ouve a minha oração\nLivra-me, te peço, desta minha aflição\n\nNinguém neste mundo pôde me ajudar\nO amor e a paz me dar\n\nEm nome do teu filho Jesus Cristo\nLivra-me depressa, pois estou aflito\n\nEstende a tua mão para me ajudar\nE o meu fardo aliviar\n\nJesus, Jesus\nSó tu podes me ajudar\nE das minhas angústias libertar\n\nJesus, Jesus\nSó tu és a solução\nO remédio pra curar meu coração\n\nJesus, Jesus\nSó tu podes me ajudar\nE das minhas angústias libertar\n\nJesus, Jesus\nSó tu és a solução\nO remédio pra curar meu coração",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Oh, meu Deus, ouve a minha oração\nLivra-me, te peço, desta minha aflição",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Ninguém neste mundo pôde me ajudar\nO amor e a paz me dar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Em nome do teu filho Jesus Cristo\nLivra-me depressa, pois estou aflito",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Estende a tua mão para me ajudar\nE o meu fardo aliviar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Jesus, Jesus\nSó tu podes me ajudar\nE das minhas angústias libertar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Jesus, Jesus\nSó tu és a solução\nO remédio pra curar meu coração",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Jesus, Jesus\nSó tu podes me ajudar\nE das minhas angústias libertar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": "Jesus, Jesus\nSó tu és a solução\nO remédio pra curar meu coração",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

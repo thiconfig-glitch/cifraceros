@@ -1,0 +1,64 @@
+{
+  "id": 1582748875698,
+  "title": "TEU NOME GARANTE A VITORIA",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "TEU NOME GARANTE A VITÓRIA, JESUS\nGARANTE A VIT ÓRIA\nTEU NOME GARANTE A VITÓRIA, JESUS\nGARANTE A VITÓRIA\n\nTEU sangue GARANTE A VITÓRIA, JESUS\nGARANTE A VITÓRIA\nTEU sangue GARANTE A VITÓRIA, JESUS\nGARANTE A VITÓRIA\n\nEU FUI COMPRADO\nPOR UM PREÇO MUITO GRANDE\nE ESTE PRE ÇO FOI O SANGUE\nDERRAMADO L Á NA CRUZ\n\nGARANTE A VITÓRIA, JESUS\nGARANTE A VITÓRIA\nSEU NOME GARANTE A VITÓRIA, JESUS\nGARANTE A VITÓRIA",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "TEU NOME GARANTE A VITÓRIA, JESUS\nGARANTE A VIT ÓRIA\nTEU NOME GARANTE A VITÓRIA, JESUS\nGARANTE A VITÓRIA",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "TEU sangue GARANTE A VITÓRIA, JESUS\nGARANTE A VITÓRIA\nTEU sangue GARANTE A VITÓRIA, JESUS\nGARANTE A VITÓRIA",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "EU FUI COMPRADO\nPOR UM PREÇO MUITO GRANDE\nE ESTE PRE ÇO FOI O SANGUE\nDERRAMADO L Á NA CRUZ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "GARANTE A VITÓRIA, JESUS\nGARANTE A VITÓRIA\nSEU NOME GARANTE A VITÓRIA, JESUS\nGARANTE A VITÓRIA",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

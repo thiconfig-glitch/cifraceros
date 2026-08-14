@@ -1,0 +1,85 @@
+{
+  "id": 1609450511140,
+  "title": "Eu Vou Chegar Lá",
+  "artist": "Tiago Peres",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Estou caminhando pra chegar mais perto\nMas, entre mim e a promessa há um deserto\nE eu não vou parar de avançar\n\nE a cada passo aumenta o cansaço\nOlho pro horizonte lá do outro lado\nA promessa que estou a esperar\n\nE o Deus que me trouxe ate aqui\nMe fará prosseguir, eu vou chegar lá\nA palavra que me manteve em pé aqui\nAlicerçou minha fé, eu vou chegar lá\n\nEu vou avançando \ne não penso em parar\nO choro dura só até o sol raiar\neu vou chegar lá\n\nEu já caminhei bastante \ne não dá pra voltar\nEstou quase chegando, \neu vou AVANÇAr, eu vou chegar lá\n\nE o Deus que me trouxe ate aqui\nMe fará prosseguir, eu vou chegar lá\nA palavra que me manteve em pé aqui\nAlicerçou minha fé, eu vou chegar lá\n\nEu vou avançando e não penso em parar\nO choro dura só até o sol raiar, eu vou chegar lá\nEu já caminhei bastante e não dá pra voltar\nEstou quase chegando, eu vou adorar, eu vou chegar lá",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Estou caminhando pra chegar mais perto\nMas, entre mim e a promessa há um deserto\nE eu não vou parar de avançar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "E a cada passo aumenta o cansaço\nOlho pro horizonte lá do outro lado\nA promessa que estou a esperar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "E o Deus que me trouxe ate aqui\nMe fará prosseguir, eu vou chegar lá\nA palavra que me manteve em pé aqui\nAlicerçou minha fé, eu vou chegar lá",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Eu vou avançando \ne não penso em parar\nO choro dura só até o sol raiar\neu vou chegar lá",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Eu já caminhei bastante \ne não dá pra voltar\nEstou quase chegando, \neu vou AVANÇAr, eu vou chegar lá",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "E o Deus que me trouxe ate aqui\nMe fará prosseguir, eu vou chegar lá\nA palavra que me manteve em pé aqui\nAlicerçou minha fé, eu vou chegar lá",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Eu vou avançando e não penso em parar\nO choro dura só até o sol raiar, eu vou chegar lá\nEu já caminhei bastante e não dá pra voltar\nEstou quase chegando, eu vou adorar, eu vou chegar lá",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

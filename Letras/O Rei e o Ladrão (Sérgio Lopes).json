@@ -1,0 +1,78 @@
+{
+  "id": 1623186310278,
+  "title": "O Rei e o Ladrão",
+  "artist": "Sérgio Lopes",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Meus olhos tão cansados e\nMarcados pela dor\nNão me importava mais a vida\nSem qualquer valor\n\nHumilhado em uma cruz vendo\nÓdio em cada olhar\nSó queria ter mais uma chance\n\nDe recomeçar\nTentei num grande esforço\nContemplar na outra cruz\nQuem era aquele homem que\nChamavam de Jesus\nQue comigo dividia ali solidão,\nVergonha e dor...\nPorque tantos lhe odiavam e\nOutros lhe davam amor?!\n\nTeu olhar me fez estremecer\nE crer que ali estava o próprio\nDeus\nPude esquecer minha dor\nTinha ao meu lado um Rei\nMorrendo por falar de amor\nNa luz do teu olhar, senti o teu\nPerdão\n\nLavaste com teu sangue meu\nCoração\nSei que este amor não tem fim\nCreio que és filho de Deus\nNinguém jamais me olhou\nAssim\nQuando entrares no teu reino\nLembra de mim.\n\nTeu olhar me fez estremecer\nEm meio a tanta dor tentando\nMe dizer:\n\"Eu te escolhi, filho meu\nAinda hoje no paraíso comigo\nEstarás.\"",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Meus olhos tão cansados e\nMarcados pela dor\nNão me importava mais a vida\nSem qualquer valor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Humilhado em uma cruz vendo\nÓdio em cada olhar\nSó queria ter mais uma chance",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "De recomeçar\nTentei num grande esforço\nContemplar na outra cruz\nQuem era aquele homem que\nChamavam de Jesus\nQue comigo dividia ali solidão,\nVergonha e dor...\nPorque tantos lhe odiavam e\nOutros lhe davam amor?!",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Teu olhar me fez estremecer\nE crer que ali estava o próprio\nDeus\nPude esquecer minha dor\nTinha ao meu lado um Rei\nMorrendo por falar de amor\nNa luz do teu olhar, senti o teu\nPerdão",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Lavaste com teu sangue meu\nCoração\nSei que este amor não tem fim\nCreio que és filho de Deus\nNinguém jamais me olhou\nAssim\nQuando entrares no teu reino\nLembra de mim.",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Teu olhar me fez estremecer\nEm meio a tanta dor tentando\nMe dizer:\n\"Eu te escolhi, filho meu\nAinda hoje no paraíso comigo\nEstarás.\"",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

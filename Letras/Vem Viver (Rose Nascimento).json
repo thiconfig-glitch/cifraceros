@@ -1,0 +1,85 @@
+{
+  "id": 1657641870693,
+  "title": "Vem Viver",
+  "artist": "Rose Nascimento",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Você já parou pra pensar na tua vida?\nNas coisas que você já fez?\nJá procurou e não achou saída\nE se perdeu mais uma vez\n\nDo futuro a incerteza, tua vida é só tristeza\nVocê ainda não conheceu do viver a razão\nSei que você como muitos neste mundo\nVive sem uma diretriz\nSentes prazer que logo se acaba\n\nE não consegue ser feliz\nTodo este sofrimento\nSe acaba num momento\nNa hora em que você deixar Deus\nNo teu ser habitar\n\nVem viver com Cristo é bem melhor\nVem viver com ele não há dor\nVem viver a paz que ele tem\n\nQuanto mais o tempo passa\nEste mundo perde a graça\nVem viver, Vem viver\nA paz que ele dá\n\nSeja feliz liberte-se agora\nAbra bastante o coração\nPeça pra Deus que venha nesta hora\nPara tomar a direção\n\nNunca mais serás o mesmo\nNem caminharás a esmo\nLembranças do passado\nNão não mais\nTe atormentarão",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Você já parou pra pensar na tua vida?\nNas coisas que você já fez?\nJá procurou e não achou saída\nE se perdeu mais uma vez",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Do futuro a incerteza, tua vida é só tristeza\nVocê ainda não conheceu do viver a razão\nSei que você como muitos neste mundo\nVive sem uma diretriz\nSentes prazer que logo se acaba",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "E não consegue ser feliz\nTodo este sofrimento\nSe acaba num momento\nNa hora em que você deixar Deus\nNo teu ser habitar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Vem viver com Cristo é bem melhor\nVem viver com ele não há dor\nVem viver a paz que ele tem",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Quanto mais o tempo passa\nEste mundo perde a graça\nVem viver, Vem viver\nA paz que ele dá",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Seja feliz liberte-se agora\nAbra bastante o coração\nPeça pra Deus que venha nesta hora\nPara tomar a direção",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Nunca mais serás o mesmo\nNem caminharás a esmo\nLembranças do passado\nNão não mais\nTe atormentarão",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

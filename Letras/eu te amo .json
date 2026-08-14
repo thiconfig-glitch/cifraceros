@@ -1,0 +1,78 @@
+{
+  "id": 1696170155082,
+  "title": "eu te amo ",
+  "artist": "",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Eu te amo mais que \na abelha ama a flor\nEu te amo e como é \nforte o meu amor\nEu te amo mais que tudo\nMais que a vida que há em mim\n\nEu te amo e nada vence\nEste amor que não tem fim\nEu te amo, pois trocaste\nO meu fardo pela cruz\nE é assim que eu te amo, Jesus\n\nEu te amo mais que um \npreso anseia ver, \nToda luz da liberdade e assim viver\nEu te amo mais que o nauta\nAma a pátria que deixou\n\nMais que um pobre exilado\nAma o chão que o desprezou\nEu te amo mais que um cego\nPossa desejar a luz\nE é assim que eu te amo, Jesus\n\nEu te amo mais que um \npreso anseia ver\nToda luz da liberdade e assim viver\nEu te amo mais que o nauta\nAma a pátria que deixou\n\nMais que um pobre exilado\nAma o chão que o desprezou\nEu te amo mais que um cego\nPossa desejar a luz\nE é assim que eu te amo, Jesus",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Eu te amo mais que \na abelha ama a flor\nEu te amo e como é \nforte o meu amor\nEu te amo mais que tudo\nMais que a vida que há em mim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Eu te amo e nada vence\nEste amor que não tem fim\nEu te amo, pois trocaste\nO meu fardo pela cruz\nE é assim que eu te amo, Jesus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Eu te amo mais que um \npreso anseia ver, \nToda luz da liberdade e assim viver\nEu te amo mais que o nauta\nAma a pátria que deixou",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Mais que um pobre exilado\nAma o chão que o desprezou\nEu te amo mais que um cego\nPossa desejar a luz\nE é assim que eu te amo, Jesus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Eu te amo mais que um \npreso anseia ver\nToda luz da liberdade e assim viver\nEu te amo mais que o nauta\nAma a pátria que deixou",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Mais que um pobre exilado\nAma o chão que o desprezou\nEu te amo mais que um cego\nPossa desejar a luz\nE é assim que eu te amo, Jesus",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

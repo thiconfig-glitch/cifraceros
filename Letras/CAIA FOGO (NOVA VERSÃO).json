@@ -1,0 +1,71 @@
+{
+  "id": 1582748875819,
+  "title": "CAIA FOGO",
+  "artist": "NOVA VERSÃO",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "EU ESTOU EM TEU ALTAR\nEU QUERO VER TUA GLÓRIA\nEU ESTOU EM TEU ALTAR\nEU QUERO VER TUA GLÓRIA\n\nSOU TEU TEMPLO, TEU SACRIFÍCIO\nO TEU ALTAR VEM QUEIMAR EM MIM\nSOU TEU TEMPLO, TEU SACRIFÍCIO\nO TEU ALTAR VEM QUEIMAR EM MIM\n\nEU ESTOU EM TEU ALTAR\nEU QUERO VER TUA GLÓRIA\nEU ESTOU EM TEU ALTAR\nEU QUERO VER TUA GLÓRIA\n\nSOU TEU TEMPLO, TEU SACRIFÍCIO\nO TEU ALTAR VEM QUEIMAR EM MIM\nSOU TEU TEMPLO, TEU SACRIFÍCIO\nO TEU ALTAR VEM QUEIMAR EM MIM\n\nCAIA FOGO DOS CÉUS\nQUEIMA ESSE ALTAR\nMOSTRA PRA ESSE POVO\nQUE HÁ DEUS EM ISRAEL",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "EU ESTOU EM TEU ALTAR\nEU QUERO VER TUA GLÓRIA\nEU ESTOU EM TEU ALTAR\nEU QUERO VER TUA GLÓRIA",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "SOU TEU TEMPLO, TEU SACRIFÍCIO\nO TEU ALTAR VEM QUEIMAR EM MIM\nSOU TEU TEMPLO, TEU SACRIFÍCIO\nO TEU ALTAR VEM QUEIMAR EM MIM",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "EU ESTOU EM TEU ALTAR\nEU QUERO VER TUA GLÓRIA\nEU ESTOU EM TEU ALTAR\nEU QUERO VER TUA GLÓRIA",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "SOU TEU TEMPLO, TEU SACRIFÍCIO\nO TEU ALTAR VEM QUEIMAR EM MIM\nSOU TEU TEMPLO, TEU SACRIFÍCIO\nO TEU ALTAR VEM QUEIMAR EM MIM",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "CAIA FOGO DOS CÉUS\nQUEIMA ESSE ALTAR\nMOSTRA PRA ESSE POVO\nQUE HÁ DEUS EM ISRAEL",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

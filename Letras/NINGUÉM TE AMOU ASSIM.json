@@ -1,0 +1,71 @@
+{
+  "id": 1582748875914,
+  "title": "NINGUÉM TE AMOU ASSIM",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "SE VOCÊ QUER BRINCAR\nEU POSSO SER A CHUVA\nMOLHANDO OS TEUS CABELOS\nSENTIR TEU CORAÇÃO\nSENTIR O TEU APELO\n\nE SE QUISER AMAR\nVOU SER TEU NAMORADO\nE SE QUISER CHOVER\nFAÇO EM PAPEL MARCHÊ\nUM CÉU ENLUARADO\n\nINVENTO UM MUNDO SÓ PRA GENTE\nTUDO DIFERENTE, NOSSO PARAÍSO\nVENTO QUE VENTOU SAUDADE\nTRAZ FELICIDADE\nMEU PRIMEIRO AMOR\n\nNINGUÉM TE AMOU ASSIM\nDO JEITO QUE EU TE AMO\nCUIDA DO QUE É TEU\nNO FUNDO EU SEI QUE EU\nSOU PARTE DOS TEUS PLANOS\n\nNINGUÉM TE AMOU ASSIM\nDO JEITO QUE EU TE AMO\nNÃO DEIXA EU TE DEIXAR\nNÃO DÁ PRA SEPARARO\nAZUL DO OCEANO",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "SE VOCÊ QUER BRINCAR\nEU POSSO SER A CHUVA\nMOLHANDO OS TEUS CABELOS\nSENTIR TEU CORAÇÃO\nSENTIR O TEU APELO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "E SE QUISER AMAR\nVOU SER TEU NAMORADO\nE SE QUISER CHOVER\nFAÇO EM PAPEL MARCHÊ\nUM CÉU ENLUARADO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "INVENTO UM MUNDO SÓ PRA GENTE\nTUDO DIFERENTE, NOSSO PARAÍSO\nVENTO QUE VENTOU SAUDADE\nTRAZ FELICIDADE\nMEU PRIMEIRO AMOR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "NINGUÉM TE AMOU ASSIM\nDO JEITO QUE EU TE AMO\nCUIDA DO QUE É TEU\nNO FUNDO EU SEI QUE EU\nSOU PARTE DOS TEUS PLANOS",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "NINGUÉM TE AMOU ASSIM\nDO JEITO QUE EU TE AMO\nNÃO DEIXA EU TE DEIXAR\nNÃO DÁ PRA SEPARARO\nAZUL DO OCEANO",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

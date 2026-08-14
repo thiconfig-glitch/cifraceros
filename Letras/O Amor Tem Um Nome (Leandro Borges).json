@@ -1,0 +1,78 @@
+{
+  "id": 1716593818631,
+  "title": "O Amor Tem Um Nome",
+  "artist": "Leandro Borges",
+  "author": "Leandro Borges",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Não sei o que\nEle viu em mim\nNão sei por qual razão\nMe escolheu\n\nPra me salvar\nEle escolheu a cruz\nPra me dar vida\nFoi que Ele morreu\n\nEu não tinha nada\nPara oferecer\nEu sei que nada fiz\nPra merecer\n\nE os meus defeitos\nEle não olhou\nSimplesmente Ele me amou\n\nIsso é amor, isso é amor\nE tem um nome\n\nO amor tem um nome\nO amor tem um nome\nE o nome dEle é Jesus\nO nome dEle é Jesus",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Não sei o que\nEle viu em mim\nNão sei por qual razão\nMe escolheu",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Pra me salvar\nEle escolheu a cruz\nPra me dar vida\nFoi que Ele morreu",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Eu não tinha nada\nPara oferecer\nEu sei que nada fiz\nPra merecer",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "E os meus defeitos\nEle não olhou\nSimplesmente Ele me amou",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Isso é amor, isso é amor\nE tem um nome",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "O amor tem um nome\nO amor tem um nome\nE o nome dEle é Jesus\nO nome dEle é Jesus",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "https://open.spotify.com/track/6iNLDkJjEGaqguwPWwfrXx",
+      "youtube": "https://youtube.com/watch?v=U1vXMdhFHrg",
+      "deezer": "https://deezer.com/track/2184722957"
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

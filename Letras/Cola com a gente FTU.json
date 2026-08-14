@@ -1,0 +1,78 @@
+{
+  "id": 1621701125127,
+  "title": "Cola com a gente FTU",
+  "artist": "",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Oh oh oh cola com a gente\nVenha ser um adolescente diferente \nOh oh oh alegria total\nSomos o Força Teen Universal\n\nBora vem, conhecer\nFTU eu apresento pra você\nPresta atenção eu vou falar devagarinho\nNo FTU você não está sozinho\n\nVenha ver, experimentar, \nReceber uma Palavra que irá te ajudar!\nE se por acaso você está triste\nVenha aprender a superar os teus limites\n\nA alegria aqui é bem real, venha e saia logo, \ndesse mundo virtual.\nE pra acabar com a tristeza e depressão. \nReceba Jesus no coração\n\nVenha Logo, vamos começar! \nToda esta força não pode parar!\nE se você ficou curioso\nVou repetir esse refrão tudo novo\n\nOh oh oh cola com a gente\nVenha ser um adolescente diferente \nOh oh oh alegria total\nSomos o Força Teen Universal",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Oh oh oh cola com a gente\nVenha ser um adolescente diferente \nOh oh oh alegria total\nSomos o Força Teen Universal",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Bora vem, conhecer\nFTU eu apresento pra você\nPresta atenção eu vou falar devagarinho\nNo FTU você não está sozinho",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Venha ver, experimentar, \nReceber uma Palavra que irá te ajudar!\nE se por acaso você está triste\nVenha aprender a superar os teus limites",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "A alegria aqui é bem real, venha e saia logo, \ndesse mundo virtual.\nE pra acabar com a tristeza e depressão. \nReceba Jesus no coração",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Venha Logo, vamos começar! \nToda esta força não pode parar!\nE se você ficou curioso\nVou repetir esse refrão tudo novo",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Oh oh oh cola com a gente\nVenha ser um adolescente diferente \nOh oh oh alegria total\nSomos o Força Teen Universal",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

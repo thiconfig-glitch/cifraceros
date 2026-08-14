@@ -1,0 +1,64 @@
+{
+  "id": 1619635852220,
+  "title": "Deus Me Ama",
+  "artist": "Thalles Roberto",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Mesmo sendo assim\nPobre pecador, Deus me ama\nMesmo sendo falho\nMesmo sem merecer, Deus me ama\n\nSe estou forte\nSe eu estou de pé, Deus me ama\nSe estou fraco\nSe eu estou caído, ele não deixa de me amar\n\nSem o seu amor, sem o seu perdão\nO que seria de mim?\nDeus me amou tanto que entregou seu Filho\nPara morrer em meu lugar\n\nDeus me ama\nE o seu amor é tão grande, incondicional\nDeus me ama\nE ele está sempre de braços abertos pra mim",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Mesmo sendo assim\nPobre pecador, Deus me ama\nMesmo sendo falho\nMesmo sem merecer, Deus me ama",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Se estou forte\nSe eu estou de pé, Deus me ama\nSe estou fraco\nSe eu estou caído, ele não deixa de me amar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Sem o seu amor, sem o seu perdão\nO que seria de mim?\nDeus me amou tanto que entregou seu Filho\nPara morrer em meu lugar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Deus me ama\nE o seu amor é tão grande, incondicional\nDeus me ama\nE ele está sempre de braços abertos pra mim",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "id": 1667073894721,
+  "title": "Quero Louvar-te",
+  "artist": "Paulo César Baruk",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": " \n\nQuero louvar-te, sempre mais e mais\nQuero louvar-te, sempre mais e mais\nBuscar o teu querer, tua graça conhecer\nQuero louvar-te\n\nQuero adorar-te, sempre mais e mais\nQuero adorar-te, sempre mais e mais\nBuscar o teu querer, tua graça conhecer\nQuero adorar-te\n\nAs aves do céu\ncantam para ti\nAs feras do campo\nrefletem teu poder\nQuero louvar\nquero levantar as minhas mãos a ti\n\nAs aves do céu, cantam para ti\nAs feras do campo, refletem teu poder\nQuero cantar, quero levantar as minhas mãos a ti\n\nQuero louvar-te, sempre mais e mais\nEu quero louvar-te, sempre mais e mais\nBuscar o teu querer, tua graça conhecer\n\nAs aves do céu, cantam para ti\nAs feras do campo, refletem teu poder\nQuero louvar, quero levantar as minhas mãos a ti\n\nAs aves do céu, cantam para ti\nAs feras do campo, refletem teu poder\nQuero cantar, quero levantar as minhas mãos a ti",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": " ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Quero louvar-te, sempre mais e mais\nQuero louvar-te, sempre mais e mais\nBuscar o teu querer, tua graça conhecer\nQuero louvar-te",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Quero adorar-te, sempre mais e mais\nQuero adorar-te, sempre mais e mais\nBuscar o teu querer, tua graça conhecer\nQuero adorar-te",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "As aves do céu\ncantam para ti\nAs feras do campo\nrefletem teu poder\nQuero louvar\nquero levantar as minhas mãos a ti",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "As aves do céu, cantam para ti\nAs feras do campo, refletem teu poder\nQuero cantar, quero levantar as minhas mãos a ti",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Quero louvar-te, sempre mais e mais\nEu quero louvar-te, sempre mais e mais\nBuscar o teu querer, tua graça conhecer",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "As aves do céu, cantam para ti\nAs feras do campo, refletem teu poder\nQuero louvar, quero levantar as minhas mãos a ti",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": "As aves do céu, cantam para ti\nAs feras do campo, refletem teu poder\nQuero cantar, quero levantar as minhas mãos a ti",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

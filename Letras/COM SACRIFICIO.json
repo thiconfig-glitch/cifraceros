@@ -1,0 +1,71 @@
+{
+  "id": 1582748875680,
+  "title": "COM SACRIFICIO",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "TODO MUNDO NESSA VIDA\nTEM UM SONHO DE VENCER\nVER SEU NOME NA HISTÓRIA\nQUEM NÃO QUERIA VER?\n\nMAS SOMENTE O REALIZA\nQUEM NÃO VIVE DE EMOÇÃO\nSÓ QUEM USA A FÉ\nNESSA VIDA É UM CAMPEÃO\n\nE SE O MUNDO AO SEU REDOR\nDIZ QUE VOCÊ NÃO É CAPAZ\nO DEUS QUE TUDO FEZ\nTE ESCOLHEU NÃO VOLTE ATRÁS\n\nMOSTRE AGORA A SUA FÉ\nSE LANCE NAS MÃOS DO SENHOR\nSEU SENHO É POSSÍVEL\nVOCÊ É MAIS QUE UM VENCEDOR\n\nCOM SACRIFÍCIO É ASSIM QUE A VITÓRIA VEM\nNADA É IMPOSSÍVEL VOCÊ PODE TAMBÉM\nREALIZAR OS SONHOS QUE DEUS TE CONCEDEU\nELE É FÍEL E CUMPRE O QUE PROMETEU",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "TODO MUNDO NESSA VIDA\nTEM UM SONHO DE VENCER\nVER SEU NOME NA HISTÓRIA\nQUEM NÃO QUERIA VER?",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "MAS SOMENTE O REALIZA\nQUEM NÃO VIVE DE EMOÇÃO\nSÓ QUEM USA A FÉ\nNESSA VIDA É UM CAMPEÃO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "E SE O MUNDO AO SEU REDOR\nDIZ QUE VOCÊ NÃO É CAPAZ\nO DEUS QUE TUDO FEZ\nTE ESCOLHEU NÃO VOLTE ATRÁS",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "MOSTRE AGORA A SUA FÉ\nSE LANCE NAS MÃOS DO SENHOR\nSEU SENHO É POSSÍVEL\nVOCÊ É MAIS QUE UM VENCEDOR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "COM SACRIFÍCIO É ASSIM QUE A VITÓRIA VEM\nNADA É IMPOSSÍVEL VOCÊ PODE TAMBÉM\nREALIZAR OS SONHOS QUE DEUS TE CONCEDEU\nELE É FÍEL E CUMPRE O QUE PROMETEU",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

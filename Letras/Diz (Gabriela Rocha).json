@@ -1,0 +1,85 @@
+{
+  "id": 1607776977101,
+  "title": "Diz",
+  "artist": "Gabriela Rocha",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Luto contra vozes que me dizem\nque eu não sou capaz\nContra enganos que me \ndizem que eu não vou chegar lá\n\nMeus altos e baixos \nnunca vão medir o meu valor\nA Tua voz me lembra\ne me diz quem realmente sou, \n\nDiz que amado sou\nSem que eu me sinta assim\nDiz que forte sou\nQuando há fraqueza em mim\n\nE que seguro estou\nSe frágil eu me sentir\nQue não estou só\nPois eu pertenço a Ti\n\nEu creio sim\nEu creio sim\nNo que diz sobre mim\n\nTudo que me importa agora \né o que Tua voz me diz\nA minha identidade e o valor\nsó encontro em Ti\n\nTudo que eu tenho rendo aos Teus pés\na mais ninguém Te dei meus fracassos \nas vitórias te darei também",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Luto contra vozes que me dizem\nque eu não sou capaz\nContra enganos que me \ndizem que eu não vou chegar lá",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Meus altos e baixos \nnunca vão medir o meu valor\nA Tua voz me lembra\ne me diz quem realmente sou, ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Diz que amado sou\nSem que eu me sinta assim\nDiz que forte sou\nQuando há fraqueza em mim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "E que seguro estou\nSe frágil eu me sentir\nQue não estou só\nPois eu pertenço a Ti",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Eu creio sim\nEu creio sim\nNo que diz sobre mim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Tudo que me importa agora \né o que Tua voz me diz\nA minha identidade e o valor\nsó encontro em Ti",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Tudo que eu tenho rendo aos Teus pés\na mais ninguém Te dei meus fracassos \nas vitórias te darei também",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

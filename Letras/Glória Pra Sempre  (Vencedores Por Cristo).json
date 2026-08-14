@@ -1,0 +1,57 @@
+{
+  "id": 1654725940037,
+  "title": "Glória Pra Sempre ",
+  "artist": "Vencedores Por Cristo",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Glória pra sempre\nao Cordeiro de Deus\nA Jesus, o Senhor\nao Leão de Judá\nA raiz de Davi\nque venceu e o livro abrirá\n\nO céu, a terra e o mar\ne tudo o que neles há\nO adorarão, e confessarão\nJesus Cristo é o Senhor!\n\nEle é O Senhor, Ele é O Senhor!\nRessurreto dentre os mortos\nEle é O Senhor\nTodo joelho se dobrará\ntoda língua confessará\nQue Jesus Cristo é O Senhor!",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Glória pra sempre\nao Cordeiro de Deus\nA Jesus, o Senhor\nao Leão de Judá\nA raiz de Davi\nque venceu e o livro abrirá",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "O céu, a terra e o mar\ne tudo o que neles há\nO adorarão, e confessarão\nJesus Cristo é o Senhor!",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Ele é O Senhor, Ele é O Senhor!\nRessurreto dentre os mortos\nEle é O Senhor\nTodo joelho se dobrará\ntoda língua confessará\nQue Jesus Cristo é O Senhor!",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

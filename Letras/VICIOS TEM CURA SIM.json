@@ -1,0 +1,64 @@
+{
+  "id": 1582748875928,
+  "title": "VICIOS TEM CURA SIM",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "NÃO IMPORTA O QUE DISSERAM PRA VOCÊ\nQUE NÃO EXISTE JEITO PRO SEU CASO\nNÃO IMPORTA QUANTAS VEZES VOCÊ JÁ TENTOU\nE NÃO CONSEGUIU\n\nSei, tantas vezes já chorou sozinho\nE até se perguntava no caminho\nSerá que um dia eu vou conseguir\n\nVicio tem cura sim\nÉ só olhar pra mim\nVeja o que Deus me fez\nEu nasci outra vez\n\nVicio tem cura sim\nNão diga que é o fim\nChegou o tempo de viver\nUma nova história Deus tem pra você",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "NÃO IMPORTA O QUE DISSERAM PRA VOCÊ\nQUE NÃO EXISTE JEITO PRO SEU CASO\nNÃO IMPORTA QUANTAS VEZES VOCÊ JÁ TENTOU\nE NÃO CONSEGUIU",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Sei, tantas vezes já chorou sozinho\nE até se perguntava no caminho\nSerá que um dia eu vou conseguir",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Vicio tem cura sim\nÉ só olhar pra mim\nVeja o que Deus me fez\nEu nasci outra vez",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Vicio tem cura sim\nNão diga que é o fim\nChegou o tempo de viver\nUma nova história Deus tem pra você",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

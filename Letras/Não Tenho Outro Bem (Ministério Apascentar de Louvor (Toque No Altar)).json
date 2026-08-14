@@ -1,0 +1,71 @@
+{
+  "id": 1616362954813,
+  "title": "Não Tenho Outro Bem",
+  "artist": "Ministério Apascentar de Louvor (Toque No Altar)",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Não importa o que sou\nNem o que tenho\nDiante do que tu és\nTrago minhas vestes\nMinha coroa\nE ofereço a ti\n\nCom os vinte e quatro anciãos\nE a entrada em Jerusalém\nA mulher na casa de Simão\nEu me lanço aos teus pés\n\nNão tenho outro bem além de ti\nNão tenho outro bem além de ti\nNão tenho outro bem além de ti\nSenhor\n\nEu te amo (eu te amo)\nEu te quero (eu te quero)\nEu te adoro (eu te adoro)\nMeu senhor\n\nMeu amor maior\nMeu amor maior",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Não importa o que sou\nNem o que tenho\nDiante do que tu és\nTrago minhas vestes\nMinha coroa\nE ofereço a ti",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Com os vinte e quatro anciãos\nE a entrada em Jerusalém\nA mulher na casa de Simão\nEu me lanço aos teus pés",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Não tenho outro bem além de ti\nNão tenho outro bem além de ti\nNão tenho outro bem além de ti\nSenhor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Eu te amo (eu te amo)\nEu te quero (eu te quero)\nEu te adoro (eu te adoro)\nMeu senhor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Meu amor maior\nMeu amor maior",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

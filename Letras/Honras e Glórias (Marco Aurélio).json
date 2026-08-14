@@ -1,0 +1,85 @@
+{
+  "id": 1712488673171,
+  "title": "Honras e Glórias",
+  "artist": "Marco Aurélio",
+  "author": "Marco Aurélio",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Honras e glórias ao Senhor Jesus\nHonras e glórias ao Senhor Jesus\nHonras e glórias ao Senhor Jesus, Jesus\n\nHonras e glórias por \ntudo que fez\nHonras e glórias por \ntudo que faz\n\nHonras e glórias por \ntudo que vai fazer, Jesus\n\nHonras e glórias por tudo que foi\nHonras e glórias por tudo que é\nHonras e glórias para sempre ao Rei, Jesus\n\nHonras e glórias pois \nestás aqui\nHonras e glórias pois \nestás aqui\n\nTua presença JÁ TEMOS AQUI\nJesus\n\nJesus, Jesus, Jesus, Jesus",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Honras e glórias ao Senhor Jesus\nHonras e glórias ao Senhor Jesus\nHonras e glórias ao Senhor Jesus, Jesus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Honras e glórias por \ntudo que fez\nHonras e glórias por \ntudo que faz",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Honras e glórias por \ntudo que vai fazer, Jesus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Honras e glórias por tudo que foi\nHonras e glórias por tudo que é\nHonras e glórias para sempre ao Rei, Jesus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Honras e glórias pois \nestás aqui\nHonras e glórias pois \nestás aqui",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Tua presença JÁ TEMOS AQUI\nJesus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Jesus, Jesus, Jesus, Jesus",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "https://open.spotify.com/track/3H9MtYPfSDwfEbSr43azD9",
+      "youtube": "https://youtube.com/watch?v=NPEnp90pd6M",
+      "deezer": "https://deezer.com/track/93550390"
+    },
+    "backing_track": {
+      "spotify": "https://open.spotify.com/track/7wGBtEtvsXqq8O4GKpmlbX",
+      "youtube": "https://youtube.com/watch?v=fqN_E8-IMWw",
+      "deezer": "https://deezer.com/track/402493072"
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

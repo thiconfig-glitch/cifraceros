@@ -1,0 +1,64 @@
+{
+  "id": 1618138493186,
+  "title": "Renova o Teu povo",
+  "artist": "Adilson Silva",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Meu Deus aqui estou, \ndiante do Teu altar\nMe despojei de tudo, \npra poder Te encontrar\n\nMinh'alma está vazia \npra ser cheia do Senhor\nMe dá Tua alegria \nfaz de mim um vencedor\n\nToca Jesus, no meu coração\nVem me possuir, \ne me dar a Tua unção\n\nToca Jesus, e faz tudo novo\nDerrama o Teu espírito\nE renova o Teu povo",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Meu Deus aqui estou, \ndiante do Teu altar\nMe despojei de tudo, \npra poder Te encontrar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Minh'alma está vazia \npra ser cheia do Senhor\nMe dá Tua alegria \nfaz de mim um vencedor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Toca Jesus, no meu coração\nVem me possuir, \ne me dar a Tua unção",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Toca Jesus, e faz tudo novo\nDerrama o Teu espírito\nE renova o Teu povo",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

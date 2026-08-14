@@ -1,0 +1,71 @@
+{
+  "id": 1582748875799,
+  "title": "EU QUERO UMA DECISÃO",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "EU QUERO UMA DECISÃO\nPRA MINHA VIDA DE AFLIÇÃO\nVEM ME ESTENDER AS SUAS MÃOS \nPRA ME TIRAR DA HUMILHAÇÃO\nEU QUERO UMA DECISÃO\n\nSÓ TENHO VISTO TANTA DOR\nPRECISO TANTO OH MEU SENHOR\nHOJE É A DECISÃO\nNO TEU ALTAR SACRIFICAR\n\nJUNTO A TI SEI, POSSO VENCER\nMEU SENHOR VOU\nTE OBEDECER\nVOU LEVAR MEU MELHOR\nENTREGA-LO A TI\n\nEU CREIO E CONFIO EM TI\nE DESSA VEZ VOU ME LANÇAR\nEU NÃO VOU MAIS ME IMPORTAR (NÃO VOU)\nCOM O QUE OS OUTROS VÃO PENSAR\n\nEU CREIO E CONFIO EM TI\nE DESSA VEZ VOU ME LANÇAR\nA MINHA VIDA VAI MUDAR (VAI SIM)\nPORQUE ESTOU EM TEU ALTAR",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "EU QUERO UMA DECISÃO\nPRA MINHA VIDA DE AFLIÇÃO\nVEM ME ESTENDER AS SUAS MÃOS \nPRA ME TIRAR DA HUMILHAÇÃO\nEU QUERO UMA DECISÃO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "SÓ TENHO VISTO TANTA DOR\nPRECISO TANTO OH MEU SENHOR\nHOJE É A DECISÃO\nNO TEU ALTAR SACRIFICAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "JUNTO A TI SEI, POSSO VENCER\nMEU SENHOR VOU\nTE OBEDECER\nVOU LEVAR MEU MELHOR\nENTREGA-LO A TI",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "EU CREIO E CONFIO EM TI\nE DESSA VEZ VOU ME LANÇAR\nEU NÃO VOU MAIS ME IMPORTAR (NÃO VOU)\nCOM O QUE OS OUTROS VÃO PENSAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "EU CREIO E CONFIO EM TI\nE DESSA VEZ VOU ME LANÇAR\nA MINHA VIDA VAI MUDAR (VAI SIM)\nPORQUE ESTOU EM TEU ALTAR",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

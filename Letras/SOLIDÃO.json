@@ -1,0 +1,57 @@
+{
+  "id": 1582748875991,
+  "title": "SOLIDÃO",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "SOLIDÃO VAI EMBORA\nSOLIDÃO AQUI NÃO É O TEU LUGAR\nESTE CORAÇÃO JÁ PODE SORRIR\nESTE CORAÇÃO JÁ PODE SONHAR\n\nJESUS CHEGOU E MUDOU COMPLETAMENTE\nO QUE ERA TRISTE AGORA FICOU DIFERENTE\nÉ SÓ CANTAR\n\nDEIXA QUE DEUS VAI CUIDAR DE VOCÊ\nA SUA VIDA VAI MUDAR BASTA CRER\nOLHANDO O CÉU AZUL O MAR E AS ESTRELAS\nVEJA O PODER DE DEUS QUEBRANDO\nTODAS AS BARREIRAS PRA QUE CHORAR!\nNÃO CHORE MAIS\nPRA QUE CHORAR?",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "SOLIDÃO VAI EMBORA\nSOLIDÃO AQUI NÃO É O TEU LUGAR\nESTE CORAÇÃO JÁ PODE SORRIR\nESTE CORAÇÃO JÁ PODE SONHAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "JESUS CHEGOU E MUDOU COMPLETAMENTE\nO QUE ERA TRISTE AGORA FICOU DIFERENTE\nÉ SÓ CANTAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "DEIXA QUE DEUS VAI CUIDAR DE VOCÊ\nA SUA VIDA VAI MUDAR BASTA CRER\nOLHANDO O CÉU AZUL O MAR E AS ESTRELAS\nVEJA O PODER DE DEUS QUEBRANDO\nTODAS AS BARREIRAS PRA QUE CHORAR!\nNÃO CHORE MAIS\nPRA QUE CHORAR?",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

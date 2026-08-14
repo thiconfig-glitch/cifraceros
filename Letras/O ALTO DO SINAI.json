@@ -1,0 +1,71 @@
+{
+  "id": 1582748875962,
+  "title": "O ALTO DO SINAI",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "1,3,4,5",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "O ALTO DO SINAI É SOBRENATURAL\nFOI LÁ QUE DEUS CRIOU\nO ALTAR UNIVERSAL\nNO ALTO DO SINAI\nVOU FAZER UM SÓ PEDIDO\nNÃO É FALANDO MUITO\nQUE A GENTE É ATENDIDO\n\nO ALTO DO SINAI\n\nNO ALTO DO SINAI\nVOU ENCONTRAR MEU PAI\nE BASTA APENAS RECEBER \nUMA PALAVRA E NADA MAIS\n\nO ALTO DO SINAI\nÉ PRA QUEM SABE O QUE FAZ\nE NÃO OLHA PARA TRÁS\nMAS VIVE PELA FÉ\n\nO ALTO DO SINAI\nÉ PRA QUEM SABE O QUE QUER\nE EM MEIO À PROVAÇÃO\nNÃO PERDE A VISÃO",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "O ALTO DO SINAI É SOBRENATURAL\nFOI LÁ QUE DEUS CRIOU\nO ALTAR UNIVERSAL\nNO ALTO DO SINAI\nVOU FAZER UM SÓ PEDIDO\nNÃO É FALANDO MUITO\nQUE A GENTE É ATENDIDO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "O ALTO DO SINAI",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "NO ALTO DO SINAI\nVOU ENCONTRAR MEU PAI\nE BASTA APENAS RECEBER \nUMA PALAVRA E NADA MAIS",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "O ALTO DO SINAI\nÉ PRA QUEM SABE O QUE FAZ\nE NÃO OLHA PARA TRÁS\nMAS VIVE PELA FÉ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "O ALTO DO SINAI\nÉ PRA QUEM SABE O QUE QUER\nE EM MEIO À PROVAÇÃO\nNÃO PERDE A VISÃO",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

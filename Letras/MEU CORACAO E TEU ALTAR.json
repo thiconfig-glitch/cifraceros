@@ -1,0 +1,71 @@
+{
+  "id": 1582748875669,
+  "title": "MEU CORACAO E TEU ALTAR",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "JESUS, VEM CÁ, VEM ME TOCAR\nMEU CORAÇÃO, É O TEU ALTAR\nEU VIM AQUI, PRA TE BUSCAR\nSENHOR, VEM CÁ\nVEM ME TOCAR\n\nO TEU ESPÍRITO A NOS UNIR\nNÓS SOMOS TODOS PARTE DE TI\nÓ VEM SENHOR VEM NOS TOCAR\nNOSSO CORAÇÃO\nÉ O TEU ALTAR\n\nQUEREMOS TE ADORAR\nQUEREMOS TE LOUVAR\nSEM TI NÃO HÁ VIDA\nESPÍRITO AMADO, VEM!\n\nTEU POVO VEM TE ADORAR\nA UMA SÓ VOZ CANTAR\nEM TODO LUGAR SE OUVIRÁ\nESPÍRITO AMADO, VEM!\n\nESPÍRITO AMADO VEM\nESPÍRITO AMADO VEM\nESPÍRITO AMADO VEM",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "JESUS, VEM CÁ, VEM ME TOCAR\nMEU CORAÇÃO, É O TEU ALTAR\nEU VIM AQUI, PRA TE BUSCAR\nSENHOR, VEM CÁ\nVEM ME TOCAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "O TEU ESPÍRITO A NOS UNIR\nNÓS SOMOS TODOS PARTE DE TI\nÓ VEM SENHOR VEM NOS TOCAR\nNOSSO CORAÇÃO\nÉ O TEU ALTAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "QUEREMOS TE ADORAR\nQUEREMOS TE LOUVAR\nSEM TI NÃO HÁ VIDA\nESPÍRITO AMADO, VEM!",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "TEU POVO VEM TE ADORAR\nA UMA SÓ VOZ CANTAR\nEM TODO LUGAR SE OUVIRÁ\nESPÍRITO AMADO, VEM!",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "ESPÍRITO AMADO VEM\nESPÍRITO AMADO VEM\nESPÍRITO AMADO VEM",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "id": 1599905509333,
+  "title": "É Só Acreditar",
+  "artist": "Jamily",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Teu coração te diz\nQue não tem jeito\nUma voz te diz que acabou\n \nQuem te conhece diz:\nSó um milagre!\nDizem tantas coisas\n\nAs circunstâncias dizem:\nImpossível!\nAmigos dizem que você falhou\n \nMas Deus está dizendo:\nEu posso tudo\nSe você crer\nQue Eu sou capaz\n\nChega de ficar dizendo\nQue não é ninguém\nUse essa fé que eu sei\nQue você tem\nQue Eu te faço um campeão\n\nSó depende de você\nEssa é a hora\nPosso mudar a sua história\nÉ só acreditar que é capaz\n\nAs circunstâncias dizem:\nImpossível!\nAmigos dizem que você falhou\n \nMas Deus está dizendo:\nEu posso tudo\nSe você crer\nQue Eu sou capaz\n\nSe for chorar\nEu sou o teu consolo\nEstou contigo no teu caminhar\n \nE se encontrar\nBarreiras no caminho\nA fé vai te dar asas\nPrá alcançar\n\nChega de ficar dizendo\nQue não é ninguém\nUse essa fé que eu sei\nQue você tem\nQue Eu te faço um campeão\n\nSó depende de você\nEssa é a hora\nPosso mudar a sua história\nÉ só acreditar que é capaz",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Teu coração te diz\nQue não tem jeito\nUma voz te diz que acabou\n \nQuem te conhece diz:\nSó um milagre!\nDizem tantas coisas",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "As circunstâncias dizem:\nImpossível!\nAmigos dizem que você falhou\n \nMas Deus está dizendo:\nEu posso tudo\nSe você crer\nQue Eu sou capaz",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Chega de ficar dizendo\nQue não é ninguém\nUse essa fé que eu sei\nQue você tem\nQue Eu te faço um campeão",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Só depende de você\nEssa é a hora\nPosso mudar a sua história\nÉ só acreditar que é capaz",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "As circunstâncias dizem:\nImpossível!\nAmigos dizem que você falhou\n \nMas Deus está dizendo:\nEu posso tudo\nSe você crer\nQue Eu sou capaz",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Se for chorar\nEu sou o teu consolo\nEstou contigo no teu caminhar\n \nE se encontrar\nBarreiras no caminho\nA fé vai te dar asas\nPrá alcançar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Chega de ficar dizendo\nQue não é ninguém\nUse essa fé que eu sei\nQue você tem\nQue Eu te faço um campeão",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": "Só depende de você\nEssa é a hora\nPosso mudar a sua história\nÉ só acreditar que é capaz",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

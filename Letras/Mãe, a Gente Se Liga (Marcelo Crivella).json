@@ -1,0 +1,113 @@
+{
+  "id": 1620598871490,
+  "title": "Mãe, a Gente Se Liga",
+  "artist": "Marcelo Crivella",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Mãe\nÉ o calor que sentimos\nÉ a voz que ouvimos\nAntes de nascer\n\nMãe\nÉ a pura amizade\nÉ a maior saudade\nQue alguém pode ter\n\nMãe\nÉ o amor sem medida\nÉ a mão estendida\nA nos abençoar\n\nMãe\nÉ o remédio que cura\nCom a doce ternura\nDe um simples olhar\n\nMãe\nÉ o coração que sente\nO que está dentro da gente\nÉ quem sofre a nossa dor\n\nMãe\nÉ a alma que não peca\nÉ o rio que não seca\nÉ a fonte do amor\n\nMãe, minha mãe, minha amiga\nTua voz me consola, teu colo me abriga\nMãe, minha mãe, minha amiga\nA gente se liga desde a sua barriga\n\nMãe\nÉ o tempero perfeito\nÉ o doce de côco\nÉ o amor, o respeito\nA imagem querida\nQue até um louco\nCarrega no peito\n\nMãe\nÉ a palmada de amor\nQue só dói um pouquinho\nÉ o anjo da guarda\nÉ o lar, é o ninho\nÉ a luz que ilumina\nO nosso caminho\n\nMãe\nÉ a discussão\nQue sempre acaba em perdão\nÉ a briga sem mágoa\nÉ o sabão, é a água\nQue lava e consola as tristezas\nDo nosso coração\n\nMãe\nÉ o amor de coruja\nQue não vê o defeito\nDo filho perfeito\nDo seu coração\nÉ a infância querida",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Mãe\nÉ o calor que sentimos\nÉ a voz que ouvimos\nAntes de nascer",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Mãe\nÉ a pura amizade\nÉ a maior saudade\nQue alguém pode ter",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Mãe\nÉ o amor sem medida\nÉ a mão estendida\nA nos abençoar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Mãe\nÉ o remédio que cura\nCom a doce ternura\nDe um simples olhar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Mãe\nÉ o coração que sente\nO que está dentro da gente\nÉ quem sofre a nossa dor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Mãe\nÉ a alma que não peca\nÉ o rio que não seca\nÉ a fonte do amor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Mãe, minha mãe, minha amiga\nTua voz me consola, teu colo me abriga\nMãe, minha mãe, minha amiga\nA gente se liga desde a sua barriga",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": "Mãe\nÉ o tempero perfeito\nÉ o doce de côco\nÉ o amor, o respeito\nA imagem querida\nQue até um louco\nCarrega no peito",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 9,
+        "description": "",
+        "text": "Mãe\nÉ a palmada de amor\nQue só dói um pouquinho\nÉ o anjo da guarda\nÉ o lar, é o ninho\nÉ a luz que ilumina\nO nosso caminho",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 10,
+        "description": "",
+        "text": "Mãe\nÉ a discussão\nQue sempre acaba em perdão\nÉ a briga sem mágoa\nÉ o sabão, é a água\nQue lava e consola as tristezas\nDo nosso coração",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 11,
+        "description": "",
+        "text": "Mãe\nÉ o amor de coruja\nQue não vê o defeito\nDo filho perfeito\nDo seu coração\nÉ a infância querida",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

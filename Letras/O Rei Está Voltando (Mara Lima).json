@@ -1,0 +1,120 @@
+{
+  "id": 1617197776278,
+  "title": "O Rei Está Voltando",
+  "artist": "Mara Lima",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "O mercado está vazio, \nseu trabalho já parou\nO martelo dos obreiros, \no barulho já cessou\n\nOs ceifeiros lá no campo, \nterminaram seu labor\nToda Terra está em suspense, \né a volta do Senhor\n\nO Rei está voltando, \no Rei está voltando\nA trombeta está soando, \no meu nome a chamar\n\nSim, o Rei está voltando,\no Rei está voltando\nAleluia, Ele vem me buscar\n\nOs vagões de trens vazios, \npassam ruas e quarteirões\nAviões sem seus pilotos, \nvoam para a destruição\n\nAs cidades estão desertas, \nsua agitação parou\nSai a última notícia, \nJesus Cristo já voltou\n\nO Rei está voltando, \no Rei está voltando\nA trombeta está soando, \no meu nome a chamar\n\nSim o Rei está voltando, \no Rei está voltando\nAleluia, Ele vem me buscar\n\nVejo a multidão subindo, \nouço o coro angelical\nTodo o céu está se abrindo, \nem bem vindo sem igual\n\nComo o som, de muitas águas, \nnós ouvimos ecoar\nAleluias ao cordeiro, \nnós chegamos para o lar\n\nO Rei está voltando, \no Rei está voltando\nA trombeta está soando, \no meu nome a chamar\n\nSim o Rei está voltando, \no Rei está voltando\nAleluia, Ele vem me buscar",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "O mercado está vazio, \nseu trabalho já parou\nO martelo dos obreiros, \no barulho já cessou",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Os ceifeiros lá no campo, \nterminaram seu labor\nToda Terra está em suspense, \né a volta do Senhor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "O Rei está voltando, \no Rei está voltando\nA trombeta está soando, \no meu nome a chamar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Sim, o Rei está voltando,\no Rei está voltando\nAleluia, Ele vem me buscar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Os vagões de trens vazios, \npassam ruas e quarteirões\nAviões sem seus pilotos, \nvoam para a destruição",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "As cidades estão desertas, \nsua agitação parou\nSai a última notícia, \nJesus Cristo já voltou",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "O Rei está voltando, \no Rei está voltando\nA trombeta está soando, \no meu nome a chamar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": "Sim o Rei está voltando, \no Rei está voltando\nAleluia, Ele vem me buscar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 9,
+        "description": "",
+        "text": "Vejo a multidão subindo, \nouço o coro angelical\nTodo o céu está se abrindo, \nem bem vindo sem igual",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 10,
+        "description": "",
+        "text": "Como o som, de muitas águas, \nnós ouvimos ecoar\nAleluias ao cordeiro, \nnós chegamos para o lar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 11,
+        "description": "",
+        "text": "O Rei está voltando, \no Rei está voltando\nA trombeta está soando, \no meu nome a chamar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 12,
+        "description": "",
+        "text": "Sim o Rei está voltando, \no Rei está voltando\nAleluia, Ele vem me buscar",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

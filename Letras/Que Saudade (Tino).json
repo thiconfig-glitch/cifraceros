@@ -1,0 +1,64 @@
+{
+  "id": 1619629182747,
+  "title": "Que Saudade",
+  "artist": "Tino",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Vim aqui pra te dizer\nSenti falta de você\nMeu espírito gemeu\nTua oração já não ouvia\nComunhão já não sentia\n\nTua voz que eu ungi\nTanto tempo sem te ouvir\nMas que bom você voltou\nAi que saudade de você\n\nSabe meu filho\nSó esse vendaval na tua vida\nTe lançaria assim para os meus braços\nReconhecendo o preço que paguei \npor te escolher\n\nSabe meu filho\nSe foi quebrada a aliança o trato\nSe o mundo te deixou com a alma em trapo\nO Céu está em festa por você",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Vim aqui pra te dizer\nSenti falta de você\nMeu espírito gemeu\nTua oração já não ouvia\nComunhão já não sentia",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Tua voz que eu ungi\nTanto tempo sem te ouvir\nMas que bom você voltou\nAi que saudade de você",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Sabe meu filho\nSó esse vendaval na tua vida\nTe lançaria assim para os meus braços\nReconhecendo o preço que paguei \npor te escolher",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Sabe meu filho\nSe foi quebrada a aliança o trato\nSe o mundo te deixou com a alma em trapo\nO Céu está em festa por você",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

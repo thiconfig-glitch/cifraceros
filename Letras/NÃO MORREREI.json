@@ -1,0 +1,71 @@
+{
+  "id": 1582748875750,
+  "title": "NÃO MORREREI",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "SE TUDO ESTÁ DIFÍCIL\nA MULTIDÃO JÁ TE CANSOU\nO MEU DEUS NUNCA FALHA \nE NUNCA FALHOU\n\nSE A LUTA É MUITO GRANDE\nELA TE FEZ PERDER A FÉ\nO MEU DEUS ENTRA NA GUERRA\nPELEJA POR VOCÊ\n\nLEVANTE OS SEUS OLHOS \nE VEJA O SOBRENATURAL\nQUEM TEM PROMESSA DE DEUS \nVENCE O MAL\n\nLEVANTE OS SEUS OLHOS \nE VEJA O SOBRENATURAL\nQUEM TEM PROMESSA DE DEUS \nVENCE O MAL\nVENCE O MAL\n\nNÃO MORREREI\nENQUANTO A PROMESSA NÃO SE CUMPRIR\nQUEM TEM PROMESSA DE DEUS\nNÃO MORRE NÃO,\nNÃO DESISTE NÃO\nE TEM A FÉ, A FÉ DE ABRAÃO",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "SE TUDO ESTÁ DIFÍCIL\nA MULTIDÃO JÁ TE CANSOU\nO MEU DEUS NUNCA FALHA \nE NUNCA FALHOU",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "SE A LUTA É MUITO GRANDE\nELA TE FEZ PERDER A FÉ\nO MEU DEUS ENTRA NA GUERRA\nPELEJA POR VOCÊ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "LEVANTE OS SEUS OLHOS \nE VEJA O SOBRENATURAL\nQUEM TEM PROMESSA DE DEUS \nVENCE O MAL",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "LEVANTE OS SEUS OLHOS \nE VEJA O SOBRENATURAL\nQUEM TEM PROMESSA DE DEUS \nVENCE O MAL\nVENCE O MAL",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "NÃO MORREREI\nENQUANTO A PROMESSA NÃO SE CUMPRIR\nQUEM TEM PROMESSA DE DEUS\nNÃO MORRE NÃO,\nNÃO DESISTE NÃO\nE TEM A FÉ, A FÉ DE ABRAÃO",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

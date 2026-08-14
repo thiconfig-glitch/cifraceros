@@ -1,0 +1,43 @@
+{
+  "id": 1623447614351,
+  "title": "Eu já estou abençoado",
+  "artist": "Corinhos",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Eu já estou abençoado pela fé\nEu já estou abençoado pela fé\nEu já estou abençoado pela fé\nPorque eu creio em Jesus de Nazaré",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Eu já estou abençoado pela fé\nEu já estou abençoado pela fé\nEu já estou abençoado pela fé\nPorque eu creio em Jesus de Nazaré",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

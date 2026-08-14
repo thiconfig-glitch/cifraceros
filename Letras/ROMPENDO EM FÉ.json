@@ -1,0 +1,71 @@
+{
+  "id": 1582748875691,
+  "title": "ROMPENDO EM FÉ",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "CADA VEZ QUE A MINHA FÉ \nÉ PROVADA\nTU ME DÁS A CHANCE DE CRESCER\nUM POUCO MAIS\n\nAS MONTANHAS E VALES\nDESERTOS E MARES\nQUE ATRAVESSO \nME LEVAM PRA PERTO DE TI\n\nMINHAS PROVAÇÕES NÃO SÃO\nMAIORES DO QUE O MEU DEUS\nE NÃO VÃO ME IMPEDIR DE CAMINHAR\nSE DIANTE DE MIM, NÃO SE ABRIR O MAR\nDEUS VAI ME FAZER ANDAR\nPOR SOBRE AS ÁGUAS\n\nROMPENDO EM FÉ\nMINHA VIDA SE REVESTIRÁ \nDO TEU PODER\n \nROMPENDO EM FÉ\nCOM OUSADIA VOU MOVER \nO SOBRENATURAL\n\nVOU LUTAR E VENCER \nVOU PLANTAR E COLHER\nA CADA DIA VOU VIVER \nROMPENDO EM FÉ",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "CADA VEZ QUE A MINHA FÉ \nÉ PROVADA\nTU ME DÁS A CHANCE DE CRESCER\nUM POUCO MAIS",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "AS MONTANHAS E VALES\nDESERTOS E MARES\nQUE ATRAVESSO \nME LEVAM PRA PERTO DE TI",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "MINHAS PROVAÇÕES NÃO SÃO\nMAIORES DO QUE O MEU DEUS\nE NÃO VÃO ME IMPEDIR DE CAMINHAR\nSE DIANTE DE MIM, NÃO SE ABRIR O MAR\nDEUS VAI ME FAZER ANDAR\nPOR SOBRE AS ÁGUAS",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "ROMPENDO EM FÉ\nMINHA VIDA SE REVESTIRÁ \nDO TEU PODER\n \nROMPENDO EM FÉ\nCOM OUSADIA VOU MOVER \nO SOBRENATURAL",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "VOU LUTAR E VENCER \nVOU PLANTAR E COLHER\nA CADA DIA VOU VIVER \nROMPENDO EM FÉ",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

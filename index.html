@@ -12,11 +12,34 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css?v=1.6.0">
+    <link rel="stylesheet" href="style.css?v=1.7.0">
 </head>
 <body>
+    <div id="mode-selection-overlay" class="mode-selection-overlay">
+        <div class="mode-selection-box">
+            <h1>CifrasCeros</h1>
+            <p>Selecione o modo de uso da aplicação:</p>
+            <div class="mode-buttons">
+                <button class="btn-mode btn-mode-cifras" onclick="window.selectAppMode('cifras')">
+                    <span class="mode-icon">🎹</span>
+                    <div class="mode-text">
+                        <strong>Modo Cifras</strong>
+                        <span>Para Músicos e Banda</span>
+                    </div>
+                </button>
+                <button class="btn-mode btn-mode-letras" onclick="window.selectAppMode('letras')">
+                    <span class="mode-icon">🎤</span>
+                    <div class="mode-text">
+                        <strong>Modo Letras</strong>
+                        <span>Apenas Letras (Sem Acordes)</span>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </div>
+
     <div id="blob"></div>
-    <div class="app-container">
+    <div class="app-container" id="main-app-container" style="display: none;">
         <div id="mobile-overlay" class="mobile-overlay" onclick="toggleSidebar()"></div>
         
         <aside id="sidebar" class="sidebar">
@@ -159,6 +182,13 @@
                             <div id="magic-msg" class="msg" style="margin-top: 12px; margin-bottom: 0; padding: 10px; font-size: 0.85rem;"></div>
                         </div>
 
+                        <div id="admin-letras-import" style="display: none; margin-top: 15px; margin-bottom: 15px; padding: 15px; background: rgba(0,0,0,0.2); border-radius: 8px; border: 1px dashed var(--primary-color);">
+                            <h3 style="margin-top:0; font-size: 1rem; color: var(--accent-color);">📦 Importar Dump de Letras</h3>
+                            <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 10px;">Clique aqui para enviar os JSONs locais para o Firebase (Modo Letras).</p>
+                            <button type="button" class="btn btn-accent" onclick="window.importLetrasDump()" style="width: 100%;">Importar Letras</button>
+                            <div id="import-msg" class="msg" style="margin-top: 10px;"></div>
+                        </div>
+
                         <div id="upload-msg" class="msg"></div>
                         <form id="upload-form">
                             <div class="form-group">
@@ -189,6 +219,7 @@
         </aside>
     </div>
 
-    <script type="module" src="script.js?v=1.6.0"></script>
+    <script src="letras_dump.js"></script>
+    <script type="module" src="script.js?v=1.7.0"></script>
 </body>
 </html>

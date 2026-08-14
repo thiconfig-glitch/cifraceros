@@ -1,0 +1,64 @@
+{
+  "id": 1606165485009,
+  "title": "Deus de Pactos ",
+  "artist": "Soraya Moraes",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Deus de Pactos\nque guarda as Tuas promessas\nque cumpres Tua palavra\ne guias meu destino\n\nDeus de Pactos\nConfio em Tuas Promessas\ndescanso em Tua palavra\nPELA FÉ estou aqui\n\nNa intimidade\nao abrigo de Tua Gloria posso estar\njunto a Ti\nAo ver Tua santidade\nEstou maravilhado ante Ti\ne Teu amor\nNunca mais serei igual\nao sair deste santíssimo lugar\n\nTenho redenção \npelo sangue derramado no altar\npor mim\na graça e o perdão\nsão frutos de viver em comunhão e adoração\nnunca mais serei igual\nao sair deste santíssimo lugar",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Deus de Pactos\nque guarda as Tuas promessas\nque cumpres Tua palavra\ne guias meu destino",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Deus de Pactos\nConfio em Tuas Promessas\ndescanso em Tua palavra\nPELA FÉ estou aqui",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Na intimidade\nao abrigo de Tua Gloria posso estar\njunto a Ti\nAo ver Tua santidade\nEstou maravilhado ante Ti\ne Teu amor\nNunca mais serei igual\nao sair deste santíssimo lugar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Tenho redenção \npelo sangue derramado no altar\npor mim\na graça e o perdão\nsão frutos de viver em comunhão e adoração\nnunca mais serei igual\nao sair deste santíssimo lugar",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": 1582748875927,
+  "title": "PRA TE ADORAR",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "AINDA QUE A FIGUEIRA NÃO FLORESÇA\nMESMO ASSIM TE ADORAREI\nAINDA QUE NÃO HAJA FLORES NO JARDIM\nMESMO ASSIM TE ADORAREI\n\nSE FOR POR MEDO DO ABISMO EU TE ADORAR\nME LEVA PRA LÁ ME LEVA PRA LÁ\n\nSE FOR POR INTERESSE NO SEU PARAÍSO\nNÃO ME DEIXE ENTRAR\nNÃO ME DEIXE ENTRAR\n\nSE EU TE ADORAR PELO QUE TU ÉS\nPOR TUA GRANDEZA, POR QUE SANTO ÉS\nNÃO ESCONDA DE MIM TUA FACE, MEU DEUS\nMEU DEUS MEU DEUS MEU DEUS MEU DEUS\n\nPRA TE ADORAR, PRA TE EXALTAR\nEU ESTOU AQUI\nPOR TUDO QUE TU ÉS NA MINHA VIDA\n\nPORQUE EU TE AMO, TE ADORO\nÉ O MOTIVO DA MINHA FELICIDADE\nA DEUS EU ME RENDO\nME RENDO, EU ME RENDO",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "AINDA QUE A FIGUEIRA NÃO FLORESÇA\nMESMO ASSIM TE ADORAREI\nAINDA QUE NÃO HAJA FLORES NO JARDIM\nMESMO ASSIM TE ADORAREI",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "SE FOR POR MEDO DO ABISMO EU TE ADORAR\nME LEVA PRA LÁ ME LEVA PRA LÁ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "SE FOR POR INTERESSE NO SEU PARAÍSO\nNÃO ME DEIXE ENTRAR\nNÃO ME DEIXE ENTRAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "SE EU TE ADORAR PELO QUE TU ÉS\nPOR TUA GRANDEZA, POR QUE SANTO ÉS\nNÃO ESCONDA DE MIM TUA FACE, MEU DEUS\nMEU DEUS MEU DEUS MEU DEUS MEU DEUS",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "PRA TE ADORAR, PRA TE EXALTAR\nEU ESTOU AQUI\nPOR TUDO QUE TU ÉS NA MINHA VIDA",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "PORQUE EU TE AMO, TE ADORO\nÉ O MOTIVO DA MINHA FELICIDADE\nA DEUS EU ME RENDO\nME RENDO, EU ME RENDO",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

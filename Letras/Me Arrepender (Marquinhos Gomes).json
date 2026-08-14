@@ -1,0 +1,78 @@
+{
+  "id": 1613670545148,
+  "title": "Me Arrepender",
+  "artist": "Marquinhos Gomes",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Eu vim aqui me arrepender,\nVim deitar minha glória no pó\nEu vi a dor que te causei\nquantas vezes te crucifiquei\n\nOs meus ossos se secaram\nEu calei a minha voz\nMinha alma se tornou \nem sequidão\n\nConfessei-te meu pecado\nMinha maldade não encobri\nE deixei fluir a cura e o perdão\n\nMe arrepender eu venho\nMe arrepender eu quero\nMe arrepender de tudo\nQue pequei contra ti, senhor\n\nEu vi a dor que te causei\nQuantas vezes te crucifiquei\nOs meus ossos se secaram\nEu calei a minha voz\nMinha alma se tornou \nem sequidão\n\nConfessei-te meu pecado\nMinha maldade não encobri\nE deixei fluir a cura e o perdão",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Eu vim aqui me arrepender,\nVim deitar minha glória no pó\nEu vi a dor que te causei\nquantas vezes te crucifiquei",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Os meus ossos se secaram\nEu calei a minha voz\nMinha alma se tornou \nem sequidão",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Confessei-te meu pecado\nMinha maldade não encobri\nE deixei fluir a cura e o perdão",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Me arrepender eu venho\nMe arrepender eu quero\nMe arrepender de tudo\nQue pequei contra ti, senhor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Eu vi a dor que te causei\nQuantas vezes te crucifiquei\nOs meus ossos se secaram\nEu calei a minha voz\nMinha alma se tornou \nem sequidão",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Confessei-te meu pecado\nMinha maldade não encobri\nE deixei fluir a cura e o perdão",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

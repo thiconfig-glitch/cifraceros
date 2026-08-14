@@ -1,0 +1,64 @@
+{
+  "id": 1620413742436,
+  "title": "Situações",
+  "artist": "Logos",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Situações nesta vida me fazem sentir, \nque não sou forte a ponto de até resistir\nNestes terríveis momentos \nos maus pensamentos me querem levar\nA um extremo de vida, que meu equilíbrio \nse deixa enganar\n\nInstantes que se prolongam tentando mudar, \ntudo que já se fez novo, pois Cristo mudou\nTentando hoje trazer, o que eu tento esquecer,\nsou vencedor e ninguém poderá me deter\n\nPois eu sei que jamais eu provado serei \nalém do que eu possa suportar\nse ainda eu cair e pensar que é o fim, \nJesus me ergue e segue junto a mim\n\nJesus me ergue e segue sim, \nJesus me ergue e segue sim, \nJesus me ergue e segue junto a mim",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Situações nesta vida me fazem sentir, \nque não sou forte a ponto de até resistir\nNestes terríveis momentos \nos maus pensamentos me querem levar\nA um extremo de vida, que meu equilíbrio \nse deixa enganar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Instantes que se prolongam tentando mudar, \ntudo que já se fez novo, pois Cristo mudou\nTentando hoje trazer, o que eu tento esquecer,\nsou vencedor e ninguém poderá me deter",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Pois eu sei que jamais eu provado serei \nalém do que eu possa suportar\nse ainda eu cair e pensar que é o fim, \nJesus me ergue e segue junto a mim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Jesus me ergue e segue sim, \nJesus me ergue e segue sim, \nJesus me ergue e segue junto a mim",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

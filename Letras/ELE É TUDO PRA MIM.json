@@ -1,0 +1,64 @@
+{
+  "id": 1688296842487,
+  "title": "ELE É TUDO PRA MIM",
+  "artist": "",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Ele é tudo pra mim\nEle é tudo pra mim\nEle é o tesouro que eu tenho\nGuardado em meu peito\nEle é tudo pra mim\n\nTransformou minha trevas em luz\nMeus pecados Ele perdoou\nJá não quero mais nada do mundo\nSeu amor profundo Jesus me doou\n\nEle é tudo pra mim\nEle é tudo pra mim\nEle é o tesouro que eu tenho\nGuardado em meu peito\nEle é tudo pra mim\n\nJesus é tudo pra mim\nMinha vida de paz ele encheu\nOh!não vês que a alegria que brota\nDo meu coração,foi ele quem deu",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Ele é tudo pra mim\nEle é tudo pra mim\nEle é o tesouro que eu tenho\nGuardado em meu peito\nEle é tudo pra mim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Transformou minha trevas em luz\nMeus pecados Ele perdoou\nJá não quero mais nada do mundo\nSeu amor profundo Jesus me doou",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Ele é tudo pra mim\nEle é tudo pra mim\nEle é o tesouro que eu tenho\nGuardado em meu peito\nEle é tudo pra mim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Jesus é tudo pra mim\nMinha vida de paz ele encheu\nOh!não vês que a alegria que brota\nDo meu coração,foi ele quem deu",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

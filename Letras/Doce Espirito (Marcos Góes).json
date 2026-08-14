@@ -1,0 +1,71 @@
+{
+  "id": 1606948480252,
+  "title": "Doce Espirito",
+  "artist": "Marcos Góes",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Há um doce Espírito aqui\nJá posso sentir o Seu poder\nInundando o meu viver\nTransformando corações\nHá um doce Espírito aqui\n\nHá um doce Espírito aqui\nJá posso sentir o Seu poder\nInundando o meu viver\nTransformando corações\nHá um doce Espírito aqui\n\nSopra Santo Espírito de Deus\nTenha liberdade entre nós\nInundando o meu viver\nTransformando corações\nSopra Santo Espírito de Deus\n\nInundando o meu viver\nTransformando corações\nSopra Santo Espírito de Deus\n\nInundando o meu viver\nTransformando corações\nHá um doce Espírito aqui",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Há um doce Espírito aqui\nJá posso sentir o Seu poder\nInundando o meu viver\nTransformando corações\nHá um doce Espírito aqui",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Há um doce Espírito aqui\nJá posso sentir o Seu poder\nInundando o meu viver\nTransformando corações\nHá um doce Espírito aqui",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Sopra Santo Espírito de Deus\nTenha liberdade entre nós\nInundando o meu viver\nTransformando corações\nSopra Santo Espírito de Deus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Inundando o meu viver\nTransformando corações\nSopra Santo Espírito de Deus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Inundando o meu viver\nTransformando corações\nHá um doce Espírito aqui",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

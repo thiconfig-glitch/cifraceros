@@ -1,0 +1,64 @@
+{
+  "id": 1582748875520,
+  "title": "EXPRESSÃO DE AMOR",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "1,3,4",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "EXPRESSÃO DE AMOR\nEU VIM TE CONFESSAR\nESSA ALEGRIA GIGANTE QUE MORA EM MIM\nPRECISO TRANSBORDAR\nESSE RIO DE AMOR QUE HOJE MORA EM MIM\n\nEXPRESSÃO DE AMOR\n\nUMA PAZ QUE ME LEVA ATÉ O CÉU\nTRANSFORMA O AMARGO NO MAIS DOCE MEL\nDEPOIS DA PROVA DE AMOR QUE O SENHOR FEZ\nAGORA É A MINHA VEZ!\n\nAHHHHHH\nEU CANTO PRA EXPRESSAR O MEU AMOR\nAHHHHH\nMEU CORAÇÃO PALPITA MINHA BOCA GRITA\nA TI SENHOR",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "EXPRESSÃO DE AMOR\nEU VIM TE CONFESSAR\nESSA ALEGRIA GIGANTE QUE MORA EM MIM\nPRECISO TRANSBORDAR\nESSE RIO DE AMOR QUE HOJE MORA EM MIM",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "EXPRESSÃO DE AMOR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "UMA PAZ QUE ME LEVA ATÉ O CÉU\nTRANSFORMA O AMARGO NO MAIS DOCE MEL\nDEPOIS DA PROVA DE AMOR QUE O SENHOR FEZ\nAGORA É A MINHA VEZ!",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "AHHHHHH\nEU CANTO PRA EXPRESSAR O MEU AMOR\nAHHHHH\nMEU CORAÇÃO PALPITA MINHA BOCA GRITA\nA TI SENHOR",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

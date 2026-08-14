@@ -1,0 +1,71 @@
+{
+  "id": 1582748876017,
+  "title": "LIBERTA-ME",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "NÃO ENTENDO O MEU PRÓPRIO AGIR\nSEM TUA GRAÇA O QUE SERIA DE MIM?\nNÃO ENTENDO O MEU PRÓPRIO AGIR\nSEM TUA GRAÇA O QUE SERIA DE MIM, DEUS?\n\nPOIS O BEM QUE EU QUERO FAZER NÃO FAÇO\nE O MAL QUE EU NÃO QUERO, ESSE SIM\nACABO COMETENDO...\nEM MEU SER MILITAM CARNE E ESPÍRITO\nEM UMA GUERRA INFINDÁVEL À QUAL EU NÃO ME RENDO\n\nPOIS MEU CORPO JÁ FOI VENDIDO \nCOMO ESCRAVO\nE NÃO EXISTE BEM NENHUM EM MIM\nAPENAS O PECADO...\nMAS, EU SEI\nQUE NO TOCANTE AO MEU INTERIOR\nTENHO PRAZER NA SUA LEI\nTU ÉS O MEU AMADO...\n\nENTÃO LIBERTA-ME DE MIM\nEU QUERO SER A SUA CASA\nSE VOCÊ ESTIVER AQUI\nEU SEI, EU VENÇO O PECADO\n\nENTÃO ENCHE-ME DE TI\nATÉ QUE NÃO HAJA MAIS ESPAÇO\nPOIS QUANDO ESTOU EM TUA PRESENÇA\nO MEU VIVER É TRANSFORMADO...",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "NÃO ENTENDO O MEU PRÓPRIO AGIR\nSEM TUA GRAÇA O QUE SERIA DE MIM?\nNÃO ENTENDO O MEU PRÓPRIO AGIR\nSEM TUA GRAÇA O QUE SERIA DE MIM, DEUS?",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "POIS O BEM QUE EU QUERO FAZER NÃO FAÇO\nE O MAL QUE EU NÃO QUERO, ESSE SIM\nACABO COMETENDO...\nEM MEU SER MILITAM CARNE E ESPÍRITO\nEM UMA GUERRA INFINDÁVEL À QUAL EU NÃO ME RENDO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "POIS MEU CORPO JÁ FOI VENDIDO \nCOMO ESCRAVO\nE NÃO EXISTE BEM NENHUM EM MIM\nAPENAS O PECADO...\nMAS, EU SEI\nQUE NO TOCANTE AO MEU INTERIOR\nTENHO PRAZER NA SUA LEI\nTU ÉS O MEU AMADO...",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "ENTÃO LIBERTA-ME DE MIM\nEU QUERO SER A SUA CASA\nSE VOCÊ ESTIVER AQUI\nEU SEI, EU VENÇO O PECADO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "ENTÃO ENCHE-ME DE TI\nATÉ QUE NÃO HAJA MAIS ESPAÇO\nPOIS QUANDO ESTOU EM TUA PRESENÇA\nO MEU VIVER É TRANSFORMADO...",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

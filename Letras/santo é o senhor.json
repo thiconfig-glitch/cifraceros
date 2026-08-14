@@ -1,0 +1,64 @@
+{
+  "id": 1763902261766,
+  "title": "santo é o senhor",
+  "artist": "",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "SANTO, SANTO É O SENHOR \nSANTO, SANTO É O SENHOR DOS EXÉRCITOS REI\n\nSUA GLÓRIA ENCHE A MINHA VIDA\nSUA GLÓRIA ENCHE A MINHA VIDA\nSUA GLÓRIA ENCHE A MINHA VIDA\nSANTO É O SENHOR\n\nSUA GLÓRIA ENCHE A MINHA alma \nSUA GLÓRIA ENCHE A MINHA alma \nSUA GLÓRIA ENCHE A MINHA alma \nSANTO É O SENHOR\n\nSUA GLÓRIA ENCHE A MINHA IGREJA\nSUA GLÓRIA ENCHE A MINHA IGREJA\nSUA GLÓRIA ENCHE A MINHA IGREJA\nSANTO É O SENHOR",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "SANTO, SANTO É O SENHOR \nSANTO, SANTO É O SENHOR DOS EXÉRCITOS REI",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "SUA GLÓRIA ENCHE A MINHA VIDA\nSUA GLÓRIA ENCHE A MINHA VIDA\nSUA GLÓRIA ENCHE A MINHA VIDA\nSANTO É O SENHOR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "SUA GLÓRIA ENCHE A MINHA alma \nSUA GLÓRIA ENCHE A MINHA alma \nSUA GLÓRIA ENCHE A MINHA alma \nSANTO É O SENHOR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "SUA GLÓRIA ENCHE A MINHA IGREJA\nSUA GLÓRIA ENCHE A MINHA IGREJA\nSUA GLÓRIA ENCHE A MINHA IGREJA\nSANTO É O SENHOR",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": 1582748875492,
+  "title": "TÁ LIGADO",
+  "artist": "SE TÁ LIGADO AQUI NA TERRA",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "1,2,2,3",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "SÓ O PODER DE DEUS\nPODE NOS TRANSFORMAR\nDO QUE EU FUI E JÁ FIZ\nÉ PÁGINA VIRADA\n \nJÁ NÃO TINHA RAZÃO DE VIVER\nJESUS CRISTO MUDOU MINHA HISTÓRIA\nELE ME PROMETEU E ME DEU \nVITÓRIA\n\nSE TÁ LIGADO AQUI NA TERRA\nTÁ LIGADO LÁ\nESSA CORRENTE É MUITO FORTE\nDEUS VAI RESPONDER\nNAQUELE QUE ME FORTALECE \nPELA MINHA FÉ\nÉ VENCER OU VENCER\n\nÉ SOMENTE CRER\nE O MAIS JESUS FARÁ\nPORQUE SE DEUS É POR NÓS\nNÃO VOU TEMER A NADA\n \nMINHA BÊNÇÃO NINGUÉM VAI TOMAR\nSE O DIABO ATACAR DE NOVO\nSE A GENTE ORAR FORTE\nJESUS, MANDA FOGO",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "SÓ O PODER DE DEUS\nPODE NOS TRANSFORMAR\nDO QUE EU FUI E JÁ FIZ\nÉ PÁGINA VIRADA\n \nJÁ NÃO TINHA RAZÃO DE VIVER\nJESUS CRISTO MUDOU MINHA HISTÓRIA\nELE ME PROMETEU E ME DEU \nVITÓRIA",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "SE TÁ LIGADO AQUI NA TERRA\nTÁ LIGADO LÁ\nESSA CORRENTE É MUITO FORTE\nDEUS VAI RESPONDER\nNAQUELE QUE ME FORTALECE \nPELA MINHA FÉ\nÉ VENCER OU VENCER",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "É SOMENTE CRER\nE O MAIS JESUS FARÁ\nPORQUE SE DEUS É POR NÓS\nNÃO VOU TEMER A NADA\n \nMINHA BÊNÇÃO NINGUÉM VAI TOMAR\nSE O DIABO ATACAR DE NOVO\nSE A GENTE ORAR FORTE\nJESUS, MANDA FOGO",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

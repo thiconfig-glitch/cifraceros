@@ -1,0 +1,71 @@
+{
+  "id": 1655546476348,
+  "title": "Guarda a Minha Casa",
+  "artist": "Giesley Mota",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Meu Deus como eu preciso do Senhor\nMas venho te pedir em oração\nQue guarde minha família com mão forte\nCom a Tua proteção\n\nOrdena os anjos em favor de mim\nQue a Tua benção chegue no meu lar\nPra semear a paz e o amor\nToda a minha casa servirá ao Senhor\n\nMal nenhum me sucederá\nNenhuma praga a minha casa chegará\nPois minha família eu entrego ao Senhor\n\nGuarda a minha casa meu Pai\nOs livra das ciladas do inimigo\nGuarda a minha casa meu Pai\nEu quero a minha família \naqui comigo\n\nNa Tua presença\npraticando a Tua palavra\nE eu sei que nada \npoderá tocar na minha casa",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Meu Deus como eu preciso do Senhor\nMas venho te pedir em oração\nQue guarde minha família com mão forte\nCom a Tua proteção",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Ordena os anjos em favor de mim\nQue a Tua benção chegue no meu lar\nPra semear a paz e o amor\nToda a minha casa servirá ao Senhor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Mal nenhum me sucederá\nNenhuma praga a minha casa chegará\nPois minha família eu entrego ao Senhor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Guarda a minha casa meu Pai\nOs livra das ciladas do inimigo\nGuarda a minha casa meu Pai\nEu quero a minha família \naqui comigo",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Na Tua presença\npraticando a Tua palavra\nE eu sei que nada \npoderá tocar na minha casa",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

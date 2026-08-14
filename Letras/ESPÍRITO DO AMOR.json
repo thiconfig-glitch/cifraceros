@@ -1,0 +1,64 @@
+{
+  "id": 1582748875836,
+  "title": "ESPÍRITO DO AMOR",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "O AMOR \nVERDADEIRO É O AMOR QUE VEM DA FÉ\nTUDO SOFRE, TUDO CRÊ, TUDO ESPERA\nO VERDADEIRO AMOR JAMAIS ACABA\n\nO AMOR \nÉ TÃO PURO, É PACIENTE, É CAPAZ\nDE TRAZER A ESPERANÇA\nDE ACENDER A CHAMA \nO AMOR É O DOM SUPREMO\nE VEM DE DEUS \n\nESPÍRITO DO AMOR \nTENHA LIBERDADE ENTRE NÓS\nESTOU AQUI PRA OUVIR SUA DOCE VOZ\nTUA DIREÇÃO IREI SEGUIR E PRATICAR \n\nESPÍRITO DO AMOR \nMINHA VIDA EU CONFIO \nEM TUAS MÃOS \nEU NÃO VOU MAIS SEGUIR \nMEU ENGANOSO CORAÇÃO \nEU VIM AQUI BUSCAR \nTUA DIREÇÃO",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "O AMOR \nVERDADEIRO É O AMOR QUE VEM DA FÉ\nTUDO SOFRE, TUDO CRÊ, TUDO ESPERA\nO VERDADEIRO AMOR JAMAIS ACABA",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "O AMOR \nÉ TÃO PURO, É PACIENTE, É CAPAZ\nDE TRAZER A ESPERANÇA\nDE ACENDER A CHAMA \nO AMOR É O DOM SUPREMO\nE VEM DE DEUS ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "ESPÍRITO DO AMOR \nTENHA LIBERDADE ENTRE NÓS\nESTOU AQUI PRA OUVIR SUA DOCE VOZ\nTUA DIREÇÃO IREI SEGUIR E PRATICAR ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "ESPÍRITO DO AMOR \nMINHA VIDA EU CONFIO \nEM TUAS MÃOS \nEU NÃO VOU MAIS SEGUIR \nMEU ENGANOSO CORAÇÃO \nEU VIM AQUI BUSCAR \nTUA DIREÇÃO",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

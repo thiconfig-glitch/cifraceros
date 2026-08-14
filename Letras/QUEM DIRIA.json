@@ -1,0 +1,71 @@
+{
+  "id": 1582748875754,
+  "title": "QUEM DIRIA",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "POR CAUSA DOS MEUS VÍCIOS EU JÁ TINHA PERDIDO SONHOS E IDEAIS TUDO FICOU PRA ATRÁS\n\nEU QUE SONHEI EM TER FAMÍLIA\nQUASE ACABEI COM A MINHA VIDA\nSEM FORÇAS PRA LUTAR\nSEM NINGUÉM PRA ME AJUDAR\n\nMas Deus me deu uma nova chance\nDe realizar os sonhos que antes Morriam dentro de mim\nE agora eu estou liberto\nE minha família vê de perto\nA transformação que Deus fez em mim\n\nQuem diria que um dia eu poderia\nConstruir uma família\nE realizar os sonhos que eu perdi\n\nQuem diria que eu seria curado\nTotalmente transformado\nQue eu teria mil motivos pra sorrir\nSó Deus",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "POR CAUSA DOS MEUS VÍCIOS EU JÁ TINHA PERDIDO SONHOS E IDEAIS TUDO FICOU PRA ATRÁS",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "EU QUE SONHEI EM TER FAMÍLIA\nQUASE ACABEI COM A MINHA VIDA\nSEM FORÇAS PRA LUTAR\nSEM NINGUÉM PRA ME AJUDAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Mas Deus me deu uma nova chance\nDe realizar os sonhos que antes Morriam dentro de mim\nE agora eu estou liberto\nE minha família vê de perto\nA transformação que Deus fez em mim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Quem diria que um dia eu poderia\nConstruir uma família\nE realizar os sonhos que eu perdi",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Quem diria que eu seria curado\nTotalmente transformado\nQue eu teria mil motivos pra sorrir\nSó Deus",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

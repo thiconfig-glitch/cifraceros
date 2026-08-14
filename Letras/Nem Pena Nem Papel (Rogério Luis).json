@@ -1,0 +1,64 @@
+{
+  "id": 1616626636779,
+  "title": "Nem Pena Nem Papel",
+  "artist": "Rogério Luis",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Não te assombres\nDos temporais da vida\nDeus protege, faz uma oração\nE ELE responde\nTransforma em sinfonia \nesse seus ais\n\nNão te espantes\nDas dores desse mundo, \nDeus consola\n \nRecolhe cada lágrima que rola\nE rega o teu sonho de manhã\n\nO sol pode até parar\nA lua não mais brilhar\nAinda assim Tua Palavra é fiel\n\nDeus não é homem, não\nCumpre o que prometeu\nE não precisa de uma pena\nNem de papel",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Não te assombres\nDos temporais da vida\nDeus protege, faz uma oração\nE ELE responde\nTransforma em sinfonia \nesse seus ais",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Não te espantes\nDas dores desse mundo, \nDeus consola\n \nRecolhe cada lágrima que rola\nE rega o teu sonho de manhã",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "O sol pode até parar\nA lua não mais brilhar\nAinda assim Tua Palavra é fiel",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Deus não é homem, não\nCumpre o que prometeu\nE não precisa de uma pena\nNem de papel",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

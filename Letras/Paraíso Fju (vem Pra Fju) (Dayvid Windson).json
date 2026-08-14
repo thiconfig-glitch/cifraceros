@@ -1,0 +1,64 @@
+{
+  "id": 1591477499485,
+  "title": "Paraíso Fju (vem Pra Fju)",
+  "artist": "Dayvid Windson",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Confesso nunca imaginar\nQue existia um lugar tão bom pra mim\nAmigos pra me ajudar\nUma força pra me levantar\nIsso é tão bom pra mim\n\nAlguém acreditou em mim\nQuando eu pensava que era o fim\nMe deu sorriso\nAgora acredito em você\nVamos juntos sem retroceder\nAo paraíso\n\noh oh oh oh oh...\noh oh oh oh oh...\noh oh oh oh oh...\n\nVem pra FJU\nVem pra FJU\nVem",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Confesso nunca imaginar\nQue existia um lugar tão bom pra mim\nAmigos pra me ajudar\nUma força pra me levantar\nIsso é tão bom pra mim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Alguém acreditou em mim\nQuando eu pensava que era o fim\nMe deu sorriso\nAgora acredito em você\nVamos juntos sem retroceder\nAo paraíso",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "oh oh oh oh oh...\noh oh oh oh oh...\noh oh oh oh oh...",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Vem pra FJU\nVem pra FJU\nVem",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

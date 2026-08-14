@@ -1,0 +1,78 @@
+{
+  "id": 1701386879512,
+  "title": "Se Tua Presença ",
+  "artist": "",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Do que adianta o homem\nGanhar o mundo inteiro e se perder\nDo que adianta o homem\nTer muitos tesouros na terra\nE a Presença não ter\n\nDo que adianta o homem,\nTer muitos benefícios\nE de Deus se esquecer\nDo que adianta o homem,\nTer muitos sonhos,\nFazer muitos planos\nE a Presença não ter\n\nE aí me lembro de Moisés\nQue viu o mar se abrir\nTambém viu o povo passar\nContemplou o Senhor destruir faraó\nAli no mar\n\nE Mesmo com os livramentos\nE Mesmo com tantos milagres\nMoisés entendeu que a Presença\nDevia ser a sua prioridade\nE declarou\n\nSe a Tua presença não for comigo\nNão me faça nem sair do meu lugar\nSe a Tua presença não for comigo,\nNão permita que nada eu venha conquistar\n\nSe a Tua presença não for comigo,\nDo que vale o meu pregar e o meu cantar\nSe a Tua presença não for comigo,\nJá não faz nenhum sentido eu existir,\nEu preciso da Tua presença em mim",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Do que adianta o homem\nGanhar o mundo inteiro e se perder\nDo que adianta o homem\nTer muitos tesouros na terra\nE a Presença não ter",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Do que adianta o homem,\nTer muitos benefícios\nE de Deus se esquecer\nDo que adianta o homem,\nTer muitos sonhos,\nFazer muitos planos\nE a Presença não ter",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "E aí me lembro de Moisés\nQue viu o mar se abrir\nTambém viu o povo passar\nContemplou o Senhor destruir faraó\nAli no mar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "E Mesmo com os livramentos\nE Mesmo com tantos milagres\nMoisés entendeu que a Presença\nDevia ser a sua prioridade\nE declarou",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Se a Tua presença não for comigo\nNão me faça nem sair do meu lugar\nSe a Tua presença não for comigo,\nNão permita que nada eu venha conquistar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Se a Tua presença não for comigo,\nDo que vale o meu pregar e o meu cantar\nSe a Tua presença não for comigo,\nJá não faz nenhum sentido eu existir,\nEu preciso da Tua presença em mim",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "id": 1608305752929,
+  "title": "Teu Sangue Garante a Vitória",
+  "artist": "Corinhos Evangélicos",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Teu sangue garante a vitória, Jesus\nGarante a vitória\nTeu sangue garante a vitória, Jesus\nGarante a vitória\n\nTeu sangue garante a vitória, Jesus\nGarante a vitória\nTeu sangue garante a vitória, Jesus\nGarante a vitória\n\nEu fui comprado por um preço muito alto\nE este preço foi o sangue\nDerramado lá na cruz\n\nEu fui comprado por um preço muito alto\nE este preço foi o sangue\nDerramado lá na cruz\n\nGarante a vitória, Jesus\nGarante a vitória\nTeu sangue garante a vitória, Jesus\nGarante a vitória",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Teu sangue garante a vitória, Jesus\nGarante a vitória\nTeu sangue garante a vitória, Jesus\nGarante a vitória",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Teu sangue garante a vitória, Jesus\nGarante a vitória\nTeu sangue garante a vitória, Jesus\nGarante a vitória",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Eu fui comprado por um preço muito alto\nE este preço foi o sangue\nDerramado lá na cruz",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Eu fui comprado por um preço muito alto\nE este preço foi o sangue\nDerramado lá na cruz",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Garante a vitória, Jesus\nGarante a vitória\nTeu sangue garante a vitória, Jesus\nGarante a vitória",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

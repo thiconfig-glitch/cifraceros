@@ -1,0 +1,57 @@
+{
+  "id": 1582748876037,
+  "title": "SEGREDOS",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "EU PROCURO UM AMOR\nQUE AINDA NÃO ENCONTREI\nDIFERENTE DE TODOS QUE AMEI\n\nNOS SEUS OLHOS QUERO DESCOBRIR\nUMA RAZÃO PARA VIVER\nE AS FERIDAS DESSA VIDAEU QUERO ESQUECER\n\nPROCURO UM AMOR\nQUE SEJA BOM PRA MIM\nVOU PROCURAR\nEU VOU ATÉ O FIM\nE EU VOU TRATÁ-LA BEM\nPRA QUE ELA NÃO TENHA MEDO\nQUANDO COMEÇAR A CONHECER\nOS MEUS DEFEITOS",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "EU PROCURO UM AMOR\nQUE AINDA NÃO ENCONTREI\nDIFERENTE DE TODOS QUE AMEI",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "NOS SEUS OLHOS QUERO DESCOBRIR\nUMA RAZÃO PARA VIVER\nE AS FERIDAS DESSA VIDAEU QUERO ESQUECER",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "PROCURO UM AMOR\nQUE SEJA BOM PRA MIM\nVOU PROCURAR\nEU VOU ATÉ O FIM\nE EU VOU TRATÁ-LA BEM\nPRA QUE ELA NÃO TENHA MEDO\nQUANDO COMEÇAR A CONHECER\nOS MEUS DEFEITOS",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

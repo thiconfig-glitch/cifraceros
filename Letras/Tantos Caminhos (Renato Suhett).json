@@ -1,0 +1,71 @@
+{
+  "id": 1623593442932,
+  "title": "Tantos Caminhos",
+  "artist": "Renato Suhett",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Andei por terras distantes\nVaguei por lugares errantes\nProcurando por alguém\nQue me fizesse feliz\n\nEu andei tantos caminhos\nEu pisei tantos espinhos\nMeus pés cansados, \nsó queriam descansar\nMeus olhos tristes, \njá cansados de chorar\n\nEu pensei em te encontrar \nem templos\nEu pensei em te encontrar\n em livros\nQue nada!\nTe encontrei no coração!\n\nMas que tudo eu procurei\nEncontrar na vida alguém\nAndava triste \nEra tudo tão ruim\nNas noites frias \nminha dor não tinha fim\n\nEu pensei em te encontrar\n em templos\nEu pensei em te encontrar\n em livros\nQue nada!\nTe encontrei no coração!",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Andei por terras distantes\nVaguei por lugares errantes\nProcurando por alguém\nQue me fizesse feliz",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Eu andei tantos caminhos\nEu pisei tantos espinhos\nMeus pés cansados, \nsó queriam descansar\nMeus olhos tristes, \njá cansados de chorar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Eu pensei em te encontrar \nem templos\nEu pensei em te encontrar\n em livros\nQue nada!\nTe encontrei no coração!",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Mas que tudo eu procurei\nEncontrar na vida alguém\nAndava triste \nEra tudo tão ruim\nNas noites frias \nminha dor não tinha fim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Eu pensei em te encontrar\n em templos\nEu pensei em te encontrar\n em livros\nQue nada!\nTe encontrei no coração!",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

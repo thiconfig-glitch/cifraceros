@@ -1,0 +1,57 @@
+{
+  "id": 1582748875832,
+  "title": "DEUS DA FAMÍLIA",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "SEI QUE EM MINHA CASA ESTÁS\nSEMPRE CUIDA DO MEU LAR\nO SENHOR É O MEU PASTOR E NADA VAI FALTAR\nPOIS SEI QUE TU ÉS FIEL, TU ÉS FIEL A MIM\n\nSEI QUE OS MEUS FILHOS CRESCERÃO\nE TERÃO AS BENÇÃOS DE TUAS MÃOS\nMINHA DESCENDÊNCIA VAI A TI OBEDECER\nE FRUTIFICARÃO PELA FÉ EU POSSO VER\n\nDEUS DA FAMÍLIA, ABENÇOE O MEU LAR\nDEUS DA FAMÍLIA, VEM MINHA CASA EDIFICAR\nFAÇA MORADA ETERNA EM NOSSOS CORAÇÕES\nDEUS DA FAMÍLIA ÉS O DEUS DO NOSSO LAR",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "SEI QUE EM MINHA CASA ESTÁS\nSEMPRE CUIDA DO MEU LAR\nO SENHOR É O MEU PASTOR E NADA VAI FALTAR\nPOIS SEI QUE TU ÉS FIEL, TU ÉS FIEL A MIM",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "SEI QUE OS MEUS FILHOS CRESCERÃO\nE TERÃO AS BENÇÃOS DE TUAS MÃOS\nMINHA DESCENDÊNCIA VAI A TI OBEDECER\nE FRUTIFICARÃO PELA FÉ EU POSSO VER",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "DEUS DA FAMÍLIA, ABENÇOE O MEU LAR\nDEUS DA FAMÍLIA, VEM MINHA CASA EDIFICAR\nFAÇA MORADA ETERNA EM NOSSOS CORAÇÕES\nDEUS DA FAMÍLIA ÉS O DEUS DO NOSSO LAR",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

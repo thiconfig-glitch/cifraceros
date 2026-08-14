@@ -1,0 +1,85 @@
+{
+  "id": 1582748875572,
+  "title": "O MILAGRE SOU EU",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "A DOR NÃ0 MATA SE DEUS ESTÁ PRESENTE\nSÓ QUEM CAMINHA COM ELE ENTENDE O VALOR\nDE UMA LÁGRIMA DERRAMADA NO ALTAR DA DOR\nENXUGADA PELAS MÃOS DO CONSOLADOR\n\nSE ELE QUISER, ELE RESSUCITA MORTOS\nELE FAZ O IMPOSSÍVEL\nTUDO PORQUE ELE É DEUS\n\nMAS SE ELE NÃO QUER QUE ACONTEÇA DO MEU JEITO\nEU DECLARO QUE EU ACEITO\nE AGORA O MILAGRE SOU EU, SOU EU\nO MILAGRE SOU EU, SOU EU\n\nEU NÃO VOU PARAR\nVOU CONTINUAR TE ADORANDO, DEUS\nO MILAGRE SOU EU, SOU EU\n\nEU NÃO VOU PARAR\nVOU CONTINUAR TE ADORANDO, DEUS\nO MILAGRE SOU EU\n\nSE ELE QUISER, ELE RESSUCITA MORTOS\nELE FAZ O IMPOSSÍVEL\nTUDO PORQUE ELE É DEUS\n\nMAS SE ELE NÃO QUER QUE ACONTEÇA DO MEU JEITO\nEU DECLARO QUE EU ACEITO\nE AGORA O MILAGRE SOU EU",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "A DOR NÃ0 MATA SE DEUS ESTÁ PRESENTE\nSÓ QUEM CAMINHA COM ELE ENTENDE O VALOR\nDE UMA LÁGRIMA DERRAMADA NO ALTAR DA DOR\nENXUGADA PELAS MÃOS DO CONSOLADOR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "SE ELE QUISER, ELE RESSUCITA MORTOS\nELE FAZ O IMPOSSÍVEL\nTUDO PORQUE ELE É DEUS",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "MAS SE ELE NÃO QUER QUE ACONTEÇA DO MEU JEITO\nEU DECLARO QUE EU ACEITO\nE AGORA O MILAGRE SOU EU, SOU EU\nO MILAGRE SOU EU, SOU EU",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "EU NÃO VOU PARAR\nVOU CONTINUAR TE ADORANDO, DEUS\nO MILAGRE SOU EU, SOU EU",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "EU NÃO VOU PARAR\nVOU CONTINUAR TE ADORANDO, DEUS\nO MILAGRE SOU EU",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "SE ELE QUISER, ELE RESSUCITA MORTOS\nELE FAZ O IMPOSSÍVEL\nTUDO PORQUE ELE É DEUS",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "MAS SE ELE NÃO QUER QUE ACONTEÇA DO MEU JEITO\nEU DECLARO QUE EU ACEITO\nE AGORA O MILAGRE SOU EU",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

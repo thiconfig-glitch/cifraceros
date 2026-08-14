@@ -1,0 +1,85 @@
+{
+  "id": 1626384165939,
+  "title": "Tentações",
+  "artist": "Marcelo Crivella",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Ah essa luta de sempre\nQue existe dentro da gente\nPensamentos sentimentos\nTentações que não tem fim\n\nSe eu tropeçar\nCom o peso desta cruz\nMe perdoa óh jesua\nMe ajude a levantar\nSe corrompe o exterior\nRenova meu interior\n\nEu já nem me lembro\nQuantas vezes eu lutei\nContra a velha natureza\nQue me traz tanta tristeza\n\nDeixando para tras\nAquilo que eu queria\nMorrendo a cada dia\nPra Jesus viver em mim\n\nTe amo, te adoro, te imploro\nÓh meu senhor\nNão deixa o meu coração\nCair em tentação\nPreciso te encontrar\nem cada amanhecer\nTeu nome é minha força pra vencer\n\nAssim vou vivendo\nNum mundo ao qual não pertenço\nTanta luta sofrimento\nConfesso nem entendo\n\nTesouro de ouro\nGuardado em vaso de barro\nHumilhado desprezado\nMas não desanimado\nPerseguido abatido\nMas nunca destruido",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Ah essa luta de sempre\nQue existe dentro da gente\nPensamentos sentimentos\nTentações que não tem fim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Se eu tropeçar\nCom o peso desta cruz\nMe perdoa óh jesua\nMe ajude a levantar\nSe corrompe o exterior\nRenova meu interior",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Eu já nem me lembro\nQuantas vezes eu lutei\nContra a velha natureza\nQue me traz tanta tristeza",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Deixando para tras\nAquilo que eu queria\nMorrendo a cada dia\nPra Jesus viver em mim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Te amo, te adoro, te imploro\nÓh meu senhor\nNão deixa o meu coração\nCair em tentação\nPreciso te encontrar\nem cada amanhecer\nTeu nome é minha força pra vencer",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Assim vou vivendo\nNum mundo ao qual não pertenço\nTanta luta sofrimento\nConfesso nem entendo",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Tesouro de ouro\nGuardado em vaso de barro\nHumilhado desprezado\nMas não desanimado\nPerseguido abatido\nMas nunca destruido",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": 1602602768024,
+  "title": "Milagres",
+  "artist": "R.R. Soares",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Milagres, milagres\nMilagres só Jesus pode fazer\nMilagres, milagres\nMilagres só Jesus pode fazer\n\nO povo vai orando\nJesus vai operando\nSinais e maravilhas\nAqui neste lugar\n\nOs obreiros vão orando\nJesus vai operando\nSinais e maravilhas\nAqui neste lugar",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Milagres, milagres\nMilagres só Jesus pode fazer\nMilagres, milagres\nMilagres só Jesus pode fazer",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "O povo vai orando\nJesus vai operando\nSinais e maravilhas\nAqui neste lugar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Os obreiros vão orando\nJesus vai operando\nSinais e maravilhas\nAqui neste lugar",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

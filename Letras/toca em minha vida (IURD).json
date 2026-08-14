@@ -1,0 +1,78 @@
+{
+  "id": 1587330199852,
+  "title": "toca em minha vida",
+  "artist": "IURD",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Vem agora Espírito Santo \neu estou aqui\nDeixa a tua unção fluir e me Tocar\n\nMeu Senhor, meu Rei é Teu \nesse meu Coração\nVem, recebe hoje a minha adoração\n\nQuero ser oferta viva \nem teu altar, meu Pai\nMinha vida eu entrego\nem Tuas mãos\nMesmo que não haja em mim \n\npalavras pra dizer\nQuando o Teu poder \ninvade o meu viver\n\nentra em minha vida Espírito Santo\nVem me envolver Espírito Santo\nE me renovar Espírito Santo\nFaz o Teu querer Espírito Santo\n\nTOCA em minha vida Espírito Santo\nVem me envolver Espírito Santo\nE me renovar Espírito Santo\nFaz o Teu querer Espírito Santo",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Vem agora Espírito Santo \neu estou aqui\nDeixa a tua unção fluir e me Tocar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Meu Senhor, meu Rei é Teu \nesse meu Coração\nVem, recebe hoje a minha adoração",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Quero ser oferta viva \nem teu altar, meu Pai\nMinha vida eu entrego\nem Tuas mãos\nMesmo que não haja em mim ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "palavras pra dizer\nQuando o Teu poder \ninvade o meu viver",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "entra em minha vida Espírito Santo\nVem me envolver Espírito Santo\nE me renovar Espírito Santo\nFaz o Teu querer Espírito Santo",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "TOCA em minha vida Espírito Santo\nVem me envolver Espírito Santo\nE me renovar Espírito Santo\nFaz o Teu querer Espírito Santo",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

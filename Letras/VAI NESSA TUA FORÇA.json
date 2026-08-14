@@ -1,0 +1,64 @@
+{
+  "id": 1582748875544,
+  "title": "VAI NESSA TUA FORÇA",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "GIDEÃO SE REVOLTOU CONTRA A SUA SITUAÇÃO \nPOIS NÃO ACEITAVA VIVER NA HUMILHAÇÃO\nNO LAGAR O TRIGO ELE FOI MALHAR\nPOIS NO SEU PEITO HAVIA O FOGO DA REVOLTA\n\nDEUS OLHOU E VIU A SUA INDIGNAÇÃO\nE FALOU COM GIDEÃO EU SOU CONTIGO\nVAI NESSA TUA FORÇA\n\nVAI VAI GIDEÃO\nVAI NESSA TUA FORÇA EU SOU CONTIGO OFERECE NO ALTAR TEU SACRIFÍCIO\nQUE A VITÓRIA EU ENTREGO EM TUAS MÃOS\n\nVAI NESSA TUA FORÇA\nNÃO NÃO TEMAS POIS HOMEM VALENTE\nUSE A TUA FÉ INTELIGENTE\nQUE A VITÓRIA EU ENTREGO EM TUAS MÃOS",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "GIDEÃO SE REVOLTOU CONTRA A SUA SITUAÇÃO \nPOIS NÃO ACEITAVA VIVER NA HUMILHAÇÃO\nNO LAGAR O TRIGO ELE FOI MALHAR\nPOIS NO SEU PEITO HAVIA O FOGO DA REVOLTA",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "DEUS OLHOU E VIU A SUA INDIGNAÇÃO\nE FALOU COM GIDEÃO EU SOU CONTIGO\nVAI NESSA TUA FORÇA",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "VAI VAI GIDEÃO\nVAI NESSA TUA FORÇA EU SOU CONTIGO OFERECE NO ALTAR TEU SACRIFÍCIO\nQUE A VITÓRIA EU ENTREGO EM TUAS MÃOS",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "VAI NESSA TUA FORÇA\nNÃO NÃO TEMAS POIS HOMEM VALENTE\nUSE A TUA FÉ INTELIGENTE\nQUE A VITÓRIA EU ENTREGO EM TUAS MÃOS",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

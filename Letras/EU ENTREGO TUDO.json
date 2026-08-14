@@ -1,0 +1,71 @@
+{
+  "id": 1582748875770,
+  "title": "EU ENTREGO TUDO",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "ESTOU AQUI MAIS UMA VEZ\nPARA ME RENDER A TI MEU SENHOR\n\nVIM TOMAR A MINHA CRUZ\nNEGAR-ME A MIM MESMO\nME ENTREGAR\n\nEU NÃO BUSCO O QUE TENS\nQUERO CONHECER QUEM TU ÉS\nPOIS JÁ DECIDI MORRER\nPARA QUE O SENHOR VIVA EM MIM\n\nEU ENTREGO TUDO PRA SEGUIR-TE ATÉ O FIM\nE NÃO VOLTAR ATRÁS\nNUNCA MAIS O MUNDO VAI MUDAR MEU RUMO\nESTOU INDO PARA A CRUZ\n\nPERCO O QUE FOR PRECISO PRA NÃO ME PERDER DE TI",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "ESTOU AQUI MAIS UMA VEZ\nPARA ME RENDER A TI MEU SENHOR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "VIM TOMAR A MINHA CRUZ\nNEGAR-ME A MIM MESMO\nME ENTREGAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "EU NÃO BUSCO O QUE TENS\nQUERO CONHECER QUEM TU ÉS\nPOIS JÁ DECIDI MORRER\nPARA QUE O SENHOR VIVA EM MIM",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "EU ENTREGO TUDO PRA SEGUIR-TE ATÉ O FIM\nE NÃO VOLTAR ATRÁS\nNUNCA MAIS O MUNDO VAI MUDAR MEU RUMO\nESTOU INDO PARA A CRUZ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "PERCO O QUE FOR PRECISO PRA NÃO ME PERDER DE TI",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

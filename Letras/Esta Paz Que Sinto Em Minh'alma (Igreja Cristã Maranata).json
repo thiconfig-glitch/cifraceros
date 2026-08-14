@@ -1,0 +1,78 @@
+{
+  "id": 1617802008945,
+  "title": "Esta Paz Que Sinto Em Minh'alma",
+  "artist": "Igreja Cristã Maranata",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Esta paz que sinto em minh'alma\nNão é porque tudo me vai bem\nEsta paz que sinto em minh'alma\nÉ porque eu sigo ao meu Senhor\n\nNão olho circunstâncias\nNão, não, não\nOlho seu amor seu grande amor\nNão me guio por vistas\nAlegre estou\n\nEsta paz que sinto em minh'alma\nNão é porque olho ao meu redor\nEsta paz que sinto em minh'alma\nÉ porque eu sigo ao meu Senhor\n\nNão olho circunstâncias\n(Não, não, não)\nOlho seu amor (seu grande amor)\nNão me guio por vistas\nAlegre estou\n\nAinda que a terra não floresça\nE a vide não dê o seu fruto\nAinda que os montes se lancem ao mar\nE a terra trema, hei de confiar\n\nNão olho circunstâncias\n(Não, não, não)\nOlho seu amor (seu grande amor)\nNão me guio por vistas\nAlegre estou",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Esta paz que sinto em minh'alma\nNão é porque tudo me vai bem\nEsta paz que sinto em minh'alma\nÉ porque eu sigo ao meu Senhor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Não olho circunstâncias\nNão, não, não\nOlho seu amor seu grande amor\nNão me guio por vistas\nAlegre estou",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Esta paz que sinto em minh'alma\nNão é porque olho ao meu redor\nEsta paz que sinto em minh'alma\nÉ porque eu sigo ao meu Senhor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Não olho circunstâncias\n(Não, não, não)\nOlho seu amor (seu grande amor)\nNão me guio por vistas\nAlegre estou",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Ainda que a terra não floresça\nE a vide não dê o seu fruto\nAinda que os montes se lancem ao mar\nE a terra trema, hei de confiar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Não olho circunstâncias\n(Não, não, não)\nOlho seu amor (seu grande amor)\nNão me guio por vistas\nAlegre estou",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": 1607779657016,
+  "title": "Logo de Manhã",
+  "artist": "Quarteto Vida",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Logo de Manhã quero Te buscar\nTua voz ouvir Teu amor sentir\nEstender as mãos Para Ti Buscar\nDerramar meu coração\nSobre  Teu altar\n\nPois Tu sabes bem\nTudo quanto há em mim\nE vou Te seguir\nE Te amar até o fim\n\nE no fim do dia\nQuando o sol se por\nTe adorarei Te darei louvor\nMesmo escura a noite\nBrilha a Tua luz\nEm Teus braços eu descanso\nMeu Senhor JESUS",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Logo de Manhã quero Te buscar\nTua voz ouvir Teu amor sentir\nEstender as mãos Para Ti Buscar\nDerramar meu coração\nSobre  Teu altar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Pois Tu sabes bem\nTudo quanto há em mim\nE vou Te seguir\nE Te amar até o fim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "E no fim do dia\nQuando o sol se por\nTe adorarei Te darei louvor\nMesmo escura a noite\nBrilha a Tua luz\nEm Teus braços eu descanso\nMeu Senhor JESUS",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

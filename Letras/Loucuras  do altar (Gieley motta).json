@@ -1,0 +1,78 @@
+{
+  "id": 1741905345680,
+  "title": "Loucuras  do altar",
+  "artist": "Gieley motta",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "NÃO, NÃO HÁ OUTRO LUGAR ONDE EU POSSA ENCONTRAR\nA SOLUÇÃO PRAS LUTAS E PRAS GUERRAS QUE HÃO DE VIR\nNEM ANOS DE ESTUDOS PODERIAM EXPLICAR\nO QUE ACONTECE AQUI\n\nNÃO O HOMEM NATURAL NÃO PODERIA ENTENDER\nAS COISAS LOUCAS QUE O ALTAR NOS CHAMA PRA FAZER\nÉ COMO ANDAR POR SOBRE AS ÁGUAS NÃO TEM EXPLICAÇÃO\nA GENTE APENAS CRÊ\n\nO ALTAR SUPERA FACULDADES\nO ALTAR ACALMA TEMPESTADES\nNO ALTAR O POBRE E EXALTADO E RECEBE PROVISÃO\nNO ALTAR O SÁBIO E CONFUNDIDO\n\nNO ALTAR TEM CHANCE PROS PERDIDOS\nE O QUE ANTES ERA IMPOSSÍVEL SE TORNA ALGO NATURAL\nNO ALTAR TEM VIDA PRA QUEM OUVE A VOZ DE DEUS\n\nNO ALTAR EU TENHO TUDO QUE EU PRECISO\nNO ALTAR ENCONTRO FORÇAS PRA RECOMEÇAR\nNO ALTAR ENFERMOS SÃO CURADOS\nE EU VEJO LARES TRANSFORMADOS\nNO ALTAR EU QUERO ESTAR\n\nNO ALTAR EU VEJO VIDAS RESTAURADAS\nA SABEDORIA HUMANA NO ALTAR NÃO VALE NADA\nNO ALTAR MILAGRES ACONTECEM\nCOISAS QUE O DINHEIRO NUNCA PODERÁ PAGAR\nSÓ ACONTECEM NO ALTAR",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "NÃO, NÃO HÁ OUTRO LUGAR ONDE EU POSSA ENCONTRAR\nA SOLUÇÃO PRAS LUTAS E PRAS GUERRAS QUE HÃO DE VIR\nNEM ANOS DE ESTUDOS PODERIAM EXPLICAR\nO QUE ACONTECE AQUI",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "NÃO O HOMEM NATURAL NÃO PODERIA ENTENDER\nAS COISAS LOUCAS QUE O ALTAR NOS CHAMA PRA FAZER\nÉ COMO ANDAR POR SOBRE AS ÁGUAS NÃO TEM EXPLICAÇÃO\nA GENTE APENAS CRÊ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "O ALTAR SUPERA FACULDADES\nO ALTAR ACALMA TEMPESTADES\nNO ALTAR O POBRE E EXALTADO E RECEBE PROVISÃO\nNO ALTAR O SÁBIO E CONFUNDIDO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "NO ALTAR TEM CHANCE PROS PERDIDOS\nE O QUE ANTES ERA IMPOSSÍVEL SE TORNA ALGO NATURAL\nNO ALTAR TEM VIDA PRA QUEM OUVE A VOZ DE DEUS",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "NO ALTAR EU TENHO TUDO QUE EU PRECISO\nNO ALTAR ENCONTRO FORÇAS PRA RECOMEÇAR\nNO ALTAR ENFERMOS SÃO CURADOS\nE EU VEJO LARES TRANSFORMADOS\nNO ALTAR EU QUERO ESTAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "NO ALTAR EU VEJO VIDAS RESTAURADAS\nA SABEDORIA HUMANA NO ALTAR NÃO VALE NADA\nNO ALTAR MILAGRES ACONTECEM\nCOISAS QUE O DINHEIRO NUNCA PODERÁ PAGAR\nSÓ ACONTECEM NO ALTAR",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "https://open.spotify.com/track/6CAqc7Ql8w9ZoF4XEzZfVi",
+      "youtube": "https://youtube.com/watch?v=DyA8cA6m_Ok",
+      "deezer": "https://deezer.com/track/2172824487"
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": 1613071598132,
+  "title": "Usei a Fé",
+  "artist": "Jamily",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Quanto tempo andei sozinho\nSem consolo, sem carinho\nEra só mais um alguém na multidão\nUm grito preso pronto pra rasgar o céu\nTe chamar\n\nA tristeza, o retrato\nDecorando o meu quarto\nNas paredes esse tom de solidão\nFoi quando a música tocou meu coração\nUsei a Fé\n\nJesus, me fez acreditar de novo\nJesus, que me fez tão capaz\nJesus, me fez acreditar na vida\nJesus, me fez renascer",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Quanto tempo andei sozinho\nSem consolo, sem carinho\nEra só mais um alguém na multidão\nUm grito preso pronto pra rasgar o céu\nTe chamar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "A tristeza, o retrato\nDecorando o meu quarto\nNas paredes esse tom de solidão\nFoi quando a música tocou meu coração\nUsei a Fé",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Jesus, me fez acreditar de novo\nJesus, que me fez tão capaz\nJesus, me fez acreditar na vida\nJesus, me fez renascer",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

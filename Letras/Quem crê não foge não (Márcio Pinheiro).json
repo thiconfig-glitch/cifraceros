@@ -1,0 +1,50 @@
+{
+  "id": 1624646697932,
+  "title": "Quem crê não foge não",
+  "artist": "Márcio Pinheiro",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Quem crê, quem crê\nQuem crê não foge não\nEstá pegando fogo\nAqui nesta reunião\n\nSadraque não teve medo\nMesaque não se curvou\nAbnego confio em Deus\nEntrou na fornalha\nMas o fogo não queimou",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Quem crê, quem crê\nQuem crê não foge não\nEstá pegando fogo\nAqui nesta reunião",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Sadraque não teve medo\nMesaque não se curvou\nAbnego confio em Deus\nEntrou na fornalha\nMas o fogo não queimou",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

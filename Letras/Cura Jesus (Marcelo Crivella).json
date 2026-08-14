@@ -1,0 +1,85 @@
+{
+  "id": 1599749595092,
+  "title": "Cura Jesus",
+  "artist": "Marcelo Crivella",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Pai\nUsa o teu poder\nE opera em mim\nLeva a minha dor\nFaz ela ter fim\n\nPai\nEntra no meu ser\nBasta um sinal\nPara o teu poder\nDestruir o mal\n\nO meu corpo te pertence, \no meu senhor\nVenha agora e arranca essa dor \n\nCura a minha alma,cura\nMeu pensamento,cura\nDerrota o inimigo\nQue atormenta os sonhos meus\n\nCura,tua palavra cura\nNa fé que me segura\nSem medo do perigo\nPorque estou nas mãos de Deus\n\nCura Jesus\nCura Jesus\nCura e abençoa a minha vida\n\npor isso cura jesus\ncura jesus\nCura e abençoa a minha vida\nA minha vida",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Pai\nUsa o teu poder\nE opera em mim\nLeva a minha dor\nFaz ela ter fim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Pai\nEntra no meu ser\nBasta um sinal\nPara o teu poder\nDestruir o mal",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "O meu corpo te pertence, \no meu senhor\nVenha agora e arranca essa dor ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Cura a minha alma,cura\nMeu pensamento,cura\nDerrota o inimigo\nQue atormenta os sonhos meus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Cura,tua palavra cura\nNa fé que me segura\nSem medo do perigo\nPorque estou nas mãos de Deus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Cura Jesus\nCura Jesus\nCura e abençoa a minha vida",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "por isso cura jesus\ncura jesus\nCura e abençoa a minha vida\nA minha vida",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

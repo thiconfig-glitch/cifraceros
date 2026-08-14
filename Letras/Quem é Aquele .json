@@ -1,0 +1,78 @@
+{
+  "id": 1700777403732,
+  "title": "Quem é Aquele ",
+  "artist": "",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Quem é Aquele que me enxerga além\nDo que podem ver?\nE sem que eu diga uma palavra \nsabe tudo em mim?\n\nQuem olha assim não vê\nQuão frágil sou\n\nO único que vê o esforço da alma \npra não quebrar\nComo um pai me carrega no seu colo\n\nMas quando penso que não sou capaz\nDe me sujeitar ao vento que leva e traz\n\nForte ensina a ser \nsem que eu me sinta assim\n\nO meu amado que me vê\nE me ama como ninguém me amou\nEntão entrego o que ninguém \nvê pra te honrar\nE o seu olhar basta pra mim",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Quem é Aquele que me enxerga além\nDo que podem ver?\nE sem que eu diga uma palavra \nsabe tudo em mim?",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Quem olha assim não vê\nQuão frágil sou",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "O único que vê o esforço da alma \npra não quebrar\nComo um pai me carrega no seu colo",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Mas quando penso que não sou capaz\nDe me sujeitar ao vento que leva e traz",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Forte ensina a ser \nsem que eu me sinta assim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "O meu amado que me vê\nE me ama como ninguém me amou\nEntão entrego o que ninguém \nvê pra te honrar\nE o seu olhar basta pra mim",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

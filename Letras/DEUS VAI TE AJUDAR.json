@@ -1,0 +1,57 @@
+{
+  "id": 1582748875805,
+  "title": "DEUS VAI TE AJUDAR",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "LUTE COM FERVOR E FÉ, SEM RETROCEDER\nMESMO QUE UM MAL QUALQUER ASSOLE VOCÊ\nAS LUTAS DA VIDA LOGO VÃO PASSAR\nCONFIA PORQUE DEUS VAI TE AJUDAR\n\nSE EXISTEM PROVAÇÕES NOS DIAS TEUS\nABRE TEU CORAÇÃO, ENTREGUE A DEUS\nPOIS TUDO NA VIDA DEUS PODE MUDAR\nCONFIA ENTÃO, DEUS VAI TE AJUDAR\n\nDEUS VAI tE AJUDAR\nDEUS VAI TE AJUDAR\nnão temo porque eu sei vou vencer\nDEUS VAI TE AJUDAR",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "LUTE COM FERVOR E FÉ, SEM RETROCEDER\nMESMO QUE UM MAL QUALQUER ASSOLE VOCÊ\nAS LUTAS DA VIDA LOGO VÃO PASSAR\nCONFIA PORQUE DEUS VAI TE AJUDAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "SE EXISTEM PROVAÇÕES NOS DIAS TEUS\nABRE TEU CORAÇÃO, ENTREGUE A DEUS\nPOIS TUDO NA VIDA DEUS PODE MUDAR\nCONFIA ENTÃO, DEUS VAI TE AJUDAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "DEUS VAI tE AJUDAR\nDEUS VAI TE AJUDAR\nnão temo porque eu sei vou vencer\nDEUS VAI TE AJUDAR",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

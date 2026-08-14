@@ -1,0 +1,85 @@
+{
+  "id": 1618567175499,
+  "title": "Final Feliz",
+  "artist": "Rose Nascimento",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Vou lhe contar uma história da Bíblia\nHistória que fala sobre um Salvador\nTalvez já ouviste alguém lhe falar\nMas o final não quiseram contar\n\nExistia na Terra um certo homem\nQue se chamava Jesus de Nazaré\nFazia milagres acontecer\nTudo isso pelo seu poder\n\nEle fez o morto ressuscitar\nEle fez o cego enxergar\nEle caminhou sobre o mar\nEle fez paralítico andar, andar\n\nEle fez o morto ressuscitar\nEle fez o cego enxergar\nEle caminhou sobre o mar\nEle fez paralítico andar, andar\n\nMas ouça amigo o que aconteceu\nMandaram matar o Rei dos Judeus\nTalvez por inveja, calúnia, eu não sei\nSó sei que Ele é o Rei dos Reis\n\nMas ouça a história não termina assim\nPois esta história tem final feliz\nAo terceiro dia ele ressuscitou\nFoi ao inferno e a chave tomou\n\nEle fez o morto ressuscitar\nEle fez o cego enxergar\nEle caminhou sobre o mar\nEle fez paralítico andar, andar",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Vou lhe contar uma história da Bíblia\nHistória que fala sobre um Salvador\nTalvez já ouviste alguém lhe falar\nMas o final não quiseram contar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Existia na Terra um certo homem\nQue se chamava Jesus de Nazaré\nFazia milagres acontecer\nTudo isso pelo seu poder",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Ele fez o morto ressuscitar\nEle fez o cego enxergar\nEle caminhou sobre o mar\nEle fez paralítico andar, andar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Ele fez o morto ressuscitar\nEle fez o cego enxergar\nEle caminhou sobre o mar\nEle fez paralítico andar, andar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Mas ouça amigo o que aconteceu\nMandaram matar o Rei dos Judeus\nTalvez por inveja, calúnia, eu não sei\nSó sei que Ele é o Rei dos Reis",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Mas ouça a história não termina assim\nPois esta história tem final feliz\nAo terceiro dia ele ressuscitou\nFoi ao inferno e a chave tomou",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Ele fez o morto ressuscitar\nEle fez o cego enxergar\nEle caminhou sobre o mar\nEle fez paralítico andar, andar",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

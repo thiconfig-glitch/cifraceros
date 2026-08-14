@@ -1,0 +1,71 @@
+{
+  "id": 1603286972656,
+  "title": "Pra Onde Vai Você?",
+  "artist": "Marcelo Crivella",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Quanta gente gasta\nO que tem e o que não tem\nPor um momento de glória\nTentando ser alguém\nRoupa nova academia\nBoutique cirurgia\nDeitando em qualquer cama\nPor dinheiro ou pela fama\n\nVida passa e chega o dia\nQue a pessoa fica só\nQue a gente fecha os olhos\nE a carne volta ao pó\nE na escuridão pronfunda\nVem a última pergunta\nPra onde vai a sua alma?\n\nDe que vale ganhar o mundo inteiro\nSe não há dinheiro que compre a eternidade\nDe que vale tanto orgulho e vaidade\nSe na hora da verdade\nVocê perder a salvação\n\nE a pergunta permanece\nE você tem que responder\nPra onde vai a sua alma?\nPra onde vai você?\n\nDe que vale ganhar o mundo inteiro...",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Quanta gente gasta\nO que tem e o que não tem\nPor um momento de glória\nTentando ser alguém\nRoupa nova academia\nBoutique cirurgia\nDeitando em qualquer cama\nPor dinheiro ou pela fama",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Vida passa e chega o dia\nQue a pessoa fica só\nQue a gente fecha os olhos\nE a carne volta ao pó\nE na escuridão pronfunda\nVem a última pergunta\nPra onde vai a sua alma?",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "De que vale ganhar o mundo inteiro\nSe não há dinheiro que compre a eternidade\nDe que vale tanto orgulho e vaidade\nSe na hora da verdade\nVocê perder a salvação",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "E a pergunta permanece\nE você tem que responder\nPra onde vai a sua alma?\nPra onde vai você?",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "De que vale ganhar o mundo inteiro...",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

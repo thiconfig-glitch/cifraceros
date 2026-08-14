@@ -1,0 +1,78 @@
+{
+  "id": 1591815394703,
+  "title": "Me Batiza ",
+  "artist": "Igor Lopes",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Como todo ser humano \nfaço planos\nE projetos que \ndesejo realizar\n\nMas a voz da consciência \nme faz entender\nQue de nada me adianta\nSe eu não Te conhecer\n\nDe que vale toda a \nminha existência\nSe em meu ser não \ntiver tua presença\n\nDe que vale toda \na prata e o ouro?\nSe o meu maior desejo é\nTe receber\n\nSenhor Jesus\nMe batiza com \no Espírito Santo\nE faz nascer em mim \nTua natureza\n\nPra que eu possa \ncontemplar Tua grandeza\nSer a Tua testemunha \naonde eu for\nE levar até os confins\nda terra o Teu amor",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Como todo ser humano \nfaço planos\nE projetos que \ndesejo realizar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Mas a voz da consciência \nme faz entender\nQue de nada me adianta\nSe eu não Te conhecer",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "De que vale toda a \nminha existência\nSe em meu ser não \ntiver tua presença",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "De que vale toda \na prata e o ouro?\nSe o meu maior desejo é\nTe receber",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Senhor Jesus\nMe batiza com \no Espírito Santo\nE faz nascer em mim \nTua natureza",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Pra que eu possa \ncontemplar Tua grandeza\nSer a Tua testemunha \naonde eu for\nE levar até os confins\nda terra o Teu amor",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

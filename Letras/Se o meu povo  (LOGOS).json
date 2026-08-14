@@ -1,0 +1,50 @@
+{
+  "id": 1648414852393,
+  "title": "Se o meu povo ",
+  "artist": "LOGOS",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Se o meu povo \nque se chama por Meu Nome\nSe humilhar, Me buscar\nE deixar o mau caminho\nArrependido ...\n\nEntão sararei suas feridas,\nLhe darei da minha vida,\nCurarei até seu chão\nTirarei do rosto as lágrimas\nEnxugando-as no consolo\nDe quem sabe perdoar.",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Se o meu povo \nque se chama por Meu Nome\nSe humilhar, Me buscar\nE deixar o mau caminho\nArrependido ...",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Então sararei suas feridas,\nLhe darei da minha vida,\nCurarei até seu chão\nTirarei do rosto as lágrimas\nEnxugando-as no consolo\nDe quem sabe perdoar.",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

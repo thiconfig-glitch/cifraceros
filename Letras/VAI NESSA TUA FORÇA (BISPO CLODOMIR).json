@@ -1,0 +1,64 @@
+{
+  "id": 1582748875636,
+  "title": "VAI NESSA TUA FORÇA",
+  "artist": "BISPO CLODOMIR",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "ISRAEL JÁ HUMILHADO\nPELO O POVO AMALEQUITA\nESCONDIDO NAS CAVERNAS SÓ A LAMENTAR\nMAS UM ANJO APARECEU E FALOU Á GIDEÃO\nHOMEM VALENTE O SENHOR É CONTIGO\nA VITÓRIA ESTÁ EM TUAS MÃOS\n\nMAS SE O SENHOR É COMIGO\nONDE ESTÃO AS MARAVILHAS\nQUE UM DIA NOS CONTARAM NOSSOS PAIS?\nO ANJO LHE RESPONDEU VAI NESSA TUA FORÇA GIDEÃO\nDEUS VAI TRAZER O INIMIGO PRA COMER NA PALMA DA TUA MÃO\n\nPÕE O SEGUNDO BOI\nNO ALTAR EM OFERTA Á DEUS\nTRAZ O SEGUNDO BOI\nNESSA FÉ DE QUEM JÁ VENCEU\nPÕE O SEGUNDO BOI\nNO ALTAR EM OFERTA Á DEUS\nELE DE DÁ SETE VEZES O QUE TE ROUBOU O INIMIGO TEU\n\nO PRIMEIRO BOI NÃO AGRADA Á DEUS PORQUE É MIRRADO\nTEM QUE TER CHEIRO AGRADÁVEL\nO QUE VAI SER SACRIFICADO\nQUANDO MAIOR O SACRIFÍCIO\nMAIOR O QUE POR VOCÊ CONQUISTADO\nTRAZ SEU MELHOR O ALTAR JÁ ESTÁ PREPARADO",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "ISRAEL JÁ HUMILHADO\nPELO O POVO AMALEQUITA\nESCONDIDO NAS CAVERNAS SÓ A LAMENTAR\nMAS UM ANJO APARECEU E FALOU Á GIDEÃO\nHOMEM VALENTE O SENHOR É CONTIGO\nA VITÓRIA ESTÁ EM TUAS MÃOS",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "MAS SE O SENHOR É COMIGO\nONDE ESTÃO AS MARAVILHAS\nQUE UM DIA NOS CONTARAM NOSSOS PAIS?\nO ANJO LHE RESPONDEU VAI NESSA TUA FORÇA GIDEÃO\nDEUS VAI TRAZER O INIMIGO PRA COMER NA PALMA DA TUA MÃO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "PÕE O SEGUNDO BOI\nNO ALTAR EM OFERTA Á DEUS\nTRAZ O SEGUNDO BOI\nNESSA FÉ DE QUEM JÁ VENCEU\nPÕE O SEGUNDO BOI\nNO ALTAR EM OFERTA Á DEUS\nELE DE DÁ SETE VEZES O QUE TE ROUBOU O INIMIGO TEU",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "O PRIMEIRO BOI NÃO AGRADA Á DEUS PORQUE É MIRRADO\nTEM QUE TER CHEIRO AGRADÁVEL\nO QUE VAI SER SACRIFICADO\nQUANDO MAIOR O SACRIFÍCIO\nMAIOR O QUE POR VOCÊ CONQUISTADO\nTRAZ SEU MELHOR O ALTAR JÁ ESTÁ PREPARADO",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

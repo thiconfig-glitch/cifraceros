@@ -1,0 +1,71 @@
+{
+  "id": 1605131440655,
+  "title": "Minha Parte",
+  "artist": "Leonor",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Pra eu fazer minha parte Senhor\nTira o meu égo e põe Tua unção\nPra eu fazer o que te agrada meu Pai\nPõe Teu Espirito no meu coração\n\nA todo o descrente que eu leve a fé\nA alma ferida, a Tua palavra\nMostrar aos que choram que tem solução\nPõe TEU ESPIRITO no meu coração\n\nAos rejeitados que eu leve o amor\nE aos perdidos que eu mostre a saída\nAos pobres de espírito a sua luz\nBrilhe em mim Senhor Jesus\n\nEu quero amar como Ele amou\nEu quero andar como Ele andou\nSer seu discipulo e ter\no seu caráter no viver\n\nEu quero amar como Ele amou\nEu quero andar como Ele andou\nSer seu discipulo e ver\nComo Jesus me olhou",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Pra eu fazer minha parte Senhor\nTira o meu égo e põe Tua unção\nPra eu fazer o que te agrada meu Pai\nPõe Teu Espirito no meu coração",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "A todo o descrente que eu leve a fé\nA alma ferida, a Tua palavra\nMostrar aos que choram que tem solução\nPõe TEU ESPIRITO no meu coração",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Aos rejeitados que eu leve o amor\nE aos perdidos que eu mostre a saída\nAos pobres de espírito a sua luz\nBrilhe em mim Senhor Jesus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Eu quero amar como Ele amou\nEu quero andar como Ele andou\nSer seu discipulo e ter\no seu caráter no viver",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Eu quero amar como Ele amou\nEu quero andar como Ele andou\nSer seu discipulo e ver\nComo Jesus me olhou",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

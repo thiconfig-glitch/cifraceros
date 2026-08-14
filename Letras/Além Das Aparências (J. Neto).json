@@ -1,0 +1,64 @@
+{
+  "id": 1627160313912,
+  "title": "Além Das Aparências",
+  "artist": "J. Neto",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "É assim que Deus te vê\nCom lágrimas nos olhos\nO coração aflito, \num grito na garganta\nPra desabafar com Deus\n\nÉ assim que Deus te vê\nAlém das aparências\n \nConhece os teus problemas, \nvê a tua dor\nDeus vem te socorrer\n\nJesus jamais mudou,\nEle não falhará\n \nAs promessas que Ele tem Pra tua vida \numa a uma Ele cumprirá\n\nJesus jamais mudou,\nEle não falhará\n \nSe você determinou usou a fé\nVitória Deus te dá",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "É assim que Deus te vê\nCom lágrimas nos olhos\nO coração aflito, \num grito na garganta\nPra desabafar com Deus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "É assim que Deus te vê\nAlém das aparências\n \nConhece os teus problemas, \nvê a tua dor\nDeus vem te socorrer",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Jesus jamais mudou,\nEle não falhará\n \nAs promessas que Ele tem Pra tua vida \numa a uma Ele cumprirá",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Jesus jamais mudou,\nEle não falhará\n \nSe você determinou usou a fé\nVitória Deus te dá",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

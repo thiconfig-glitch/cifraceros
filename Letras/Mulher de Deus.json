@@ -1,0 +1,57 @@
+{
+  "id": 1582748875487,
+  "title": "Mulher de Deus",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "TODA MULHER QUE USA A SABEDORIA\nFELIZ É O SEU LAR E TUDO VAI BEM\nTODA A MULHER QUE A DEUS OBEDECE\nNADA FALTA EM SEU LAR\nSÓ A PAZ E UNIÃO REINA EM SEU CORAÇÃO\n\nMULHER DE DEUS\nGUERREIRA DE DEUS\nFOI FEITA PARA AMAR\nRAINHA DO LAR\nMULHER DE DEUS, GUERREIRA DE DEUS\nFOI FEITA PARA AMAR RAINHA DO LAR\n\nTODA MULHER QUE NAO USA SABEDORIA\nPOIS EM SEU LAR NAO EXISTE AMOR\nTODA MULHER QUE SEM DEUS QUER VIVER\nELA VIVE A CHORAR , NADA PODE MUDAR\nSEM QUE A DEUS DE LUGAR",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "TODA MULHER QUE USA A SABEDORIA\nFELIZ É O SEU LAR E TUDO VAI BEM\nTODA A MULHER QUE A DEUS OBEDECE\nNADA FALTA EM SEU LAR\nSÓ A PAZ E UNIÃO REINA EM SEU CORAÇÃO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "MULHER DE DEUS\nGUERREIRA DE DEUS\nFOI FEITA PARA AMAR\nRAINHA DO LAR\nMULHER DE DEUS, GUERREIRA DE DEUS\nFOI FEITA PARA AMAR RAINHA DO LAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "TODA MULHER QUE NAO USA SABEDORIA\nPOIS EM SEU LAR NAO EXISTE AMOR\nTODA MULHER QUE SEM DEUS QUER VIVER\nELA VIVE A CHORAR , NADA PODE MUDAR\nSEM QUE A DEUS DE LUGAR",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "id": 1782340577455,
+  "title": "Ventos de Avivamento",
+  "artist": "Com. Ev. Inter. da Zona Sul",
+  "author": "Ana Feitosa, Edson Feitosa",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "O meu coração tem anseio\nDe ver Tua glória\nEnchendo a terra\nComo as águas cobrem o mar\n\nDe ver se cumprindo na igreja\nA promessa que diz:\n\"Aquele que crer\nObras ainda maiores fará\"\n\nO muito que nós temos visto\nNão passam de gotas\nDiante daquilo que podes\nE queres fazer\n\nOh, faz chover, Senhor\nÁguas que reguem a terra\nQue façam brotar as sementes\nDos frutos de um avivamento\n\nOh, faz chover, Senhor\nAtende o Teu povo que clama\nQue anseia por ver o Teu braço\nAgindo com poder e graça\nEm nossa nação",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "O meu coração tem anseio\nDe ver Tua glória\nEnchendo a terra\nComo as águas cobrem o mar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "De ver se cumprindo na igreja\nA promessa que diz:\n\"Aquele que crer\nObras ainda maiores fará\"",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "O muito que nós temos visto\nNão passam de gotas\nDiante daquilo que podes\nE queres fazer",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Oh, faz chover, Senhor\nÁguas que reguem a terra\nQue façam brotar as sementes\nDos frutos de um avivamento",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Oh, faz chover, Senhor\nAtende o Teu povo que clama\nQue anseia por ver o Teu braço\nAgindo com poder e graça\nEm nossa nação",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "https://open.spotify.com/track/66vol9P02wsYz2myQHueL9",
+      "youtube": "https://youtube.com/watch?v=HqmYUFwYXCQ",
+      "deezer": "https://deezer.com/track/93546938"
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

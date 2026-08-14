@@ -1,0 +1,71 @@
+{
+  "id": 1631982142773,
+  "title": "Eu Quero é Deus",
+  "artist": "Comunidade de Nilópolis",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Eu, eu, eu, eu quero é Deus!\nEu, eu, eu, eu quero é Deus!\nNão importa o que vão pensar de mim\nEu quero é Deus\n\nEu, eu, eu, eu quero é Deus!\nEu, eu, eu, eu quero é Deus!\nNão importa o que vão pensar de mim\nEu quero é Deus\n\nNinguém morreria assim em meu lugar\nFoi uma morte terrível pra me salvar\nPor isso eu declaro eu amo esse Deus!\n\nEu, eu, eu, eu quero é Deus!\nEu, eu, eu, eu quero é Deus!\nNão importa o que vão pensar de mim\nEu quero é Deus\n\nEle é o pão vivo que desceu do céu\nEle é o Cordeiro de Deus\nO Príncipe da Paz\nEle é a raiz de Davi\nEle é o Leão de Judá!",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Eu, eu, eu, eu quero é Deus!\nEu, eu, eu, eu quero é Deus!\nNão importa o que vão pensar de mim\nEu quero é Deus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Eu, eu, eu, eu quero é Deus!\nEu, eu, eu, eu quero é Deus!\nNão importa o que vão pensar de mim\nEu quero é Deus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Ninguém morreria assim em meu lugar\nFoi uma morte terrível pra me salvar\nPor isso eu declaro eu amo esse Deus!",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Eu, eu, eu, eu quero é Deus!\nEu, eu, eu, eu quero é Deus!\nNão importa o que vão pensar de mim\nEu quero é Deus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Ele é o pão vivo que desceu do céu\nEle é o Cordeiro de Deus\nO Príncipe da Paz\nEle é a raiz de Davi\nEle é o Leão de Judá!",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

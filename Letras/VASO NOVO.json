@@ -1,0 +1,64 @@
+{
+  "id": 1582748875475,
+  "title": "VASO NOVO",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "EU QUERO SER, \nSENHOR AMADO\nCOMO UM VASO \nNAS MÃOS DO OLEIRO\n\n \nQUEBRA MINHA VIDA \nE ME FAÇA DE NOVO\nEU QUERO SER, \nEU QUERO SER UM VASO NOVO\n\nCOMO TÚ QUERES, \nSENHOR AMADO\nEU SOU UM VASO \nE TÚ ÉS O OLEIRO\n\n \nQUEBRA MINHA VIDA \nE ME FAÇA DE NOVO\nEU QUERO SER, \nEU QUERO SER UM VASO NOVO",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "EU QUERO SER, \nSENHOR AMADO\nCOMO UM VASO \nNAS MÃOS DO OLEIRO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": " \nQUEBRA MINHA VIDA \nE ME FAÇA DE NOVO\nEU QUERO SER, \nEU QUERO SER UM VASO NOVO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "COMO TÚ QUERES, \nSENHOR AMADO\nEU SOU UM VASO \nE TÚ ÉS O OLEIRO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": " \nQUEBRA MINHA VIDA \nE ME FAÇA DE NOVO\nEU QUERO SER, \nEU QUERO SER UM VASO NOVO",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": 1626893688822,
+  "title": "Serenata para Deus",
+  "artist": "Sérgio Lopes",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Pai! Antes da manhã chegar\nEu queria te contar um desejo \nque há em mim\n\nDeus! É que eu queria ver \nantes do Sol renascer\nO Senhor bem junto a mim\n\nPai! Há um grito em meu coração\nEle anseia pela salvação\nDe te contemplar a face, Pai\nDeus! Mas enquanto não te posso ver\nE o Sol me traz o amanhecer\nEu te amo ainda mais",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Pai! Antes da manhã chegar\nEu queria te contar um desejo \nque há em mim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Deus! É que eu queria ver \nantes do Sol renascer\nO Senhor bem junto a mim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Pai! Há um grito em meu coração\nEle anseia pela salvação\nDe te contemplar a face, Pai\nDeus! Mas enquanto não te posso ver\nE o Sol me traz o amanhecer\nEu te amo ainda mais",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

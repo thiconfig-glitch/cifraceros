@@ -1,0 +1,64 @@
+{
+  "id": 1616322883362,
+  "title": "Pela manhã",
+  "artist": "Ednaldo Mendes",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Pela manhã eu te contemplo\nAbro os meus lábios para te exaltar\nO Teu nome mora em mim\nE o Teu Espírito, eu louvarei\n\nEm minh'alma flui um rio\nNos meus olhos correm lágrimas\nEu Te louvarei, te exaltarei\nÓ meu grande Deus\n\nEspírito, Espírito\nEu estou aqui\nVem me abraçar, vem me envolver\nCom todo teu amor\n\nEspírito, Espírito\nEu estou aqui\nVem me abraçar, vem me envolver\nCom todo teu amor",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Pela manhã eu te contemplo\nAbro os meus lábios para te exaltar\nO Teu nome mora em mim\nE o Teu Espírito, eu louvarei",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Em minh'alma flui um rio\nNos meus olhos correm lágrimas\nEu Te louvarei, te exaltarei\nÓ meu grande Deus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Espírito, Espírito\nEu estou aqui\nVem me abraçar, vem me envolver\nCom todo teu amor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Espírito, Espírito\nEu estou aqui\nVem me abraçar, vem me envolver\nCom todo teu amor",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

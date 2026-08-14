@@ -1,0 +1,71 @@
+{
+  "id": 1599173145914,
+  "title": "Meu Sonho",
+  "artist": "Eyshila",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Deus me fez realizar \nO sonho de encontrar você assim \nTão sublime o teu olhar \nValeu a pena crer e te esperar \n\nVocê e eu vamos vencer \nO nosso amor nasceu nas mãos de Deus \n\nJesus mandou você pra mim \nVou com você até o fim \nPra onde Deus mandar \nProblemas nunca vão faltar \nMas as vitórias vão chegar\nDeus conosco esta \n\nNão... não vou te desprezar \nEu quero te ajudar a prosseguir \nSei que Deus contigo esta, \nNão vai te abandonar e nem a mim \n\nVocê e eu vamos vencer \nO nosso amor nasceu nas mãos de Deus",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Deus me fez realizar \nO sonho de encontrar você assim \nTão sublime o teu olhar \nValeu a pena crer e te esperar ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Você e eu vamos vencer \nO nosso amor nasceu nas mãos de Deus ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Jesus mandou você pra mim \nVou com você até o fim \nPra onde Deus mandar \nProblemas nunca vão faltar \nMas as vitórias vão chegar\nDeus conosco esta ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Não... não vou te desprezar \nEu quero te ajudar a prosseguir \nSei que Deus contigo esta, \nNão vai te abandonar e nem a mim ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Você e eu vamos vencer \nO nosso amor nasceu nas mãos de Deus",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

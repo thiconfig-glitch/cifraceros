@@ -1,0 +1,127 @@
+{
+  "id": 1605931761279,
+  "title": "Fala Que Eu Te Escuto",
+  "artist": "Pr. Fernando Rodrigues",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Vi quando você chegou \naqui neste lugar\nDentro do peito, \numa vontade de chorar\n\nNo coração, uma \nquestão pra resolver\n\nVi, você tentando amenizar \no sofrimento\nFazendo tudo pra fugir \ndesse momento\n\nSó não sabendo \nrealmente o que fazer\n\nSei, que é tão difícil \nencontrar uma saída\nVocê não sabe mais \no que fazer da vida\n\nPerdeu o rumo, \no caminho à seguir\n\nHoje, mais uma vez, \nvocê tentando se encontrar\nMeio sem jeito, entrou \naqui neste lugar\n\nPode falar, estou \naqui pra te ouvir\n\nFoi bom, você ter vindo \naqui me procurar\nEu sou teu Deus e \nestou aqui pra te ajudar\n\nDe hoje em diante, \ncom você, sempre estarei\n\n \nAgora, a sua vida está em minhas mãos\nQualquer problema eu sou a solução\nPode falar estou aqui pra te ouvir\n\nHoje, mais uma vez, \nvocê tentando se encontrar\nMeio sem jeito, \nentrou aqui neste lugar\nPode falar, \nestou aqui pra te ouvir\n\nFoi bom, você ter vindo aqui me procurar\nEu sou teu Deus e estou aqui pra te ajudar\nDe hoje em diante, com você, sempre estarei\n \nAgora, a sua vida está em minhas mãos\nQualquer problema eu sou a solução\nPode falar, estou aqui pra te ouvir",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Vi quando você chegou \naqui neste lugar\nDentro do peito, \numa vontade de chorar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "No coração, uma \nquestão pra resolver",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Vi, você tentando amenizar \no sofrimento\nFazendo tudo pra fugir \ndesse momento",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Só não sabendo \nrealmente o que fazer",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Sei, que é tão difícil \nencontrar uma saída\nVocê não sabe mais \no que fazer da vida",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Perdeu o rumo, \no caminho à seguir",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Hoje, mais uma vez, \nvocê tentando se encontrar\nMeio sem jeito, entrou \naqui neste lugar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": "Pode falar, estou \naqui pra te ouvir",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 9,
+        "description": "Refrão",
+        "text": "Foi bom, você ter vindo \naqui me procurar\nEu sou teu Deus e \nestou aqui pra te ajudar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 10,
+        "description": "Refrão",
+        "text": "De hoje em diante, \ncom você, sempre estarei",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 11,
+        "description": "",
+        "text": " \nAgora, a sua vida está em minhas mãos\nQualquer problema eu sou a solução\nPode falar estou aqui pra te ouvir",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 12,
+        "description": "",
+        "text": "Hoje, mais uma vez, \nvocê tentando se encontrar\nMeio sem jeito, \nentrou aqui neste lugar\nPode falar, \nestou aqui pra te ouvir",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 13,
+        "description": "Refrão",
+        "text": "Foi bom, você ter vindo aqui me procurar\nEu sou teu Deus e estou aqui pra te ajudar\nDe hoje em diante, com você, sempre estarei\n \nAgora, a sua vida está em minhas mãos\nQualquer problema eu sou a solução\nPode falar, estou aqui pra te ouvir",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

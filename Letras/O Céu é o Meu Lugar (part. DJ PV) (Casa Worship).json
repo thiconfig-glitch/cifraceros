@@ -1,0 +1,64 @@
+{
+  "id": 1621700818441,
+  "title": "O Céu é o Meu Lugar (part. DJ PV)",
+  "artist": "Casa Worship",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Estou de passagem aqui\nE esse não é o meu lugar\nDeus preparou pra mim\nUm novo lar\nUm novo lar\n\nO céu é o meu lugar\nO céu é o meu lugar\nO céu é o meu lugar\nE é pra lá que eu vou\nE é pra lá que eu vou\n\nEstou de passagem aqui\nE esse não é o meu lugar\nDeus preparou pra mim\nUm novo lar\nUm novo lar\n\nO céu é o meu lugar\nO céu é o meu lugar\nO céu é o meu lugar\nE é pra lá que eu vou\nE é pra lá que eu vou",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Estou de passagem aqui\nE esse não é o meu lugar\nDeus preparou pra mim\nUm novo lar\nUm novo lar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "O céu é o meu lugar\nO céu é o meu lugar\nO céu é o meu lugar\nE é pra lá que eu vou\nE é pra lá que eu vou",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Estou de passagem aqui\nE esse não é o meu lugar\nDeus preparou pra mim\nUm novo lar\nUm novo lar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "O céu é o meu lugar\nO céu é o meu lugar\nO céu é o meu lugar\nE é pra lá que eu vou\nE é pra lá que eu vou",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": 1582748875570,
+  "title": "TU ES A FORCA ",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "SÃO TANTOS OS MOMENTOS, \nEM QUE A TUA VOZ \nEU POSSO OUVIR\n\nSim tão DOCE A ME FALAR\nME FAZENDO DESCANSAR,\nMEU BEM-QUERER \n\nCOMO UM VENTO QUE PASSOU, \nFOLHAS SECAS DERRUBOU \nRENOVOU A MINHA VIDA\nE ME FAZ CANTAR LOUVOR, \nJESUS SENHOR\n\nQUE GOZO HAVERÁ, A PAZ\nQUE REINARÁ EM MEU CORAÇÃO\nPOIS SÓ EM TI ENCONTRO, \nA FORÇA E UM NOVO ENCANTO \nPARA O MEU VIVER\n\nE O TEMPO VAI PASSAR, \nOS ANOS VÃO CHEGAR\nPORÉM O MEU AMOR POR TI\nSERÁ O MESMO JESUS SENHOR\n\nTU ÉS A FORÇA QUE HÁ EM MIM \nSÓ TU ME FAZES SER FELIZ ASSIM \nE DESCANSAR NO TEU PODER \n \nSOMENTE A TI EU SEI LOUVAR\nA TI MINHA VIDA VOU CONFIAR, \nCRISTO MEU CRISTO SENHOR",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "SÃO TANTOS OS MOMENTOS, \nEM QUE A TUA VOZ \nEU POSSO OUVIR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Sim tão DOCE A ME FALAR\nME FAZENDO DESCANSAR,\nMEU BEM-QUERER ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "COMO UM VENTO QUE PASSOU, \nFOLHAS SECAS DERRUBOU \nRENOVOU A MINHA VIDA\nE ME FAZ CANTAR LOUVOR, \nJESUS SENHOR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "QUE GOZO HAVERÁ, A PAZ\nQUE REINARÁ EM MEU CORAÇÃO\nPOIS SÓ EM TI ENCONTRO, \nA FORÇA E UM NOVO ENCANTO \nPARA O MEU VIVER",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "E O TEMPO VAI PASSAR, \nOS ANOS VÃO CHEGAR\nPORÉM O MEU AMOR POR TI\nSERÁ O MESMO JESUS SENHOR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "TU ÉS A FORÇA QUE HÁ EM MIM \nSÓ TU ME FAZES SER FELIZ ASSIM \nE DESCANSAR NO TEU PODER \n \nSOMENTE A TI EU SEI LOUVAR\nA TI MINHA VIDA VOU CONFIAR, \nCRISTO MEU CRISTO SENHOR",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

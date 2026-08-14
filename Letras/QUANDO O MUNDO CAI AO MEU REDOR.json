@@ -1,0 +1,57 @@
+{
+  "id": 1582748875556,
+  "title": "QUANDO O MUNDO CAI AO MEU REDOR",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "DISSESTE QUE NUNCA ME DEIXARIA\nDISSESTE QUE A VIDA ME ABALARIA\nDISSESTE QUE NO MUNDO EU TERIA AFLIÇÕES\nMAS EU SEI\n\nQUANDO O MUNDO CAI AO MEU REDOR\nTEUS BRAÇOS ME SEGURAM\nQUANDO O MUNDO CAI AO MEU REDOR\nÉS A ESPERANÇA PRA MIM\nQUANDO O MUNDO CAI AO MEU REDOR\nE AS FORÇAS SE VÃO, ENCONTRO ABRIGO EM TI\nSEGURA-ME, SEGURA EM MINHAS MÃOS\n\nQUANDO EU VEJO A ESCURIDÃO DA NOITE\nQUANDO EU VEJO A TRAGÉDIA VINDO SOBRE MIM\nMESMO ASSIM EU DESCANSO EM TEUS BRAÇOS DE\nAMOR\nPOIS EU SEI",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "DISSESTE QUE NUNCA ME DEIXARIA\nDISSESTE QUE A VIDA ME ABALARIA\nDISSESTE QUE NO MUNDO EU TERIA AFLIÇÕES\nMAS EU SEI",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "QUANDO O MUNDO CAI AO MEU REDOR\nTEUS BRAÇOS ME SEGURAM\nQUANDO O MUNDO CAI AO MEU REDOR\nÉS A ESPERANÇA PRA MIM\nQUANDO O MUNDO CAI AO MEU REDOR\nE AS FORÇAS SE VÃO, ENCONTRO ABRIGO EM TI\nSEGURA-ME, SEGURA EM MINHAS MÃOS",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "QUANDO EU VEJO A ESCURIDÃO DA NOITE\nQUANDO EU VEJO A TRAGÉDIA VINDO SOBRE MIM\nMESMO ASSIM EU DESCANSO EM TEUS BRAÇOS DE\nAMOR\nPOIS EU SEI",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

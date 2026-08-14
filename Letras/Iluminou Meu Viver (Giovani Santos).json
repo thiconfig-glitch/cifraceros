@@ -1,0 +1,71 @@
+{
+  "id": 1621188077145,
+  "title": "Iluminou Meu Viver",
+  "artist": "Giovani Santos",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Noites passei\nTão tristes e frias\nÀ espera de alguém\nPra me consolar\nSozinho no escuro\nPerdido em meus sonhos\nQuando tua luz vieste me dar\n\nE assim Jesus meu Senhor\nCom Sua luz me iluminou\nE agora tão só\nNão andarei jamais\n\nQual ondas do mar\nPerdidas nas águas\nSei que assim seria meu fim\nMas agora eu sinto\nQue estou voltando\nPra casa de amor\nDo meu bom senhor\n\nE assim Jesus meu Senhor\nCom Sua luz me iluminou\nE agora tão só\nNão andarei jamais\n\nNada pode dar errado\nSe tenho teu amor\nJesus \niluminou meu viver",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Noites passei\nTão tristes e frias\nÀ espera de alguém\nPra me consolar\nSozinho no escuro\nPerdido em meus sonhos\nQuando tua luz vieste me dar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "E assim Jesus meu Senhor\nCom Sua luz me iluminou\nE agora tão só\nNão andarei jamais",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Qual ondas do mar\nPerdidas nas águas\nSei que assim seria meu fim\nMas agora eu sinto\nQue estou voltando\nPra casa de amor\nDo meu bom senhor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "E assim Jesus meu Senhor\nCom Sua luz me iluminou\nE agora tão só\nNão andarei jamais",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Nada pode dar errado\nSe tenho teu amor\nJesus \niluminou meu viver",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

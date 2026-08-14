@@ -1,0 +1,92 @@
+{
+  "id": 1603202968448,
+  "title": "Foi Tão Triste",
+  "artist": "Caminho Sagrado",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Foi tão triste ver \nno teu olhar\na dor que ali sentias\n\nComo troca por tão \ngrande amor\nte cravaram numa cruz\n\nNinguém mais poderia \nalém de ti\nperdoar os meus \npecados\n\nCom autoridade \ngarantir\nvida eterna \ne paz\n\nMas a cruz não conseguiu \nvencer\nO autor da minha vida\n\nAleluia! Cristo \nreviveu!\nEntre nós vive \noutra vez\n\nNovamente eu o \nposso adorar\nEm espírito e em verdade\n\nDeclarar de novo \no meu amor\nA Jesus meu Rei, \nmeu Salvador",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Foi tão triste ver \nno teu olhar\na dor que ali sentias",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Como troca por tão \ngrande amor\nte cravaram numa cruz",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Ninguém mais poderia \nalém de ti\nperdoar os meus \npecados",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Com autoridade \ngarantir\nvida eterna \ne paz",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Mas a cruz não conseguiu \nvencer\nO autor da minha vida",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Aleluia! Cristo \nreviveu!\nEntre nós vive \noutra vez",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Novamente eu o \nposso adorar\nEm espírito e em verdade",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": "Declarar de novo \no meu amor\nA Jesus meu Rei, \nmeu Salvador",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

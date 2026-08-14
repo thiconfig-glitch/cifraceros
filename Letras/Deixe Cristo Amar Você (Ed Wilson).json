@@ -1,0 +1,78 @@
+{
+  "id": 1612707771953,
+  "title": "Deixe Cristo Amar Você",
+  "artist": "Ed Wilson",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Alguém me falou do amor \nde um Salvador\nO Filho de Deus, \nque sofreu em meu lugar\nE pra me salvar por mim morreu\n\nPouca coisa eu entendi\nMas eu senti que algo em mim mudou\nToda vez que penso em Deus\nEu posso sentir esse amor\n\nInvadir todo meu coração\nInundando meu ser de prazer\nBem maior que qualquer emoção\nQue ultrapassa o meu entender\n\nVocê tem que escutar\nTudo o que diz o Teu Salvador\nAtravés de quem vier te falar de Deus\nDo Seu amor\n\nCom certeza você quer um algo mais, \nmas não sabe o que\nAbra bem seu coração\nE deixa Cristo entrar e amar você\n\nInvadir todo meu coração\nInundando meu ser de prazer\nBem maior que qualquer emoção\nQue ultrapassa o meu entender",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Alguém me falou do amor \nde um Salvador\nO Filho de Deus, \nque sofreu em meu lugar\nE pra me salvar por mim morreu",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Pouca coisa eu entendi\nMas eu senti que algo em mim mudou\nToda vez que penso em Deus\nEu posso sentir esse amor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Invadir todo meu coração\nInundando meu ser de prazer\nBem maior que qualquer emoção\nQue ultrapassa o meu entender",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Você tem que escutar\nTudo o que diz o Teu Salvador\nAtravés de quem vier te falar de Deus\nDo Seu amor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Com certeza você quer um algo mais, \nmas não sabe o que\nAbra bem seu coração\nE deixa Cristo entrar e amar você",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Invadir todo meu coração\nInundando meu ser de prazer\nBem maior que qualquer emoção\nQue ultrapassa o meu entender",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

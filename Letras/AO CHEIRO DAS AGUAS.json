@@ -1,0 +1,78 @@
+{
+  "id": 1582748875966,
+  "title": "AO CHEIRO DAS AGUAS",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "ELE É O SENHOR QUE RESTAURA \nA COMUNHÃO\nÉ O QUE TEM MISERICÓRDIA \nDÁ PERDÃO\nE APLAINA OS SEUS CAMINHOS INCERTOS\n\nELE É QUEM FAZ DO TEU DESERTO \nMANANCIAL\nFAZ BROTAR DA TERRA SECA \nFRUTO IGUAL\nAO QUE É REGADO PELAS ÁGUAS \nDA CHUVAS\n\nAO CHEIRO DAS AGUAS \nSE FAZ TUDO NOVO\nDAS CINZAS RENOVO \nRESSUSCITAM-SE SONHOS\n\nAO CHEIROS DAS ÁGUAS \nO QUE FOI CORTADO\nNO CHÃO FOI DEIXADO \nELE LEVANTARÁ\n\nONDE O RIO PASSAR \nTRAZENDO VIDA\n \nONDE O RIO PASSAR \nVAI LEVAR MAGOAS ANTIGAS\n\nE TUDO VIVÉRA \nAO CHEIROS DAS ÁGUAS\nONDE O RIO PASSAR \n \nVAI CURAR DORES SECRETAS \nONDE O RIO PASSAR \nVAI SACIAR ALMA DESERTA\nE TUDO VIVERÁ \nAO CHEIRO DA ÁGUAS",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "ELE É O SENHOR QUE RESTAURA \nA COMUNHÃO\nÉ O QUE TEM MISERICÓRDIA \nDÁ PERDÃO\nE APLAINA OS SEUS CAMINHOS INCERTOS",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "ELE É QUEM FAZ DO TEU DESERTO \nMANANCIAL\nFAZ BROTAR DA TERRA SECA \nFRUTO IGUAL\nAO QUE É REGADO PELAS ÁGUAS \nDA CHUVAS",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "AO CHEIRO DAS AGUAS \nSE FAZ TUDO NOVO\nDAS CINZAS RENOVO \nRESSUSCITAM-SE SONHOS",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "AO CHEIROS DAS ÁGUAS \nO QUE FOI CORTADO\nNO CHÃO FOI DEIXADO \nELE LEVANTARÁ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "ONDE O RIO PASSAR \nTRAZENDO VIDA\n \nONDE O RIO PASSAR \nVAI LEVAR MAGOAS ANTIGAS",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "E TUDO VIVÉRA \nAO CHEIROS DAS ÁGUAS\nONDE O RIO PASSAR \n \nVAI CURAR DORES SECRETAS \nONDE O RIO PASSAR \nVAI SACIAR ALMA DESERTA\nE TUDO VIVERÁ \nAO CHEIRO DA ÁGUAS",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

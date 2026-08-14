@@ -1,0 +1,64 @@
+{
+  "id": 1583616625776,
+  "title": "Tudo é do Pai",
+  "artist": "Gabriel Gava",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Eu pensei que podia viver por mim mesmo\nEu pensei que as coisas do mundo\nNão iriam me derrubar\nO orgulho tomou conta do meu ser\nE o pecado devastou o meu viver\n\nFui embora, disse: ó Pai, dá-me o que é meu!\nDa-me a parte que me cabe da herança\nFui pro mundo, gastei tudo\nMe restou só o pecado\nHoje sei que nada é meu\nTudo é do Pai\n\nTudo é do Pai\nToda honra e toda glória\nÉ Dele a vitória\nAlcançada em minha vida\nTudo é do Pai\nSe sou fraco e pecador\nBem mais forte é o meu Senhor\nQue me cura por amor\n\nTudo é do Pai\nToda honra e toda glória\nÉ Dele a vitória\nAlcançada em minha vida\nTudo é do Pai\nSe sou fraco e pecador\nBem mais forte é o meu Senhor\nQue me cura por amor",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Eu pensei que podia viver por mim mesmo\nEu pensei que as coisas do mundo\nNão iriam me derrubar\nO orgulho tomou conta do meu ser\nE o pecado devastou o meu viver",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Fui embora, disse: ó Pai, dá-me o que é meu!\nDa-me a parte que me cabe da herança\nFui pro mundo, gastei tudo\nMe restou só o pecado\nHoje sei que nada é meu\nTudo é do Pai",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Tudo é do Pai\nToda honra e toda glória\nÉ Dele a vitória\nAlcançada em minha vida\nTudo é do Pai\nSe sou fraco e pecador\nBem mais forte é o meu Senhor\nQue me cura por amor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Tudo é do Pai\nToda honra e toda glória\nÉ Dele a vitória\nAlcançada em minha vida\nTudo é do Pai\nSe sou fraco e pecador\nBem mais forte é o meu Senhor\nQue me cura por amor",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

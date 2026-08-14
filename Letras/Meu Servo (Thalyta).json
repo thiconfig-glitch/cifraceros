@@ -1,0 +1,64 @@
+{
+  "id": 1605939254898,
+  "title": "Meu Servo",
+  "artist": "Thalyta",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Meu servo\nFui Eu quem te chamei\nPara anunciar minha Palavra\nFalar de mim\nAos perdidos e carentes\nAos incrédulos e aos crentes\nFala o que eu te ordenar\n\nFala\nFala e não te cales\nEm todos os lugares\nOnde eu mandar\n \nFala\nCom amor profundo\nFala a esse mundo\nQue só Eu posso salvar\n\nMeu servo\nContigo Eu estarei\nPara sempre, é minha promessa\n \nNão temas pois\nVá aos montes e palácios\nFalar aos necessitados\nQue eu os abençoarei\n\nMeu servo\nUm dia Eu voltarei\nEntão verás\nA minha glória\nSó voltarei quando todos ouvirem\nDesse evangelho santo\nPara o qual Eu te chamei",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Meu servo\nFui Eu quem te chamei\nPara anunciar minha Palavra\nFalar de mim\nAos perdidos e carentes\nAos incrédulos e aos crentes\nFala o que eu te ordenar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "Refrão",
+        "text": "Fala\nFala e não te cales\nEm todos os lugares\nOnde eu mandar\n \nFala\nCom amor profundo\nFala a esse mundo\nQue só Eu posso salvar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Meu servo\nContigo Eu estarei\nPara sempre, é minha promessa\n \nNão temas pois\nVá aos montes e palácios\nFalar aos necessitados\nQue eu os abençoarei",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Meu servo\nUm dia Eu voltarei\nEntão verás\nA minha glória\nSó voltarei quando todos ouvirem\nDesse evangelho santo\nPara o qual Eu te chamei",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

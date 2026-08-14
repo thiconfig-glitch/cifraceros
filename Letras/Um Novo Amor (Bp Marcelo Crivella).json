@@ -1,0 +1,85 @@
+{
+  "id": 1614286903002,
+  "title": "Um Novo Amor",
+  "artist": "Bp Marcelo Crivella",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Quem me vê andando na rua\nNão sabe a dor que eu carrego\nE talvez seja eu o culpado\nPode ser eu não nego\n\nÉ tão fácil encontrar quem me me acuse\nMe condene me julgue\nO que eu peço é alguém que me ajude\nSó Deus sabe o que eu tenho passado\nÉ tão triste viver neste mundo\nE ser desprezado\n\nDo meu jeito eu escondo no peito\nA dor que eu trago\nSó não dá pra esconder no meu rosto\nO desgosto marcado\nE por mais que eu procure esquecer\nNão pensar em você\n\nO seu rosto fica voltando\nDaqui a pouco eu me pego chorando\nEu preciso voltar a viver\nEu preciso de Deus\n\nÓ vem meu pai\nMe estende a mão\nEstá difícil de viver com \nesta dor no coração\nEstou cansado de sofrer\nMe ajuda ó senhor\nEu preciso encontrar\nUm novo amor\n\nDessa vez eu não me iludir nem deixar\nQue o meu coração me engane\nJá cansei de chorar\nNão procuro beleza ou riqueza\nQuero sinceridade\n\nNão há nada mais lindo no mundo\nQue viver um amor de verdade\nSó Jesus torna o sonho da gente\nEm realidade",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Quem me vê andando na rua\nNão sabe a dor que eu carrego\nE talvez seja eu o culpado\nPode ser eu não nego",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "É tão fácil encontrar quem me me acuse\nMe condene me julgue\nO que eu peço é alguém que me ajude\nSó Deus sabe o que eu tenho passado\nÉ tão triste viver neste mundo\nE ser desprezado",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Do meu jeito eu escondo no peito\nA dor que eu trago\nSó não dá pra esconder no meu rosto\nO desgosto marcado\nE por mais que eu procure esquecer\nNão pensar em você",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "O seu rosto fica voltando\nDaqui a pouco eu me pego chorando\nEu preciso voltar a viver\nEu preciso de Deus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Ó vem meu pai\nMe estende a mão\nEstá difícil de viver com \nesta dor no coração\nEstou cansado de sofrer\nMe ajuda ó senhor\nEu preciso encontrar\nUm novo amor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Dessa vez eu não me iludir nem deixar\nQue o meu coração me engane\nJá cansei de chorar\nNão procuro beleza ou riqueza\nQuero sinceridade",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Não há nada mais lindo no mundo\nQue viver um amor de verdade\nSó Jesus torna o sonho da gente\nEm realidade",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

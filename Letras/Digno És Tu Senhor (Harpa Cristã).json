@@ -1,0 +1,64 @@
+{
+  "id": 1612706933146,
+  "title": "Digno És Tu Senhor",
+  "artist": "Harpa Cristã",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Digno, oh Digno és Jesus\nDigno de louvor \nE adoração e poder\n \nDigno, oh Digno és Jesus\nDigno de louvor \nE adoração e poder\n\nDesperta o meu ser \npara amar-te ó Jesus\nDesperta o meu ser \npara derrama-lo diante de Ti\n\nFaz me entender\nO Teu amor por mim\nE assim amar- Te mais\nFluindo de um coração \nrendido a Ti\n\nO grande amor, \ndo Senhor nunca cessa\nSuas misericórdias, \nnão chegam ao fim\nSe renovam todo dia, \na cada manhã\nFiel e grande és Tu Senhor",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Digno, oh Digno és Jesus\nDigno de louvor \nE adoração e poder\n \nDigno, oh Digno és Jesus\nDigno de louvor \nE adoração e poder",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Desperta o meu ser \npara amar-te ó Jesus\nDesperta o meu ser \npara derrama-lo diante de Ti",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Faz me entender\nO Teu amor por mim\nE assim amar- Te mais\nFluindo de um coração \nrendido a Ti",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "O grande amor, \ndo Senhor nunca cessa\nSuas misericórdias, \nnão chegam ao fim\nSe renovam todo dia, \na cada manhã\nFiel e grande és Tu Senhor",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

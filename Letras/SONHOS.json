@@ -1,0 +1,85 @@
+{
+  "id": 1582748875837,
+  "title": "SONHOS",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Sei que posso ter nas mãos o meu destino\nE mudar o que eu não quero que aconteça\nCada noite é esperar que um novo tempo\nRecomece assim que o dia amanheça\n\nSou humano, tenho sonhos, faço planos\nComo qualquer outro homem\nquero ser feliz\nMas os sonhos que eu tiver\nsei que posso realizar\nPorque creio em Deus e Ele sempre \ncumpre o que diz\n\nAnsiedade , medo, solidão\neu não posso ter\neu sei que sou fraco, sou barro,\nsou pequeno\n\nMas os sonhos que eu tiver\nsei que posso realizar\nPorque creio em Deus e Ele \nsempre cumpre o que diz\n\nSonhos \nQuem nunca teve um sonho pra sonhar\nEu sei que muitos cansam de esperar\nE perdem a fé, a fé em Deus\n\nSonhos, na vida de quem guarda sua fé\nÉ só uma questão de tempo\nNunca aconteceu de Jesus \nabandonar um filho seu\n\nDe Jesus abandonar um filho seu\nJesus nunca abandonou um filho seu",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Sei que posso ter nas mãos o meu destino\nE mudar o que eu não quero que aconteça\nCada noite é esperar que um novo tempo\nRecomece assim que o dia amanheça",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Sou humano, tenho sonhos, faço planos\nComo qualquer outro homem\nquero ser feliz\nMas os sonhos que eu tiver\nsei que posso realizar\nPorque creio em Deus e Ele sempre \ncumpre o que diz",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Ansiedade , medo, solidão\neu não posso ter\neu sei que sou fraco, sou barro,\nsou pequeno",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Mas os sonhos que eu tiver\nsei que posso realizar\nPorque creio em Deus e Ele \nsempre cumpre o que diz",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Sonhos \nQuem nunca teve um sonho pra sonhar\nEu sei que muitos cansam de esperar\nE perdem a fé, a fé em Deus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Sonhos, na vida de quem guarda sua fé\nÉ só uma questão de tempo\nNunca aconteceu de Jesus \nabandonar um filho seu",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "De Jesus abandonar um filho seu\nJesus nunca abandonou um filho seu",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

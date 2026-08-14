@@ -1,0 +1,57 @@
+{
+  "id": 1582748876007,
+  "title": "Eu tenho a vitoria",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "DEIXE A TRISTEZA DE LADO\nE VENHA SER FELIZ COM A GENTE\nEXISTE A FELICIDADE\nPRA QUEM TEM FÉ E OLHA PRA FRENTE\nQUEM TEM JESUS NÃO VIVE TRISTE\nVIVE CONTENTE\n\nEU TENHO A VITÓRIA, A VITÓRIA\nEU SEI QUE ELA É MINHA\nEU JÁ TOMEI POSSE\nDETERMINEI ELA É MINHA\n\nVOCÊ QUE JÁ CHOROU BASTANTE\nATÉ MOLHOU O TRAVESSEIRO\nDIVIDAS E PREOCUPAÇÕES\nTEM TIRADO O TEU SOSSEGO\nDEUS TE DÁ HOJE A SAÍDA\nPRA TUA VIDA TEM JEITO",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "DEIXE A TRISTEZA DE LADO\nE VENHA SER FELIZ COM A GENTE\nEXISTE A FELICIDADE\nPRA QUEM TEM FÉ E OLHA PRA FRENTE\nQUEM TEM JESUS NÃO VIVE TRISTE\nVIVE CONTENTE",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "EU TENHO A VITÓRIA, A VITÓRIA\nEU SEI QUE ELA É MINHA\nEU JÁ TOMEI POSSE\nDETERMINEI ELA É MINHA",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "VOCÊ QUE JÁ CHOROU BASTANTE\nATÉ MOLHOU O TRAVESSEIRO\nDIVIDAS E PREOCUPAÇÕES\nTEM TIRADO O TEU SOSSEGO\nDEUS TE DÁ HOJE A SAÍDA\nPRA TUA VIDA TEM JEITO",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": 1582748875878,
+  "title": "MAIS DE TI",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "MAIS DE TI, MAIS DE TI\nCOM AS BRASAS, DO ALTAR QUEIMAR MINHA VIDA\nVEM DERRAMAR, DA TUA UNÇÃO DO TEU PODER\nE FAZ TEU RIO, TRANSBORDAR E ENCHER MEU SER\n\nMAIS DE TI, MAIS DE TI\nDAI-ME FORÇAS, PRA VENCER TODO O INFERNO \nSIM EU TE LOUVO E TE ADORO MEU JESUS\nE ERGO AS MÃO, POIS MINHA ALMA ANSEIA TER\nBEM MAIS DE TI",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "MAIS DE TI, MAIS DE TI\nCOM AS BRASAS, DO ALTAR QUEIMAR MINHA VIDA\nVEM DERRAMAR, DA TUA UNÇÃO DO TEU PODER\nE FAZ TEU RIO, TRANSBORDAR E ENCHER MEU SER",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "MAIS DE TI, MAIS DE TI\nDAI-ME FORÇAS, PRA VENCER TODO O INFERNO \nSIM EU TE LOUVO E TE ADORO MEU JESUS\nE ERGO AS MÃO, POIS MINHA ALMA ANSEIA TER\nBEM MAIS DE TI",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": 1582748875485,
+  "title": "HERÓIS DA FÉ",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "SENTIMOS O PODER DO ALTO \nESTAMOS NÓS EM ORAÇÃO\nMARCHANDO PARA O MESMO ALVO CLAMANDO, \nA VITÓRIA ESTÁ EM NOSSAS MÃOS\nQUEM CRÊ NESSE DEUS VIVO ALCANÇA,\nNÃO PERDE ESPERANÇA, SEMPRE BUSCARÁ\n\nA FORÇA QUE VENCEU GOLIAS\nQUE FEZ DAVI HERÓI DE DEUS\nNA DETERMINAÇÃO DE ELIAS QUE\nORANDO FORTE, O FOGO DESCEU\nMOISÉS NA FÉ ABRIU AS ÁGUAS \nDE UM MAR BRAVIO\nE O POVO VENCEU\n\nVEM, IRMÃO, SE JUNTE A NÓS \nNESTA CORRENTE DE ORAÇÃO\nE TENHA O PROPÓSITO NO CORAÇÃO\nDE SER NESTA BATALHA UM VENCEDOR\nFOI ASSIM AOS HOMENS NO PASSADO \nQUE DISSERAM SIM\nAOS GRANDES DESAFIOS E ATÉ O FIM\nPERSEVERARAM FIRMES NO SENHOR\nO SENHOR HONROU",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "SENTIMOS O PODER DO ALTO \nESTAMOS NÓS EM ORAÇÃO\nMARCHANDO PARA O MESMO ALVO CLAMANDO, \nA VITÓRIA ESTÁ EM NOSSAS MÃOS\nQUEM CRÊ NESSE DEUS VIVO ALCANÇA,\nNÃO PERDE ESPERANÇA, SEMPRE BUSCARÁ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "A FORÇA QUE VENCEU GOLIAS\nQUE FEZ DAVI HERÓI DE DEUS\nNA DETERMINAÇÃO DE ELIAS QUE\nORANDO FORTE, O FOGO DESCEU\nMOISÉS NA FÉ ABRIU AS ÁGUAS \nDE UM MAR BRAVIO\nE O POVO VENCEU",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "VEM, IRMÃO, SE JUNTE A NÓS \nNESTA CORRENTE DE ORAÇÃO\nE TENHA O PROPÓSITO NO CORAÇÃO\nDE SER NESTA BATALHA UM VENCEDOR\nFOI ASSIM AOS HOMENS NO PASSADO \nQUE DISSERAM SIM\nAOS GRANDES DESAFIOS E ATÉ O FIM\nPERSEVERARAM FIRMES NO SENHOR\nO SENHOR HONROU",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

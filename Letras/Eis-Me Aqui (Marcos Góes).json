@@ -1,0 +1,57 @@
+{
+  "id": 1756588308860,
+  "title": "Eis-Me Aqui",
+  "artist": "Marcos Góes",
+  "author": "Claudinei Fernandes, Livingston Farias",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Eis-me aqui no Teu Santuário\nEis-me aqui na Tua presença\nPra te ouvir, Senhor, Senhor\n\nEis-me aqui, Senhor dos Senhores\nEis-me aqui, na Tua presença\nPor amor a Ti, Senhor, Senhor\n\nPois Tu és o arrimo da minha sorte\nA minha rocha, a minha salvação\nA minha força, o meu escudo\nEis-me aqui",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Eis-me aqui no Teu Santuário\nEis-me aqui na Tua presença\nPra te ouvir, Senhor, Senhor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Eis-me aqui, Senhor dos Senhores\nEis-me aqui, na Tua presença\nPor amor a Ti, Senhor, Senhor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Pois Tu és o arrimo da minha sorte\nA minha rocha, a minha salvação\nA minha força, o meu escudo\nEis-me aqui",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "https://open.spotify.com/track/5sbV2Rxlqh8QyiEjUPJsrx",
+      "youtube": "https://youtube.com/watch?v=v8z_CFtbsWg",
+      "deezer": "https://deezer.com/track/1055633732"
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

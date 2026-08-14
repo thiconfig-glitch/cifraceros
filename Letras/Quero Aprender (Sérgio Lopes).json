@@ -1,0 +1,71 @@
+{
+  "id": 1605120899728,
+  "title": "Quero Aprender",
+  "artist": "Sérgio Lopes",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Senhor Jesus\nAté me acostumar com o peso dessa cruz\nResplandecendo em meu rosto a Tua luz\nMuitas batalhas eu vou enfrentar\n\nQuero aprender a ser somente \nservo e Te obedecer\nE se preciso for por teu amor morrer\nOu ser exemplo vivo de poder, Senhor\n\nQuero aprender\nAmar como a mim mesmo quem me odiar\nUsar as minhas mãos para abençoar\nContigo ter eterna comunhão\n\nOferecer a minha própria vida \nem holocausto\nE assim eu vencerei todo obstáculo\nQuero aprender Senhor \nser barro em tuas mãos\n\nOferecer a outra face \na quem na face me bater\nCom Tua verdade me comprometer\nE que não viva eu \nmais Cristo viva em mim",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Senhor Jesus\nAté me acostumar com o peso dessa cruz\nResplandecendo em meu rosto a Tua luz\nMuitas batalhas eu vou enfrentar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Quero aprender a ser somente \nservo e Te obedecer\nE se preciso for por teu amor morrer\nOu ser exemplo vivo de poder, Senhor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Quero aprender\nAmar como a mim mesmo quem me odiar\nUsar as minhas mãos para abençoar\nContigo ter eterna comunhão",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Oferecer a minha própria vida \nem holocausto\nE assim eu vencerei todo obstáculo\nQuero aprender Senhor \nser barro em tuas mãos",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Oferecer a outra face \na quem na face me bater\nCom Tua verdade me comprometer\nE que não viva eu \nmais Cristo viva em mim",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "id": 1620238983272,
+  "title": "Tu És Fiel, Senhor",
+  "artist": "Harpa Cristã",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Tu és fiel, Senhor, \nmeu Pai celeste\nPleno poder \naos teus filhos darás\n\nNunca mudaste \nTu nunca faltaste\nTal como eras, \ntu sempre serás\n\nTu és fiel, Senhor! \nTu és fiel, Senhor!\nDia após dia, \ncom bênçãos sem fim\n\nTua mercê me \nsustenta e me guarda\nTu és fiel, \nSenhor, fiel a mim\n\nFlores e frutos, \nmontanhas e mares\nSol, Lua, estrelas \nno céu a brilhar\n\nTudo criaste na terra \ne nos ares\nTodo o Universo \nvem pois te louvar!\n\nPleno perdão tu dás: Paz, \nSegurança\nCada momento \nme guias, Senhor\n\nE, no porvir, oh!\nQue doce esperança\nDesfrutarei do teu rico favor!",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Tu és fiel, Senhor, \nmeu Pai celeste\nPleno poder \naos teus filhos darás",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Nunca mudaste \nTu nunca faltaste\nTal como eras, \ntu sempre serás",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Tu és fiel, Senhor! \nTu és fiel, Senhor!\nDia após dia, \ncom bênçãos sem fim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Tua mercê me \nsustenta e me guarda\nTu és fiel, \nSenhor, fiel a mim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Flores e frutos, \nmontanhas e mares\nSol, Lua, estrelas \nno céu a brilhar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Tudo criaste na terra \ne nos ares\nTodo o Universo \nvem pois te louvar!",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Pleno perdão tu dás: Paz, \nSegurança\nCada momento \nme guias, Senhor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": "E, no porvir, oh!\nQue doce esperança\nDesfrutarei do teu rico favor!",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

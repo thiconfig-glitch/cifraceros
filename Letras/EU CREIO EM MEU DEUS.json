@@ -1,0 +1,64 @@
+{
+  "id": 1582748875970,
+  "title": "EU CREIO EM MEU DEUS",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "EU CREIO EM MEU DEUS\nMEU PAI E CRIADOR\nBONDOSO E FIEL SENHOR\n\nEU CREIO N'ELE ENFIM\nPOIS DEU EM MEU LUGAR\nSEU FILHO PARA ME SALVAR\n\nEU GRAÇAS TE DOU, MEU AMADO REI\nE SEMPRE FIEL SEREI\nMEU DEUS, MEU SENHOR\nDE TÃO GRANDE AMOR\n\nEU QUERO SEGUIR-TE\nEU QUERO SEGUIR-TE\nEU QUERO SER MAIS DE TI",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "EU CREIO EM MEU DEUS\nMEU PAI E CRIADOR\nBONDOSO E FIEL SENHOR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "EU CREIO N'ELE ENFIM\nPOIS DEU EM MEU LUGAR\nSEU FILHO PARA ME SALVAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "EU GRAÇAS TE DOU, MEU AMADO REI\nE SEMPRE FIEL SEREI\nMEU DEUS, MEU SENHOR\nDE TÃO GRANDE AMOR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "EU QUERO SEGUIR-TE\nEU QUERO SEGUIR-TE\nEU QUERO SER MAIS DE TI",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

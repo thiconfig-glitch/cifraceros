@@ -1,0 +1,50 @@
+{
+  "id": 1582748875825,
+  "title": "A MOMENTOS",
+  "artist": "BANDA HADOSHI",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "HÁ MOMENTOS QUE, NA VIDA\nPENSAMOS EM OLHAR ATRÁS\nÉ PRECISO PEDIR AJUDA PARA PODER CONTINUAR\n\nE CLAMAMOS O NOME DE JESUS\nE CLAMAMOS O NOME DE JESUS\nE CLAMAMOS O NOME, O NOME DE JESUS\nELE NOS AJUDA A CARREGAR A CRUZ\nA MOMENTOS (BANDA KADOSHI)",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "HÁ MOMENTOS QUE, NA VIDA\nPENSAMOS EM OLHAR ATRÁS\nÉ PRECISO PEDIR AJUDA PARA PODER CONTINUAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "E CLAMAMOS O NOME DE JESUS\nE CLAMAMOS O NOME DE JESUS\nE CLAMAMOS O NOME, O NOME DE JESUS\nELE NOS AJUDA A CARREGAR A CRUZ\nA MOMENTOS (BANDA KADOSHI)",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

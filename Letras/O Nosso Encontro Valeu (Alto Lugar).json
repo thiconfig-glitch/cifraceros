@@ -1,0 +1,71 @@
+{
+  "id": 1605993243467,
+  "title": "     O Nosso Encontro Valeu",
+  "artist": "Alto Lugar",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Às vezes acho que devia\nTe dizer mais vezes\nQue te amo e que te quero\nMais que qualquer coisa\nSenhor Jesus \nvem morar dentro de mim, aqui, vem\n\nTem gente que chega e muda\nOs planos da gente\nO Senhor fez minha vida\nCaminhar pra frente\nAgora sim eu sei pra onde ir\n\nDessa vida nada se leva\nE Jesus o coração completa\nCom um amor que venha pra somar\nPra completar\n\nO nosso encontro valeu\nO amor da minha vida é Deus\nE tudo que é meu hoje é Seu\nEle veio pra me salvar\n\nO nosso encontro valeu\nO amor da minha vida é Deus\nE tudo que é meu hoje é Seu\nEle veio pra me salvar",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Às vezes acho que devia\nTe dizer mais vezes\nQue te amo e que te quero\nMais que qualquer coisa\nSenhor Jesus \nvem morar dentro de mim, aqui, vem",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Tem gente que chega e muda\nOs planos da gente\nO Senhor fez minha vida\nCaminhar pra frente\nAgora sim eu sei pra onde ir",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Dessa vida nada se leva\nE Jesus o coração completa\nCom um amor que venha pra somar\nPra completar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "O nosso encontro valeu\nO amor da minha vida é Deus\nE tudo que é meu hoje é Seu\nEle veio pra me salvar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "O nosso encontro valeu\nO amor da minha vida é Deus\nE tudo que é meu hoje é Seu\nEle veio pra me salvar",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

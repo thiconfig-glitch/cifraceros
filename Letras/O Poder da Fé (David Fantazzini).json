@@ -1,0 +1,78 @@
+{
+  "id": 1616538699899,
+  "title": "O Poder da Fé",
+  "artist": "David Fantazzini",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Creio em Ti\nSem nunca Te ver\nCreio em Ti \nsem nunca tocar em Ti\n\nA minha fé me faz ver\nO que ainda não existe \neu posso enxergar\nEu faço existir \naquilo que eu\nsó posso sonhar\n\nTenho em minhas mãos \npoder pra conquistar\nPoder pra possuir \naquilo que pela fé eu determinar\n\nTenho em minhas mãos \npoder de realizar\nAquilo que até eu humano \nnão vejo como concretizar\n\nEssa fé que faz o fraco vencer\nQue faz o soldado ferido lutar\nEssa fé que faz diabo correr\nAbre os meus olhos \ne me faz enxergar\n\nEssa fé que faz o surdo ouvir\nEssa fé que faz o cego avistar\nAbre portas onde nem parede tem\nE o impossível Ele me faz alcançar",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Creio em Ti\nSem nunca Te ver\nCreio em Ti \nsem nunca tocar em Ti",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "A minha fé me faz ver\nO que ainda não existe \neu posso enxergar\nEu faço existir \naquilo que eu\nsó posso sonhar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Tenho em minhas mãos \npoder pra conquistar\nPoder pra possuir \naquilo que pela fé eu determinar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Tenho em minhas mãos \npoder de realizar\nAquilo que até eu humano \nnão vejo como concretizar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Essa fé que faz o fraco vencer\nQue faz o soldado ferido lutar\nEssa fé que faz diabo correr\nAbre os meus olhos \ne me faz enxergar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Essa fé que faz o surdo ouvir\nEssa fé que faz o cego avistar\nAbre portas onde nem parede tem\nE o impossível Ele me faz alcançar",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

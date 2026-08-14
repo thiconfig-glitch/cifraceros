@@ -1,0 +1,78 @@
+{
+  "id": 1582748875868,
+  "title": "FAZ A DIFERENÇA",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "ESTOU AQUI AGORA\nPRA FAZER PROVA COM DEUS\nQUEM USA A FÉ FAZ A HORA\nDETERMINA O QUE É SEU\n\nHOJE EU MARQUEI CONTIGO\nMEU DESABAFO MEU DEUS\nCOM UM CLAMOR DE FÉ\nDE UM SERVO TEU\n\nFAZ A DIFERENÇA SENHOR\nENTRE AQUELES QUE SERVEM\nE AQUELES QUE NÃO\n\nFAZ A DIFERENÇA, MEU PAI\nDOS QUE DEPOSITAM \nSUA VIDA NO ALTAR\n\nDOS QUE NEM LEMBRAM \nDA SUA EXISTÊNCIA\nDAQUELES QUE TÊM \nCONFIANÇA EM TI\n\nDOS QUE TE HONRAM \nNA TUA PRESENÇA\nFAZ A DIFERENÇA",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "ESTOU AQUI AGORA\nPRA FAZER PROVA COM DEUS\nQUEM USA A FÉ FAZ A HORA\nDETERMINA O QUE É SEU",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "HOJE EU MARQUEI CONTIGO\nMEU DESABAFO MEU DEUS\nCOM UM CLAMOR DE FÉ\nDE UM SERVO TEU",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "FAZ A DIFERENÇA SENHOR\nENTRE AQUELES QUE SERVEM\nE AQUELES QUE NÃO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "FAZ A DIFERENÇA, MEU PAI\nDOS QUE DEPOSITAM \nSUA VIDA NO ALTAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "DOS QUE NEM LEMBRAM \nDA SUA EXISTÊNCIA\nDAQUELES QUE TÊM \nCONFIANÇA EM TI",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "DOS QUE TE HONRAM \nNA TUA PRESENÇA\nFAZ A DIFERENÇA",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": 1663179004236,
+  "title": "Tu És Senhor",
+  "artist": "Adilson Silva",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Tu és, mais precioso\nQue os tesouros dessa terra\nE tudo aquilo \nPorque os homens fazem guerras\nPor não saberem \ncomo é grande o Teu valor\n\nTu és, a fonte eterna\nQue jorra em minh ‘alma\nE nos momentos mais difíceis me acalma\nTua Palavra me sustenta nas provações\n\nTu és Senhor\nEscudo, fortaleza e proteção\nAquele que responde minha oração\nE nas lutas se levanta em meu favor\n\nTu és Senhor\nO único a quem eu rendo adoração\nMinha maior riqueza é Tua salvação\nSó Tu és Senhor",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Tu és, mais precioso\nQue os tesouros dessa terra\nE tudo aquilo \nPorque os homens fazem guerras\nPor não saberem \ncomo é grande o Teu valor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Tu és, a fonte eterna\nQue jorra em minh ‘alma\nE nos momentos mais difíceis me acalma\nTua Palavra me sustenta nas provações",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Tu és Senhor\nEscudo, fortaleza e proteção\nAquele que responde minha oração\nE nas lutas se levanta em meu favor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Tu és Senhor\nO único a quem eu rendo adoração\nMinha maior riqueza é Tua salvação\nSó Tu és Senhor",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

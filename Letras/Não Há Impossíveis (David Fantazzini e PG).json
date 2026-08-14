@@ -1,0 +1,99 @@
+{
+  "id": 1716000506467,
+  "title": "Não Há Impossíveis",
+  "artist": "David Fantazzini e PG",
+  "author": "Anderson Freire",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Pra Deus não há impossíveis\nDa morte Ele tira a vida\n\nDe um deserto\nEle faz brotar um rio\nDe águas tão profundas\n\nPra Deus não há impossíveis\nDas cinzas Ele ergue a sua fé\n\nTroca esse coração\nPor um novo\nE tudo volta ao lugar\n\nQuanto tempo faz\nQue você chorou?\nQuanto tempo faz\nQue um hino te tocou?\n\nPra onde se foi\nO coração sensível\nAo Espírito de Deus?\nO que aconteceu?\n\nFaça renascer\nUm jardim melhor\n\nO céu não se fechou\nA fonte ainda está lá\nMolha onde secou\nSe entregue outra vez\n\nPra ORAR, pra CLAMAr\nPra mover o coração de Deus\nPra Deus não há impossíveis",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Pra Deus não há impossíveis\nDa morte Ele tira a vida",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "De um deserto\nEle faz brotar um rio\nDe águas tão profundas",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Pra Deus não há impossíveis\nDas cinzas Ele ergue a sua fé",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Troca esse coração\nPor um novo\nE tudo volta ao lugar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Quanto tempo faz\nQue você chorou?\nQuanto tempo faz\nQue um hino te tocou?",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Pra onde se foi\nO coração sensível\nAo Espírito de Deus?\nO que aconteceu?",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Faça renascer\nUm jardim melhor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": "O céu não se fechou\nA fonte ainda está lá\nMolha onde secou\nSe entregue outra vez",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 9,
+        "description": "",
+        "text": "Pra ORAR, pra CLAMAr\nPra mover o coração de Deus\nPra Deus não há impossíveis",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "https://open.spotify.com/track/3glUXbocSAYL7i0vpRrU4b",
+      "youtube": "https://youtube.com/watch?v=YmLJVAkjgfM",
+      "deezer": "https://deezer.com/track/394113012"
+    },
+    "backing_track": {
+      "spotify": "https://open.spotify.com/track/7ICOG1g8Jg0q1gviqpYr5u",
+      "youtube": "https://youtube.com/watch?v=oBCXYjq2Yyo",
+      "deezer": "https://deezer.com/track/391840432"
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

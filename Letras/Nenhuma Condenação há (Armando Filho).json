@@ -1,0 +1,92 @@
+{
+  "id": 1599060020470,
+  "title": "Nenhuma Condenação há",
+  "artist": "Armando Filho",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "1,2,3,4,6,7",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "De todas as provas \nque eu já passei\nÉ bem difícil senhor\nA gente ter que ouvir, \nacusações\nDo vil tentador\n\nLembranças do passado vêm\nE querem me fazer parar\nOu mesmo palavras de alguém\nQue não quer na gente acreditar\n\nE quase parando\n sem forças e vigor\nA gente lê a palavra\nE encontra bastante \npoder pra vencer\nE continuar a jornada\n\nE ver que o passado \nficou pra trás\nPois Cristo na cruz \ntudo já venceu\nE saber que dele \nnão lembra mais\nEu canto pra glória de Deus\n\n \n\nNenhuma condenação há\nPara quem está em ti Jesus\nCuja vida coberta está\nPelo sangue que desceu da cruz\n\nÉ certo que provas virão\nInvestidas do vil tentador\nMas nenhuma condenação há\nPara quem está em ti\nQuerido Senhor\n\nRepetir novamente",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "De todas as provas \nque eu já passei\nÉ bem difícil senhor\nA gente ter que ouvir, \nacusações\nDo vil tentador",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Lembranças do passado vêm\nE querem me fazer parar\nOu mesmo palavras de alguém\nQue não quer na gente acreditar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "E quase parando\n sem forças e vigor\nA gente lê a palavra\nE encontra bastante \npoder pra vencer\nE continuar a jornada",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "E ver que o passado \nficou pra trás\nPois Cristo na cruz \ntudo já venceu\nE saber que dele \nnão lembra mais\nEu canto pra glória de Deus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": " ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Nenhuma condenação há\nPara quem está em ti Jesus\nCuja vida coberta está\nPelo sangue que desceu da cruz",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "É certo que provas virão\nInvestidas do vil tentador\nMas nenhuma condenação há\nPara quem está em ti\nQuerido Senhor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": "Repetir novamente",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

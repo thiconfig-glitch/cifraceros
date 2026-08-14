@@ -1,0 +1,92 @@
+{
+  "id": 1582748875780,
+  "title": "GRANDES COISAS",
+  "artist": "Bp. Wagner",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "TU ÉS O DEUS DESSA TERRA\nTU ÉS REI DESSE POVO\nÉS O SENHOR DA minha vida\nTU ÉS\n\nTU ÉS O DEUS DESSA TERRA\nTU ÉS REI DESSE POVO\nÉS O SENHOR Do congresso\n\nTU ÉS O DEUS DESSA TERRA\nTU ÉS REI DESSE POVO\nÉS O SENHOR DA NAÇÃO\nTU ÉS\n\nTU ÉS A LUZ DESSE MUNDO\nESPERANÇA PARA OS PERDIDOS\nTU ÉS A PAZ PROS CANSADOS\nTU ÉS\n\nNINGUÉM É COMO NOSSO DEUS\nNINGUÉM É COMO NOSSO DEUS\n\nGRANDES COISAS ESTÃO POR VIR\nGRANDES COISAS VÃO ACONTECER \nNESSE LUGAR\n \nGRANDES COISAS ESTÃO POR VIR\nGRANDES COISAS VÃO ACONTECER \nem mim\n\n \n\n ",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "TU ÉS O DEUS DESSA TERRA\nTU ÉS REI DESSE POVO\nÉS O SENHOR DA minha vida\nTU ÉS",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "TU ÉS O DEUS DESSA TERRA\nTU ÉS REI DESSE POVO\nÉS O SENHOR Do congresso",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "TU ÉS O DEUS DESSA TERRA\nTU ÉS REI DESSE POVO\nÉS O SENHOR DA NAÇÃO\nTU ÉS",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "TU ÉS A LUZ DESSE MUNDO\nESPERANÇA PARA OS PERDIDOS\nTU ÉS A PAZ PROS CANSADOS\nTU ÉS",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "NINGUÉM É COMO NOSSO DEUS\nNINGUÉM É COMO NOSSO DEUS",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "GRANDES COISAS ESTÃO POR VIR\nGRANDES COISAS VÃO ACONTECER \nNESSE LUGAR\n \nGRANDES COISAS ESTÃO POR VIR\nGRANDES COISAS VÃO ACONTECER \nem mim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": " ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": " ",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

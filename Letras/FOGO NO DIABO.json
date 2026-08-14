@@ -1,0 +1,85 @@
+{
+  "id": 1582748876022,
+  "title": "FOGO NO DIABO",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "FOGO NO DIABO DA CABEÇA AOS PÉS\nQUEM MANDA FOGO SANTO \nÉ JESUS DE NAZARÉ\n\nMAS O DIABO É UM BICHO ATREVIDO\nBICHO MALDITO TODO CHEIO DE ILUSÃO\nE TODO AQUELE QUE FIZER SUA VONTADE\nVAI CAIR NA VAIDADE \nAINDA PERDE A SALVAÇÃO\n\nFOGO NO DIABO DA CABEÇA AOS PÉS\nQUEM MANDA FOGO SANTO \nÉ JESUS DE NAZARÉ\n\nEU TENHO UM DEUS \nQUE É VIVO E PODEROSO\nCOM ESTE POVO \nDE MÃOS DADAS ELE ESTÁ\nSE O DIABO MANIFESTA LEVA FOGO\nTOMA O CAMINHO DE CASA\nE PRO INFERNO VAI VOLTAR\n\nFOGO NO DIABO DA CABEÇA AOS PÉS\nQUEM MANDA FOGO SANTO \nÉ JESUS DE NAZARÉ\n\nO MEU JESUS NÃO ESTÁ CRUCIFICADO\nEM UM MADEIRO \nOU NA PAREDE PENDURADO\nO MEU JESUS ESTÁ VIVO E TEM PODER\nPRA TIRAR O CAPIROTO \nQUE AQUI APARECER\n\nFOGO NO DIABO DA CABEÇA AOS PÉS\nQUEM MANDA FOGO SANTO \nÉ JESUS DE NAZARÉ",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "FOGO NO DIABO DA CABEÇA AOS PÉS\nQUEM MANDA FOGO SANTO \nÉ JESUS DE NAZARÉ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "MAS O DIABO É UM BICHO ATREVIDO\nBICHO MALDITO TODO CHEIO DE ILUSÃO\nE TODO AQUELE QUE FIZER SUA VONTADE\nVAI CAIR NA VAIDADE \nAINDA PERDE A SALVAÇÃO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "FOGO NO DIABO DA CABEÇA AOS PÉS\nQUEM MANDA FOGO SANTO \nÉ JESUS DE NAZARÉ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "EU TENHO UM DEUS \nQUE É VIVO E PODEROSO\nCOM ESTE POVO \nDE MÃOS DADAS ELE ESTÁ\nSE O DIABO MANIFESTA LEVA FOGO\nTOMA O CAMINHO DE CASA\nE PRO INFERNO VAI VOLTAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "FOGO NO DIABO DA CABEÇA AOS PÉS\nQUEM MANDA FOGO SANTO \nÉ JESUS DE NAZARÉ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "O MEU JESUS NÃO ESTÁ CRUCIFICADO\nEM UM MADEIRO \nOU NA PAREDE PENDURADO\nO MEU JESUS ESTÁ VIVO E TEM PODER\nPRA TIRAR O CAPIROTO \nQUE AQUI APARECER",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "FOGO NO DIABO DA CABEÇA AOS PÉS\nQUEM MANDA FOGO SANTO \nÉ JESUS DE NAZARÉ",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": 1582748875816,
+  "title": "CREIO EM TI",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "QUANDO TODOS OS SONHOS PARECEM\nTORNAREM-SE DENSA NÉVOA\nQUANDO AS PRECES SÃO MERAS PALAVRAS\n QUE BAILAM AO SOM DO VENTO\nOLHO PRO CÉU, CLAMO A DEUS MEU DEUS!\n\nSEI QUE ESTAIS NO CONTROLE DE TUDO\nNO FIRMAMENTO\nSEI QUE NADA ACONTECE\nSE NÃO FOR TEU QUERER\n\nEM TI CONFIAREI\nAINDA QUE A LUZ DO SOL\nVIER SE APAGAR\nCREIO EM TI\nTENS UM MILAGRE PRA MIM\n\nEM TI CONFIAREI\nSE OS HOMENS FALHAREM NÃO TEMEREI\nTU ÉS FIEL CREIO EM TI\nNADA ME ABALARÁ",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "QUANDO TODOS OS SONHOS PARECEM\nTORNAREM-SE DENSA NÉVOA\nQUANDO AS PRECES SÃO MERAS PALAVRAS\n QUE BAILAM AO SOM DO VENTO\nOLHO PRO CÉU, CLAMO A DEUS MEU DEUS!",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "SEI QUE ESTAIS NO CONTROLE DE TUDO\nNO FIRMAMENTO\nSEI QUE NADA ACONTECE\nSE NÃO FOR TEU QUERER",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "EM TI CONFIAREI\nAINDA QUE A LUZ DO SOL\nVIER SE APAGAR\nCREIO EM TI\nTENS UM MILAGRE PRA MIM",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "EM TI CONFIAREI\nSE OS HOMENS FALHAREM NÃO TEMEREI\nTU ÉS FIEL CREIO EM TI\nNADA ME ABALARÁ",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

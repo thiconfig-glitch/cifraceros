@@ -1,0 +1,78 @@
+{
+  "id": 1624734485662,
+  "title": "Compromisso (FJU)",
+  "artist": "Força Jovem Universal",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Eu vim aqui falar, meu Deus\nVim para os meus erros confessar\nSei que Tu conheces meu caminho\n\nSei que muito Te desagradei\nE por várias vezes eu errei\nDiante de Ti arrependido estou\n\nAgora sei que Tu podes me dar uma vida nova\nE vim aqui decidido entregar tudo o que sou\nPra ter um compromisso de ser fiel\nEternamente à Ti\nEu Te dou todo meu amor\n\nPrometo meu Senhor te obedecer\nE Seus mandamentos vou guardar\nEu estou disposto a me sacrificar\n\nNova criatura quero ser\nNosso compromisso vou guardar\nO meu coração será o Teu altar\n\nAgora sei que Tu podes me dar uma vida nova\nE vim aqui decidido entregar tudo o que sou\nPra ter um compromisso de ser fiel\nEternamente à Ti\nEu Te dou todo meu amor",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Eu vim aqui falar, meu Deus\nVim para os meus erros confessar\nSei que Tu conheces meu caminho",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Sei que muito Te desagradei\nE por várias vezes eu errei\nDiante de Ti arrependido estou",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Agora sei que Tu podes me dar uma vida nova\nE vim aqui decidido entregar tudo o que sou\nPra ter um compromisso de ser fiel\nEternamente à Ti\nEu Te dou todo meu amor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Prometo meu Senhor te obedecer\nE Seus mandamentos vou guardar\nEu estou disposto a me sacrificar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Nova criatura quero ser\nNosso compromisso vou guardar\nO meu coração será o Teu altar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Agora sei que Tu podes me dar uma vida nova\nE vim aqui decidido entregar tudo o que sou\nPra ter um compromisso de ser fiel\nEternamente à Ti\nEu Te dou todo meu amor",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

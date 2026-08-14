@@ -1,0 +1,64 @@
+{
+  "id": 1582748875731,
+  "title": "CONFISSÃO DE AMOR",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "TODO MUNDO NECESSITA \nNESSA VIDA SEJA LÁ QUEM FOR\nTER A COISA MAIS BONITA \nQUE É O VERDADEIRO AMOR\nEU TAMBÉM BUSQUEI BASTANTE\nESSE SENTIMENTO E ASSIM\nPOR LUGARES TÃO DISTANTES \nQUASE QUE CHEGUEI AO FIM\nMAS EU NÃO DEIXEI DE CRER DE UM DIA ENCONTRAR\n\n \nAMOR, AMOR, SÓ ENCONTREI EM JESUS\nAMOR, SÓ ELE MOSTROU\nO SEU SANGUE DERRAMADO LÁ NA CRUZ\n\nO AMOR TRAZ O SORRISO QUE FAZ A VIDA RENASCER\nFAZ O INFERNO PARAÍSO \nTRAZ UM NOVO AMANHECER\nEU TAMBÉM BUSQUEI BASTANTE \nESSE SENTIMENTO E ASSIM\nPOR LUGARES TÃO DISTANTES \nQUASE QUE CHEGUEI AO FIM\nMAS EU NÃO DEIXEI DE CRER DE UM DIA ENCONTRAR\n\nAMOR, AMOR, SÓ ENCONTREI EM JESUS\nAMOR, SÓ ELE MOSTROU\nO SEU SANGUE DERRAMADO LÁ NA CRUZ",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "TODO MUNDO NECESSITA \nNESSA VIDA SEJA LÁ QUEM FOR\nTER A COISA MAIS BONITA \nQUE É O VERDADEIRO AMOR\nEU TAMBÉM BUSQUEI BASTANTE\nESSE SENTIMENTO E ASSIM\nPOR LUGARES TÃO DISTANTES \nQUASE QUE CHEGUEI AO FIM\nMAS EU NÃO DEIXEI DE CRER DE UM DIA ENCONTRAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": " \nAMOR, AMOR, SÓ ENCONTREI EM JESUS\nAMOR, SÓ ELE MOSTROU\nO SEU SANGUE DERRAMADO LÁ NA CRUZ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "O AMOR TRAZ O SORRISO QUE FAZ A VIDA RENASCER\nFAZ O INFERNO PARAÍSO \nTRAZ UM NOVO AMANHECER\nEU TAMBÉM BUSQUEI BASTANTE \nESSE SENTIMENTO E ASSIM\nPOR LUGARES TÃO DISTANTES \nQUASE QUE CHEGUEI AO FIM\nMAS EU NÃO DEIXEI DE CRER DE UM DIA ENCONTRAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "AMOR, AMOR, SÓ ENCONTREI EM JESUS\nAMOR, SÓ ELE MOSTROU\nO SEU SANGUE DERRAMADO LÁ NA CRUZ",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

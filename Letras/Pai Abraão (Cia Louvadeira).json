@@ -1,0 +1,134 @@
+{
+  "id": 1614970357242,
+  "title": "Pai Abraão",
+  "artist": "Cia Louvadeira",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Pai Abraão, tem muitos filhos\nMuitos filhos ele tem\nEu sou um deles, você também\nLouvemos ao senhor\n\nBraço direito.\n\nPai Abraão...\n\nBraço direito, braço esquerdo.\n\nPai Abraão...\n\nBraço direito, braço esquerdo, perna direita.\n\nPai Abraão...\n\nBraço direito, braço esquerdo, perna direita, perna esquerda.\n\nPai Abraão...\n\nBraço direito, braço esquerdo, perna direita, perna esquerda, balança a cabeça.\n\nPai Abraão...\n\nBraço direito, braço esquerdo, perna direita, perna esquerda, balança a cabeça, dá uma rodada.\n\nPai Abraão...\n\nBraço direito, braço esquerdo, perna direita, perna esquerda, balança a cabeça, dá uma rodada e dá um pulinho.\nPai Abraão...\nBraço direito, braço esquerdo, perna direita, perna esquerda, balança a cabeça, dá uma rodada e dá um pulinho, agora aplaude.",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Pai Abraão, tem muitos filhos\nMuitos filhos ele tem\nEu sou um deles, você também\nLouvemos ao senhor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Braço direito.",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Pai Abraão...",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Braço direito, braço esquerdo.",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Pai Abraão...",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Braço direito, braço esquerdo, perna direita.",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Pai Abraão...",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": "Braço direito, braço esquerdo, perna direita, perna esquerda.",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 9,
+        "description": "",
+        "text": "Pai Abraão...",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 10,
+        "description": "",
+        "text": "Braço direito, braço esquerdo, perna direita, perna esquerda, balança a cabeça.",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 11,
+        "description": "",
+        "text": "Pai Abraão...",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 12,
+        "description": "",
+        "text": "Braço direito, braço esquerdo, perna direita, perna esquerda, balança a cabeça, dá uma rodada.",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 13,
+        "description": "",
+        "text": "Pai Abraão...",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 14,
+        "description": "",
+        "text": "Braço direito, braço esquerdo, perna direita, perna esquerda, balança a cabeça, dá uma rodada e dá um pulinho.\nPai Abraão...\nBraço direito, braço esquerdo, perna direita, perna esquerda, balança a cabeça, dá uma rodada e dá um pulinho, agora aplaude.",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

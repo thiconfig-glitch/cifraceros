@@ -1,0 +1,57 @@
+{
+  "id": 1585515915168,
+  "title": "Aqui Eu Vim Dizer",
+  "artist": "Harpa Cristã",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Aqui eu vim para dizer\nque quero mais Te conhecer\na minh'alma tem sede de Ti\noh! espírito Santo\nestou aqui\n\nVem Espírito de Deus\nvem Espírito de Deus\no meu coração é o Teu altar\n\nFlui Espírito de Deus\nflui aqui neste lugar\nflui sobre mim\nministra o Teu propósito\no meu coração é o Teu altar",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Aqui eu vim para dizer\nque quero mais Te conhecer\na minh'alma tem sede de Ti\noh! espírito Santo\nestou aqui",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Vem Espírito de Deus\nvem Espírito de Deus\no meu coração é o Teu altar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Flui Espírito de Deus\nflui aqui neste lugar\nflui sobre mim\nministra o Teu propósito\no meu coração é o Teu altar",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

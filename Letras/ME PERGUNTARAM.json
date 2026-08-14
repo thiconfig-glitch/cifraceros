@@ -1,0 +1,71 @@
+{
+  "id": 1582748875931,
+  "title": "ME PERGUNTARAM",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "ME PERGUNTARAM O QUE EU VIM FAZER AQUI? EU?\nVIM FALAR COM DEUS, VIM FALAR COM DEUS\n\nVIM FALAR COM DEUS, VIM DIZER PRA DEUS\nQUE EU SOU DELE, QUE ELE É MEU\n\nÉ MEU (É MEU)\nÉ MEU (É MEU)\nÉ  MEU É  MEU É  MEU\nÉ  MEU\n\nJOVEM NÃO , NÃO ABRA MÃO DE DEUS\nPORQUE VOCÊ É DELE E ELE É SEU\n\nEU SOU DO MEU AMADO, O MEU AMADO É MEU\nEU ABRO MÃO DO MUNDO\nMAS NÃO ABRO MÃO DE DEUS",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "ME PERGUNTARAM O QUE EU VIM FAZER AQUI? EU?\nVIM FALAR COM DEUS, VIM FALAR COM DEUS",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "VIM FALAR COM DEUS, VIM DIZER PRA DEUS\nQUE EU SOU DELE, QUE ELE É MEU",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "É MEU (É MEU)\nÉ MEU (É MEU)\nÉ  MEU É  MEU É  MEU\nÉ  MEU",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "JOVEM NÃO , NÃO ABRA MÃO DE DEUS\nPORQUE VOCÊ É DELE E ELE É SEU",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "EU SOU DO MEU AMADO, O MEU AMADO É MEU\nEU ABRO MÃO DO MUNDO\nMAS NÃO ABRO MÃO DE DEUS",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

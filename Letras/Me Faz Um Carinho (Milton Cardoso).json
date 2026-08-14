@@ -1,0 +1,57 @@
+{
+  "id": 1627242491890,
+  "title": "Me Faz Um Carinho",
+  "artist": "Milton Cardoso",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Me faz um carinho\nMe aqueça em teus braços\nMe empresta teu ombro\nPra que eu possa chorar\nSem Jesus não sou nada\n\nMeu mundo é deserto\nMeu caminho é incerto, \nlonge do Senhor\n\nSe andei tão errante assim \né porque não sabia\nQue Senhor sofria \npor me ver assim\n \nJá nem sei quantas vezes errei\nMas,  jamais esqueci da cruz\nPois foi nela que um dia o Senhor\nMorreu por mim Jesus",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Me faz um carinho\nMe aqueça em teus braços\nMe empresta teu ombro\nPra que eu possa chorar\nSem Jesus não sou nada",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Meu mundo é deserto\nMeu caminho é incerto, \nlonge do Senhor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Se andei tão errante assim \né porque não sabia\nQue Senhor sofria \npor me ver assim\n \nJá nem sei quantas vezes errei\nMas,  jamais esqueci da cruz\nPois foi nela que um dia o Senhor\nMorreu por mim Jesus",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

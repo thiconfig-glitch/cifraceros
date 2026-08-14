@@ -1,0 +1,64 @@
+{
+  "id": 1658600916424,
+  "title": "AMOR DA MINHA VIDA",
+  "artist": "",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "nos primeiros dias estava tudo indo bem\naparentemente tão feliz como ninguém\neu te troquei e de você eu não quis saber mais\nme joguei em outros braços e em outros amores\nnovos horizontes, mas nem tudo são flores\nsó eu sabia o que acontecia nos bastidores\n\nEu saí pra me encontrar e acabei perdido\nCheio de novos planos, mas eu terminei vazio\nSaí pela porta empolgado e voltei frustrado\nJesus nenhum abraço me acolheu como o seu\nNinguém me fez sorrir tão de verdade e hoje eu\nJá entendi tudo, e nada nesse mundo me prende\nE hoje eu canto em voz alta, para o mundo ouvir\n\nJesus tu és o único amor da minha vida\nNenhum amor me feliz como o Teu\nNenhum amor me fez feliz como o Teu\n\nTu és o único amor da minha vida\nNenhum amor me feliz como o Teu\nNenhum amor me fez feliz como o Teu\nO resto é resto, e o que preenche é o Teu",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "nos primeiros dias estava tudo indo bem\naparentemente tão feliz como ninguém\neu te troquei e de você eu não quis saber mais\nme joguei em outros braços e em outros amores\nnovos horizontes, mas nem tudo são flores\nsó eu sabia o que acontecia nos bastidores",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Eu saí pra me encontrar e acabei perdido\nCheio de novos planos, mas eu terminei vazio\nSaí pela porta empolgado e voltei frustrado\nJesus nenhum abraço me acolheu como o seu\nNinguém me fez sorrir tão de verdade e hoje eu\nJá entendi tudo, e nada nesse mundo me prende\nE hoje eu canto em voz alta, para o mundo ouvir",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Jesus tu és o único amor da minha vida\nNenhum amor me feliz como o Teu\nNenhum amor me fez feliz como o Teu",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Tu és o único amor da minha vida\nNenhum amor me feliz como o Teu\nNenhum amor me fez feliz como o Teu\nO resto é resto, e o que preenche é o Teu",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

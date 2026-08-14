@@ -1,0 +1,113 @@
+{
+  "id": 1750601056143,
+  "title": "Sou a oferta ",
+  "artist": "Gabriela Gomes",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "Eb",
+  "bpm": 65.5,
+  "time_sig": "4/4",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Preparei um cordeiro no altar\nHoje venho a ti me entregar\nComo Abraão seu Isaque entregou\n\nAssim sou eu\nAssim sou eu\n\nPreparei um cordeiro no altar\nHoje venho a ti me entregar\nComo Abraão, seu Isaque entregou\n\nAssim sou eu, assim sou eu\nAssim sou eu, assim sou eu\n\nSem ter a tua presença não aceito sair daqui\nComo aroma minha adoração se achegue a ti\n\nSou a oferta\nDisposta a queimar\nVem me incendiar\n\nEu sou a oferta\nVem me consumir\nPois eu pertenço a ti\n\nO sacrifício, sou eu\nTudo que tenho é teu\nEu vim pra me entregar\nA lenha preparada está\n\nEu sou a oferta\nDisposta a queimar\nVem me incendiar\n\nEu sou a oferta\nVem me consumir\nPois eu pertenço a ti\n\nO sacrifício sou eu\nTudo que tenho é teu\nEu vim pra me entregar\nA lenha preparada está",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Preparei um cordeiro no altar\nHoje venho a ti me entregar\nComo Abraão seu Isaque entregou",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Assim sou eu\nAssim sou eu",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Preparei um cordeiro no altar\nHoje venho a ti me entregar\nComo Abraão, seu Isaque entregou",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Assim sou eu, assim sou eu\nAssim sou eu, assim sou eu",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Sem ter a tua presença não aceito sair daqui\nComo aroma minha adoração se achegue a ti",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Sou a oferta\nDisposta a queimar\nVem me incendiar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Eu sou a oferta\nVem me consumir\nPois eu pertenço a ti",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": "O sacrifício, sou eu\nTudo que tenho é teu\nEu vim pra me entregar\nA lenha preparada está",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 9,
+        "description": "",
+        "text": "Eu sou a oferta\nDisposta a queimar\nVem me incendiar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 10,
+        "description": "",
+        "text": "Eu sou a oferta\nVem me consumir\nPois eu pertenço a ti",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 11,
+        "description": "",
+        "text": "O sacrifício sou eu\nTudo que tenho é teu\nEu vim pra me entregar\nA lenha preparada está",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "https://open.spotify.com/track/6tyGZ5AYYRSaUop9z3PbBP",
+      "youtube": "https://youtube.com/watch?v=VGkzVAzYffM",
+      "deezer": "https://deezer.com/track/2035467707"
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

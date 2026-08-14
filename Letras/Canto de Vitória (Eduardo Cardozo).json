@@ -1,0 +1,64 @@
+{
+  "id": 1599081172426,
+  "title": "Canto de Vitória",
+  "artist": "Eduardo Cardozo",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Eu tenho em mim canto de vitória\nQue foi escrito por Jesus na cruz\nUm canto lindo que mudou a história\nQue ao mundo em trevas trouxe a luz\n\nEu tenho em mim um canto de esperança\nE a todos eu preciso proclamar\nJesus firmou comigo uma aliança\nNa qual eu vivo e posso descansar\n\nEu tenho em mim um canto de alegria\nEu tenho em mim um hino de louvor\nNão apenas de palavras\nMas de vida e amor\nQue testemunha a vitória do Senhor\n\nCom os lábios canto a verdade\nQue o Rei Jesus em breve voltará\nVirá com o seu poder e majestade\nE com sua igreja em glória reinará",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Eu tenho em mim canto de vitória\nQue foi escrito por Jesus na cruz\nUm canto lindo que mudou a história\nQue ao mundo em trevas trouxe a luz",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Eu tenho em mim um canto de esperança\nE a todos eu preciso proclamar\nJesus firmou comigo uma aliança\nNa qual eu vivo e posso descansar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Eu tenho em mim um canto de alegria\nEu tenho em mim um hino de louvor\nNão apenas de palavras\nMas de vida e amor\nQue testemunha a vitória do Senhor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Com os lábios canto a verdade\nQue o Rei Jesus em breve voltará\nVirá com o seu poder e majestade\nE com sua igreja em glória reinará",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

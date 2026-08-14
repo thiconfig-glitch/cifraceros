@@ -1,0 +1,78 @@
+{
+  "id": 1582748876021,
+  "title": "TUA UNÇÃO / uncao imbativel",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "1,3,4,5,6",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "QUERO SEMPRE ESTAR\nDIANTE DE TI, NO TEU ALTAR\nPRONTO PRA SENTIR \nE RECEBER DO TEU PODER\n\nTUA UNÇÃO\n\nALÉM DO VÉU, EU QUERO ESTAR, \nVEM FLUIR A TUA UNÇÃO\nE TRANSBORDAR, MEU CORAÇÃO \nQUERO PRONTO ESTAR, PRA SEGUIR E CONQUISTAR\n\nRENOVA A UNÇÃO SOBRE MIM \nPARA PROFETIZAR E PREGAR A LIBERTAÇÃO\nE O TEU PODER PRA\nCURAR AS CADEIAS QUEBRAR\nCOM O AGIR E FLUIR DESSA UNÇÃO\n\nUMA SÓ PALAVRA QUE DEUS MANDAR \nVAI FAZER A MINHA VIDA MUDAR\nEM MEIO AS LUTAS EU VOU TRIUNFAR\nPOIS EU SEI QUE É SÓ EM TI CONFIAR\n\nSE O INIMIGO QUISER ME COMBATER\nNÃO HÁ NADA QUE ME FAÇA TEMER\nNÃO IMPORTA O QUE ENFRENTAREI\nCOM A UNÇÃO IMBATÍVEL SEREI.",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "QUERO SEMPRE ESTAR\nDIANTE DE TI, NO TEU ALTAR\nPRONTO PRA SENTIR \nE RECEBER DO TEU PODER",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "TUA UNÇÃO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "ALÉM DO VÉU, EU QUERO ESTAR, \nVEM FLUIR A TUA UNÇÃO\nE TRANSBORDAR, MEU CORAÇÃO \nQUERO PRONTO ESTAR, PRA SEGUIR E CONQUISTAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "RENOVA A UNÇÃO SOBRE MIM \nPARA PROFETIZAR E PREGAR A LIBERTAÇÃO\nE O TEU PODER PRA\nCURAR AS CADEIAS QUEBRAR\nCOM O AGIR E FLUIR DESSA UNÇÃO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "UMA SÓ PALAVRA QUE DEUS MANDAR \nVAI FAZER A MINHA VIDA MUDAR\nEM MEIO AS LUTAS EU VOU TRIUNFAR\nPOIS EU SEI QUE É SÓ EM TI CONFIAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "SE O INIMIGO QUISER ME COMBATER\nNÃO HÁ NADA QUE ME FAÇA TEMER\nNÃO IMPORTA O QUE ENFRENTAREI\nCOM A UNÇÃO IMBATÍVEL SEREI.",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

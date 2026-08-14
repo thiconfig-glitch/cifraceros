@@ -1,0 +1,78 @@
+{
+  "id": 1582748875659,
+  "title": "A FÉ NÃO CHORA",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "UMA VIDA LIMITADA FORA DOS PADRÕES DA FÉ\nLONGE DA REALIDADE \nDA PROMESSA QUE ELE FEZ\nHÁ UMA RAÇA ELEITA: FILHOS DE DEUS \nJAMAIS PODEM SE CONFORMAR \nNÃO TER UM LEGADO DA FÉ PRÁ DEIXAR\n\nA FÉ NÃO CHORA, \nNÃO TEM SOMBRA DE EMOÇÃO \nSUSCITA OS VALENTES DE TODA NAÇÃO\n\nA FORÇA QUE VEM DA REVOLTA \nFAZ NASCER OS HERÓIS DA FÉ \nPODEROSOS EM GUERRA, \nSEMPRE ESTÃO DE PÉ\n\nOBTENDO AS PROMESSAS \nTEM A NATUREZA DA FÉ \nDERRAMAM O SANGUE EM SACRIFÍCIO \nE CONQUISTAM O QUE QUEREM\n\nHERDEIROS DA JUSTIÇA, \nNÃO SE CURVAM AO CHÃO \nESCREVEM SUA PRÓPRIA HISTÓRIA \nNÃO HÁ CONSOLO, SÓ VITÓRIA \nNÃO SE ENGANAM COM A VOZ DO CORAÇÃO \n\nA FÉ NÃO CHORA, \nNÃO TEM SOMBRA DE EMOÇÃO!",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "UMA VIDA LIMITADA FORA DOS PADRÕES DA FÉ\nLONGE DA REALIDADE \nDA PROMESSA QUE ELE FEZ\nHÁ UMA RAÇA ELEITA: FILHOS DE DEUS \nJAMAIS PODEM SE CONFORMAR \nNÃO TER UM LEGADO DA FÉ PRÁ DEIXAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "A FÉ NÃO CHORA, \nNÃO TEM SOMBRA DE EMOÇÃO \nSUSCITA OS VALENTES DE TODA NAÇÃO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "A FORÇA QUE VEM DA REVOLTA \nFAZ NASCER OS HERÓIS DA FÉ \nPODEROSOS EM GUERRA, \nSEMPRE ESTÃO DE PÉ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "OBTENDO AS PROMESSAS \nTEM A NATUREZA DA FÉ \nDERRAMAM O SANGUE EM SACRIFÍCIO \nE CONQUISTAM O QUE QUEREM",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "HERDEIROS DA JUSTIÇA, \nNÃO SE CURVAM AO CHÃO \nESCREVEM SUA PRÓPRIA HISTÓRIA \nNÃO HÁ CONSOLO, SÓ VITÓRIA \nNÃO SE ENGANAM COM A VOZ DO CORAÇÃO ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "A FÉ NÃO CHORA, \nNÃO TEM SOMBRA DE EMOÇÃO!",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

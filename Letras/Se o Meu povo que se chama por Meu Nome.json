@@ -1,0 +1,50 @@
+{
+  "id": 1641733302104,
+  "title": "Se o Meu povo que se chama por Meu Nome",
+  "artist": "",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Se o Meu povo \nque se chama por Meu Nome\nSe humilhar, e orar, Me buscar\nE deixar os maus caminhos\narrependido \n\nEntão, Eu sararei suas feridas\nlhe darei da Minha vida\nCurarei até seu chão \nTirarei do rosto as lágrimas\nEnxugando-as no consolo\nDe Quem sabe perdoar ",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Se o Meu povo \nque se chama por Meu Nome\nSe humilhar, e orar, Me buscar\nE deixar os maus caminhos\narrependido ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Então, Eu sararei suas feridas\nlhe darei da Minha vida\nCurarei até seu chão \nTirarei do rosto as lágrimas\nEnxugando-as no consolo\nDe Quem sabe perdoar ",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

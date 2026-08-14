@@ -1,0 +1,85 @@
+{
+  "id": 1608747455532,
+  "title": "Senhor, Quem entrará",
+  "artist": "Padre Jonas Abib",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Senhor, \nquem entrará no santuário \npra te adorar?\n \nSenhor, \nquem entrará no santuário \npra te adorar?\n\nOS QUE tem as mãos limpas,\ne o coração puro, \nQUE não é vaidoso, e sabe amar\n \nO QUE tem as mãos limpas, \ne o coração puro, \nE não é vaidoso, e sabe amar\n\nSenhor, \neu quero entrar no santuário \npra te adorar\n \nSenhor, \neu quero entrar no santuário \npra te adorar\n\nÓ dá-me mãos limpas, \ne um coração puro, \narranca a vaidade, \nensina-me a amar\n\nÓ dá-me mãos limpas, \ne um coração puro, \narranca a vaidade, \nensina-me a amar\n\nSenhor, \njá posso entrar no santuário \npra te louvar\n \nSenhor, \njá posso entrar no santuário \npra te louvar\n\nO Teu sangue me LIMPA\nE me dá o perdão\nE o Espírito Santo \nme enche de amor\n \nO Teu sangue me LIMPA\nE me dá o perdão\nE o Espírito Santo \nme enche de amor",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Senhor, \nquem entrará no santuário \npra te adorar?\n \nSenhor, \nquem entrará no santuário \npra te adorar?",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "OS QUE tem as mãos limpas,\ne o coração puro, \nQUE não é vaidoso, e sabe amar\n \nO QUE tem as mãos limpas, \ne o coração puro, \nE não é vaidoso, e sabe amar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Senhor, \neu quero entrar no santuário \npra te adorar\n \nSenhor, \neu quero entrar no santuário \npra te adorar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Ó dá-me mãos limpas, \ne um coração puro, \narranca a vaidade, \nensina-me a amar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Ó dá-me mãos limpas, \ne um coração puro, \narranca a vaidade, \nensina-me a amar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Senhor, \njá posso entrar no santuário \npra te louvar\n \nSenhor, \njá posso entrar no santuário \npra te louvar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "O Teu sangue me LIMPA\nE me dá o perdão\nE o Espírito Santo \nme enche de amor\n \nO Teu sangue me LIMPA\nE me dá o perdão\nE o Espírito Santo \nme enche de amor",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

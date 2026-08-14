@@ -1,0 +1,64 @@
+{
+  "id": 1599567244701,
+  "title": "Corrente dos 70",
+  "artist": "Giesley Mota",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Hoje sairei daqui\nPossuído de alegria\nO maior milagre eu recebi\n\nPelo nome de Jesus\nO inferno vai cair\nE o meu nome será\nArrolado lá no céu\n\nPelo nome de Jesus\nAutoridade recebi\npra quebrar algemas e grilhões\nE pisar serpente e escorpiões\n\nEu vou conquistar\nMinha vida vai mudar\nNa corrente dos 70\nA minha vitoria eu vou alcançar\nEu recebi poder\nE autoridade pra vencer\nPois eu sei que o milagre\nNa minha vida vai acontrecer",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Hoje sairei daqui\nPossuído de alegria\nO maior milagre eu recebi",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Pelo nome de Jesus\nO inferno vai cair\nE o meu nome será\nArrolado lá no céu",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Pelo nome de Jesus\nAutoridade recebi\npra quebrar algemas e grilhões\nE pisar serpente e escorpiões",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Eu vou conquistar\nMinha vida vai mudar\nNa corrente dos 70\nA minha vitoria eu vou alcançar\nEu recebi poder\nE autoridade pra vencer\nPois eu sei que o milagre\nNa minha vida vai acontrecer",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

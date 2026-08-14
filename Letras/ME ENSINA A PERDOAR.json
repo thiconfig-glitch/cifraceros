@@ -1,0 +1,78 @@
+{
+  "id": 1582748875508,
+  "title": "ME ENSINA A PERDOAR",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "EU PRECISO PERDOAR, \nA QUEM ME OFENDEU\n\nEU PRECISO ORAR \nTAMBÉM, PELOS INIMIGOS MEUS\nTENHO QUE APRENDER A AMAR\n\nA QUEM ME FERIU O ROSTO\nDANDO EM TROCA AO MEU ABRAÇO\nTANTA DOR, TANTO DESGOSTO\n\nEU PRECISO PERDOAR, \nAS PESSOAS DO PASSADO\nQUE ME TRAÍRAM COM UM BEIJO\nMESMO ANDANDO LADO A LADO\n\nQUE ME SANGRARAM O CORAÇÃO\nNÃO DISCERNINDO O DOM DE DEUS\nQUE NÃO NEGOU SEU PRÓPRIO FILHO\nPRA PERDOAR OS ERROS SEUS\n\nME ENSINA A PERDOAR\nDE TODO O CORAÇÃO\nCOMO O SENHOR JESUS\nME DANDO A SALVAÇÃO\nME ENSINA A PERDOAR\nE ASSIM PURIFICAR MEU CORAÇÃO",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "EU PRECISO PERDOAR, \nA QUEM ME OFENDEU",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "EU PRECISO ORAR \nTAMBÉM, PELOS INIMIGOS MEUS\nTENHO QUE APRENDER A AMAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "A QUEM ME FERIU O ROSTO\nDANDO EM TROCA AO MEU ABRAÇO\nTANTA DOR, TANTO DESGOSTO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "EU PRECISO PERDOAR, \nAS PESSOAS DO PASSADO\nQUE ME TRAÍRAM COM UM BEIJO\nMESMO ANDANDO LADO A LADO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "QUE ME SANGRARAM O CORAÇÃO\nNÃO DISCERNINDO O DOM DE DEUS\nQUE NÃO NEGOU SEU PRÓPRIO FILHO\nPRA PERDOAR OS ERROS SEUS",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "ME ENSINA A PERDOAR\nDE TODO O CORAÇÃO\nCOMO O SENHOR JESUS\nME DANDO A SALVAÇÃO\nME ENSINA A PERDOAR\nE ASSIM PURIFICAR MEU CORAÇÃO",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

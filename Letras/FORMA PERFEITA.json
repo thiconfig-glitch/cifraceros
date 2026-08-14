@@ -1,0 +1,64 @@
+{
+  "id": 1582748875631,
+  "title": "FORMA PERFEITA",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "SENHOR, CERTO DIA TENTEI ENTENDER\nPOR QUÊ?\nQUE PROCURO EM VÃO\nAS PALAVRAS EXATAS \nQUE EXPRESSEM POR TI\nMINHA GRATIDÃO\n\nJÁ BUSQUEI NOS LIVROS\nNAS FRASES MAIS BELAS\nPALAVRAS SINCERAS E NÃO ENCONTREI\nENTENDI QUE A RENÚNCIA\nFOI A FORMA PERFEITA\nQUE O SENHOR ENCONTROU\nPRA EXPRESSAR AMOR POR MIM\n\nPOIS SÓ QUEM JÁ MORREU\nPOR AMOR A ALGUÉM QUE NEM NASCEU\nPODERIA EXPRESSAR MESMO SEM PALAVRAS\nSUA INTENÇÃO\n\nMESMO SE UM DIA EU ENCONTRAR\nPALAVRAS QUE NINGUÉM JAMAIS FALOU\nPOEMAS QUE O MUNDO NÃO OUVIU\nAINDA ASSIM NÃO PODEREI ME EXPRESSAR",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "SENHOR, CERTO DIA TENTEI ENTENDER\nPOR QUÊ?\nQUE PROCURO EM VÃO\nAS PALAVRAS EXATAS \nQUE EXPRESSEM POR TI\nMINHA GRATIDÃO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "JÁ BUSQUEI NOS LIVROS\nNAS FRASES MAIS BELAS\nPALAVRAS SINCERAS E NÃO ENCONTREI\nENTENDI QUE A RENÚNCIA\nFOI A FORMA PERFEITA\nQUE O SENHOR ENCONTROU\nPRA EXPRESSAR AMOR POR MIM",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "POIS SÓ QUEM JÁ MORREU\nPOR AMOR A ALGUÉM QUE NEM NASCEU\nPODERIA EXPRESSAR MESMO SEM PALAVRAS\nSUA INTENÇÃO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "MESMO SE UM DIA EU ENCONTRAR\nPALAVRAS QUE NINGUÉM JAMAIS FALOU\nPOEMAS QUE O MUNDO NÃO OUVIU\nAINDA ASSIM NÃO PODEREI ME EXPRESSAR",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "id": 1600033907334,
+  "title": "Em Memória de Mim",
+  "artist": "Altos Louvores",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "1,2,3,4,6,7",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Este é o meu corpo \nque foi moído por vós\nEste é o meu sangue \nque verti na cruz\n\nO calvário foi parte \ndo meu sofrimento\nMinha morte vos deu vida \ne um caminho de luz\n\nEm memória de Mim \ncoma deste pão\nEm memória de Mim \nabra o coração\nE glorifica meu Nome\n\nEm memória de Mim \nbeba deste cálice\nEm memória de Mim\n\n \n\nNão temas, pois agora \nrasgou-se o véu\nEntrai-vos em minha presença\nSou o pão do céu\n\nTrago em meu corpo as marcas\nDa minha vitória\nE em minha cabeça \na coroa de poder e glória",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Este é o meu corpo \nque foi moído por vós\nEste é o meu sangue \nque verti na cruz",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "O calvário foi parte \ndo meu sofrimento\nMinha morte vos deu vida \ne um caminho de luz",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Em memória de Mim \ncoma deste pão\nEm memória de Mim \nabra o coração\nE glorifica meu Nome",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Em memória de Mim \nbeba deste cálice\nEm memória de Mim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": " ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Não temas, pois agora \nrasgou-se o véu\nEntrai-vos em minha presença\nSou o pão do céu",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Trago em meu corpo as marcas\nDa minha vitória\nE em minha cabeça \na coroa de poder e glória",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

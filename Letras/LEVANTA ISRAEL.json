@@ -1,0 +1,85 @@
+{
+  "id": 1582748875575,
+  "title": "LEVANTA ISRAEL",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "CONHEÇO A TUA HISTÓRIA\nJÁ OUVI O TEU CLAMOR\nCONHEÇO O TEU PASSADO\nSAREI A TUA DOR\n\nTU LEMBRAS QUE UM DIA\nNO DESERTO TE GUIEI\nQUE NÃO ÉS MAIS CATIVO\nEU TE LIBERTEI\n\nTU ANDAS TÃO DISTANTE\nENVOLVIDO EM TEU LABOR\nTU JÁ ESQUECESTE\nQUE EU SOU O TEU PROVEDOR\n\nLEVANTA ISRAEL, LEVANTA ISRAEL\nLEVANTA ISRAEL, TU NÃO ÉS MAIS CATIVO\nLEVANTA ISRAEL, LEVANTA ISRAEL\nLEVANTA ISRAEL E CLAMA \nAO TEU DEUS E SENHOR\n\nCONHEÇO A TUA HISTÓRIA E O TEU CORAÇÃO\nEU VEJO O QUE TENS FEITO \nPRA TUA ESCRAVIDÃO\nDESPERTA ISRAEL, TE HUMILHA AO TEU DEUS\nEU SOU O TEU JUIZ, O TEU LIBERTADOR\n\nFOSTE ESCOLHIDO\nPRA UM SERVIÇO SANTO\nTU FOSTE REDIMIDO\nPRA SER USADO EM MEU FAVOR\n\nLEVANTA ISRAEL, LEVANTA ISRAEL\nLEVANTA ISRAEL, JÁ CHEGOU O TEU JUÍZO\nLEVANTA ISRAEL, LEVANTA ISRAEL\nLEVANTA ISRAEL OUÇA O TEU DEUS E SENHOR",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "CONHEÇO A TUA HISTÓRIA\nJÁ OUVI O TEU CLAMOR\nCONHEÇO O TEU PASSADO\nSAREI A TUA DOR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "TU LEMBRAS QUE UM DIA\nNO DESERTO TE GUIEI\nQUE NÃO ÉS MAIS CATIVO\nEU TE LIBERTEI",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "TU ANDAS TÃO DISTANTE\nENVOLVIDO EM TEU LABOR\nTU JÁ ESQUECESTE\nQUE EU SOU O TEU PROVEDOR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "LEVANTA ISRAEL, LEVANTA ISRAEL\nLEVANTA ISRAEL, TU NÃO ÉS MAIS CATIVO\nLEVANTA ISRAEL, LEVANTA ISRAEL\nLEVANTA ISRAEL E CLAMA \nAO TEU DEUS E SENHOR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "CONHEÇO A TUA HISTÓRIA E O TEU CORAÇÃO\nEU VEJO O QUE TENS FEITO \nPRA TUA ESCRAVIDÃO\nDESPERTA ISRAEL, TE HUMILHA AO TEU DEUS\nEU SOU O TEU JUIZ, O TEU LIBERTADOR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "FOSTE ESCOLHIDO\nPRA UM SERVIÇO SANTO\nTU FOSTE REDIMIDO\nPRA SER USADO EM MEU FAVOR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "LEVANTA ISRAEL, LEVANTA ISRAEL\nLEVANTA ISRAEL, JÁ CHEGOU O TEU JUÍZO\nLEVANTA ISRAEL, LEVANTA ISRAEL\nLEVANTA ISRAEL OUÇA O TEU DEUS E SENHOR",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

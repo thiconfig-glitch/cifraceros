@@ -1,0 +1,71 @@
+{
+  "id": 1582748875809,
+  "title": "FOGO ABRASADOR",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "FAZ DE MIM SENHOR, \nUM FOGO ABRASADOR\nUMA ALIANÇA TENHO \nCOM O SENHOR\n\nSANTO ESPÍRITO, \nENCHE ESTE LUGAR\nEM TI SEREMOS UM \nEM TEU ALTAR\n\nSANTO ESPÍRITO, \nFOGO ABRASADOR\nSANTO ESPÍRITO, \nEIS-ME AQUI\n \n\nSANTO ESPÍRITO, \nQUERO MAIS DE TI\nSANTO ESPÍRITO, \nEIS-ME AQUI\n\nVEM COM TEU FOGO\nVEM COM TEU FOGO\nFOGO QUE TRANSFORMA\nVEM QUEIMAR EM MIM",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "FAZ DE MIM SENHOR, \nUM FOGO ABRASADOR\nUMA ALIANÇA TENHO \nCOM O SENHOR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "SANTO ESPÍRITO, \nENCHE ESTE LUGAR\nEM TI SEREMOS UM \nEM TEU ALTAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "SANTO ESPÍRITO, \nFOGO ABRASADOR\nSANTO ESPÍRITO, \nEIS-ME AQUI\n ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "SANTO ESPÍRITO, \nQUERO MAIS DE TI\nSANTO ESPÍRITO, \nEIS-ME AQUI",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "VEM COM TEU FOGO\nVEM COM TEU FOGO\nFOGO QUE TRANSFORMA\nVEM QUEIMAR EM MIM",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

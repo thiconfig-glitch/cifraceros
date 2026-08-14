@@ -1,0 +1,99 @@
+{
+  "id": 1707490528359,
+  "title": "Diante da Cruz",
+  "artist": "Aline Barros",
+  "author": "Darlene Zschech, Reuben Morgan",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "D",
+  "bpm": 72.0,
+  "time_sig": "4/4",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Ó Deus, me sondas\nConheces-me\nMesmo quando falho\nEu sei, me amas\n\nEstás presente\nA me cercar\nEm todo tempo\n\nEu sei, me amas\nEu sei, me amas\n\nProstro-me diante da cruz\nVejo o sangue de Jesus\nNunca houve amor assim\n\nSobre a morte já venceu\nSua glória o céu encheu\nNada irá me separar\n\nTu és meu Guia\nMeu Protetor\nTua mão me firma\n\nEu sei, me amas\nEu sei, me amas\n\nO véu rasgou\nO caminho abriu\nTudo consumado está\n\nE quando tudo se acabar\nEstarei seguro\nPois sei, me amas\nPois sei, me amas",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Ó Deus, me sondas\nConheces-me\nMesmo quando falho\nEu sei, me amas",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Estás presente\nA me cercar\nEm todo tempo",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Eu sei, me amas\nEu sei, me amas",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Prostro-me diante da cruz\nVejo o sangue de Jesus\nNunca houve amor assim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Sobre a morte já venceu\nSua glória o céu encheu\nNada irá me separar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Tu és meu Guia\nMeu Protetor\nTua mão me firma",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Eu sei, me amas\nEu sei, me amas",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": "O véu rasgou\nO caminho abriu\nTudo consumado está",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 9,
+        "description": "",
+        "text": "E quando tudo se acabar\nEstarei seguro\nPois sei, me amas\nPois sei, me amas",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "https://open.spotify.com/track/6Eys2kpYf4z9PlRJ48Ql8C",
+      "youtube": "https://youtube.com/watch?v=7_CVewBfqSQ",
+      "deezer": "https://deezer.com/track/93551640"
+    },
+    "backing_track": {
+      "spotify": "https://open.spotify.com/track/5EXWRSRIJKmV5VjiScMQWB",
+      "youtube": "https://youtube.com/watch?v=IktnutYwG_w",
+      "deezer": "https://deezer.com/track/384929571"
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": 1582748875817,
+  "title": "CONTA PRA JESUS",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "CONTA PRA JESUS AONDE É  A SUA DOR\nELE É  O REMÉDIO ,CONFIA NO SENHOR\nNÃ O TE DESANIMES , TOME A TUA CRUZ\nMAIS O QUE TU PRECISAS CONTA PRA JESUS!\n\nCONTA PRA JESUS AONDE É  A SUA DOR\nELE É  O REMÉDIO, CONFIA NO SENHOR\nNÃ O TE DESANIMES, TOME A TUA CRUZ\nMAIS O QUE TU PRECISAS CONTA PRA JESUS !\n O QUE TU PRECISAS CONTA PRA JESUS !",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "CONTA PRA JESUS AONDE É  A SUA DOR\nELE É  O REMÉDIO ,CONFIA NO SENHOR\nNÃ O TE DESANIMES , TOME A TUA CRUZ\nMAIS O QUE TU PRECISAS CONTA PRA JESUS!",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "CONTA PRA JESUS AONDE É  A SUA DOR\nELE É  O REMÉDIO, CONFIA NO SENHOR\nNÃ O TE DESANIMES, TOME A TUA CRUZ\nMAIS O QUE TU PRECISAS CONTA PRA JESUS !\n O QUE TU PRECISAS CONTA PRA JESUS !",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

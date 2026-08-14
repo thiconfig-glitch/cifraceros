@@ -1,0 +1,64 @@
+{
+  "id": 1616965614551,
+  "title": "Um Homem Triste",
+  "artist": "Tonny Sabetta",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Meu deus preciso tanto\nDe ajuda nessa hora\nVem depressa, vem me socorrer\nAgora...\n\nEstou triste, abatido\nTão sozinho, tão aflito\nPreciso tanto de auxílio, \nde um amigo\n\nMeu Deus, vem me ajudar\nA tua paz quero encontrar\nMeu deus, vem me acolher\nCom o teu PODER me envolver\n\nMeu deus, vem me ajudar...",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Meu deus preciso tanto\nDe ajuda nessa hora\nVem depressa, vem me socorrer\nAgora...",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Estou triste, abatido\nTão sozinho, tão aflito\nPreciso tanto de auxílio, \nde um amigo",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Meu Deus, vem me ajudar\nA tua paz quero encontrar\nMeu deus, vem me acolher\nCom o teu PODER me envolver",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Meu deus, vem me ajudar...",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

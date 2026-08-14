@@ -1,0 +1,85 @@
+{
+  "id": 1608161755244,
+  "title": "Senhor, Formoso És",
+  "artist": "Marcos Góes",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Senhor, formoso és\nTua face eu quero ver\nPois quando estás, neste lugar\nTua graça invade-me\n\nAcende a chama oh Pai!\nQue uma vez brilhou\nVem limpar, brilhar, resplandecer\nO meu primeiro amor\n\nSenhor, formoso és\nTua face eu quero ver\nPois quando estás, neste lugar\nTua graça invade-me\n\nAcende a chama oh pai!\nQue uma vez brilhou\nVem limpar, brilhar, resplandecer\nO meu primeiro amor\n\nSenhor, formoso és\nTua face eu quero ver\nPois quando estás, neste lugar\nTua graça invade-me\n\nAcende a chama oh pai!\nQue uma vez brilhou\nVem limpar, brilhar, resplandecer\nO meu primeiro amor\n\nVem limpar, brilhar, resplandecer\nO meu primeiro amor",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Senhor, formoso és\nTua face eu quero ver\nPois quando estás, neste lugar\nTua graça invade-me",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Acende a chama oh Pai!\nQue uma vez brilhou\nVem limpar, brilhar, resplandecer\nO meu primeiro amor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Senhor, formoso és\nTua face eu quero ver\nPois quando estás, neste lugar\nTua graça invade-me",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Acende a chama oh pai!\nQue uma vez brilhou\nVem limpar, brilhar, resplandecer\nO meu primeiro amor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Senhor, formoso és\nTua face eu quero ver\nPois quando estás, neste lugar\nTua graça invade-me",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Acende a chama oh pai!\nQue uma vez brilhou\nVem limpar, brilhar, resplandecer\nO meu primeiro amor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Vem limpar, brilhar, resplandecer\nO meu primeiro amor",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

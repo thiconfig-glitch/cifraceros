@@ -1,0 +1,120 @@
+{
+  "id": 1715028950486,
+  "title": "Só Quem Tem Raiz",
+  "artist": "Sarah Farias",
+  "author": "Sarah Farias",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "A",
+  "bpm": 75.0,
+  "time_sig": "4/4",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Nada é por acaso\nNada é em vão\nNa vida com Deus\nTudo tem uma razão\n\nCada vale\nQue eu atravessei\nCada deserto\nQue eu sobrevivi\n\nTrouxe um bem pra mim\n\nOlhando de fora\nNinguém ia ver\nMas com o tempo\nDeu para perceber\n\nMinha raiz cresceu!\n\nE os ventos sopraram\nCada vez mais fortes\nE ainda sim\nEu prevaleci\n\nSó quem tem raiz\nSuporta o que eu suportei\nSó quem tem raiz\nAguenta chorar o que eu chorei\n\nE ainda adorar\nComo se nada\nTivesse acontecido\n\nE ainda adorar (adorar)\n\nAté o dia raiar\nAté o dia raiar\n\nQuando fui ferido, machucado\nMinha raiz cresceu\nQuando perseguido, caluniado\nMinha raiz cresceu\n\nQuando perdoei e esqueci\nMinha raiz cresceu\nQuando ajoelhei e Te busquei\nMinha raiz cresceu",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Nada é por acaso\nNada é em vão\nNa vida com Deus\nTudo tem uma razão",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Cada vale\nQue eu atravessei\nCada deserto\nQue eu sobrevivi",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Trouxe um bem pra mim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Olhando de fora\nNinguém ia ver\nMas com o tempo\nDeu para perceber",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Minha raiz cresceu!",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "E os ventos sopraram\nCada vez mais fortes\nE ainda sim\nEu prevaleci",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Só quem tem raiz\nSuporta o que eu suportei\nSó quem tem raiz\nAguenta chorar o que eu chorei",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": "E ainda adorar\nComo se nada\nTivesse acontecido",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 9,
+        "description": "",
+        "text": "E ainda adorar (adorar)",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 10,
+        "description": "",
+        "text": "Até o dia raiar\nAté o dia raiar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 11,
+        "description": "",
+        "text": "Quando fui ferido, machucado\nMinha raiz cresceu\nQuando perseguido, caluniado\nMinha raiz cresceu",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 12,
+        "description": "",
+        "text": "Quando perdoei e esqueci\nMinha raiz cresceu\nQuando ajoelhei e Te busquei\nMinha raiz cresceu",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "https://open.spotify.com/track/5GdKQayfNJloGuqAmZCRuA",
+      "youtube": "https://youtube.com/watch?v=Ub-axOwO7L4",
+      "deezer": "https://deezer.com/track/467740342"
+    },
+    "backing_track": {
+      "spotify": "https://open.spotify.com/track/1TeKRVtcozXEBX09ElG2QL",
+      "youtube": "https://youtube.com/watch?v=N_NisHQHTkA",
+      "deezer": "https://deezer.com/track/467740442"
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

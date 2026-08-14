@@ -1,0 +1,71 @@
+{
+  "id": 1613906056773,
+  "title": "Meu Louvor",
+  "artist": "Milton Cardoso",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Ao Teu nome toda honra\nE glória ao Senhor\nPois Tu és o Rei dos reis\nCriador da universal\n\nEu Te louvarei\nE dou minha vida a Ti\nSenhor, Te seguirei\nEu Te louvarei\nE dou minha vida a Ti\nSenhor, Te seguirei\n\nTu quebraste o meu jugo\nMe livraste do inferno\nEu levanto a minha voz\nCom louvor eternamente\n\nEu Te louvarei\nE dou minha vida a Ti\nSenhor, Te seguirei\nEu Te louvarei\nE dou minha vida a Ti\nSenhor, Te seguirei\n\nTeu Espírito flui em mim\nComo rios de águas vivas\nE eu levanto as minhas mãos\nPro Teu trono, meu Senhor",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Ao Teu nome toda honra\nE glória ao Senhor\nPois Tu és o Rei dos reis\nCriador da universal",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Eu Te louvarei\nE dou minha vida a Ti\nSenhor, Te seguirei\nEu Te louvarei\nE dou minha vida a Ti\nSenhor, Te seguirei",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Tu quebraste o meu jugo\nMe livraste do inferno\nEu levanto a minha voz\nCom louvor eternamente",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Eu Te louvarei\nE dou minha vida a Ti\nSenhor, Te seguirei\nEu Te louvarei\nE dou minha vida a Ti\nSenhor, Te seguirei",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Teu Espírito flui em mim\nComo rios de águas vivas\nE eu levanto as minhas mãos\nPro Teu trono, meu Senhor",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

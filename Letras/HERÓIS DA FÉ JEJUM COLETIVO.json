@@ -1,0 +1,85 @@
+{
+  "id": 1632564555364,
+  "title": "HERÓIS DA FÉ JEJUM COLETIVO",
+  "artist": "",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Se você quiser ser um vencedor\nVencer a batalha ser um ganhador\nVocê precisa ter fé\n\nFé para vencer\nCrer para ver\nE ser um herói da fé\nVocê precisa ter fé\n\nFé para vencer\nCrer para ver\nE ser um herói da fé\n\nHerói da fé\nEu sou no jejum\nA vitória eu tenho \neu sou mais que vencedor\n\nSe você quiser ser assim \ntambém e ter uma vida abençoada\nOuça a palavra de Deus\n\nCreia não duvide não \nPois a fé vai crescer \ndentro do seu coração\nOuça a palavra de Deus\n\nCreia não duvide não \nPois a fé vai crescer \ndentro do seu coração",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Se você quiser ser um vencedor\nVencer a batalha ser um ganhador\nVocê precisa ter fé",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Fé para vencer\nCrer para ver\nE ser um herói da fé\nVocê precisa ter fé",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Fé para vencer\nCrer para ver\nE ser um herói da fé",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Herói da fé\nEu sou no jejum\nA vitória eu tenho \neu sou mais que vencedor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Se você quiser ser assim \ntambém e ter uma vida abençoada\nOuça a palavra de Deus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Creia não duvide não \nPois a fé vai crescer \ndentro do seu coração\nOuça a palavra de Deus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Creia não duvide não \nPois a fé vai crescer \ndentro do seu coração",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

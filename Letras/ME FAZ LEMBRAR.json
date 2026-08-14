@@ -1,0 +1,64 @@
+{
+  "id": 1582748875453,
+  "title": "ME FAZ LEMBRAR",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "QUANDO EU TENTAR\nTE ESQUECER\nE CONFIAR NO MEU QUERER\nME FAZ LEMBRAR\nDE ONDE EU VIM\nE QUE O SENHOR\nME TROUXE ATÉ AQUI\n\nQUANDO EU TENTAR\nFAZER UMA ORAÇÃO\nE ME FALTAR\nA MESMA INSPIRAÇÃO\nME FAZ LEMBRAR\nQUE NADA POSSO SER\nSE DA TUA GRAÇA EU NÃO DEPENDER\n\nME FAZ LEMBRAR\nDAQUELAS MADRUGADAS DE ORAÇÃO\nE DAS LÁGRIMAS NO CHÃO\nQUE O TEMPO AO PASSAR\nVAI TENTANDO APAGAR DO CORAÇÃO\n\nME FAZ LEMBRAR\nONDE EU DEIXEI \nO MEU PRIMEIRO AMOR\nSE FOR PRECISO \nVOU RECOMEÇAR\nMAS CONFESSO\nQUE DEPENDO DO SENHOR",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "QUANDO EU TENTAR\nTE ESQUECER\nE CONFIAR NO MEU QUERER\nME FAZ LEMBRAR\nDE ONDE EU VIM\nE QUE O SENHOR\nME TROUXE ATÉ AQUI",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "QUANDO EU TENTAR\nFAZER UMA ORAÇÃO\nE ME FALTAR\nA MESMA INSPIRAÇÃO\nME FAZ LEMBRAR\nQUE NADA POSSO SER\nSE DA TUA GRAÇA EU NÃO DEPENDER",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "ME FAZ LEMBRAR\nDAQUELAS MADRUGADAS DE ORAÇÃO\nE DAS LÁGRIMAS NO CHÃO\nQUE O TEMPO AO PASSAR\nVAI TENTANDO APAGAR DO CORAÇÃO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "ME FAZ LEMBRAR\nONDE EU DEIXEI \nO MEU PRIMEIRO AMOR\nSE FOR PRECISO \nVOU RECOMEÇAR\nMAS CONFESSO\nQUE DEPENDO DO SENHOR",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

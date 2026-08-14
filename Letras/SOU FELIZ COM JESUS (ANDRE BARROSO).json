@@ -1,0 +1,71 @@
+{
+  "id": 1607783986338,
+  "title": "SOU FELIZ COM JESUS",
+  "artist": "ANDRE BARROSO",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Caminhava por estradas tão desertas\nEu sofria, mesmo assim eu procurava\nMeus amigos não podiam me ajudar\nEu sofria, mesmo assim eu caminhava\n\nDeparei com o pranto no meu rosto\nE caí sob pedras e espinhos\nQuando tudo terminava para mim\nEu ouvi uma Voz dizendo assim\n\nEstou aqui, sempre com você\nO pai nunca abandona o seu filho\nEu percebi que era a voz de Deus\nComo é linda e divina a luz\nAprendi com Deus a ser feliz\nE caminhar com Jesus\n\nQuero ser pro Senhor\nTudo que eu não sabia\nAgradeço ao Senhor todos os dias\n\nObrigado, Senhor\nObrigado, meu Deus\nO Senhor pôs Jesus na minha vida",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Caminhava por estradas tão desertas\nEu sofria, mesmo assim eu procurava\nMeus amigos não podiam me ajudar\nEu sofria, mesmo assim eu caminhava",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Deparei com o pranto no meu rosto\nE caí sob pedras e espinhos\nQuando tudo terminava para mim\nEu ouvi uma Voz dizendo assim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Estou aqui, sempre com você\nO pai nunca abandona o seu filho\nEu percebi que era a voz de Deus\nComo é linda e divina a luz\nAprendi com Deus a ser feliz\nE caminhar com Jesus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Quero ser pro Senhor\nTudo que eu não sabia\nAgradeço ao Senhor todos os dias",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Obrigado, Senhor\nObrigado, meu Deus\nO Senhor pôs Jesus na minha vida",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

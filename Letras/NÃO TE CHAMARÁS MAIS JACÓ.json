@@ -1,0 +1,64 @@
+{
+  "id": 1624196208163,
+  "title": "NÃO TE CHAMARÁS MAIS JACÓ",
+  "artist": "",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Nessa caminhada não posso parar\nNessa longa jornada não sei \no que posso encontrar\nMais creio num Deus que pode me dar\nNova identidade, Meu passado inteiro apagar\n\nCansei de ser eu mesmo\nEstou disposto a mudar\nAinda que a luta dure até o sol raiar\nMesmo que a dor queira me fazer parar\nVou até o fim,  até Deus me abençoar\n\nNão te chamarás mais jacó\nE sim Israel, E sim Israel\n\nAlta madrugada ninguém ao redor\nNão tenho mais nada, Meu Deus agora estou só\nNão vá embora, eu não te deixarei ir\nPois como um príncipe lutei e prevaleci",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Nessa caminhada não posso parar\nNessa longa jornada não sei \no que posso encontrar\nMais creio num Deus que pode me dar\nNova identidade, Meu passado inteiro apagar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Cansei de ser eu mesmo\nEstou disposto a mudar\nAinda que a luta dure até o sol raiar\nMesmo que a dor queira me fazer parar\nVou até o fim,  até Deus me abençoar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Não te chamarás mais jacó\nE sim Israel, E sim Israel",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Alta madrugada ninguém ao redor\nNão tenho mais nada, Meu Deus agora estou só\nNão vá embora, eu não te deixarei ir\nPois como um príncipe lutei e prevaleci",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": 1764494861565,
+  "title": "ENTRE OLIVEIRAS E SILENCIO",
+  "artist": "",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Entre oliveiras e silêncio,\na terra ouviu Tua oração.\nGotas de sangue no vento,\no preço eterno da redenção.\n\nSangue no suor,\nTua entrega em dor,\no cálice, a separação de Deus.\n“Pai, faça-se a Tua vontade;\nnão seja como eu quero.”\nGetsêmani…\nTua obediência trouxe salvação.\n\nA noite viu Tua renúncia,\ne o Pai ouviu Tua voz.\nO segundo Adão vencia\nonde o primeiro caiu.\n\nSangue no suor,\nTua entrega em dor,\no cálice, a separação de Deus.\n“Pai, faça-se a Tua vontade;\nnão seja como eu quero.”\nGetsêmani…\nTua obediência trouxe salvação.",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Entre oliveiras e silêncio,\na terra ouviu Tua oração.\nGotas de sangue no vento,\no preço eterno da redenção.",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Sangue no suor,\nTua entrega em dor,\no cálice, a separação de Deus.\n“Pai, faça-se a Tua vontade;\nnão seja como eu quero.”\nGetsêmani…\nTua obediência trouxe salvação.",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "A noite viu Tua renúncia,\ne o Pai ouviu Tua voz.\nO segundo Adão vencia\nonde o primeiro caiu.",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Sangue no suor,\nTua entrega em dor,\no cálice, a separação de Deus.\n“Pai, faça-se a Tua vontade;\nnão seja como eu quero.”\nGetsêmani…\nTua obediência trouxe salvação.",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

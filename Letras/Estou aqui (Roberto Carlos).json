@@ -1,0 +1,92 @@
+{
+  "id": 1699485864730,
+  "title": "Estou aqui",
+  "artist": "Roberto Carlos",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Estou aqui\nOutra vez em busca desse abrigo\nDo conforto desse olhar amigo\nLuz do meu caminho, a direção\n\nEstou aqui\nPor tantas angústias e conflitos\nComo tantos outros tão aflitos\nSabem que você é a solução\n\nEstou aqui\nÀ procura do caminho certo\nComo quem precisa num deserto\nPor milagre, a fonte, a salvação\n\nEstou aqui\nVenho iluminar meus pensamentos\nE aliviar meus sofrimentos\nSó o Senhor eu sei é a solução\n\nPor isto meu amigo\nCada vez mais forte é a minha fé e a minha crença\nEm toda parte encontro seu olhar, sua presença\nE elevo o pensamento em oração\n\nCristo, meu amigo\nSua luz me mostra a direção a ser seguida\no Senhor é a verdade, é tudo, é o caminho, a vida\nO Senhor, eu sei é a solução\n\nPor isto meu amigo\nCada vez mais forte é a minha fé e a minha crença\nEm toda parte encontro seu olhar, sua presença\nE elevo o pensamento em oração\n\nCristo, meu amigo\nSua luz me mostra a direção a ser seguida\nO Senhor é a verdade, \né tudo, é o caminho, a vida\nSó você, eu sei é a solução",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Estou aqui\nOutra vez em busca desse abrigo\nDo conforto desse olhar amigo\nLuz do meu caminho, a direção",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Estou aqui\nPor tantas angústias e conflitos\nComo tantos outros tão aflitos\nSabem que você é a solução",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Estou aqui\nÀ procura do caminho certo\nComo quem precisa num deserto\nPor milagre, a fonte, a salvação",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Estou aqui\nVenho iluminar meus pensamentos\nE aliviar meus sofrimentos\nSó o Senhor eu sei é a solução",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Por isto meu amigo\nCada vez mais forte é a minha fé e a minha crença\nEm toda parte encontro seu olhar, sua presença\nE elevo o pensamento em oração",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Cristo, meu amigo\nSua luz me mostra a direção a ser seguida\no Senhor é a verdade, é tudo, é o caminho, a vida\nO Senhor, eu sei é a solução",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Por isto meu amigo\nCada vez mais forte é a minha fé e a minha crença\nEm toda parte encontro seu olhar, sua presença\nE elevo o pensamento em oração",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": "Cristo, meu amigo\nSua luz me mostra a direção a ser seguida\nO Senhor é a verdade, \né tudo, é o caminho, a vida\nSó você, eu sei é a solução",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

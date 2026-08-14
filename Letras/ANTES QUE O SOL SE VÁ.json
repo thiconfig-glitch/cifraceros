@@ -1,0 +1,50 @@
+{
+  "id": 1582748875594,
+  "title": "ANTES QUE O SOL SE VÁ",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "ANTES QUE O SOL SE VÁ\nDESEJO CONFESSAR\nQUE ÉS TUDO PARA MIM\nQUE TÃO CARENTE SOU\n\nPELO TEU GRANDE AMOR\nPOR MINHA VIDA ENFIM\nDESEJO CONFESSAR\nTU ÉS MEU ÚNICO AMOR",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "ANTES QUE O SOL SE VÁ\nDESEJO CONFESSAR\nQUE ÉS TUDO PARA MIM\nQUE TÃO CARENTE SOU",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "PELO TEU GRANDE AMOR\nPOR MINHA VIDA ENFIM\nDESEJO CONFESSAR\nTU ÉS MEU ÚNICO AMOR",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

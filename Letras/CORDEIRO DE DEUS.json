@@ -1,0 +1,43 @@
+{
+  "id": 1582748875855,
+  "title": "CORDEIRO DE DEUS",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "ELE É O CORDEIRO DE DEUS \nPOR SEU SANGUE NOS ABRIU A PORTA \nELE DEU A SUA VIDA E AGORA QUER A MINHA\nEIS-ME AQUI, OH MEU SENHOR \nJESUS CRISTO MINHA VIDA \nENTREGO AO SENHOR\nCORDEIRO DE DEUS",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "ELE É O CORDEIRO DE DEUS \nPOR SEU SANGUE NOS ABRIU A PORTA \nELE DEU A SUA VIDA E AGORA QUER A MINHA\nEIS-ME AQUI, OH MEU SENHOR \nJESUS CRISTO MINHA VIDA \nENTREGO AO SENHOR\nCORDEIRO DE DEUS",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

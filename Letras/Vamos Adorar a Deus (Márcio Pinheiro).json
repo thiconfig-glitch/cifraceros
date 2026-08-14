@@ -1,0 +1,64 @@
+{
+  "id": 1611147044997,
+  "title": "Vamos Adorar a Deus",
+  "artist": "Márcio Pinheiro",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Vamos adorar a Deus\nVamos invocar Seu nome, aleluia\nVamos adorar a Deus\n\nEle veio em minha vida\nEm um dia especial\nTrocou meu coração\nPor um novo coração\n\nEu vou adorar ao Deus sem igual\nQue me acompanha em todo lugar\nEu vou adorar de todo o meu coração\nVamos adorar a Deus\n\nEle veio em minha vida\nEm um dia especial\nTrocou meu coração\nPor um novo coração",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Vamos adorar a Deus\nVamos invocar Seu nome, aleluia\nVamos adorar a Deus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Ele veio em minha vida\nEm um dia especial\nTrocou meu coração\nPor um novo coração",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Eu vou adorar ao Deus sem igual\nQue me acompanha em todo lugar\nEu vou adorar de todo o meu coração\nVamos adorar a Deus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Ele veio em minha vida\nEm um dia especial\nTrocou meu coração\nPor um novo coração",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

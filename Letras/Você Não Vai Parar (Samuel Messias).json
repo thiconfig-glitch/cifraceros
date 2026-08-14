@@ -1,0 +1,64 @@
+{
+  "id": 1742251102000,
+  "title": "Você Não Vai Parar",
+  "artist": "Samuel Messias",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "A",
+  "bpm": 62.0,
+  "time_sig": "4/4",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "NÃO ABANDONE O BARCO\nPOIS A ORDEM É CHEGAR DO OUTRO LADO\nE VOCÊ VAI CHEGAR\n\nNÃO ABANDONE O BARCO\nPOIS ESSE TEU DESERTO VAI SERVIR DE TESTEMUNHO\nPARA LEVANTAR ALGUÉM, DE NOVO\nELE VAI RESTAURAR ALGUÉM, DE NOVO\nE VAI RESSUSCITAR OS SONHOS DE ALGUÉM, DE NOVO\n\nVOCÊ NÃO VAI PARAR\nVOCÊ NÃO VAI PARAR\nPOIS A ORDEM É CHEGAR DO OUTRO LADO\nE VOCÊ VAI CHEGAR\nVOCÊ NÃO VAI PARAR\n\nVOCÊ NÃO VAI PARAR\nVOCÊ NÃO VAI PARAR\nEU SOU JESUS, O NAZARENO, \nE JÁ DEI ORDEM PRA ACALMAR O MAR\nVOCÊ NÃO VAI PARAR",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "NÃO ABANDONE O BARCO\nPOIS A ORDEM É CHEGAR DO OUTRO LADO\nE VOCÊ VAI CHEGAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "NÃO ABANDONE O BARCO\nPOIS ESSE TEU DESERTO VAI SERVIR DE TESTEMUNHO\nPARA LEVANTAR ALGUÉM, DE NOVO\nELE VAI RESTAURAR ALGUÉM, DE NOVO\nE VAI RESSUSCITAR OS SONHOS DE ALGUÉM, DE NOVO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "VOCÊ NÃO VAI PARAR\nVOCÊ NÃO VAI PARAR\nPOIS A ORDEM É CHEGAR DO OUTRO LADO\nE VOCÊ VAI CHEGAR\nVOCÊ NÃO VAI PARAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "VOCÊ NÃO VAI PARAR\nVOCÊ NÃO VAI PARAR\nEU SOU JESUS, O NAZARENO, \nE JÁ DEI ORDEM PRA ACALMAR O MAR\nVOCÊ NÃO VAI PARAR",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "https://open.spotify.com/track/2chAXWVbGV6kgirxLbxsQu",
+      "youtube": "https://youtube.com/watch?v=BVKDfgL63pI",
+      "deezer": "https://deezer.com/track/968285002"
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

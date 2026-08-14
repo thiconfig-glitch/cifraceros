@@ -1,0 +1,78 @@
+{
+  "id": 1698274754382,
+  "title": "Meu pecado resgatado Foi na cruz, por teu amor",
+  "artist": "",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Meu pecado resgatado\nFoi na cruz, por teu amor\nE da morte, triste sorte\nMe livraste tu, Senhor!\n\nVem! Inflama viva chama\nEm meu peito, bem sem fim!\nEu te adoro, sempre imploro\nÓ Jesus, habita em mim!\n\nSe hesitante, vacilante\nOuço a voz do tentador\nTu me guias, me auxilias\nE me tornas vencedor\n\nVem! Inflama viva chama\nEm meu peito, bem sem fim!\nEu te adoro, sempre imploro\nÓ Jesus, habita em mim!\n\nRedimida, só tem vida\nA minha alma em teu amor\nCom apreço, reconheço\nQuanto devo a ti, Senhor!\n\nVem! Inflama viva chama\nEm meu peito, bem sem fim!\nEu te adoro, sempre imploro\nÓ Jesus, habita em mim!",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Meu pecado resgatado\nFoi na cruz, por teu amor\nE da morte, triste sorte\nMe livraste tu, Senhor!",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Vem! Inflama viva chama\nEm meu peito, bem sem fim!\nEu te adoro, sempre imploro\nÓ Jesus, habita em mim!",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Se hesitante, vacilante\nOuço a voz do tentador\nTu me guias, me auxilias\nE me tornas vencedor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Vem! Inflama viva chama\nEm meu peito, bem sem fim!\nEu te adoro, sempre imploro\nÓ Jesus, habita em mim!",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Redimida, só tem vida\nA minha alma em teu amor\nCom apreço, reconheço\nQuanto devo a ti, Senhor!",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Vem! Inflama viva chama\nEm meu peito, bem sem fim!\nEu te adoro, sempre imploro\nÓ Jesus, habita em mim!",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

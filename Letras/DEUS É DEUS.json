@@ -1,0 +1,99 @@
+{
+  "id": 1582748875681,
+  "title": "DEUS É DEUS",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "1,3,4,5,6,1,3,9",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "MINHA FÉ NÃO ESTÁ FIRMADA\nNAS COISAS QUE PODES FAZER\nEU APRENDI A TE ADORAR PELO QUE ÉS\n\nDEUS É DEUS\n\nDELE VÊM O SIM E O AMÉM\nSOMENTE DELE E MAIS NINGUÉM\nA DEUS SEJA O LOUVOR\n\nSE DEUS FIZER, ELE É DEUS\nSE NÃO FIZER, ELE É DEUS\nSE A PORTA ABRIR, ELE É DEUS\nMAS SE FECHAR, CONTINUA SENDO DEUS\n\nSE A LUTA VIER, ELE É DEUS\nSE CURADO EU FOR, ELE É DEUS\nSE TUDO DER CERTO, ELE É DEUS\nMAS SE NÃO DER, CONTINUA SENDO DEUS\n\nEU NÃO O ADORO PELO QUE ELE FAZ\nEU ADORO PELO QUE ELE É\nHAJA O QUE HOUVER \nSEMPRE SERÁ DEUS\n\nMINHA FÉ NÃO ESTÁ FIRMADA\nNAS COISAS QUE PODES FAZER\nEU APRENDI A TE ADORAR PELO QUE ÉS\n\nDELE VÊM O SIM E O AMÉM\nSOMENTE DELE E MAIS NINGUÉM\nA DEUS SEJA O LOUVOR\n\nSE DEUS FIZER, ELE É DEUS\nSE NÃO FIZER, ELE É DEUS\nSE A PORTA ABRIR, ELE É DEUS\nMAS SE FECHAR, CONTINUA SENDO DEUS",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "MINHA FÉ NÃO ESTÁ FIRMADA\nNAS COISAS QUE PODES FAZER\nEU APRENDI A TE ADORAR PELO QUE ÉS",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "DEUS É DEUS",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "DELE VÊM O SIM E O AMÉM\nSOMENTE DELE E MAIS NINGUÉM\nA DEUS SEJA O LOUVOR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "SE DEUS FIZER, ELE É DEUS\nSE NÃO FIZER, ELE É DEUS\nSE A PORTA ABRIR, ELE É DEUS\nMAS SE FECHAR, CONTINUA SENDO DEUS",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "SE A LUTA VIER, ELE É DEUS\nSE CURADO EU FOR, ELE É DEUS\nSE TUDO DER CERTO, ELE É DEUS\nMAS SE NÃO DER, CONTINUA SENDO DEUS",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "EU NÃO O ADORO PELO QUE ELE FAZ\nEU ADORO PELO QUE ELE É\nHAJA O QUE HOUVER \nSEMPRE SERÁ DEUS",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "MINHA FÉ NÃO ESTÁ FIRMADA\nNAS COISAS QUE PODES FAZER\nEU APRENDI A TE ADORAR PELO QUE ÉS",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": "DELE VÊM O SIM E O AMÉM\nSOMENTE DELE E MAIS NINGUÉM\nA DEUS SEJA O LOUVOR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 9,
+        "description": "",
+        "text": "SE DEUS FIZER, ELE É DEUS\nSE NÃO FIZER, ELE É DEUS\nSE A PORTA ABRIR, ELE É DEUS\nMAS SE FECHAR, CONTINUA SENDO DEUS",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": 1625425702347,
+  "title": "Era Eu",
+  "artist": "Casa Worship",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Nasci, errei\nA bagagem do passado, eu carreguei\nMe vi e percebi\nQue estou preso por erros que cometi\n\nEra eu\nCondenado, era eu\nEra eu\nCondenado, era eu\n\nEle foi julgado em meu lugar\nHoje eu tenho vida\nEle foi julgado em meu lugar\nHoje eu tenho vida\n\nEra eu\nCondenado, era eu\nEra eu\nCondenado, era eu\n\nEscandaloso amor\nMe encontrou\nHoje eu tenho vida\n\nEra eu\nCondenado, era eu\nEra eu\nCondenado, era eu",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Nasci, errei\nA bagagem do passado, eu carreguei\nMe vi e percebi\nQue estou preso por erros que cometi",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Era eu\nCondenado, era eu\nEra eu\nCondenado, era eu",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Ele foi julgado em meu lugar\nHoje eu tenho vida\nEle foi julgado em meu lugar\nHoje eu tenho vida",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Era eu\nCondenado, era eu\nEra eu\nCondenado, era eu",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Escandaloso amor\nMe encontrou\nHoje eu tenho vida",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Era eu\nCondenado, era eu\nEra eu\nCondenado, era eu",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

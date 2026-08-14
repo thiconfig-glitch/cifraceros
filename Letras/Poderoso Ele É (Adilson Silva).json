@@ -1,0 +1,78 @@
+{
+  "id": 1610303000164,
+  "title": "Poderoso Ele É",
+  "artist": "Adilson Silva",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Jesus fez a promessa, \nconosco estaria até o fim\nE os sinais seguiriam\na todos os que cressem\nEle falou assim\n\nCaiam os montes e os homens\nMas Suas promessas \nsempre estão de pé\nEle nos tem provado, \nque Deus não mudou\nPoderoso ele é\n\nPoderoso Ele é\nE em nada mudou\nNele está minha fé\nPoderoso Ele é\n\nEle deu vista aos cegos\ne aos oprimidos Ele libertou\nCom Cinco pães e dois peixes\na mais de cinco mil Ele alimentou\n\n\nOperou na Judéia, \nem Cafarnaum\ne em Nazaré\n \n\nContinua operando\nna minha vida\nPoderoso Ele é",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Jesus fez a promessa, \nconosco estaria até o fim\nE os sinais seguiriam\na todos os que cressem\nEle falou assim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Caiam os montes e os homens\nMas Suas promessas \nsempre estão de pé\nEle nos tem provado, \nque Deus não mudou\nPoderoso ele é",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Poderoso Ele é\nE em nada mudou\nNele está minha fé\nPoderoso Ele é",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Ele deu vista aos cegos\ne aos oprimidos Ele libertou\nCom Cinco pães e dois peixes\na mais de cinco mil Ele alimentou",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "\nOperou na Judéia, \nem Cafarnaum\ne em Nazaré\n ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Continua operando\nna minha vida\nPoderoso Ele é",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

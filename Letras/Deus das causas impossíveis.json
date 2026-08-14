@@ -1,0 +1,64 @@
+{
+  "id": 1684575176660,
+  "title": "Deus das causas impossíveis",
+  "artist": "",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Desta vez parece que é o fim\nO tempo se acabou não podes mais\nÉ o que dizem, tentando me fazer parar\nNão incomodes mais o Teu Senhor\nPois desta vez Teu Deus não te ouvirá\nÉ o que dizem, tentando me fazer parar.\n\nMas eu não vou desistir\nPois sirvo ao Deus...\n\nDas causas impossíveis, das horas mais difíceis\nEm tempos de aflição, comigo estará\nO vale e o deserto, enfrentarei e vencerei\nE todos saberão que eu sirvo ao Deus das causas impossíveis\n\nTua palavra me sustentará quando força me faltar\nNão importa o que vão dizer\nPois minha fé firmada está no Deus.",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Desta vez parece que é o fim\nO tempo se acabou não podes mais\nÉ o que dizem, tentando me fazer parar\nNão incomodes mais o Teu Senhor\nPois desta vez Teu Deus não te ouvirá\nÉ o que dizem, tentando me fazer parar.",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Mas eu não vou desistir\nPois sirvo ao Deus...",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Das causas impossíveis, das horas mais difíceis\nEm tempos de aflição, comigo estará\nO vale e o deserto, enfrentarei e vencerei\nE todos saberão que eu sirvo ao Deus das causas impossíveis",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Tua palavra me sustentará quando força me faltar\nNão importa o que vão dizer\nPois minha fé firmada está no Deus.",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

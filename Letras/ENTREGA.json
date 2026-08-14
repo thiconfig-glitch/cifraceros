@@ -1,0 +1,57 @@
+{
+  "id": 1582748875753,
+  "title": "ENTREGA",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "TE DOU MEU CORAÇÃO,\nE TUDO QUE HÁ EM MIM.\nENTREGO MEU VIVER\nPOR AMOR A TI, MEU REI!\nMEUS SONHOS RENDO A TI\nE MEUS DIREITOS DOU.\nO ORGULHO VOU TROCAR\nPELA VIDA DO SENHOR .\n\nE EU ENTREGO TUDO A TI,\nTUDO A TI.\n\nEU CANTO ESTA CANÇÃO\nDE ENTREGA A TI, JESUS,\nE O QUE O MUNDO DÁ\nEU DEIXO AOS PÉS DA CRUZ.\nPOR CONHECER A TI,\nA TEU NOME DAR LOUVOR,\nSENTIR TUA ALEGRIA,\nPARTILHANDO TUA DOR",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "TE DOU MEU CORAÇÃO,\nE TUDO QUE HÁ EM MIM.\nENTREGO MEU VIVER\nPOR AMOR A TI, MEU REI!\nMEUS SONHOS RENDO A TI\nE MEUS DIREITOS DOU.\nO ORGULHO VOU TROCAR\nPELA VIDA DO SENHOR .",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "E EU ENTREGO TUDO A TI,\nTUDO A TI.",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "EU CANTO ESTA CANÇÃO\nDE ENTREGA A TI, JESUS,\nE O QUE O MUNDO DÁ\nEU DEIXO AOS PÉS DA CRUZ.\nPOR CONHECER A TI,\nA TEU NOME DAR LOUVOR,\nSENTIR TUA ALEGRIA,\nPARTILHANDO TUA DOR",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": 1599217207265,
+  "title": "Confio em Ti",
+  "artist": "Davi Sacer",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Eu não vou mais olhar atrás\nO que passou não volta mais\nNão temerei o que virá\nMinha Esperança está Em Deus\n\nCada lágrima que chorei\nCada sonho que perdi\nColoco aos Teus pés\nLevanta-me Senhor\n\nEu confio em Ti\nNada poderá me afastar de Ti\nTu És a minha Fonte, meu sustento\nMeu Amigo Fiel\n\nEu confio em Ti\nNada poderá me afastar de Ti\nEm Todo tempo eu sei que estás comigo\nMeu amigo Fiel",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Eu não vou mais olhar atrás\nO que passou não volta mais\nNão temerei o que virá\nMinha Esperança está Em Deus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Cada lágrima que chorei\nCada sonho que perdi\nColoco aos Teus pés\nLevanta-me Senhor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Eu confio em Ti\nNada poderá me afastar de Ti\nTu És a minha Fonte, meu sustento\nMeu Amigo Fiel",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Eu confio em Ti\nNada poderá me afastar de Ti\nEm Todo tempo eu sei que estás comigo\nMeu amigo Fiel",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

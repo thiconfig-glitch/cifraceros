@@ -1,0 +1,71 @@
+{
+  "id": 1611312057560,
+  "title": "Deus Proteja o Meu Lar",
+  "artist": "Rogério Luis",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "2,3,4,5",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Deus proteja o meu lar\n\nEstenda as tuas mãos senhor\nsobre a minha casa\nA família tem sido tão desvalorizada\nLaços são destruídos\nalianças partidas\n\nDuras palavras lançadas,\nQue causam profundas feridas\nOnde havia alegria\nagora é um cenário de dor\nProteja a minha família senhor\n\nDeus proteja o meu lar\nDesse mundo de horror\nMe livra dessa dor\n\nMinha família\neu entrego em tuas mãos\nPeço paz e proteção\nE a tua salvação",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Deus proteja o meu lar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Estenda as tuas mãos senhor\nsobre a minha casa\nA família tem sido tão desvalorizada\nLaços são destruídos\nalianças partidas",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Duras palavras lançadas,\nQue causam profundas feridas\nOnde havia alegria\nagora é um cenário de dor\nProteja a minha família senhor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Deus proteja o meu lar\nDesse mundo de horror\nMe livra dessa dor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Minha família\neu entrego em tuas mãos\nPeço paz e proteção\nE a tua salvação",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

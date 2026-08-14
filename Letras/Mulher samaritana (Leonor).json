@@ -1,0 +1,78 @@
+{
+  "id": 1632940783529,
+  "title": "Mulher samaritana",
+  "artist": "Leonor",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Como pode sendo tu Judeu\nMe pedindo água pra beber\nEu mulher samaritana assim\nNão consigo entender\n\nSe soubesses quem te pede aqui\nPra beber do poço de Jacó\nTu então me pedirias sim\nUma água bem melhor\n\nBeba água da vida, \nbeba água da vida\nNão tem em nenhum poço\nSó em mim encontrarás\n\nBeba dessa água\nPra sarar tuas feridas\nE nunca, nunca mais sede terás\n\nBeba água da vida, \nágua pura e limpa\nNão tem em nenhum poço\nSó em mim encontrarás\n\nBeba dessa água\nPra sarar tuas feridas\nE nunca, nunca mais sede terás",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Como pode sendo tu Judeu\nMe pedindo água pra beber\nEu mulher samaritana assim\nNão consigo entender",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Se soubesses quem te pede aqui\nPra beber do poço de Jacó\nTu então me pedirias sim\nUma água bem melhor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Beba água da vida, \nbeba água da vida\nNão tem em nenhum poço\nSó em mim encontrarás",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Beba dessa água\nPra sarar tuas feridas\nE nunca, nunca mais sede terás",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Beba água da vida, \nágua pura e limpa\nNão tem em nenhum poço\nSó em mim encontrarás",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Beba dessa água\nPra sarar tuas feridas\nE nunca, nunca mais sede terás",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

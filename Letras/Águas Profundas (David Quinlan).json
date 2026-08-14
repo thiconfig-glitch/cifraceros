@@ -1,0 +1,99 @@
+{
+  "id": 1620500791740,
+  "title": "Águas Profundas",
+  "artist": "David Quinlan",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Vem sobre nós\nComo a chuva\nFaça as águas subirem neste lugar\nLibera o Teu rio\nSem medidas\nVem Tuas águas agitar\n\nPois eu quero nadar\nQuero nadar no Teu rio\nQuero beber\nQuero beber de Tuas águas\n\nOh! Oh! Oh! Oh!\nOh! Oh! Oh! Oh!\nOh! Oh! Oh! Oh!\n\nVem sobre nós\nComo a chuva\nFaça as águas subirem neste lugar\nLibera o Teu rio\nSem medida\nVem Tuas águas agitar\n\nPois eu quero nadar\nQuero nadar no Teu rio\nQuero beber\nQuero beber de Tuas águas\n\nExistem águas que dão nos artelhos\nExistem águas que dão nos joelhos\nExistem águas que dão nos lombos\nMas tem águas mais fundas, eu sei!\n\nOh! Oh! Oh! Oh!\n\nQuero nadar\n\nSenhor!",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Vem sobre nós\nComo a chuva\nFaça as águas subirem neste lugar\nLibera o Teu rio\nSem medidas\nVem Tuas águas agitar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Pois eu quero nadar\nQuero nadar no Teu rio\nQuero beber\nQuero beber de Tuas águas",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Oh! Oh! Oh! Oh!\nOh! Oh! Oh! Oh!\nOh! Oh! Oh! Oh!",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Vem sobre nós\nComo a chuva\nFaça as águas subirem neste lugar\nLibera o Teu rio\nSem medida\nVem Tuas águas agitar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Pois eu quero nadar\nQuero nadar no Teu rio\nQuero beber\nQuero beber de Tuas águas",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Existem águas que dão nos artelhos\nExistem águas que dão nos joelhos\nExistem águas que dão nos lombos\nMas tem águas mais fundas, eu sei!",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Oh! Oh! Oh! Oh!",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": "Quero nadar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 9,
+        "description": "",
+        "text": "Senhor!",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

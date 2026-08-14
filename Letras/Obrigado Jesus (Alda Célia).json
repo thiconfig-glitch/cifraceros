@@ -1,0 +1,57 @@
+{
+  "id": 1619808944579,
+  "title": "Obrigado Jesus",
+  "artist": "Alda Célia",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Pelo sol da manhã\nobrigado, Jesus\nPelo dia que nasce\nobrigado, Jesus\nPelo irmão que está do meu lado\nObrigado, obrigado, Jesus\n\nObrigado, Jesus\npelo amor que não morre\nPela nova aliança \nque foi feita na cruz\nPela fé e esperança\npela vida eterna\nObrigado, obrigado, Jesus\n\nPelo ar que respiro\nobrigado, Jesus\nPelo pão que alimenta\nobrigado, Jesus\nPela chuva que cai sobre a terra\nObrigado, obrigado, Jesus",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Pelo sol da manhã\nobrigado, Jesus\nPelo dia que nasce\nobrigado, Jesus\nPelo irmão que está do meu lado\nObrigado, obrigado, Jesus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Obrigado, Jesus\npelo amor que não morre\nPela nova aliança \nque foi feita na cruz\nPela fé e esperança\npela vida eterna\nObrigado, obrigado, Jesus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Pelo ar que respiro\nobrigado, Jesus\nPelo pão que alimenta\nobrigado, Jesus\nPela chuva que cai sobre a terra\nObrigado, obrigado, Jesus",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

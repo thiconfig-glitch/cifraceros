@@ -1,0 +1,120 @@
+{
+  "id": 1626632465001,
+  "title": "Forte Campeão",
+  "artist": "Cassiane",
+  "author": "Flávia Afonso",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "1,4,5,8,9,10,11,12",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Saia deste grande abismo\nDeste mar de solidão\nDeus não te fez pra isso\nPra viver na escravidão\nOlhe para o céu\n\n \n\n \n\nNinguém foi capaz\nDe suportar a cruz\nComo o meu Jesus\nDerramou Seu sangue puro\nE por isso eu asseguro\nSe você crer\nOuça o que eu vou lhe dizer\n\nEle vai abrir a porta pra você\nIgual a Jesus Cristo não há\nPode transformar\nTodo o teu ser\nEle é o Leão da tribo de Judá\n\n \n\n \n\nO inferno se levanta pra cair\nO mal não pode resistir\nTodo poder\nEstá em suas mãos\nPra fazer do fraco\nUm forte campeão\n\nAbra o coração\nDeixa Jesus\nEncher todo teu ser\n\nEle te ama\nE quer cuidar de você\nJesus é fiel, Jesus é fiel\n\nNova criatura em Cristo\nVocê será\nVai mudar a sua vida\nCicatrizar toda ferida\n\nMais que vencedor\nO Senhor te fará\nPode acreditar",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Saia deste grande abismo\nDeste mar de solidão\nDeus não te fez pra isso\nPra viver na escravidão\nOlhe para o céu",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": " ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": " ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Ninguém foi capaz\nDe suportar a cruz\nComo o meu Jesus\nDerramou Seu sangue puro\nE por isso eu asseguro\nSe você crer\nOuça o que eu vou lhe dizer",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Ele vai abrir a porta pra você\nIgual a Jesus Cristo não há\nPode transformar\nTodo o teu ser\nEle é o Leão da tribo de Judá",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": " ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": " ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": "O inferno se levanta pra cair\nO mal não pode resistir\nTodo poder\nEstá em suas mãos\nPra fazer do fraco\nUm forte campeão",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 9,
+        "description": "",
+        "text": "Abra o coração\nDeixa Jesus\nEncher todo teu ser",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 10,
+        "description": "",
+        "text": "Ele te ama\nE quer cuidar de você\nJesus é fiel, Jesus é fiel",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 11,
+        "description": "",
+        "text": "Nova criatura em Cristo\nVocê será\nVai mudar a sua vida\nCicatrizar toda ferida",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 12,
+        "description": "",
+        "text": "Mais que vencedor\nO Senhor te fará\nPode acreditar",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

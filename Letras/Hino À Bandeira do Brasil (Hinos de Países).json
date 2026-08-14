@@ -1,0 +1,92 @@
+{
+  "id": 1630243460687,
+  "title": "Hino À Bandeira do Brasil",
+  "artist": "Hinos de Países",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Salve, lindo pendão da esperança!\nSalve, símbolo augusto da paz!\nTua nobre presença à lembrança\nA grandeza da Pátria nos traz\n\nRecebe o afeto que se encerra\nEm nosso peito juvenil\nQuerido símbolo da terra\nDa amada terra do Brasil!\n\nEm teu seio formoso retratas\nEste céu de puríssimo azul\nA verdura sem par destas matas\nE o esplendor do Cruzeiro do Sul\n\nRecebe o afeto que se encerra\nEm nosso peito juvenil\nQuerido símbolo da terra\nDa amada terra do Brasil!\n\nContemplando o teu vulto sagrado\nCompreendemos o nosso dever\nE o Brasil por seus filhos amado\nPoderoso e feliz há de ser!\n\nRecebe o afeto que se encerra\nEm nosso peito juvenil\nQuerido símbolo da terra\nDa amada terra do Brasil!\n\nSobre a imensa Nação Brasileira\nNos momentos de festa ou de dor\nPaira sempre sagrada bandeira\nPavilhão da justiça e do amor!\n\nRecebe o afeto que se encerra\nEm nosso peito juvenil\nQuerido símbolo da terra\nDa amada terra do Brasil!",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Salve, lindo pendão da esperança!\nSalve, símbolo augusto da paz!\nTua nobre presença à lembrança\nA grandeza da Pátria nos traz",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Recebe o afeto que se encerra\nEm nosso peito juvenil\nQuerido símbolo da terra\nDa amada terra do Brasil!",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Em teu seio formoso retratas\nEste céu de puríssimo azul\nA verdura sem par destas matas\nE o esplendor do Cruzeiro do Sul",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Recebe o afeto que se encerra\nEm nosso peito juvenil\nQuerido símbolo da terra\nDa amada terra do Brasil!",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Contemplando o teu vulto sagrado\nCompreendemos o nosso dever\nE o Brasil por seus filhos amado\nPoderoso e feliz há de ser!",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Recebe o afeto que se encerra\nEm nosso peito juvenil\nQuerido símbolo da terra\nDa amada terra do Brasil!",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Sobre a imensa Nação Brasileira\nNos momentos de festa ou de dor\nPaira sempre sagrada bandeira\nPavilhão da justiça e do amor!",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": "Recebe o afeto que se encerra\nEm nosso peito juvenil\nQuerido símbolo da terra\nDa amada terra do Brasil!",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

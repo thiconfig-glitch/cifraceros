@@ -1,0 +1,64 @@
+{
+  "id": 1582748875571,
+  "title": "DEIXA EU TE USAR",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "APESAR DAS FERIDAS\nAPESAR DAS DECEPÇÕES\nEU TE CHAMEI, EU TE CHAMEI\n\nAPESAR DO PASSADO\nAPESAR DAS DESILUSÕES\nEU TE CHAMEI, EU TE CHAMEI\n\nDEIXA EU TE USAR PARA CURAR\nDEIXA EU TE USAR PARA SALVAR\nENQUANTO EU TE USO\nEU CUIDO DE TUDO QUE TE FAZ CHORAR\n\nDEIXA EU TE USAR PARA CURAR\nDEIXA EU TE USAR PARA SALVAR\nENQUANTO EU TE USO\nEU CUIDO DE TUDO QUE TE FAZ CHORAR",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "APESAR DAS FERIDAS\nAPESAR DAS DECEPÇÕES\nEU TE CHAMEI, EU TE CHAMEI",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "APESAR DO PASSADO\nAPESAR DAS DESILUSÕES\nEU TE CHAMEI, EU TE CHAMEI",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "DEIXA EU TE USAR PARA CURAR\nDEIXA EU TE USAR PARA SALVAR\nENQUANTO EU TE USO\nEU CUIDO DE TUDO QUE TE FAZ CHORAR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "DEIXA EU TE USAR PARA CURAR\nDEIXA EU TE USAR PARA SALVAR\nENQUANTO EU TE USO\nEU CUIDO DE TUDO QUE TE FAZ CHORAR",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

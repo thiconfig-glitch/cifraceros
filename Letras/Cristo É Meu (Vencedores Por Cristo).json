@@ -1,0 +1,64 @@
+{
+  "id": 1607813653730,
+  "title": "Cristo É Meu",
+  "artist": "Vencedores Por Cristo",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Cristo é meu, sim Cristo é meu.\nMinha vida se transformou,\nDesde que O vi, crendo recebi a eterna salvação.\n\nSeu perdão, Jesus, trouxe a mim.\nNova luz minha vida ganhou.\nDepois de buscar, tanto procurar\nE achar, só ilusão.\n\nVivi sem motivo, vivi sem razão,\nMas, hoje, a paz que eu sinto\nQuero ver em cada coração.\n\nQuero amar como Cristo amou,\nO seu sangue por mim derramou.\nQuero, então, cantar, ao Seu lado andar,\nToda vida Lhe entregar.",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Cristo é meu, sim Cristo é meu.\nMinha vida se transformou,\nDesde que O vi, crendo recebi a eterna salvação.",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Seu perdão, Jesus, trouxe a mim.\nNova luz minha vida ganhou.\nDepois de buscar, tanto procurar\nE achar, só ilusão.",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Vivi sem motivo, vivi sem razão,\nMas, hoje, a paz que eu sinto\nQuero ver em cada coração.",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Quero amar como Cristo amou,\nO seu sangue por mim derramou.\nQuero, então, cantar, ao Seu lado andar,\nToda vida Lhe entregar.",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

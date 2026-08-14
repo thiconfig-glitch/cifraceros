@@ -1,0 +1,78 @@
+{
+  "id": 1598541460148,
+  "title": "Novo Coração",
+  "artist": "Soraya Moraes",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Trago o meu coração\ndiante de Ti\nTransforma-me Senhor,\nvem fazer o Teu querer\n\nNada de bom foi\nencontrado dentro de mim\nA minha vida é\ntudo que tenho para entregar\n\nA porta do meu coração eu abro\nE hoje Te convido\nOh, Senhor\nVem, habita em mim,\ntoma conta do que é Teu\n\nQuero um novo coração\nQue conheça Tua voz,\nquero um novo coração\nPara amar e Te servir\n\nTira o véu pra que eu contemple\nTudo o que tens me dado\nProva todas as intenções\ne me faz um novo ser\n\nAo meu coração envia\nO Espírito que clama Aba Pai\nEntão entenderei, me converterei\nE por Ti curado serei",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Trago o meu coração\ndiante de Ti\nTransforma-me Senhor,\nvem fazer o Teu querer",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Nada de bom foi\nencontrado dentro de mim\nA minha vida é\ntudo que tenho para entregar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "A porta do meu coração eu abro\nE hoje Te convido\nOh, Senhor\nVem, habita em mim,\ntoma conta do que é Teu",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Quero um novo coração\nQue conheça Tua voz,\nquero um novo coração\nPara amar e Te servir",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Tira o véu pra que eu contemple\nTudo o que tens me dado\nProva todas as intenções\ne me faz um novo ser",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Ao meu coração envia\nO Espírito que clama Aba Pai\nEntão entenderei, me converterei\nE por Ti curado serei",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

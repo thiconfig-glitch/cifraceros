@@ -1,0 +1,99 @@
+{
+  "id": 1605936190880,
+  "title": "Eu Quero Tanto",
+  "artist": "Irmão Lázaro",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Por que me resgatou?\nPor que me trouxe aqui?\nPor que me queres Deus \ntanto assim?\n \n\nSe contra ao céu pequei \ne contra a ti também\nMinha vida eu destruí, \ncomo errei\nPorque me queres tanto assim?\n\nFilho eu quero tanto, \nenxugar teu pranto, \nte fazer só meu\n\nFilho eu quero ser teu Deus\nEu te amo tanto, \ntanto, tanto, tanto\n\n \nFilho vem ser meu\nFilho eu quero ser teu Deus\nPorque me queres tanto assim?\n\nEu quero te envolver\n em meus mistérios \nno manto da minha glória\nEu vou desenrolar o rolo santo \nmudar a tua história\n\nEu vou fazer de ti vaso de honra\nEu vou envergonhar \nos que te zombam \nvou te dar vitória\nPor que me queres tanto assim?\n\nFilho eu quero tanto, \nenxugar teu pranto,\n te fazer só meu\nFilho eu quero ser teu Deus\n\nEu te amo tanto, \ntanto, tanto, tanto\nFilho vem ser meu, \nfilho eu quero ser teu Deus\nPorque me queres tanto assim?\nPorque eu te amo",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Por que me resgatou?\nPor que me trouxe aqui?\nPor que me queres Deus \ntanto assim?\n ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Se contra ao céu pequei \ne contra a ti também\nMinha vida eu destruí, \ncomo errei\nPorque me queres tanto assim?",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "Refrão",
+        "text": "Filho eu quero tanto, \nenxugar teu pranto, \nte fazer só meu",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Filho eu quero ser teu Deus\nEu te amo tanto, \ntanto, tanto, tanto",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": " \nFilho vem ser meu\nFilho eu quero ser teu Deus\nPorque me queres tanto assim?",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Eu quero te envolver\n em meus mistérios \nno manto da minha glória\nEu vou desenrolar o rolo santo \nmudar a tua história",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Eu vou fazer de ti vaso de honra\nEu vou envergonhar \nos que te zombam \nvou te dar vitória\nPor que me queres tanto assim?",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": "Filho eu quero tanto, \nenxugar teu pranto,\n te fazer só meu\nFilho eu quero ser teu Deus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 9,
+        "description": "",
+        "text": "Eu te amo tanto, \ntanto, tanto, tanto\nFilho vem ser meu, \nfilho eu quero ser teu Deus\nPorque me queres tanto assim?\nPorque eu te amo",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

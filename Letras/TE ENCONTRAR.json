@@ -1,0 +1,85 @@
+{
+  "id": 1582748875555,
+  "title": "TE ENCONTRAR",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "TE ENCONTRAR FOI TÃO BOM\nEU NÃO TINHA PAZ, NEM PRAZER\nME SENTIA MUITO SÓ\nSEM TER MAIS RAZÃO PRÁ VIVER\n\nTE ENCONTRAR FOI TÃO BOM\nEU NÃO POSSO ESQUECER\nNOSSO ENCONTRO MUDOU MEU VIVER\nFOI muito mais que uma EMOÇÃo\n\nQUANDO OUVI SUA VOZ\nME FALANDO DE AMOR\nPOIS O SENHOR ME ACEITOU \nDO JEITO QUE EU SOU\nTE DEI MEU CORAÇÃO\n\nNÃO POSSO VIVER LONGE DO SENHOR\nNÃO POSSO FICAR SEM TUA LUZ\nEU QUERO DIZER QUE AMO SÓ \nO SENHOR JESUS\n\nTE ENCONTRAR ME MOSTROU \nNOVA DIREÇÃO\nSEU AMOR FEZ MUDAR TUDO EM MIM\nO MEU CORAÇÃO TRANSFORMOU\nÉ TÃO BOM, EU NÃO POSSO EXPLICAR \nO PRAZER\nDE SENTIR TEU AMOR ME ENVOLVER\n\nQUANDO ESTOU AO PÉ DA CRUZ\nEU SÓ SEI DE UMA COISA E \nVOU LHE DIZER\nSIMPLESMENTE EU NÃO POSSO \nE NÃO SEI VIVER\nsem o senhor jesus\n\nSEM O SENHOR JESUS!",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "TE ENCONTRAR FOI TÃO BOM\nEU NÃO TINHA PAZ, NEM PRAZER\nME SENTIA MUITO SÓ\nSEM TER MAIS RAZÃO PRÁ VIVER",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "TE ENCONTRAR FOI TÃO BOM\nEU NÃO POSSO ESQUECER\nNOSSO ENCONTRO MUDOU MEU VIVER\nFOI muito mais que uma EMOÇÃo",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "QUANDO OUVI SUA VOZ\nME FALANDO DE AMOR\nPOIS O SENHOR ME ACEITOU \nDO JEITO QUE EU SOU\nTE DEI MEU CORAÇÃO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "NÃO POSSO VIVER LONGE DO SENHOR\nNÃO POSSO FICAR SEM TUA LUZ\nEU QUERO DIZER QUE AMO SÓ \nO SENHOR JESUS",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "TE ENCONTRAR ME MOSTROU \nNOVA DIREÇÃO\nSEU AMOR FEZ MUDAR TUDO EM MIM\nO MEU CORAÇÃO TRANSFORMOU\nÉ TÃO BOM, EU NÃO POSSO EXPLICAR \nO PRAZER\nDE SENTIR TEU AMOR ME ENVOLVER",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "QUANDO ESTOU AO PÉ DA CRUZ\nEU SÓ SEI DE UMA COISA E \nVOU LHE DIZER\nSIMPLESMENTE EU NÃO POSSO \nE NÃO SEI VIVER\nsem o senhor jesus",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "SEM O SENHOR JESUS!",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

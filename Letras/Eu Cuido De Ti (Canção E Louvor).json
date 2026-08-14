@@ -1,0 +1,106 @@
+{
+  "id": 1585327213813,
+  "title": "Eu Cuido De Ti",
+  "artist": "Canção E Louvor",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Quando todos os meus medos\nJá não cabem mais em mim\nQuando o céu está de bronze\nE parece que é o fim\n\nQuando o vento está revolto\nE o mar não quer se acalmar\nQuando as horas do relógio\nSe demoram a passar\n\nMuitas vezes não consigo \nos teus planos compreender\nMas prefiro confiar sem entender\n\nEu creio em ti, Eu creio em ti\nEu olho pra ti, Confio em ti\n\nQuando você sente medo\nDo teu lado eu estou\nE é bom que você saiba \nQue eu sinto a sua dor\n\nNunca, nunca se esqueça\nQue o mar posso acalmar\nE que eu sei o tempo certo \nDa vitória te entregar\n\nEste tempo é necessário\nPra te amadurecer\nE depois tem novidades pra você\n\nEu cuido de ti, Eu cuido de ti\nConfia em mim, Comece a sorrir\n\nO que Eu tenho é bem melhor\nPois só Eu sei do amanhã\nEntão recebe o abraço Meu\nPois da tua vida cuido Eu\n\nEu cuido de ti, eu cuido de ti \nCONFIA em mim, Comece a sorrir",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Quando todos os meus medos\nJá não cabem mais em mim\nQuando o céu está de bronze\nE parece que é o fim",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Quando o vento está revolto\nE o mar não quer se acalmar\nQuando as horas do relógio\nSe demoram a passar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Muitas vezes não consigo \nos teus planos compreender\nMas prefiro confiar sem entender",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Eu creio em ti, Eu creio em ti\nEu olho pra ti, Confio em ti",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Quando você sente medo\nDo teu lado eu estou\nE é bom que você saiba \nQue eu sinto a sua dor",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Nunca, nunca se esqueça\nQue o mar posso acalmar\nE que eu sei o tempo certo \nDa vitória te entregar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "Este tempo é necessário\nPra te amadurecer\nE depois tem novidades pra você",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": "Eu cuido de ti, Eu cuido de ti\nConfia em mim, Comece a sorrir",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 9,
+        "description": "",
+        "text": "O que Eu tenho é bem melhor\nPois só Eu sei do amanhã\nEntão recebe o abraço Meu\nPois da tua vida cuido Eu",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 10,
+        "description": "",
+        "text": "Eu cuido de ti, eu cuido de ti \nCONFIA em mim, Comece a sorrir",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": 1605814396295,
+  "title": "Um Simples Servo",
+  "artist": "Leonor",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Amor assim, \nninguém jamais \nme amou assim\nPosso te sentir \nno fundo do meu coração\n\nUm toque assim, \nninguém jamais \ntocou-me assim\nNada e ninguém, \nexplica esta emoção\n\nMas quem sou eu?\nUm simples servo Seu eu sei\nTocando as vestes de um Rei\nAs vestes de Jesus\n \nMas quem sou eu?\nPra que Tu ouças meu cantar\nSe os anjos já te louvam lá\nNum lindo céu de luz\n\nUm toque assim...",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Amor assim, \nninguém jamais \nme amou assim\nPosso te sentir \nno fundo do meu coração",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Um toque assim, \nninguém jamais \ntocou-me assim\nNada e ninguém, \nexplica esta emoção",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Mas quem sou eu?\nUm simples servo Seu eu sei\nTocando as vestes de um Rei\nAs vestes de Jesus\n \nMas quem sou eu?\nPra que Tu ouças meu cantar\nSe os anjos já te louvam lá\nNum lindo céu de luz",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Um toque assim...",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

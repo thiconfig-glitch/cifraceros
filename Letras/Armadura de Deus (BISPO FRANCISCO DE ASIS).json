@@ -1,0 +1,78 @@
+{
+  "id": 1741819506829,
+  "title": "Armadura de Deus",
+  "artist": "BISPO FRANCISCO DE ASIS",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Dá-me, Senhor, Tuas mãos\nPra que eu possa nas lutas vencer\nQuando vierem as tribulações\nMe reveste com o escudo da fé\n\nDá-me, Senhor, Tuas mãos\nPra que eu possa sempre prosseguir\n\nQuando eu tentado for\nVenhas me amparar\nNão me deixes abatido ficar\nQuando eu tentado for\nVenhas me amparar\nNão me deixes abatido ficar\n\nDá-me, Senhor, a espada\nDo Espírito que rege a vida\nMe reveste com a Tua armadura\nCom a verdade, com o amor e a justiça\n\nDá-me, Senhor, tuas mãos\nÉs meu Deus és minha salvação\n\nDá-me forças e poder\nPra que eu possa lutar\nE a vitória sempre alcançar\nDá-me forças e poder\nPra que eu possa lutar\nE a vitória sempre alcança.",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Dá-me, Senhor, Tuas mãos\nPra que eu possa nas lutas vencer\nQuando vierem as tribulações\nMe reveste com o escudo da fé",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Dá-me, Senhor, Tuas mãos\nPra que eu possa sempre prosseguir",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Quando eu tentado for\nVenhas me amparar\nNão me deixes abatido ficar\nQuando eu tentado for\nVenhas me amparar\nNão me deixes abatido ficar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Dá-me, Senhor, a espada\nDo Espírito que rege a vida\nMe reveste com a Tua armadura\nCom a verdade, com o amor e a justiça",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "Dá-me, Senhor, tuas mãos\nÉs meu Deus és minha salvação",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "Dá-me forças e poder\nPra que eu possa lutar\nE a vitória sempre alcançar\nDá-me forças e poder\nPra que eu possa lutar\nE a vitória sempre alcança.",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "https://open.spotify.com/track/06f0QawwE6e1F9FE7dXrrH",
+      "youtube": "",
+      "deezer": "https://deezer.com/track/679391632"
+    },
+    "backing_track": {
+      "spotify": "https://open.spotify.com/track/7pAgE8ucjAfcj7t48zfb0V",
+      "youtube": "",
+      "deezer": "https://deezer.com/track/679391702"
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": 1582748875637,
+  "title": "ALIANÇA",
+  "artist": "",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "NA SOMBRA DA NOITE\nUM GRITO, UM GEMER\nAS DORES DA VIDA MACHUCAM MEU SER\nALIANÇA\n\nNÃO QUERO MAIS RESISTIR\nNESTE CAMINHO SEM FIM\nERGO MEUS OLHOS E CLAMO PERDÃO\nCOM TODO MEU FERVOR\nME ENTREGO A TI, MEU SENHOR\nQUE EU VENHA SENTIR TEU AMOR\n\nESPÍRITO SANTO VEM\nALIANÇA CONTIGO EU FAREI\nJAMAIS EU TE ABANDONAREI\nEU MORRO PRA ESTA VIDA",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "NA SOMBRA DA NOITE\nUM GRITO, UM GEMER\nAS DORES DA VIDA MACHUCAM MEU SER\nALIANÇA",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "NÃO QUERO MAIS RESISTIR\nNESTE CAMINHO SEM FIM\nERGO MEUS OLHOS E CLAMO PERDÃO\nCOM TODO MEU FERVOR\nME ENTREGO A TI, MEU SENHOR\nQUE EU VENHA SENTIR TEU AMOR",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "ESPÍRITO SANTO VEM\nALIANÇA CONTIGO EU FAREI\nJAMAIS EU TE ABANDONAREI\nEU MORRO PRA ESTA VIDA",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

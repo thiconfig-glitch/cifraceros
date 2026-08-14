@@ -1,0 +1,50 @@
+{
+  "id": 1622737180484,
+  "title": "Melodia do Amor",
+  "artist": "Bruna Karla",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Se eu pudesse te mostrar\nUma canção que eu escrevi só para você\nPara você ligar o som e me ouvir\nNas ondas de uma estação\nNão liga não se a voz falhar\nÉ que a emoção de te amar\nMe faz chorar\n\nOuça a batida do meu coração\nNo compasso da canção\nOuça a melodia do amor tocar\nSe a minha voz calar\nQuando um acorde então anunciar\nQue a canção vai terminar\nSe você me olhar com olhos de amor\nOutra vez eu vou compor",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Se eu pudesse te mostrar\nUma canção que eu escrevi só para você\nPara você ligar o som e me ouvir\nNas ondas de uma estação\nNão liga não se a voz falhar\nÉ que a emoção de te amar\nMe faz chorar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Ouça a batida do meu coração\nNo compasso da canção\nOuça a melodia do amor tocar\nSe a minha voz calar\nQuando um acorde então anunciar\nQue a canção vai terminar\nSe você me olhar com olhos de amor\nOutra vez eu vou compor",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": 1599991743386,
+  "title": "Esse é O Meu Deus",
+  "artist": "Marcelo Aguiar",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Onde estão os que se levantaram pra me acusar?\nOnde estão os que se levantaram pra me derrubar?\nMe julgaram e disseram que eu não iria conseguir\nOs que se levantaram já não estão mais aqui\nEu tenho um Deus que é o Deus do impossível\nQue me deu forças e alegrou meu coração\nMe levantou e me deu o livramento\nMeus inimigos Ele trouxe em minhas mãos\n\nCoro\n\nEu tenho um Deus\nQue estava comigo enquanto eu chorava\nE eu nem sabia o quanto ele me amava\nEsse é o meu Deus\nEu tenho um Deus\nQuando fui crucificado ele esteve comigo\nAbriu minha sepultura, me deu seu Espírito\nNada vai me parar\nEsse é meu Deus.",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Onde estão os que se levantaram pra me acusar?\nOnde estão os que se levantaram pra me derrubar?\nMe julgaram e disseram que eu não iria conseguir\nOs que se levantaram já não estão mais aqui\nEu tenho um Deus que é o Deus do impossível\nQue me deu forças e alegrou meu coração\nMe levantou e me deu o livramento\nMeus inimigos Ele trouxe em minhas mãos",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "Coro",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Eu tenho um Deus\nQue estava comigo enquanto eu chorava\nE eu nem sabia o quanto ele me amava\nEsse é o meu Deus\nEu tenho um Deus\nQuando fui crucificado ele esteve comigo\nAbriu minha sepultura, me deu seu Espírito\nNada vai me parar\nEsse é meu Deus.",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

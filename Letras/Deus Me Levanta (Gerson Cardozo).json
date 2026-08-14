@@ -1,0 +1,64 @@
+{
+  "id": 1586813982856,
+  "title": "Deus Me Levanta",
+  "artist": "Gerson Cardozo",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "Quando estou triste\nMinh'alma está cansada\nQuando os problemas\nfazem o coração pesar\n\n \nEntão eu paro\nno meio do silêncio\nAté que venhas \nao meu lado sentar\n\nDeus me levanta\npra alcançar montanhas\nDeus me levanta\npra andar sobre o mar\n\nEu sou forte\nquando estou\nsobre Seus ombros\nDeus me levanta\nmais do que eu posso alcançar",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "Quando estou triste\nMinh'alma está cansada\nQuando os problemas\nfazem o coração pesar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": " \nEntão eu paro\nno meio do silêncio\nAté que venhas \nao meu lado sentar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "Deus me levanta\npra alcançar montanhas\nDeus me levanta\npra andar sobre o mar",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "Eu sou forte\nquando estou\nsobre Seus ombros\nDeus me levanta\nmais do que eu posso alcançar",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}

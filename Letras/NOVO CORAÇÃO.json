@@ -1,0 +1,92 @@
+{
+  "id": 1582748875771,
+  "title": "NOVO CORAÇÃO",
+  "artist": " ",
+  "author": "",
+  "note": "",
+  "copyright": "",
+  "language": "",
+  "key": "",
+  "bpm": 0.0,
+  "time_sig": "",
+  "midi": null,
+  "order": "",
+  "arrangements": [],
+  "lyrics": {
+    "full_text": "SE TU OLHARES SENHOR\nPRA DENTRO DE MIM\nNADA ENCONTRARÁS DE BOM\n \n\nMAS UM DESEJO EU TENHO \nDE SER TRANSFORMADO \nPRECISO TANTO DO SEU PERDÃO \nDÁ-ME UM NOVO CORAÇÃO\n\nDÁ-ME UM CORAÇÃO IGUAL AO TEU\nMEU MESTRE\nDÁ-ME UM CORAÇÃO IGUAL AO TEU\n\nCORAÇÃO DISPOSTO A OBEDECER\nCUMPRIR TODO O TEU QUERER\nDÁ-ME UM CORAÇÃO IGUAL AO TEU\n\nSE TU OLHARES SENHOR \nPRA DENTRO DE MIM \nNADA ENCONTRARÁS DE BOM\n \nMAS UM DESEJO EU TENHO \nDE SER TRANSFORMADO \nPRECISO TANTO DO SEU PERDÃO \nDÁ-ME UM NOVO CORAÇÃO\n\nENSINA-ME AMAR O MEU IRMÃO\nA OLHAR COM OS TEUS OLHOS\nPERDOAR COM TEU PERDÃO\n\nENCHE-ME COM TEU ESPÍRITO\nENDIREITA OS MEUS CAMINHOS\nOH, DEUS DÁ-ME UM NOVO CORAÇÃO\n\nENCHE-ME COM TEU ESPÍRITO\nENDIREITA OS MEUS CAMINHOS\nOH, DEUS DÁ-ME UM NOVO CORAÇÃO",
+    "full_text_with_comment": null,
+    "paragraphs": [
+      {
+        "number": 1,
+        "description": "",
+        "text": "SE TU OLHARES SENHOR\nPRA DENTRO DE MIM\nNADA ENCONTRARÁS DE BOM\n ",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 2,
+        "description": "",
+        "text": "MAS UM DESEJO EU TENHO \nDE SER TRANSFORMADO \nPRECISO TANTO DO SEU PERDÃO \nDÁ-ME UM NOVO CORAÇÃO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 3,
+        "description": "",
+        "text": "DÁ-ME UM CORAÇÃO IGUAL AO TEU\nMEU MESTRE\nDÁ-ME UM CORAÇÃO IGUAL AO TEU",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 4,
+        "description": "",
+        "text": "CORAÇÃO DISPOSTO A OBEDECER\nCUMPRIR TODO O TEU QUERER\nDÁ-ME UM CORAÇÃO IGUAL AO TEU",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 5,
+        "description": "",
+        "text": "SE TU OLHARES SENHOR \nPRA DENTRO DE MIM \nNADA ENCONTRARÁS DE BOM\n \nMAS UM DESEJO EU TENHO \nDE SER TRANSFORMADO \nPRECISO TANTO DO SEU PERDÃO \nDÁ-ME UM NOVO CORAÇÃO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 6,
+        "description": "",
+        "text": "ENSINA-ME AMAR O MEU IRMÃO\nA OLHAR COM OS TEUS OLHOS\nPERDOAR COM TEU PERDÃO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 7,
+        "description": "",
+        "text": "ENCHE-ME COM TEU ESPÍRITO\nENDIREITA OS MEUS CAMINHOS\nOH, DEUS DÁ-ME UM NOVO CORAÇÃO",
+        "text_with_comment": null,
+        "translations": null
+      },
+      {
+        "number": 8,
+        "description": "",
+        "text": "ENCHE-ME COM TEU ESPÍRITO\nENDIREITA OS MEUS CAMINHOS\nOH, DEUS DÁ-ME UM NOVO CORAÇÃO",
+        "text_with_comment": null,
+        "translations": null
+      }
+    ]
+  },
+  "streaming": {
+    "audio": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    },
+    "backing_track": {
+      "spotify": "",
+      "youtube": "",
+      "deezer": ""
+    }
+  },
+  "extras": {
+    "extra": ""
+  }
+}
