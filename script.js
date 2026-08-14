@@ -17,6 +17,13 @@ const db = getFirestore(app);
 const auth = getAuth(app);
 
 let songsData = [];
+let songsDataCifras = [];
+let songsDataLetras = [];
+let isCifrasLoaded = false;
+let isLetrasLoaded = false;
+let unsubCifras = null;
+let unsubLetras = null;
+
 let localPlaylists = new Set();
 window.appMode = null;
 let selectedPlaylistFilter = 'all';
@@ -120,16 +127,36 @@ window.triggerLogout = async function() {
     }
 };
 
-function startListeningToSongs() {
-    if (!window.appMode) return;
+function startListeningToSongs(mode) {
+    if (!mode) return;
 
     const resultsContainer = document.getElementById('results-container');
+
+    if (mode === 'cifras' && unsubCifras) {
+        if (isCifrasLoaded) {
+            songsData = songsDataCifras;
+            updateDataAndRender();
+        } else {
+            resultsContainer.innerHTML = '<p style="text-align:center; padding:20px; color:#888;">Carregando repertório...</p>';
+        }
+        return;
+    }
+
+    if (mode === 'letras' && unsubLetras) {
+        if (isLetrasLoaded) {
+            songsData = songsDataLetras;
+            updateDataAndRender();
+        } else {
+            resultsContainer.innerHTML = '<p style="text-align:center; padding:20px; color:#888;">Carregando repertório...</p>';
+        }
+        return;
+    }
+
     resultsContainer.innerHTML = '<p style="text-align:center; padding:20px; color:#888;">Carregando repertório...</p>';
+    const collectionName = mode === 'letras' ? "repertorio_letras" : "repertorio";
 
-    const collectionName = window.appMode === 'letras' ? "repertorio_letras" : "repertorio";
-
-    onSnapshot(collection(db, collectionName), (querySnapshot) => {
-        songsData = querySnapshot.docs.map(d => {
+    const listener = onSnapshot(collection(db, collectionName), (querySnapshot) => {
+        const newData = querySnapshot.docs.map(d => {
             const data = d.data();
             let pList = [];
             if (data.playlists) {
@@ -138,25 +165,48 @@ function startListeningToSongs() {
             return { id: d.id, ...data, playlists: pList };
         });
         
-        songsData.sort((a, b) => a.title.localeCompare(b.title));
+        newData.sort((a, b) => a.title.localeCompare(b.title));
         
-        localPlaylists.clear();
-        songsData.forEach(s => s.playlists.forEach(p => localPlaylists.add(p)));
-        
-        if (isInitialLoad) {
-            isInitialLoad = false;
-            document.getElementById('admin-status-indicator').textContent = isAdmin ? "Status: Administrador" : "Status: Leitura";
+        if (mode === 'cifras') {
+            songsDataCifras = newData;
+            isCifrasLoaded = true;
+            if (window.appMode === 'cifras') {
+                songsData = songsDataCifras;
+                updateDataAndRender();
+            }
+        } else {
+            songsDataLetras = newData;
+            isLetrasLoaded = true;
+            if (window.appMode === 'letras') {
+                songsData = songsDataLetras;
+                updateDataAndRender();
+            }
         }
-        
-        isDataLoaded = true;
-
-        renderPlaylistChips();
-        filterAndRender();
-        renderSetlist(); // Re-render setlist to ensure titles are synced
     }, (error) => {
         console.error("Erro ao escutar mudanças: ", error);
-        resultsContainer.innerHTML = '<p style="text-align:center; color:var(--error-color);">Erro ao carregar dados. Verifique sua conexão.</p>';
+        if (window.appMode === mode) {
+            resultsContainer.innerHTML = '<p style="text-align:center; color:var(--error-color);">Erro ao carregar dados. Verifique sua conexão.</p>';
+        }
     });
+
+    if (mode === 'cifras') unsubCifras = listener;
+    else unsubLetras = listener;
+}
+
+function updateDataAndRender() {
+    localPlaylists.clear();
+    songsData.forEach(s => s.playlists.forEach(p => localPlaylists.add(p)));
+    
+    if (isInitialLoad) {
+        isInitialLoad = false;
+        document.getElementById('admin-status-indicator').textContent = isAdmin ? "Status: Administrador" : "Status: Leitura";
+    }
+    
+    isDataLoaded = true;
+
+    renderPlaylistChips();
+    filterAndRender();
+    renderSetlist();
 }
 
 window.selectAppMode = function(mode) {
@@ -181,7 +231,7 @@ window.selectAppMode = function(mode) {
     setlistIds = JSON.parse(localStorage.getItem('setlistCifraCerosIds_' + mode) || '[]');
     renderSetlist();
 
-    startListeningToSongs();
+    startListeningToSongs(mode);
 };
 
 window.importLetrasDump = async function() {
