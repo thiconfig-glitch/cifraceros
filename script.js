@@ -1179,10 +1179,13 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // Chat Letras Logic
+let isInitialChatLoad = true;
+
 function startListeningToChat() {
     const container = document.getElementById('chat-messages-container');
     if (!container) return;
 
+    isInitialChatLoad = true;
     const q = query(collection(db, "letras_chat"), orderBy("timestamp", "desc"), limit(50));
     
     unsubChat = onSnapshot(q, (snapshot) => {
@@ -1207,8 +1210,44 @@ function startListeningToChat() {
         
         // Auto-scroll to bottom
         container.scrollTop = container.scrollHeight;
+        
+        // Verifica mensagens novas para mostrar Pop-up
+        if (!isInitialChatLoad) {
+            snapshot.docChanges().forEach((change) => {
+                if (change.type === 'added') {
+                    const data = change.doc.data();
+                    if (data.role && data.role !== window.letrasRole) {
+                        const senderName = data.role === 'teclado' ? '🎹 Teclado' : '🗣️ Bolha';
+                        window.showToast(senderName, data.text);
+                    }
+                }
+            });
+        }
+        isInitialChatLoad = false;
     });
 }
+
+window.showToast = function(sender, text) {
+    const container = document.getElementById('toast-container');
+    if (!container) return;
+
+    const toast = document.createElement('div');
+    toast.className = 'toast';
+    const safeText = escapeHTML(text);
+    
+    toast.innerHTML = `
+        <div class="toast-sender">Nova mensagem: ${sender}</div>
+        <div class="toast-text">${safeText}</div>
+    `;
+    
+    container.appendChild(toast);
+    setTimeout(() => toast.classList.add('show'), 10); // Animate in
+    
+    setTimeout(() => {
+        toast.classList.remove('show');
+        setTimeout(() => toast.remove(), 400); // Wait for transition
+    }, 5000); // 5 segundos
+};
 
 window.sendChatMessage = async function(e) {
     e.preventDefault();
