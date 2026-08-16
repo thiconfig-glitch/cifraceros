@@ -724,6 +724,8 @@ body.letras-mode pre {
 
 .culto-notes-widget {
     width: 320px;
+    min-width: 150px;
+    max-width: 800px;
     flex-shrink: 0;
     background: rgba(15, 23, 42, 0.75);
     border: 1px solid var(--surface-border);
@@ -736,8 +738,10 @@ body.letras-mode pre {
     gap: 12px;
     position: sticky;
     top: 20px;
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1), transform 0.3s;
     box-shadow: 0 12px 36px rgba(0, 0, 0, 0.4);
+    resize: horizontal;
+    overflow: hidden;
 }
 
 .culto-notes-widget.hidden {
