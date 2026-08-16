@@ -1,5 +1,5 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-app.js";
-import { getFirestore, enableIndexedDbPersistence, collection, onSnapshot, addDoc, updateDoc, doc, serverTimestamp, query, orderBy, deleteDoc, getDocs } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-firestore.js";
+import { getFirestore, enableIndexedDbPersistence, collection, onSnapshot, addDoc, updateDoc, doc, serverTimestamp, query, orderBy, deleteDoc, getDocs, limit } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-firestore.js";
 import { getAuth, signInWithEmailAndPassword, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-auth.js";
 import Fuse from "https://cdn.jsdelivr.net/npm/fuse.js@6.6.2/dist/fuse.esm.js";
 import Sortable from "https://cdn.jsdelivr.net/npm/sortablejs@1.15.2/modular/sortable.esm.js";
@@ -1155,12 +1155,15 @@ function startListeningToChat() {
     const container = document.getElementById('chat-messages-container');
     if (!container) return;
 
-    const q = query(collection(db, "letras_chat"), orderBy("timestamp", "asc"));
+    const q = query(collection(db, "letras_chat"), orderBy("timestamp", "desc"), limit(50));
     
     unsubChat = onSnapshot(q, (snapshot) => {
+        const docs = [];
+        snapshot.forEach((docSnap) => docs.push(docSnap.data()));
+        docs.reverse(); // Coloca em ordem cronológica para exibição
+
         container.innerHTML = '';
-        snapshot.forEach((docSnap) => {
-            const data = docSnap.data();
+        docs.forEach((data) => {
             const msgDiv = document.createElement('div');
             msgDiv.className = `chat-message msg-${data.role}`;
             
