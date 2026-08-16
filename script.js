@@ -1,5 +1,5 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-app.js";
-import { getFirestore, enableIndexedDbPersistence, collection, onSnapshot, addDoc, updateDoc, doc } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-firestore.js";
+import { getFirestore, enableIndexedDbPersistence, collection, onSnapshot, addDoc, updateDoc, doc, serverTimestamp, query, orderBy, deleteDoc, getDocs } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-firestore.js";
 import { getAuth, signInWithEmailAndPassword, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-auth.js";
 import Fuse from "https://cdn.jsdelivr.net/npm/fuse.js@6.6.2/dist/fuse.esm.js";
 import Sortable from "https://cdn.jsdelivr.net/npm/sortablejs@1.15.2/modular/sortable.esm.js";
@@ -29,6 +29,8 @@ let unsubLetras = null;
 
 let localPlaylists = new Set();
 window.appMode = null;
+window.letrasRole = null;
+let unsubChat = null;
 let selectedPlaylistFilter = 'all';
 let isAdmin = false;
 let editingSongId = null;
@@ -213,26 +215,54 @@ function updateDataAndRender() {
 }
 
 window.selectAppMode = function(mode) {
+    if (mode === 'letras') {
+        document.getElementById('main-mode-box').style.display = 'none';
+        document.getElementById('role-selection-box').style.display = 'block';
+        return;
+    }
+    
+    finalizeAppModeSelection(mode);
+};
+
+window.cancelRoleSelection = function() {
+    document.getElementById('role-selection-box').style.display = 'none';
+    document.getElementById('main-mode-box').style.display = 'block';
+};
+
+window.confirmLetrasRole = function(role) {
+    window.letrasRole = role;
+    finalizeAppModeSelection('letras');
+};
+
+function finalizeAppModeSelection(mode) {
     window.appMode = mode;
     document.getElementById('mode-selection-overlay').style.display = 'none';
     document.getElementById('main-app-container').style.display = 'flex';
     
     // Toggle UI elements specific to Letras mode
     const transposeGroup = document.querySelector('input#m-transpose')?.closest('.form-group');
+    const chatWidget = document.getElementById('letras-chat-widget');
     
     if (mode === 'letras') {
         document.body.classList.add('letras-mode');
         if (transposeGroup) transposeGroup.style.display = 'none';
+        if (chatWidget) chatWidget.style.display = 'flex';
+        startListeningToChat();
     } else {
         document.body.classList.remove('letras-mode');
         if (transposeGroup) transposeGroup.style.display = 'block';
+        if (chatWidget) chatWidget.style.display = 'none';
+        if (unsubChat) {
+            unsubChat();
+            unsubChat = null;
+        }
     }
 
     setlistIds = JSON.parse(localStorage.getItem('setlistCifraCerosIds_' + mode) || '[]');
     renderSetlist();
 
     startListeningToSongs(mode);
-};
+}
 
 function renderPlaylistChips() {
     const container = document.getElementById('playlist-chips-container');
@@ -1120,3 +1150,66 @@ document.addEventListener('DOMContentLoaded', () => {
     window.loadCultoNotes();
 });
 
+// Chat Letras Logic
+function startListeningToChat() {
+    const container = document.getElementById('chat-messages-container');
+    if (!container) return;
+
+    const q = query(collection(db, "letras_chat"), orderBy("timestamp", "asc"));
+    
+    unsubChat = onSnapshot(q, (snapshot) => {
+        container.innerHTML = '';
+        snapshot.forEach((docSnap) => {
+            const data = docSnap.data();
+            const msgDiv = document.createElement('div');
+            msgDiv.className = `chat-message msg-${data.role}`;
+            
+            const senderName = data.role === 'teclado' ? '🎹 Teclado' : '🗣️ Bolha';
+            const safeText = escapeHTML(data.text);
+            
+            msgDiv.innerHTML = `
+                <div class="chat-message-sender">${senderName}</div>
+                <div class="chat-message-text">${safeText}</div>
+            `;
+            container.appendChild(msgDiv);
+        });
+        
+        // Auto-scroll to bottom
+        container.scrollTop = container.scrollHeight;
+    });
+}
+
+window.sendChatMessage = async function(e) {
+    e.preventDefault();
+    const input = document.getElementById('chat-message-input');
+    const text = input.value.trim();
+    
+    if (!text || !window.letrasRole) return;
+    
+    input.value = '';
+    
+    try {
+        await addDoc(collection(db, "letras_chat"), {
+            role: window.letrasRole,
+            text: text,
+            timestamp: serverTimestamp()
+        });
+    } catch (err) {
+        console.error("Erro ao enviar mensagem: ", err);
+    }
+};
+
+window.clearLetrasChat = async function() {
+    if (!confirm("Tem certeza que deseja apagar todo o histórico do chat?")) return;
+    
+    try {
+        const q = query(collection(db, "letras_chat"));
+        const snapshot = await getDocs(q);
+        
+        const deletePromises = snapshot.docs.map(d => deleteDoc(d.ref));
+        await Promise.all(deletePromises);
+        
+    } catch (err) {
+        console.error("Erro ao limpar chat: ", err);
+    }
+};

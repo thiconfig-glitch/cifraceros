@@ -1435,3 +1435,93 @@ footer {
     font-size: 0.9rem;
     color: var(--text-muted);
 }
+
+/* Chat Widget */
+.chat-messages-container {
+    flex-grow: 1;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 10px 0;
+    min-height: 150px;
+    max-height: 300px;
+}
+
+.chat-message {
+    display: flex;
+    flex-direction: column;
+    max-width: 85%;
+    border-radius: 12px;
+    padding: 10px 14px;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    position: relative;
+    animation: fadeIn 0.3s ease-out;
+}
+
+.chat-message.msg-teclado {
+    align-self: flex-start;
+    background-color: rgba(59, 130, 246, 0.2);
+    border: 1px solid rgba(59, 130, 246, 0.3);
+    border-top-left-radius: 4px;
+}
+
+.chat-message.msg-bolha {
+    align-self: flex-end;
+    background-color: rgba(236, 72, 153, 0.2);
+    border: 1px solid rgba(236, 72, 153, 0.3);
+    border-top-right-radius: 4px;
+}
+
+.chat-message-sender {
+    font-size: 0.75rem;
+    font-weight: 600;
+    margin-bottom: 4px;
+    opacity: 0.8;
+}
+
+.msg-teclado .chat-message-sender { color: #60a5fa; }
+.msg-bolha .chat-message-sender { color: #f472b6; }
+
+.chat-input-area {
+    display: flex;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.chat-input-area input {
+    flex-grow: 1;
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid var(--surface-border);
+    border-radius: 20px;
+    padding: 10px 16px;
+    color: var(--text-color);
+    font-family: var(--font-main);
+    font-size: 0.9rem;
+    transition: all 0.2s;
+}
+
+.chat-input-area input:focus {
+    border-color: var(--primary-color);
+    outline: none;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.btn-send-chat {
+    background: linear-gradient(135deg, var(--primary-color), var(--primary-hover));
+    border: none;
+    color: white;
+    padding: 0 16px;
+    border-radius: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.btn-send-chat:hover {
+    transform: scale(1.05);
+}
+.btn-send-chat:active {
+    transform: scale(0.95);
+}

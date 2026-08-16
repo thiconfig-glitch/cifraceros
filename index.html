@@ -23,7 +23,7 @@
 </head>
 <body>
     <div id="mode-selection-overlay" class="mode-selection-overlay">
-        <div class="mode-selection-box">
+        <div class="mode-selection-box" id="main-mode-box">
             <h1>CifrasCeros</h1>
             <p>Selecione o modo de uso da aplicação:</p>
             <div class="mode-buttons">
@@ -42,6 +42,27 @@
                     </div>
                 </button>
             </div>
+        </div>
+        <div class="mode-selection-box" id="role-selection-box" style="display: none;">
+            <h1 style="font-size: 2rem;">Modo Letras</h1>
+            <p>Identifique-se para o chat da equipe:</p>
+            <div class="mode-buttons">
+                <button class="btn-mode" style="border-color: var(--primary-color);" onclick="window.confirmLetrasRole('teclado')">
+                    <span class="mode-icon">🎹</span>
+                    <div class="mode-text">
+                        <strong>Teclado</strong>
+                        <span>Guiar a banda</span>
+                    </div>
+                </button>
+                <button class="btn-mode" style="border-color: #ec4899;" onclick="window.confirmLetrasRole('bolha')">
+                    <span class="mode-icon">🗣️</span>
+                    <div class="mode-text">
+                        <strong>Bolha</strong>
+                        <span>Receber orientações</span>
+                    </div>
+                </button>
+            </div>
+            <button class="btn" style="margin-top: 20px; background: transparent; border: 1px solid var(--surface-border);" onclick="window.cancelRoleSelection()">← Voltar</button>
         </div>
     </div>
 
@@ -152,6 +173,22 @@
 
                         <pre id="sv-content"></pre>
                     </div>
+
+                    <aside id="letras-chat-widget" class="culto-notes-widget" style="display: none;">
+                        <div class="notes-widget-header">
+                            <span>💬 Comunicação</span>
+                            <div class="notes-controls-group">
+                                <button type="button" class="notes-clear-btn" title="Limpar Chat" onclick="window.clearLetrasChat()">🗑️</button>
+                            </div>
+                        </div>
+                        <div id="chat-messages-container" class="chat-messages-container">
+                            <!-- Messages will be populated here -->
+                        </div>
+                        <form id="chat-input-form" onsubmit="window.sendChatMessage(event)" class="chat-input-area">
+                            <input type="text" id="chat-message-input" placeholder="Mensagem..." autocomplete="off" required>
+                            <button type="submit" class="btn-send-chat">Enviar</button>
+                        </form>
+                    </aside>
                 </div>
 
                 <div id="admin-panel" class="admin-panel">
