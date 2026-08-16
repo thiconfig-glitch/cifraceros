@@ -257,10 +257,7 @@ function finalizeAppModeSelection(mode) {
             unsubChat = null;
         }
     }
-
-    setlistIds = JSON.parse(localStorage.getItem('setlistCifraCerosIds_' + mode) || '[]');
-    renderSetlist();
-
+    startListeningToSetlist(mode);
     startListeningToSongs(mode);
 }
 
@@ -943,13 +940,44 @@ document.getElementById('upload-form').addEventListener('submit', async (e) => {
 
 startListeningToSongs();
 
-// --- Setlist Logic (Refactored for Stability) ---
-// We store only IDs in localStorage to ensure data consistency
+// --- Setlist Logic (Refactored for Cloud Sync) ---
 let setlistIds = [];
+let unsubSetlist = null;
+let isUpdatingSetlistLocally = false;
 
-function saveSetlist() {
+function startListeningToSetlist(mode) {
+    if (unsubSetlist) {
+        unsubSetlist();
+        unsubSetlist = null;
+    }
+    
+    if (!mode) return;
+
+    unsubSetlist = onSnapshot(doc(db, "app_state", `setlist_${mode}`), (docSnap) => {
+        if (isUpdatingSetlistLocally) return;
+        
+        if (docSnap.exists()) {
+            setlistIds = docSnap.data().ids || [];
+        } else {
+            setlistIds = [];
+        }
+        renderSetlist();
+    });
+}
+
+async function saveSetlist() {
     if (!window.appMode) return;
-    localStorage.setItem('setlistCifraCerosIds_' + window.appMode, JSON.stringify(setlistIds));
+    
+    isUpdatingSetlistLocally = true;
+    try {
+        await setDoc(doc(db, "app_state", `setlist_${window.appMode}`), {
+            ids: setlistIds
+        });
+    } catch (err) {
+        console.error("Erro ao salvar Setlist na nuvem: ", err);
+    } finally {
+        setTimeout(() => { isUpdatingSetlistLocally = false; }, 500); 
+    }
 }
 
 window.toggleMobileSetlist = function() {
