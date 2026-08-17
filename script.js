@@ -275,8 +275,13 @@ function finalizeAppModeSelection(mode) {
         }
         
         startListeningToChat();
+        
+        const syncContainer = document.getElementById('teclado-sync-toggle-container');
         if (window.letrasRole === 'teclado') {
+            if (syncContainer) syncContainer.style.display = 'block';
             startListeningToLetrasSync();
+        } else {
+            if (syncContainer) syncContainer.style.display = 'none';
         }
     } else {
         document.body.classList.remove('letras-mode');
@@ -1470,6 +1475,23 @@ function renderDisparoResults(searchTerm) {
     });
 }
 
+window.acceptBolhaSync = true;
+window.toggleTecladoSync = function() {
+    window.acceptBolhaSync = !window.acceptBolhaSync;
+    const btn = document.getElementById('btn-teclado-sync-toggle');
+    if (!btn) return;
+    
+    if (window.acceptBolhaSync) {
+        btn.style.backgroundColor = 'var(--success-color)';
+        btn.textContent = '📡 Aceitar Bolha: LIGADO';
+        window.showToast('📡 Sistema', 'Você está aceitando disparos da Bolha.');
+    } else {
+        btn.style.backgroundColor = 'var(--danger-color)';
+        btn.textContent = '🚫 Aceitar Bolha: DESLIGADO';
+        window.showToast('🚫 Sistema', 'Disparos da Bolha foram bloqueados.');
+    }
+};
+
 let lastSyncTimestamp = 0;
 let isFirstLetrasSync = true;
 function startListeningToLetrasSync() {
@@ -1486,12 +1508,9 @@ function startListeningToLetrasSync() {
             isFirstLetrasSync = false;
             lastSyncTimestamp = docTime;
             
-            // Se o disparo tem mais de 20 minutos (1.200.000 ms), é de um culto velho. Ignora.
-            if (Date.now() - docTime > 20 * 60 * 1000) {
-                return;
-            }
+            if (Date.now() - docTime > 20 * 60 * 1000) return;
+            if (!window.acceptBolhaSync) return;
             
-            // Disparo recente: restaura a sessão
             if (songsData.length === 0) {
                 pendingSyncSongId = data.songId;
             } else {
@@ -1504,9 +1523,13 @@ function startListeningToLetrasSync() {
             return;
         }
         
-        // Novo disparo em tempo real (docTime maior que o último registrado)
         if (docTime > lastSyncTimestamp) {
             lastSyncTimestamp = docTime;
+            
+            if (!window.acceptBolhaSync) {
+                window.showToast('🚫 Disparo Ignorado', 'A Bolha tentou alterar a música.');
+                return;
+            }
             
             if (songsData.length === 0) {
                 pendingSyncSongId = data.songId;
