@@ -588,7 +588,7 @@ body {
     background-color: rgba(0, 0, 0, 0.4);
     padding: 16px 24px;
     border-radius: 16px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     align-items: center;
     border: 1px solid var(--surface-border);
     position: sticky;
@@ -597,6 +597,17 @@ body {
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
     box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+.song-playlists-bar {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 12px 24px;
+    border-radius: 12px;
+    margin-bottom: 40px;
+    align-items: center;
+    border: 1px dashed var(--surface-border);
+    animation: fadeIn 0.3s ease;
 }
 
 .tool-group {

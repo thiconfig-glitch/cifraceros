@@ -19,7 +19,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css?v=1.11.0">
+    <link rel="stylesheet" href="style.css?v=1.12.0">
 </head>
 <body>
     <div id="mode-selection-overlay" class="mode-selection-overlay">
@@ -171,6 +171,11 @@
                             </div>
                         </div>
 
+                        <div class="song-playlists-bar" id="sv-playlists-bar" style="display: none;">
+                            <span class="tool-label" style="font-size: 0.85rem; margin-right: 10px;">Playlists:</span>
+                            <div id="sv-playlists-container" style="display: flex; gap: 8px; flex-wrap: wrap; align-items: center;"></div>
+                        </div>
+
                         <pre id="sv-content"></pre>
                     </div>
 
@@ -258,6 +263,6 @@
 
     <div id="toast-container" class="toast-container"></div>
 
-    <script type="module" src="script.js?v=1.11.0"></script>
+    <script type="module" src="script.js?v=1.12.0"></script>
 </body>
 </html>

@@ -212,6 +212,7 @@ function updateDataAndRender() {
     renderPlaylistChips();
     filterAndRender();
     renderSetlist();
+    renderSongViewPlaylists();
 }
 
 window.selectAppMode = function(mode) {
@@ -502,7 +503,7 @@ function renderResults(songs) {
                     const pBtn = document.createElement('button');
                     pBtn.textContent = hasPlaylist ? `✓ Remover de: ${p}` : `+ Adicionar a: ${p}`;
                     pBtn.style.color = hasPlaylist ? 'var(--chord-color)' : 'var(--text-color)';
-                    pBtn.onclick = () => toggleSongPlaylistAssignment(song, p);
+                    pBtn.onclick = () => window.toggleSongPlaylistAssignment(song.id, p);
                     dropdown.appendChild(pBtn);
                 });
             }
@@ -575,7 +576,10 @@ document.body.onpointermove = event => {
     }
 };
 
-async function toggleSongPlaylistAssignment(song, playlistName) {
+window.toggleSongPlaylistAssignment = async function(songId, playlistName) {
+    const song = songsData.find(s => s.id === songId);
+    if (!song) return;
+
     let updatedPlaylists = [...song.playlists];
     if (updatedPlaylists.includes(playlistName)) {
         updatedPlaylists = updatedPlaylists.filter(p => p !== playlistName);
@@ -584,10 +588,51 @@ async function toggleSongPlaylistAssignment(song, playlistName) {
     }
 
     try {
-        await updateDoc(doc(db, "repertorio", song.id), { playlists: updatedPlaylists });
+        const collectionName = window.appMode === 'letras' ? "repertorio_letras" : "repertorio";
+        await updateDoc(doc(db, collectionName, song.id), { playlists: updatedPlaylists });
     } catch (err) {
         console.error(err);
     }
+}
+
+window.renderSongViewPlaylists = function() {
+    const bar = document.getElementById('sv-playlists-bar');
+    const container = document.getElementById('sv-playlists-container');
+    
+    if (!bar || !container) return;
+
+    if (!isAdmin || !currentActiveSongId) {
+        bar.style.display = 'none';
+        return;
+    }
+
+    const song = songsData.find(s => s.id === currentActiveSongId);
+    if (!song) {
+        bar.style.display = 'none';
+        return;
+    }
+
+    if (localPlaylists.size === 0) {
+        bar.style.display = 'none';
+        return;
+    }
+
+    bar.style.display = 'flex';
+    container.innerHTML = '';
+
+    Array.from(localPlaylists).sort().forEach(p => {
+        const btn = document.createElement('button');
+        const hasPlaylist = song.playlists.includes(p);
+        
+        btn.className = `chip ${hasPlaylist ? 'active' : ''}`;
+        btn.style.padding = '4px 10px';
+        btn.style.fontSize = '0.8rem';
+        
+        btn.textContent = hasPlaylist ? `✓ ${p}` : `+ ${p}`;
+        btn.onclick = () => window.toggleSongPlaylistAssignment(song.id, p);
+        
+        container.appendChild(btn);
+    });
 }
 
 function isChordLine(line) {
@@ -708,6 +753,8 @@ window.openSong = function(song) {
     setTimeout(() => {
         window.autoFitCifra();
     }, 50);
+
+    window.renderSongViewPlaylists();
 };
 
 window.adjustFontSize = function(delta) {
