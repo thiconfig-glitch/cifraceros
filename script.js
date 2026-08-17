@@ -723,12 +723,13 @@ window.openSong = function(song) {
     document.getElementById('song-view').style.display = 'block';
     document.getElementById('sv-title').textContent = song.title;
     
+    const transposeContainer = document.getElementById('sv-transpose-container');
     const transposeBadge = document.getElementById('sv-transpose');
     if (window.appMode === 'letras') {
-        transposeBadge.style.display = 'none';
+        if (transposeContainer) transposeContainer.style.display = 'none';
     } else {
-        transposeBadge.style.display = 'inline-block';
-        transposeBadge.textContent = song.transpose ? `Tom: ${song.transpose}` : 'Tom Original';
+        if (transposeContainer) transposeContainer.style.display = 'flex';
+        if (transposeBadge) transposeBadge.textContent = song.transpose ? song.transpose : 'Original';
     }
     
     const contentArea = document.getElementById('sv-content');

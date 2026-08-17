@@ -19,7 +19,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css?v=1.12.0">
+    <link rel="stylesheet" href="style.css?v=1.13.0">
 </head>
 <body>
     <div id="mode-selection-overlay" class="mode-selection-overlay">
@@ -150,10 +150,13 @@
                         <button class="btn btn-back" onclick="closeSong()">← Voltar para a lista</button>
                         <div class="song-header">
                             <h1 class="song-title" id="sv-title"></h1>
-                            <div class="transpose-badge" id="sv-transpose"></div>
                         </div>
 
                         <div class="song-tools">
+                            <div class="tool-group" id="sv-transpose-container">
+                                <span class="tool-label">Tom:</span>
+                                <div class="transpose-badge" id="sv-transpose" style="margin: 0; padding: 4px 8px;"></div>
+                            </div>
                             <div class="tool-group">
                                 <span class="tool-label">Fonte:</span>
                                 <button class="tool-btn" onclick="adjustFontSize(-0.1)">A-</button>
@@ -263,6 +266,6 @@
 
     <div id="toast-container" class="toast-container"></div>
 
-    <script type="module" src="script.js?v=1.12.0"></script>
+    <script type="module" src="script.js?v=1.13.0"></script>
 </body>
 </html>
