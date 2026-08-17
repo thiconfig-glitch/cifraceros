@@ -19,7 +19,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css?v=1.13.0">
+    <link rel="stylesheet" href="style.css?v=1.14.0">
 </head>
 <body>
     <div id="mode-selection-overlay" class="mode-selection-overlay">
@@ -172,6 +172,9 @@
                             <div class="tool-group">
                                 <button class="tool-btn active" id="btn-toggle-notes" onclick="window.toggleNotesWidget()" title="Mostrar/Ocultar Bloquinho de Notas do Culto">📌 Notas do Culto</button>
                             </div>
+                            <div class="tool-group" id="sync-btn-container" style="display: none;">
+                                <button class="btn btn-accent" onclick="window.dispararParaTeclado()" style="padding: 6px 12px; margin: 0; font-weight: bold; border-radius: 8px;">▶️ Mandar pro Teclado</button>
+                            </div>
                         </div>
 
                         <div class="song-playlists-bar" id="sv-playlists-bar" style="display: none;">
@@ -266,6 +269,6 @@
 
     <div id="toast-container" class="toast-container"></div>
 
-    <script type="module" src="script.js?v=1.13.0"></script>
+    <script type="module" src="script.js?v=1.14.0"></script>
 </body>
 </html>

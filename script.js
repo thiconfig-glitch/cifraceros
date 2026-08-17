@@ -31,6 +31,7 @@ let localPlaylists = new Set();
 window.appMode = null;
 window.letrasRole = null;
 let unsubChat = null;
+let unsubLetrasSync = null;
 let selectedPlaylistFilter = 'all';
 let isAdmin = false;
 let editingSongId = null;
@@ -249,6 +250,9 @@ function finalizeAppModeSelection(mode) {
         if (transposeGroup) transposeGroup.style.display = 'none';
         if (chatWidget) chatWidget.style.display = 'flex';
         startListeningToChat();
+        if (window.letrasRole === 'teclado') {
+            startListeningToLetrasSync();
+        }
     } else {
         document.body.classList.remove('letras-mode');
         if (transposeGroup) transposeGroup.style.display = 'block';
@@ -256,6 +260,10 @@ function finalizeAppModeSelection(mode) {
         if (unsubChat) {
             unsubChat();
             unsubChat = null;
+        }
+        if (typeof unsubLetrasSync === 'function') {
+            unsubLetrasSync();
+            unsubLetrasSync = null;
         }
     }
     startListeningToSetlist(mode);
@@ -732,6 +740,13 @@ window.openSong = function(song) {
         if (transposeBadge) transposeBadge.textContent = song.transpose ? song.transpose : 'Original';
     }
     
+    const syncBtnContainer = document.getElementById('sync-btn-container');
+    if (window.appMode === 'letras' && window.letrasRole === 'bolha') {
+        if (syncBtnContainer) syncBtnContainer.style.display = 'flex';
+    } else {
+        if (syncBtnContainer) syncBtnContainer.style.display = 'none';
+    }
+
     const contentArea = document.getElementById('sv-content');
     contentArea.innerHTML = formatCifraText(song.lyrics);
     contentArea.style.fontSize = `${currentFontSize}rem`;
@@ -1331,3 +1346,37 @@ window.clearLetrasChat = async function() {
         console.error("Erro ao limpar chat: ", err);
     }
 };
+
+window.dispararParaTeclado = async function() {
+    if (!currentActiveSongId || window.letrasRole !== 'bolha') return;
+    try {
+        await setDoc(doc(db, "app_state", "letras_sync"), {
+            songId: currentActiveSongId,
+            timestamp: serverTimestamp()
+        });
+        window.showToast('🚀 Sistema', 'Música enviada para o teclado!');
+    } catch (err) {
+        console.error("Erro ao sincronizar música: ", err);
+        window.showToast('Erro', 'Falha ao sincronizar.');
+    }
+};
+
+function startListeningToLetrasSync() {
+    if (unsubLetrasSync) unsubLetrasSync();
+    let initialSync = true;
+    unsubLetrasSync = onSnapshot(doc(db, "app_state", "letras_sync"), (docSnap) => {
+        if (!docSnap.exists()) return;
+        if (initialSync) {
+            initialSync = false;
+            return; 
+        }
+        const data = docSnap.data();
+        if (data.songId && data.songId !== currentActiveSongId) {
+            const song = songsData.find(s => s.id === data.songId);
+            if (song) {
+                window.showToast('📡 Sincronização', 'Música alterada pela Bolha!');
+                window.openSong(song);
+            }
+        }
+    });
+}
