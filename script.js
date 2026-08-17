@@ -277,11 +277,14 @@ function finalizeAppModeSelection(mode) {
         startListeningToChat();
         
         const syncContainer = document.getElementById('teclado-sync-toggle-container');
+        const btnSyncMobile = document.getElementById('btn-mobile-sync-toggle');
         if (window.letrasRole === 'teclado') {
             if (syncContainer) syncContainer.style.display = 'block';
+            if (btnSyncMobile) btnSyncMobile.style.display = 'inline-block';
             startListeningToLetrasSync();
         } else {
             if (syncContainer) syncContainer.style.display = 'none';
+            if (btnSyncMobile) btnSyncMobile.style.display = 'none';
         }
     } else {
         document.body.classList.remove('letras-mode');
@@ -1478,16 +1481,28 @@ function renderDisparoResults(searchTerm) {
 window.acceptBolhaSync = true;
 window.toggleTecladoSync = function() {
     window.acceptBolhaSync = !window.acceptBolhaSync;
-    const btn = document.getElementById('btn-teclado-sync-toggle');
-    if (!btn) return;
+    const btnSidebar = document.getElementById('btn-teclado-sync-toggle');
+    const btnMobile = document.getElementById('btn-mobile-sync-toggle');
     
     if (window.acceptBolhaSync) {
-        btn.style.backgroundColor = 'var(--success-color)';
-        btn.textContent = '📡 Aceitar Bolha: LIGADO';
+        if (btnSidebar) {
+            btnSidebar.style.backgroundColor = 'var(--success-color)';
+            btnSidebar.textContent = '📡 Aceitar Bolha: LIGADO';
+        }
+        if (btnMobile) {
+            btnMobile.style.backgroundColor = 'var(--success-color)';
+            btnMobile.textContent = '📡 ON';
+        }
         window.showToast('📡 Sistema', 'Você está aceitando disparos da Bolha.');
     } else {
-        btn.style.backgroundColor = 'var(--danger-color)';
-        btn.textContent = '🚫 Aceitar Bolha: DESLIGADO';
+        if (btnSidebar) {
+            btnSidebar.style.backgroundColor = 'var(--danger-color)';
+            btnSidebar.textContent = '🚫 Aceitar Bolha: DESLIGADO';
+        }
+        if (btnMobile) {
+            btnMobile.style.backgroundColor = 'var(--danger-color)';
+            btnMobile.textContent = '🚫 OFF';
+        }
         window.showToast('🚫 Sistema', 'Disparos da Bolha foram bloqueados.');
     }
 };

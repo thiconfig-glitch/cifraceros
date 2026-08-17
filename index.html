@@ -19,7 +19,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css?v=1.17.0">
+    <link rel="stylesheet" href="style.css?v=1.17.1">
 </head>
 <body>
     <div id="mode-selection-overlay" class="mode-selection-overlay">
@@ -101,6 +101,7 @@
                 <button class="hamburger-btn" onclick="toggleSidebar()">☰</button>
                 <h2 style="margin:0; font-size: 1.2rem;">CifrasCeros</h2>
                 <button class="btn btn-accent" id="btn-mobile-disparo" style="display: none; padding: 4px 10px; font-size: 0.8rem; margin-left: auto;" onclick="toggleMobileDisparo()">🚀 Disparo</button>
+                <button class="btn" id="btn-mobile-sync-toggle" style="display: none; padding: 4px 10px; font-size: 0.8rem; margin-left: auto; background-color: var(--success-color); color: white;" onclick="toggleTecladoSync()">📡 ON</button>
                 <button class="btn btn-accent" id="btn-mobile-setlist" style="padding: 4px 10px; font-size: 0.8rem; margin-left: 10px;" onclick="toggleMobileSetlist()">Setlist</button>
             </div>
 
@@ -283,6 +284,6 @@
 
     <div id="toast-container" class="toast-container"></div>
 
-    <script type="module" src="script.js?v=1.17.0"></script>
+    <script type="module" src="script.js?v=1.17.1"></script>
 </body>
 </html>
