@@ -254,11 +254,26 @@ function finalizeAppModeSelection(mode) {
     // Toggle UI elements specific to Letras mode
     const transposeGroup = document.querySelector('input#m-transpose')?.closest('.form-group');
     const chatWidget = document.getElementById('letras-chat-widget');
+    const btnDisparoMobile = document.getElementById('btn-mobile-disparo');
+    const btnSetlistMobile = document.getElementById('btn-mobile-setlist');
     
     if (mode === 'letras') {
         document.body.classList.add('letras-mode');
         if (transposeGroup) transposeGroup.style.display = 'none';
         if (chatWidget) chatWidget.style.display = 'flex';
+        
+        if (window.letrasRole === 'bolha') {
+            if (btnDisparoMobile) {
+                btnDisparoMobile.style.display = 'inline-block';
+                if (btnSetlistMobile) btnSetlistMobile.style.marginLeft = '10px';
+            }
+        } else {
+            if (btnDisparoMobile) {
+                btnDisparoMobile.style.display = 'none';
+                if (btnSetlistMobile) btnSetlistMobile.style.marginLeft = 'auto';
+            }
+        }
+        
         startListeningToChat();
         if (window.letrasRole === 'teclado') {
             startListeningToLetrasSync();
@@ -1384,6 +1399,76 @@ window.dispararParaTeclado = async function() {
         window.showToast('Erro', 'Falha ao sincronizar.');
     }
 };
+
+window.disparoRapidoFromMobile = async function(songId) {
+    if (!songId || window.letrasRole !== 'bolha') return;
+    try {
+        await setDoc(doc(db, "app_state", "letras_sync"), {
+            songId: songId,
+            timestamp: serverTimestamp()
+        });
+        window.showToast('🚀 Fogo na Bomba!', 'Música disparada para o teclado!');
+    } catch (err) {
+        console.error("Erro ao disparar música: ", err);
+        window.showToast('Erro', 'Falha ao disparar.');
+    }
+};
+
+window.toggleMobileDisparo = function() {
+    const overlay = document.getElementById('mobile-disparo-overlay');
+    if (!overlay) return;
+    overlay.classList.toggle('open');
+    if (overlay.classList.contains('open')) {
+        document.getElementById('disparo-search-input').value = '';
+        renderDisparoResults('');
+        setTimeout(() => document.getElementById('disparo-search-input').focus(), 300);
+    }
+};
+
+const disparoSearchInput = document.getElementById('disparo-search-input');
+if (disparoSearchInput) {
+    disparoSearchInput.addEventListener('input', (e) => {
+        renderDisparoResults(e.target.value.toLowerCase());
+    });
+}
+
+function renderDisparoResults(searchTerm) {
+    const container = document.getElementById('mobile-disparo-container');
+    if (!container) return;
+    container.innerHTML = '';
+    
+    let results = songsData;
+    if (searchTerm) {
+        results = results.filter(s => 
+            s.title.toLowerCase().includes(searchTerm) || 
+            s.lyrics.toLowerCase().includes(searchTerm)
+        );
+    }
+    
+    if (results.length === 0) {
+        container.innerHTML = '<div class="empty-setlist-msg">Nenhuma música encontrada.</div>';
+        return;
+    }
+    
+    results.forEach(song => {
+        const div = document.createElement('div');
+        div.className = 'setlist-item';
+        div.style.padding = '12px 16px';
+        div.style.cursor = 'pointer';
+        div.style.borderLeft = '4px solid #ec4899';
+        
+        div.innerHTML = `
+            <div style="flex-grow: 1;">
+                <div style="font-weight: bold;">${song.title}</div>
+            </div>
+            <button class="btn" style="background-color: #ec4899; color: white; padding: 6px 12px; font-size: 0.85rem; border-radius: 8px;">🚀 Atirar</button>
+        `;
+        
+        div.onclick = () => window.disparoRapidoFromMobile(song.id);
+        
+        container.appendChild(div);
+    });
+}
 
 function startListeningToLetrasSync() {
     if (unsubLetrasSync) unsubLetrasSync();
