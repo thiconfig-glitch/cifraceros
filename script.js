@@ -1455,13 +1455,13 @@ function renderDisparoResults(searchTerm) {
         div.className = 'setlist-item';
         div.style.padding = '12px 16px';
         div.style.cursor = 'pointer';
-        div.style.borderLeft = '4px solid #ec4899';
+        div.style.borderLeft = '4px solid var(--primary-color)';
         
         div.innerHTML = `
             <div style="flex-grow: 1;">
                 <div style="font-weight: bold;">${song.title}</div>
             </div>
-            <button class="btn" style="background-color: #ec4899; color: white; padding: 6px 12px; font-size: 0.85rem; border-radius: 8px;">🚀 Atirar</button>
+            <button class="btn btn-accent" style="padding: 6px 12px; font-size: 0.85rem; border-radius: 8px;">🚀 Atirar</button>
         `;
         
         div.onclick = () => window.disparoRapidoFromMobile(song.id);
@@ -1470,6 +1470,7 @@ function renderDisparoResults(searchTerm) {
     });
 }
 
+let lastSyncTimestamp = 0;
 function startListeningToLetrasSync() {
     if (unsubLetrasSync) unsubLetrasSync();
     
@@ -1477,13 +1478,18 @@ function startListeningToLetrasSync() {
         if (!docSnap.exists()) return;
         
         const data = docSnap.data();
-        if (data.songId && data.songId !== currentActiveSongId) {
+        const docTime = data.timestamp ? data.timestamp.toMillis() : 0;
+        
+        // Ativa se for música nova ou se o timestamp mudou (líder disparou de novo)
+        if (docTime > lastSyncTimestamp || (data.songId && data.songId !== currentActiveSongId)) {
+            if (docTime) lastSyncTimestamp = docTime;
+            
             if (songsData.length === 0) {
                 pendingSyncSongId = data.songId;
             } else {
                 const song = songsData.find(s => s.id === data.songId);
                 if (song) {
-                    window.showToast('📡 Sincronização', 'Música alterada pela Bolha!');
+                    window.showToast('📡 Sincronização', 'Música ativada pelo líder!');
                     window.openSong(song);
                 }
             }

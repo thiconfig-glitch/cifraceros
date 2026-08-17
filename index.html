@@ -100,7 +100,7 @@
             <div class="mobile-top-bar">
                 <button class="hamburger-btn" onclick="toggleSidebar()">☰</button>
                 <h2 style="margin:0; font-size: 1.2rem;">CifrasCeros</h2>
-                <button class="btn btn-accent" id="btn-mobile-disparo" style="display: none; padding: 4px 10px; font-size: 0.8rem; margin-left: auto; background-color: #ec4899;" onclick="toggleMobileDisparo()">🚀 Disparo</button>
+                <button class="btn btn-accent" id="btn-mobile-disparo" style="display: none; padding: 4px 10px; font-size: 0.8rem; margin-left: auto;" onclick="toggleMobileDisparo()">🚀 Disparo</button>
                 <button class="btn btn-accent" id="btn-mobile-setlist" style="padding: 4px 10px; font-size: 0.8rem; margin-left: 10px;" onclick="toggleMobileSetlist()">Setlist</button>
             </div>
 
@@ -118,7 +118,7 @@
                 <div class="mobile-setlist-drawer" onclick="event.stopPropagation()">
                     <div class="setlist-header" style="flex-direction: column; align-items: stretch; gap: 10px; padding-bottom: 12px;">
                         <div style="display: flex; justify-content: space-between; align-items: center;">
-                            <h3 style="margin:0; color: #ec4899;">🚀 Disparo Rápido</h3>
+                            <h3 style="margin:0; color: var(--primary-color);">🚀 Disparo Rápido</h3>
                             <button class="btn" onclick="toggleMobileDisparo()" style="padding: 4px 12px; font-size: 0.8rem;">Fechar</button>
                         </div>
                         <input type="text" id="disparo-search-input" placeholder="Buscar música para disparar..." style="width: 100%; padding: 10px; border-radius: 8px; border: 1px solid var(--surface-border); background: rgba(0,0,0,0.3); color: var(--text-color);" autocomplete="off">
