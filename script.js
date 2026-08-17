@@ -32,6 +32,7 @@ window.appMode = null;
 window.letrasRole = null;
 let unsubChat = null;
 let unsubLetrasSync = null;
+let pendingSyncSongId = null;
 let selectedPlaylistFilter = 'all';
 let isAdmin = false;
 let editingSongId = null;
@@ -214,6 +215,15 @@ function updateDataAndRender() {
     filterAndRender();
     renderSetlist();
     renderSongViewPlaylists();
+    
+    if (pendingSyncSongId) {
+        const song = songsData.find(s => s.id === pendingSyncSongId);
+        if (song && song.id !== currentActiveSongId) {
+            window.showToast('📡 Sincronização', 'Música ativada pelo sistema!');
+            window.openSong(song);
+        }
+        pendingSyncSongId = null;
+    }
 }
 
 window.selectAppMode = function(mode) {
@@ -1363,19 +1373,20 @@ window.dispararParaTeclado = async function() {
 
 function startListeningToLetrasSync() {
     if (unsubLetrasSync) unsubLetrasSync();
-    let initialSync = true;
+    
     unsubLetrasSync = onSnapshot(doc(db, "app_state", "letras_sync"), (docSnap) => {
         if (!docSnap.exists()) return;
-        if (initialSync) {
-            initialSync = false;
-            return; 
-        }
+        
         const data = docSnap.data();
         if (data.songId && data.songId !== currentActiveSongId) {
-            const song = songsData.find(s => s.id === data.songId);
-            if (song) {
-                window.showToast('📡 Sincronização', 'Música alterada pela Bolha!');
-                window.openSong(song);
+            if (songsData.length === 0) {
+                pendingSyncSongId = data.songId;
+            } else {
+                const song = songsData.find(s => s.id === data.songId);
+                if (song) {
+                    window.showToast('📡 Sincronização', 'Música alterada pela Bolha!');
+                    window.openSong(song);
+                }
             }
         }
     });
