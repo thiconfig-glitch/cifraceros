@@ -1471,8 +1471,10 @@ function renderDisparoResults(searchTerm) {
 }
 
 let lastSyncTimestamp = 0;
+let isFirstLetrasSync = true;
 function startListeningToLetrasSync() {
     if (unsubLetrasSync) unsubLetrasSync();
+    isFirstLetrasSync = true;
     
     unsubLetrasSync = onSnapshot(doc(db, "app_state", "letras_sync"), (docSnap) => {
         if (!docSnap.exists()) return;
@@ -1480,16 +1482,38 @@ function startListeningToLetrasSync() {
         const data = docSnap.data();
         const docTime = data.timestamp ? data.timestamp.toMillis() : 0;
         
-        // Ativa se for música nova ou se o timestamp mudou (líder disparou de novo)
-        if (docTime > lastSyncTimestamp || (data.songId && data.songId !== currentActiveSongId)) {
-            if (docTime) lastSyncTimestamp = docTime;
+        if (isFirstLetrasSync) {
+            isFirstLetrasSync = false;
+            lastSyncTimestamp = docTime;
+            
+            // Se o disparo tem mais de 20 minutos (1.200.000 ms), é de um culto velho. Ignora.
+            if (Date.now() - docTime > 20 * 60 * 1000) {
+                return;
+            }
+            
+            // Disparo recente: restaura a sessão
+            if (songsData.length === 0) {
+                pendingSyncSongId = data.songId;
+            } else {
+                const song = songsData.find(s => s.id === data.songId);
+                if (song && song.id !== currentActiveSongId) {
+                    window.showToast('📡 Sincronização', 'Sessão restaurada!');
+                    window.openSong(song);
+                }
+            }
+            return;
+        }
+        
+        // Novo disparo em tempo real (docTime maior que o último registrado)
+        if (docTime > lastSyncTimestamp) {
+            lastSyncTimestamp = docTime;
             
             if (songsData.length === 0) {
                 pendingSyncSongId = data.songId;
             } else {
                 const song = songsData.find(s => s.id === data.songId);
                 if (song) {
-                    window.showToast('📡 Sincronização', 'Música ativada pelo líder!');
+                    window.showToast('📡 Sincronização', '🔥 Nova música recebida!');
                     window.openSong(song);
                 }
             }
