@@ -278,13 +278,16 @@ function finalizeAppModeSelection(mode) {
         
         const syncContainer = document.getElementById('teclado-sync-toggle-container');
         const btnSyncMobile = document.getElementById('btn-mobile-sync-toggle');
+        const btnSyncDesktop = document.getElementById('btn-desktop-sync-toggle');
         if (window.letrasRole === 'teclado') {
             if (syncContainer) syncContainer.style.display = 'block';
             if (btnSyncMobile) btnSyncMobile.style.display = 'inline-block';
+            if (btnSyncDesktop) btnSyncDesktop.style.display = 'inline-block';
             startListeningToLetrasSync();
         } else {
             if (syncContainer) syncContainer.style.display = 'none';
             if (btnSyncMobile) btnSyncMobile.style.display = 'none';
+            if (btnSyncDesktop) btnSyncDesktop.style.display = 'none';
         }
     } else {
         document.body.classList.remove('letras-mode');
@@ -1483,6 +1486,7 @@ window.toggleTecladoSync = function() {
     window.acceptBolhaSync = !window.acceptBolhaSync;
     const btnSidebar = document.getElementById('btn-teclado-sync-toggle');
     const btnMobile = document.getElementById('btn-mobile-sync-toggle');
+    const btnDesktop = document.getElementById('btn-desktop-sync-toggle');
     
     if (window.acceptBolhaSync) {
         if (btnSidebar) {
@@ -1493,6 +1497,10 @@ window.toggleTecladoSync = function() {
             btnMobile.style.backgroundColor = 'var(--success-color)';
             btnMobile.textContent = '📡 ON';
         }
+        if (btnDesktop) {
+            btnDesktop.style.backgroundColor = 'var(--success-color)';
+            btnDesktop.textContent = '📡 Sincronia: LIGADA';
+        }
         window.showToast('📡 Sistema', 'Você está aceitando disparos da Bolha.');
     } else {
         if (btnSidebar) {
@@ -1502,6 +1510,10 @@ window.toggleTecladoSync = function() {
         if (btnMobile) {
             btnMobile.style.backgroundColor = 'var(--danger-color)';
             btnMobile.textContent = '🚫 OFF';
+        }
+        if (btnDesktop) {
+            btnDesktop.style.backgroundColor = 'var(--danger-color)';
+            btnDesktop.textContent = '🚫 Sincronia: DESLIGADA';
         }
         window.showToast('🚫 Sistema', 'Disparos da Bolha foram bloqueados.');
     }
