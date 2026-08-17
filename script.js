@@ -761,10 +761,24 @@ window.openSong = function(song) {
     contentArea.innerHTML = formatCifraText(song.lyrics);
     contentArea.style.fontSize = `${currentFontSize}rem`;
 
+    if (window.appMode === 'letras') {
+        contentArea.style.whiteSpace = 'pre-wrap';
+        contentArea.style.wordWrap = 'break-word';
+    } else {
+        contentArea.style.whiteSpace = 'pre';
+        contentArea.style.wordWrap = 'normal';
+    }
+
     // Load notes & manage notes widget display
     window.loadCultoNotes();
 
-    const isNotesVisible = localStorage.getItem('cifraceros_notes_visible') !== 'false';
+    let savedNotesVisible = localStorage.getItem('cifraceros_notes_visible');
+    let isNotesVisible = true;
+    if (savedNotesVisible !== null) {
+        isNotesVisible = savedNotesVisible === 'true';
+    } else if (window.innerWidth <= 768) {
+        isNotesVisible = false; // Oculto por padrão no mobile
+    }
     const widget = document.getElementById('culto-notes-widget');
     const btn = document.getElementById('btn-toggle-notes');
     if (widget) {

@@ -1551,6 +1551,51 @@ footer {
         position: static;
         margin-top: 10px;
     }
+    #song-view {
+        padding: 16px;
+        border-radius: 8px;
+        border: none;
+        box-shadow: none;
+    }
+    .song-header {
+        margin-bottom: 12px;
+        padding-bottom: 12px;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .song-title {
+        font-size: 1.5rem;
+    }
+    .song-tools {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        padding: 10px;
+        gap: 12px;
+        border-radius: 8px;
+        margin-bottom: 16px;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+        justify-content: flex-start;
+    }
+    .song-tools::-webkit-scrollbar {
+        display: none;
+    }
+    .tool-group {
+        flex-shrink: 0;
+    }
+    .song-playlists-bar {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+        justify-content: flex-start;
+    }
+    .song-playlists-bar::-webkit-scrollbar {
+        display: none;
+    }
+    .song-playlists-bar .playlist-chip {
+        flex-shrink: 0;
+    }
 }
 
 /* Toast Notification */
