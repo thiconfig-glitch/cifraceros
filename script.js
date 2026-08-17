@@ -283,6 +283,7 @@ function finalizeAppModeSelection(mode) {
             if (syncContainer) syncContainer.style.display = 'block';
             if (btnSyncMobile) btnSyncMobile.style.display = 'inline-block';
             if (btnSyncDesktop) btnSyncDesktop.style.display = 'inline-block';
+            window.updateSyncButtonsUI(false);
             startListeningToLetrasSync();
         } else {
             if (syncContainer) syncContainer.style.display = 'none';
@@ -1481,9 +1482,9 @@ function renderDisparoResults(searchTerm) {
     });
 }
 
-window.acceptBolhaSync = true;
-window.toggleTecladoSync = function() {
-    window.acceptBolhaSync = !window.acceptBolhaSync;
+window.acceptBolhaSync = localStorage.getItem('acceptBolhaSync') !== 'false';
+
+window.updateSyncButtonsUI = function(showToast = false) {
     const btnSidebar = document.getElementById('btn-teclado-sync-toggle');
     const btnMobile = document.getElementById('btn-mobile-sync-toggle');
     const btnDesktop = document.getElementById('btn-desktop-sync-toggle');
@@ -1501,7 +1502,7 @@ window.toggleTecladoSync = function() {
             btnDesktop.style.backgroundColor = 'var(--success-color)';
             btnDesktop.textContent = '📡 Sincronia: LIGADA';
         }
-        window.showToast('📡 Sistema', 'Você está aceitando disparos da Bolha.');
+        if (showToast) window.showToast('📡 Sistema', 'Você está aceitando disparos da Bolha.');
     } else {
         if (btnSidebar) {
             btnSidebar.style.backgroundColor = 'var(--danger-color)';
@@ -1515,8 +1516,14 @@ window.toggleTecladoSync = function() {
             btnDesktop.style.backgroundColor = 'var(--danger-color)';
             btnDesktop.textContent = '🚫 Sincronia: DESLIGADA';
         }
-        window.showToast('🚫 Sistema', 'Disparos da Bolha foram bloqueados.');
+        if (showToast) window.showToast('🚫 Sistema', 'Disparos da Bolha foram bloqueados.');
     }
+};
+
+window.toggleTecladoSync = function() {
+    window.acceptBolhaSync = !window.acceptBolhaSync;
+    localStorage.setItem('acceptBolhaSync', window.acceptBolhaSync);
+    window.updateSyncButtonsUI(true);
 };
 
 let lastSyncTimestamp = 0;
