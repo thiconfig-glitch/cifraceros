@@ -134,6 +134,21 @@ window.triggerLogout = async function() {
     }
 };
 
+function renderSkeletons() {
+    const container = document.getElementById('results-container');
+    if (!container) return;
+    let skeletonsHtml = '';
+    for(let i=0; i<8; i++) {
+        skeletonsHtml += `
+            <div class="skeleton-item">
+                <div class="skeleton-bar title"></div>
+                <div class="skeleton-bar tag" style="margin-left: auto;"></div>
+            </div>
+        `;
+    }
+    container.innerHTML = skeletonsHtml;
+}
+
 function startListeningToSongs(mode) {
     if (!mode) return;
 
@@ -144,7 +159,7 @@ function startListeningToSongs(mode) {
             songsData = songsDataCifras;
             updateDataAndRender();
         } else {
-            resultsContainer.innerHTML = '<p style="text-align:center; padding:20px; color:#888;">Carregando repertório...</p>';
+            renderSkeletons();
         }
         return;
     }
@@ -154,12 +169,12 @@ function startListeningToSongs(mode) {
             songsData = songsDataLetras;
             updateDataAndRender();
         } else {
-            resultsContainer.innerHTML = '<p style="text-align:center; padding:20px; color:#888;">Carregando repertório...</p>';
+            renderSkeletons();
         }
         return;
     }
 
-    resultsContainer.innerHTML = '<p style="text-align:center; padding:20px; color:#888;">Carregando repertório...</p>';
+    renderSkeletons();
     const collectionName = mode === 'letras' ? "repertorio_letras" : "repertorio";
 
     const listener = onSnapshot(collection(db, collectionName), (querySnapshot) => {
@@ -485,13 +500,25 @@ function renderResults(songs) {
     container.innerHTML = '';
     
     if(songs.length === 0 && !isInitialLoad) {
-        container.innerHTML = '<p style="text-align:center; color:#888;">Nenhuma música encontrada.</p>';
+        container.innerHTML = `
+            <div class="empty-state">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    <line x1="11" y1="8" x2="11" y2="14"></line>
+                    <line x1="8" y1="11" x2="14" y2="11"></line>
+                </svg>
+                <p>Nenhuma música encontrada.</p>
+                <span style="font-size:0.85rem;">Tente buscar por outro título ou trecho da letra.</span>
+            </div>
+        `;
         return;
     }
 
-    songs.forEach(song => {
+    songs.forEach((song, index) => {
         const item = document.createElement('div');
-        item.className = 'song-item';
+        item.className = 'song-item song-item-animated';
+        item.style.animationDelay = `${index * 0.03}s`;
         item.dataset.id = song.id;
         
         const clickableArea = document.createElement('div');
@@ -1575,5 +1602,16 @@ function startListeningToLetrasSync() {
                 }
             }
         }
+    });
+}
+
+// --- PWA Service Worker Registration ---
+if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./sw.js').then(registration => {
+            console.log('SW registered: ', registration);
+        }).catch(registrationError => {
+            console.log('SW registration failed: ', registrationError);
+        });
     });
 }

@@ -1645,3 +1645,62 @@ footer {
     line-height: 1.4;
     word-break: break-word;
 }
+
+/* --- UX Polish & Animations --- */
+
+@keyframes shimmer {
+    0% { background-position: -400px 0; }
+    100% { background-position: 400px 0; }
+}
+
+.skeleton-item {
+    background-color: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--surface-border);
+    border-radius: 14px;
+    padding: 14px 20px;
+    height: 56px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+.skeleton-bar {
+    height: 16px;
+    border-radius: 8px;
+    background: linear-gradient(90deg, rgba(255,255,255,0.05) 25%, rgba(255,255,255,0.1) 50%, rgba(255,255,255,0.05) 75%);
+    background-size: 400px 100%;
+    animation: shimmer 1.5s infinite linear;
+}
+
+.skeleton-bar.title { width: 40%; margin-right: 15px; }
+.skeleton-bar.tag { width: 15%; }
+
+@keyframes fadeSlideUp {
+    0% { opacity: 0; transform: translateY(15px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+.song-item-animated {
+    opacity: 0;
+    animation: fadeSlideUp 0.3s forwards cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.empty-state {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    color: var(--text-muted);
+    text-align: center;
+    animation: fadeIn 0.4s ease-out;
+}
+
+.empty-state svg {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 16px;
+    opacity: 0.5;
+    color: var(--chord-color);
+}
