@@ -5,13 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="0">
     
@@ -21,7 +14,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css?v=1.18.0">
+    <link rel="stylesheet" href="style.css?v=1.19.0">
 </head>
 <body>
     <div id="mode-selection-overlay" class="mode-selection-overlay">
@@ -182,6 +175,9 @@
                                 <button class="tool-btn" onclick="adjustFontSize(-0.1)">A-</button>
                                 <button class="tool-btn" onclick="adjustFontSize(0.1)">A+</button>
                             </div>
+                            <div class="tool-group" id="sv-columns-container" style="display: none;">
+                                <button class="tool-btn" id="btn-toggle-columns" onclick="window.toggleLyricsColumns()" title="Dividir a letra em 2 colunas">📖 2 Colunas</button>
+                            </div>
                             <div class="tool-group">
                                 <span class="tool-label">Auto-Scroll:</span>
                                 <button class="tool-btn" onclick="adjustScrollSpeed(-1)">-</button>
@@ -289,6 +285,6 @@
 
     <div id="toast-container" class="toast-container"></div>
 
-    <script type="module" src="script.js?v=1.18.0"></script>
+    <script type="module" src="script.js?v=1.19.0"></script>
 </body>
 </html>
