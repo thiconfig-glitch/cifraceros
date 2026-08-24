@@ -14,7 +14,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css?v=1.19.1">
+    <link rel="stylesheet" href="style.css?v=1.19.2">
 </head>
 <body>
     <div id="mode-selection-overlay" class="mode-selection-overlay">
@@ -188,6 +188,9 @@
                             <div class="tool-group" id="sv-notes-container">
                                 <button class="tool-btn active" id="btn-toggle-notes" onclick="window.toggleNotesWidget()" title="Mostrar/Ocultar Bloquinho de Notas do Culto">📌 Notas do Culto</button>
                             </div>
+                            <div class="tool-group" id="sv-chat-btn-container" style="display: none;">
+                                <button class="tool-btn" id="btn-toolbar-chat" onclick="window.toggleLetrasChatPopup()" title="Comunicação / Chat da Equipe">💬 Chat</button>
+                            </div>
                             <div class="tool-group" id="sync-btn-container" style="display: none;">
                                 <button class="btn btn-accent" onclick="window.dispararParaTeclado()" style="padding: 6px 12px; margin: 0; font-weight: bold; border-radius: 8px;">▶️ Mandar pro Teclado</button>
                             </div>
@@ -200,22 +203,6 @@
 
                         <pre id="sv-content"></pre>
                     </div>
-
-                    <aside id="letras-chat-widget" class="culto-notes-widget" style="display: none;">
-                        <div class="notes-widget-header">
-                            <span>💬 Comunicação</span>
-                            <div class="notes-controls-group">
-                                <button type="button" class="notes-clear-btn" title="Limpar Chat" onclick="window.clearLetrasChat()">🗑️</button>
-                            </div>
-                        </div>
-                        <div id="chat-messages-container" class="chat-messages-container">
-                            <!-- Messages will be populated here -->
-                        </div>
-                        <form id="chat-input-form" onsubmit="window.sendChatMessage(event)" class="chat-input-area">
-                            <input type="text" id="chat-message-input" placeholder="Mensagem..." autocomplete="off" required>
-                            <button type="submit" class="btn-send-chat">Enviar</button>
-                        </form>
-                    </aside>
                 </div>
 
                 <div id="admin-panel" class="admin-panel">
@@ -280,11 +267,38 @@
                 <button class="btn btn-danger" onclick="clearSetlist()" style="padding: 4px 8px; font-size: 0.8rem;">Limpar</button>
             </div>
             <div id="setlist-container" class="setlist-container"></div>
-        </aside>
+    <!-- Discreet Floating Chat / Automação Popup -->
+    <div id="letras-chat-popup" class="letras-chat-popup" style="display: none;">
+        <div class="chat-popup-header">
+            <div class="chat-popup-title">
+                <span class="chat-popup-icon">💬</span>
+                <div class="chat-popup-info">
+                    <strong>Comunicação</strong>
+                    <span id="chat-role-indicator" class="chat-role-indicator">Equipe</span>
+                </div>
+            </div>
+            <div class="chat-popup-actions">
+                <button type="button" class="chat-header-btn" title="Limpar Histórico" onclick="window.clearLetrasChat()">🗑️</button>
+                <button type="button" class="chat-header-btn chat-close-btn" title="Fechar" onclick="window.toggleLetrasChatPopup(false)">✕</button>
+            </div>
+        </div>
+        <div id="chat-messages-container" class="chat-messages-container">
+            <!-- Messages will be populated here -->
+        </div>
+        <form id="chat-input-form" onsubmit="window.sendChatMessage(event)" class="chat-input-area">
+            <input type="text" id="chat-message-input" placeholder="Mensagem para a equipe..." autocomplete="off" required>
+            <button type="submit" class="btn-send-chat">Enviar</button>
+        </form>
     </div>
+
+    <!-- Floating Chat Trigger Button -->
+    <button id="btn-floating-chat" class="btn-floating-chat" style="display: none;" onclick="window.toggleLetrasChatPopup()" title="Abrir Comunicação / Chat">
+        <span class="floating-chat-icon">💬</span>
+        <span id="chat-unread-badge" class="chat-unread-badge" style="display: none;"></span>
+    </button>
 
     <div id="toast-container" class="toast-container"></div>
 
-    <script type="module" src="script.js?v=1.19.1"></script>
+    <script type="module" src="script.js?v=1.19.2"></script>
 </body>
 </html>

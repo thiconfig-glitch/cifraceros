@@ -267,15 +267,16 @@ function finalizeAppModeSelection(mode) {
     document.getElementById('main-app-container').style.display = 'flex';
     
     // Toggle UI elements specific to Letras mode
-    const transposeGroup = document.querySelector('input#m-transpose')?.closest('.form-group');
-    const chatWidget = document.getElementById('letras-chat-widget');
+    const chatPopup = document.getElementById('letras-chat-popup');
+    const btnFloatingChat = document.getElementById('btn-floating-chat');
+    const svChatContainer = document.getElementById('sv-chat-btn-container');
+    const chatRoleIndicator = document.getElementById('chat-role-indicator');
     const btnDisparoMobile = document.getElementById('btn-mobile-disparo');
     const btnSetlistMobile = document.getElementById('btn-mobile-setlist');
     
     if (mode === 'letras') {
         document.body.classList.add('letras-mode');
         if (transposeGroup) transposeGroup.style.display = 'none';
-        if (chatWidget) chatWidget.style.display = 'flex';
         
         const notesContainer = document.getElementById('sv-notes-container');
         if (notesContainer) notesContainer.style.display = 'none';
@@ -283,6 +284,13 @@ function finalizeAppModeSelection(mode) {
         if (cultoWidget) cultoWidget.style.display = 'none';
         const welcomeNotes = document.querySelector('.welcome-notes-box');
         if (welcomeNotes) welcomeNotes.style.display = 'none';
+        
+        if (btnFloatingChat) btnFloatingChat.style.display = 'flex';
+        if (svChatContainer) svChatContainer.style.display = 'flex';
+        if (chatRoleIndicator) {
+            chatRoleIndicator.textContent = window.letrasRole === 'teclado' ? '🎹 Teclado' : '🗣️ Bolha';
+        }
+        if (chatPopup) chatPopup.style.display = 'none'; // Inicia discreto/fechado
         
         window.applyLyricsColumnsState();
         
@@ -317,7 +325,9 @@ function finalizeAppModeSelection(mode) {
     } else {
         document.body.classList.remove('letras-mode');
         if (transposeGroup) transposeGroup.style.display = 'block';
-        if (chatWidget) chatWidget.style.display = 'none';
+        if (chatPopup) chatPopup.style.display = 'none';
+        if (btnFloatingChat) btnFloatingChat.style.display = 'none';
+        if (svChatContainer) svChatContainer.style.display = 'none';
         
         const notesContainer = document.getElementById('sv-notes-container');
         if (notesContainer) notesContainer.style.display = 'flex';
@@ -1420,8 +1430,33 @@ document.addEventListener('DOMContentLoaded', () => {
     window.loadCultoNotes();
 });
 
-// Chat Letras Logic
+// Chat Letras Logic (Popup Discreto)
 let isInitialChatLoad = true;
+
+window.toggleLetrasChatPopup = function(forceState) {
+    const popup = document.getElementById('letras-chat-popup');
+    const btnFloating = document.getElementById('btn-floating-chat');
+    const btnToolbar = document.getElementById('btn-toolbar-chat');
+    const unreadBadge = document.getElementById('chat-unread-badge');
+    const input = document.getElementById('chat-message-input');
+    const container = document.getElementById('chat-messages-container');
+
+    if (!popup) return;
+
+    const isCurrentlyOpen = popup.style.display === 'flex';
+    const shouldOpen = forceState !== undefined ? forceState : !isCurrentlyOpen;
+
+    popup.style.display = shouldOpen ? 'flex' : 'none';
+
+    if (btnFloating) btnFloating.classList.toggle('active', shouldOpen);
+    if (btnToolbar) btnToolbar.classList.toggle('active', shouldOpen);
+
+    if (shouldOpen) {
+        if (unreadBadge) unreadBadge.style.display = 'none';
+        if (container) container.scrollTop = container.scrollHeight;
+        if (input) setTimeout(() => input.focus(), 150);
+    }
+};
 
 function startListeningToChat() {
     const container = document.getElementById('chat-messages-container');
@@ -1453,7 +1488,7 @@ function startListeningToChat() {
         // Auto-scroll to bottom
         container.scrollTop = container.scrollHeight;
         
-        // Verifica mensagens novas para mostrar Pop-up
+        // Verifica mensagens novas para mostrar Pop-up / Toast
         if (!isInitialChatLoad) {
             snapshot.docChanges().forEach((change) => {
                 if (change.type === 'added') {
@@ -1461,6 +1496,15 @@ function startListeningToChat() {
                     if (data.role && data.role !== window.letrasRole) {
                         const senderName = data.role === 'teclado' ? '🎹 Teclado' : '🗣️ Bolha';
                         window.showToast(senderName, data.text);
+
+                        const popup = document.getElementById('letras-chat-popup');
+                        const isPopupOpen = popup && popup.style.display === 'flex';
+                        if (!isPopupOpen) {
+                            const badge = document.getElementById('chat-unread-badge');
+                            if (badge) badge.style.display = 'block';
+                            const btnToolbar = document.getElementById('btn-toolbar-chat');
+                            if (btnToolbar) btnToolbar.classList.add('active');
+                        }
                     }
                 }
             });
