@@ -267,6 +267,7 @@ function finalizeAppModeSelection(mode) {
     document.getElementById('main-app-container').style.display = 'flex';
     
     // Toggle UI elements specific to Letras mode
+    const transposeGroup = document.querySelector('input#m-transpose')?.closest('.form-group');
     const chatPopup = document.getElementById('letras-chat-popup');
     const btnFloatingChat = document.getElementById('btn-floating-chat');
     const svChatContainer = document.getElementById('sv-chat-btn-container');
