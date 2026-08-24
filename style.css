@@ -708,14 +708,14 @@ body.letras-mode pre {
     overflow-x: hidden;
 }
 
-/* Letras Mode Multi-column */
+/* Multi-column (Cifras & Letras) */
 #sv-content.two-columns {
     column-count: 2;
     column-gap: 40px;
     column-rule: 1px solid var(--surface-border);
 }
 
-.lyric-block {
+.lyric-block, .cifra-block {
     break-inside: avoid-column;
     page-break-inside: avoid;
     margin-bottom: 1.2em;

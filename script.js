@@ -743,73 +743,67 @@ function isChordLine(line) {
 
 function formatCifraText(text) {
     if (!text) return '';
-    if (window.appMode === 'letras') {
-        const lines = text
-            .replace(/&/g, '&amp;')
-            .replace(/</g, '&lt;')
-            .replace(/>/g, '&gt;')
-            .split('\n');
 
-        let html = '';
-        let currentBlock = [];
+    const lines = text
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .split('\n');
 
-        function flushBlock() {
-            if (currentBlock.length > 0) {
-                const blockText = currentBlock.join('\n');
-                if (blockText.trim() !== '') {
-                    html += `<div class="lyric-block">${blockText}</div>`;
-                }
-                currentBlock = [];
+    let html = '';
+    let currentBlock = [];
+
+    function flushBlock() {
+        if (currentBlock.length > 0) {
+            const blockText = currentBlock.join('\n');
+            if (blockText.trim() !== '') {
+                html += `<div class="cifra-block">${blockText}</div>`;
             }
+            currentBlock = [];
         }
-
-        for (let i = 0; i < lines.length; i++) {
-            const line = lines[i];
-            const trimmed = line.trim();
-
-            if (/^(\-{3,}|\={3,}|\[coluna\]|\[col\]|\[quebra\]|\[quebra-coluna\])$/i.test(trimmed)) {
-                flushBlock();
-                html += '<div class="column-break"></div>';
-            } else if (trimmed === '') {
-                flushBlock();
-            } else {
-                currentBlock.push(line);
-            }
-        }
-        flushBlock();
-        return html || text;
     }
-    return text.split('\n').map(line => {
-        if (isChordLine(line)) {
-            return line.replace(/(\S+)/g, '<span class="chord">$1</span>');
+
+    for (let i = 0; i < lines.length; i++) {
+        let line = lines[i];
+        const trimmed = line.trim();
+
+        if (/^(\-{3,}|\={3,}|\[coluna\]|\[col\]|\[quebra\]|\[quebra-coluna\])$/i.test(trimmed)) {
+            flushBlock();
+            html += '<div class="column-break"></div>';
+        } else if (trimmed === '') {
+            flushBlock();
+        } else {
+            if (window.appMode !== 'letras' && isChordLine(line)) {
+                line = line.replace(/(\S+)/g, '<span class="chord">$1</span>');
+            }
+            currentBlock.push(line);
         }
-        return line;
-    }).join('\n');
+    }
+    flushBlock();
+    return html || text;
 }
 
-// Lyrics Column Management
-window.toggleLyricsColumns = function() {
+// Columns Management (Cifras & Letras)
+window.toggleColumns = function() {
     const svContent = document.getElementById('sv-content');
     const isCurrently2Col = svContent ? svContent.classList.contains('two-columns') : false;
     const newCols = isCurrently2Col ? '1' : '2';
-    localStorage.setItem('cifraceros_letras_columns', newCols);
-    window.applyLyricsColumnsState();
+    const modeKey = window.appMode || 'cifras';
+    localStorage.setItem(`cifraceros_columns_${modeKey}`, newCols);
+    window.applyColumnsState();
 };
 
-window.applyLyricsColumnsState = function() {
+window.toggleLyricsColumns = window.toggleColumns; // Alias for compatibility
+
+window.applyColumnsState = function() {
     const svContent = document.getElementById('sv-content');
     const btnToggle = document.getElementById('btn-toggle-columns');
     const colsContainer = document.getElementById('sv-columns-container');
     
-    if (window.appMode !== 'letras') {
-        if (colsContainer) colsContainer.style.display = 'none';
-        if (svContent) svContent.classList.remove('two-columns');
-        return;
-    }
-    
     if (colsContainer) colsContainer.style.display = 'flex';
     
-    const savedCols = localStorage.getItem('cifraceros_letras_columns') || '1';
+    const modeKey = window.appMode || 'cifras';
+    const savedCols = localStorage.getItem(`cifraceros_columns_${modeKey}`) || (modeKey === 'letras' ? localStorage.getItem('cifraceros_letras_columns') : '1') || '1';
     const is2Col = savedCols === '2';
     
     if (svContent) {
@@ -819,9 +813,11 @@ window.applyLyricsColumnsState = function() {
     if (btnToggle) {
         btnToggle.classList.toggle('active', is2Col);
         btnToggle.innerHTML = is2Col ? '📖 2 Colunas' : '📄 1 Coluna';
-        btnToggle.title = is2Col ? 'Alternar para 1 coluna' : 'Dividir a letra em 2 colunas';
+        btnToggle.title = is2Col ? 'Alternar para 1 coluna' : 'Dividir em 2 colunas';
     }
 };
+
+window.applyLyricsColumnsState = window.applyColumnsState; // Alias for compatibility
 
 // Song Notes Management
 let notesSaveTimeout = null;
@@ -865,6 +861,7 @@ window.autoFitCifra = function() {
     if (window.appMode === 'letras') return;
     const pre = document.getElementById('sv-content');
     if (!pre) return;
+    if (pre.classList.contains('two-columns')) return;
 
     let size = 1.3;
     pre.style.fontSize = `${size}rem`;
