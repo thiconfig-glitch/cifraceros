@@ -788,6 +788,12 @@ body.letras-mode pre {
     display: none;
 }
 
+body.letras-mode #culto-notes-widget,
+body.letras-mode .welcome-notes-box,
+body.letras-mode #sv-notes-container {
+    display: none !important;
+}
+
 .welcome-notes-box {
     margin-top: 32px;
     width: 100%;

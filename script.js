@@ -277,6 +277,13 @@ function finalizeAppModeSelection(mode) {
         if (transposeGroup) transposeGroup.style.display = 'none';
         if (chatWidget) chatWidget.style.display = 'flex';
         
+        const notesContainer = document.getElementById('sv-notes-container');
+        if (notesContainer) notesContainer.style.display = 'none';
+        const cultoWidget = document.getElementById('culto-notes-widget');
+        if (cultoWidget) cultoWidget.style.display = 'none';
+        const welcomeNotes = document.querySelector('.welcome-notes-box');
+        if (welcomeNotes) welcomeNotes.style.display = 'none';
+        
         window.applyLyricsColumnsState();
         
         if (window.letrasRole === 'bolha') {
@@ -311,6 +318,12 @@ function finalizeAppModeSelection(mode) {
         document.body.classList.remove('letras-mode');
         if (transposeGroup) transposeGroup.style.display = 'block';
         if (chatWidget) chatWidget.style.display = 'none';
+        
+        const notesContainer = document.getElementById('sv-notes-container');
+        if (notesContainer) notesContainer.style.display = 'flex';
+        const welcomeNotes = document.querySelector('.welcome-notes-box');
+        if (welcomeNotes) welcomeNotes.style.display = 'flex';
+        
         window.applyLyricsColumnsState();
         if (unsubChat) {
             unsubChat();
@@ -900,23 +913,34 @@ window.openSong = function(song) {
 
     window.applyLyricsColumnsState();
 
-    // Load notes & manage notes widget display
-    window.loadCultoNotes();
-
-    let savedNotesVisible = localStorage.getItem('cifraceros_notes_visible');
-    let isNotesVisible = true;
-    if (savedNotesVisible !== null) {
-        isNotesVisible = savedNotesVisible === 'true';
-    } else if (window.innerWidth <= 768) {
-        isNotesVisible = false; // Oculto por padrão no mobile
-    }
+    const notesGroup = document.getElementById('sv-notes-container') || document.getElementById('btn-toggle-notes')?.closest('.tool-group');
     const widget = document.getElementById('culto-notes-widget');
     const btn = document.getElementById('btn-toggle-notes');
-    if (widget) {
-        widget.style.display = isNotesVisible ? 'flex' : 'none';
-        widget.classList.toggle('hidden', !isNotesVisible);
+
+    if (window.appMode === 'letras') {
+        if (notesGroup) notesGroup.style.display = 'none';
+        if (widget) {
+            widget.style.display = 'none';
+            widget.classList.add('hidden');
+        }
+    } else {
+        if (notesGroup) notesGroup.style.display = 'flex';
+        // Load notes & manage notes widget display
+        window.loadCultoNotes();
+
+        let savedNotesVisible = localStorage.getItem('cifraceros_notes_visible');
+        let isNotesVisible = true;
+        if (savedNotesVisible !== null) {
+            isNotesVisible = savedNotesVisible === 'true';
+        } else if (window.innerWidth <= 768) {
+            isNotesVisible = false; // Oculto por padrão no mobile
+        }
+        if (widget) {
+            widget.style.display = isNotesVisible ? 'flex' : 'none';
+            widget.classList.toggle('hidden', !isNotesVisible);
+        }
+        if (btn) btn.classList.toggle('active', isNotesVisible);
     }
-    if (btn) btn.classList.toggle('active', isNotesVisible);
 
     document.querySelector('.main-content').scrollTop = 0;
 
