@@ -711,15 +711,22 @@ body.letras-mode pre {
 /* Multi-column (Cifras & Letras) */
 #sv-content.two-columns {
     column-count: 2;
-    column-gap: 40px;
-    column-rule: 1px solid var(--surface-border);
+    column-gap: 48px;
+    column-rule: 2px solid rgba(255, 255, 255, 0.12);
+    white-space: pre-wrap !important;
+    word-break: break-word;
+    overflow-wrap: break-word;
 }
 
-.lyric-block, .cifra-block {
+#sv-content.two-columns .lyric-block,
+#sv-content.two-columns .cifra-block {
     break-inside: avoid-column;
     page-break-inside: avoid;
-    margin-bottom: 1.2em;
+    margin-bottom: 1.4em;
     display: block;
+    max-width: 100%;
+    overflow: hidden;
+    contain: inline-size;
 }
 
 .column-break {
@@ -733,7 +740,8 @@ body.letras-mode pre {
 
 @media (max-width: 768px) {
     #sv-content.two-columns {
-        column-gap: 20px;
+        column-gap: 24px;
+        column-rule: 1px solid rgba(255, 255, 255, 0.1);
     }
 }
 

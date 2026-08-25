@@ -791,6 +791,14 @@ window.toggleColumns = function() {
     const modeKey = window.appMode || 'cifras';
     localStorage.setItem(`cifraceros_columns_${modeKey}`, newCols);
     window.applyColumnsState();
+
+    setTimeout(() => {
+        if (newCols === '2') {
+            window.autoFitTwoColumns();
+        } else {
+            window.autoFitCifra();
+        }
+    }, 50);
 };
 
 window.toggleLyricsColumns = window.toggleColumns; // Alias for compatibility
@@ -875,9 +883,39 @@ window.autoFitCifra = function() {
     currentFontSize = size;
 };
 
+window.autoFitTwoColumns = function() {
+    const pre = document.getElementById('sv-content');
+    if (!pre || !pre.classList.contains('two-columns')) return;
+    
+    const colWidth = (pre.clientWidth - 48) / 2;
+    if (colWidth <= 60) return;
+
+    const lines = pre.innerText.split('\n');
+    let maxLen = 0;
+    lines.forEach(l => {
+        const len = l.trimEnd().length;
+        if (len > maxLen) maxLen = len;
+    });
+
+    if (maxLen === 0) return;
+
+    // In JetBrains Mono monospace font, character width ≈ fontSize * 9.6px
+    const targetSize = colWidth / (maxLen * 9.6);
+    
+    // Clamp to a readable range (0.70rem to 1.10rem)
+    let optimal = Math.max(0.70, Math.min(1.10, Math.floor(targetSize * 20) / 20));
+    currentFontSize = optimal;
+    pre.style.fontSize = `${currentFontSize}rem`;
+};
+
 window.addEventListener('resize', () => {
     if (document.getElementById('song-view').style.display !== 'none') {
-        window.autoFitCifra();
+        const pre = document.getElementById('sv-content');
+        if (pre && pre.classList.contains('two-columns')) {
+            window.autoFitTwoColumns();
+        } else {
+            window.autoFitCifra();
+        }
     }
 });
 
@@ -919,7 +957,7 @@ window.openSong = function(song) {
         contentArea.style.wordWrap = 'normal';
     }
 
-    window.applyLyricsColumnsState();
+    window.applyColumnsState();
 
     const notesGroup = document.getElementById('sv-notes-container') || document.getElementById('btn-toggle-notes')?.closest('.tool-group');
     const widget = document.getElementById('culto-notes-widget');
@@ -954,7 +992,12 @@ window.openSong = function(song) {
 
     // Small delay to ensure layout is computed before autofitting
     setTimeout(() => {
-        window.autoFitCifra();
+        const pre = document.getElementById('sv-content');
+        if (pre && pre.classList.contains('two-columns')) {
+            window.autoFitTwoColumns();
+        } else {
+            window.autoFitCifra();
+        }
     }, 50);
 
     window.renderSongViewPlaylists();
