@@ -1,0 +1,9 @@
+{
+  "appId": "org.cifraceros.app",
+  "appName": "CifrasCeros",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https",
+    "cleartext": true
+  }
+}

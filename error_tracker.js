@@ -10,18 +10,27 @@
   const errorQueue = [];
   let isSending = false;
 
-  const isStaticHost = window.location.hostname.includes('github.io') || window.location.protocol === 'file:';
+  function checkIsStaticHost() {
+    const isNativeCapacitor = !!(window.Capacitor && typeof window.Capacitor.isNativePlatform === 'function' && window.Capacitor.isNativePlatform());
+    return isNativeCapacitor || window.location.hostname.includes('github.io') || window.location.protocol === 'file:' || !window.location.port;
+  }
+  const isStaticHost = checkIsStaticHost();
 
   // Gerar ID de sessão único
   const sessionId = 'sess_' + Math.random().toString(36).substring(2, 9) + '_' + Date.now();
 
   function sanitize(str) {
     if (typeof str !== 'string') return '';
-    return str.substring(0, 1000);
+    return str.substring(0, 1000)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#039;');
   }
 
   function sendErrors() {
-    if (isStaticHost) return; // GitHub Pages / estático não possui backend Node
+    if (checkIsStaticHost()) return; // GitHub Pages / Capacitor / estático não possui backend Node
     if (isSending || errorQueue.length === 0) return;
     isSending = true;
 
@@ -114,9 +123,15 @@
 
     const copyBtn = toast.querySelector('#copy-err-btn');
     if (copyBtn) {
-      copyBtn.onclick = () => {
-        navigator.clipboard.writeText(JSON.stringify(details, null, 2));
-        copyBtn.innerText = 'Copiado!';
+      copyBtn.onclick = async () => {
+        try {
+          if (navigator.clipboard && typeof navigator.clipboard.writeText === 'function') {
+            await navigator.clipboard.writeText(JSON.stringify(details, null, 2));
+          }
+          copyBtn.innerText = 'Copiado!';
+        } catch (clipErr) {
+          copyBtn.innerText = 'Indisponível';
+        }
         setTimeout(() => { copyBtn.innerText = 'Copiar Erro'; }, 2000);
       };
     }
@@ -159,23 +174,27 @@
   // 3. Interceptar falhas em Fetch
   const originalFetch = window.fetch;
   window.fetch = async function (...args) {
+    const reqUrl = typeof args[0] === 'string' ? args[0] : (args[0] && args[0].url ? args[0].url : '');
+    const isTelemetryCall = reqUrl.includes(ERROR_ENDPOINT);
     try {
       const response = await originalFetch.apply(this, args);
-      if (!response.ok && response.status >= 400) {
+      if (!isTelemetryCall && !response.ok && response.status >= 500) {
         queueError({
           type: 'http_error',
-          url: args[0],
+          url: reqUrl,
           status: response.status,
           statusText: response.statusText
         });
       }
       return response;
     } catch (err) {
-      queueError({
-        type: 'fetch_network_failure',
-        url: args[0],
-        message: err.message
-      });
+      if (!isTelemetryCall && err && err.name !== 'AbortError') {
+        queueError({
+          type: 'fetch_network_failure',
+          url: reqUrl,
+          message: err.message
+        });
+      }
       throw err;
     }
   };

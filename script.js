@@ -230,6 +230,7 @@ function updateDataAndRender() {
     filterAndRender();
     renderSetlist();
     renderSongViewPlaylists();
+    if (typeof window.renderMobilePlaylists === 'function') window.renderMobilePlaylists();
     
     if (pendingSyncSongId) {
         const song = songsData.find(s => s.id === pendingSyncSongId);
@@ -1001,6 +1002,12 @@ window.openSong = function(song) {
     }, 50);
 
     window.renderSongViewPlaylists();
+    const setlistBtn = document.getElementById('btn-toggle-setlist-item');
+    if (setlistBtn) {
+        const inSetlist = setlistIds.includes(song.id);
+        setlistBtn.textContent = inSetlist ? '⚡ No Acesso Rápido' : '⚡ + Acesso Rápido';
+        setlistBtn.classList.toggle('active', inSetlist);
+    }
 };
 
 window.adjustFontSize = function(delta) {
@@ -1011,44 +1018,93 @@ window.adjustFontSize = function(delta) {
 window.toggleAutoScroll = function() {
     isScrolling = !isScrolling;
     const btn = document.getElementById('btn-scroll-play');
+    const dockPlay = document.getElementById('btn-dock-scroll-play');
+    const dockScrollBtn = document.getElementById('dock-btn-scroll');
+
     if (isScrolling) {
-        btn.textContent = '⏸';
-        btn.classList.add('active');
+        if (btn) {
+            btn.textContent = '⏸';
+            btn.classList.add('active');
+        }
+        if (dockPlay) {
+            dockPlay.textContent = '⏸';
+            dockPlay.classList.add('active');
+        }
+        if (dockScrollBtn) {
+            dockScrollBtn.classList.add('is-scrolling');
+        }
         const mainContent = document.querySelector('.main-content');
-        scrollPos = mainContent.scrollTop;
+        if (mainContent) scrollPos = mainContent.scrollTop;
         startAutoScroll();
     } else {
         stopAutoScroll();
     }
 };
 
-// Sync internal scrollPos with manual scrolling to prevent jumping
+window.setScrollSpeedFromRange = function(val) {
+    scrollSpeed = parseFloat(val);
+    const speedFormatted = scrollSpeed.toFixed(1) + 'x';
+    const mobDisplay = document.getElementById('mobile-scroll-speed-val');
+    if (mobDisplay) mobDisplay.textContent = speedFormatted;
+
+    const desktopDisplay = document.getElementById('scroll-speed-display');
+    if (desktopDisplay) desktopDisplay.textContent = Math.round(scrollSpeed * 100) + '%';
+};
+
+window.toggleMobileScrollControl = function(forceState) {
+    const bar = document.getElementById('mobile-scroll-control-bar');
+    if (!bar) return;
+    const isShowing = bar.style.display !== 'none';
+    const nextState = forceState !== undefined ? forceState : !isShowing;
+
+    if (nextState) {
+        bar.style.display = 'flex';
+        const range = document.getElementById('mobile-scroll-range');
+        if (range) range.value = scrollSpeed;
+        const valDisp = document.getElementById('mobile-scroll-speed-val');
+        if (valDisp) valDisp.textContent = scrollSpeed.toFixed(1) + 'x';
+        
+        const dockScrollBtn = document.getElementById('dock-btn-scroll');
+        if (dockScrollBtn) dockScrollBtn.classList.add('active');
+    } else {
+        bar.style.display = 'none';
+        const dockScrollBtn = document.getElementById('dock-btn-scroll');
+        if (dockScrollBtn && !isScrolling) dockScrollBtn.classList.remove('active');
+    }
+};
+
+// Sincroniza scrollPos com rolagem manual suave
 document.querySelector('.main-content').addEventListener('scroll', (e) => {
     if (isScrolling) {
-        // We only update scrollPos if the difference is significant to avoid feedback loops
         const currentTop = e.target.scrollTop;
-        if (Math.abs(currentTop - scrollPos) > 5) {
+        if (Math.abs(currentTop - scrollPos) > 15) {
             scrollPos = currentTop;
         }
     }
-});
+}, { passive: true });
 
 function startAutoScroll() {
     const mainContent = document.querySelector('.main-content');
+    if (!mainContent) return;
+    
     let lastTime = performance.now();
+    scrollPos = mainContent.scrollTop;
 
     function scrollStep(currentTime) {
         if (!isScrolling) return;
-        
-        const deltaTime = currentTime - lastTime;
+
+        // Limita deltaTime para no máximo 40ms para evitar saltos bruscos
+        const deltaTime = Math.min(currentTime - lastTime, 40);
         lastTime = currentTime;
 
-        const pixelsPerMs = (scrollSpeed * 50) / 1000;
+        // Base calibrada: ~45 pixels por segundo em 1.0x
+        const pixelsPerMs = (scrollSpeed * 45) / 1000;
         scrollPos += pixelsPerMs * deltaTime;
-        
-        mainContent.scrollTop = Math.floor(scrollPos);
 
-        if (mainContent.scrollTop + mainContent.clientHeight >= mainContent.scrollHeight - 1) {
+        // Subpixel render suave sem truncamento com Math.floor
+        mainContent.scrollTop = scrollPos;
+
+        if (mainContent.scrollTop + mainContent.clientHeight >= mainContent.scrollHeight - 2) {
             stopAutoScroll();
             return;
         }
@@ -1060,17 +1116,40 @@ function startAutoScroll() {
 
 function stopAutoScroll() {
     isScrolling = false;
-    if (scrollInterval) cancelAnimationFrame(scrollInterval);
+    if (scrollInterval) {
+        cancelAnimationFrame(scrollInterval);
+        scrollInterval = null;
+    }
     const btn = document.getElementById('btn-scroll-play');
     if (btn) {
         btn.textContent = '▶';
         btn.classList.remove('active');
     }
+    const dockPlay = document.getElementById('btn-dock-scroll-play');
+    if (dockPlay) {
+        dockPlay.textContent = '▶';
+        dockPlay.classList.remove('active');
+    }
+    const dockScrollBtn = document.getElementById('dock-btn-scroll');
+    if (dockScrollBtn) {
+        dockScrollBtn.classList.remove('is-scrolling');
+        const bar = document.getElementById('mobile-scroll-control-bar');
+        if (!bar || bar.style.display === 'none') {
+            dockScrollBtn.classList.remove('active');
+        }
+    }
 }
 
 window.adjustScrollSpeed = function(delta) {
     scrollSpeed = Math.max(0.1, Math.min(5.0, parseFloat((scrollSpeed + delta * 0.2).toFixed(1))));
-    document.getElementById('scroll-speed-display').textContent = Math.round(scrollSpeed * 100) + '%';
+    const speedPercent = Math.round(scrollSpeed * 100) + '%';
+    const desktopDisplay = document.getElementById('scroll-speed-display');
+    if (desktopDisplay) desktopDisplay.textContent = speedPercent;
+    
+    const range = document.getElementById('mobile-scroll-range');
+    if (range) range.value = scrollSpeed;
+    const mobDisplay = document.getElementById('mobile-scroll-speed-val');
+    if (mobDisplay) mobDisplay.textContent = scrollSpeed.toFixed(1) + 'x';
 };
 
 function triggerEditMode(song) {
@@ -1088,6 +1167,8 @@ function triggerEditMode(song) {
 window.closeSong = function() {
     hideAll();
     stopAutoScroll();
+    if (typeof window.toggleMobileScrollControl === 'function') window.toggleMobileScrollControl(false);
+    currentActiveSongId = null;
     document.getElementById('welcome-view').style.display = 'flex';
     if(window.innerWidth <= 768) toggleSidebar();
 };
@@ -1273,8 +1354,262 @@ async function saveSetlist() {
     }
 }
 
+window.toggleMobileSongs = function() {
+    window.toggleMobilePlaylists(false);
+    const setlistOverlay = document.getElementById('mobile-setlist-overlay');
+    if (setlistOverlay) setlistOverlay.classList.remove('open');
+    const disparoOverlay = document.getElementById('mobile-disparo-overlay');
+    if (disparoOverlay) disparoOverlay.classList.remove('open');
+    
+    window.toggleSidebar();
+    const searchInput = document.getElementById('search-input');
+    if (searchInput && document.getElementById('sidebar').classList.contains('open')) {
+        setTimeout(() => searchInput.focus(), 250);
+    }
+};
+
 window.toggleMobileSetlist = function() {
-    document.getElementById('mobile-setlist-overlay').classList.toggle('open');
+    window.toggleMobilePlaylists(false);
+    window.closeSidebar();
+    const disparoOverlay = document.getElementById('mobile-disparo-overlay');
+    if (disparoOverlay) disparoOverlay.classList.remove('open');
+    
+    const overlay = document.getElementById('mobile-setlist-overlay');
+    if (overlay) overlay.classList.toggle('open');
+};
+
+window.addCurrentSongToSetlist = function() {
+    if (!currentActiveSongId) {
+        window.showToast('⚡ Acesso Rápido', 'Abra uma música primeiro para adicioná-la.');
+        return;
+    }
+    if (setlistIds.includes(currentActiveSongId)) {
+        window.showToast('⚡ Acesso Rápido', 'Esta música já está no Acesso Rápido.');
+        return;
+    }
+    setlistIds.push(currentActiveSongId);
+    saveSetlist();
+    renderSetlist();
+    window.showToast('⚡ Acesso Rápido', 'Música adicionada ao Acesso Rápido!');
+};
+
+window.toggleCurrentSongInSetlist = function() {
+    if (!currentActiveSongId) return;
+    const index = setlistIds.indexOf(currentActiveSongId);
+    if (index !== -1) {
+        setlistIds.splice(index, 1);
+        saveSetlist();
+        renderSetlist();
+        window.showToast('⚡ Acesso Rápido', 'Removida do Acesso Rápido.');
+    } else {
+        setlistIds.push(currentActiveSongId);
+        saveSetlist();
+        renderSetlist();
+        window.showToast('⚡ Acesso Rápido', 'Adicionada ao Acesso Rápido!');
+    }
+};
+
+// ==========================================
+// GAVETA DE LISTAS / PLAYLISTS MOBILE
+// ==========================================
+let expandedPlaylist = null;
+
+window.toggleMobilePlaylists = function(forceState) {
+    const overlay = document.getElementById('mobile-playlists-overlay');
+    if (!overlay) return;
+    
+    const isCurrentlyOpen = overlay.classList.contains('open');
+    const nextState = forceState !== undefined ? forceState : !isCurrentlyOpen;
+    
+    if (nextState) {
+        window.closeSidebar();
+        const setlistOverlay = document.getElementById('mobile-setlist-overlay');
+        if (setlistOverlay) setlistOverlay.classList.remove('open');
+        const disparoOverlay = document.getElementById('mobile-disparo-overlay');
+        if (disparoOverlay) disparoOverlay.classList.remove('open');
+        
+        window.renderMobilePlaylists();
+        overlay.classList.add('open');
+    } else {
+        overlay.classList.remove('open');
+    }
+};
+
+window.renderMobilePlaylists = function() {
+    const container = document.getElementById('mobile-playlists-content');
+    if (!container) return;
+    container.innerHTML = '';
+
+    // Card fixo para "Todas as Músicas"
+    const allCard = document.createElement('div');
+    allCard.className = 'playlist-card';
+    allCard.innerHTML = `
+        <div class="playlist-card-header" onclick="window.selectPlaylistFilterFromMobile('all')">
+            <div class="playlist-title-group">
+                <span style="font-size: 1.2rem;">🎵</span>
+                <div>
+                    <strong>Todas as Músicas</strong>
+                    <div style="font-size: 0.72rem; color: var(--text-muted);">Repertório completo</div>
+                </div>
+            </div>
+            <span class="playlist-badge-count">${songsData.length}</span>
+        </div>
+    `;
+    container.appendChild(allCard);
+
+    if (localPlaylists.size === 0) {
+        const empty = document.createElement('div');
+        empty.style.cssText = 'text-align: center; padding: 24px; color: var(--text-muted); font-size: 0.9rem;';
+        empty.innerHTML = `
+            <p>Nenhuma lista personalizada criada ainda.</p>
+            <button class="btn btn-accent" style="margin-top: 10px; font-size: 0.85rem;" onclick="window.promptCreatePlaylistMobile()">+ Criar Primeira Lista</button>
+        `;
+        container.appendChild(empty);
+        return;
+    }
+
+    const sortedPlaylists = Array.from(localPlaylists).sort();
+    sortedPlaylists.forEach(playlistName => {
+        const songsInList = songsData.filter(s => s.playlists && s.playlists.includes(playlistName));
+        const isExpanded = expandedPlaylist === playlistName;
+        
+        const card = document.createElement('div');
+        card.className = 'playlist-card';
+
+        const header = document.createElement('div');
+        header.className = 'playlist-card-header';
+        
+        const safePName = escapeHTML(playlistName);
+        
+        header.innerHTML = `
+            <div class="playlist-title-group" onclick="window.togglePlaylistExpansion('${safePName}')">
+                <span style="font-size: 1.2rem;">${isExpanded ? '📂' : '📁'}</span>
+                <div>
+                    <strong>${safePName}</strong>
+                    <div style="font-size: 0.72rem; color: var(--text-muted);">${songsInList.length} ${songsInList.length === 1 ? 'música' : 'músicas'}</div>
+                </div>
+            </div>
+            <div class="playlist-actions-group">
+                <button type="button" class="playlist-action-btn" onclick="window.filterRepertoireByPlaylist('${safePName}')" title="Filtrar repertório">Filtrar</button>
+                <button type="button" class="playlist-action-btn btn-delete" onclick="window.deletePlaylist('${safePName}')" title="Apagar esta lista">🗑️</button>
+            </div>
+        `;
+        card.appendChild(header);
+
+        if (isExpanded) {
+            const songsContainer = document.createElement('div');
+            songsContainer.className = 'playlist-songs-expanded';
+            
+            // Botão para adicionar a música atualmente aberta a esta lista (se houver)
+            if (currentActiveSongId) {
+                const currentSong = songsData.find(s => s.id === currentActiveSongId);
+                if (currentSong && (!currentSong.playlists || !currentSong.playlists.includes(playlistName))) {
+                    const addCurrentRow = document.createElement('button');
+                    addCurrentRow.className = 'btn btn-accent';
+                    addCurrentRow.style.cssText = 'width: 100%; padding: 8px 12px; font-size: 0.82rem; margin-bottom: 6px; border-radius: 8px; font-weight: 600;';
+                    addCurrentRow.textContent = `+ Adicionar "${currentSong.title}" a esta lista`;
+                    addCurrentRow.onclick = async () => {
+                        await window.toggleSongPlaylistAssignment(currentSong.id, playlistName);
+                        window.renderMobilePlaylists();
+                        window.renderSongViewPlaylists();
+                    };
+                    songsContainer.appendChild(addCurrentRow);
+                }
+            }
+
+            if (songsInList.length === 0) {
+                const emptySong = document.createElement('div');
+                emptySong.style.cssText = 'padding: 12px; text-align: center; color: var(--text-muted); font-size: 0.82rem;';
+                emptySong.textContent = 'Nenhuma música nesta lista ainda.';
+                songsContainer.appendChild(emptySong);
+            } else {
+                songsInList.forEach(song => {
+                    const row = document.createElement('div');
+                    row.className = 'playlist-song-row';
+                    
+                    const titleSpan = document.createElement('span');
+                    titleSpan.className = 'song-name';
+                    titleSpan.textContent = song.title;
+                    titleSpan.onclick = () => {
+                        window.openSong(song);
+                        window.toggleMobilePlaylists(false);
+                    };
+                    
+                    const removeSongBtn = document.createElement('button');
+                    removeSongBtn.className = 'playlist-song-remove';
+                    removeSongBtn.title = 'Remover desta lista';
+                    removeSongBtn.textContent = '✕';
+                    removeSongBtn.onclick = async (e) => {
+                        e.stopPropagation();
+                        await window.toggleSongPlaylistAssignment(song.id, playlistName);
+                        window.renderMobilePlaylists();
+                        window.renderSongViewPlaylists();
+                    };
+                    
+                    row.appendChild(titleSpan);
+                    row.appendChild(removeSongBtn);
+                    songsContainer.appendChild(row);
+                });
+            }
+            card.appendChild(songsContainer);
+        }
+
+        container.appendChild(card);
+    });
+};
+
+window.togglePlaylistExpansion = function(name) {
+    expandedPlaylist = expandedPlaylist === name ? null : name;
+    window.renderMobilePlaylists();
+};
+
+window.selectPlaylistFilterFromMobile = function(p) {
+    selectedPlaylistFilter = p;
+    renderPlaylistChips();
+    filterAndRender();
+    window.toggleMobilePlaylists(false);
+    window.toggleSidebar();
+};
+
+window.filterRepertoireByPlaylist = function(p) {
+    selectedPlaylistFilter = p;
+    renderPlaylistChips();
+    filterAndRender();
+    window.toggleMobilePlaylists(false);
+    window.toggleSidebar();
+};
+
+window.promptCreatePlaylistMobile = async function() {
+    const name = prompt("Digite o nome da nova lista:");
+    if (!name || !name.trim()) return;
+    const cleanName = name.trim();
+    localPlaylists.add(cleanName);
+    renderPlaylistChips();
+    renderMobilePlaylists();
+    window.showToast('📁 Listas', `Lista "${cleanName}" criada!`);
+};
+
+window.deletePlaylist = async function(playlistName) {
+    if (!confirm(`Tem certeza que deseja apagar a lista "${playlistName}"?`)) return;
+    try {
+        const affectedSongs = songsData.filter(s => s.playlists && s.playlists.includes(playlistName));
+        const collectionName = window.appMode === 'letras' ? "repertorio_letras" : "repertorio";
+        const updates = affectedSongs.map(s => {
+            const newPlaylists = s.playlists.filter(p => p !== playlistName);
+            return updateDoc(doc(db, collectionName, s.id), { playlists: newPlaylists });
+        });
+        await Promise.all(updates);
+        localPlaylists.delete(playlistName);
+        if (selectedPlaylistFilter === playlistName) selectedPlaylistFilter = 'all';
+        renderPlaylistChips();
+        filterAndRender();
+        renderMobilePlaylists();
+        window.renderSongViewPlaylists();
+        window.showToast('📁 Listas', `Lista "${playlistName}" apagada com sucesso!`);
+    } catch (err) {
+        console.error("Erro ao apagar lista: ", err);
+        window.showToast('Erro', 'Não foi possível apagar a lista.');
+    }
 };
 
 function renderSetlist() {
@@ -1354,6 +1689,13 @@ function renderSetlist() {
             });
         }
     });
+
+    const setlistBtn = document.getElementById('btn-toggle-setlist-item');
+    if (setlistBtn && currentActiveSongId) {
+        const inSetlist = setlistIds.includes(currentActiveSongId);
+        setlistBtn.textContent = inSetlist ? '⚡ No Acesso Rápido' : '⚡ + Acesso Rápido';
+        setlistBtn.classList.toggle('active', inSetlist);
+    }
 }
 
 window.clearSetlist = function() {
@@ -1800,4 +2142,12 @@ if ('serviceWorker' in navigator) {
             console.log('SW registration failed: ', registrationError);
         });
     });
+}
+
+// Oculta links de download de APK se já estiver rodando como app nativo Android
+if (window.Capacitor && typeof window.Capacitor.isNativePlatform === 'function' && window.Capacitor.isNativePlatform()) {
+    const adminApk = document.getElementById('admin-apk-card');
+    if (adminApk) adminApk.style.display = 'none';
+    const sidebarApk = document.getElementById('btn-sidebar-apk');
+    if (sidebarApk) sidebarApk.style.display = 'none';
 }

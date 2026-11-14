@@ -1,3 +1,5 @@
+node_modules/
+www/
 downloads/
 *.log
 .DS_Store

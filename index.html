@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
     <meta http-equiv="Pragma" content="no-cache">
@@ -14,7 +14,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css?v=1.19.6">
+    <link rel="stylesheet" href="style.css?v=1.19.7">
     <!-- Rastreamento de Falhas e Telemetria em Tempo Real -->
     <script src="error_tracker.js"></script>
 </head>
@@ -93,6 +93,9 @@
                 </div>
                 <span id="admin-status-indicator" class="admin-status-text">Status: Carregando...</span>
                 <button class="btn" id="btn-admin-gate" style="width:100%" onclick="openAdminPanelDirectly()">logar para editar</button>
+                <a href="cifraceros.apk?v=1.19.7" download="cifraceros.apk" class="btn-sidebar-apk" id="btn-sidebar-apk" title="Baixar aplicativo Cifra Ceros para celular Android (.apk)">
+                    📱 Baixar App (.apk)
+                </a>
             </footer>
         </aside>
 
@@ -108,10 +111,40 @@
             <div id="mobile-setlist-overlay" class="mobile-setlist-overlay" onclick="toggleMobileSetlist()">
                 <div class="mobile-setlist-drawer" onclick="event.stopPropagation()">
                     <div class="setlist-header">
-                        <h3 style="margin:0; color: var(--chord-color);">Setlist / Ordem</h3>
-                        <button class="btn btn-danger" onclick="clearSetlist()" style="padding: 4px 8px; font-size: 0.8rem;">Limpar</button>
+                        <div style="display: flex; align-items: center; gap: 8px;">
+                            <span style="font-size: 1.2rem; color: var(--primary-color);">⚡</span>
+                            <div>
+                                <h3 style="margin:0; color: var(--chord-color);">Acesso Rápido</h3>
+                                <small style="color: var(--text-muted); font-size: 0.72rem;">📡 Sincronizado em tempo real com o PC</small>
+                            </div>
+                        </div>
+                        <div style="display: flex; gap: 8px; align-items: center;">
+                            <button type="button" class="btn btn-accent" id="btn-add-current-to-setlist" style="padding: 4px 8px; font-size: 0.8rem;" onclick="window.addCurrentSongToSetlist()">+ Atual</button>
+                            <button type="button" class="btn btn-danger" onclick="clearSetlist()" style="padding: 4px 8px; font-size: 0.8rem;">Limpar</button>
+                            <button type="button" class="btn" onclick="toggleMobileSetlist()" style="padding: 4px 8px; font-size: 0.8rem;">✕</button>
+                        </div>
                     </div>
                     <div id="mobile-setlist-container" class="setlist-container"></div>
+                </div>
+            </div>
+
+            <!-- Gaveta de Listas / Playlists (Inspirada no Cifra Club) -->
+            <div id="mobile-playlists-overlay" class="mobile-setlist-overlay" onclick="window.toggleMobilePlaylists(false)">
+                <div class="mobile-setlist-drawer" onclick="event.stopPropagation()">
+                    <div class="setlist-header">
+                        <div style="display: flex; align-items: center; gap: 8px;">
+                            <span style="font-size: 1.2rem;">📁</span>
+                            <div>
+                                <h3 style="margin: 0; color: var(--chord-color);">Minhas Listas</h3>
+                                <small style="color: var(--text-muted); font-size: 0.72rem;">Playlists da banda e equipe de louvor</small>
+                            </div>
+                        </div>
+                        <div style="display: flex; gap: 8px; align-items: center;">
+                            <button type="button" class="btn btn-accent" style="padding: 4px 10px; font-size: 0.8rem;" onclick="window.promptCreatePlaylistMobile()">+ Nova Lista</button>
+                            <button type="button" class="btn" style="padding: 4px 10px; font-size: 0.8rem;" onclick="window.toggleMobilePlaylists(false)">✕</button>
+                        </div>
+                    </div>
+                    <div id="mobile-playlists-content" class="mobile-playlists-content"></div>
                 </div>
             </div>
 
@@ -185,7 +218,10 @@
                                 <button class="tool-btn" onclick="adjustScrollSpeed(-1)">-</button>
                                 <button class="tool-btn" id="btn-scroll-play" onclick="toggleAutoScroll()">▶</button>
                                 <button class="tool-btn" onclick="adjustScrollSpeed(1)">+</button>
-                                <span id="scroll-speed-display" class="scroll-speed-value">1</span>
+                                <span id="scroll-speed-display" class="scroll-speed-value">100%</span>
+                            </div>
+                            <div class="tool-group" id="sv-quickaccess-container">
+                                <button class="tool-btn" id="btn-toggle-setlist-item" onclick="window.toggleCurrentSongInSetlist()" title="Adicionar ou remover do Acesso Rápido">⚡ + Acesso Rápido</button>
                             </div>
                             <div class="tool-group" id="sv-notes-container">
                                 <button class="tool-btn active" id="btn-toggle-notes" onclick="window.toggleNotesWidget()" title="Mostrar/Ocultar Bloquinho de Notas do Culto">📌 Notas do Culto</button>
@@ -211,6 +247,27 @@
                     <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
                         <button class="btn btn-back" style="margin: 0;" onclick="closeAdmin()">← Voltar para a lista</button>
                         <button id="btn-logout-inside" class="btn btn-danger" style="display: none;" onclick="triggerLogout()">Sair da Conta</button>
+                    </div>
+
+                    <!-- Card de Download do Aplicativo Android (APK) -->
+                    <div class="apk-download-card" id="admin-apk-card">
+                        <div class="apk-card-header">
+                            <span class="apk-icon-big">📱</span>
+                            <div>
+                                <h3 style="margin: 0; color: var(--primary-color);">Aplicativo Android (APK)</h3>
+                                <p style="margin: 4px 0 0 0; font-size: 0.85rem; color: var(--text-muted);">
+                                    Instale o Cifra Ceros diretamente no celular ou tablet Android para uso na banda e equipe de louvor.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="apk-card-buttons">
+                            <a href="cifraceros.apk?v=1.19.7" download="cifraceros.apk" class="btn btn-apk-dl">
+                                ⬇️ Baixar APK Direto (.apk)
+                            </a>
+                            <a href="https://github.com/thiconfig-glitch/cifraceros/raw/main/cifraceros.apk" target="_blank" rel="noopener" class="btn btn-apk-gh">
+                                🐙 Baixar do GitHub
+                            </a>
+                        </div>
                     </div>
                     
                     <div id="login-section">
@@ -270,6 +327,38 @@
             </div>
             <div id="setlist-container" class="setlist-container"></div>
         </aside>
+
+        <!-- Barra de Controle de Rolagem Flutuante (Slider Suave) -->
+        <div id="mobile-scroll-control-bar" class="mobile-scroll-control-bar" style="display: none;">
+            <button type="button" class="scroll-ctrl-play" id="btn-dock-scroll-play" onclick="window.toggleAutoScroll()" title="Iniciar/Pausar Rolagem">▶</button>
+            <div class="scroll-slider-wrapper">
+                <span class="scroll-speed-icon">🐢</span>
+                <input type="range" id="mobile-scroll-range" min="0.2" max="4.0" step="0.05" value="1.0" oninput="window.setScrollSpeedFromRange(this.value)">
+                <span class="scroll-speed-icon">🐇</span>
+            </div>
+            <span id="mobile-scroll-speed-val" class="scroll-speed-badge">1.0x</span>
+            <button type="button" class="scroll-ctrl-close" onclick="window.toggleMobileScrollControl(false)" title="Fechar Painel de Rolagem">✕</button>
+        </div>
+
+        <!-- Barra Flutuante Inferior (Dock Mobile Inspirado no Cifra Club) -->
+        <nav id="mobile-bottom-dock" class="mobile-bottom-dock">
+            <button type="button" class="dock-btn" id="dock-btn-playlists" onclick="window.toggleMobilePlaylists()" title="Listas e Playlists">
+                <span class="dock-icon">📁</span>
+                <span class="dock-label">Listas</span>
+            </button>
+            <button type="button" class="dock-btn" id="dock-btn-songs" onclick="window.toggleMobileSongs()" title="Todas as Músicas">
+                <span class="dock-icon">🎵</span>
+                <span class="dock-label">Músicas</span>
+            </button>
+            <button type="button" class="dock-btn" id="dock-btn-setlist" onclick="window.toggleMobileSetlist()" title="Acesso Rápido / Setlist">
+                <span class="dock-icon">⚡</span>
+                <span class="dock-label">Acesso Rápido</span>
+            </button>
+            <button type="button" class="dock-btn" id="dock-btn-scroll" onclick="window.toggleMobileScrollControl()" title="Rolagem Suave">
+                <span class="dock-icon">📜</span>
+                <span class="dock-label">Rolagem</span>
+            </button>
+        </nav>
     </div>
 
     <!-- Discreet Floating Chat / Automação Popup -->
@@ -304,6 +393,6 @@
 
     <div id="toast-container" class="toast-container"></div>
 
-    <script type="module" src="script.js?v=1.19.6"></script>
+    <script type="module" src="script.js?v=1.19.7"></script>
 </body>
 </html>
