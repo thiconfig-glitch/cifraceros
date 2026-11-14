@@ -1,4 +1,4 @@
-const CACHE_NAME = 'cifraceros-v1.19.6';
+const CACHE_NAME = 'cifraceros-v1.19.8';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
@@ -33,17 +33,38 @@ self.addEventListener('activate', event => {
   self.clients.claim();
 });
 
-// Stale-While-Revalidate Strategy
+// Network-First for Navigation & Stale-While-Revalidate for Assets
 self.addEventListener('fetch', event => {
   if (event.request.method !== 'GET' || !event.request.url.startsWith('http')) {
     return;
   }
 
-  // Bypass firestore/firebase requests from SW cache (Firebase SDK already handles offline data)
-  if (event.request.url.includes('firestore.googleapis.com') || event.request.url.includes('firebase')) {
+  // Bypass firestore/firebase & APK file downloads from cache
+  if (
+    event.request.url.includes('firestore.googleapis.com') || 
+    event.request.url.includes('firebase') ||
+    event.request.url.includes('.apk')
+  ) {
     return;
   }
 
+  // Network-First for HTML navigation to ensure users always see the latest version
+  if (event.request.mode === 'navigate' || (event.request.headers.get('accept') && event.request.headers.get('accept').includes('text/html'))) {
+    event.respondWith(
+      fetch(event.request)
+        .then(networkResponse => {
+          if (networkResponse && networkResponse.status === 200) {
+            const clone = networkResponse.clone();
+            caches.open(CACHE_NAME).then(cache => cache.put(event.request, clone));
+          }
+          return networkResponse;
+        })
+        .catch(() => caches.match(event.request).then(cached => cached || caches.match('./index.html')))
+    );
+    return;
+  }
+
+  // Stale-While-Revalidate for static assets
   event.respondWith(
     caches.match(event.request).then(cachedResponse => {
       const fetchPromise = fetch(event.request).then(networkResponse => {

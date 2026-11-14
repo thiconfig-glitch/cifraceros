@@ -2446,3 +2446,101 @@ body.is-native-app .btn-floating-chat {
         transform: translate(-50%, 0) !important;
     }
 }
+
+/* Top of sidebar APK button */
+.btn-sidebar-top-apk {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    margin-top: 10px;
+    padding: 8px 12px;
+    background: linear-gradient(135deg, rgba(16, 185, 129, 0.15), rgba(59, 130, 246, 0.15));
+    border: 1px solid rgba(16, 185, 129, 0.4);
+    border-radius: 10px;
+    color: #34d399;
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.btn-sidebar-top-apk:hover {
+    background: linear-gradient(135deg, rgba(16, 185, 129, 0.25), rgba(59, 130, 246, 0.25));
+    border-color: #10b981;
+    color: #fff;
+    transform: translateY(-1px);
+}
+
+/* Mobile Topbar APK button */
+.btn-topbar-apk {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    margin-left: auto;
+    padding: 5px 12px;
+    background: rgba(16, 185, 129, 0.2);
+    border: 1px solid rgba(16, 185, 129, 0.4);
+    border-radius: 20px;
+    color: #34d399;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.btn-topbar-apk:hover, .btn-topbar-apk:active {
+    background: var(--success-color);
+    color: #fff;
+}
+
+/* Welcome Screen APK Card */
+.welcome-apk-card {
+    margin-top: 24px;
+    background: linear-gradient(135deg, rgba(16, 185, 129, 0.1), rgba(59, 130, 246, 0.1));
+    border: 1px solid rgba(16, 185, 129, 0.35);
+    border-radius: 16px;
+    padding: 16px 20px;
+    max-width: 520px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.welcome-apk-info {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.welcome-apk-actions {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+/* Mode overlay APK pill */
+.btn-apk-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 18px;
+    background: rgba(16, 185, 129, 0.15);
+    border: 1px solid rgba(16, 185, 129, 0.35);
+    border-radius: 24px;
+    color: #34d399;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.btn-apk-pill:hover {
+    background: rgba(16, 185, 129, 0.25);
+    color: #fff;
+    border-color: #10b981;
+}

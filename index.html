@@ -39,6 +39,11 @@
                     </div>
                 </button>
             </div>
+            <div style="margin-top: 20px; padding-top: 16px; border-top: 1px solid rgba(255,255,255,0.08);">
+                <a href="cifraceros.apk?v=1.19.8" download="cifraceros.apk" class="btn-apk-pill" id="btn-mode-apk">
+                    📱 Baixar Aplicativo Android (.apk)
+                </a>
+            </div>
         </div>
         <div class="mode-selection-box" id="role-selection-box" style="display: none;">
             <h1 style="font-size: 2rem;">Modo Letras</h1>
@@ -72,6 +77,9 @@
                 <div id="main-app">
                     <header>
                         <input type="text" id="search-input" placeholder="Pesquisar título ou trecho..." autocomplete="off">
+                        <a href="cifraceros.apk?v=1.19.8" download="cifraceros.apk" class="btn-sidebar-top-apk" id="btn-sidebar-top-apk" title="Baixar aplicativo Cifra Ceros para Android (.apk)">
+                            📱 Baixar App Android (.apk)
+                        </a>
                     </header>
 
                     <div class="playlist-management">
@@ -93,7 +101,7 @@
                 </div>
                 <span id="admin-status-indicator" class="admin-status-text">Status: Carregando...</span>
                 <button class="btn" id="btn-admin-gate" style="width:100%" onclick="openAdminPanelDirectly()">logar para editar</button>
-                <a href="cifraceros.apk?v=1.19.7" download="cifraceros.apk" class="btn-sidebar-apk" id="btn-sidebar-apk" title="Baixar aplicativo Cifra Ceros para celular Android (.apk)">
+                <a href="cifraceros.apk?v=1.19.8" download="cifraceros.apk" class="btn-sidebar-apk" id="btn-sidebar-apk" title="Baixar aplicativo Cifra Ceros para celular Android (.apk)">
                     📱 Baixar App (.apk)
                 </a>
             </footer>
@@ -103,9 +111,12 @@
             <div class="mobile-top-bar">
                 <button class="hamburger-btn" onclick="toggleSidebar()">☰</button>
                 <h2 style="margin:0; font-size: 1.2rem;">CifrasCeros</h2>
-                <button class="btn btn-accent" id="btn-mobile-disparo" style="display: none; padding: 4px 10px; font-size: 0.8rem; margin-left: auto;" onclick="toggleMobileDisparo()">🚀 Disparo</button>
-                <button class="btn" id="btn-mobile-sync-toggle" style="display: none; padding: 4px 10px; font-size: 0.8rem; margin-left: auto; background-color: var(--success-color); color: white;" onclick="toggleTecladoSync()">📡 ON</button>
-                <button class="hamburger-btn" id="btn-mobile-setlist" style="margin-left: 10px; margin-right: 0;" onclick="toggleMobileSetlist()">☰</button>
+                <a href="cifraceros.apk?v=1.19.8" download="cifraceros.apk" class="btn-topbar-apk" id="btn-topbar-apk" title="Baixar aplicativo para celular Android">
+                    📱 Baixar App
+                </a>
+                <button class="btn btn-accent" id="btn-mobile-disparo" style="display: none; padding: 4px 10px; font-size: 0.8rem;" onclick="toggleMobileDisparo()">🚀 Disparo</button>
+                <button class="btn" id="btn-mobile-sync-toggle" style="display: none; padding: 4px 10px; font-size: 0.8rem; background-color: var(--success-color); color: white;" onclick="toggleTecladoSync()">📡 ON</button>
+                <button class="hamburger-btn" id="btn-mobile-setlist" style="margin-left: 6px; margin-right: 0;" onclick="toggleMobileSetlist()">⚡</button>
             </div>
 
             <div id="mobile-setlist-overlay" class="mobile-setlist-overlay" onclick="toggleMobileSetlist()">
@@ -164,6 +175,25 @@
             <div id="welcome-view">
                 <h1>🎹 CifrasCeros</h1>
                 <p>Selecione uma música na lista ao lado para começar.</p>
+
+                <!-- Card de Download do APK em Destaque na Tela Inicial -->
+                <div class="welcome-apk-card" id="welcome-apk-card">
+                    <div class="welcome-apk-info">
+                        <span style="font-size: 2.2rem;">📱</span>
+                        <div style="text-align: left;">
+                            <strong style="color: #fff; font-size: 1.05rem; display: block;">Aplicativo Android Oficial (APK)</strong>
+                            <span style="color: var(--text-muted); font-size: 0.85rem;">Instale no celular ou tablet Android para uso na banda e equipe de louvor.</span>
+                        </div>
+                    </div>
+                    <div class="welcome-apk-actions">
+                        <a href="cifraceros.apk?v=1.19.8" download="cifraceros.apk" class="btn btn-apk-dl">
+                            ⬇️ Baixar APK Direto
+                        </a>
+                        <a href="https://github.com/thiconfig-glitch/cifraceros/raw/main/cifraceros.apk" target="_blank" rel="noopener" class="btn btn-apk-gh">
+                            🐙 Baixar do GitHub
+                        </a>
+                    </div>
+                </div>
 
                 <div class="culto-notes-widget welcome-notes-box">
                     <div class="notes-widget-header">
@@ -261,7 +291,7 @@
                             </div>
                         </div>
                         <div class="apk-card-buttons">
-                            <a href="cifraceros.apk?v=1.19.7" download="cifraceros.apk" class="btn btn-apk-dl">
+                            <a href="cifraceros.apk?v=1.19.8" download="cifraceros.apk" class="btn btn-apk-dl">
                                 ⬇️ Baixar APK Direto (.apk)
                             </a>
                             <a href="https://github.com/thiconfig-glitch/cifraceros/raw/main/cifraceros.apk" target="_blank" rel="noopener" class="btn btn-apk-gh">

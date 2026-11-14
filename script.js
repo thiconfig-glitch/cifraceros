@@ -2237,10 +2237,17 @@ if ('serviceWorker' in navigator) {
 // Oculta links de download de APK se já estiver rodando como app nativo Android
 if (window.Capacitor && typeof window.Capacitor.isNativePlatform === 'function' && window.Capacitor.isNativePlatform()) {
     document.body.classList.add('is-native-app');
-    const adminApk = document.getElementById('admin-apk-card');
-    if (adminApk) adminApk.style.display = 'none';
-    const sidebarApk = document.getElementById('btn-sidebar-apk');
-    if (sidebarApk) sidebarApk.style.display = 'none';
+    const apkElements = [
+        document.getElementById('admin-apk-card'),
+        document.getElementById('btn-sidebar-apk'),
+        document.getElementById('btn-sidebar-top-apk'),
+        document.getElementById('btn-topbar-apk'),
+        document.getElementById('welcome-apk-card'),
+        document.getElementById('btn-mode-apk')
+    ];
+    apkElements.forEach(el => {
+        if (el) el.style.display = 'none';
+    });
 }
 
 // ==========================================
