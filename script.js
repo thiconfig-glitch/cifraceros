@@ -796,8 +796,20 @@ function formatCifraText(text) {
         } else if (trimmed === '') {
             flushBlock();
         } else {
-            if (window.appMode !== 'letras' && isChordLine(line)) {
-                line = line.replace(/(\S+)/g, '<span class="chord">$1</span>');
+            if (window.appMode !== 'letras') {
+                // Section tags formatting: [Intro], [Verso 1], [Refrão], [Intro] A D Bm E
+                const sectionMatch = line.match(/^(\s*)(\[[^\]]+\])(\s*)$/);
+                const sectionWithChordsMatch = line.match(/^(\s*)(\[[^\]]+\])(\s+)(.*)$/);
+
+                if (sectionMatch) {
+                    line = `${sectionMatch[1]}<span class="cifra-section-tag">${sectionMatch[2]}</span>${sectionMatch[3]}`;
+                } else if (sectionWithChordsMatch && isChordLine(sectionWithChordsMatch[4])) {
+                    const tagPart = `<span class="cifra-section-tag">${sectionWithChordsMatch[2]}</span>`;
+                    const chordsPart = sectionWithChordsMatch[4].replace(/(\S+)/g, '<span class="chord">$1</span>');
+                    line = `${sectionWithChordsMatch[1]}${tagPart}${sectionWithChordsMatch[3]}${chordsPart}`;
+                } else if (isChordLine(line)) {
+                    line = line.replace(/(\S+)/g, '<span class="chord">$1</span>');
+                }
             }
             currentBlock.push(line);
         }
@@ -889,58 +901,107 @@ window.clearSongNote = function() {
 };
 
 window.autoFitCifra = function() {
-    if (window.appMode === 'letras') return;
-    const pre = document.getElementById('sv-content');
-    if (!pre) return;
-    if (pre.classList.contains('two-columns')) return;
-
-    let size = 1.3;
-    pre.style.fontSize = `${size}rem`;
-    
-    // Decrease font size until it fits without scrollbar
-    while (pre.scrollWidth > pre.clientWidth && size > 0.5) {
-        size -= 0.05;
-        pre.style.fontSize = `${size}rem`;
+    if (window.appMode === 'letras') {
+        const isTablet = window.innerWidth >= 768;
+        const pre = document.getElementById('sv-content');
+        if (pre) pre.style.fontSize = isTablet ? '1.35rem' : '1.15rem';
+        return;
     }
-    
-    currentFontSize = size;
+    const pre = document.getElementById('sv-content');
+    if (!pre || pre.classList.contains('two-columns')) return;
+
+    const isLandscape = window.innerWidth > window.innerHeight;
+    const isTabletOrDesktop = window.innerWidth >= 768;
+
+    // Responsive initial font size based on device orientation
+    let size = (isTabletOrDesktop && isLandscape) ? 1.38 : (isTabletOrDesktop ? 1.28 : 1.18);
+    pre.style.fontSize = `${size}rem`;
+
+    // Decrease font size smoothly until it fits cleanly without horizontal scrollbar
+    while (pre.scrollWidth > pre.clientWidth + 2 && size > 0.65) {
+        size -= 0.02;
+        pre.style.fontSize = `${size.toFixed(2)}rem`;
+    }
+
+    currentFontSize = parseFloat(size.toFixed(2));
 };
 
 window.autoFitTwoColumns = function() {
     const pre = document.getElementById('sv-content');
     if (!pre || !pre.classList.contains('two-columns')) return;
-    
-    const colWidth = (pre.clientWidth - 48) / 2;
-    if (colWidth <= 60) return;
+
+    if (window.appMode === 'letras') {
+        const isTablet = window.innerWidth >= 768;
+        pre.style.fontSize = isTablet ? '1.25rem' : '1.05rem';
+        return;
+    }
+
+    // Dynamic column gap based on tablet/mobile viewport width
+    const gap = window.innerWidth <= 768 ? 20 : (window.innerWidth <= 1024 ? 30 : 40);
+    const colWidth = (pre.clientWidth - gap) / 2;
+    if (colWidth <= 80) return;
 
     const lines = pre.innerText.split('\n');
     let maxLen = 0;
-    lines.forEach(l => {
-        const len = l.trimEnd().length;
-        if (len > maxLen) maxLen = len;
-    });
+    for (let l of lines) {
+        const trimmed = l.trimEnd();
+        // Ignore empty lines, pure section tags, or long separator lines
+        if (!trimmed || /^[-=_~*#]{6,}$/.test(trimmed)) continue;
+        if (trimmed.length > maxLen) {
+            maxLen = trimmed.length;
+        }
+    }
 
     if (maxLen === 0) return;
 
-    // In JetBrains Mono monospace font, character width ≈ fontSize * 9.6px
-    const targetSize = colWidth / (maxLen * 9.6);
-    
-    // Clamp to a readable range (0.70rem to 1.10rem)
-    let optimal = Math.max(0.70, Math.min(1.10, Math.floor(targetSize * 20) / 20));
+    // JetBrains Mono monospace character width ≈ fontSizeInRem * 9.6px
+    // 4% safe margin to prevent any line breaks
+    const safeColWidth = colWidth * 0.96;
+    const targetSize = safeColWidth / (maxLen * 9.6);
+
+    const isLandscape = window.innerWidth > window.innerHeight;
+    const isTabletOrDesktop = window.innerWidth >= 768;
+
+    const minFont = 0.62;
+    const maxFont = (isTabletOrDesktop && isLandscape) ? 1.28 : (isTabletOrDesktop ? 1.05 : 0.88);
+
+    let optimal = Math.max(minFont, Math.min(maxFont, Math.round(targetSize * 100) / 100));
     currentFontSize = optimal;
     pre.style.fontSize = `${currentFontSize}rem`;
 };
 
-window.addEventListener('resize', () => {
-    if (document.getElementById('song-view').style.display !== 'none') {
-        const pre = document.getElementById('sv-content');
-        if (pre && pre.classList.contains('two-columns')) {
-            window.autoFitTwoColumns();
-        } else {
-            window.autoFitCifra();
+// Responsive Rotation & Resize Engine with settlement debouncing
+let resizeFitTimer = null;
+window.triggerResponsiveAutoFit = function() {
+    clearTimeout(resizeFitTimer);
+    resizeFitTimer = setTimeout(() => {
+        const songView = document.getElementById('song-view');
+        if (songView && songView.style.display !== 'none') {
+            const pre = document.getElementById('sv-content');
+            if (pre) {
+                if (pre.classList.contains('two-columns')) {
+                    window.autoFitTwoColumns();
+                } else {
+                    window.autoFitCifra();
+                }
+            }
         }
-    }
+    }, 120);
+};
+
+window.addEventListener('resize', window.triggerResponsiveAutoFit);
+window.addEventListener('orientationchange', () => {
+    setTimeout(window.triggerResponsiveAutoFit, 100);
+    setTimeout(window.triggerResponsiveAutoFit, 300);
 });
+if (window.screen && window.screen.orientation) {
+    try {
+        window.screen.orientation.addEventListener('change', () => {
+            setTimeout(window.triggerResponsiveAutoFit, 100);
+            setTimeout(window.triggerResponsiveAutoFit, 300);
+        });
+    } catch (e) {}
+}
 
 window.openSong = function(song) {
     hideAll();
@@ -1001,8 +1062,8 @@ window.openSong = function(song) {
         let isNotesVisible = true;
         if (savedNotesVisible !== null) {
             isNotesVisible = savedNotesVisible === 'true';
-        } else if (window.innerWidth <= 768) {
-            isNotesVisible = false; // Oculto por padrão no mobile
+        } else if (window.innerWidth <= 1280 || (window.matchMedia && window.matchMedia('(hover: none) and (pointer: coarse)').matches)) {
+            isNotesVisible = false; // Oculto por padrão no mobile e tablet
         }
         if (widget) {
             widget.style.display = isNotesVisible ? 'flex' : 'none';
@@ -1022,6 +1083,7 @@ window.openSong = function(song) {
             window.autoFitCifra();
         }
     }, 50);
+    setTimeout(window.triggerResponsiveAutoFit, 180);
 
     window.renderSongViewPlaylists();
     const setlistBtn = document.getElementById('btn-toggle-setlist-item');
@@ -1826,7 +1888,12 @@ window.toggleNotesWidget = function() {
     localStorage.setItem('cifraceros_notes_visible', makeVisible ? 'true' : 'false');
     
     setTimeout(() => {
-        window.autoFitCifra();
+        const pre = document.getElementById('sv-content');
+        if (pre && pre.classList.contains('two-columns')) {
+            window.autoFitTwoColumns();
+        } else {
+            window.autoFitCifra();
+        }
     }, 50);
 };
 
@@ -2169,6 +2236,7 @@ if ('serviceWorker' in navigator) {
 
 // Oculta links de download de APK se já estiver rodando como app nativo Android
 if (window.Capacitor && typeof window.Capacitor.isNativePlatform === 'function' && window.Capacitor.isNativePlatform()) {
+    document.body.classList.add('is-native-app');
     const adminApk = document.getElementById('admin-apk-card');
     if (adminApk) adminApk.style.display = 'none';
     const sidebarApk = document.getElementById('btn-sidebar-apk');
