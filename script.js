@@ -104,6 +104,8 @@ window.toggleSidebar = function() {
 window.closeSidebar = function() {
     document.getElementById('sidebar').classList.remove('open');
     document.getElementById('mobile-overlay').classList.remove('open');
+    const dockBtnSongs = document.getElementById('dock-btn-songs');
+    if (dockBtnSongs) dockBtnSongs.classList.remove('active');
 };
 
 window.openAdminPanelDirectly = function() {
@@ -1446,8 +1448,12 @@ window.toggleMobileSongs = function() {
     if (disparoOverlay) disparoOverlay.classList.remove('open');
     
     window.toggleSidebar();
+    const isSidebarOpen = document.getElementById('sidebar').classList.contains('open');
+    const dockBtnSongs = document.getElementById('dock-btn-songs');
+    if (dockBtnSongs) dockBtnSongs.classList.toggle('active', isSidebarOpen);
+    
     const searchInput = document.getElementById('search-input');
-    if (searchInput && document.getElementById('sidebar').classList.contains('open')) {
+    if (searchInput && isSidebarOpen) {
         setTimeout(() => searchInput.focus(), 250);
     }
 };
@@ -1459,7 +1465,15 @@ window.toggleMobileSetlist = function() {
     if (disparoOverlay) disparoOverlay.classList.remove('open');
     
     const overlay = document.getElementById('mobile-setlist-overlay');
-    if (overlay) overlay.classList.toggle('open');
+    if (overlay) {
+        overlay.classList.toggle('open');
+        const isOpen = overlay.classList.contains('open');
+        if (isOpen) {
+            renderSetlist();
+        }
+        const dockBtnSetlist = document.getElementById('dock-btn-setlist');
+        if (dockBtnSetlist) dockBtnSetlist.classList.toggle('active', isOpen);
+    }
 };
 
 window.addCurrentSongToSetlist = function() {
@@ -1509,6 +1523,8 @@ window.toggleMobilePlaylists = function(forceState) {
         window.closeSidebar();
         const setlistOverlay = document.getElementById('mobile-setlist-overlay');
         if (setlistOverlay) setlistOverlay.classList.remove('open');
+        const dockBtnSetlist = document.getElementById('dock-btn-setlist');
+        if (dockBtnSetlist) dockBtnSetlist.classList.remove('active');
         const disparoOverlay = document.getElementById('mobile-disparo-overlay');
         if (disparoOverlay) disparoOverlay.classList.remove('open');
         
@@ -1517,6 +1533,9 @@ window.toggleMobilePlaylists = function(forceState) {
     } else {
         overlay.classList.remove('open');
     }
+
+    const dockBtnPlaylists = document.getElementById('dock-btn-playlists');
+    if (dockBtnPlaylists) dockBtnPlaylists.classList.toggle('active', nextState);
 };
 
 window.renderMobilePlaylists = function() {
@@ -1530,10 +1549,10 @@ window.renderMobilePlaylists = function() {
     allCard.innerHTML = `
         <div class="playlist-card-header" onclick="window.selectPlaylistFilterFromMobile('all')">
             <div class="playlist-title-group">
-                <span style="font-size: 1.2rem;">🎵</span>
+                <span style="font-size: 1.3rem;">🎵</span>
                 <div>
                     <strong>Todas as Músicas</strong>
-                    <div style="font-size: 0.72rem; color: var(--text-muted);">Repertório completo</div>
+                    <div style="font-size: 0.75rem; color: var(--text-muted);">Ver todo o repertório</div>
                 </div>
             </div>
             <span class="playlist-badge-count">${songsData.length}</span>
@@ -1558,7 +1577,7 @@ window.renderMobilePlaylists = function() {
         const isExpanded = expandedPlaylist === playlistName;
         
         const card = document.createElement('div');
-        card.className = 'playlist-card';
+        card.className = `playlist-card ${isExpanded ? 'is-expanded' : ''}`;
 
         const header = document.createElement('div');
         header.className = 'playlist-card-header';
@@ -1566,16 +1585,19 @@ window.renderMobilePlaylists = function() {
         const safePName = escapeHTML(playlistName);
         
         header.innerHTML = `
-            <div class="playlist-title-group" onclick="window.togglePlaylistExpansion('${safePName}')">
-                <span style="font-size: 1.2rem;">${isExpanded ? '📂' : '📁'}</span>
+            <div class="playlist-title-group" onclick="window.togglePlaylistExpansion('${safePName}')" style="cursor: pointer; flex-grow: 1;">
+                <span style="font-size: 1.3rem;">${isExpanded ? '📂' : '📁'}</span>
                 <div>
                     <strong>${safePName}</strong>
-                    <div style="font-size: 0.72rem; color: var(--text-muted);">${songsInList.length} ${songsInList.length === 1 ? 'música' : 'músicas'}</div>
+                    <div style="font-size: 0.75rem; color: var(--text-muted);">${songsInList.length} ${songsInList.length === 1 ? 'música' : 'músicas'}</div>
                 </div>
             </div>
             <div class="playlist-actions-group">
-                <button type="button" class="playlist-action-btn" onclick="window.filterRepertoireByPlaylist('${safePName}')" title="Filtrar repertório">Filtrar</button>
-                <button type="button" class="playlist-action-btn btn-delete" onclick="window.deletePlaylist('${safePName}')" title="Apagar esta lista">🗑️</button>
+                <span class="playlist-badge-count" style="margin-right: 4px;">${songsInList.length}</span>
+                <button type="button" class="playlist-action-btn playlist-toggle-btn" onclick="window.togglePlaylistExpansion('${safePName}')" title="${isExpanded ? 'Recolher' : 'Ver músicas'}">
+                    ${isExpanded ? '▲' : '▼'}
+                </button>
+                <button type="button" class="playlist-action-btn btn-delete" onclick="event.stopPropagation(); window.deletePlaylist('${safePName}')" title="Apagar esta lista">🗑️</button>
             </div>
         `;
         card.appendChild(header);
@@ -1584,14 +1606,14 @@ window.renderMobilePlaylists = function() {
             const songsContainer = document.createElement('div');
             songsContainer.className = 'playlist-songs-expanded';
             
-            // Botão para adicionar a música atualmente aberta a esta lista (se houver)
+            // Botão sutil para adicionar a música atualmente aberta a esta lista (se houver)
             if (currentActiveSongId) {
                 const currentSong = songsData.find(s => s.id === currentActiveSongId);
                 if (currentSong && (!currentSong.playlists || !currentSong.playlists.includes(playlistName))) {
                     const addCurrentRow = document.createElement('button');
-                    addCurrentRow.className = 'btn btn-accent';
-                    addCurrentRow.style.cssText = 'width: 100%; padding: 8px 12px; font-size: 0.82rem; margin-bottom: 6px; border-radius: 8px; font-weight: 600;';
-                    addCurrentRow.textContent = `+ Adicionar "${currentSong.title}" a esta lista`;
+                    addCurrentRow.type = 'button';
+                    addCurrentRow.className = 'btn-add-current-song';
+                    addCurrentRow.innerHTML = `➕ Adicionar <strong>"${escapeHTML(currentSong.title)}"</strong> a esta lista`;
                     addCurrentRow.onclick = async () => {
                         await window.toggleSongPlaylistAssignment(currentSong.id, playlistName);
                         window.renderMobilePlaylists();
@@ -1603,7 +1625,7 @@ window.renderMobilePlaylists = function() {
 
             if (songsInList.length === 0) {
                 const emptySong = document.createElement('div');
-                emptySong.style.cssText = 'padding: 12px; text-align: center; color: var(--text-muted); font-size: 0.82rem;';
+                emptySong.style.cssText = 'padding: 14px; text-align: center; color: var(--text-muted); font-size: 0.85rem;';
                 emptySong.textContent = 'Nenhuma música nesta lista ainda.';
                 songsContainer.appendChild(emptySong);
             } else {
@@ -1611,27 +1633,30 @@ window.renderMobilePlaylists = function() {
                     const row = document.createElement('div');
                     row.className = 'playlist-song-row';
                     
-                    const titleSpan = document.createElement('span');
-                    titleSpan.className = 'song-name';
-                    titleSpan.textContent = song.title;
-                    titleSpan.onclick = () => {
+                    const safeTitle = escapeHTML(song.title);
+                    const safeTrans = song.transpose ? `<span class="song-transpose-tag" style="margin-left: 6px;">Tom: ${escapeHTML(song.transpose)}</span>` : '';
+                    
+                    row.innerHTML = `
+                        <div class="playlist-song-clickable" style="display: flex; align-items: center; gap: 8px; flex-grow: 1; min-width: 0;">
+                            <span style="font-size: 0.9rem; color: var(--chord-color);">🎵</span>
+                            <span class="song-name" style="font-size: 0.92rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">${safeTitle}</span>
+                            ${safeTrans}
+                        </div>
+                        <button type="button" class="playlist-song-remove" title="Remover desta lista">✕</button>
+                    `;
+                    
+                    row.querySelector('.playlist-song-clickable').onclick = () => {
                         window.openSong(song);
                         window.toggleMobilePlaylists(false);
                     };
                     
-                    const removeSongBtn = document.createElement('button');
-                    removeSongBtn.className = 'playlist-song-remove';
-                    removeSongBtn.title = 'Remover desta lista';
-                    removeSongBtn.textContent = '✕';
-                    removeSongBtn.onclick = async (e) => {
+                    row.querySelector('.playlist-song-remove').onclick = async (e) => {
                         e.stopPropagation();
                         await window.toggleSongPlaylistAssignment(song.id, playlistName);
                         window.renderMobilePlaylists();
                         window.renderSongViewPlaylists();
                     };
                     
-                    row.appendChild(titleSpan);
-                    row.appendChild(removeSongBtn);
                     songsContainer.appendChild(row);
                 });
             }
