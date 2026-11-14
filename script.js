@@ -178,6 +178,7 @@ function startListeningToSongs(mode) {
     const collectionName = mode === 'letras' ? "repertorio_letras" : "repertorio";
 
     const listener = onSnapshot(collection(db, collectionName), (querySnapshot) => {
+        const fromCache = querySnapshot.metadata.fromCache;
         const newData = querySnapshot.docs.map(d => {
             const data = d.data();
             let pList = [];
@@ -188,6 +189,27 @@ function startListeningToSongs(mode) {
         });
         
         newData.sort((a, b) => a.title.localeCompare(b.title));
+
+        const now = new Date();
+        const formattedDate = now.toLocaleDateString('pt-BR', { day: '2-digit', month: '2-digit' });
+        const formattedTime = now.toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit' });
+
+        if (!fromCache) {
+            // Atualização recebida fresca da nuvem em tempo real
+            const syncInfo = {
+                timestamp: now.getTime(),
+                dateStr: `${formattedDate} às ${formattedTime}`,
+                count: newData.length
+            };
+            localStorage.setItem(`cifraceros_last_sync_${mode}`, JSON.stringify(syncInfo));
+            
+            if (!isInitialLoad && isDataLoaded) {
+                window.showToast('✨ Repertório Atualizado', `${newData.length} músicas sincronizadas em tempo real.`);
+            }
+        } else {
+            // Carregado da memória offline (IndexedDB local)
+            window.notifyOfflineState(mode, newData.length);
+        }
         
         if (mode === 'cifras') {
             songsDataCifras = newData;
@@ -1902,10 +1924,11 @@ window.showToast = function(sender, text) {
 
     const toast = document.createElement('div');
     toast.className = 'toast';
+    const safeSender = escapeHTML(sender);
     const safeText = escapeHTML(text);
     
     toast.innerHTML = `
-        <div class="toast-sender">Nova mensagem: ${sender}</div>
+        <div class="toast-sender">${safeSender}</div>
         <div class="toast-text">${safeText}</div>
     `;
     
@@ -2151,3 +2174,44 @@ if (window.Capacitor && typeof window.Capacitor.isNativePlatform === 'function' 
     const sidebarApk = document.getElementById('btn-sidebar-apk');
     if (sidebarApk) sidebarApk.style.display = 'none';
 }
+
+// ==========================================
+// RASTREAMENTO DE SINCRONIA E STATUS OFFLINE
+// ==========================================
+let hasNotifiedOffline = false;
+
+window.notifyOfflineState = function(mode, songCount) {
+    if (hasNotifiedOffline) return;
+    hasNotifiedOffline = true;
+
+    const savedRaw = localStorage.getItem(`cifraceros_last_sync_${mode}`);
+    let infoText = "";
+    if (savedRaw) {
+        try {
+            const parsed = JSON.parse(savedRaw);
+            infoText = `Usando repertório salvo em ${parsed.dateStr} (${songCount || parsed.count} músicas).`;
+        } catch (e) {
+            infoText = `Usando repertório local: ${songCount} músicas salvas no aparelho.`;
+        }
+    } else {
+        infoText = `Usando repertório local: ${songCount} músicas salvas no aparelho.`;
+    }
+
+    window.showToast('📴 Modo Offline', infoText);
+    
+    const adminStatus = document.getElementById('admin-status-indicator');
+    if (adminStatus) {
+        adminStatus.innerHTML = `📴 Offline <small style="display:block; font-size:0.75rem; color:var(--text-muted); font-weight:normal;">${infoText}</small>`;
+    }
+};
+
+window.addEventListener('offline', () => {
+    hasNotifiedOffline = false;
+    const mode = window.appMode || 'cifras';
+    window.notifyOfflineState(mode, songsData.length);
+});
+
+window.addEventListener('online', () => {
+    hasNotifiedOffline = false;
+    window.showToast('🟢 Internet Conectada', 'Sincronizando com a nuvem...');
+});
