@@ -531,6 +531,17 @@ function renderPlaylistChips() {
         };
         container.appendChild(btn);
     });
+
+    if (localPlaylists.size > 0 && typeof window.toggleMobilePlaylists === 'function') {
+        const btnDrawer = document.createElement('button');
+        btnDrawer.type = 'button';
+        btnDrawer.className = 'chip chip-playlists-drawer-btn';
+        btnDrawer.title = 'Abrir painel completo de listas e playlists';
+        btnDrawer.innerHTML = '📁 Ver Listas';
+        btnDrawer.style.cssText = 'border-color: rgba(251, 191, 36, 0.4); color: var(--chord-color);';
+        btnDrawer.onclick = () => window.toggleMobilePlaylists(true);
+        container.appendChild(btnDrawer);
+    }
 }
 
 window.createNewPlaylistGroup = function() {
