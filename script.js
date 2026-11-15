@@ -1766,7 +1766,7 @@ window.deletePlaylist = async function(playlistName) {
         return;
     }
 
-    if (!confirm(`Tem certeza que deseja apagar a lista "${playlistName}"?`)) return;
+    if (!confirm(`Tem certeza que deseja apagar a lista "${playlistName}"?\n\n(Fique tranquilo: as músicas continuarão salvas e intactas no repertório geral, apenas a pasta da lista será excluída).`)) return;
 
     try {
         const affectedSongs = songsData.filter(s => s.playlists && s.playlists.includes(playlistName));
