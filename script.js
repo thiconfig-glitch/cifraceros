@@ -2553,36 +2553,6 @@ if (isNativePlatform) {
     });
 }
 
-// Detecção precisa de Tablet (ex: Galaxy Tab S6 Lite) para aplicar layout ergonômico
-// NUNCA afeta o computador/desktop com mouse!
-window.checkAndApplyDeviceMode = function() {
-    const isNative = !!(window.Capacitor && typeof window.Capacitor.isNativePlatform === 'function' && window.Capacitor.isNativePlatform());
-    const isTouch = window.matchMedia && window.matchMedia('(hover: none) and (pointer: coarse)').matches;
-    const isAndroid = /android/i.test(navigator.userAgent);
-    const minDim = Math.min(window.innerWidth, window.innerHeight);
-    const maxDim = Math.max(window.innerWidth, window.innerHeight);
-
-    // Tablet: tela de pelo menos 600px de menor dimensão e 960px de maior dimensão
-    const isTabletDims = minDim >= 600 && maxDim >= 960;
-
-    // Desktop com mouse puro (nunca é tablet)
-    const isDesktopMouse = window.matchMedia && window.matchMedia('(hover: hover) and (pointer: fine)').matches && !isNative;
-
-    const isTablet = (isNative || isTouch || isAndroid) && isTabletDims && !isDesktopMouse;
-
-    if (isTablet) {
-        document.body.classList.add('is-tablet-device');
-    } else {
-        document.body.classList.remove('is-tablet-device');
-    }
-};
-
-window.checkAndApplyDeviceMode();
-window.addEventListener('resize', window.checkAndApplyDeviceMode);
-window.addEventListener('orientationchange', () => {
-    setTimeout(window.checkAndApplyDeviceMode, 150);
-});
-
 // ==========================================
 // RASTREAMENTO DE SINCRONIA E STATUS OFFLINE
 // ==========================================

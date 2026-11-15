@@ -288,209 +288,198 @@ body {
 }
 
 /* ==========================================================================
-   LAYOUT ESPECÍFICO PARA TABLET (Ex: Samsung Galaxy Tab S6 Lite)
-   Aplica-se EXCLUSIVAMENTE quando body possui a classe .is-tablet-device.
-   No computador/desktop, esta classe NÃO existe, mantendo o site 100% intacto!
+   LAYOUT TABLET EXCLUSIVO DO APP ANDROID (APK) NO GALAXY TAB S6 LITE
+   Aplica-se EXCLUSIVAMENTE dentro do APK Android nativo (body.is-native-app).
+   No navegador do computador/site web, NUNCA é aplicado (zero impacto no PC!).
    ========================================================================== */
-body.is-tablet-device .mobile-top-bar { display: none !important; }
-body.is-tablet-device .mobile-bottom-dock { display: none !important; }
-body.is-tablet-device .mobile-overlay { display: none !important; }
+@media (min-width: 768px) {
+    body.is-native-app .sidebar {
+        position: relative !important;
+        transform: none !important;
+        width: 235px !important;
+        min-width: 215px !important;
+        max-width: 245px !important;
+        z-index: 100 !important;
+        box-shadow: none !important;
+        transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.2s ease !important;
+    }
 
-/* Barras laterais compactas e proporcionais para o tablet */
-body.is-tablet-device .sidebar {
-    position: relative !important;
-    transform: none !important;
-    width: 235px !important;
-    min-width: 215px !important;
-    max-width: 245px !important;
-    z-index: 100 !important;
-    box-shadow: none !important;
-    transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.2s ease !important;
-}
+    body.is-native-app .sidebar-content {
+        padding: 0 10px 16px 10px !important;
+    }
 
-body.is-tablet-device .sidebar-content {
-    padding: 0 10px 16px 10px !important;
-}
+    body.is-native-app #search-input {
+        padding: 10px 12px !important;
+        font-size: 0.9rem !important;
+        border-radius: 12px !important;
+    }
 
-body.is-tablet-device #search-input {
-    padding: 10px 12px !important;
-    font-size: 0.9rem !important;
-    border-radius: 12px !important;
-}
+    body.is-native-app .song-clickable {
+        padding: 8px 10px !important;
+        gap: 6px !important;
+    }
 
-body.is-tablet-device .song-clickable {
-    padding: 8px 10px !important;
-    gap: 6px !important;
-}
+    body.is-native-app .song-title-text {
+        font-size: 0.88rem !important;
+    }
 
-body.is-tablet-device .song-title-text {
-    font-size: 0.88rem !important;
-}
+    body.is-native-app .song-transpose-tag {
+        font-size: 0.68rem !important;
+        padding: 2px 5px !important;
+    }
 
-body.is-tablet-device .song-transpose-tag {
-    font-size: 0.68rem !important;
-    padding: 2px 5px !important;
-}
+    body.is-native-app .right-sidebar {
+        display: flex !important;
+        width: 195px !important;
+        min-width: 175px !important;
+        max-width: 205px !important;
+        padding: 14px 10px !important;
+        transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.2s ease !important;
+    }
 
-/* Barra direita de Setlist proporcional no tablet */
-body.is-tablet-device .right-sidebar {
-    display: flex !important;
-    width: 195px !important;
-    min-width: 175px !important;
-    max-width: 205px !important;
-    padding: 14px 10px !important;
-    transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.2s ease !important;
-}
+    body.is-native-app .setlist-header {
+        padding: 12px 10px !important;
+    }
 
-body.is-tablet-device .setlist-header {
-    padding: 12px 10px !important;
-}
+    body.is-native-app .setlist-header h3 {
+        font-size: 0.92rem !important;
+    }
 
-body.is-tablet-device .setlist-header h3 {
-    font-size: 0.92rem !important;
-}
+    body.is-native-app .setlist-item {
+        font-size: 0.85rem !important;
+        margin-bottom: 6px !important;
+    }
 
-body.is-tablet-device .setlist-item {
-    font-size: 0.85rem !important;
-    margin-bottom: 6px !important;
-}
+    body.is-native-app .setlist-item .song-clickable {
+        padding: 8px 10px !important;
+    }
 
-body.is-tablet-device .setlist-item .song-clickable {
-    padding: 8px 10px !important;
-}
+    body.is-native-app .remove-setlist-btn {
+        padding: 8px !important;
+        font-size: 0.9rem !important;
+    }
 
-body.is-tablet-device .remove-setlist-btn {
-    padding: 8px !important;
-    font-size: 0.9rem !important;
-}
+    body.is-native-app .main-content {
+        padding: 0 10px !important;
+        overflow-y: auto !important;
+        flex-grow: 1 !important;
+        min-width: 0 !important;
+    }
 
-/* Área central de cifras e letras GANHA ESPAÇO no tablet */
-body.is-tablet-device .main-content {
-    padding: 0 10px !important;
-    overflow-y: auto !important;
-    flex-grow: 1 !important;
-    min-width: 0 !important;
-}
+    body.is-native-app .container {
+        padding: 6px 8px !important;
+        max-width: 100% !important;
+    }
 
-body.is-tablet-device .container {
-    padding: 6px 8px !important;
-    max-width: 100% !important;
-}
+    body.is-native-app #song-view {
+        padding: 14px 18px !important;
+        border-radius: 18px !important;
+    }
 
-body.is-tablet-device #song-view {
-    padding: 14px 18px !important;
-    border-radius: 18px !important;
-}
+    body.is-native-app .song-header {
+        padding-bottom: 12px !important;
+        margin-bottom: 12px !important;
+    }
 
-body.is-tablet-device .song-header {
-    padding-bottom: 12px !important;
-    margin-bottom: 12px !important;
-}
+    body.is-native-app .song-title {
+        font-size: 1.55rem !important;
+        margin-bottom: 0 !important;
+    }
 
-body.is-tablet-device .song-title {
-    font-size: 1.55rem !important;
-    margin-bottom: 0 !important;
-}
+    body.is-native-app .btn-back {
+        display: none !important;
+    }
 
-body.is-tablet-device .btn-back {
-    display: none !important;
-}
+    body.is-native-app .song-tools {
+        padding: 8px 12px !important;
+        gap: 8px 10px !important;
+        margin-bottom: 12px !important;
+        border-radius: 12px !important;
+    }
 
-/* Ferramentas e botões otimizados no tablet */
-body.is-tablet-device .song-tools {
-    padding: 8px 12px !important;
-    gap: 8px 10px !important;
-    margin-bottom: 12px !important;
-    border-radius: 12px !important;
-}
+    body.is-native-app .tool-group {
+        gap: 6px !important;
+    }
 
-body.is-tablet-device .tool-group {
-    gap: 6px !important;
-}
+    body.is-native-app .tool-label {
+        font-size: 0.75rem !important;
+    }
 
-body.is-tablet-device .tool-label {
-    font-size: 0.75rem !important;
-}
+    body.is-native-app .tool-btn {
+        height: 34px !important;
+        min-width: 34px !important;
+        font-size: 0.82rem !important;
+        padding: 0 8px !important;
+    }
 
-body.is-tablet-device .tool-btn {
-    height: 34px !important;
-    min-width: 34px !important;
-    font-size: 0.82rem !important;
-    padding: 0 8px !important;
-}
+    body.is-native-app .transpose-badge,
+    body.is-native-app .scroll-speed-value {
+        font-size: 0.78rem !important;
+        padding: 3px 6px !important;
+    }
 
-body.is-tablet-device .transpose-badge,
-body.is-tablet-device .scroll-speed-value {
-    font-size: 0.78rem !important;
-    padding: 3px 6px !important;
-}
+    body.is-native-app #sv-content.two-columns {
+        column-gap: 22px !important;
+        column-rule: 1px solid rgba(255, 255, 255, 0.08) !important;
+    }
 
-/* 2 Colunas perfeitamente proporcionais no tablet */
-body.is-tablet-device #sv-content.two-columns {
-    column-gap: 22px !important;
-    column-rule: 1px solid rgba(255, 255, 255, 0.08) !important;
-}
+    body.is-native-app #sv-focus-container {
+        display: flex !important;
+    }
 
-/* Exibe botão de Expandir apenas no tablet */
-body.is-tablet-device #sv-focus-container {
-    display: flex !important;
-}
+    body.is-native-app .admin-panel {
+        padding: 20px 24px !important;
+        border-radius: 18px !important;
+    }
 
-/* Painel de Administração amplo no tablet */
-body.is-tablet-device .admin-panel {
-    padding: 20px 24px !important;
-    border-radius: 18px !important;
-}
+    body.is-native-app.admin-active .right-sidebar {
+        display: none !important;
+    }
+    body.is-native-app.admin-active .main-content {
+        max-width: 100% !important;
+        flex-grow: 1 !important;
+    }
+    body.is-native-app.admin-active .admin-panel {
+        max-width: 900px !important;
+        margin: 0 auto !important;
+        width: 100% !important;
+    }
 
-/* Ao editar/adicionar música no tablet, oculta o Setlist para dar 100% de largura */
-body.is-tablet-device.admin-active .right-sidebar {
-    display: none !important;
-}
-body.is-tablet-device.admin-active .main-content {
-    max-width: 100% !important;
-    flex-grow: 1 !important;
-}
-body.is-tablet-device.admin-active .admin-panel {
-    max-width: 900px !important;
-    margin: 0 auto !important;
-    width: 100% !important;
-}
+    body.is-native-app.focus-mode .sidebar {
+        width: 0 !important;
+        min-width: 0 !important;
+        max-width: 0 !important;
+        padding: 0 !important;
+        overflow: hidden !important;
+        border: none !important;
+        opacity: 0 !important;
+        pointer-events: none !important;
+    }
 
-/* Modo Foco / Palco no tablet: 100% da tela para a cifra */
-body.is-tablet-device.focus-mode .sidebar {
-    width: 0 !important;
-    min-width: 0 !important;
-    max-width: 0 !important;
-    padding: 0 !important;
-    overflow: hidden !important;
-    border: none !important;
-    opacity: 0 !important;
-    pointer-events: none !important;
-}
+    body.is-native-app.focus-mode .right-sidebar {
+        display: none !important;
+    }
 
-body.is-tablet-device.focus-mode .right-sidebar {
-    display: none !important;
-}
+    body.is-native-app.focus-mode .main-content {
+        width: 100% !important;
+        max-width: 100vw !important;
+        padding: 0 12px !important;
+    }
 
-body.is-tablet-device.focus-mode .main-content {
-    width: 100% !important;
-    max-width: 100vw !important;
-    padding: 0 12px !important;
-}
+    body.is-native-app.focus-mode .container {
+        max-width: 100% !important;
+        padding: 8px 10px !important;
+    }
 
-body.is-tablet-device.focus-mode .container {
-    max-width: 100% !important;
-    padding: 8px 10px !important;
-}
+    body.is-native-app.focus-mode #song-view {
+        padding: 16px 24px !important;
+    }
 
-body.is-tablet-device.focus-mode #song-view {
-    padding: 16px 24px !important;
-}
-
-body.is-tablet-device.focus-mode #btn-toggle-focus {
-    background: var(--chord-color) !important;
-    color: #111827 !important;
-    font-weight: 700 !important;
+    body.is-native-app.focus-mode #btn-toggle-focus {
+        background: var(--chord-color) !important;
+        color: #111827 !important;
+        font-weight: 700 !important;
+    }
 }
 
 /* Otimizações do App Nativo Android (APK) */
