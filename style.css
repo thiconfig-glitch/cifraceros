@@ -2252,6 +2252,15 @@ body.is-native-app .btn-floating-chat {
     border-radius: 14px;
     overflow: hidden;
     transition: all 0.2s ease;
+    flex-shrink: 0 !important;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.playlist-card.is-expanded {
+    background: rgba(255, 255, 255, 0.06);
+    border-color: rgba(251, 191, 36, 0.4);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
 }
 
 .playlist-card:hover {
@@ -2327,12 +2336,53 @@ body.is-native-app .btn-floating-chat {
 }
 
 .playlist-songs-expanded {
-    border-top: 1px solid rgba(255, 255, 255, 0.05);
-    background: rgba(0, 0, 0, 0.25);
-    padding: 10px 14px;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    background: rgba(0, 0, 0, 0.35);
+    padding: 12px 14px;
     display: flex;
     flex-direction: column;
-    gap: 6px;
+    gap: 8px;
+    overflow: visible !important;
+    max-height: none !important;
+}
+
+.btn-open-playlist-repertoire {
+    width: 100%;
+    padding: 10px 14px;
+    background: linear-gradient(135deg, rgba(251, 191, 36, 0.15), rgba(245, 158, 11, 0.25));
+    border: 1px solid rgba(251, 191, 36, 0.4);
+    border-radius: 10px;
+    color: #fbbf24;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 4px;
+}
+
+.btn-open-playlist-repertoire:hover, .btn-open-playlist-repertoire:active {
+    background: linear-gradient(135deg, rgba(251, 191, 36, 0.25), rgba(245, 158, 11, 0.35));
+    border-color: #fbbf24;
+    color: #fff;
+}
+
+.playlist-song-num {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--text-muted);
+    background: rgba(255, 255, 255, 0.08);
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
 }
 
 .playlist-song-row {

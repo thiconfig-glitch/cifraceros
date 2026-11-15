@@ -430,8 +430,8 @@ function removeAccents(str) {
 }
 
 function escapeHTML(str) {
-    if (!str) return '';
-    return str
+    if (str === null || str === undefined) return '';
+    return String(str)
         .replace(/&/g, '&amp;')
         .replace(/</g, '&lt;')
         .replace(/>/g, '&gt;')
@@ -1606,6 +1606,60 @@ window.renderMobilePlaylists = function() {
             const songsContainer = document.createElement('div');
             songsContainer.className = 'playlist-songs-expanded';
             
+            // Botão em destaque para abrir e filtrar o repertório completo por esta lista
+            if (songsInList.length > 0) {
+                const openRepBtn = document.createElement('button');
+                openRepBtn.type = 'button';
+                openRepBtn.className = 'btn-open-playlist-repertoire';
+                openRepBtn.innerHTML = `🔍 Abrir <strong>"${safePName}"</strong> no Repertório (${songsInList.length})`;
+                openRepBtn.onclick = () => window.selectPlaylistFilterFromMobile(playlistName);
+                songsContainer.appendChild(openRepBtn);
+            }
+
+            if (songsInList.length === 0) {
+                const emptySong = document.createElement('div');
+                emptySong.style.cssText = 'padding: 14px; text-align: center; color: var(--text-muted); font-size: 0.85rem;';
+                emptySong.textContent = 'Nenhuma música nesta lista ainda.';
+                songsContainer.appendChild(emptySong);
+            } else {
+                songsInList.forEach((song, idx) => {
+                    try {
+                        const row = document.createElement('div');
+                        row.className = 'playlist-song-row';
+                        
+                        const safeTitle = escapeHTML(song.title || 'Sem título');
+                        const hasTranspose = song.transpose !== undefined && song.transpose !== null && String(song.transpose).trim() !== '';
+                        const safeTrans = hasTranspose ? `<span class="song-transpose-tag" style="margin-left: 6px;">Tom: ${escapeHTML(song.transpose)}</span>` : '';
+                        
+                        row.innerHTML = `
+                            <div class="playlist-song-clickable" style="display: flex; align-items: center; gap: 10px; flex-grow: 1; min-width: 0;">
+                                <span class="playlist-song-num">${idx + 1}</span>
+                                <span style="font-size: 0.9rem; color: var(--chord-color);">🎵</span>
+                                <span class="song-name" style="font-size: 0.92rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">${safeTitle}</span>
+                                ${safeTrans}
+                            </div>
+                            <button type="button" class="playlist-song-remove" title="Remover desta lista">✕</button>
+                        `;
+                        
+                        row.querySelector('.playlist-song-clickable').onclick = () => {
+                            window.openSong(song);
+                            window.toggleMobilePlaylists(false);
+                        };
+                        
+                        row.querySelector('.playlist-song-remove').onclick = async (e) => {
+                            e.stopPropagation();
+                            await window.toggleSongPlaylistAssignment(song.id, playlistName);
+                            window.renderMobilePlaylists();
+                            window.renderSongViewPlaylists();
+                        };
+                        
+                        songsContainer.appendChild(row);
+                    } catch (errSong) {
+                        console.warn('Erro ao renderizar item da lista:', errSong);
+                    }
+                });
+            }
+
             // Botão sutil para adicionar a música atualmente aberta a esta lista (se houver)
             if (currentActiveSongId) {
                 const currentSong = songsData.find(s => s.id === currentActiveSongId);
@@ -1613,7 +1667,8 @@ window.renderMobilePlaylists = function() {
                     const addCurrentRow = document.createElement('button');
                     addCurrentRow.type = 'button';
                     addCurrentRow.className = 'btn-add-current-song';
-                    addCurrentRow.innerHTML = `➕ Adicionar <strong>"${escapeHTML(currentSong.title)}"</strong> a esta lista`;
+                    addCurrentRow.style.marginTop = '6px';
+                    addCurrentRow.innerHTML = `➕ Adicionar música atual: <strong>"${escapeHTML(currentSong.title)}"</strong>`;
                     addCurrentRow.onclick = async () => {
                         await window.toggleSongPlaylistAssignment(currentSong.id, playlistName);
                         window.renderMobilePlaylists();
@@ -1623,43 +1678,6 @@ window.renderMobilePlaylists = function() {
                 }
             }
 
-            if (songsInList.length === 0) {
-                const emptySong = document.createElement('div');
-                emptySong.style.cssText = 'padding: 14px; text-align: center; color: var(--text-muted); font-size: 0.85rem;';
-                emptySong.textContent = 'Nenhuma música nesta lista ainda.';
-                songsContainer.appendChild(emptySong);
-            } else {
-                songsInList.forEach(song => {
-                    const row = document.createElement('div');
-                    row.className = 'playlist-song-row';
-                    
-                    const safeTitle = escapeHTML(song.title);
-                    const safeTrans = song.transpose ? `<span class="song-transpose-tag" style="margin-left: 6px;">Tom: ${escapeHTML(song.transpose)}</span>` : '';
-                    
-                    row.innerHTML = `
-                        <div class="playlist-song-clickable" style="display: flex; align-items: center; gap: 8px; flex-grow: 1; min-width: 0;">
-                            <span style="font-size: 0.9rem; color: var(--chord-color);">🎵</span>
-                            <span class="song-name" style="font-size: 0.92rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">${safeTitle}</span>
-                            ${safeTrans}
-                        </div>
-                        <button type="button" class="playlist-song-remove" title="Remover desta lista">✕</button>
-                    `;
-                    
-                    row.querySelector('.playlist-song-clickable').onclick = () => {
-                        window.openSong(song);
-                        window.toggleMobilePlaylists(false);
-                    };
-                    
-                    row.querySelector('.playlist-song-remove').onclick = async (e) => {
-                        e.stopPropagation();
-                        await window.toggleSongPlaylistAssignment(song.id, playlistName);
-                        window.renderMobilePlaylists();
-                        window.renderSongViewPlaylists();
-                    };
-                    
-                    songsContainer.appendChild(row);
-                });
-            }
             card.appendChild(songsContainer);
         }
 
@@ -1677,7 +1695,17 @@ window.selectPlaylistFilterFromMobile = function(p) {
     renderPlaylistChips();
     filterAndRender();
     window.toggleMobilePlaylists(false);
-    window.toggleSidebar();
+    
+    // Abrir o sidebar se estiver fechado
+    const sidebar = document.getElementById('sidebar');
+    if (sidebar && !sidebar.classList.contains('open')) {
+        window.toggleSidebar();
+    }
+    
+    const dockBtnSongs = document.getElementById('dock-btn-songs');
+    if (dockBtnSongs) dockBtnSongs.classList.add('active');
+    const dockBtnPlaylists = document.getElementById('dock-btn-playlists');
+    if (dockBtnPlaylists) dockBtnPlaylists.classList.remove('active');
 };
 
 window.filterRepertoireByPlaylist = function(p) {
