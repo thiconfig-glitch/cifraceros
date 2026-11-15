@@ -71,20 +71,12 @@
     <div id="blob"></div>
     <div class="app-container" id="main-app-container" style="display: none;">
         <div id="mobile-overlay" class="mobile-overlay" onclick="toggleSidebar()"></div>
-        <!-- Pílulas flutuantes para reabrir barras no tablet/desktop quando recolhidas -->
-        <button type="button" class="sidebar-floating-toggle-left" id="btn-restore-left" onclick="window.toggleLeftSidebar(true)" title="Exibir Repertório">
-            <span>☰</span> Repertório
-        </button>
-        <button type="button" class="sidebar-floating-toggle-right" id="btn-restore-right" onclick="window.toggleRightSidebar(true)" title="Exibir Setlist">
-            Setlist <span>⚡</span>
-        </button>
         
         <aside id="sidebar" class="sidebar">
             <div class="sidebar-content">
                 <div id="main-app">
-                    <header style="display: flex; gap: 8px; align-items: center;">
-                        <input type="text" id="search-input" placeholder="Pesquisar..." autocomplete="off" style="flex-grow: 1;">
-                        <button type="button" class="btn-sidebar-collapse" id="btn-collapse-left" onclick="window.toggleLeftSidebar()" title="Recolher/Expandir Repertório">◀</button>
+                    <header>
+                        <input type="text" id="search-input" placeholder="Pesquisar título ou trecho..." autocomplete="off">
                         <a href="cifraceros.apk?v=1.19.15" download="cifraceros.apk" class="btn-sidebar-top-apk" id="btn-sidebar-top-apk" title="Baixar aplicativo Cifra Ceros para Android (.apk)">
                             📱 Baixar App Android (.apk)
                         </a>
@@ -113,9 +105,6 @@
                 <a href="cifraceros.apk?v=1.19.15" download="cifraceros.apk" class="btn-sidebar-apk" id="btn-sidebar-apk" title="Baixar aplicativo Cifra Ceros para celular Android (.apk)">
                     📱 Baixar App (.apk)
                 </a>
-                <div style="font-size: 0.72rem; color: var(--text-muted); text-align: center; margin-top: 10px; letter-spacing: 0.5px;">
-                    Versão <span style="color: var(--chord-color); font-weight: 600;">1.19.15</span>
-                </div>
             </footer>
         </aside>
 
@@ -255,9 +244,6 @@
                             <div class="tool-group" id="sv-columns-container">
                                 <button class="tool-btn" id="btn-toggle-columns" onclick="window.toggleColumns()" title="Dividir em 2 colunas">📖 2 Colunas</button>
                             </div>
-                            <div class="tool-group" id="sv-focus-container">
-                                <button class="tool-btn" id="btn-toggle-focus" onclick="window.toggleFocusMode()" title="Expandir cifra na tela inteira (Modo Palco)">⛶ Expandir</button>
-                            </div>
                             <div class="tool-group">
                                 <span class="tool-label">Auto-Scroll:</span>
                                 <button class="tool-btn" onclick="adjustScrollSpeed(-1)">-</button>
@@ -368,10 +354,7 @@
         <aside id="right-sidebar" class="right-sidebar">
             <div class="setlist-header">
                 <h3 style="margin:0; color: var(--chord-color);">Setlist / Ordem</h3>
-                <div style="display: flex; gap: 6px; align-items: center;">
-                    <button class="btn btn-danger" onclick="clearSetlist()" style="padding: 4px 8px; font-size: 0.8rem;">Limpar</button>
-                    <button type="button" class="btn-sidebar-collapse" id="btn-collapse-right" onclick="window.toggleRightSidebar()" title="Recolher Setlist">▶</button>
-                </div>
+                <button class="btn btn-danger" onclick="clearSetlist()" style="padding: 4px 8px; font-size: 0.8rem;">Limpar</button>
             </div>
             <div id="setlist-container" class="setlist-container"></div>
         </aside>
