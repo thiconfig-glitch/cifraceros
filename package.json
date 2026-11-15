@@ -1,13 +1,13 @@
 {
   "name": "cifraceros",
-  "version": "1.19.14",
+  "version": "1.19.15",
   "description": "CifrasCeros - Aplicativo de Cifras e Letras em Tempo Real",
   "main": "index.html",
   "scripts": {
     "build:www": "node scripts/sync_www.js",
     "cap:sync": "npm run build:www && npx cap sync android",
     "cap:open": "npx cap open android",
-    "cap:build": "npm run cap:sync && cd android && .\\gradlew.bat assembleDebug && cd .. && node -e \"const fs=require('fs');fs.copyFileSync('android/app/build/outputs/apk/debug/app-debug.apk','cifraceros.apk');console.log('APK gerado com sucesso: cifraceros.apk');\""
+    "cap:build": "npm run cap:sync && cd android && .\\gradlew.bat assembleDebug && cd .. && node -e \"const fs=require('fs');fs.copyFileSync('android/app/build/outputs/apk/debug/app-debug.apk','cifraceros.apk');fs.copyFileSync('android/app/build/outputs/apk/debug/app-debug.apk','cifraceros-v1.19.15.apk');console.log('APK gerado com sucesso: cifraceros.apk e cifraceros-v1.19.15.apk');\""
   },
   "keywords": [
     "cifras",

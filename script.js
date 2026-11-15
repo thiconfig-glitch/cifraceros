@@ -2513,20 +2513,25 @@ function startListeningToLetrasSync() {
     });
 }
 
-// --- PWA Service Worker Registration ---
-if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => {
-        navigator.serviceWorker.register('./sw.js').then(registration => {
-            console.log('SW registered: ', registration);
-        }).catch(registrationError => {
-            console.log('SW registration failed: ', registrationError);
-        });
-    });
-}
+// --- PWA Service Worker Registration & Cache Management ---
+const isNativePlatform = !!(window.Capacitor && typeof window.Capacitor.isNativePlatform === 'function' && window.Capacitor.isNativePlatform());
 
-// Oculta links de download de APK se já estiver rodando como app nativo Android
-if (window.Capacitor && typeof window.Capacitor.isNativePlatform === 'function' && window.Capacitor.isNativePlatform()) {
+if (isNativePlatform) {
     document.body.classList.add('is-native-app');
+    // Em aplicativo nativo Android (Capacitor), desregistra qualquer ServiceWorker antigo
+    // e limpa os caches do WebView para que as atualizações do APK sejam aplicadas na hora!
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.getRegistrations().then(registrations => {
+            for (let reg of registrations) {
+                reg.unregister().then(() => console.log('🧹 [Native] SW antigo desregistrado.'));
+            }
+        }).catch(err => console.warn('Erro ao limpar SW nativo:', err));
+    }
+    if ('caches' in window) {
+        caches.keys().then(keys => {
+            keys.forEach(k => caches.delete(k));
+        }).catch(err => console.warn('Erro ao limpar Cache nativo:', err));
+    }
     const apkElements = [
         document.getElementById('admin-apk-card'),
         document.getElementById('btn-sidebar-apk'),
@@ -2537,6 +2542,16 @@ if (window.Capacitor && typeof window.Capacitor.isNativePlatform === 'function' 
     ];
     apkElements.forEach(el => {
         if (el) el.style.display = 'none';
+    });
+} else if ('serviceWorker' in navigator) {
+    // Modo Web / PWA no navegador: registra e força checagem de nova versão
+    window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./sw.js').then(registration => {
+            registration.update();
+            console.log('SW registered & updated: ', registration);
+        }).catch(registrationError => {
+            console.log('SW registration failed: ', registrationError);
+        });
     });
 }
 

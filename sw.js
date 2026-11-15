@@ -1,4 +1,4 @@
-const CACHE_NAME = 'cifraceros-v1.19.13';
+const CACHE_NAME = 'cifraceros-v1.19.15';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
@@ -11,7 +11,6 @@ const ASSETS_TO_CACHE = [
 self.addEventListener('install', event => {
   event.waitUntil(
     caches.open(CACHE_NAME).then(cache => {
-      // Adding assets one by one to avoid total failure if one fails
       return Promise.all(
         ASSETS_TO_CACHE.map(url => {
           return cache.add(url).catch(err => console.warn('Falha ao parear cache de: ', url, err));
@@ -33,13 +32,13 @@ self.addEventListener('activate', event => {
   self.clients.claim();
 });
 
-// Network-First for Navigation & Stale-While-Revalidate for Assets
+// Network-First para garantir que novidades e correções de layout cheguem de imediato
 self.addEventListener('fetch', event => {
   if (event.request.method !== 'GET' || !event.request.url.startsWith('http')) {
     return;
   }
 
-  // Bypass firestore/firebase & APK file downloads from cache
+  // Ignora chamadas ao Firestore, Firebase e downloads de arquivos .apk
   if (
     event.request.url.includes('firestore.googleapis.com') || 
     event.request.url.includes('firebase') ||
@@ -48,8 +47,13 @@ self.addEventListener('fetch', event => {
     return;
   }
 
-  // Network-First for HTML navigation to ensure users always see the latest version
-  if (event.request.mode === 'navigate' || (event.request.headers.get('accept') && event.request.headers.get('accept').includes('text/html'))) {
+  // Network-First para HTML, CSS e JS (com fallback para cache offline)
+  const isCodeAsset = event.request.mode === 'navigate' || 
+                      event.request.headers.get('accept')?.includes('text/html') ||
+                      event.request.url.includes('.css') || 
+                      event.request.url.includes('.js');
+
+  if (isCodeAsset) {
     event.respondWith(
       fetch(event.request)
         .then(networkResponse => {
@@ -64,7 +68,7 @@ self.addEventListener('fetch', event => {
     return;
   }
 
-  // Stale-While-Revalidate for static assets
+  // Stale-While-Revalidate para demais recursos estáticos (ícones, fontes, etc.)
   event.respondWith(
     caches.match(event.request).then(cachedResponse => {
       const fetchPromise = fetch(event.request).then(networkResponse => {
