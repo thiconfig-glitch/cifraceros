@@ -723,22 +723,16 @@ function renderResults(songs) {
         const safeTranspose = escapeHTML(song.transpose || 'Orig');
         const transposeHtml = window.appMode === 'letras' ? '' : `<span class="song-transpose-tag">Tom: ${safeTranspose}</span>`;
 
-        if (song.snippet) {
-            clickableArea.innerHTML = `
-                <div class="song-info-wrapper">
-                    <div class="song-main-line">
-                        <span class="song-title-text">${safeTitle}</span>
-                        ${transposeHtml}
-                    </div>
-                    <div class="song-snippet-preview">...${song.snippet}...</div>
-                </div>
-            `;
-        } else {
-            clickableArea.innerHTML = `
+        const snippetHtml = song.snippet ? `<div class="song-snippet-preview">...${song.snippet}...</div>` : '';
+        const metaHtml = transposeHtml ? `<div class="song-meta-line">${transposeHtml}</div>` : '';
+
+        clickableArea.innerHTML = `
+            <div class="song-info-wrapper">
                 <span class="song-title-text">${safeTitle}</span>
-                ${transposeHtml}
-            `;
-        }
+                ${metaHtml}
+                ${snippetHtml}
+            </div>
+        `;
 
         clickableArea.onclick = () => openSong(song);
         

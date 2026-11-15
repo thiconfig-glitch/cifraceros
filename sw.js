@@ -1,4 +1,4 @@
-const CACHE_NAME = 'cifraceros-v1.19.17';
+const CACHE_NAME = 'cifraceros-v1.19.18';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
