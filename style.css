@@ -1912,13 +1912,28 @@ body.is-native-app .culto-notes-widget {
 /* Toast Notification */
 .toast-container {
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 24px;
+    right: 24px;
     display: flex;
-    flex-direction: column;
-    gap: 10px;
+    flex-direction: column-reverse;
+    gap: 8px;
     z-index: 9999;
     pointer-events: none;
+    max-height: 220px;
+    overflow: hidden;
+}
+
+@media (max-width: 600px) {
+    .toast-container {
+        bottom: calc(90px + env(safe-area-inset-bottom, 16px));
+        right: 16px;
+        left: 16px;
+        align-items: stretch;
+    }
+    .toast {
+        max-width: 100% !important;
+        width: 100% !important;
+    }
 }
 
 .toast {
@@ -1926,21 +1941,21 @@ body.is-native-app .culto-notes-widget {
     border: 1px solid var(--primary-color);
     border-left: 4px solid var(--primary-color);
     color: white;
-    padding: 16px 20px;
-    border-radius: 8px;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+    padding: 12px 16px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
     backdrop-filter: var(--glass-blur);
-    transform: translateX(120%);
+    transform: translateY(20px);
     opacity: 0;
-    transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
     display: flex;
     flex-direction: column;
     pointer-events: auto;
-    max-width: 320px;
+    max-width: 340px;
 }
 
 .toast.show {
-    transform: translateX(0);
+    transform: translateY(0);
     opacity: 1;
 }
 

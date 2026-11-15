@@ -1,5 +1,5 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-app.js";
-import { getFirestore, enableIndexedDbPersistence, collection, onSnapshot, addDoc, updateDoc, doc, serverTimestamp, query, orderBy, deleteDoc, getDocs, limit, setDoc } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-firestore.js";
+import { getFirestore, enableIndexedDbPersistence, collection, onSnapshot, addDoc, updateDoc, doc, serverTimestamp, query, orderBy, deleteDoc, getDocs, limit, setDoc, writeBatch } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-firestore.js";
 import { getAuth, signInWithEmailAndPassword, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-auth.js";
 import Fuse from "https://cdn.jsdelivr.net/npm/fuse.js@6.6.2/dist/fuse.esm.js";
 import Sortable from "https://cdn.jsdelivr.net/npm/sortablejs@1.15.2/modular/sortable.esm.js";
@@ -44,6 +44,8 @@ let scrollPos = 0;
 let isInitialLoad = true;
 let isDataLoaded = false;
 let currentActiveSongId = null;
+let lastSyncToastTime = 0;
+let lastKnownSongsCount = 0;
 
 const fuseOptions = {
     includeScore: true,
@@ -196,7 +198,8 @@ function startListeningToSongs(mode) {
         const formattedDate = now.toLocaleDateString('pt-BR', { day: '2-digit', month: '2-digit' });
         const formattedTime = now.toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit' });
 
-        if (!fromCache) {
+        const hasPendingWrites = querySnapshot.metadata.hasPendingWrites;
+        if (!fromCache && !hasPendingWrites) {
             // Atualização recebida fresca da nuvem em tempo real
             const syncInfo = {
                 timestamp: now.getTime(),
@@ -205,10 +208,18 @@ function startListeningToSongs(mode) {
             };
             localStorage.setItem(`cifraceros_last_sync_${mode}`, JSON.stringify(syncInfo));
             
-            if (!isInitialLoad && isDataLoaded) {
+            const nowTime = now.getTime();
+            const countChanged = lastKnownSongsCount !== 0 && lastKnownSongsCount !== newData.length;
+            const timePassed = (nowTime - lastSyncToastTime) > 30000;
+            
+            if (!isInitialLoad && isDataLoaded && (countChanged || timePassed)) {
+                lastSyncToastTime = nowTime;
+                lastKnownSongsCount = newData.length;
                 window.showToast('✨ Repertório Atualizado', `${newData.length} músicas sincronizadas em tempo real.`);
+            } else if (lastKnownSongsCount === 0) {
+                lastKnownSongsCount = newData.length;
             }
-        } else {
+        } else if (fromCache) {
             // Carregado da memória offline (IndexedDB local)
             window.notifyOfflineState(mode, newData.length);
         }
@@ -701,6 +712,15 @@ document.body.onpointermove = event => {
 };
 
 window.toggleSongPlaylistAssignment = async function(songId, playlistName) {
+    if (!isAdmin) {
+        window.showToast('🔒 Permissão', 'Apenas Administradores podem alterar músicas em playlists.');
+        if (confirm('A alteração de playlists exige login de Administrador.\n\nDeseja abrir o Login agora?')) {
+            window.toggleMobilePlaylists(false);
+            window.openAdminPanelDirectly();
+        }
+        return;
+    }
+
     const song = songsData.find(s => s.id === songId);
     if (!song) return;
 
@@ -715,7 +735,8 @@ window.toggleSongPlaylistAssignment = async function(songId, playlistName) {
         const collectionName = window.appMode === 'letras' ? "repertorio_letras" : "repertorio";
         await updateDoc(doc(db, collectionName, song.id), { playlists: updatedPlaylists });
     } catch (err) {
-        console.error(err);
+        console.error("Erro ao atualizar playlists da música:", err);
+        window.showToast('Erro', 'Não foi possível salvar alteração no banco.');
     }
 }
 
@@ -1717,27 +1738,53 @@ window.filterRepertoireByPlaylist = function(p) {
 };
 
 window.promptCreatePlaylistMobile = async function() {
+    if (!isAdmin) {
+        window.showToast('🔒 Permissão Necessária', 'Faça login como Administrador para criar novas listas.');
+        if (confirm(`A criação de listas no repertório exige acesso de Administrador.\n\nDeseja abrir o Login de Administrador agora?`)) {
+            window.toggleMobilePlaylists(false);
+            window.openAdminPanelDirectly();
+        }
+        return;
+    }
+
     const name = prompt("Digite o nome da nova lista:");
     if (!name || !name.trim()) return;
     const cleanName = name.trim();
     localPlaylists.add(cleanName);
     renderPlaylistChips();
     renderMobilePlaylists();
-    window.showToast('📁 Listas', `Lista "${cleanName}" criada!`);
+    window.showToast('📁 Listas', `Lista "${cleanName}" criada! Adicione músicas a ela.`);
 };
 
 window.deletePlaylist = async function(playlistName) {
+    if (!isAdmin) {
+        window.showToast('🔒 Permissão Necessária', 'Faça login como Administrador para apagar playlists.');
+        if (confirm(`A exclusão de listas do repertório exige acesso de Administrador.\n\nDeseja abrir a tela de Login agora?`)) {
+            window.toggleMobilePlaylists(false);
+            window.openAdminPanelDirectly();
+        }
+        return;
+    }
+
     if (!confirm(`Tem certeza que deseja apagar a lista "${playlistName}"?`)) return;
+
     try {
         const affectedSongs = songsData.filter(s => s.playlists && s.playlists.includes(playlistName));
         const collectionName = window.appMode === 'letras' ? "repertorio_letras" : "repertorio";
-        const updates = affectedSongs.map(s => {
-            const newPlaylists = s.playlists.filter(p => p !== playlistName);
-            return updateDoc(doc(db, collectionName, s.id), { playlists: newPlaylists });
-        });
-        await Promise.all(updates);
+        
+        if (affectedSongs.length > 0) {
+            const batch = writeBatch(db);
+            affectedSongs.forEach(s => {
+                const newPlaylists = s.playlists.filter(p => p !== playlistName);
+                batch.update(doc(db, collectionName, s.id), { playlists: newPlaylists });
+            });
+            await batch.commit();
+        }
+
         localPlaylists.delete(playlistName);
         if (selectedPlaylistFilter === playlistName) selectedPlaylistFilter = 'all';
+        if (expandedPlaylist === playlistName) expandedPlaylist = null;
+        
         renderPlaylistChips();
         filterAndRender();
         renderMobilePlaylists();
@@ -1745,7 +1792,7 @@ window.deletePlaylist = async function(playlistName) {
         window.showToast('📁 Listas', `Lista "${playlistName}" apagada com sucesso!`);
     } catch (err) {
         console.error("Erro ao apagar lista: ", err);
-        window.showToast('Erro', 'Não foi possível apagar a lista.');
+        window.showToast('Erro', 'Não foi possível apagar a lista: ' + (err.message || 'Erro de banco'));
     }
 };
 
@@ -2042,6 +2089,15 @@ window.showToast = function(sender, text) {
     const container = document.getElementById('toast-container');
     if (!container) return;
 
+    // Limita para no máximo 2 toasts simultâneos para evitar sobrecarga na tela
+    const existingToasts = container.querySelectorAll('.toast');
+    if (existingToasts.length >= 2) {
+        for (let i = 0; i <= existingToasts.length - 2; i++) {
+            existingToasts[i].classList.remove('show');
+            setTimeout(() => existingToasts[i].remove(), 250);
+        }
+    }
+
     const toast = document.createElement('div');
     toast.className = 'toast';
     const safeSender = escapeHTML(sender);
@@ -2053,12 +2109,12 @@ window.showToast = function(sender, text) {
     `;
     
     container.appendChild(toast);
-    setTimeout(() => toast.classList.add('show'), 10); // Animate in
+    requestAnimationFrame(() => toast.classList.add('show'));
     
     setTimeout(() => {
         toast.classList.remove('show');
-        setTimeout(() => toast.remove(), 400); // Wait for transition
-    }, 5000); // 5 segundos
+        setTimeout(() => toast.remove(), 400); // Aguarda transição
+    }, 4000); // 4 segundos
 };
 
 window.sendChatMessage = async function(e) {
