@@ -1,6 +1,6 @@
 {
   "name": "cifraceros",
-  "version": "1.19.12",
+  "version": "1.19.13",
   "description": "CifrasCeros - Aplicativo de Cifras e Letras em Tempo Real",
   "main": "index.html",
   "scripts": {
@@ -22,6 +22,7 @@
   "license": "ISC",
   "dependencies": {
     "@capacitor/android": "^8.6.2",
+    "@capacitor/app": "^8.1.2",
     "@capacitor/cli": "^8.6.2",
     "@capacitor/core": "^8.6.2"
   }

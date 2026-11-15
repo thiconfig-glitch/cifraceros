@@ -114,6 +114,7 @@ window.openAdminPanelDirectly = function() {
     hideAll();
     closeSidebar();
     document.getElementById('admin-panel').style.display = 'block';
+    if (typeof window.pushNavigationState === 'function') window.pushNavigationState('admin');
 };
 
 window.openAdminForCreation = function() {
@@ -121,6 +122,7 @@ window.openAdminForCreation = function() {
     hideAll();
     closeSidebar();
     document.getElementById('admin-panel').style.display = 'block';
+    if (typeof window.pushNavigationState === 'function') window.pushNavigationState('admin');
     document.getElementById('upload-form').reset();
     document.getElementById('form-title').textContent = "Adicionar Nova Música";
     document.getElementById('btn-submit-song').textContent = "Salvar Música";
@@ -299,8 +301,23 @@ window.confirmLetrasRole = function(role) {
 
 function finalizeAppModeSelection(mode) {
     window.appMode = mode;
+    try {
+        localStorage.setItem('cifraceros_saved_app_mode', mode);
+        if (mode === 'letras' && window.letrasRole) {
+            localStorage.setItem('cifraceros_saved_letras_role', window.letrasRole);
+        }
+    } catch (e) {}
+
     document.getElementById('mode-selection-overlay').style.display = 'none';
     document.getElementById('main-app-container').style.display = 'flex';
+    
+    // No celular ou tablet portrait sem música aberta, abrir o repertório para evitar tela preta inicial
+    if (window.innerWidth <= 960 && !currentActiveSongId) {
+        document.getElementById('sidebar')?.classList.add('open');
+        document.getElementById('mobile-overlay')?.classList.add('open');
+        const dockBtnSongs = document.getElementById('dock-btn-songs');
+        if (dockBtnSongs) dockBtnSongs.classList.add('active');
+    }
     
     // Toggle UI elements specific to Letras mode
     const transposeGroup = document.querySelector('input#m-transpose')?.closest('.form-group');
@@ -384,6 +401,27 @@ function finalizeAppModeSelection(mode) {
     startListeningToSetlist(mode);
     startListeningToSongs(mode);
 }
+
+window.openModeSelectionModal = function() {
+    document.getElementById('role-selection-box').style.display = 'none';
+    document.getElementById('main-mode-box').style.display = 'block';
+    document.getElementById('mode-selection-overlay').style.display = 'flex';
+};
+
+// Auto-restauração silenciosa do último modo utilizado pelo músico (elimina popup repetitivo a cada abertura)
+try {
+    const savedAppMode = localStorage.getItem('cifraceros_saved_app_mode');
+    if (savedAppMode === 'cifras' || savedAppMode === 'letras') {
+        if (savedAppMode === 'letras') {
+            window.letrasRole = localStorage.getItem('cifraceros_saved_letras_role') || 'bolha';
+        }
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', () => finalizeAppModeSelection(savedAppMode));
+        } else {
+            finalizeAppModeSelection(savedAppMode);
+        }
+    }
+} catch (e) {}
 
 function renderPlaylistChips() {
     const container = document.getElementById('playlist-chips-container');
@@ -653,21 +691,23 @@ function renderResults(songs) {
     if (Sortable) {
         if (window.resultsSortable) {
             window.resultsSortable.destroy();
+            window.resultsSortable = null;
         }
-        window.resultsSortable = new Sortable(container, {
-            group: {
-                name: 'shared',
-                pull: 'clone',
-                put: false
-            },
-            sort: false,
-            animation: 250,
-            delay: 100,
-            delayOnTouchOnly: false,
-            touchStartThreshold: 5,
-            filter: '.three-dots-btn, .dropdown-menu',
-            preventOnFilter: false
-        });
+        // Desativa drag no repertório em telas touch (evita prender a rolagem vertical de toque)
+        const isTouchDevice = window.matchMedia && window.matchMedia('(pointer: coarse)').matches;
+        if (!isTouchDevice) {
+            window.resultsSortable = new Sortable(container, {
+                group: {
+                    name: 'shared',
+                    pull: 'clone',
+                    put: false
+                },
+                sort: false,
+                animation: 250,
+                filter: '.three-dots-btn, .dropdown-menu',
+                preventOnFilter: false
+            });
+        }
     }
 }
 
@@ -1002,6 +1042,17 @@ window.autoFitTwoColumns = function() {
     const maxFont = (isTabletOrDesktop && isLandscape) ? 1.28 : (isTabletOrDesktop ? 1.05 : 0.88);
 
     let optimal = Math.max(minFont, Math.min(maxFont, Math.round(targetSize * 100) / 100));
+
+    // No tablet ou desktop, tenta ajustar a altura para a música caber inteira em 1 tela sem precisar rolar
+    if (isTabletOrDesktop && lines.length > 0) {
+        const availHeight = window.innerHeight - (isLandscape ? 120 : 180);
+        const linesPerCol = Math.ceil(lines.length / 2);
+        const heightBasedRem = availHeight / (linesPerCol * 23);
+        if (heightBasedRem >= 0.70 && heightBasedRem < optimal) {
+            optimal = Math.round(heightBasedRem * 100) / 100;
+        }
+    }
+
     currentFontSize = optimal;
     pre.style.fontSize = `${currentFontSize}rem`;
 };
@@ -1046,6 +1097,8 @@ window.openSong = function(song) {
     scrollPos = 0;
     closeSidebar();
     currentActiveSongId = song.id;
+    if (typeof window.requestScreenWakeLock === 'function') window.requestScreenWakeLock();
+    if (typeof window.pushNavigationState === 'function') window.pushNavigationState('song');
 
     document.getElementById('song-view').style.display = 'block';
     document.getElementById('sv-title').textContent = song.title;
@@ -1179,6 +1232,7 @@ window.toggleMobileScrollControl = function(forceState) {
     const nextState = forceState !== undefined ? forceState : !isShowing;
 
     if (nextState) {
+        if (typeof window.pushNavigationState === 'function') window.pushNavigationState('scroll');
         bar.style.display = 'flex';
         const range = document.getElementById('mobile-scroll-range');
         if (range) range.value = scrollSpeed;
@@ -1288,10 +1342,16 @@ function triggerEditMode(song) {
 window.closeSong = function() {
     hideAll();
     stopAutoScroll();
+    if (typeof window.releaseScreenWakeLock === 'function') window.releaseScreenWakeLock();
     if (typeof window.toggleMobileScrollControl === 'function') window.toggleMobileScrollControl(false);
     currentActiveSongId = null;
     document.getElementById('welcome-view').style.display = 'flex';
-    if(window.innerWidth <= 768) toggleSidebar();
+    if (window.innerWidth <= 960) {
+        document.getElementById('sidebar')?.classList.add('open');
+        document.getElementById('mobile-overlay')?.classList.add('open');
+        const dockBtn = document.getElementById('dock-btn-songs');
+        if (dockBtn) dockBtn.classList.add('active');
+    }
 };
 
 window.closeAdmin = function() {
@@ -1299,7 +1359,12 @@ window.closeAdmin = function() {
     hideAll();
     stopAutoScroll();
     document.getElementById('welcome-view').style.display = 'flex';
-    if(window.innerWidth <= 768) toggleSidebar();
+    if (window.innerWidth <= 960) {
+        document.getElementById('sidebar')?.classList.add('open');
+        document.getElementById('mobile-overlay')?.classList.add('open');
+        const dockBtn = document.getElementById('dock-btn-songs');
+        if (dockBtn) dockBtn.classList.add('active');
+    }
 };
 
 function hideAll() {
@@ -1505,6 +1570,7 @@ window.toggleMobileSetlist = function() {
         const isOpen = overlay.classList.contains('open');
         if (isOpen) {
             renderSetlist();
+            if (typeof window.pushNavigationState === 'function') window.pushNavigationState('setlist');
         }
         const dockBtnSetlist = document.getElementById('dock-btn-setlist');
         if (dockBtnSetlist) dockBtnSetlist.classList.toggle('active', isOpen);
@@ -1565,6 +1631,7 @@ window.toggleMobilePlaylists = function(forceState) {
         
         window.renderMobilePlaylists();
         overlay.classList.add('open');
+        if (typeof window.pushNavigationState === 'function') window.pushNavigationState('playlists');
     } else {
         overlay.classList.remove('open');
     }
@@ -1868,9 +1935,9 @@ function renderSetlist() {
                     put: true
                 },
                 animation: 250,
-                delay: 100,
-                delayOnTouchOnly: false,
-                touchStartThreshold: 5,
+                delay: 200,
+                delayOnTouchOnly: true,
+                touchStartThreshold: 10,
                 onAdd: function (evt) {
                     const songId = evt.item.dataset.id;
                     if (evt.item.parentNode) evt.item.parentNode.removeChild(evt.item);
@@ -2038,6 +2105,7 @@ window.toggleLetrasChatPopup = function(forceState) {
     if (btnToolbar) btnToolbar.classList.toggle('active', shouldOpen);
 
     if (shouldOpen) {
+        if (typeof window.pushNavigationState === 'function') window.pushNavigationState('chat');
         if (unreadBadge) unreadBadge.style.display = 'none';
         if (container) container.scrollTop = container.scrollHeight;
         if (input) setTimeout(() => input.focus(), 150);
@@ -2199,6 +2267,7 @@ window.toggleMobileDisparo = function() {
     if (!overlay) return;
     overlay.classList.toggle('open');
     if (overlay.classList.contains('open')) {
+        if (typeof window.pushNavigationState === 'function') window.pushNavigationState('disparo');
         document.getElementById('disparo-search-input').value = '';
         renderDisparoResults('');
         setTimeout(() => document.getElementById('disparo-search-input').focus(), 300);
@@ -2412,4 +2481,148 @@ window.addEventListener('offline', () => {
 window.addEventListener('online', () => {
     hasNotifiedOffline = false;
     window.showToast('🟢 Internet Conectada', 'Sincronizando com a nuvem...');
+});
+
+// ==========================================
+// WAKE LOCK (TELA ATIVA DURANTE LOUVOR/SHOW)
+// ==========================================
+let screenWakeLock = null;
+
+window.requestScreenWakeLock = async function() {
+    try {
+        if ('wakeLock' in navigator && !screenWakeLock) {
+            screenWakeLock = await navigator.wakeLock.request('screen');
+            screenWakeLock.addEventListener('release', () => {
+                screenWakeLock = null;
+            });
+            console.log('💡 [WakeLock] Tela mantida ligada para o músico.');
+        }
+    } catch (err) {
+        console.warn('💡 [WakeLock] Não foi possível ativar wake lock:', err);
+    }
+};
+
+window.releaseScreenWakeLock = async function() {
+    try {
+        if (screenWakeLock) {
+            await screenWakeLock.release();
+            screenWakeLock = null;
+            console.log('💡 [WakeLock] Tela liberada.');
+        }
+    } catch (err) {}
+};
+
+document.addEventListener('visibilitychange', async () => {
+    if (document.visibilityState === 'visible') {
+        const songView = document.getElementById('song-view');
+        if (songView && songView.style.display === 'block') {
+            await window.requestScreenWakeLock();
+        }
+    }
+});
+
+// =======================================================
+// NAVEGAÇÃO E TRATAMENTO DO BOTÃO VOLTAR DO ANDROID (BACK)
+// =======================================================
+let lastBackPressTime = 0;
+let isBackHandling = false;
+
+window.pushNavigationState = function(stateName) {
+    try {
+        history.pushState({ cifraceros_view: stateName, time: Date.now() }, '');
+    } catch (e) {}
+};
+
+window.handleAppBackButton = function() {
+    if (isBackHandling) return true;
+    isBackHandling = true;
+    setTimeout(() => { isBackHandling = false; }, 200);
+
+    // 1. Role selection (Modo Letras -> Teclado/Bolha)
+    const roleBox = document.getElementById('role-selection-box');
+    if (roleBox && roleBox.style.display !== 'none') {
+        window.cancelRoleSelection();
+        return true;
+    }
+
+    // 2. Chat de letras popup
+    const chatPopup = document.getElementById('letras-chat-popup');
+    if (chatPopup && chatPopup.style.display === 'flex') {
+        window.toggleLetrasChatPopup(false);
+        return true;
+    }
+
+    // 3. Barra flutuante de rolagem (slider)
+    const scrollBar = document.getElementById('mobile-scroll-control-bar');
+    if (scrollBar && scrollBar.style.display === 'flex') {
+        window.toggleMobileScrollControl(false);
+        return true;
+    }
+
+    // 4. Gaveta de Setlist / Acesso Rápido
+    const setlistOverlay = document.getElementById('mobile-setlist-overlay');
+    if (setlistOverlay && setlistOverlay.classList.contains('open')) {
+        window.toggleMobileSetlist();
+        return true;
+    }
+
+    // 5. Gaveta de Playlists / Minhas Listas
+    const playlistsOverlay = document.getElementById('mobile-playlists-overlay');
+    if (playlistsOverlay && playlistsOverlay.classList.contains('open')) {
+        window.toggleMobilePlaylists(false);
+        return true;
+    }
+
+    // 6. Gaveta de Disparo Rápido
+    const disparoOverlay = document.getElementById('mobile-disparo-overlay');
+    if (disparoOverlay && disparoOverlay.classList.contains('open')) {
+        window.toggleMobileDisparo();
+        return true;
+    }
+
+    // 7. Painel de Administração
+    const adminPanel = document.getElementById('admin-panel');
+    if (adminPanel && adminPanel.style.display === 'block') {
+        closeAdmin();
+        return true;
+    }
+
+    // 8. Barra lateral / gaveta do repertório (se estiver aberta em tela mobile/tablet)
+    const sidebar = document.getElementById('sidebar');
+    if (sidebar && sidebar.classList.contains('open')) {
+        closeSidebar();
+        return true;
+    }
+
+    // 9. Se uma música estiver aberta
+    const songView = document.getElementById('song-view');
+    if (songView && songView.style.display === 'block') {
+        closeSong();
+        return true;
+    }
+
+    // 10. Se estiver na tela principal: duplo clique para sair do aplicativo
+    const now = Date.now();
+    if (now - lastBackPressTime < 2000) {
+        if (window.Capacitor && window.Capacitor.Plugins && window.Capacitor.Plugins.App) {
+            window.Capacitor.Plugins.App.exitApp();
+        }
+        return false;
+    } else {
+        lastBackPressTime = now;
+        window.showToast('ℹ️ Pressione novamente', 'Toque em Voltar mais uma vez para sair do aplicativo.');
+        return true;
+    }
+};
+
+// Integração com Capacitor App Plugin no Android
+if (window.Capacitor && window.Capacitor.Plugins && window.Capacitor.Plugins.App) {
+    window.Capacitor.Plugins.App.addListener('backButton', () => {
+        window.handleAppBackButton();
+    });
+}
+
+// Suporte para Navegação por Histórico no Browser / PWA
+window.addEventListener('popstate', () => {
+    window.handleAppBackButton();
 });
