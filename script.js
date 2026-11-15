@@ -110,9 +110,95 @@ window.closeSidebar = function() {
     if (dockBtnSongs) dockBtnSongs.classList.remove('active');
 };
 
+/* Modo Foco / Palco: Tela cheia para a cifra/letra */
+window.toggleFocusMode = function(forceState) {
+    const container = document.getElementById('main-app-container');
+    if (!container) return;
+
+    const isFocus = typeof forceState === 'boolean' 
+        ? forceState 
+        : !container.classList.contains('focus-mode');
+
+    container.classList.toggle('focus-mode', isFocus);
+
+    if (isFocus) {
+        container.classList.remove('sidebar-left-collapsed', 'sidebar-right-collapsed');
+    }
+
+    const btn = document.getElementById('btn-toggle-focus');
+    if (btn) {
+        btn.innerHTML = isFocus ? '🗗 Painéis' : '⛶ Expandir';
+        btn.classList.toggle('active', isFocus);
+        btn.title = isFocus ? 'Restaurar painéis laterais' : 'Expandir cifra na tela inteira (Modo Palco)';
+    }
+
+    setTimeout(() => {
+        if (typeof window.triggerResponsiveAutoFit === 'function') {
+            window.triggerResponsiveAutoFit();
+        }
+    }, 150);
+};
+
+/* Recolhimento individual da barra de repertório */
+window.toggleLeftSidebar = function(forceOpen) {
+    const container = document.getElementById('main-app-container');
+    if (!container) return;
+
+    if (window.innerWidth <= 960) {
+        window.toggleSidebar();
+        return;
+    }
+
+    if (container.classList.contains('focus-mode')) {
+        window.toggleFocusMode(false);
+        return;
+    }
+
+    const isCollapsed = container.classList.contains('sidebar-left-collapsed');
+    const shouldCollapse = typeof forceOpen === 'boolean' ? !forceOpen : !isCollapsed;
+
+    container.classList.toggle('sidebar-left-collapsed', shouldCollapse);
+
+    setTimeout(() => {
+        if (typeof window.triggerResponsiveAutoFit === 'function') {
+            window.triggerResponsiveAutoFit();
+        }
+    }, 150);
+};
+
+/* Recolhimento individual da barra de setlist */
+window.toggleRightSidebar = function(forceOpen) {
+    const container = document.getElementById('main-app-container');
+    if (!container) return;
+
+    if (window.innerWidth <= 960) {
+        if (typeof window.toggleMobileSetlist === 'function') {
+            window.toggleMobileSetlist();
+        }
+        return;
+    }
+
+    if (container.classList.contains('focus-mode')) {
+        window.toggleFocusMode(false);
+        return;
+    }
+
+    const isCollapsed = container.classList.contains('sidebar-right-collapsed');
+    const shouldCollapse = typeof forceOpen === 'boolean' ? !forceOpen : !isCollapsed;
+
+    container.classList.toggle('sidebar-right-collapsed', shouldCollapse);
+
+    setTimeout(() => {
+        if (typeof window.triggerResponsiveAutoFit === 'function') {
+            window.triggerResponsiveAutoFit();
+        }
+    }, 150);
+};
+
 window.openAdminPanelDirectly = function() {
     hideAll();
     closeSidebar();
+    document.getElementById('main-app-container')?.classList.add('admin-active');
     document.getElementById('admin-panel').style.display = 'block';
     if (typeof window.pushNavigationState === 'function') window.pushNavigationState('admin');
 };
@@ -121,6 +207,7 @@ window.openAdminForCreation = function() {
     editingSongId = null;
     hideAll();
     closeSidebar();
+    document.getElementById('main-app-container')?.classList.add('admin-active');
     document.getElementById('admin-panel').style.display = 'block';
     if (typeof window.pushNavigationState === 'function') window.pushNavigationState('admin');
     document.getElementById('upload-form').reset();
@@ -1013,7 +1100,8 @@ window.autoFitTwoColumns = function() {
     }
 
     // Dynamic column gap based on tablet/mobile viewport width
-    const gap = window.innerWidth <= 768 ? 20 : (window.innerWidth <= 1024 ? 30 : 40);
+    const isTablet = window.innerWidth >= 768 && window.innerWidth <= 1280;
+    const gap = isTablet ? 24 : (window.innerWidth <= 768 ? 20 : 36);
     const colWidth = (pre.clientWidth - gap) / 2;
     if (colWidth <= 80) return;
 
@@ -1031,15 +1119,15 @@ window.autoFitTwoColumns = function() {
     if (maxLen === 0) return;
 
     // JetBrains Mono monospace character width ≈ fontSizeInRem * 9.6px
-    // 4% safe margin to prevent any line breaks
-    const safeColWidth = colWidth * 0.96;
+    // 5% safe margin to prevent any line breaks
+    const safeColWidth = colWidth * 0.95;
     const targetSize = safeColWidth / (maxLen * 9.6);
 
     const isLandscape = window.innerWidth > window.innerHeight;
     const isTabletOrDesktop = window.innerWidth >= 768;
 
-    const minFont = 0.62;
-    const maxFont = (isTabletOrDesktop && isLandscape) ? 1.28 : (isTabletOrDesktop ? 1.05 : 0.88);
+    const minFont = 0.60;
+    const maxFont = (isTabletOrDesktop && isLandscape) ? 1.32 : (isTabletOrDesktop ? 1.10 : 0.90);
 
     let optimal = Math.max(minFont, Math.min(maxFont, Math.round(targetSize * 100) / 100));
 
@@ -1053,8 +1141,16 @@ window.autoFitTwoColumns = function() {
         }
     }
 
-    currentFontSize = optimal;
-    pre.style.fontSize = `${currentFontSize}rem`;
+    pre.style.fontSize = `${optimal}rem`;
+
+    // Loop de salvaguarda: se qualquer linha ainda ultrapassar a coluna, diminui gradualmente
+    let testSize = optimal;
+    while (pre.scrollWidth > pre.clientWidth + 2 && testSize > 0.55) {
+        testSize -= 0.02;
+        pre.style.fontSize = `${testSize.toFixed(2)}rem`;
+    }
+
+    currentFontSize = parseFloat(pre.style.fontSize) || optimal;
 };
 
 // Responsive Rotation & Resize Engine with settlement debouncing
@@ -1371,6 +1467,7 @@ function hideAll() {
     document.getElementById('welcome-view').style.display = 'none';
     document.getElementById('song-view').style.display = 'none';
     document.getElementById('admin-panel').style.display = 'none';
+    document.getElementById('main-app-container')?.classList.remove('admin-active');
     const widget = document.getElementById('culto-notes-widget');
     if (widget) widget.style.display = 'none';
 }
@@ -1449,6 +1546,7 @@ document.getElementById('login-form').addEventListener('submit', async (e) => {
     try {
         await signInWithEmailAndPassword(auth, email, pass);
         hideAll();
+        document.getElementById('main-app-container')?.classList.add('admin-active');
         document.getElementById('admin-panel').style.display = 'block';
     } catch (error) {
         errDiv.textContent = "Falha na autenticação.";
@@ -2591,6 +2689,13 @@ window.handleAppBackButton = function() {
     const sidebar = document.getElementById('sidebar');
     if (sidebar && sidebar.classList.contains('open')) {
         closeSidebar();
+        return true;
+    }
+
+    // 8.5 Modo foco no tablet/desktop: botão voltar primeiro restaura os painéis
+    const mainContainer = document.getElementById('main-app-container');
+    if (mainContainer && mainContainer.classList.contains('focus-mode')) {
+        window.toggleFocusMode(false);
         return true;
     }
 
