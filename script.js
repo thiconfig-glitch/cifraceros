@@ -110,20 +110,14 @@ window.closeSidebar = function() {
     if (dockBtnSongs) dockBtnSongs.classList.remove('active');
 };
 
-/* Modo Foco / Palco: Tela cheia para a cifra/letra */
+/* Modo Foco / Palco: Tela cheia para a cifra/letra no tablet */
 window.toggleFocusMode = function(forceState) {
-    const container = document.getElementById('main-app-container');
-    if (!container) return;
-
     const isFocus = typeof forceState === 'boolean' 
         ? forceState 
-        : !container.classList.contains('focus-mode');
+        : !document.body.classList.contains('focus-mode');
 
-    container.classList.toggle('focus-mode', isFocus);
-
-    if (isFocus) {
-        container.classList.remove('sidebar-left-collapsed', 'sidebar-right-collapsed');
-    }
+    document.body.classList.toggle('focus-mode', isFocus);
+    document.getElementById('main-app-container')?.classList.toggle('focus-mode', isFocus);
 
     const btn = document.getElementById('btn-toggle-focus');
     if (btn) {
@@ -198,6 +192,7 @@ window.toggleRightSidebar = function(forceOpen) {
 window.openAdminPanelDirectly = function() {
     hideAll();
     closeSidebar();
+    document.body.classList.add('admin-active');
     document.getElementById('main-app-container')?.classList.add('admin-active');
     document.getElementById('admin-panel').style.display = 'block';
     if (typeof window.pushNavigationState === 'function') window.pushNavigationState('admin');
@@ -207,6 +202,7 @@ window.openAdminForCreation = function() {
     editingSongId = null;
     hideAll();
     closeSidebar();
+    document.body.classList.add('admin-active');
     document.getElementById('main-app-container')?.classList.add('admin-active');
     document.getElementById('admin-panel').style.display = 'block';
     if (typeof window.pushNavigationState === 'function') window.pushNavigationState('admin');
@@ -1452,6 +1448,7 @@ window.closeSong = function() {
 
 window.closeAdmin = function() {
     editingSongId = null;
+    document.body.classList.remove('admin-active');
     hideAll();
     stopAutoScroll();
     document.getElementById('welcome-view').style.display = 'flex';
@@ -1467,6 +1464,7 @@ function hideAll() {
     document.getElementById('welcome-view').style.display = 'none';
     document.getElementById('song-view').style.display = 'none';
     document.getElementById('admin-panel').style.display = 'none';
+    document.body.classList.remove('admin-active');
     document.getElementById('main-app-container')?.classList.remove('admin-active');
     const widget = document.getElementById('culto-notes-widget');
     if (widget) widget.style.display = 'none';
@@ -2554,6 +2552,36 @@ if (isNativePlatform) {
         });
     });
 }
+
+// Detecção precisa de Tablet (ex: Galaxy Tab S6 Lite) para aplicar layout ergonômico
+// NUNCA afeta o computador/desktop com mouse!
+window.checkAndApplyDeviceMode = function() {
+    const isNative = !!(window.Capacitor && typeof window.Capacitor.isNativePlatform === 'function' && window.Capacitor.isNativePlatform());
+    const isTouch = window.matchMedia && window.matchMedia('(hover: none) and (pointer: coarse)').matches;
+    const isAndroid = /android/i.test(navigator.userAgent);
+    const minDim = Math.min(window.innerWidth, window.innerHeight);
+    const maxDim = Math.max(window.innerWidth, window.innerHeight);
+
+    // Tablet: tela de pelo menos 600px de menor dimensão e 960px de maior dimensão
+    const isTabletDims = minDim >= 600 && maxDim >= 960;
+
+    // Desktop com mouse puro (nunca é tablet)
+    const isDesktopMouse = window.matchMedia && window.matchMedia('(hover: hover) and (pointer: fine)').matches && !isNative;
+
+    const isTablet = (isNative || isTouch || isAndroid) && isTabletDims && !isDesktopMouse;
+
+    if (isTablet) {
+        document.body.classList.add('is-tablet-device');
+    } else {
+        document.body.classList.remove('is-tablet-device');
+    }
+};
+
+window.checkAndApplyDeviceMode();
+window.addEventListener('resize', window.checkAndApplyDeviceMode);
+window.addEventListener('orientationchange', () => {
+    setTimeout(window.checkAndApplyDeviceMode, 150);
+});
 
 // ==========================================
 // RASTREAMENTO DE SINCRONIA E STATUS OFFLINE
