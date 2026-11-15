@@ -155,14 +155,16 @@ body {
 .mobile-top-bar {
     display: none;
     width: 100%;
-    background-color: rgba(11, 15, 25, 0.8);
+    background-color: rgba(11, 15, 25, 0.95);
     backdrop-filter: var(--glass-blur);
     -webkit-backdrop-filter: var(--glass-blur);
     padding: max(16px, env(safe-area-inset-top, 16px)) max(20px, env(safe-area-inset-right, 20px)) 16px max(20px, env(safe-area-inset-left, 20px));
     align-items: center;
     border-bottom: 1px solid var(--surface-border);
     box-sizing: border-box;
-    z-index: 90;
+    z-index: 100;
+    position: sticky;
+    top: 0;
     box-shadow: 0 4px 20px rgba(0,0,0,0.3);
 }
 

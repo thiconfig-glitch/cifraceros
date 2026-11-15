@@ -845,6 +845,16 @@ function formatCifraText(text) {
 window.toggleColumns = function() {
     const svContent = document.getElementById('sv-content');
     const isCurrently2Col = svContent ? svContent.classList.contains('two-columns') : false;
+    const isNarrowPortrait = window.innerWidth < 680 && window.innerHeight > window.innerWidth;
+
+    // Se o usuário estiver no celular na vertical (em pé), orientar que 2 colunas é ideal para tablet ou celular deitado
+    if (!isCurrently2Col && isNarrowPortrait && window.appMode !== 'letras') {
+        if (typeof window.showToast === 'function') {
+            window.showToast('📖 Modo 2 Colunas', 'Ideal para Tablet ou celular deitado (horizontal). Vire a tela na horizontal para aproveitar!');
+        }
+        return;
+    }
+
     const newCols = isCurrently2Col ? '1' : '2';
     const modeKey = window.appMode || 'cifras';
     localStorage.setItem(`cifraceros_columns_${modeKey}`, newCols);
@@ -870,7 +880,10 @@ window.applyColumnsState = function() {
     
     const modeKey = window.appMode || 'cifras';
     const savedCols = localStorage.getItem(`cifraceros_columns_${modeKey}`) || (modeKey === 'letras' ? localStorage.getItem('cifraceros_letras_columns') : '1') || '1';
-    const is2Col = savedCols === '2';
+    const isNarrowPortrait = window.innerWidth < 680 && window.innerHeight > window.innerWidth;
+    
+    // No celular em pé estreito (<680px), forçar 1 coluna em cifras para evitar sobreposição de texto
+    const is2Col = savedCols === '2' && (!isNarrowPortrait || window.appMode === 'letras');
     
     if (svContent) {
         svContent.classList.toggle('two-columns', is2Col);
@@ -879,7 +892,7 @@ window.applyColumnsState = function() {
     if (btnToggle) {
         btnToggle.classList.toggle('active', is2Col);
         btnToggle.innerHTML = is2Col ? '📖 2 Colunas' : '📄 1 Coluna';
-        btnToggle.title = is2Col ? 'Alternar para 1 coluna' : 'Dividir em 2 colunas';
+        btnToggle.title = is2Col ? 'Alternar para 1 coluna' : (isNarrowPortrait ? 'Modo 2 colunas recomendado com o celular deitado' : 'Dividir em 2 colunas');
     }
 };
 
@@ -1000,6 +1013,7 @@ window.triggerResponsiveAutoFit = function() {
     resizeFitTimer = setTimeout(() => {
         const songView = document.getElementById('song-view');
         if (songView && songView.style.display !== 'none') {
+            window.applyColumnsState();
             const pre = document.getElementById('sv-content');
             if (pre) {
                 if (pre.classList.contains('two-columns')) {
