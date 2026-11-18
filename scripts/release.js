@@ -48,7 +48,7 @@ function main() {
   for (const [file, contents] of versionedFiles) write(file, contents.replaceAll(apkVersion[1], nextVersion));
 
   run('cmd.exe', ['/c', 'npm.cmd', 'run', 'cap:sync']);
-  run('cmd.exe', ['/c', 'gradlew.bat', 'assembleDebug'], { cwd: path.join(root, 'android') });
+  run('cmd.exe', ['/c', 'gradlew.bat', 'clean', 'assembleDebug'], { cwd: path.join(root, 'android') });
 
   const apk = path.join(root, 'android', 'app', 'build', 'outputs', 'apk', 'debug', 'app-debug.apk');
   if (!fs.existsSync(apk)) throw new Error('Build terminou sem gerar o APK esperado.');

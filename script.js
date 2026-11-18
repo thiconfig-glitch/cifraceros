@@ -28,6 +28,12 @@ let unsubCifras = null;
 let unsubLetras = null;
 
 let localPlaylists = new Set();
+let cloudPlaylists = new Set();
+let unsubPlaylists = null;
+let expandedPlaylist = null;
+let setlistIds = [];
+let unsubSetlist = null;
+let isUpdatingSetlistLocally = false;
 window.appMode = null;
 window.letrasRole = null;
 let unsubChat = null;
@@ -60,7 +66,10 @@ const fuseOptions = {
 onAuthStateChanged(auth, (user) => {
     isAdmin = !!user;
     updateAdminUI();
+    renderPlaylistChips();
     filterAndRender();
+    if (typeof window.renderSongViewPlaylists === 'function') window.renderSongViewPlaylists();
+    if (typeof window.renderMobilePlaylists === 'function') window.renderMobilePlaylists();
 });
 
 function updateAdminUI() {
@@ -277,7 +286,7 @@ function startListeningToSongs(mode) {
             return { id: d.id, ...data, playlists: pList };
         });
         
-        newData.sort((a, b) => a.title.localeCompare(b.title));
+        newData.sort((a, b) => (a.title || '').localeCompare(b.title || ''));
 
         const now = new Date();
         const formattedDate = now.toLocaleDateString('pt-BR', { day: '2-digit', month: '2-digit' });
@@ -335,9 +344,70 @@ function startListeningToSongs(mode) {
     else unsubLetras = listener;
 }
 
-function updateDataAndRender() {
+function rebuildLocalPlaylists() {
     localPlaylists.clear();
-    songsData.forEach(s => s.playlists.forEach(p => localPlaylists.add(p)));
+    cloudPlaylists.forEach(p => {
+        if (typeof p === 'string' && p.trim()) localPlaylists.add(p.trim());
+    });
+    songsData.forEach(s => {
+        if (Array.isArray(s.playlists)) {
+            s.playlists.forEach(p => {
+                if (typeof p === 'string' && p.trim()) localPlaylists.add(p.trim());
+            });
+        }
+    });
+    if (selectedPlaylistFilter !== 'all' && !localPlaylists.has(selectedPlaylistFilter)) {
+        selectedPlaylistFilter = 'all';
+    }
+    if (expandedPlaylist && !localPlaylists.has(expandedPlaylist)) {
+        expandedPlaylist = null;
+    }
+}
+
+function startListeningToPlaylists(mode) {
+    if (unsubPlaylists) {
+        unsubPlaylists();
+        unsubPlaylists = null;
+    }
+    if (!mode) return;
+
+    unsubPlaylists = onSnapshot(doc(db, "app_state", `playlists_${mode}`), (docSnap) => {
+        cloudPlaylists.clear();
+        if (docSnap.exists()) {
+            const names = docSnap.data().names;
+            if (Array.isArray(names)) {
+                names.forEach(n => {
+                    if (typeof n === 'string' && n.trim()) cloudPlaylists.add(n.trim());
+                });
+            }
+        }
+        rebuildLocalPlaylists();
+        renderPlaylistChips();
+        if (isDataLoaded) filterAndRender();
+        if (typeof window.renderSongViewPlaylists === 'function') window.renderSongViewPlaylists();
+        if (typeof window.renderMobilePlaylists === 'function') window.renderMobilePlaylists();
+    }, (error) => {
+        console.error("Erro ao escutar playlists na nuvem:", error);
+    });
+}
+
+async function saveCloudPlaylists(namesIterable = localPlaylists) {
+    if (!window.appMode) return;
+    const uniqueSorted = Array.from(new Set(
+        Array.from(namesIterable)
+            .filter(p => typeof p === 'string' && p.trim())
+            .map(p => p.trim())
+    )).sort((a, b) => a.localeCompare(b, 'pt-BR'));
+
+    cloudPlaylists = new Set(uniqueSorted);
+    await setDoc(doc(db, "app_state", `playlists_${window.appMode}`), {
+        names: uniqueSorted,
+        updatedAt: serverTimestamp()
+    }, { merge: true });
+}
+
+function updateDataAndRender() {
+    rebuildLocalPlaylists();
     
     if (isInitialLoad) {
         isInitialLoad = false;
@@ -383,13 +453,19 @@ window.confirmLetrasRole = function(role) {
 };
 
 function finalizeAppModeSelection(mode) {
+    const previousMode = window.appMode;
     window.appMode = mode;
-    try {
-        localStorage.setItem('cifraceros_saved_app_mode', mode);
-        if (mode === 'letras' && window.letrasRole) {
-            localStorage.setItem('cifraceros_saved_letras_role', window.letrasRole);
-        }
-    } catch (e) {}
+
+    if (previousMode && previousMode !== mode) {
+        selectedPlaylistFilter = 'all';
+        expandedPlaylist = null;
+        cloudPlaylists.clear();
+        isDataLoaded = false;
+        currentActiveSongId = null;
+        stopAutoScroll();
+        hideAll();
+        document.getElementById('welcome-view').style.display = 'flex';
+    }
 
     document.getElementById('mode-selection-overlay').style.display = 'none';
     document.getElementById('main-app-container').style.display = 'flex';
@@ -482,6 +558,7 @@ function finalizeAppModeSelection(mode) {
         }
     }
     startListeningToSetlist(mode);
+    startListeningToPlaylists(mode);
     startListeningToSongs(mode);
 }
 
@@ -491,23 +568,9 @@ window.openModeSelectionModal = function() {
     document.getElementById('mode-selection-overlay').style.display = 'flex';
 };
 
-// Auto-restauração silenciosa do último modo utilizado pelo músico (elimina popup repetitivo a cada abertura)
-try {
-    const savedAppMode = localStorage.getItem('cifraceros_saved_app_mode');
-    if (savedAppMode === 'cifras' || savedAppMode === 'letras') {
-        if (savedAppMode === 'letras') {
-            window.letrasRole = localStorage.getItem('cifraceros_saved_letras_role') || 'bolha';
-        }
-        if (document.readyState === 'loading') {
-            document.addEventListener('DOMContentLoaded', () => finalizeAppModeSelection(savedAppMode));
-        } else {
-            finalizeAppModeSelection(savedAppMode);
-        }
-    }
-} catch (e) {}
-
 function renderPlaylistChips() {
     const container = document.getElementById('playlist-chips-container');
+    if (!container) return;
     container.innerHTML = '';
     
     const btnTodas = document.createElement('button');
@@ -520,7 +583,7 @@ function renderPlaylistChips() {
     };
     container.appendChild(btnTodas);
     
-    Array.from(localPlaylists).sort().forEach(p => {
+    Array.from(localPlaylists).sort((a, b) => a.localeCompare(b, 'pt-BR')).forEach(p => {
         const btn = document.createElement('button');
         btn.className = `chip ${selectedPlaylistFilter === p ? 'active' : ''}`;
         btn.textContent = p;
@@ -532,7 +595,7 @@ function renderPlaylistChips() {
         container.appendChild(btn);
     });
 
-    if (localPlaylists.size > 0 && typeof window.toggleMobilePlaylists === 'function') {
+    if ((localPlaylists.size > 0 || isAdmin) && typeof window.toggleMobilePlaylists === 'function') {
         const btnDrawer = document.createElement('button');
         btnDrawer.type = 'button';
         btnDrawer.className = 'chip chip-playlists-drawer-btn';
@@ -542,18 +605,114 @@ function renderPlaylistChips() {
         btnDrawer.onclick = () => window.toggleMobilePlaylists(true);
         container.appendChild(btnDrawer);
     }
+
+    const actionsBar = document.getElementById('selected-playlist-actions');
+    if (actionsBar) {
+        if (isAdmin && selectedPlaylistFilter !== 'all' && localPlaylists.has(selectedPlaylistFilter)) {
+            const currentPlaylist = selectedPlaylistFilter;
+            actionsBar.innerHTML = '';
+
+            const label = document.createElement('span');
+            label.className = 'selected-playlist-label';
+            label.textContent = `📁 ${currentPlaylist}`;
+            label.title = currentPlaylist;
+
+            const btns = document.createElement('div');
+            btns.className = 'selected-playlist-btns';
+
+            const renameBtn = document.createElement('button');
+            renameBtn.type = 'button';
+            renameBtn.className = 'selected-playlist-btn btn-rename';
+            renameBtn.textContent = '✏️ Renomear';
+            renameBtn.onclick = () => window.renamePlaylist(currentPlaylist);
+
+            const deleteBtn = document.createElement('button');
+            deleteBtn.type = 'button';
+            deleteBtn.className = 'selected-playlist-btn btn-delete';
+            deleteBtn.textContent = '🗑️';
+            deleteBtn.title = `Apagar playlist "${currentPlaylist}"`;
+            deleteBtn.onclick = () => window.deletePlaylist(currentPlaylist);
+
+            btns.appendChild(renameBtn);
+            btns.appendChild(deleteBtn);
+            actionsBar.appendChild(label);
+            actionsBar.appendChild(btns);
+            actionsBar.style.display = 'flex';
+        } else {
+            actionsBar.style.display = 'none';
+            actionsBar.innerHTML = '';
+        }
+    }
 }
 
-window.createNewPlaylistGroup = function() {
-    const input = document.getElementById('new-playlist-name');
-    const name = input.value.trim();
-    if(name === '') return;
-    
-    localPlaylists.add(name);
+async function createPlaylistByName(rawName) {
+    if (!isAdmin) {
+        window.showToast('🔒 Permissão Necessária', 'Faça login como Administrador para criar novas listas.');
+        if (confirm('A criação de listas no repertório exige acesso de Administrador.\n\nDeseja abrir o Login de Administrador agora?')) {
+            if (typeof window.toggleMobilePlaylists === 'function') window.toggleMobilePlaylists(false);
+            window.openAdminPanelDirectly();
+        }
+        return false;
+    }
+
+    const cleanName = (rawName || '').trim();
+    if (!cleanName) return false;
+
+    const normNew = removeAccents(cleanName);
+    const alreadyExists = Array.from(localPlaylists).some(p => removeAccents(p) === normNew);
+    if (alreadyExists) {
+        window.showToast('⚠️ Playlists', `Já existe uma playlist chamada "${cleanName}".`);
+        return false;
+    }
+
+    const previousLocal = new Set(localPlaylists);
+    const previousCloud = new Set(cloudPlaylists);
+
+    localPlaylists.add(cleanName);
+    cloudPlaylists.add(cleanName);
     renderPlaylistChips();
-    filterAndRender(); 
-    input.value = '';
+    filterAndRender();
+    if (typeof window.renderSongViewPlaylists === 'function') window.renderSongViewPlaylists();
+    if (typeof window.renderMobilePlaylists === 'function') window.renderMobilePlaylists();
+
+    try {
+        await saveCloudPlaylists(localPlaylists);
+        window.showToast('📁 Playlists', `Playlist "${cleanName}" criada e salva!`);
+        return true;
+    } catch (err) {
+        console.error("Erro ao salvar nova playlist:", err);
+        localPlaylists = previousLocal;
+        cloudPlaylists = previousCloud;
+        renderPlaylistChips();
+        filterAndRender();
+        if (typeof window.renderSongViewPlaylists === 'function') window.renderSongViewPlaylists();
+        if (typeof window.renderMobilePlaylists === 'function') window.renderMobilePlaylists();
+        window.showToast('Erro', 'Não foi possível salvar a playlist no banco.');
+        return false;
+    }
+}
+
+window.createNewPlaylistGroup = async function() {
+    const input = document.getElementById('new-playlist-name');
+    if (!input) return;
+    const name = input.value.trim();
+    if (name === '') return;
+
+    const created = await createPlaylistByName(name);
+    if (created) {
+        input.value = '';
+    }
 };
+
+const newPlaylistInput = document.getElementById('new-playlist-name');
+if (newPlaylistInput) {
+    newPlaylistInput.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') {
+            e.preventDefault();
+            window.createNewPlaylistGroup();
+        }
+    });
+}
 
 // Search Debouncing
 let searchTimeout = null;
@@ -759,7 +918,7 @@ function renderResults(songs) {
             if(localPlaylists.size > 0) {
                 dropdown.appendChild(document.createElement('div')).className = 'dropdown-divider';
                 
-                localPlaylists.forEach(p => {
+                Array.from(localPlaylists).sort((a, b) => a.localeCompare(b, 'pt-BR')).forEach(p => {
                     const hasPlaylist = song.playlists.includes(p);
                     const pBtn = document.createElement('button');
                     pBtn.textContent = hasPlaylist ? `✓ Remover de: ${p}` : `+ Adicionar a: ${p}`;
@@ -852,8 +1011,9 @@ window.toggleSongPlaylistAssignment = async function(songId, playlistName) {
     const song = songsData.find(s => s.id === songId);
     if (!song) return;
 
+    const alreadyInPlaylist = song.playlists.includes(playlistName);
     let updatedPlaylists = [...song.playlists];
-    if (updatedPlaylists.includes(playlistName)) {
+    if (alreadyInPlaylist) {
         updatedPlaylists = updatedPlaylists.filter(p => p !== playlistName);
     } else {
         updatedPlaylists.push(playlistName);
@@ -862,6 +1022,19 @@ window.toggleSongPlaylistAssignment = async function(songId, playlistName) {
     try {
         const collectionName = window.appMode === 'letras' ? "repertorio_letras" : "repertorio";
         await updateDoc(doc(db, collectionName, song.id), { playlists: updatedPlaylists });
+        song.playlists = updatedPlaylists;
+        if (!alreadyInPlaylist && !cloudPlaylists.has(playlistName)) {
+            localPlaylists.add(playlistName);
+            await saveCloudPlaylists(localPlaylists);
+        }
+        renderSongViewPlaylists();
+        if (typeof window.renderMobilePlaylists === 'function') window.renderMobilePlaylists();
+        window.showToast(
+            '📁 Playlists',
+            alreadyInPlaylist
+                ? `Removida da playlist "${playlistName}".`
+                : `Adicionada à playlist "${playlistName}"!`
+        );
     } catch (err) {
         console.error("Erro ao atualizar playlists da música:", err);
         window.showToast('Erro', 'Não foi possível salvar alteração no banco.');
@@ -893,7 +1066,7 @@ window.renderSongViewPlaylists = function() {
     bar.style.display = 'flex';
     container.innerHTML = '';
 
-    Array.from(localPlaylists).sort().forEach(p => {
+    Array.from(localPlaylists).sort((a, b) => a.localeCompare(b, 'pt-BR')).forEach(p => {
         const btn = document.createElement('button');
         const hasPlaylist = song.playlists.includes(p);
         
@@ -1599,13 +1772,7 @@ document.getElementById('upload-form').addEventListener('submit', async (e) => {
     }
 });
 
-startListeningToSongs();
-
 // --- Setlist Logic (Refactored for Cloud Sync) ---
-let setlistIds = [];
-let unsubSetlist = null;
-let isUpdatingSetlistLocally = false;
-
 function startListeningToSetlist(mode) {
     if (unsubSetlist) {
         unsubSetlist();
@@ -1712,7 +1879,6 @@ window.toggleCurrentSongInSetlist = function() {
 // ==========================================
 // GAVETA DE LISTAS / PLAYLISTS MOBILE
 // ==========================================
-let expandedPlaylist = null;
 
 window.toggleMobilePlaylists = function(forceState) {
     const overlay = document.getElementById('mobile-playlists-overlay');
@@ -1774,7 +1940,7 @@ window.renderMobilePlaylists = function() {
         return;
     }
 
-    const sortedPlaylists = Array.from(localPlaylists).sort();
+    const sortedPlaylists = Array.from(localPlaylists).sort((a, b) => a.localeCompare(b, 'pt-BR'));
     sortedPlaylists.forEach(playlistName => {
         const songsInList = songsData.filter(s => s.playlists && s.playlists.includes(playlistName));
         const isExpanded = expandedPlaylist === playlistName;
@@ -1788,7 +1954,7 @@ window.renderMobilePlaylists = function() {
         const safePName = escapeHTML(playlistName);
         
         header.innerHTML = `
-            <div class="playlist-title-group" onclick="window.togglePlaylistExpansion('${safePName}')" style="cursor: pointer; flex-grow: 1;">
+            <div class="playlist-title-group" style="cursor: pointer; flex-grow: 1;">
                 <span style="font-size: 1.3rem;">${isExpanded ? '📂' : '📁'}</span>
                 <div>
                     <strong>${safePName}</strong>
@@ -1797,12 +1963,28 @@ window.renderMobilePlaylists = function() {
             </div>
             <div class="playlist-actions-group">
                 <span class="playlist-badge-count" style="margin-right: 4px;">${songsInList.length}</span>
-                <button type="button" class="playlist-action-btn playlist-toggle-btn" onclick="window.togglePlaylistExpansion('${safePName}')" title="${isExpanded ? 'Recolher' : 'Ver músicas'}">
+                <button type="button" class="playlist-action-btn playlist-toggle-btn" title="${isExpanded ? 'Recolher' : 'Ver músicas'}">
                     ${isExpanded ? '▲' : '▼'}
                 </button>
-                <button type="button" class="playlist-action-btn btn-delete" onclick="event.stopPropagation(); window.deletePlaylist('${safePName}')" title="Apagar esta lista">🗑️</button>
+                <button type="button" class="playlist-action-btn btn-rename" title="Renomear esta lista">✏️</button>
+                <button type="button" class="playlist-action-btn btn-delete" title="Apagar esta lista">🗑️</button>
             </div>
         `;
+
+        header.querySelector('.playlist-title-group').onclick = () => window.togglePlaylistExpansion(playlistName);
+        header.querySelector('.playlist-toggle-btn').onclick = (e) => {
+            e.stopPropagation();
+            window.togglePlaylistExpansion(playlistName);
+        };
+        header.querySelector('.btn-rename').onclick = (e) => {
+            e.stopPropagation();
+            window.renamePlaylist(playlistName);
+        };
+        header.querySelector('.btn-delete').onclick = (e) => {
+            e.stopPropagation();
+            window.deletePlaylist(playlistName);
+        };
+
         card.appendChild(header);
 
         if (isExpanded) {
@@ -1931,11 +2113,83 @@ window.promptCreatePlaylistMobile = async function() {
 
     const name = prompt("Digite o nome da nova lista:");
     if (!name || !name.trim()) return;
-    const cleanName = name.trim();
-    localPlaylists.add(cleanName);
-    renderPlaylistChips();
-    renderMobilePlaylists();
-    window.showToast('📁 Listas', `Lista "${cleanName}" criada! Adicione músicas a ela.`);
+    await createPlaylistByName(name);
+};
+
+async function commitSongsPlaylistUpdates(collectionName, updates) {
+    const BATCH_LIMIT = 450;
+    for (let i = 0; i < updates.length; i += BATCH_LIMIT) {
+        const chunk = updates.slice(i, i + BATCH_LIMIT);
+        const batch = writeBatch(db);
+        chunk.forEach(({ songId, playlists }) => {
+            batch.update(doc(db, collectionName, songId), { playlists });
+        });
+        await batch.commit();
+    }
+}
+
+window.renamePlaylist = async function(oldName) {
+    if (!isAdmin) {
+        window.showToast('🔒 Permissão Necessária', 'Faça login como Administrador para renomear playlists.');
+        if (confirm('Renomear listas do repertório exige acesso de Administrador.\n\nDeseja abrir a tela de Login agora?')) {
+            window.toggleMobilePlaylists(false);
+            window.openAdminPanelDirectly();
+        }
+        return;
+    }
+
+    const rawNewName = prompt(`Digite o novo nome para a playlist "${oldName}":`, oldName);
+    if (rawNewName === null) return;
+    const newName = rawNewName.trim();
+    if (!newName || newName === oldName) return;
+
+    const normOld = removeAccents(oldName);
+    const normNew = removeAccents(newName);
+    const hasConflict = Array.from(localPlaylists).some(
+        p => p !== oldName && removeAccents(p) === normNew && normNew !== normOld
+    ) || Array.from(localPlaylists).some(
+        p => p !== oldName && p === newName
+    );
+    if (hasConflict) {
+        window.showToast('⚠️ Playlists', `Já existe uma playlist chamada "${newName}".`);
+        return;
+    }
+
+    try {
+        const affectedSongs = songsData.filter(s => s.playlists && s.playlists.includes(oldName));
+        const collectionName = window.appMode === 'letras' ? "repertorio_letras" : "repertorio";
+
+        if (affectedSongs.length > 0) {
+            const updates = affectedSongs.map(s => {
+                const renamed = Array.from(new Set(
+                    s.playlists.map(p => (p === oldName ? newName : p))
+                ));
+                return { songId: s.id, playlists: renamed };
+            });
+            await commitSongsPlaylistUpdates(collectionName, updates);
+            affectedSongs.forEach((s, idx) => {
+                s.playlists = updates[idx].playlists;
+            });
+        }
+
+        localPlaylists.delete(oldName);
+        localPlaylists.add(newName);
+        cloudPlaylists.delete(oldName);
+        cloudPlaylists.add(newName);
+        await saveCloudPlaylists(localPlaylists);
+
+        if (selectedPlaylistFilter === oldName) selectedPlaylistFilter = newName;
+        if (expandedPlaylist === oldName) expandedPlaylist = newName;
+
+        renderPlaylistChips();
+        filterAndRender();
+        renderMobilePlaylists();
+        window.renderSongViewPlaylists();
+        window.showToast('✏️ Playlists', `Playlist renomeada para "${newName}"!`);
+    } catch (err) {
+        console.error("Erro ao renomear playlist:", err);
+        window.showToast('Erro', 'Não foi possível renomear a playlist: ' + (err.message || 'Erro de banco'));
+    }
 };
 
 window.deletePlaylist = async function(playlistName) {
@@ -1955,15 +2209,20 @@ window.deletePlaylist = async function(playlistName) {
         const collectionName = window.appMode === 'letras' ? "repertorio_letras" : "repertorio";
         
         if (affectedSongs.length > 0) {
-            const batch = writeBatch(db);
-            affectedSongs.forEach(s => {
-                const newPlaylists = s.playlists.filter(p => p !== playlistName);
-                batch.update(doc(db, collectionName, s.id), { playlists: newPlaylists });
+            const updates = affectedSongs.map(s => ({
+                songId: s.id,
+                playlists: s.playlists.filter(p => p !== playlistName)
+            }));
+            await commitSongsPlaylistUpdates(collectionName, updates);
+            affectedSongs.forEach((s, idx) => {
+                s.playlists = updates[idx].playlists;
             });
-            await batch.commit();
         }
 
         localPlaylists.delete(playlistName);
+        cloudPlaylists.delete(playlistName);
+        await saveCloudPlaylists(localPlaylists);
+
         if (selectedPlaylistFilter === playlistName) selectedPlaylistFilter = 'all';
         if (expandedPlaylist === playlistName) expandedPlaylist = null;
         

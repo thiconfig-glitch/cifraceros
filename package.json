@@ -1,6 +1,6 @@
 {
   "name": "cifraceros",
-  "version": "1.19.21",
+  "version": "1.19.22",
   "description": "CifrasCeros - Aplicativo de Cifras e Letras em Tempo Real",
   "main": "index.html",
   "scripts": {
